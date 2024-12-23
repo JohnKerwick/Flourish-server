@@ -24,7 +24,7 @@ import { init } from './socket'
 import { setupSocketEventHandlers } from './socketEvents'
 import { task } from './utils/cron'
 import { challengeTask } from './utils/challenge-cron'
-import { initializeFirebase } from './utils/firebase'
+// import { initializeFirebase } from './utils/firebase'
 import { preferences } from 'joi'
 const axios = require('axios')
 const cheerio = require('cheerio')
@@ -41,7 +41,7 @@ const server = createServer(app)
 init(server)
 // Setup Socket.IO event handlers
 setupSocketEventHandlers()
-initializeFirebase()
+// initializeFirebase()
 const PORT = process.env.PORT || 3000
 const PUBLIC_PATH = path.join(__dirname, 'public')
 connectMongoDB()
