@@ -1,10 +1,7 @@
 // * Libraries
 import { StatusCodes } from 'http-status-codes'
-import { isEmpty, isUndefined, concat, cloneDeep } from 'lodash'
-import speakeasy, { totp } from 'speakeasy'
-import mongoose, { model } from 'mongoose'
-const axios = require('axios')
-import passport from 'passport'
+import { isEmpty } from 'lodash'
+import speakeasy from 'speakeasy'
 import dotenv from 'dotenv'
 
 const admin = require('firebase-admin')
@@ -12,103 +9,21 @@ const admin = require('firebase-admin')
 dotenv.config()
 
 // * Models
-import { User, TOTP, Group, Post, Comment, Badge, Challenge, UserChallengeProgress } from '../models'
+import { User, TOTP } from '../models'
 
 // * Middlewares
 import { asyncMiddleware } from '../middlewares'
 
-// * Services
-import {
-  addGroup,
-  getGroupsPaginated,
-  getGroupDetails,
-  updateGroupDetails,
-  getGroupMembersPaginated,
-  createPost,
-  getUserPostsPaginated,
-  updatePost,
-  getPostDetails,
-  getgroupsPostsPaginated,
-  getallPostsPaginated,
-  getPostLike,
-  getPostdisLike,
-  createComment,
-  updateComment,
-  getAllComments,
-  createExercise,
-  getAllExercises,
-  createBadge,
-  getABadge,
-  getAllBadge,
-  updateBadge,
-  createChallenge,
-  updateChallenge,
-  getAllZealAdminChallenges,
-  getFriendsChallenges,
-  getCommunityChallenges,
-  getUserProgress,
-  getUserExerciseLog,
-  getChallengeHistory,
-  getUserAllCurrentChallenges,
-  getAllFeaturedChallenges,
-  getUserCreatedChallenges,
-  getSpecificCommunityChallenges,
-  getAllPopularChallenges,
-  getChallengeDetails,
-  retrieveUserChallange,
-  getAllExercisesCategory,
-  getChallengeLeaderboard,
-  authenticateGoogleUser,
-  authenticateFacebookUser,
-  signupOAuthUser,
-  signinOAuthUser,
-} from '../services'
-
 // * Utilities
-import {
-  DEALERSHIP_STATUS,
-  DEALERSHIP_STAFF_ROLE,
-  DOC_STATUS,
-  getRoleByValue,
-  getRoleShortName,
-  USER_ROLE,
-  USER_TYPES,
-  AUCTION_STATUS,
-  CAR_STATUS,
-  SYSTEM_STAFF_ROLE,
-  BID_STATUS,
-  getCurrentDayName,
-  getDateForDay,
-  getStartOfDayISO,
-  getDayName,
-  CHALLENGE_STATUS,
-  USER_LEVELS,
-  SYSTEM_USER_ROLE,
-} from '../utils/user'
-import { getLoginLinkByEnv, getSanitizeCompanyName, toObjectId } from '../utils/misc'
-import { stripe } from '../utils/stripe'
+import { getRoleShortName, USER_TYPES, SYSTEM_USER_ROLE } from '../utils/user'
 import Email from '../utils/email'
-import { escapeRegex } from '../utils/misc'
 import { comparePassword, generateOTToken, generatePassword, generateToken, verifyTOTPToken } from '../utils'
-import { sendSMS } from '../utils/smsUtil'
-import { getIO } from '../socket'
-
-const { ObjectId } = mongoose.Types
-
-// const CLIENT_ID = process.env.GOOGLE_CLIENT_ID
-// const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET
-// const REDIRECT_URI = 'http://localhost:3000/api/user/auth/google/callback'
 
 export const CONTROLLER_AUTH = {
-  // ZEAL FITNESS APP APIS
-
   getCode: asyncMiddleware(async (req, res) => {
-    // console.log('INSIDE1')
     const { email } = req.body
 
     const user = await User.findOne({ email })
-
-    // const name = user.firstName
 
     if (user) {
       return res.status(400).json({
@@ -374,40 +289,6 @@ export const CONTROLLER_AUTH = {
     // console.log(`Password updated for ${email}`)
     res.json({ message: 'Password updated successfully' })
   }),
-  //   try {
-  //     const { code } = req.query
-
-  //     console.log('code', code)
-
-  //     // Exchange code for tokens
-  //     const { data } = await axios.post('https://oauth2.googleapis.com/token', {
-  //       client_id: '674934457104-8jbpiopvjbrrba796h7lkl39jnqiv7qt.apps.googleusercontent.com',
-  //       client_secret: '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',
-  //       code,
-  //       redirect_uri: 'YOUR_REDIRECT_URI', // replace with your actual redirect URI
-  //       grant_type: 'authorization_code',
-  //     })
-
-  //     const { access_token } = data
-
-  //     // Fetch user profile using access token
-  //     const { data: profile } = await axios.get('https://www.googleapis.com/oauth2/v1/userinfo', {
-  //       headers: { Authorization: `Bearer ${access_token}` },
-  //     })
-
-  //     console.log('User Profile:', profile)
-
-  //     // Handle user authentication and retrieval using the profile data
-  //     // Example: check if user exists in DB, if not, create a new user
-  //     // Here you would typically interact with your user model to find or create a user
-
-  //     // Redirect to profile or home page after successful login
-  //     res.redirect('/profile')
-  //   } catch (error) {
-  //     console.error('Error during Google login:', error.response ? error.response.data : error.message)
-  //     res.status(500).send('An error occurred during Google login.')
-  //   }
-  // }),
 
   sendNotification: asyncMiddleware(async (req, res) => {
     const { title, body } = req.body
@@ -457,55 +338,5 @@ export const CONTROLLER_AUTH = {
 
     // console.log(`Password updated for ${email}`)
     res.json({ message: 'Password updated successfully' })
-  }),
-
-  OAuth: asyncMiddleware(async (req, res) => {
-    const { auth_type, token_id, userID, access_token, fcmToken } = req.body
-    const ipAddress = req.ip
-    console.log('BODY:', req.body)
-    let userData
-
-    switch (auth_type) {
-      case 'google':
-        userData = await authenticateGoogleUser(token_id)
-        if (isEmpty(userData))
-          return res.status(StatusCodes.BAD_REQUEST).json({ message: 'Error occurred during google OAUTH' })
-
-        break
-
-      case 'facebook':
-        userData = await authenticateFacebookUser(access_token)
-        console.log('FACEBOOK', userData)
-        if (isEmpty(userData))
-          return res.status(StatusCodes.BAD_REQUEST).json({ message: 'Error occurred during facebook OAUTH' })
-
-        break
-
-      default:
-        return res.status(StatusCodes.BAD_REQUEST).json({ auth_type: 'Please provide a valid auth type' })
-        break
-    }
-
-    const { email } = userData
-
-    let userExists = await User.findOne({ email: email }).lean()
-
-    if (isEmpty(userExists)) userExists = await signupOAuthUser(userData, fcmToken)
-
-    if (userExists) {
-      if (userExists.accountType !== 'Google-Account') {
-        return res.status(StatusCodes.FORBIDDEN).json({
-          message: 'Not a Google account try logging it with Zeal fitness account',
-        })
-      } else {
-        await User.findOneAndUpdate({ email: email }, { fcmToken, accountType: 'Google-Account' })
-      }
-      // userExists.fcmToken = fcmToken
-    }
-    const response = await signinOAuthUser(userExists, ipAddress, res)
-
-    if (isEmpty(response)) return res.status(StatusCodes.BAD_REQUEST).json({ message: 'Not able to login via OAuth' })
-    // await USER_SERVICE.setTokenCookie(res, response.refreshToken)
-    res.status(StatusCodes.ACCEPTED).json(response.data)
   }),
 }

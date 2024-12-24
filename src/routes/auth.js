@@ -9,10 +9,8 @@ import { CONTROLLER_AUTH } from '../controllers'
 // import { USER_PERMISSIONS, USER_ROLE } from '../utils/user'
 
 // * Middlewares
-import { validateMiddleware, permitMiddleware, Authenticate } from '../middlewares'
-import { parser } from '../utils/cloudinary'
-import { totpRateLimiter } from '../utils/rateLimiter'
 import { USER_TYPES } from '../utils'
+import { permitMiddleware, Authenticate } from '../middlewares'
 
 const router = Router()
 
@@ -51,7 +49,5 @@ router.put(
   permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_AUTH.changePassword
 )
-
-router.post('/oauth', CONTROLLER_AUTH.OAuth)
 
 export default router

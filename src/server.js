@@ -50,11 +50,11 @@ app.use(express.static(PUBLIC_PATH))
 app.use(logger('dev'))
 app.use(cookieParser())
 app.use(cors(corsConfig))
-app.post(
-  '/api/payment/stripe/webhook',
-  express.raw({ type: 'application/json' }),
-  CONTROLLER_PAYMENT.stripeWebhookSecure
-)
+// app.post(
+//   '/api/payment/stripe/webhook',
+//   express.raw({ type: 'application/json' }),
+//   CONTROLLER_PAYMENT.stripeWebhookSecure
+// )
 app.use(express.json({ limit: '50mb', extended: true }))
 app.use(decodeRoleTokenMiddleware)
 app.use(
