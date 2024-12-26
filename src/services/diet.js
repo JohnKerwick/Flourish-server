@@ -87,7 +87,8 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
     lunch: Math.round(totalCalories * 0.4),
     dinner: Math.round(totalCalories * 0.3),
   }
-  const usedMeals = new Set()
+
+  const usedMealsByLocation = {} // Track used meals per location
   const weeklyPlan = []
 
   for (let dayIndex = 0; dayIndex < 7; dayIndex++) {
@@ -98,22 +99,37 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
     let totalCarbs = 0
 
     for (const mealType of ['breakfast', 'lunch', 'dinner']) {
-      const availableMeals = sortedMealItemsByType[mealType].filter((meal) => !usedMeals.has(meal.mealName))
+      const mealsByLocation = sortedMealItemsByType[mealType].reduce((acc, meal) => {
+        if (!acc[meal.location]) {
+          acc[meal.location] = []
+        }
+        acc[meal.location].push(meal)
+        return acc
+      }, {})
 
-      if (availableMeals.length === 0) {
+      const availableLocations = Object.keys(mealsByLocation)
+      if (availableLocations.length === 0) {
         dayPlan[mealType] = []
         continue
+      }
+
+      // Randomly select a location for the meal type
+      const selectedLocation = availableLocations[Math.floor(Math.random() * availableLocations.length)]
+      const mealsFromSelectedLocation = mealsByLocation[selectedLocation]
+
+      // Initialize usedMeals tracking for the selected location if not present
+      if (!usedMealsByLocation[selectedLocation]) {
+        usedMealsByLocation[selectedLocation] = new Set()
       }
 
       const dailyMeals = []
       let caloriesRemaining = calorieDistribution[mealType]
 
-      while (availableMeals.length > 0 && caloriesRemaining > 0) {
-        const meal = availableMeals.shift()
-
-        if (meal.calories <= caloriesRemaining) {
+      // First, prioritize unused meals
+      for (const meal of mealsFromSelectedLocation) {
+        if (!usedMealsByLocation[selectedLocation].has(meal.mealName) && meal.calories <= caloriesRemaining) {
           dailyMeals.push(meal)
-          usedMeals.add(meal.mealName)
+          usedMealsByLocation[selectedLocation].add(meal.mealName)
           caloriesRemaining -= meal.calories
           totalProvidedCalories += meal.calories
           totalProtein += meal.protein
@@ -122,9 +138,28 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
         }
       }
 
+      // If we still have calories to fill, allow repeats
+      if (caloriesRemaining > 0) {
+        for (const meal of mealsFromSelectedLocation) {
+          if (meal.calories <= caloriesRemaining) {
+            dailyMeals.push(meal)
+            caloriesRemaining -= meal.calories
+            totalProvidedCalories += meal.calories
+            totalProtein += meal.protein
+            totalFat += meal.fat
+            totalCarbs += meal.carbohydrate
+
+            // No need to re-add to usedMeals since repeats are allowed now
+          }
+          if (caloriesRemaining <= 0) break
+        }
+      }
+
+      // Add meals to the day plan
       dayPlan[mealType] = dailyMeals
     }
 
+    // Aggregate totals for the day
     dayPlan.caloriesBMR = Math.trunc(totalCalories)
     dayPlan.caloriesProvided = Math.trunc(totalProvidedCalories)
     dayPlan.proteinProvided = Math.trunc(totalProtein)
@@ -136,6 +171,7 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
 
   return weeklyPlan
 }
+
 export const saveDietPlan = async (dietPlanData) => {
   let currentDate = new Date()
   dietPlanData.dietplan.forEach((dayPlan) => {

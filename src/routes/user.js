@@ -30,4 +30,10 @@ router.put(
 
 router.get('/home', Authenticate(), permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]), CONTROLLER_USER.home)
 
+router.delete(
+  '/delete-account',
+  Authenticate(),
+  permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  CONTROLLER_USER.deleteUser
+)
 export default router

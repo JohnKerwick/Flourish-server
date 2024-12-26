@@ -323,7 +323,7 @@ export const CONTROLLER_AUTH = {
     const isAuthenticated = await comparePassword(oldPassword, user.password)
 
     if (!isAuthenticated) {
-      return res.status(400).json({ message: 'Password does not matched' })
+      return res.status(400).json({ message: 'Incorrect Password' })
     }
 
     // Check if the new password is the same as the old password

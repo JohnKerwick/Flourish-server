@@ -10,70 +10,11 @@ dotenv.config()
 // * SERVICES
 import {} from '../models'
 // * Models
-import { User, Restaurants, Diet } from '../models'
+import { User, Restaurants, Diet, Meals } from '../models'
 const { ObjectId } = mongoose.Types
 
 // * Middlewares
 import { asyncMiddleware } from '../middlewares'
-
-// import { isEmpty, isUndefined, concat, cloneDeep } from 'lodash'
-// import speakeasy, { totp } from 'speakeasy'
-// * Services
-// import {
-//   addGroup,
-//   getGroupsPaginated,
-//   getGroupDetails,
-//   updateGroupDetails,
-//   getGroupMembersPaginated,
-//   createPost,
-//   getUserPostsPaginated,
-//   updatePost,
-//   getPostDetails,
-//   getgroupsPostsPaginated,
-//   getallPostsPaginated,
-//   getPostLike,
-//   getPostdisLike,
-//   createComment,
-//   updateComment,
-//   getAllComments,
-//   createExercise,
-//   getAllExercises,
-//   createBadge,
-//   getABadge,
-//   getAllBadge,
-//   updateBadge,
-//   createChallenge,
-//   updateChallenge,
-//   getAllZealAdminChallenges,
-//   getFriendsChallenges,
-//   getCommunityChallenges,
-//   getUserProgress,
-//   getUserExerciseLog,
-//   getChallengeHistory,
-//   getUserAllCurrentChallenges,
-//   getAllFeaturedChallenges,
-//   getUserCreatedChallenges,
-//   getSpecificCommunityChallenges,
-//   getAllPopularChallenges,
-//   getChallengeDetails,
-//   retrieveUserChallange,
-//   getAllExercisesCategory,
-//   getChallengeLeaderboard,
-//   getUsersPaginated,
-// } from '../services'
-
-// * Utilities
-// import { getLoginLinkByEnv, getSanitizeCompanyName, toObjectId } from '../utils/misc'
-// import { stripe } from '../utils/stripe'
-// import Email from '../utils/email'
-// import { escapeRegex } from '../utils/misc'
-// import { comparePassword, generateOTToken, generatePassword, generateToken, verifyTOTPToken } from '../utils'
-// import { sendSMS } from '../utils/smsUtil'
-// import { getIO } from '../socket'
-
-// const CLIENT_ID = process.env.GOOGLE_CLIENT_ID
-// const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET
-// const REDIRECT_URI = 'http://localhost:3000/api/user/auth/google/callback'
 
 export const CONTROLLER_USER = {
   profile: asyncMiddleware(async (req, res) => {
@@ -153,6 +94,28 @@ export const CONTROLLER_USER = {
     res.status(StatusCodes.OK).json({
       data: { restaurants, diet },
       message: 'home info fetched successfully',
+    })
+  }),
+
+  deleteUser: asyncMiddleware(async (req, res) => {
+    const userId = req.query.id
+    console.log(userId)
+
+    const session = await mongoose.startSession()
+    session.startTransaction()
+
+    const options = { session }
+
+    await Restaurants.updateMany({ likedBy: userId }, { $pull: { likedBy: userId } }, options)
+    await Meals.updateMany({ likedBy: userId }, { $pull: { likedBy: userId } }, options)
+    await Diet.deleteMany({ dietOwner: userId }, options)
+    await User.deleteOne({ _id: userId }, options)
+
+    await session.commitTransaction()
+    session.endSession()
+
+    res.status(200).json({
+      message: 'User account and related references deleted successfully',
     })
   }),
 }
