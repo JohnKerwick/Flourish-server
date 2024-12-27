@@ -79,6 +79,7 @@ export const getAllMenuItems = async (campus, allergy, allergyTypes) => {
     { $sort: { 'mealDetails.nutrients.calories': -1 } },
   ])
 }
+
 export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType) => {
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
   const calorieDistribution = {
@@ -90,7 +91,6 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
   const weeklyPlan = []
   const usedMeals = { breakfast: new Set(), lunch: new Set(), dinner: new Set() }
 
-  // Group meals by location for each meal type
   const groupMealsByLocation = (meals) => {
     return meals.reduce((groups, meal) => {
       if (!groups[meal.restaurantId]) groups[meal.restaurantId] = []
@@ -120,15 +120,9 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
       let currentFat = 0
       let currentCarbs = 0
 
-      // Select meals from the same location
       for (const [location, meals] of Object.entries(groupedMealsByType[mealType])) {
-        selectedMeals = []
-        currentCalories = 0
-        currentProtein = 0
-        currentFat = 0
-        currentCarbs = 0
         for (const meal of meals) {
-          if (usedMeals[mealType].has(meal.mealId)) continue
+          if (usedMeals[mealType].has(meal.mealName)) continue
 
           if (currentCalories + meal.calories <= targetCalories + 10) {
             selectedMeals.push(meal)
@@ -136,21 +130,21 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
             currentProtein += meal.protein
             currentFat += meal.fat
             currentCarbs += meal.carbohydrate
-            usedMeals[mealType].add(meal.mealId) // Track used meals
+            usedMeals[mealType].add(meal.mealName) // Use mealName for tracking
           }
-          if (currentCalories >= targetCalories - 10) break // Break if within target range
+
+          if (currentCalories >= targetCalories - 10) break
         }
 
-        if (selectedMeals.length > 0 && currentCalories >= targetCalories - 10) break // Use this location if valid
+        if (currentCalories >= targetCalories - 10) break
       }
 
-      // Handle calorie surplus/deficit dynamically
       const calorieDifference = targetCalories - currentCalories
       if (calorieDifference !== 0) {
         if (mealType === 'breakfast' && calorieDifference > 0) {
-          calorieDistribution.lunch += calorieDifference // Add deficit to lunch
+          calorieDistribution.lunch += calorieDifference
         } else if (mealType === 'lunch' && calorieDifference > 0) {
-          calorieDistribution.dinner += calorieDifference // Add deficit to dinner
+          calorieDistribution.dinner += calorieDifference
         }
       }
 
@@ -161,7 +155,6 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
       dayPlan[mealType] = selectedMeals
     }
 
-    // Add macros and totals for the day
     dayPlan.caloriesBMR = Math.trunc(totalCalories)
     dayPlan.caloriesProvided = Math.trunc(totalProvidedCalories)
     dayPlan.proteinProvided = Math.trunc(totalProtein)
