@@ -108,23 +108,34 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
   for (let dayIndex = 0; dayIndex < 7; dayIndex++) {
     const dayPlan = { day: daysOfWeek[dayIndex] }
     let totalProvidedCalories = 0
+    let totalProtein = 0
+    let totalFat = 0
+    let totalCarbs = 0
 
     for (const mealType of ['breakfast', 'lunch', 'dinner']) {
       const targetCalories = calorieDistribution[mealType]
       let selectedMeals = []
       let currentCalories = 0
+      let currentProtein = 0
+      let currentFat = 0
+      let currentCarbs = 0
 
       // Select meals from the same location
       for (const [location, meals] of Object.entries(groupedMealsByType[mealType])) {
         selectedMeals = []
         currentCalories = 0
-
+        currentProtein = 0
+        currentFat = 0
+        currentCarbs = 0
         for (const meal of meals) {
           if (usedMeals[mealType].has(meal.mealId)) continue
 
           if (currentCalories + meal.calories <= targetCalories + 10) {
             selectedMeals.push(meal)
             currentCalories += meal.calories
+            currentProtein += meal.protein
+            currentFat += meal.fat
+            currentCarbs += meal.carbohydrate
             usedMeals[mealType].add(meal.mealId) // Track used meals
           }
           if (currentCalories >= targetCalories - 10) break // Break if within target range
@@ -144,13 +155,18 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
       }
 
       totalProvidedCalories += currentCalories
+      totalProtein += currentProtein
+      totalFat += currentFat
+      totalCarbs += currentCarbs
       dayPlan[mealType] = selectedMeals
     }
 
     // Add macros and totals for the day
     dayPlan.caloriesBMR = Math.trunc(totalCalories)
     dayPlan.caloriesProvided = Math.trunc(totalProvidedCalories)
-
+    dayPlan.proteinProvided = Math.trunc(totalProtein)
+    dayPlan.fatProvided = Math.trunc(totalFat)
+    dayPlan.carbsProvided = Math.trunc(totalCarbs)
     weeklyPlan.push(dayPlan)
   }
 
