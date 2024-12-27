@@ -3,7 +3,7 @@ import express, { Router } from 'express'
 
 // * Controllers
 // import { CONTROLLER_DIET } from '../controllers'
-import { CONTROLLER_DIET } from '../controllers'
+import { CONTROLLER_DIET, CONTROLLER_NOTIFICATION } from '../controllers'
 
 // * Utilities
 // import { validateRegistration } from '../models/User'
@@ -42,6 +42,12 @@ router.get(
   Authenticate(),
   permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_DIET.getDietHistory
+)
+router.get(
+  '/get-notification-user',
+  Authenticate(),
+  permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  CONTROLLER_NOTIFICATION.getUsersWithActiveDiet
 )
 
 export default router

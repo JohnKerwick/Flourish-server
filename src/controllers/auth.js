@@ -294,7 +294,7 @@ export const CONTROLLER_AUTH = {
     const { title, body } = req.body
 
     const token =
-      'cJBKoZf7cUpdtPFhbQm5ZE:APA91bEHbnMMtpcvdNz6ZaCWuCvQVD-rwO_ps6xu4Il3ajnXR0g-oGCZAzIJP44upIu5BrUheUWJCRikQH_Vc5DZsx3kVG7pH8A2H1ZBcsX4-M7tYBttefi2Fo3Z4RcHuHq60Z4jEtZU'
+      'fWEJkuD9RIq0unYBTsz9MN:APA91bEHULS4XA0vbW0MVbvq5INeWJL6CiN9lSaOxATb0v2EvN98gkMP1C4iGjhLRLky9oQeq0N0T5znnnaIJtuNhMQ94rcIV9ND2CWsK0DInawfd-cOQIs'
 
     const message = {
       notification: {
