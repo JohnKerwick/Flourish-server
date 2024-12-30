@@ -44,10 +44,10 @@ router.get(
   CONTROLLER_DIET.getDietHistory
 )
 router.get(
-  '/get-notification-user',
+  '/update-status',
   Authenticate(),
   permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-  CONTROLLER_NOTIFICATION.getUsersWithActiveDiet
+  CONTROLLER_DIET.updateDietStatus
 )
 
 export default router

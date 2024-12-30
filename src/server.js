@@ -23,7 +23,7 @@ import { Server } from 'socket.io'
 import { init } from './socket'
 import { setupSocketEventHandlers } from './socketEvents'
 import { task } from './utils/cron'
-import { challengeTask } from './utils/challenge-cron'
+// import { challengeTask } from './utils/challenge-cron'
 import { initializeFirebase } from './utils/firebase'
 import { preferences } from 'joi'
 const axios = require('axios')
@@ -77,7 +77,7 @@ app.get('/ping', (req, res) => res.send('Ping Successfulls 😄'))
 server.listen(PORT, async () => {
   // app.listen(PORT, '0.0.0.0', '0', async () => {
   task.start()
-  challengeTask.start()
+  // challengeTask.start()
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })
 

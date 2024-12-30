@@ -31,6 +31,17 @@ export const CONTROLLER_DIET = {
       dinner: allMenuItems.filter((item) => item.mealType === 'Dinner'),
     }
 
+    if (
+      mealItemsByType.breakfast.length === 0 ||
+      mealItemsByType.lunch.length === 0 ||
+      mealItemsByType.dinner.length === 0
+    ) {
+      return res.status(StatusCodes.NOT_FOUND).json({
+        message: 'No menu items available for one or more meal types.',
+        statusCode: StatusCodes.NOT_FOUND,
+      })
+    }
+
     const sortedMealItemsByType = {
       breakfast: mealItemsByType.breakfast.sort((a, b) => b.calories - a.calories),
       lunch: mealItemsByType.lunch.sort((a, b) => b.calories - a.calories),
@@ -76,6 +87,31 @@ export const CONTROLLER_DIET = {
     return res.status(StatusCodes.OK).json({
       dietPlanDetails,
       message: 'Diet plan details fetched successfully.',
+      statusCode: StatusCodes.OK,
+    })
+  }),
+
+  updateDietStatus: asyncMiddleware(async (req, res) => {
+    const { dietId, mealType, day, newStatus } = req.body
+    const updatedDiet = await Diet.findOneAndUpdate(
+      {
+        _id: dietId,
+        'dietplan.day': day,
+        'dietplan.item.mealType': mealType,
+      },
+      {
+        $set: {
+          'dietplan.$[dayMatch].item.$[mealMatch].status': newStatus,
+        },
+      },
+      {
+        arrayFilters: [{ 'dayMatch.day': day }, { 'mealMatch.mealType': mealType }],
+        new: true,
+      }
+    )
+    return res.status(StatusCodes.OK).json({
+      updatedDiet,
+      message: 'Diet History fetched successfully.',
       statusCode: StatusCodes.OK,
     })
   }),
