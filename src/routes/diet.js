@@ -43,7 +43,7 @@ router.get(
   permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_DIET.getDietHistory
 )
-router.get(
+router.post(
   '/update-status',
   Authenticate(),
   permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),

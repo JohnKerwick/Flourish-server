@@ -5,9 +5,12 @@ export const notificationsSchema = new Schema(
     body: String,
     payload: {
       dietId: String,
+      mealType: String,
+      day: String,
     },
     type: String,
     userId: Schema.Types.ObjectId,
+    isUpdated: Boolean,
   },
   { versionKey: false, timestamps: true }
 )

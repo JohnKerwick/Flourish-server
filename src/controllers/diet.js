@@ -11,7 +11,7 @@ import {
 } from '../services'
 import jwt from 'jsonwebtoken'
 import { asyncMiddleware } from '../middlewares'
-import { Diet } from '../models'
+import { Diet, Notification } from '../models'
 dotenv.config()
 export const CONTROLLER_DIET = {
   getWeeklyDietPlan: asyncMiddleware(async (req, res) => {
@@ -92,7 +92,7 @@ export const CONTROLLER_DIET = {
   }),
 
   updateDietStatus: asyncMiddleware(async (req, res) => {
-    const { dietId, mealType, day, newStatus } = req.body
+    const { dietId, mealType, day, newStatus, notificationId } = req.body
     const updatedDiet = await Diet.findOneAndUpdate(
       {
         _id: dietId,
@@ -109,6 +109,7 @@ export const CONTROLLER_DIET = {
         new: true,
       }
     )
+    await Notification.findByIdAndUpdate(notificationId, { isUpdated: true })
     return res.status(StatusCodes.OK).json({
       updatedDiet,
       message: 'Diet History fetched successfully.',
