@@ -20,16 +20,16 @@ export const task = schedule(
     const currentDay = today.toLocaleString('en-US', { weekday: 'long' }) // e.g., "Monday"
     let mealType
 
-    // if (currentHour === 10) {
-    //   mealType = 'Breakfast'
-    // } else if (currentHour === 14) {
-    //   mealType = 'Lunch'
-    // } else if (currentHour === 20) {
-    //   mealType = 'Dinner'
-    // }
+    if (currentHour === 10) {
+      mealType = 'Breakfast'
+   } else if (currentHour === 14) {
+     mealType = 'Lunch'
+     } else if (currentHour === 20) {
+       mealType = 'Dinner'
+    }
 
-    // if (!mealType) return
-    mealType = 'Dinner'
+    if (!mealType) return
+   
 
     console.log(`Sending notifications for ${mealType}`)
 
