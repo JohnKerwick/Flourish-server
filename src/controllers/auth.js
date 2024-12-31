@@ -1,4 +1,3 @@
-// * Libraries
 import { StatusCodes } from 'http-status-codes'
 import { isEmpty } from 'lodash'
 import speakeasy from 'speakeasy'
@@ -8,13 +7,10 @@ const admin = require('firebase-admin')
 
 dotenv.config()
 
-// * Models
 import { User, TOTP } from '../models'
 
-// * Middlewares
 import { asyncMiddleware } from '../middlewares'
 
-// * Utilities
 import { getRoleShortName, USER_TYPES, SYSTEM_USER_ROLE } from '../utils/user'
 import Email from '../utils/email'
 import { comparePassword, generateOTToken, generatePassword, generateToken, verifyTOTPToken } from '../utils'
@@ -38,13 +34,8 @@ export const CONTROLLER_AUTH = {
         window: 6,
       })
 
-      // console.log('token', token)
-
-      // await sendSMS(`Your time based one time login code is: ${token}`, phoneNumber) // UTL
-
       const TOTPToken = await generateOTToken({ secret })
 
-      // Find if the document with the phoneNumber exists in the database
       let totp = await TOTP.findOneAndUpdate({ email }, { token: TOTPToken })
 
       if (isEmpty(totp)) {
@@ -79,11 +70,6 @@ export const CONTROLLER_AUTH = {
     })
 
     if (verified) {
-      // const hashedPassword = await generatePassword(newPassword)
-
-      // await User.findOneAndUpdate({ email }, { password: hashedPassword }, { new: true })
-
-      // console.log(`Password updated for ${email}`)
       res.json({ message: 'Account verified successfully' })
     } else {
       res.status(400).json({ message: 'Invalid verification code' })
@@ -127,8 +113,6 @@ export const CONTROLLER_AUTH = {
 
     const tokens = await generateToken(tokenPayload)
 
-    // email temp here
-
     const sendEmail = await new Email({ email })
     const emailProps = { name }
     await sendEmail.welcomeToZeal(emailProps)
@@ -143,7 +127,7 @@ export const CONTROLLER_AUTH = {
   }),
 
   signIn: asyncMiddleware(async (req, res) => {
-    const { email, password, fcmToken } = req.body // Changed from req.query to req.body
+    const { email, password, fcmToken } = req.body
     const user = await User.findOne({ email }).select('+password')
 
     if (!user) {
@@ -204,7 +188,6 @@ export const CONTROLLER_AUTH = {
   }),
 
   forgotPassword: asyncMiddleware(async (req, res) => {
-    // console.log('INSIDE1')
     const { email } = req.body
 
     const user = await User.findOne({ email })
@@ -216,12 +199,6 @@ export const CONTROLLER_AUTH = {
 
     const name = user.name
 
-    // if (!user) {
-    //   return res.status(400).json({
-    //     message: 'Email provided is not valid',
-    //   })
-    // }
-
     var secret = speakeasy.generateSecret({ length: 20 }).base32
     var token = speakeasy.totp({
       digits: 4,
@@ -230,13 +207,8 @@ export const CONTROLLER_AUTH = {
       window: 6,
     })
 
-    // console.log('token', token)
-
-    // await sendSMS(`Your time based one time login code is: ${token}`, phoneNumber) // UTL
-
     const TOTPToken = await generateOTToken({ secret })
 
-    // Find if the document with the phoneNumber exists in the database
     let totp = await TOTP.findOneAndUpdate({ email }, { token: TOTPToken })
 
     if (isEmpty(totp)) {
@@ -286,7 +258,7 @@ export const CONTROLLER_AUTH = {
     if (!user) {
       return res.status(400).json({ message: 'User not found' })
     }
-    // console.log(`Password updated for ${email}`)
+
     res.json({ message: 'Password updated successfully' })
   }),
 
@@ -304,7 +276,6 @@ export const CONTROLLER_AUTH = {
       token,
     }
 
-    // admin.messaging().sendMulticast(message)
     admin.messaging().send(message)
 
     res.json({ message: 'notification sent successfully' })
@@ -326,7 +297,6 @@ export const CONTROLLER_AUTH = {
       return res.status(400).json({ message: 'Incorrect Password' })
     }
 
-    // Check if the new password is the same as the old password
     const isSamePassword = await comparePassword(newPassword, user.password)
     if (isSamePassword) {
       return res.status(400).json({ message: 'New password cannot be the same as the old password' })
@@ -336,7 +306,6 @@ export const CONTROLLER_AUTH = {
 
     await User.findByIdAndUpdate(id, { password: hashedPassword }, { new: true })
 
-    // console.log(`Password updated for ${email}`)
     res.json({ message: 'Password updated successfully' })
   }),
 }

@@ -15,6 +15,4 @@ export const notificationsSchema = new Schema(
   { versionKey: false, timestamps: true }
 )
 
-// notifications.index({ expireAt: 1 }, { expireAfterSeconds: 0 })
-
 export const Notification = model('Notification ', notificationsSchema)

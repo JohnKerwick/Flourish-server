@@ -1,8 +1,6 @@
-import mongoose, { Schema, model } from 'mongoose'
-import { DOC_STATUS, USER_ROLE } from '../utils/user'
+import { Schema, model } from 'mongoose'
 import crypto from 'crypto'
-import Joi, { number } from 'joi'
-import mongoosePaginate from 'mongoose-paginate-v2'
+import Joi from 'joi'
 import mongooseAggregatePaginate from 'mongoose-aggregate-paginate-v2'
 
 export const userSchema = new Schema(

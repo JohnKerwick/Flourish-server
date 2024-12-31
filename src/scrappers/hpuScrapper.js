@@ -2,7 +2,6 @@ import { get } from 'axios'
 import { load } from 'cheerio'
 import { Meals, Restaurants } from '../models'
 
-// Utility function to clean and extract valid meal types
 const extractMealTypes = (tabItems) => {
   const mealTypes = new Set()
   const nonRelevantPatterns = /\b(hours?|operation)\b/i
@@ -94,7 +93,6 @@ export const scrapeHPU = async () => {
                       if (iconTitle) dieteryPreferences.push(iconTitle)
                     })
 
-                  // Create or update the meal
                   const meal = await Meals.findOneAndUpdate(
                     { name: parsedData.name, type: mealType },
                     {
@@ -112,7 +110,7 @@ export const scrapeHPU = async () => {
                     { new: true, upsert: true, setDefaultsOnInsert: true }
                   )
 
-                  mealCategoryItems.push(meal._id) // Add meal ID to the list
+                  mealCategoryItems.push(meal._id)
                 } catch (err) {
                   console.error('Error processing menu item:', err)
                 }
@@ -125,14 +123,13 @@ export const scrapeHPU = async () => {
           })
       })
 
-      // Create or update the restaurant
       await Restaurants.findOneAndUpdate(
-        { name: restaurantName }, // Match by restaurant name
+        { name: restaurantName },
         {
           $set: {
             campus,
             category,
-            menu, // Replace menu with the newly scraped data
+            menu,
             tabItems: mealTypes,
           },
         },

@@ -1,11 +1,8 @@
 // * Libraries
 import { StatusCodes } from 'http-status-codes'
 import jwt from 'jsonwebtoken'
-import mongoose, { model } from 'mongoose'
-const axios = require('axios')
-import passport from 'passport'
+import mongoose from 'mongoose'
 import dotenv from 'dotenv'
-const admin = require('firebase-admin')
 dotenv.config()
 // * SERVICES
 import {} from '../models'

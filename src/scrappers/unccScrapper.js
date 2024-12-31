@@ -2,7 +2,7 @@ import axios from 'axios'
 import { Agent } from 'https'
 import { delay, randomDelay } from '../utils/delay'
 import { notifyError } from '../middlewares/errorHandler'
-import { Meals, Restaurants } from '../models' // Import models
+import { Meals, Restaurants } from '../models'
 
 export const scrapeUNCC = async () => {
   const locations = [
@@ -25,22 +25,22 @@ export const scrapeUNCC = async () => {
         response = await axios.get('https://api.dineoncampus.com/v1/sites/public')
       } catch (error) {
         console.error('Error during public API retry:', error.message)
-        await delay(1000) // Delay before retrying
+        await delay(1000)
       }
     } while (!response || response.status !== 200)
 
     console.log('Public API returned 200, resuming scraping...')
   }
 
-  const allLocationsData = [] // Collect data for all locations
+  const allLocationsData = []
 
   for (const location of locations) {
     let locationData = {
       restaurant: location.name,
       campus: 'UNCC',
       category: 'Dining Halls',
-      menu: [], // Combined menu data
-      tabItems: [], // Period names
+      menu: [],
+      tabItems: [],
     }
 
     while (true) {
@@ -69,15 +69,13 @@ export const scrapeUNCC = async () => {
               const { data: periodData } = await axios(periodConfig)
               const categories = periodData.menu.periods.categories
 
-              // Process menu data for this period
               const periodMenu = await Promise.all(
                 categories.map(async (category) => {
                   const mealCategoryItems = await Promise.all(
                     category.items.map(async (item) => {
                       try {
-                        // Use findOneAndUpdate to update or insert meals
                         const updatedMeal = await Meals.findOneAndUpdate(
-                          { name: item.name, type: periodData.menu.periods.name }, // Match condition
+                          { name: item.name, type: periodData.menu.periods.name },
                           {
                             $set: {
                               ingredients: item.ingredients ? item.ingredients.split(',').map((i) => i.trim()) : [],
@@ -96,7 +94,7 @@ export const scrapeUNCC = async () => {
                           { new: true, upsert: true, setDefaultsOnInsert: true }
                         )
 
-                        return updatedMeal._id // Return meal ID
+                        return updatedMeal._id
                       } catch (err) {
                         console.error('Error processing meal item:', err)
                         return null
@@ -106,16 +104,15 @@ export const scrapeUNCC = async () => {
 
                   return {
                     category: category.name,
-                    items: mealCategoryItems.filter((item) => item !== null), // Filter out null entries
+                    items: mealCategoryItems.filter((item) => item !== null),
                   }
                 })
               )
 
-              // Append data
               locationData.menu.push(...periodMenu)
               locationData.tabItems.push(periodData.menu.periods.name)
 
-              break // Exit retry loop for this period
+              break
             } catch (error) {
               if (error.response && error.response.status === 526) {
                 console.error('Error 526 encountered. Retrying with public API...')
@@ -129,9 +126,8 @@ export const scrapeUNCC = async () => {
           }
         }
 
-        // Use findOneAndUpdate to update or insert restaurants
         await Restaurants.findOneAndUpdate(
-          { name: location.name }, // Match condition
+          { name: location.name },
           {
             $set: {
               campus: 'UNCC',
@@ -144,7 +140,7 @@ export const scrapeUNCC = async () => {
         )
 
         allLocationsData.push(locationData)
-        break // Exit retry loop for this location
+        break
       } catch (error) {
         if (error.response && error.response.status === 526) {
           console.error('Error 526 encountered for location. Retrying...')

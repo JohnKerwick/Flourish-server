@@ -4,13 +4,8 @@ import express, { Router } from 'express'
 // * Controllers
 import { CONTROLLER_RESTAURANTS } from '../controllers'
 
-// * Utilities
-// import { validateRegistration } from '../models/User'
-// import { USER_PERMISSIONS, USER_ROLE } from '../utils/user'
 // * Middlewares
-import { validateMiddleware, permitMiddleware, Authenticate } from '../middlewares'
-import { parser } from '../utils/cloudinary'
-import { totpRateLimiter } from '../utils/rateLimiter'
+import { permitMiddleware, Authenticate } from '../middlewares'
 import { USER_TYPES } from '../utils'
 
 const router = Router()
@@ -55,19 +50,4 @@ router.get(
   permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_RESTAURANTS.getLikedRestaurants
 )
-
-// router.post(
-//   '/like-meal',
-//   Authenticate(),
-//   permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-//   CONTROLLER_RESTAURANTS.likeMeal
-// )
-
-// router.post(
-//   '/dislike-meal',
-//   Authenticate(),
-//   permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-//   CONTROLLER_RESTAURANTS.dislikeMeal
-// )
-
 export default router

@@ -4,7 +4,6 @@ import ejs from 'ejs'
 import { htmlToText } from 'html-to-text'
 import path from 'path'
 import { getLoginLinkByEnv } from './misc'
-// const nodemailerSendgrid = require('nodemailer-sendgrid');
 export default class Email {
   constructor(user) {
     this.to = user?.email
@@ -12,15 +11,6 @@ export default class Email {
   }
 
   newTransport() {
-    // // if(process.env.NODE_ENV === 'production'){
-    //     // Sendgrid
-    // // const transport = nodemailer.createTransport(
-    // //   nodemailerSendgrid({
-    //  //     apiKey: 'your API KEY HERE'
-    // //   })
-    // // );
-    // // }
-
     const smtpTransport = nodemailer.createTransport({
       host: process.env.EMAIL_HOST,
       port: process.env.EMAIL_PORT,

@@ -14,6 +14,4 @@ export const errorLogSchema = new Schema(
   },
   { versionKey: false, capped: { max: 1000 }, timestamps: true }
 )
-// module.exports = model('ErrorLog', errorLogSchema)
-// module.exports = errorLogSchema;
 export const ErrorLog = model('ErrorLog', errorLogSchema)

@@ -1,4 +1,4 @@
-import express, { Router } from 'express'
+import { Router } from 'express'
 import { CONTROLLER_NOTIFICATION } from '../controllers'
 import { permitMiddleware, Authenticate } from '../middlewares'
 import { USER_TYPES } from '../utils'

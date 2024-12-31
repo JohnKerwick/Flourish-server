@@ -50,12 +50,12 @@ var dietSchema = new Schema({
     default: Date.now,
   },
   expiresAt: {
-    type: Date, // This will store the expiration date
+    type: Date,
   },
 })
 dietSchema.pre('save', function (next) {
   if (!this.expiresAt) {
-    this.expiresAt = new Date(this.createdAt.getTime() + 7 * 24 * 60 * 60 * 1000) // Add 7 days
+    this.expiresAt = new Date(this.createdAt.getTime() + 7 * 24 * 60 * 60 * 1000)
   }
   next()
 })

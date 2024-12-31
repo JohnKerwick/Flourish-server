@@ -4,17 +4,11 @@ import express, { Router } from 'express'
 // * Controllers
 import { CONTROLLER_AUTH } from '../controllers'
 
-// * Utilities
-// import { validateRegistration } from '../models/User'
-// import { USER_PERMISSIONS, USER_ROLE } from '../utils/user'
-
 // * Middlewares
 import { USER_TYPES } from '../utils'
 import { permitMiddleware, Authenticate } from '../middlewares'
 
 const router = Router()
-
-// Zeal App User Routes
 
 router.post('/get-code', CONTROLLER_AUTH.getCode)
 
