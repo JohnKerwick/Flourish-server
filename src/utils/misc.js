@@ -81,9 +81,9 @@ export const toObjectId = (id) => {
 //   return random.slice(2, random.length)
 // }
 
-// export const getLoginLinkByEnv = () => {
-//   return process.env.CLOUD === 'DEV_CLOUD' ? process.env.DOMAIN_FRONT_DEV : process.env.DOMAIN_PROD
-// }
+export const getLoginLinkByEnv = () => {
+  return process.env.CLOUD === 'DEV_CLOUD' ? process.env.DOMAIN_FRONT_DEV : process.env.DOMAIN_PROD
+}
 
 // export const getSanitizeCompanyName = (company, countryCode) => {
 //   console.log('company, countryCode', company, countryCode)

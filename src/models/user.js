@@ -77,29 +77,6 @@ userSchema.methods.createPasswordResetToken = function () {
   return resetToken
 }
 
-export const validateRegistration = (obj) => {
-  const schema = Joi.object({
-    firstName: Joi.string().required(),
-    lastName: Joi.string().required(),
-    email: Joi.string().email({ minDomainSegments: 2 }).required(),
-    password: Joi.string().required(),
-    gender: Joi.string(),
-    age: Joi.string(),
-    location: Joi.string(),
-    username: Joi.string(),
-    about: Joi.string(),
-    weight: Joi.object({
-      value: Joi.number(),
-      unit: Joi.string().valid('imperial', 'metric'),
-    }),
-    height: Joi.object({
-      value: Joi.number(),
-      unit: Joi.string().valid('imperial', 'metric'),
-    }),
-  }).options({ abortEarly: false })
-
-  return schema.validate(obj)
-}
 userSchema.plugin(mongooseAggregatePaginate)
 
 export const User = model('User', userSchema)
