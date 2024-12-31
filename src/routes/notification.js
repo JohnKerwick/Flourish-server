@@ -7,7 +7,7 @@ const router = Router()
 router.get(
   '/get',
   Authenticate(),
-  permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_NOTIFICATION.getUsersWithActiveDiet
 )
 export default router

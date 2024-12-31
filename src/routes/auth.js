@@ -33,14 +33,14 @@ router.post(
 router.post(
   '/sendNotification',
   Authenticate(),
-  permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_AUTH.sendNotification
 )
 
 router.put(
   '/change-password',
   Authenticate(),
-  permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_AUTH.changePassword
 )
 

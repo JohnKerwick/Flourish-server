@@ -11,22 +11,32 @@ import { USER_TYPES } from '../utils'
 
 const router = Router()
 
-router.get('/profile', Authenticate(), permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]), CONTROLLER_USER.profile)
+router.get(
+  '/profile',
+  Authenticate(),
+  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  CONTROLLER_USER.profile
+)
 
 router.put(
   '/profile-update',
   Authenticate(),
-  permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   parser.single('file'),
   CONTROLLER_USER.updateProfile
 )
 
-router.get('/home', Authenticate(), permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]), CONTROLLER_USER.home)
+router.get(
+  '/home',
+  Authenticate(),
+  //  permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  CONTROLLER_USER.home
+)
 
 router.delete(
   '/delete-account',
   Authenticate(),
-  permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_USER.deleteUser
 )
 export default router

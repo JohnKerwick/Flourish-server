@@ -4,8 +4,7 @@ import jwt from 'jsonwebtoken'
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 dotenv.config()
-// * SERVICES
-import {} from '../models'
+
 // * Models
 import { User, Restaurants, Diet, Meals } from '../models'
 const { ObjectId } = mongoose.Types
