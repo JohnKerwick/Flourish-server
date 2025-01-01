@@ -64,6 +64,7 @@ export const CONTROLLER_AUTH = {
       encoding: 'base32',
       token: code,
       window: 10,
+      step: 1800,
     })
 
     if (verified) {
@@ -260,6 +261,7 @@ export const CONTROLLER_AUTH = {
       encoding: 'base32',
       token: code,
       window: 10,
+      step: 1800,
     })
 
     if (verified) {
