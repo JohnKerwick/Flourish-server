@@ -96,13 +96,13 @@ export default class Email {
   }
 
   async sendForgotPassword(arg) {
-    await this.send('forgot-password', 'Reset code', arg)
+    await this.send('forgot-password', 'Reset Your FlourishU Account Password', arg)
   }
   async welcomeToZeal(arg) {
-    await this.send('welcome-to-flourishu', 'Welcome to FlourishU. App', arg)
+    await this.send('welcome-to-flourishu', 'Welcome to FlourishU!', arg)
   }
 
   async registerAccount(arg) {
-    await this.send('register', 'Registration Code', arg)
+    await this.send('register', 'Verify Your Email Address', arg)
   }
 }
