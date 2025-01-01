@@ -12,8 +12,9 @@ import configSwagger from './config/swagger'
 
 import { createServer } from 'node:http'
 import { init } from './socket'
-import { task } from './utils/cron'
+import { endMealCron, mealTimeCron } from './utils'
 import { initializeFirebase } from './utils/firebase'
+import dotenv from 'dotenv'
 
 // import { setupSocketEventHandlers } from './socketEvents'
 // For Socket.io
@@ -21,6 +22,7 @@ import { initializeFirebase } from './utils/firebase'
 // setupSocketEventHandlers()
 
 const app = express()
+dotenv.config()
 
 // For Socket.io
 const server = createServer(app)
@@ -51,7 +53,8 @@ app.use(errorHandler)
 app.get('/ping', (req, res) => res.send('Ping Successfulls 😄'))
 
 server.listen(PORT, async () => {
-  task.start()
+  endMealCron.start()
+  mealTimeCron.start()
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })
 

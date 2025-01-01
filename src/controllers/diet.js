@@ -1,5 +1,4 @@
 import { StatusCodes } from 'http-status-codes'
-import dotenv from 'dotenv'
 import {
   calculateBMR,
   getUserById,
@@ -12,7 +11,7 @@ import {
 import jwt from 'jsonwebtoken'
 import { asyncMiddleware } from '../middlewares'
 import { Diet, Notification } from '../models'
-dotenv.config()
+
 export const CONTROLLER_DIET = {
   getWeeklyDietPlan: asyncMiddleware(async (req, res) => {
     const token = req.headers.authorization?.split(' ')[1]

@@ -2,8 +2,6 @@
 import { StatusCodes } from 'http-status-codes'
 import jwt from 'jsonwebtoken'
 import mongoose from 'mongoose'
-import dotenv from 'dotenv'
-dotenv.config()
 
 // * Models
 import { User, Restaurants, Diet, Meals } from '../models'
@@ -53,7 +51,7 @@ export const CONTROLLER_USER = {
       file: req.file && req.file.path,
       ...body,
     }
-
+    console.log(body)
     const user = await User.findByIdAndUpdate(id, body, { new: true }).select('-password -refreshToken').lean()
 
     if (!user)

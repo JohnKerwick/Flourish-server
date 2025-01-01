@@ -1,9 +1,5 @@
 import { StatusCodes } from 'http-status-codes'
-import dotenv from 'dotenv'
-
 const admin = require('firebase-admin')
-
-dotenv.config()
 
 import { asyncMiddleware } from '../middlewares'
 

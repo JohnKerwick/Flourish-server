@@ -1,13 +1,9 @@
 import { StatusCodes } from 'http-status-codes'
 import { isEmpty } from 'lodash'
 import speakeasy from 'speakeasy'
-import dotenv from 'dotenv'
-
 const admin = require('firebase-admin')
 
-dotenv.config()
-
-import { User, TOTP } from '../models'
+import { User, TOTP, Notification } from '../models'
 
 import { asyncMiddleware } from '../middlewares'
 
@@ -82,7 +78,6 @@ export const CONTROLLER_AUTH = {
     const user = await User.findOne({
       email: email,
     })
-
     if (user)
       return res.status(StatusCodes.BAD_REQUEST).json({
         message: 'Email already exists.',
@@ -116,6 +111,30 @@ export const CONTROLLER_AUTH = {
     const sendEmail = await new Email({ email })
     const emailProps = { name }
     await sendEmail.welcomeToZeal(emailProps)
+
+    if (fcmToken) {
+      const token = fcmToken
+
+      const message = {
+        notification: {
+          title: 'Welcome to FlourishU!',
+          body: 'Explore healthy meals and track your progress with us!',
+        },
+        token,
+      }
+
+      admin.messaging().send(message)
+
+      const notificationData = {
+        title: message.notification.title,
+        body: message.notification.body,
+        payload: {},
+        type: 'Welcome Notification',
+        userId: newUser._id,
+        isUpdated: false,
+      }
+      await Notification.create(notificationData)
+    }
 
     res.status(StatusCodes.OK).json({
       data: {
@@ -266,12 +285,12 @@ export const CONTROLLER_AUTH = {
     const { title, body } = req.body
 
     const token =
-      'dVmV0BybjkAulTH8DLfGZm:APA91bFWHUpZ0D94IGR32tGdNsRDyj_29FstYdF9Nq_K2m8KgAGUk144juITDh0QZsMUy6OWfmyAjPKaWnGg4suHOPeV3cMpgRLTOfAUTlQ5lShVKHeDgxg'
+      'fFluTt9WSS-0JBibygdi_-:APA91bGuosbHo0TGeJRH6gRw2M9tS84qhCGSQBO6WX4Su9b9BRzdjFZvQ6W2xa6mLBlQchXSbrCK_xwWLqDI46RuvYRV5qV0LjNeW4BkhMv5eLe5pF1Cy0Y'
 
     const message = {
       notification: {
-        title: 'i am title',
-        body: 'body is here',
+        title: 'Salam alaikum',
+        body: 'welcome notification is here',
       },
       token,
     }

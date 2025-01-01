@@ -1,7 +1,6 @@
 // Using ES6 module import syntax
 import { schedule } from 'node-cron'
 import { Notification, Diet } from '../models'
-import { sendPushNotification } from './pushNotification'
 const admin = require('firebase-admin')
 
 // "0 0 * * 0", Every sunday at 00:00 - Required
@@ -11,7 +10,7 @@ const admin = require('firebase-admin')
 // 0 0 0 * * *, Every Midnight
 // 0 0 * * *, every 24 hour
 
-export const task = schedule('0 10,14,20 * * *', async () => {
+export const endMealCron = schedule('0 10,14,20 * * *', async () => {
   const currentHour = new Date().getHours()
   const today = new Date()
   const currentDay = today.toLocaleString('en-US', { weekday: 'long' })
@@ -24,7 +23,7 @@ export const task = schedule('0 10,14,20 * * *', async () => {
     mealType = 'Dinner'
   }
   if (!mealType) return
-  console.log(`Sending notifications for ${mealType}`)
+
   const activeDiets = await Diet.find({
     createdAt: { $lte: today },
     expiresAt: { $gte: today },
@@ -59,10 +58,8 @@ export const task = schedule('0 10,14,20 * * *', async () => {
           token: diet.dietOwner.fcmToken,
         }
         await admin.messaging().send(pushNotification)
-        console.log(`Notification sent to ${diet.dietOwner.name} for diet: ${diet.name}, Meal: ${mealType}`)
       }
     } else {
-      console.log(`No ${mealType} found for ${diet.name} on ${currentDay}. Skipping notification.`)
     }
   }
 })
