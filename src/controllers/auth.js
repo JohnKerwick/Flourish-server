@@ -27,7 +27,7 @@ export const CONTROLLER_AUTH = {
         digits: 4,
         secret: secret,
         encoding: 'base32',
-        window: 6,
+        window: 0,
         step: 1800,
       })
 
@@ -63,7 +63,7 @@ export const CONTROLLER_AUTH = {
       secret: decoded.secret,
       encoding: 'base32',
       token: code,
-      window: 10,
+      window: 0,
       step: 1800,
     })
 
@@ -225,7 +225,7 @@ export const CONTROLLER_AUTH = {
       digits: 4,
       secret: secret,
       encoding: 'base32',
-      window: 6,
+      window: 0,
       step: 1800,
     })
 
@@ -260,7 +260,7 @@ export const CONTROLLER_AUTH = {
       secret: decoded.secret,
       encoding: 'base32',
       token: code,
-      window: 10,
+      window: 0,
       step: 1800,
     })
 
