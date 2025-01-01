@@ -28,6 +28,7 @@ export const CONTROLLER_AUTH = {
         secret: secret,
         encoding: 'base32',
         window: 6,
+        step: 1800,
       })
 
       const TOTPToken = await generateOTToken({ secret })
@@ -224,6 +225,7 @@ export const CONTROLLER_AUTH = {
       secret: secret,
       encoding: 'base32',
       window: 6,
+      step: 1800,
     })
 
     const TOTPToken = await generateOTToken({ secret })
