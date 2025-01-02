@@ -15,7 +15,7 @@ export const generateToken = (payload) => {
 // payload can be userID, email or other user details
 export const generateOTToken = (payload) => {
   return new Promise(function (resolve, reject) {
-    const token = jwt.sign(payload, process.env.JWT_SECRET_KEY, { expiresIn: '5m' })
+    const token = jwt.sign(payload, process.env.JWT_SECRET_KEY, { expiresIn: '30m' })
     resolve(token)
   })
 }
