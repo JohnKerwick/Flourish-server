@@ -1,6 +1,7 @@
 import { get } from 'axios'
 import { load } from 'cheerio'
 import { Meals, Restaurants } from '../models'
+import delay from '../utils/delay'
 
 const extractMealTypes = (tabItems) => {
   const mealTypes = new Set()
@@ -42,7 +43,7 @@ export const scrapeHPU = async () => {
 
       const restaurantName = $('#location-header-content h1').text().trim()
       const campus = 'HPU'
-      const category = 'Dining Halls'
+      const category = 'Dining-Halls'
 
       const rawTabItems = []
       $('.c-tabs-nav__link-inner').each((_, element) => {
@@ -52,76 +53,97 @@ export const scrapeHPU = async () => {
 
       const mealTypes = extractMealTypes(rawTabItems)
 
-      const menu = []
+      // Process all meals asynchronously
+      const mealPromises = $('.c-tab')
+        .map((index, element) =>
+          (async () => {
+            const mealType = mealTypes[index] || `Unknown Meal Type ${index}`
+            let menu = []
 
-      $('.c-tab').each((index, element) => {
-        const mealType = mealTypes[index] || `Unknown Meal Type ${index}`
+            const stationPromises = $(element)
+              .find('.menu-station')
+              .map((_, station) =>
+                (async () => {
+                  let category = ''
+                  let mealItemPromises = []
 
-        $(element)
-          .find('.menu-station')
-          .each((_, station) => {
-            let mealCategory = ''
-            let mealCategoryItems = []
-
-            $(station)
-              .find('.toggle-menu-station-data')
-              .each((_, el) => {
-                mealCategory = $(el).text().trim()
-              })
-
-            $(station)
-              .find('.menu-item-li')
-              .each(async (_, subElement) => {
-                try {
-                  const rawData = $(subElement).find('[id^="recipe-nutrition-"]').text()
-
-                  if (!rawData) return
-
-                  let parsedData
-                  try {
-                    parsedData = JSON.parse(rawData)
-                  } catch (err) {
-                    console.error(`Malformed JSON: ${rawData}`)
-                    return
-                  }
-
-                  const dieteryPreferences = []
-                  $(subElement)
-                    .find('.recipe-icon-wrap')
-                    .each((_, iconElement) => {
-                      const iconTitle = $(iconElement).attr('title') || $(iconElement).text().trim()
-                      if (iconTitle) dieteryPreferences.push(iconTitle)
+                  $(station)
+                    .find('.toggle-menu-station-data')
+                    .each((_, el) => {
+                      category = $(el).text().trim()
                     })
 
-                  const meal = await Meals.findOneAndUpdate(
-                    { name: parsedData.name, type: mealType },
-                    {
-                      $set: {
-                        calories: parsedData.facts.find((f) => f.label === 'Calories')?.value || 0,
-                        protein: parsedData.facts.find((f) => f.label === 'Protein')?.value || 0,
-                        fat: parsedData.facts.find((f) => f.label === 'Total Fat')?.value || 0,
-                        carbohydrate: parsedData.facts.find((f) => f.label === 'Total Carbohydrate')?.value || 0,
-                        serving: parsedData.serving_size || '',
-                        allergens: parsedData.allergens_list || '',
-                        ingredients: parsedData.ingredients_list || '',
-                        dieteryPreferences,
-                      },
-                    },
-                    { new: true, upsert: true, setDefaultsOnInsert: true }
-                  )
+                  $(station)
+                    .find('.menu-item-li')
+                    .each((_, subElement) => {
+                      mealItemPromises.push(
+                        (async () => {
+                          try {
+                            const rawData = $(subElement).find('[id^="recipe-nutrition-"]').text()
+                            if (!rawData) return null
 
-                  mealCategoryItems.push(meal._id)
-                } catch (err) {
-                  console.error('Error processing menu item:', err)
-                }
-              })
+                            let parsedData
+                            try {
+                              parsedData = JSON.parse(rawData)
+                            } catch (err) {
+                              console.error(`Malformed JSON: ${rawData}`)
+                              return null
+                            }
 
-            menu.push({
-              mealCategory,
-              mealCategoryItems,
-            })
-          })
-      })
+                            const dieteryPreferences = []
+                            $(subElement)
+                              .find('.recipe-icon-wrap')
+                              .each((_, iconElement) => {
+                                const iconTitle = $(iconElement).attr('title') || $(iconElement).text().trim()
+                                if (iconTitle) dieteryPreferences.push(iconTitle)
+                              })
+
+                            const meal = await Meals.findOneAndUpdate(
+                              { name: parsedData.name, type: mealType },
+                              {
+                                $set: {
+                                  calories: parsedData.facts.find((f) => f.label === 'Calories')?.value || 0,
+                                  protein: parsedData.facts.find((f) => f.label === 'Protein')?.value || 0,
+                                  fat: parsedData.facts.find((f) => f.label === 'Total Fat')?.value || 0,
+                                  carbohydrate:
+                                    parsedData.facts.find((f) => f.label === 'Total Carbohydrate')?.value || 0,
+                                  serving: parsedData.serving_size || '',
+                                  allergens: parsedData.allergens_list || '',
+                                  ingredients: parsedData.ingredients_list || '',
+                                  dieteryPreferences,
+                                },
+                              },
+                              { new: true, upsert: true, setDefaultsOnInsert: true }
+                            )
+
+                            return meal?._id || null
+                          } catch (err) {
+                            console.error('Error processing menu item:', err)
+                            return null
+                          }
+                        })()
+                      )
+                    })
+
+                  const resolvedItems = (await Promise.all(mealItemPromises)).filter(Boolean)
+
+                  menu.push({
+                    category,
+                    items: resolvedItems,
+                  })
+                })()
+              )
+              .get()
+
+            await Promise.all(stationPromises)
+            return { mealType, menu }
+          })()
+        )
+        .get()
+
+      const resolvedMenus = await Promise.all(mealPromises)
+
+      const finalMenu = resolvedMenus.flatMap(({ menu }) => menu)
 
       await Restaurants.findOneAndUpdate(
         { name: restaurantName },
@@ -129,7 +151,7 @@ export const scrapeHPU = async () => {
           $set: {
             campus,
             category,
-            menu,
+            menu: finalMenu,
             tabItems: mealTypes,
           },
         },
@@ -140,7 +162,7 @@ export const scrapeHPU = async () => {
         restaurant: restaurantName,
         campus,
         category,
-        menu,
+        menu: finalMenu,
         tabItems: mealTypes,
       })
     } catch (error) {

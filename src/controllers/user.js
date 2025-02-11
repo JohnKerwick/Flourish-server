@@ -57,7 +57,22 @@ export const CONTROLLER_USER = {
         message: 'User not found.',
       })
     }
-    
+    if (existingUser.student) {
+      if (body.student.school && body.student.school !== existingUser.student.school) {
+        console.log('Campus has changed. Clearing likedMeals and likedRestaurants.')
+        if (existingUser.likedMeals?.length) {
+          await Meals.updateMany(
+            { _id: { $in: existingUser.likedMeals.map((meal) => meal.mealId) } },
+            { $pull: { likedBy: id } }
+          )
+        }
+        if (existingUser.likedRestaurants?.length) {
+          await Restaurants.updateMany({ _id: { $in: existingUser.likedRestaurants } }, { $pull: { likedBy: id } })
+        }
+        body.likedMeals = []
+        body.likedRestaurants = []
+      }
+    }
 
     const user = await User.findByIdAndUpdate(id, body, {
       new: true,

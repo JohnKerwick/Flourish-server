@@ -9,7 +9,8 @@ import { connectMongoDB } from './config/dbConnection'
 import { corsConfig } from './config/cors'
 import session from 'express-session'
 import configSwagger from './config/swagger'
-
+const axios = require('axios')
+const fs = require('fs')
 import { createServer } from 'node:http'
 import { init } from './socket'
 import { endMealCron, mealTimeCron } from './utils'
@@ -58,161 +59,118 @@ server.listen(PORT, async () => {
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })
 
-// app.get('/restaurants', async (req, res) => {
-//   try {
-//     // Call the Nutritionix API
-//     const options = {
-//       method: 'GET',
-//       url: 'https://trackapi.nutritionix.com/v2/search/instant/',
-//       params: { query: 'subway' },
-//       headers: {
-//         'Content-Type': 'application/json',
-//         'x-app-id': '35363ffd', // Your app ID here
-//         'x-app-key': '56633048ecdeb2b2c6678242decf3012', // Your app key here
-//       },
-//     }
+import { Meals, Restaurants } from './models'
 
-//     // Fetch data from the Nutritionix API
-//     const response = await axios(options)
+app.get('/get-data', async (req, res) => {
+  try {
+    const brands = [
+      { name: 'Subway', id: '513fbc1283aa2dc80c000005' },
+      { name: 'Barberitos', id: '521b95434a56d006cae297f3' },
+      { name: 'Jamba', id: '513fbc1283aa2dc80c000040' },
+      { name: 'Chick-Fil-A', id: '513fbc1283aa2dc80c000025' },
+      { name: 'Starbucks', id: '513fbc1283aa2dc80c00001f' },
+      { name: 'Taco Bell', id: '513fbc1283aa2dc80c000020' },
+      { name: 'Panera Bread', id: '513fbc1283aa2dc80c00000c' },
+      { name: 'SaladWorks', id: '521b95444a56d006cae29993' },
+      { name: 'Panda Express', id: '513fbc1283aa2dc80c00002e' },
+      { name: "Auntie Anne's", id: '513fbc1283aa2dc80c00013e' },
+      { name: 'Bojangles', id: '513fbc1283aa2dc80c0002eb' },
+    ]
 
-//     // Send the response as JSON
-//     res.json(response.data) // This will return the data in JSON format
-//   } catch (error) {
-//     console.error('Error fetching data from Nutritionix API:', error)
-//     res.status(500).json({ error: 'Failed to fetch data from Nutritionix API' })
-//   }
-// })
+    for (let brand of brands) {
+      console.log(`Processing brand: ${brand.name}, ID: ${brand.id}`)
+      try {
+        const response1 = await axios.get(`https://www.nutritionix.com/nixapi/brands/${brand.id}/items/1?limit=3900`, {
+          headers: { 'Content-Type': 'application/json' },
+        })
 
-// app.get('/restaurants/:', async (req, res) => {
-//   try {
-//     // Call the Nutritionix API
-//     const options = {
-//       method: 'GET',
-//       url: 'https://trackapi.nutritionix.com/v2/search/instant/',
-//       params: { query: 'subway' },
-//       headers: {
-//         'Content-Type': 'application/json',
-//         'x-app-id': '35363ffd', // Your app ID here
-//         'x-app-key': '56633048ecdeb2b2c6678242decf3012', // Your app key here
-//       },
-//     }
+        const brandedItems = response1.data.items
 
-//     // Fetch data from the Nutritionix API
-//     const response = await axios(options)
+        for (let item of brandedItems) {
+          try {
+            const response2 = await axios.get('https://trackapi.nutritionix.com/v2/search/item/', {
+              params: { nix_item_id: item.item_id },
+              headers: {
+                'Content-Type': 'application/json',
+                'x-app-id': '35363ffd',
+                'x-app-key': '56633048ecdeb2b2c6678242decf3012',
+              },
+            })
+            console.log(response2.data.foods[0].food_name)
+            const menuData = {
+              mealName: response2.data.foods[0].food_name,
+              calories: response2.data.foods[0].nf_calories,
+              protein: response2.data.foods[0].nf_protein,
+              fat: response2.data.foods[0].nf_total_fat,
+              carbohydrate: response2.data.foods[0].nf_total_carbohydrate,
+              serving: `${response2.data.foods[0].serving_qty} ${response2.data.foods[0].serving_unit}`,
+            }
 
-//     // Send the response as JSON
-//     res.json(response.data) // This will return the data in JSON format
-//   } catch (error) {
-//     console.error('Error fetching data from Nutritionix API:', error)
-//     res.status(500).json({ error: 'Failed to fetch data from Nutritionix API' })
-//   }
-// })
+            // Check if the meal already exists
+            const existingMeal = await Meals.findOne({ name: menuData.mealName })
 
-// app.get('/item/:itemId', async (req, res) => {
-//   const itemId = req.params.itemId // Extract the nix_item_id from the URL
+            let meal
+            if (existingMeal) {
+              // Update the existing meal
+              meal = await Meals.findOneAndUpdate(
+                { name: menuData.mealName },
+                {
+                  $set: {
+                    'nutrients.calories': menuData.calories,
+                    'nutrients.protein': menuData.protein,
+                    'nutrients.fat': menuData.fat,
+                    'nutrients.carbohydrate': menuData.carbohydrate,
+                    serving: menuData.serving,
+                  },
+                },
+                { new: true }
+              )
+              console.log(`Updated meal: ${menuData.mealName}`)
+            } else {
+              // Insert a new meal
+              meal = new Meals({
+                name: menuData.mealName,
+                nutrients: {
+                  calories: menuData.calories,
+                  protein: menuData.protein,
+                  fat: menuData.fat,
+                  carbohydrate: menuData.carbohydrate,
+                },
+                serving: menuData.serving,
+                isAvailable: true,
+              })
+              await meal.save()
+              console.log(`Inserted new meal: ${menuData.mealName}`)
+            }
 
-//   try {
-//     // Send GET request to Nutritionix API for the item details
-//     const response = await axios.get(`https://trackapi.nutritionix.com/v2/search/item/`, {
-//       params: {
-//         nix_item_id: itemId, // Use the dynamic item ID in the query
-//       },
-//       headers: {
-//         'Content-Type': 'application/json',
-//         'x-app-id': '35363ffd', // Your app ID here
-//         'x-app-key': '56633048ecdeb2b2c6678242decf3012', // Your app key here
-//       },
-//     })
+            // Link the meal to the restaurant
+            await Restaurants.findOneAndUpdate(
+              { name: brand.name },
+              {
+                $set: {
+                  campus: 'UMD',
+                  category: 'Franchises',
+                },
+                $addToSet: {
+                  'menu.items': meal._id, // Use $addToSet to avoid duplicates
+                },
+              },
+              { new: true, upsert: true }
+            )
 
-//     // Send the response from Nutritionix API as JSON
-//     res.json(response.data) // Return the Nutritionix API response as JSON
-//   } catch (error) {
-//     // Handle errors (e.g., network issues, API errors)
-//     console.error('Error:', error)
-//     res.status(500).json({ error: 'Failed to fetch data from Nutritionix API' })
-//   }
-// })
+            console.log(`Linked meal "${menuData.mealName}" to restaurant "${brand.name}"`)
+          } catch (itemError) {
+            console.error(`Error processing item for brand "${brand.name}":`, itemError)
+          }
+        }
+      } catch (brandError) {
+        console.error(`Error fetching brand data for "${brand.name}":`, brandError)
+      }
+    }
 
-// // Route to handle fetching and saving the data at /get-data
-// app.get('/get-data', async (req, res) => {
-//   try {
-//     const brands = [
-//       'Subway',
-//       'Barberitos',
-//       'Chick-Fil-A',
-//       'Starbucks',
-//       'Jamba Juice',
-//       'Taco Bell',
-//       'Chick-Fil-A',
-//       'Qdoba',
-//       'Panera Bread',
-//       'SaladWorks',
-//       'Panda Express',
-//       'Bojangles',
-//       'Auntie Annes',
-//     ]
-
-//     // Step 1: Get data from the first API (search/instant)
-//     for (let brand of brands) {
-//       // Step 1: Get data from the first API (search/instant) for the current brand
-//       const response1 = await axios.get('https://trackapi.nutritionix.com/v2/search/instant/', {
-//         params: { query: brand },
-//         headers: {
-//           'Content-Type': 'application/json',
-//           'x-app-id': '35363ffd', // Your app ID here
-//           'x-app-key': '8eefc543e6aad468d802ec77048d74c1', // Your app key here
-//           'x-remote-user-id': 0,
-//         },
-//       })
-
-//       // Filter the response to include only items from "Subway"
-//       const brandedItems = response1.data.branded.filter((item) => item.brand_name === brand)
-
-//       // Initialize an array to hold the final processed data
-//       const processedData = []
-
-//       // Step 2: Loop through each item and fetch detailed information from API 2 (search/item)
-//       for (let item of brandedItems) {
-//         const itemId = item.nix_item_id
-
-//         // Fetch the detailed item data
-//         const response2 = await axios.get('https://trackapi.nutritionix.com/v2/search/item/', {
-//           params: {
-//             nix_item_id: itemId, // Use the dynamic item ID in the query
-//           },
-//           headers: {
-//             'Content-Type': 'application/json',
-//             'x-app-id': '35363ffd', // Your app ID here
-//             'x-app-key': '56633048ecdeb2b2c6678242decf3012', // Your app key here
-//             'x-remote-user-id': 0,
-//           },
-//         })
-
-//         // Extract the relevant data (calories, protein, fat, carbs, and serving)
-//         const itemData = {
-//           restaurant: brand,
-//           menu: {
-//             mealName: response2.data.foods[0].food_name,
-//             calories: response2.data.foods[0].nf_calories,
-//             protein: response2.data.foods[0].nf_protein,
-//             fat: response2.data.foods[0].nf_total_fat,
-//             carbohydrate: response2.data.foods[0].nf_total_carbohydrate,
-//             serving_unit: response2.data.foods[0].serving_unit,
-//             serving_qty: response2.data.foods[0].serving_qty,
-//           },
-//         }
-
-//         // Push the item data into the final array
-//         processedData.push(itemData)
-//       }
-//     }
-//     // Step 3: Save the processed data into 'test.json'
-//     fs.writeFileSync('test21.json', JSON.stringify(processedData, null, 2))
-
-//     // Send a success response
-//     res.status(200).json({ message: 'Data fetched and saved to test.json successfully!' })
-//   } catch (error) {
-//     console.error('Error fetching or processing data:', error)
-//     res.status(500).json({ message: 'An error occurred while fetching data.' })
-//   }
-// })
+    res.status(200).json({ message: 'Data fetched and uploaded to MongoDB successfully!' })
+  } catch (error) {
+    console.error('Error during data fetching:', error)
+    res.status(500).json({ message: 'An error occurred while fetching data.' })
+  }
+})
