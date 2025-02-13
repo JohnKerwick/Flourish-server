@@ -8,10 +8,7 @@ var restaurantSchema = new Schema({
     type: String,
     required: true,
   },
-  campus: {
-    type: String,
-    required: true,
-  },
+  campus: [],
   category: {
     type: String,
     required: true,

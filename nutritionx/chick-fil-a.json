@@ -1,0 +1,3798 @@
+[
+  {
+    "itemId": "22389216526cb775584a6421",
+    "name": "1% Chocolate Milk",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "7g",
+      "carbohydrate": "23g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c22dcecbc205de17",
+    "name": "1% Milk",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "7g",
+      "carbohydrate": "10g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892160e84d6d8556b45d9",
+    "name": "6 Pack Chocolate Chunk Cookie (per Cookie)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "5g",
+      "carbohydrate": "49g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b221d85275cbc065",
+    "name": "American Cheese",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216df8230afa9a829aa",
+    "name": "Avocado Lime Ranch Dressing",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ecc2b09380c1d9d6",
+    "name": "Bacon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216db029df3ae503e3a",
+    "name": "Bacon Topping",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216346f9a585cc15071",
+    "name": "Bacon, Egg & Cheese Biscuit",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "15g",
+      "carbohydrate": "38g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165e21569164d5e1f9",
+    "name": "Bacon, Egg & Cheese Muffin",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "16g",
+      "carbohydrate": "28g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216078e0bec3bb144e0",
+    "name": "Barbeque Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162b8a86f06731ceed",
+    "name": "Berry Parfait with Cookie Crumbs",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "12g",
+      "carbohydrate": "31g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216815976565129e369",
+    "name": "Berry Parfait with Granola",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "13g",
+      "carbohydrate": "35g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c711d803e13d0c47",
+    "name": "Blue Cheese Crumbles",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "2g",
+      "carbohydrate": "0g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921607839aa42f061db0",
+    "name": "Buddy Fruits Apple Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216aa6a14aedf11bde7",
+    "name": "Buttery Biscuit",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "4g",
+      "carbohydrate": "37g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921621452ac0b21c63ea",
+    "name": "Catering, 1% Chocolate Milk",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "7g",
+      "carbohydrate": "23g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167c994de55169d0c9",
+    "name": "Catering, 1% Milk",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "7g",
+      "carbohydrate": "10g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216128082fcd2e1a1bb",
+    "name": "Catering, Bottled Diet Lemonade",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b8121faed88af9e7",
+    "name": "Catering, Bottled Lemonade",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "73g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216870789022c8c2978",
+    "name": "Catering, Bottled Sweet Tea",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "48g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921649a634d9ea9a8c57",
+    "name": "Catering, Bottled Unsweet Tea",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ad71346688552832",
+    "name": "Catering, Chick-fil-A Chicken Sandwich",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "29g",
+      "carbohydrate": "41g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216162e95bc7824720d",
+    "name": "Catering, Chick-fil-A Diet Lemonade, Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "3g",
+      "carbohydrate": "126g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f2e669771214706c",
+    "name": "Catering, Chick-fil-A Iced Tea (1/2 Sweet Tea, 1/2 Unsweet Tea), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "790",
+      "protein": "0g",
+      "carbohydrate": "205g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216162a799406670a40",
+    "name": "Catering, Chick-fil-A Lemonade (1/2 Lemonade, 1/2 Diet Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1390",
+      "protein": "1g",
+      "carbohydrate": "389g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921681b2f63a52417e61",
+    "name": "Catering, Chick-fil-A Lemonade, Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2090",
+      "protein": "2g",
+      "carbohydrate": "549g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216cdd3cc5bc4453f2f",
+    "name": "Catering, Chick-fil-A Nuggets, 12 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "40g",
+      "carbohydrate": "16g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e06a768fb906212a",
+    "name": "Catering, Chick-fil-A Nuggets, 5 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "17g",
+      "carbohydrate": "7g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216fbdf42abc049ea5f",
+    "name": "Catering, Chick-fil-A Nuggets, 8 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "27g",
+      "carbohydrate": "11g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892166bded75dce8a77cb",
+    "name": "Catering, Chilled Grilled Chicken Sub Sandwich",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "36g",
+      "carbohydrate": "49g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921616be73d85b6317fd",
+    "name": "Catering, Coffee",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216d5eefcb3e423dfcf",
+    "name": "Catering, Freshly-Brewed Iced Tea Sweetened, Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1540",
+      "protein": "0g",
+      "carbohydrate": "398g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e6e6a03709dc3c68",
+    "name": "Catering, Honest Kids Apple Juice",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164dc48da97cddd6b1",
+    "name": "Catering, Simply Orange",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "2g",
+      "carbohydrate": "34g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a1562c4a8daf6562",
+    "name": "Catering, Spicy Chicken Sandwich",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "28g",
+      "carbohydrate": "45g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c517d1636dd7b011",
+    "name": "Catering, Spicy Chilled Grilled Chicken Sub Sandwich",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "33g",
+      "carbohydrate": "50g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a94983fa8d5645ae",
+    "name": "Catering, Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1030",
+      "protein": "1g",
+      "carbohydrate": "270g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216dd83c707405dc4e9",
+    "name": "Catering, Sunjoy (1/2 Sweet Tea, 1/2 Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1970",
+      "protein": "2g",
+      "carbohydrate": "506g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ce0fe37757fda4b5",
+    "name": "Catering, Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "1g",
+      "carbohydrate": "65g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c6d2d0fb3a1b4460",
+    "name": "Catering, Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1040",
+      "protein": "0g",
+      "carbohydrate": "291g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216bd812ff6314062d4",
+    "name": "Chick-fil-A Breakfast Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "15g",
+      "carbohydrate": "8g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b0e13f5a0ea82a04",
+    "name": "Chick-fil-A Chick-n-Minis Football-Shaped Tray, 10 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "910",
+      "protein": "49g",
+      "carbohydrate": "103g",
+      "fat": "34g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921652e5a06d21ea066c",
+    "name": "Chick-fil-A Chick-n-Minis, 10 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "910",
+      "protein": "49g",
+      "carbohydrate": "103g",
+      "fat": "34g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167ee82fb529860968",
+    "name": "Chick-fil-A Chick-n-Minis, 4 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "20g",
+      "carbohydrate": "41g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216de18c30f1034667c",
+    "name": "Chick-fil-A Chick-n-Strips, 2 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "19g",
+      "carbohydrate": "11g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b6bbb7c2610d63dd",
+    "name": "Chick-fil-A Chick-n-Strips, 3 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "29g",
+      "carbohydrate": "16g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c10fcc8fa226d3b6",
+    "name": "Chick-fil-A Chick-n-Strips, 4 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "39g",
+      "carbohydrate": "22g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216de52dab7f2061c57",
+    "name": "Chick-fil-A Chicken Biscuit",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "19g",
+      "carbohydrate": "45g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216cf89889f0bf0cc34",
+    "name": "Chick-fil-A Chicken Sandwich",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "29g",
+      "carbohydrate": "41g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e792bd679f693866",
+    "name": "Chick-fil-A Cool Wrap",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "660",
+      "protein": "43g",
+      "carbohydrate": "32g",
+      "fat": "45g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921625bd62a8d2e8a4cf",
+    "name": "Chick-fil-A Cool Wrap Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "21g",
+      "carbohydrate": "15g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ae3140baa3436daa",
+    "name": "Chick-fil-A Cool Wrap Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "21g",
+      "carbohydrate": "15g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164f1a0c6debe6477f",
+    "name": "Chick-fil-A Cool Wrap Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "21g",
+      "carbohydrate": "15g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216cd1763abdda28e3f",
+    "name": "Chick-fil-A Deluxe Sandwich with American",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "32g",
+      "carbohydrate": "43g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ece69cbf07996584",
+    "name": "Chick-fil-A Deluxe Sandwich with Colby Jack",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "34g",
+      "carbohydrate": "43g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216be78510a6756ee15",
+    "name": "Chick-fil-A Deluxe Sandwich with No Cheese",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "29g",
+      "carbohydrate": "43g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165f4b25d9c5ab8d37",
+    "name": "Chick-fil-A Deluxe Sandwich with Pepper Jack",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "34g",
+      "carbohydrate": "43g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921636c9c984a6ce618e",
+    "name": "Chick-fil-A Diet Lemonade, Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "3g",
+      "carbohydrate": "126g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216386a73d4ec3b527f",
+    "name": "Chick-fil-A Diet Lemonade, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165bffb4e10f485064",
+    "name": "Chick-fil-A Diet Lemonade, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162dbaaa64943cbd82",
+    "name": "Chick-fil-A Diet Lemonade, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163097ed38ab5eb96e",
+    "name": "Chick-fil-A Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "25g",
+      "carbohydrate": "13g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921631b6e6f47554393d",
+    "name": "Chick-fil-A Iced Tea (1/2 Sweet Tea, 1/2 Unsweet Tea), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "790",
+      "protein": "0g",
+      "carbohydrate": "205g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e4795e433776e368",
+    "name": "Chick-fil-A Icedream Cone",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "4g",
+      "carbohydrate": "32g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921667e656c5611b0825",
+    "name": "Chick-fil-A Icedream Cup",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "4g",
+      "carbohydrate": "24g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892169daa8bbe1fe99690",
+    "name": "Chick-fil-A Lemonade (1/2 Lemonade, 1/2 Diet Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1390",
+      "protein": "1g",
+      "carbohydrate": "389g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f05e28a3ce60da2f",
+    "name": "Chick-fil-A Lemonade, Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2090",
+      "protein": "2g",
+      "carbohydrate": "549g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e48a1b3fc5783253",
+    "name": "Chick-fil-A Lemonade, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "1g",
+      "carbohydrate": "96g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216dd64271be5be1ccf",
+    "name": "Chick-fil-A Lemonade, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "69g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892160f52500ccf1237bf",
+    "name": "Chick-fil-A Lemonade, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "50g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b1202556e098ca2b",
+    "name": "Chick-fil-A Nuggets Football-Shaped Tray, 30 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "950",
+      "protein": "100g",
+      "carbohydrate": "41g",
+      "fat": "43g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921686c2e0b6de240573",
+    "name": "Chick-fil-A Nuggets, 12 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "40g",
+      "carbohydrate": "16g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c26b79a331ad5058",
+    "name": "Chick-fil-A Nuggets, 30 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "950",
+      "protein": "100g",
+      "carbohydrate": "41g",
+      "fat": "43g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163eca372cff3b001f",
+    "name": "Chick-fil-A Nuggets, 5 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "17g",
+      "carbohydrate": "7g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163fc85b9c4138ca35",
+    "name": "Chick-fil-A Nuggets, 8 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "27g",
+      "carbohydrate": "11g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921613cc3524afe93b96",
+    "name": "Chick-fil-A Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a1c0d66e1651ca88",
+    "name": "Chick-fil-A Waffle Potato Fries, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "600",
+      "protein": "7g",
+      "carbohydrate": "65g",
+      "fat": "35g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b7e2d4fe5b7b7761",
+    "name": "Chick-fil-A Waffle Potato Fries, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "5g",
+      "carbohydrate": "45g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163957aa5813fb90b4",
+    "name": "Chick-fil-A Waffle Potato Fries, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "4g",
+      "carbohydrate": "35g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164c6ffc8d40081a71",
+    "name": "Chicken Noodle Soup, Bowl",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "17g",
+      "carbohydrate": "38g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216257f05c8bf629c46",
+    "name": "Chicken Noodle Soup, Cup",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "10g",
+      "carbohydrate": "25g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892160e22c1f8344654c4",
+    "name": "Chicken Tortilla Soup, Bowl",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "44g",
+      "carbohydrate": "65g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165ad88f1106227c88",
+    "name": "Chicken Tortilla Soup, Cup",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "24g",
+      "carbohydrate": "38g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a1fabed638799144",
+    "name": "Chicken, Egg & Cheese Biscuit",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "27g",
+      "carbohydrate": "48g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e6f71da3d09aefcb",
+    "name": "Chicken, Egg & Cheese Muffin",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "27g",
+      "carbohydrate": "36g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921610fbb5e0b133690e",
+    "name": "Chili Lime Pepitas",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168012332a8244ac22",
+    "name": "Chilled Chick-fil-A Nuggets Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921629948facff5cc6bb",
+    "name": "Chilled Chick-fil-A Nuggets Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921682707f7af02e02b7",
+    "name": "Chilled Chick-fil-A Nuggets Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ff4d98b3b748f7ca",
+    "name": "Chilled Chick-n-Strips Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "10g",
+      "carbohydrate": "6g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216edce0883c1be56bf",
+    "name": "Chilled Chick-n-Strips Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "10g",
+      "carbohydrate": "6g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921667e33a69a117f172",
+    "name": "Chilled Chick-n-Strips Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "10g",
+      "carbohydrate": "6g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892166cbdbe51512151a9",
+    "name": "Chilled Grilled Chicken Sub Sandwich Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "18g",
+      "carbohydrate": "25g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163212a4509a312226",
+    "name": "Chilled Grilled Chicken Sub Sandwich Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "18g",
+      "carbohydrate": "25g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921696840d5ecab95bfb",
+    "name": "Chilled Grilled Chicken Sub Sandwich Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "18g",
+      "carbohydrate": "25g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216d797589b510ef9a1",
+    "name": "Chocolate Chunk Cookie",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "5g",
+      "carbohydrate": "49g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921678ac86a99e4af4c6",
+    "name": "Chocolate Chunk Cookie And Chocolate Fudge Brownie Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "3g",
+      "carbohydrate": "36g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216cf0a4fdf945be45a",
+    "name": "Chocolate Chunk Cookie And Chocolate Fudge Brownie Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "3g",
+      "carbohydrate": "36g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163922e1d408d2cbe0",
+    "name": "Chocolate Chunk Cookie Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "5g",
+      "carbohydrate": "49g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f88ad3ab06f3df44",
+    "name": "Chocolate Chunk Cookie Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "5g",
+      "carbohydrate": "49g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167f89d9397d6f6d19",
+    "name": "Chocolate Fudge Brownie",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "4g",
+      "carbohydrate": "47g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168b3b7dba7cf28e81",
+    "name": "Chocolate Fudge Brownie Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "23g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921680b5566669124ce1",
+    "name": "Chocolate Fudge Brownie Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "23g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216aacf8a1e6a8eb855",
+    "name": "Chocolate Milkshake",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "590",
+      "protein": "12g",
+      "carbohydrate": "90g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892166655e24d2171c2d4",
+    "name": "Cobb Salad",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "830",
+      "protein": "42g",
+      "carbohydrate": "31g",
+      "fat": "60g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216194d570071adf0f9",
+    "name": "Cobb Salad with Chick-fil-A Chick-n-Strips",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "890",
+      "protein": "44g",
+      "carbohydrate": "37g",
+      "fat": "63g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a99c0d0673cc6309",
+    "name": "Cobb Salad with Chick-fil-A Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "830",
+      "protein": "39g",
+      "carbohydrate": "33g",
+      "fat": "60g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ec7db063496a9f89",
+    "name": "Cobb Salad with Grilled Filet (Cold)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "36g",
+      "carbohydrate": "22g",
+      "fat": "50g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163e9d735c2ecff9b0",
+    "name": "Cobb Salad with Grilled Filet (Warm)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "36g",
+      "carbohydrate": "22g",
+      "fat": "50g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167078dd79aef1962e",
+    "name": "Cobb Salad with Grilled Nuggets",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "710",
+      "protein": "40g",
+      "carbohydrate": "22g",
+      "fat": "52g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162e3786e05aa5b5d5",
+    "name": "Cobb Salad with No Chicken",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "15g",
+      "carbohydrate": "21g",
+      "fat": "49g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216743727c1e0be7ecf",
+    "name": "Cobb Salad with Nuggets",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "830",
+      "protein": "42g",
+      "carbohydrate": "31g",
+      "fat": "60g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164629c8a1036bc28c",
+    "name": "Cobb Salad with Spicy Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "860",
+      "protein": "38g",
+      "carbohydrate": "37g",
+      "fat": "62g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892160713034c81239492",
+    "name": "Cobb Salad with Spicy Grilled Filet (Cold)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "34g",
+      "carbohydrate": "23g",
+      "fat": "51g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162330cc9494456d36",
+    "name": "Coca-Cola, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "0g",
+      "carbohydrate": "86g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ae50b7de093a30bc",
+    "name": "Coca-Cola, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921688888a6674c877b5",
+    "name": "Coca-Cola, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "27g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168393ea964bd1fb2d",
+    "name": "Coffee",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921636953988af86defe",
+    "name": "Colby Jack Cheese",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "5g",
+      "carbohydrate": "0g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f48f96574e7fa8ed",
+    "name": "Cookies & Cream Milkshake",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "630",
+      "protein": "13g",
+      "carbohydrate": "90g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b1c23eca7bd2bd79",
+    "name": "Creamy Salsa Dressing",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "31g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216430dec2d3bab6238",
+    "name": "Crispy Bell Peppers",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b26b5bbe5b50ddc5",
+    "name": "Dr Pepper, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "70g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f32ed74bb597f9d2",
+    "name": "Dr Pepper, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "48g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167bc8bcd5ae1b690e",
+    "name": "Dr Pepper, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "36g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921636a51488e540e923",
+    "name": "Egg White Grill",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "27g",
+      "carbohydrate": "29g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165c1a77fd2f4f1ec0",
+    "name": "English Muffin",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "5g",
+      "carbohydrate": "27g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921655d6f78539ba9db0",
+    "name": "Fat-Free Honey Mustard Dressing",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c6904e1b8114c35a",
+    "name": "Freshly-Brewed Iced Tea Sweetened, Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1540",
+      "protein": "0g",
+      "carbohydrate": "398g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162430de0c7f2dc855",
+    "name": "Freshly-Brewed Iced Tea Sweetened, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "40g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216672521b911ecda24",
+    "name": "Freshly-Brewed Iced Tea Sweetened, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "26g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892169cd72f0aa5eeefaa",
+    "name": "Freshly-Brewed Iced Tea Sweetened, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e1f7dc974c4c95f9",
+    "name": "Frosted Coffee",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "6g",
+      "carbohydrate": "39g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b660a51eb6fa4c76",
+    "name": "Frosted Lemonade",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "6g",
+      "carbohydrate": "65g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892166fc18f7909d8e880",
+    "name": "Frosted Lemonade with Diet Lemonade",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "6g",
+      "carbohydrate": "46g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216083257bc270038ac",
+    "name": "Fruit Cup, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c57af053ab53d4d6",
+    "name": "Fruit Cup, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921611c50e90655b9f19",
+    "name": "Fruit Cup, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216d957239328980d74",
+    "name": "Fruit Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1580",
+      "protein": "16g",
+      "carbohydrate": "369g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168af24ff2b20936fa",
+    "name": "Fruit Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "780",
+      "protein": "8g",
+      "carbohydrate": "182g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161f202e68ee710f7b",
+    "name": "Garden Herb Ranch Dressing",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921634298b08f51404eb",
+    "name": "Garden Herb Ranch Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e5de5ba3def10f8f",
+    "name": "Garden Salad Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "630",
+      "protein": "38g",
+      "carbohydrate": "41g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921660b610b534cce90c",
+    "name": "Garden Salad Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "19g",
+      "carbohydrate": "20g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216cc091f531faa2fa0",
+    "name": "Gluten Free Bun",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "3g",
+      "carbohydrate": "37g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921617a91aa00a593330",
+    "name": "Grilled Breakfast Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "13g",
+      "carbohydrate": "0g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216220366bcab049d06",
+    "name": "Grilled Chicken Bundle",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "530",
+      "protein": "49g",
+      "carbohydrate": "37g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161fddb61cecf13a53",
+    "name": "Grilled Chicken Club with American",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "34g",
+      "carbohydrate": "45g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ca429d37e6211c3f",
+    "name": "Grilled Chicken Club with Colby Jack",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "37g",
+      "carbohydrate": "45g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b65bc0261392b16c",
+    "name": "Grilled Chicken Club with No Cheese",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "31g",
+      "carbohydrate": "45g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216411d01d17ebd5a9d",
+    "name": "Grilled Chicken Club with Pepper Jack",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "36g",
+      "carbohydrate": "45g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a773ff4a59b9521d",
+    "name": "Grilled Chicken Sandwich",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "28g",
+      "carbohydrate": "45g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165077a46d6d32f865",
+    "name": "Grilled Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "21g",
+      "carbohydrate": "1g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216255c0690d0d71953",
+    "name": "Grilled Nuggets, 12 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "38g",
+      "carbohydrate": "2g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a41f6b72c217cdc7",
+    "name": "Grilled Nuggets, 30 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "98g",
+      "carbohydrate": "4g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164f9b8359ec3f32bf",
+    "name": "Grilled Nuggets, 5 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "16g",
+      "carbohydrate": "1g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ae697436a351ad56",
+    "name": "Grilled Nuggets, 8 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "25g",
+      "carbohydrate": "1g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216395a80d0238b35e8",
+    "name": "Hash Brown Scramble Bowl with Bacon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "23g",
+      "carbohydrate": "15g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c040c5639a2229fa",
+    "name": "Hash Brown Scramble Bowl with Bacon, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "22g",
+      "carbohydrate": "2g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f4c095630ba71574",
+    "name": "Hash Brown Scramble Bowl with Grilled Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "31g",
+      "carbohydrate": "15g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164bb6b1c5db00f3ff",
+    "name": "Hash Brown Scramble Bowl with Grilled Filet, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "30g",
+      "carbohydrate": "2g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921605a88b9cb1a918d6",
+    "name": "Hash Brown Scramble Bowl with No Meat",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "17g",
+      "carbohydrate": "16g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c1e8823ffb240dcf",
+    "name": "Hash Brown Scramble Bowl with No Meat, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "16g",
+      "carbohydrate": "3g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216675dce01701d7849",
+    "name": "Hash Brown Scramble Bowl with Nuggets",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "29g",
+      "carbohydrate": "19g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892166753d9e1efa7f767",
+    "name": "Hash Brown Scramble Bowl with Nuggets, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "28g",
+      "carbohydrate": "7g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216fa79efef94094756",
+    "name": "Hash Brown Scramble Bowl with Sausage",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "23g",
+      "carbohydrate": "15g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216784c47e58a8581ca",
+    "name": "Hash Brown Scramble Bowl with Sausage, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "21g",
+      "carbohydrate": "2g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165c01ab9da9131a3a",
+    "name": "Hash Brown Scramble Bowl with Spicy Chicken",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "28g",
+      "carbohydrate": "22g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921663e0af316260907d",
+    "name": "Hash Brown Scramble Bowl with Spicy Chicken, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "27g",
+      "carbohydrate": "10g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216400cd389fec7e3bb",
+    "name": "Hash Brown Scramble Burrito with Bacon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "30g",
+      "carbohydrate": "46g",
+      "fat": "42g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216eb945533364501ec",
+    "name": "Hash Brown Scramble Burrito with Bacon, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "27g",
+      "carbohydrate": "34g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216350a7b00bc6dd0ca",
+    "name": "Hash Brown Scramble Burrito with Grilled Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "650",
+      "protein": "36g",
+      "carbohydrate": "46g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892169ec5258a66011821",
+    "name": "Hash Brown Scramble Burrito with Grilled Filet, No Hash Brown",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "35g",
+      "carbohydrate": "34g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921639c0f894246d3038",
+    "name": "Hash Brown Scramble Burrito with No Meat",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "22g",
+      "carbohydrate": "47g",
+      "fat": "34g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164c9c0a89dc3d2f6b",
+    "name": "Hash Brown Scramble Burrito with No Meat, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "21g",
+      "carbohydrate": "35g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216d655509b7fe7d821",
+    "name": "Hash Brown Scramble Burrito with Nuggets",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "700",
+      "protein": "34g",
+      "carbohydrate": "51g",
+      "fat": "40g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921608df07e0bf13973a",
+    "name": "Hash Brown Scramble Burrito with Nuggets, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "33g",
+      "carbohydrate": "38g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216fc87475b6eecdce9",
+    "name": "Hash Brown Scramble Burrito with Sausage",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "720",
+      "protein": "28g",
+      "carbohydrate": "46g",
+      "fat": "47g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a0c4dd0ae69d8c07",
+    "name": "Hash Brown Scramble Burrito with Sausage, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "26g",
+      "carbohydrate": "34g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892160f05a37815d2bf7c",
+    "name": "Hash Brown Scramble Burrito with Spicy Chicken",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "660",
+      "protein": "28g",
+      "carbohydrate": "54g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921621b6088c768ae2dd",
+    "name": "Hash Brown Scramble Burrito with Spicy Chicken, No Hash Browns",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "27g",
+      "carbohydrate": "41g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921614a8bae87b80f16d",
+    "name": "Hash Browns, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "4g",
+      "carbohydrate": "35g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921626c6988c4e98e735",
+    "name": "Hash Browns, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "3g",
+      "carbohydrate": "23g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162285047871c6a691",
+    "name": "Honest Kids Apple Juice",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162ce77804014949d8",
+    "name": "Honey Mustard Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a7a7ee8a914b98c2",
+    "name": "Honey Roasted Bbq Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b96b368e8956d3ba",
+    "name": "Hot Chick-fil-A Nuggets Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b1d5d74e5c95bf31",
+    "name": "Hot Chick-fil-A Nuggets Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f10cdd6fb4327c9e",
+    "name": "Hot Chick-fil-A Nuggets Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c0e541ff221d6660",
+    "name": "Hot Chick-n-Strips Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "10g",
+      "carbohydrate": "6g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921652cabe3d8b744c0a",
+    "name": "Hot Chick-n-Strips Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "10g",
+      "carbohydrate": "6g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892160b20c3b0b0d5ce8e",
+    "name": "Hot Chick-n-Strips Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "10g",
+      "carbohydrate": "6g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892169d613312cd17277b",
+    "name": "Iced Coffee",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "4g",
+      "carbohydrate": "23g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216daf76273aa01ee76",
+    "name": "Kale Crunch Side",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "4g",
+      "carbohydrate": "13g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167821348146961689",
+    "name": "Kale Crunch Side Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2440",
+      "protein": "63g",
+      "carbohydrate": "166g",
+      "fat": "182g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a91a3b66b0affad6",
+    "name": "Kale Crunch Side Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1160",
+      "protein": "30g",
+      "carbohydrate": "77g",
+      "fat": "87g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216835734b6c3428613",
+    "name": "Kids Chick-fil-A Chick-n-Strips, 2 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "19g",
+      "carbohydrate": "11g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216d493c50b99d080aa",
+    "name": "Kids Chick-fil-A Nuggets, 5 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "17g",
+      "carbohydrate": "7g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216464700c1159b7210",
+    "name": "Kids Grilled Nuggets, 5 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "16g",
+      "carbohydrate": "1g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216d6895dcf25be1ae0",
+    "name": "Lettuce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164ad4c2b5aad49f9a",
+    "name": "Light Balsamic Vinaigrette Dressing",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921675a8d6694bce51c5",
+    "name": "Light Italian Dressing",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921607f5e0b8e4eb23ab",
+    "name": "Mac & Cheese Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "9850",
+      "protein": "442g",
+      "carbohydrate": "616g",
+      "fat": "625g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163ef2d910c0f6157b",
+    "name": "Mac & Cheese Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "4930",
+      "protein": "221g",
+      "carbohydrate": "308g",
+      "fat": "312g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f1550d1bfeb2d5b7",
+    "name": "Mac & Cheese, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "840",
+      "protein": "38g",
+      "carbohydrate": "53g",
+      "fat": "53g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a3fac63692a77972",
+    "name": "Mac & Cheese, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "20g",
+      "carbohydrate": "28g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ea07f6d7e06a220b",
+    "name": "Mac & Cheese, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "12g",
+      "carbohydrate": "17g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164d4d3ca51b120e40",
+    "name": "Market Salad",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "28g",
+      "carbohydrate": "42g",
+      "fat": "31g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892169af1616274216629",
+    "name": "Market Salad with Chick-fil-A Chick-n-Strips",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "750",
+      "protein": "36g",
+      "carbohydrate": "57g",
+      "fat": "43g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c2b1af0fad8f42d6",
+    "name": "Market Salad with Chick-fil-A Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "31g",
+      "carbohydrate": "53g",
+      "fat": "41g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892169f7291d6cc06aef3",
+    "name": "Market Salad with Grilled Filet (Cold)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "28g",
+      "carbohydrate": "42g",
+      "fat": "31g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216365aba3c8a1224b6",
+    "name": "Market Salad with Grilled Filet (Warm)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "28g",
+      "carbohydrate": "42g",
+      "fat": "31g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162629dc940aa30da8",
+    "name": "Market Salad with Grilled Nuggets",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "32g",
+      "carbohydrate": "41g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892160f4a895cae3e412e",
+    "name": "Market Salad with No Chicken",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "7g",
+      "carbohydrate": "40g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921673d2db2de6ba15eb",
+    "name": "Market Salad with Nuggets",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "34g",
+      "carbohydrate": "51g",
+      "fat": "40g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161bb7418881e67faa",
+    "name": "Market Salad with Spicy Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "720",
+      "protein": "30g",
+      "carbohydrate": "56g",
+      "fat": "42g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161dc9b5c030dc806c",
+    "name": "Market Salad with Spicy Grilled Filet (Cold)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "26g",
+      "carbohydrate": "42g",
+      "fat": "31g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216d83c324fab3f9fce",
+    "name": "Mini Yeast Rolls, 4 ct",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "6g",
+      "carbohydrate": "36g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921625cda78c70be7739",
+    "name": "Multigrain Brioche Bun",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "7g",
+      "carbohydrate": "38g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c9e2aee3e2d8cdf7",
+    "name": "Pepper Jack Cheese",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e66130b7484da48d",
+    "name": "Peppermint Chip Frosted Coffee",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "7g",
+      "carbohydrate": "83g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921699343892bd32c52e",
+    "name": "Peppermint Chip Milkshake",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "11g",
+      "carbohydrate": "109g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163fa5b56878c1a959",
+    "name": "Peppermint Coffee",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216add424ee41d3a0bd",
+    "name": "Peppermint Iced Coffee",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "3g",
+      "carbohydrate": "44g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167fb809ad7abc5361",
+    "name": "Polynesian Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "0g",
+      "carbohydrate": "14g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a365042e68f0d019",
+    "name": "Red Flash, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "0g",
+      "carbohydrate": "84g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e354b38342ad6c71",
+    "name": "Red Flash, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b152422264a8b1e1",
+    "name": "Red Flash, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "37g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161093f9b0aa59770e",
+    "name": "Saltines",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "1g",
+      "carbohydrate": "9g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216bdbe5ec620f6b1e8",
+    "name": "Sausage",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "11g",
+      "carbohydrate": "1g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163277c3b0e612e1a3",
+    "name": "Sausage, Egg & Cheese Biscuit",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "620",
+      "protein": "22g",
+      "carbohydrate": "38g",
+      "fat": "42g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ddc966af266d5c04",
+    "name": "Sausage, Egg & Cheese Muffin",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "23g",
+      "carbohydrate": "29g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216612f271932e99d58",
+    "name": "Seasoned Tortilla Strips",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "8g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162b0db7f4184a49a8",
+    "name": "Side Fruit Cup, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921694a2ee8a94fe1a36",
+    "name": "Side Fruit Cup, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168a5671e270bada55",
+    "name": "Side Fruit Cup, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f84a48ef9094903a",
+    "name": "Side Salad",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "6g",
+      "carbohydrate": "14g",
+      "fat": "42g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a2f02ab6d7ada07f",
+    "name": "Side, Berry Parfait with Cookie Crumbs",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "12g",
+      "carbohydrate": "31g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c123817bc7abbc87",
+    "name": "Side, Berry Parfait with Granola",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "13g",
+      "carbohydrate": "35g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216d15233f3c147108f",
+    "name": "Simply Orange",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "2g",
+      "carbohydrate": "34g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161cb6456cba0530de",
+    "name": "Southwest Veggie Wrap Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "13g",
+      "carbohydrate": "17g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168981c7e6f1d8b8eb",
+    "name": "Southwest Veggie Wrap Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "13g",
+      "carbohydrate": "17g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216ad531096e9e56507",
+    "name": "Southwest Veggie Wrap Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "13g",
+      "carbohydrate": "17g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892166b965db9b70bbf6a",
+    "name": "Spicy Breakfast Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "14g",
+      "carbohydrate": "6g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161f25fe14c5aba1e3",
+    "name": "Spicy Chicken Biscuit",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "19g",
+      "carbohydrate": "44g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c949b3cfb86bb94e",
+    "name": "Spicy Chicken Sandwich",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "28g",
+      "carbohydrate": "45g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921693a34c723533fd0c",
+    "name": "Spicy Chilled Grilled Chicken Sub Sandwich Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "16g",
+      "carbohydrate": "25g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921612724b308efed5e6",
+    "name": "Spicy Chilled Grilled Chicken Sub Sandwich Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "16g",
+      "carbohydrate": "25g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164f6d5ddd99bee0da",
+    "name": "Spicy Chilled Grilled Chicken Sub Sandwich Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "16g",
+      "carbohydrate": "25g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921646125001ac3b7316",
+    "name": "Spicy Cool Wrap Tray, Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "20g",
+      "carbohydrate": "15g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216a0ef4b323b6009d0",
+    "name": "Spicy Cool Wrap Tray, Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "20g",
+      "carbohydrate": "15g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164bf724994dc424e5",
+    "name": "Spicy Cool Wrap Tray, Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "20g",
+      "carbohydrate": "15g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168af9774e8d0e20d6",
+    "name": "Spicy Deluxe Sandwich with American",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "31g",
+      "carbohydrate": "47g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216205a3ec8fa98d7eb",
+    "name": "Spicy Deluxe Sandwich with Colby Jack",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "34g",
+      "carbohydrate": "47g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921683ed7bc6a3d8e39e",
+    "name": "Spicy Deluxe Sandwich with No Cheese",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "28g",
+      "carbohydrate": "46g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163e3d83a00df066bc",
+    "name": "Spicy Deluxe Sandwich with Pepper Jack",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "31g",
+      "carbohydrate": "46g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163a95f90c14fcbc44",
+    "name": "Spicy Southwest Salad",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "33g",
+      "carbohydrate": "27g",
+      "fat": "49g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168c0d552ed2f51c93",
+    "name": "Spicy Southwest Salad with Chick-fil-A Chick-n-Strips",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "880",
+      "protein": "43g",
+      "carbohydrate": "41g",
+      "fat": "60g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167aa18fd9ec487a0b",
+    "name": "Spicy Southwest Salad with Chick-fil-A Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "830",
+      "protein": "38g",
+      "carbohydrate": "37g",
+      "fat": "58g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216af1fb6764ed2c535",
+    "name": "Spicy Southwest Salad with Grilled Filet (Cold)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "35g",
+      "carbohydrate": "26g",
+      "fat": "48g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216113e4298f9ee167f",
+    "name": "Spicy Southwest Salad with Grilled Filet (Warm)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "35g",
+      "carbohydrate": "26g",
+      "fat": "48g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161a0a3294f86f2f47",
+    "name": "Spicy Southwest Salad with Grilled Nuggets",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "700",
+      "protein": "39g",
+      "carbohydrate": "26g",
+      "fat": "49g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216adeba93a77d00b29",
+    "name": "Spicy Southwest Salad with No Chicken",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "14g",
+      "carbohydrate": "25g",
+      "fat": "47g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892167cbeb729834144b6",
+    "name": "Spicy Southwest Salad with Nuggets",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "830",
+      "protein": "40g",
+      "carbohydrate": "36g",
+      "fat": "58g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892162d85b3301ec31254",
+    "name": "Spicy Southwest Salad with Spicy Filet",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "850",
+      "protein": "37g",
+      "carbohydrate": "41g",
+      "fat": "60g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b92dc2b25eee9935",
+    "name": "Spicy Southwest Salad with Spicy Grilled Filet (Cold)",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "33g",
+      "carbohydrate": "27g",
+      "fat": "49g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216145afbd4261ac2a8",
+    "name": "Strawberry Milkshake",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "590",
+      "protein": "11g",
+      "carbohydrate": "93g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b919c1461af094b4",
+    "name": "Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1030",
+      "protein": "1g",
+      "carbohydrate": "270g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892166a30d9c5913dd73a",
+    "name": "Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade), Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "38g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216cf550eff2b3cce0c",
+    "name": "Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade), Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "25g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161bae246ca0797f26",
+    "name": "Sunjoy (1/2 Sweet Tea, 1/2 Diet Lemonade), Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b58069da2b856610",
+    "name": "Sunjoy (1/2 Sweet Tea, 1/2 Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1970",
+      "protein": "2g",
+      "carbohydrate": "506g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216b19f12daa34f127e",
+    "name": "Sunjoy (1/2 Sweet Tea, 1/2 Lemonade), Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "72g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161e91cef09c44196e",
+    "name": "Sunjoy (1/2 Sweet Tea, 1/2 Lemonade), Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "45g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216f3e94183fedc5097",
+    "name": "Sunjoy (1/2 Sweet Tea, 1/2 Lemonade), Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "33g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921646a3691df8b1a7bf",
+    "name": "Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "1g",
+      "carbohydrate": "65g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216808b675e6c9a4821",
+    "name": "Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade), Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165337f181b20a3f12",
+    "name": "Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade), Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216132db9fc4f59d2fd",
+    "name": "Sunjoy (1/2 Unsweet Tea, 1/2 Diet Lemonade), Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892165b65a435782a7771",
+    "name": "Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade), Gallon",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1040",
+      "protein": "0g",
+      "carbohydrate": "291g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892169104fc8a5ad8efd1",
+    "name": "Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade), Large",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216855ac81ad36aaa77",
+    "name": "Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade), Medium",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "25g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921697a2a7564273bf85",
+    "name": "Sunjoy (1/2 Unsweet Tea, 1/2 Lemonade), Small",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216e685846310669c50",
+    "name": "Sweet & Spicy Sriracha Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216391a6d78ac49d33e",
+    "name": "Tomato",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238921629502cb4674b6999",
+    "name": "Vanilla Iced Coffee",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "4g",
+      "carbohydrate": "22g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892168174da5214f7fc24",
+    "name": "Vanilla Milkshake",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "13g",
+      "carbohydrate": "82g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892164d93a2ddfcd94d57",
+    "name": "Waffle Potato Chips",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "25g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892163a3790acc4174503",
+    "name": "White Bun, Buttered",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "5g",
+      "carbohydrate": "29g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389216c24f5dff795170d1",
+    "name": "White Bun, Unbuttered",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "5g",
+      "carbohydrate": "28g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892161a0d16209ed679d6",
+    "name": "Zesty Apple Cider Vinaigrette Dressing",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223892169e7080eae6feb027",
+    "name": "Zesty Buffalo Sauce",
+    "brandName": "Chick-Fil-A",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  }
+]

@@ -1,0 +1,4552 @@
+[
+  {
+    "itemId": "bd9d4415234ab498c6b17eab",
+    "name": "3-Cheese Chicken Flatbread Melt",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "20g",
+      "carbohydrate": "29g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d4415c649753f7081e02d",
+    "name": "3-Cheese Chicken Flatbread Melt - Value Menu",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "20g",
+      "carbohydrate": "29g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea2036fe194e972d71bbbc",
+    "name": "Anchor Steam (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea045621609db02e4751f0",
+    "name": "Angel Island IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea04568342c1260577d070",
+    "name": "Angel Island IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "2g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea8413457b93c569d488ed",
+    "name": "Angry Orchard - Crisp Apple (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "25g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea841340b3f1d906061ef8",
+    "name": "Angry Orchard - Crisp Apple (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "33g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea2036e8ecbf6b044a8a68",
+    "name": "Angry Orchard (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d6015b07c06724ca049a5",
+    "name": "Avocado Salsa Verde Packet",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152154314d8de23d7518ed31",
+    "name": "Barrio Blonde (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521543160d2fbc584d423ca",
+    "name": "Barrio Blonde (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15211291496cebf98f2ae6ea",
+    "name": "Beach Bell Beer (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15211291ef8fbf2b004e07a0",
+    "name": "Beach Bell Beer (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d07917ef73d219f49b15a",
+    "name": "Bean Burrito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "13g",
+      "carbohydrate": "54g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "1521950588a5c85a9fc2b97e",
+    "name": "Bean Burrito (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "13g",
+      "carbohydrate": "54g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791609b1c41237d8a28",
+    "name": "Beefy 5-Layer Burrito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "17g",
+      "carbohydrate": "64g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "1521428668201b8d54ab3799",
+    "name": "Beer - General (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "2g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142860d71a3a46a557bf5",
+    "name": "Beer - General (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "2g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214144245ac6fcc8ebf6c3",
+    "name": "Bell Tower Cerveza (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "2g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152141447f8b7d5d22f58f10",
+    "name": "Bell Tower Cerveza (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea52137ffcbcc9f4e67363",
+    "name": "Bell's Two Hearted Ale (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea5213488a0b198bfeddd6",
+    "name": "Bell's Two Hearted Ale (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea8413a9d58a3e48e930f1",
+    "name": "Black Abbey - The Rose (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea84136f0d567d50871e25",
+    "name": "Black Abbey - The Rose (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea5635c0c78f1b18563bd4",
+    "name": "Black Bean Chalupa Supreme",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "10g",
+      "carbohydrate": "36g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635c0b2c30b87b9f7f2",
+    "name": "Black Bean Chalupa Supreme (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "10g",
+      "carbohydrate": "36g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "1521950551c53dc5e22eb5cb",
+    "name": "Black Bean Crunchwrap Supreme",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "13g",
+      "carbohydrate": "77g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "15219505ddeda7ff208451e4",
+    "name": "Black Bean Crunchwrap Supreme (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "13g",
+      "carbohydrate": "77g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d7613ecadb95b1f01b0c4",
+    "name": "Black Bean Grilled Cheese Burrito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "23g",
+      "carbohydrate": "68g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d07914c9102f1d23a32a7",
+    "name": "Black Beans",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "7g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152195057f8063713e8f3214",
+    "name": "Black Beans (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "7g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d079100f9c8ece01f6407",
+    "name": "Black Beans & Rice",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "4g",
+      "carbohydrate": "25g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "1521950586b165f26a50ea8d",
+    "name": "Black Beans & Rice (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "4g",
+      "carbohydrate": "25g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152142861c2192541b788a48",
+    "name": "Blue Moon Belgian White (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142866ef7c3d92cd52cf8",
+    "name": "Blue Moon Belgian White (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d52153531d3f8ea74bcd7",
+    "name": "Blue Moon Belgian White (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "4g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "bd9d1213450918c56878b7e5",
+    "name": "Blue Moon Belgian White Bottle (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea52136b123e71927a4352",
+    "name": "Blue Moon Mango Wheat (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea52139b2c95ca50702381",
+    "name": "Blue Moon Mango Wheat (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "3g",
+      "carbohydrate": "21g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "1521428634f5fcf0b664525e",
+    "name": "Blue Point Big City Bells Pilsner (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "2g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286934295d259cd66b5",
+    "name": "Blue Point Big City Bells Pilsner (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152112914d3039756dcb87d5",
+    "name": "Blue Point Hoptical Illusion IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152112913d68fb50e9aa5197",
+    "name": "Blue Point Hoptical Illusion IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "4g",
+      "carbohydrate": "24g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286f113a58b92354522",
+    "name": "Blue Point Toasted Lager (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286073b409816c00f5c",
+    "name": "Blue Point Toasted Lager (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "3g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea84133373c4808beef84e",
+    "name": "Boulevard Cherry Blossom and Lime (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea8413214f8c8802c0d644",
+    "name": "Boulevard Cherry Blossom and Lime (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea8413fdb5072bbe466536",
+    "name": "Boulevard Space Camper Cosmic IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea8413be40e5127c714a3d",
+    "name": "Boulevard Space Camper Cosmic IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea8413cf08da335999195d",
+    "name": "Boulevard Unfiltered Wheat Beer (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea841352e2f0bd91a3681e",
+    "name": "Boulevard Unfiltered Wheat Beer (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea8413df8836e3a8beda9a",
+    "name": "Boulevard Unfiltered Wheat Beer 100 (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea8413ad21a0de676b950d",
+    "name": "Boulevard Unfiltered Wheat Beer 100 (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d0791d60a1fbb82ba3cf6",
+    "name": "Breakfast California Crunchwrap - Bacon",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "640",
+      "protein": "21g",
+      "carbohydrate": "53g",
+      "fat": "38g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d079189b1489ae3d2cb67",
+    "name": "Breakfast Crunchwrap - Bacon",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "21g",
+      "carbohydrate": "52g",
+      "fat": "40g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d6016022ef12086103c4a",
+    "name": "Breakfast Crunchwrap - Sausage Patty",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "750",
+      "protein": "21g",
+      "carbohydrate": "53g",
+      "fat": "49g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791ddde16eb9e838046",
+    "name": "Breakfast Crunchwrap - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "660",
+      "protein": "24g",
+      "carbohydrate": "53g",
+      "fat": "38g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c6407164118d346cde75cdef",
+    "name": "Breakfast Quesadilla - Bacon",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "25g",
+      "carbohydrate": "40g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c640716423a568ec16d9a354",
+    "name": "Breakfast Quesadilla - Sausage",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "23g",
+      "carbohydrate": "40g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c6407164074ff664e002e67b",
+    "name": "Breakfast Quesadilla - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "28g",
+      "carbohydrate": "41g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea56358ba2fe2613ebf298",
+    "name": "Breakfast Salsa Packet (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea48132bdc7544ea7c8a13",
+    "name": "Breaking Bud (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea481310d9531894c901c2",
+    "name": "Breaking Bud (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "3g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15211603e79c3a178fcbc5c2",
+    "name": "Brooklyn Lager (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521160318262f08c95b9a67",
+    "name": "Brooklyn Lager (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "1521428607cf698c706d40d9",
+    "name": "Bud Light (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "1g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142865c0e8b8988088c1e",
+    "name": "Bud Light (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d12131f1fd94c488a96f9",
+    "name": "Bud Light Bottle (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "1g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142861ab40820343c6698",
+    "name": "Budweiser (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521428693ff1a7e4be1e0a1",
+    "name": "Budweiser (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d12130d55677c690b4105",
+    "name": "Budweiser Bottle (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d07915daf99e5340fd5e8",
+    "name": "Burrito Supreme - Beef",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "16g",
+      "carbohydrate": "51g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791eb40605ffc1260a7",
+    "name": "Burrito Supreme - Chicken",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "19g",
+      "carbohydrate": "49g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791e4391417d2b16137",
+    "name": "Burrito Supreme - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "19g",
+      "carbohydrate": "49g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d5215ecc0635b8ba7096e",
+    "name": "Busch Light (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea5213e25c3467c7d06d07",
+    "name": "Calicraft Coast (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea52133ffd8470e8824fa3",
+    "name": "Calicraft Coast (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d6015c8c611338d57b5a2",
+    "name": "Cantina Chicken Bowl",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "25g",
+      "carbohydrate": "44g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d60156864591561ee9d09",
+    "name": "Cantina Chicken Burrito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "25g",
+      "carbohydrate": "43g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d60151383142055dccdbd",
+    "name": "Cantina Chicken Crispy Taco",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "16g",
+      "carbohydrate": "17g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d601572c6c8d53c4b8378",
+    "name": "Cantina Chicken Quesadilla",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "29g",
+      "carbohydrate": "43g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d6015d525375f74d78af5",
+    "name": "Cantina Chicken Soft Taco",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "12g",
+      "carbohydrate": "19g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea8033ba32915a7bc1dd51",
+    "name": "Captain Lawrence Hop Commander (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "463d07910e316a6cd604eb47",
+    "name": "Chalupa Supreme - Beef",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "12g",
+      "carbohydrate": "31g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791038459a48f86fee2",
+    "name": "Chalupa Supreme - Chicken",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "16g",
+      "carbohydrate": "29g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791c315ee0320d8a9ec",
+    "name": "Chalupa Supreme - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "15g",
+      "carbohydrate": "29g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d07915af988196455ab3d",
+    "name": "Cheese Quesadilla",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "18g",
+      "carbohydrate": "41g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791c77583bb0512507c",
+    "name": "Cheesy Bean & Rice Burrito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "9g",
+      "carbohydrate": "55g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635a50970a65a232129",
+    "name": "Cheesy Bean & Rice Burrito - Value Menu",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "9g",
+      "carbohydrate": "55g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152195050c6d34bc670aa789",
+    "name": "Cheesy Bean & Rice Burrito (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "9g",
+      "carbohydrate": "55g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22382415badf3622aac7ff92",
+    "name": "Cheesy Dipping Burritos - Slow Roasted Chicken",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "30g",
+      "carbohydrate": "37g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22382415dbb28507a9315a8a",
+    "name": "Cheesy Dipping Burritos - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "29g",
+      "carbohydrate": "35g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "ddee210143a9dd7ddec450d3",
+    "name": "Cheesy Double Beef Burrito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "560",
+      "protein": "21g",
+      "carbohydrate": "63g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d4415a1420526ffb7e147",
+    "name": "Cheesy Double Beef Burrito - Value Menu",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "560",
+      "protein": "21g",
+      "carbohydrate": "63g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea683639ed0880f9243377",
+    "name": "Cheesy Fiesta Potatoes",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "3g",
+      "carbohydrate": "28g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea68369391c2f6e9c8ccf7",
+    "name": "Cheesy Fiesta Potatoes - Value Menu",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "3g",
+      "carbohydrate": "28g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d07911ff33ec475ccee05",
+    "name": "Cheesy Fiesta Potatoes (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "3g",
+      "carbohydrate": "28g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635b436f13aa2619106",
+    "name": "Cheesy Gordita Crunch",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "20g",
+      "carbohydrate": "41g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791e4bfc06b4abdc0e5",
+    "name": "Cheesy Roll Up",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635b6ae3a4af5040633",
+    "name": "Cheesy Roll Up - Value Menu",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152195050e853d241d8a8e2c",
+    "name": "Cheesy Roll Up (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea2081a30c9df201403e9c",
+    "name": "Cheesy Toasted Breakfast Burrito - Bacon",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "13g",
+      "carbohydrate": "38g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea20811d1b5fb88dc8234a",
+    "name": "Cheesy Toasted Breakfast Burrito - Fiesta Potato (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "9g",
+      "carbohydrate": "44g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea2081716cedfd64aa47e1",
+    "name": "Cheesy Toasted Breakfast Burrito - Sausage",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "10g",
+      "carbohydrate": "38g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d1614a7b1ba6aefe6adbf",
+    "name": "Chicken Enchilada Burrito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "19g",
+      "carbohydrate": "49g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d4415dfad01ab0cdb6854",
+    "name": "Chicken Enchilada Burrito - Value Menu",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "19g",
+      "carbohydrate": "49g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791f8b85b3fbfa160a2",
+    "name": "Chili Cheese Burrito (regional)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "15g",
+      "carbohydrate": "41g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635abe0118edc3a8e63",
+    "name": "Chips and Nacho Cheese Sauce",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "24g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d07917d56bcb9752eb41d",
+    "name": "Chips and Nacho Cheese Sauce (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "24g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d07912bf83d90ae0de80e",
+    "name": "Cinnabon Delights (12 Pack - Serves 4)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1010",
+      "protein": "11g",
+      "carbohydrate": "88g",
+      "fat": "68g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea5635479fd715e2d0a297",
+    "name": "Cinnabon Delights (12 Pack - Serves 4) (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1010",
+      "protein": "11g",
+      "carbohydrate": "88g",
+      "fat": "68g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635e69a51db469dd121",
+    "name": "Cinnabon Delights (12 Pk - Serves 4) (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1010",
+      "protein": "11g",
+      "carbohydrate": "88g",
+      "fat": "68g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "463d0791e25cd01b61a658e1",
+    "name": "Cinnabon Delights (2 Pack)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "11g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "d3ea563569f65e8d811a3072",
+    "name": "Cinnabon Delights (2 Pack) (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635ad4620968e853012",
+    "name": "Cinnabon Delights (2 Pk) (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "11g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "463d67468d2494e60365f228",
+    "name": "Cinnabon Delights Coffee - Hot",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "1g",
+      "carbohydrate": "34g",
+      "fat": "2g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "463d6746698ffc99059e190c",
+    "name": "Cinnabon Delights Coffee - Iced",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "1g",
+      "carbohydrate": "34g",
+      "fat": "2g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea56357f1fa361d50c98a3",
+    "name": "Cinnamon Twists",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "1g",
+      "carbohydrate": "27g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791e0cd630701709114",
+    "name": "Cinnamon Twists (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "1g",
+      "carbohydrate": "27g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea20365aae7649b888b0ba",
+    "name": "Cool Kidz IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286800008caba131d7a",
+    "name": "Coors (Coors Banquet) (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286010d95b078dfa251",
+    "name": "Coors (Coors Banquet) (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "1g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286b511e91eeca45a53",
+    "name": "Coors Light (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286bf6c142ed976c38b",
+    "name": "Coors Light (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d5215f4b234cf081cd20c",
+    "name": "Coors Light (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "15214144f82a90c7accafd6e",
+    "name": "Copperhead Red (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214144777741554ef34ee5",
+    "name": "Copperhead Red (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "3g",
+      "carbohydrate": "25g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286225f798c7da407d1",
+    "name": "Corona Extra (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521428659356b0d536c30d1",
+    "name": "Corona Extra (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "2g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15218126d468233f127c71c0",
+    "name": "Corona Light (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "1g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15218126df35cf872497b8e8",
+    "name": "Corona Light (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152148863e628424893f616a",
+    "name": "Corona Premier (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214886f3155b2723aca40c",
+    "name": "Corona Premier (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d07916d7cd6f50addd82c",
+    "name": "Crunchwrap Supreme",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "15g",
+      "carbohydrate": "73g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791eddeb47f84bffe7e",
+    "name": "Crunchy Taco",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "8g",
+      "carbohydrate": "13g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791ce23db7b78734e71",
+    "name": "Crunchy Taco Supreme",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "8g",
+      "carbohydrate": "15g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea56354a443c45e21656e3",
+    "name": "Diablo Sauce Packet (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d07913af68f4cb9a40936",
+    "name": "Doritos Cheesy Gordita Crunch - Nacho Cheese",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "20g",
+      "carbohydrate": "41g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152181264737bb75853b3b1e",
+    "name": "Dos Equis Lager Especial (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15218126c480f5bb46d31bd1",
+    "name": "Dos Equis Lager Especial (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142860d15baf8c8808fe7",
+    "name": "Dos Equis Mexican Pale Ale (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286957cb372f12aef4b",
+    "name": "Dos Equis Mexican Pale Ale (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "3g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d4415aefeac6ea3415846",
+    "name": "Double Stacked Taco",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "11g",
+      "carbohydrate": "34g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d52154a797c515c08f7f5",
+    "name": "Elysian Space Dust IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "3g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d561439761404013480d0",
+    "name": "Elysian Space Dust IPA (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "5g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "d3ea5213ba15cb1a206a802c",
+    "name": "Estrella Jalisco (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea521373d32011e1e02057",
+    "name": "Estrella Jalisco (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "1g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214144fdfbd2e731b77ba4",
+    "name": "Fair Winds Howling Gail (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214144fea1f203640347a9",
+    "name": "Fair Winds Howling Gail (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15211291d818a6877b7c4c61",
+    "name": "Fat Tire Amber Ale (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15211291e1238ad7f33cd193",
+    "name": "Fat Tire Amber Ale (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea563554617ff5db14f253",
+    "name": "Fire Sauce Packet (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "15214286c3419f1f76c66c69",
+    "name": "Firestone 805 (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286f56092a7f7620fe7",
+    "name": "Firestone 805 (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "2g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d5215cb9402a3dd5ff113",
+    "name": "Firestone 805 (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "3g",
+      "carbohydrate": "27g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "bd9d5213c809bfff03808a0c",
+    "name": "Flybird Lime Margarita",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "5"
+  },
+  {
+    "itemId": "bd9d52134cfae961d0606673",
+    "name": "Flybird Lime Margarita (Can)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "25g",
+      "fat": "0g"
+    },
+    "serving": "8.5"
+  },
+  {
+    "itemId": "bd9d5213037b1750f6e5677b",
+    "name": "Flybird Mangonada",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "5"
+  },
+  {
+    "itemId": "bd9d52137f581c65b380af32",
+    "name": "Flybird Mojito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "5"
+  },
+  {
+    "itemId": "bd9d5213d38fe48b9867f51a",
+    "name": "Flybird Pina Colada",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "5"
+  },
+  {
+    "itemId": "bd9d521322426e10d877d60b",
+    "name": "Flybird Prickly Pear Margarita",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "5"
+  },
+  {
+    "itemId": "bd9d5213b96572c29479a02e",
+    "name": "Flybird Strawberry Margarita",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "5"
+  },
+  {
+    "itemId": "bd9d5213ba2fc922e5820da7",
+    "name": "Flybird Strawberry Margarita (Can)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "27g",
+      "fat": "0g"
+    },
+    "serving": "8.5"
+  },
+  {
+    "itemId": "152112911cc577e0b624e32a",
+    "name": "Four Peaks Kilt Lifter (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15211291386808b8f799829f",
+    "name": "Four Peaks Kilt Lifter (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "3g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea7213713d7669d78239c3",
+    "name": "Goose Island IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea7213e1d2be17e29709af",
+    "name": "Goose Island IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "3g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea20810f7b823433bb9234",
+    "name": "Grande Toasted Breakfast Burrito - Bacon",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "23g",
+      "carbohydrate": "51g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea2081d43754ef89e1f292",
+    "name": "Grande Toasted Breakfast Burrito - Sausage",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "21g",
+      "carbohydrate": "51g",
+      "fat": "31g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea20819753ed825de4a871",
+    "name": "Grande Toasted Breakfast Burrito - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "27g",
+      "carbohydrate": "52g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea0435879c39c6debac35f",
+    "name": "Grilled Cheese Burrito",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "710",
+      "protein": "25g",
+      "carbohydrate": "64g",
+      "fat": "39g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d4415034c60b4d9434f0b",
+    "name": "Grilled Cheese Burrito - Chicken",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "29g",
+      "carbohydrate": "62g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d6815d48b78dfe956c703",
+    "name": "Grilled Cheese Burrito - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "700",
+      "protein": "28g",
+      "carbohydrate": "62g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d16157bbd2dcd3067fe24",
+    "name": "Hard Mtn Dew - Baja Blast (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "bd9d16157ed06dd1e8da2b2f",
+    "name": "Hard Mtn Dew - Baja Blast (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "bd9d1615b99cee1a5c8744bd",
+    "name": "Hard Mtn Dew - Black Cherry (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "bd9d1615a1cd8de6136df7cc",
+    "name": "Hard Mtn Dew - Black Cherry (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "bd9d1615d469f4877a940529",
+    "name": "Hard Mtn Dew - Original (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "bd9d1615e7a63cbf168320c4",
+    "name": "Hard Mtn Dew - Original (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "bd9d16150fd18efc948949e2",
+    "name": "Hard Mtn Dew - Watermelon (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "bd9d1615b739c4fad684fbc3",
+    "name": "Hard Mtn Dew - Watermelon (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "d3ea52130de742049fe3e992",
+    "name": "Harpoon IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea5213f5bdca53ed09376f",
+    "name": "Harpoon IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "3g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d079115a8d6cca6398aa2",
+    "name": "Hash Brown",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635498493c9dae73847",
+    "name": "Hash Brown (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea20816d9691cd7a986fa9",
+    "name": "Hash Brown Toasted Breakfast Burrito - Bacon",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "20g",
+      "carbohydrate": "52g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea20811c36796c1d4710a4",
+    "name": "Hash Brown Toasted Breakfast Burrito - Sausage",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "18g",
+      "carbohydrate": "52g",
+      "fat": "33g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea20813dbfe774dcea53df",
+    "name": "Hash Brown Toasted Breakfast Burrito - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "24g",
+      "carbohydrate": "53g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "15214286081b4138c435015f",
+    "name": "Heineken (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "2g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286f4c89813e1c4c92f",
+    "name": "Heineken (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "3g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea5213f436abeb7dcffac5",
+    "name": "Heineken 0.0 (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea5213986be29e80ab7d4a",
+    "name": "Heineken 0.0 (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "2g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d1213e5380f2b3ef6894c",
+    "name": "Heineken Bottle (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "2g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286bcb743b662f54ef9",
+    "name": "Heineken Light (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "1g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142868a7e26360f286404",
+    "name": "Heineken Light (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15219505de137a734edf388d",
+    "name": "Hop Commander IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15219505f021abebc40ab277",
+    "name": "Hop Commander IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea3213651c23c156bf2851",
+    "name": "Hot Coffee with Creamer",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "1g",
+      "carbohydrate": "8g",
+      "fat": "1g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea5635548d5d49439b84a9",
+    "name": "Hot Sauce Packet (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea321382675ed687c761be",
+    "name": "Iced Coffee with Creamer",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "1g",
+      "carbohydrate": "8g",
+      "fat": "1g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea4813244be500dbe3d2e7",
+    "name": "Kansas City Dunkel (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea4813de8f7007c521b7f3",
+    "name": "Kansas City Dunkel (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "3g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea4813b5611006cc8a4b5f",
+    "name": "Kansas City Helles (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea4813de90494bf3328cdf",
+    "name": "Kansas City Helles (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "3g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286b8a4c03e7257d4d1",
+    "name": "Kona Big Wave Golden Ale (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286ac4f81f630145e48",
+    "name": "Kona Big Wave Golden Ale (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152112912cc77378f918b9ff",
+    "name": "Lagunitas IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "3g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521129157254819c8703b03",
+    "name": "Lagunitas IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "4g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214144beab6d2a7194b19d",
+    "name": "Landshark Lager (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214144fbe5311796bbe122",
+    "name": "Landshark Lager (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "2g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d6014a9f4c5e2c32084f7",
+    "name": "Large Nacho Fries",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "6g",
+      "carbohydrate": "52g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d4415a666adceed3d5777",
+    "name": "Loaded Beef Nachos",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "12g",
+      "carbohydrate": "44g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d44151ad1577886ef1206",
+    "name": "Loaded Beef Nachos - Value Menu",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "12g",
+      "carbohydrate": "44g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d20158e679a96ec69b9c7",
+    "name": "Loose Cannon IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "bd9d2015f2d9d1a7f903eb73",
+    "name": "Loose Cannon IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "4g",
+      "carbohydrate": "25g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "c64042951cf0c3e4126342d4",
+    "name": "Lowfat Milk - CA (Regional)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "9g",
+      "carbohydrate": "13g",
+      "fat": "2g"
+    },
+    "serving": "7"
+  },
+  {
+    "itemId": "c640429503a39dbcd4c585b7",
+    "name": "Lowfat Milk - Federal (Regional)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "7g",
+      "carbohydrate": "10g",
+      "fat": "2g"
+    },
+    "serving": "7"
+  },
+  {
+    "itemId": "d3ea52130f1219646d15cb1d",
+    "name": "Mad Tasty Grapefruit Sparkling Water",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea5213c8ff77073af50a0c",
+    "name": "Mad Tasty Unicorn Tears Sparkling Water",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea5213cbcacdaf4a16e6c9",
+    "name": "Mad Tasty Watermelon Kiwi Sparkling Water",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea5213ca9301633b581888",
+    "name": "Mad Tasty Yuzu Citrus Sparkling Water",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "463d0791be9e2c3a41ae7651",
+    "name": "Mexican Pizza",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "19g",
+      "carbohydrate": "48g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "1521428611c8e7e001e50970",
+    "name": "Michelob Original Lager (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286eb77520b09177fe4",
+    "name": "Michelob Original Lager (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "3g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286d41e78131ee93c94",
+    "name": "Michelob Ultra (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142866b0f89d5fc073203",
+    "name": "Michelob Ultra (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d12138b288182fae6ec27",
+    "name": "Michelob Ultra Bottle (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea563537587e58cbb7c4c3",
+    "name": "Mild Sauce Packet (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "15214286c8b2948f3cb65b24",
+    "name": "Miller Genuine Draft (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286ecaa14cf7732b4d5",
+    "name": "Miller Genuine Draft (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286d5780a8f753523e1",
+    "name": "Miller High Life (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142868dff4a426064554d",
+    "name": "Miller High Life (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142861e32c7303a422eb8",
+    "name": "Miller Lite (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286aaf55d1662b53be9",
+    "name": "Miller Lite (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea84330f81a960fb51bfaf",
+    "name": "Modelo Chelada (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "24g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286c9a1943f90887a1a",
+    "name": "Modelo Especial (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521428637f7cc40f6a9fddf",
+    "name": "Modelo Especial (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "1g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d5215aa71d6960a8177d8",
+    "name": "Modelo Especial (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "2g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "1521428675c5a6499b42d1a6",
+    "name": "Modelo Negra (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286296a9120eb16dc87",
+    "name": "Modelo Negra (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "2g",
+      "carbohydrate": "21g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286a6fd25e671294911",
+    "name": "Motorworks Intellectual Property IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "4g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142861b329bc8c6b875d7",
+    "name": "Motorworks Intellectual Property IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "5g",
+      "carbohydrate": "24g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "1521428640d6fc29f0b7121b",
+    "name": "Motorworks Pulp Fiction IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "4g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521428690027a5e7be302d5",
+    "name": "Motorworks Pulp Fiction IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "5g",
+      "carbohydrate": "24g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "223824157325a949d2a36b57",
+    "name": "Mtn Dew Baja Blast Dream Freeze (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "48g",
+      "fat": "1g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "22382415c3c01d5b5ad65145",
+    "name": "Mtn Dew Baja Blast Dream Freeze (20 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "59g",
+      "fat": "1g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "ddee2312af71489e46164f01",
+    "name": "Mtn Dew Baja Blast Freeze (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "ddee2312501bb1adbe478be2",
+    "name": "Mtn Dew Baja Blast Freeze (20 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "51g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "c6404295a56707a6983a7702",
+    "name": "Mtn Dew Baja Blast Freeze (32 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "0g",
+      "carbohydrate": "82g",
+      "fat": "0g"
+    },
+    "serving": "32"
+  },
+  {
+    "itemId": "22382415254a5bf8ba1bcda6",
+    "name": "Mtn Dew Baja Blast Strawberry Dream Freeze (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "48g",
+      "fat": "1g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "2238241532abf0dccf084bdf",
+    "name": "Mtn Dew Baja Blast Strawberry Dream Freeze (20 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "59g",
+      "fat": "1g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "463d079112df69a887755f3e",
+    "name": "Nacho Cheese Doritos Locos Taco",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "8g",
+      "carbohydrate": "12g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791efd4f64b45cee4a9",
+    "name": "Nacho Cheese Doritos Locos Taco Supreme",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "8g",
+      "carbohydrate": "14g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "32f13411c0380ea3cfecbd83",
+    "name": "Nacho Fries",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "4g",
+      "carbohydrate": "36g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea56359b6fea5aa30c671e",
+    "name": "Nachos BellGrande - Beef",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "740",
+      "protein": "17g",
+      "carbohydrate": "80g",
+      "fat": "39g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "15215220b111d52a19dc82b4",
+    "name": "Nachos BellGrande - Chicken",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "710",
+      "protein": "20g",
+      "carbohydrate": "78g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152152206e190e89d8e7c117",
+    "name": "Nachos BellGrande - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "720",
+      "protein": "20g",
+      "carbohydrate": "78g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "15214286f10e6693e322cb13",
+    "name": "Newcastle Brown Ale (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286bb679f96355d15f4",
+    "name": "Newcastle Brown Ale (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "1g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152116031dbd58a8f3c136b3",
+    "name": "Old Elephant IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "3g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15211603698e080d348284ac",
+    "name": "Old Elephant IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "4g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d6746df6687f34c265d21",
+    "name": "Orange Juice",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "2g",
+      "carbohydrate": "33g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152181267d7207b5f43deb6f",
+    "name": "Pabst Blue Ribbon Original (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152181264cdf8291a3a3cb0a",
+    "name": "Pabst Blue Ribbon Original (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "1521129132d6e920fd487747",
+    "name": "Pacifico (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521129159e59989c9a29a5b",
+    "name": "Pacifico (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "1g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214144ac2b4eea4bcf0cb5",
+    "name": "Patriot Ale (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152141447689534d6d417ae9",
+    "name": "Patriot Ale (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "1g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d0791abff9612843da062",
+    "name": "Pintos N Cheese",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "9g",
+      "carbohydrate": "19g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152195057ff6775967b75be5",
+    "name": "Pintos N Cheese (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "9g",
+      "carbohydrate": "19g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea96165013afe9635862c5",
+    "name": "Premium Roast Coffee - Hot",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea9616007edea4d8713167",
+    "name": "Premium Roast Coffee - Iced",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "c64042951afcb9cc8cba58b2",
+    "name": "Prosecco Sparkling Wine (350 mL)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "350"
+  },
+  {
+    "itemId": "1521950584dc46eeb90536ae",
+    "name": "Quesadilla - Cheese (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "18g",
+      "carbohydrate": "41g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791ada3913226c1bcd8",
+    "name": "Quesadilla - Chicken",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "26g",
+      "carbohydrate": "41g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791dfaf026fbb386616",
+    "name": "Quesadilla - Steak",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "26g",
+      "carbohydrate": "42g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "69245542d4debd93c7478dbb",
+    "name": "Red Sangria - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "0g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "c6404295051e02fce26c46f3",
+    "name": "Red Wine (6.3 fl oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "6.3"
+  },
+  {
+    "itemId": "1521543175abc025bdde55e2",
+    "name": "Revolution Anti Hero (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521543154546d816c0b2261",
+    "name": "Revolution Anti Hero (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "4g",
+      "carbohydrate": "27g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142869c82c42a6525741d",
+    "name": "Road 2 Ruin Double IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286d89a8f879aed8c4a",
+    "name": "Road 2 Ruin Double IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "4g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "c640429543ff11ddca5d1b8b",
+    "name": "Rum (80 proof)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c640429576ca65cd3302ed30",
+    "name": "Rum (80 proof) - Double - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c64042955b5ee751b4fb0572",
+    "name": "Rum (80 proof) - Single - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea80333c319f0cb9b283ce",
+    "name": "Samuel Adams '76 (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15211291e4c14f471e75dbe0",
+    "name": "Samuel Adams Winter Lager (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15211291ea095e0f36cd4330",
+    "name": "Samuel Adams Winter Lager (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142862432f898858e7f26",
+    "name": "Sea Hag IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "3g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142867cd40f619f5ba88e",
+    "name": "Sea Hag IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "4g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142862f2f92785b425f6d",
+    "name": "Shock Top Belgian White (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286a64e1d2661739899",
+    "name": "Shock Top Belgian White (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d5614561ddfc97a1c1b2d",
+    "name": "Sierra Nevada Hazy Little Thing IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "2g",
+      "carbohydrate": "21g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "bd9d56146032e90d72aa3c3d",
+    "name": "Sierra Nevada Hazy Little Thing IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "3g",
+      "carbohydrate": "27g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d0791bebfcf426f737fa9",
+    "name": "Soft Taco - Beef",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "9g",
+      "carbohydrate": "18g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d0791b8ddfd262810bbbc",
+    "name": "Soft Taco - Chicken",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "12g",
+      "carbohydrate": "16g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea56350f4301f4652a5735",
+    "name": "Soft Taco Supreme - Beef",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "9g",
+      "carbohydrate": "20g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea5635cc0aaeb3ccb66463",
+    "name": "Soft Taco Supreme - Chicken",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "13g",
+      "carbohydrate": "18g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "15218126149caa689296011a",
+    "name": "Sol Cervesa (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152181269f1806ce63b61f3d",
+    "name": "Sol Cervesa (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "463d07918021dd6215d1be8c",
+    "name": "Spicy Potato Soft Taco",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "5g",
+      "carbohydrate": "28g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea6836474c9b21499bacf5",
+    "name": "Spicy Potato Soft Taco - Value Menu",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "5g",
+      "carbohydrate": "28g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea6836add9f8a60d7efd30",
+    "name": "Spicy Potato Soft Taco (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "5g",
+      "carbohydrate": "28g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea20368aa0114e8b8644da",
+    "name": "St. Archer (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "32f19339fa14ec034a3c3c2d",
+    "name": "Stacker",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "17g",
+      "carbohydrate": "42g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223824157aef3ecd562946b9",
+    "name": "Steak Garlic Nacho Fries",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "14g",
+      "carbohydrate": "39g",
+      "fat": "31g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152142863abd263c13eaa16c",
+    "name": "Stella Artois (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286f457a40fa15b6b06",
+    "name": "Stella Artois (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d5215f023adfb18929334",
+    "name": "Stella Artois (24 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "152181264b9470058efacf7e",
+    "name": "Sweetwater 420 Extra Pale Ale (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "2g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15218126e828bdebdbdb47a3",
+    "name": "Sweetwater 420 Extra Pale Ale (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "17g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea60193e9279e82655d4ac",
+    "name": "Tampa Bay Reef Donkey (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "2g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286b35db4ea4514a4d5",
+    "name": "Tecate Light (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "1g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521428649c22b758cb898ba",
+    "name": "Tecate Light (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142863f4e19ec6d4893a5",
+    "name": "Tecate Original (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286e25479c7c57c973b",
+    "name": "Tecate Original (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "1g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "c640429527d454a4680e5519",
+    "name": "Tequila (80 proof)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c64042954de7d4794059dc35",
+    "name": "Tequila (80 proof) - Double - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c64042959aaf710e6c646e39",
+    "name": "Tequila (80 proof) - Single - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea441364ea95d1680d7dd9",
+    "name": "Vanilla Creamer",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "463d07912e64ee1c07e375d4",
+    "name": "Veggie Bowl",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "12g",
+      "carbohydrate": "47g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d4415223ebe248088b8de",
+    "name": "Veggie Mexican Pizza",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "14g",
+      "carbohydrate": "46g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d52152ef10d4057c69165",
+    "name": "Veggie Mexican Pizza (V)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "14g",
+      "carbohydrate": "46g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "152181261546884c3f3e4c48",
+    "name": "Victoria (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15218126fc63e50b303894e4",
+    "name": "Victoria (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "18g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "c64042956ead8e998334bf6e",
+    "name": "Vodka (80 proof)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c64042957ace4f515bf52a8d",
+    "name": "Vodka (80 proof) - Double - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c6404295dca9000b035b7630",
+    "name": "Vodka (80 proof) - Single - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "d3ea04569b5829127f23513d",
+    "name": "Voodoo Ranger Juicy Haze IPA (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea0456a9a81b82d2de9657",
+    "name": "Voodoo Ranger Juicy Haze IPA (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "c64028329f4e725a393376b8",
+    "name": "Water",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "c6404295cb93fedb14798528",
+    "name": "Whiskey (80 proof) - Double - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "c64042955809d021f7237c8b",
+    "name": "Whiskey (80 proof) - Single - LV",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "15219505b80023d2ada99d66",
+    "name": "White Claw Hard Seltzer (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "d3ea20811baeeca8a51eef76",
+    "name": "Wild Strawberry Freeze (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "d3ea2081e68de7db9168b96a",
+    "name": "Wild Strawberry Freeze (20 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "51g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "1521428616d65ee4f6bf0a57",
+    "name": "Yuengling - Black and Tan (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521428638bddb4c1aa56544",
+    "name": "Yuengling - Black and Tan (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286e7a1e2ab29259ae0",
+    "name": "Yuengling - Golden Pilsner (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286edad1927005aa140",
+    "name": "Yuengling - Golden Pilsner (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286648094f9aea92e72",
+    "name": "Yuengling - Lager (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "1521428634718754b5c1df7a",
+    "name": "Yuengling - Lager (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142863bcc29d41f014654",
+    "name": "Yuengling - Light Lager (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286ef74c7eb8c0249ae",
+    "name": "Yuengling - Light Lager (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286ebef5dcf3bfc70e4",
+    "name": "Yuengling - Porter (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "152142863b1f2f28f2f63ceb",
+    "name": "Yuengling - Porter (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "20g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "152142868d38178edddb5743",
+    "name": "Yuengling - Premium (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286db0168f3f716dd77",
+    "name": "Yuengling - Premium (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "15214286ada06e2aca90218f",
+    "name": "Yuengling - Premium Light (12 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "15214286426e190166e1e521",
+    "name": "Yuengling - Premium Light (16 oz)",
+    "brandName": "Taco Bell",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  }
+]

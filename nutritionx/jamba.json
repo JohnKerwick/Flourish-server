@@ -1,0 +1,2329 @@
+[
+  {
+    "itemId": "bd9d32161369542c12773934",
+    "name": "Acai Peanut Butter with Chocolate Hazelnut",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "620",
+      "protein": "11g",
+      "carbohydrate": "110g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216cfaa3343738bc0dd",
+    "name": "Acai Primo",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "8g",
+      "carbohydrate": "103g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ec85fc0fc190bf0f",
+    "name": "Acai Super-Antioxidant, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "10g",
+      "carbohydrate": "111g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ba2ffe769f046496",
+    "name": "Acai Super-Antioxidant, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "7g",
+      "carbohydrate": "88g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32161972e144014e86c0",
+    "name": "Acai Super-Antioxidant, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "6g",
+      "carbohydrate": "67g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216221822047312fefd",
+    "name": "Acai Tropical",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "8g",
+      "carbohydrate": "89g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216dc7fd8eb46d52fc1",
+    "name": "Aloha Pineapple, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "8g",
+      "carbohydrate": "106g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32162c893110ad38af1e",
+    "name": "Aloha Pineapple, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "7g",
+      "carbohydrate": "81g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32169ada88e265d1c23d",
+    "name": "Aloha Pineapple, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "6g",
+      "carbohydrate": "59g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321685def976cbc80e0f",
+    "name": "Apple 'N Greens, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "7g",
+      "carbohydrate": "96g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32162b5c93549b30f096",
+    "name": "Apple 'N Greens, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "6g",
+      "carbohydrate": "76g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32163038e2f0bf34a586",
+    "name": "Apple 'N Greens, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "5g",
+      "carbohydrate": "58g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321647fcbaddf8a388e3",
+    "name": "Belgian Waffle",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "5g",
+      "carbohydrate": "39g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321677dc38355717ee0d",
+    "name": "Bold 'N Cold Brew, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216f49b3e7faabc63d6",
+    "name": "Bold 'N Cold Brew, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216a4c66966e4862563",
+    "name": "Bowls, Acai Peanut Butter with Chocolate Hazelnut",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "11g",
+      "carbohydrate": "110g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32165746f039b816c4b6",
+    "name": "Bowls, Acai Tropical",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "8g",
+      "carbohydrate": "89g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216929d076ab4ccd772",
+    "name": "Bowls, Coconut Whip Tropical Waffle Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "9g",
+      "carbohydrate": "101g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216884b7f42fbe70ca3",
+    "name": "Bowls, Cocowhip PB + Banana Waffle Bowl with Chocolate Hazelnut",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "770",
+      "protein": "12g",
+      "carbohydrate": "109g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32164b8818a5a273348a",
+    "name": "Bowls, Cocowhip Strawberry Blueberry Waffle Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "8g",
+      "carbohydrate": "79g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321652a0c1f1a96ea44e",
+    "name": "Bowls, Greek Yogurt PB + Banana Waffle Bowl with Chocolate Hazelnut",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "740",
+      "protein": "24g",
+      "carbohydrate": "100g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321649a7bd4988ed1552",
+    "name": "Bowls, Greek Yogurt Strawberry Blueberry Waffle Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "18g",
+      "carbohydrate": "77g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d0291f83f26717bb",
+    "name": "Bowls, Greek Yogurt Tropical Waffle Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "9g",
+      "carbohydrate": "101g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216352db224e307a51b",
+    "name": "Bowls, Oatmeal",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "6g",
+      "carbohydrate": "31g",
+      "fat": "2.5g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d321620e4b17093a8513e",
+    "name": "Caribbean Passion, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "3g",
+      "carbohydrate": "101g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32167026da65b0450cd2",
+    "name": "Caribbean Passion, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "2g",
+      "carbohydrate": "80g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ccaa64872ad467e4",
+    "name": "Caribbean Passion, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "2g",
+      "carbohydrate": "60g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32167137fdc99db000c2",
+    "name": "Chickpea Veggie Crisp",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "4g",
+      "carbohydrate": "18g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32160c0b53ecfed3b457",
+    "name": "Chunky Strawberry",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "610",
+      "protein": "21g",
+      "carbohydrate": "96g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32168a0e662a8357b56e",
+    "name": "Classic Sausage, Egg + Cheese Handwich",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "12g",
+      "carbohydrate": "14g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e9d3e973e47bc3db",
+    "name": "Coconut Whip Tropical Waffle Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "9g",
+      "carbohydrate": "101g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216a5101de6f673e327",
+    "name": "Cocowhip PB + Banana Waffle Bowl with Chocolate Hazelnut",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "770",
+      "protein": "12g",
+      "carbohydrate": "109g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d2bc2b0fc3099537",
+    "name": "Cocowhip Strawberry + Banana Granola Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "4g",
+      "carbohydrate": "64g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e6d9a4c7fc34e063",
+    "name": "Cocowhip Strawberry Blueberry Waffle Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "8g",
+      "carbohydrate": "79g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321631af433c117f768c",
+    "name": "Cucumber Orange Cooler, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "5g",
+      "carbohydrate": "79g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32166fbaf12d4cf99e0d",
+    "name": "Cucumber Orange Cooler, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "4g",
+      "carbohydrate": "63g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e65abd4fa08f081e",
+    "name": "Cucumber Orange Cooler, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "3g",
+      "carbohydrate": "46g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321636e40210f16e7d37",
+    "name": "Dark Chocolate Sea Salt Bar",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "6g",
+      "carbohydrate": "22g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d6008a77318797d0",
+    "name": "Dragon Fruit Delight",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "7g",
+      "carbohydrate": "105g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216236a2da8a54e9c7a",
+    "name": "Ginger Lemon Cayenne",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d3216d04a85ef2188c8c0",
+    "name": "Ginger Orange Cayenne",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d3216c0c80af3ead834fb",
+    "name": "Ginger Shot",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d3216e99397f390372116",
+    "name": "Gotcha Matcha, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "4g",
+      "carbohydrate": "11g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216402db6d95538f265",
+    "name": "Gotcha Matcha, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32162948d264e0d7bbdf",
+    "name": "Great Greens, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "6g",
+      "carbohydrate": "55g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216af1db6d2a486cade",
+    "name": "Great Greens, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "5g",
+      "carbohydrate": "44g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216c26f878b97af4296",
+    "name": "Great Greens, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "4g",
+      "carbohydrate": "33g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32160a91aee8c0f43b9f",
+    "name": "Greek Yogurt PB + Banana Waffle Bowl with Chocolate Hazelnut",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "740",
+      "protein": "24g",
+      "carbohydrate": "100g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321656fb696969cc4fed",
+    "name": "Greek Yogurt Strawberry + Banana Granola Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "16g",
+      "carbohydrate": "63g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e11316978203c802",
+    "name": "Greek Yogurt Strawberry Blueberry Waffle Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "18g",
+      "carbohydrate": "77g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d916956be437eea3",
+    "name": "Greek Yogurt Tropical Waffle Bowl",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "9g",
+      "carbohydrate": "101g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32163f8586d8f90667d7",
+    "name": "Greens 'N Ginger, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "6g",
+      "carbohydrate": "91g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321682b49e9ec18713a3",
+    "name": "Greens 'N Ginger, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "4g",
+      "carbohydrate": "70g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d3fcb22b99555752",
+    "name": "Greens 'N Ginger, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "4g",
+      "carbohydrate": "56g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216127c6c688822a6e6",
+    "name": "Hummus Crisp",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "3g",
+      "carbohydrate": "18g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216f28b592b32b19e14",
+    "name": "Impossible Handwich",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "11g",
+      "carbohydrate": "16g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32167d11286595644562",
+    "name": "Mango-A-Go-Go, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "2g",
+      "carbohydrate": "123g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32165080758d495081b5",
+    "name": "Mango-A-Go-Go, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "2g",
+      "carbohydrate": "96g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32167f9b8269c31098db",
+    "name": "Mango-A-Go-Go, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "1g",
+      "carbohydrate": "70g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321609ce31d878914359",
+    "name": "Matcha Green Tea Blast, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "14g",
+      "carbohydrate": "105g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32160de038703d7c9220",
+    "name": "Matcha Green Tea Blast, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "11g",
+      "carbohydrate": "87g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ffc2721f02a182dc",
+    "name": "Matcha Green Tea Blast, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "8g",
+      "carbohydrate": "56g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216970dac86888547d6",
+    "name": "Mega Mango, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "4g",
+      "carbohydrate": "80g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321608f3d39c239507c4",
+    "name": "Mega Mango, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "3g",
+      "carbohydrate": "74g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32161e8f7330adba08ee",
+    "name": "Mega Mango, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "46g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ad6c017ac23fa5a3",
+    "name": "Monthly Mystery Smoothies, Tango Oasis, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "2g",
+      "carbohydrate": "112g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216031d8b9c8af420c2",
+    "name": "Monthly Mystery Smoothies, Tango Oasis, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "2g",
+      "carbohydrate": "85g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32160fc098dcd6dfddef",
+    "name": "Monthly Mystery Smoothies, Tango Oasis, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "1g",
+      "carbohydrate": "61g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216cf9d239f64fac34d",
+    "name": "Oatmeal",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "6g",
+      "carbohydrate": "31g",
+      "fat": "2.5g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d32161cf37a60c379c18b",
+    "name": "Orange C-Booster, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "4g",
+      "carbohydrate": "90g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216da2bf8f7ef17e0f3",
+    "name": "Orange C-Booster, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "3g",
+      "carbohydrate": "71g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32160241c7a0c696a977",
+    "name": "Orange C-Booster, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "2g",
+      "carbohydrate": "52g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216eb244a93cfe9ecfb",
+    "name": "Orange Carrot Twist, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "7g",
+      "carbohydrate": "82g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216cb48886f42992d79",
+    "name": "Orange Carrot Twist, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "5g",
+      "carbohydrate": "64g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e85c34b3e745d467",
+    "name": "Orange Carrot Twist, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "4g",
+      "carbohydrate": "48g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216a02175b2cd5becef",
+    "name": "Orange Dream Machine, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "530",
+      "protein": "9g",
+      "carbohydrate": "116g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321631c963a471192005",
+    "name": "Orange Dream Machine, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "7g",
+      "carbohydrate": "91g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321673c1e23d829c9b92",
+    "name": "Orange Dream Machine, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "5g",
+      "carbohydrate": "61g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216614cdfd9b681dc7a",
+    "name": "Orange Supreme, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "5g",
+      "carbohydrate": "85g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32168873c59a6554d66d",
+    "name": "Orange Supreme, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "4g",
+      "carbohydrate": "74g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32164e24c1b116fa0208",
+    "name": "Orange Supreme, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "3g",
+      "carbohydrate": "59g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32160927c7806f51cc85",
+    "name": "PB Chocolate Love, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "820",
+      "protein": "30g",
+      "carbohydrate": "113g",
+      "fat": "34g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32168333cbd6ea27087f",
+    "name": "PB Chocolate Love, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "23g",
+      "carbohydrate": "99g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32163068ee0037495110",
+    "name": "PB Chocolate Love, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "15g",
+      "carbohydrate": "68g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321695c50a7e14b45c20",
+    "name": "Peach Perfection, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "3g",
+      "carbohydrate": "88g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216b7ef3c42f2b6f2f3",
+    "name": "Peach Perfection, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "3g",
+      "carbohydrate": "76g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e571621fe1a7139f",
+    "name": "Peach Perfection, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "2g",
+      "carbohydrate": "51g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216579ee0513e411c7c",
+    "name": "Peanut Butter Moo'D, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "940",
+      "protein": "31g",
+      "carbohydrate": "146g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ec7ca32fd29dc1df",
+    "name": "Peanut Butter Moo'D, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "730",
+      "protein": "23g",
+      "carbohydrate": "120g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32162267401843f07a31",
+    "name": "Peanut Butter Moo'D, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "14g",
+      "carbohydrate": "77g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216809124fe7b75783d",
+    "name": "Pomegranate Paradise, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "3g",
+      "carbohydrate": "93g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216122189dc57cac069",
+    "name": "Pomegranate Paradise, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "2g",
+      "carbohydrate": "79g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216a636adaa00f45078",
+    "name": "Pomegranate Paradise, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "2g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216a100200af51238fb",
+    "name": "Purely Carrot, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "8g",
+      "carbohydrate": "79g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32168fa0d9ca0ffa2294",
+    "name": "Purely Carrot, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "6g",
+      "carbohydrate": "62g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321672a8e52d94b8b4f6",
+    "name": "Purely Carrot, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "4g",
+      "carbohydrate": "42g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216fabb6e7703ec181c",
+    "name": "Purely Orange, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "6g",
+      "carbohydrate": "90g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32160d6372e0a0945aea",
+    "name": "Purely Orange, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "5g",
+      "carbohydrate": "71g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216722ee6c1e0c9a153",
+    "name": "Purely Orange, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "3g",
+      "carbohydrate": "52g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321670b5f6953a591b24",
+    "name": "Razzmatazz, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "2g",
+      "carbohydrate": "111g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216f3198507a866e76e",
+    "name": "Razzmatazz, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "1g",
+      "carbohydrate": "84g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32161121a8a007b2e614",
+    "name": "Razzmatazz, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "1g",
+      "carbohydrate": "62g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32165bfa8f2d81270a6a",
+    "name": "Savory Pretzel",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "12g",
+      "carbohydrate": "69g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32168fef6e9e7867a6dd",
+    "name": "Smooth Talkin' Mango, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "7g",
+      "carbohydrate": "89g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ab2c23ee1d172b94",
+    "name": "Smooth Talkin' Mango, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "6g",
+      "carbohydrate": "75g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e797eabf13972d88",
+    "name": "Smooth Talkin' Mango, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "4g",
+      "carbohydrate": "51g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e767353f646df599",
+    "name": "Soy PB + Banana Protein, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "700",
+      "protein": "40g",
+      "carbohydrate": "71g",
+      "fat": "33g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321636bf3310b5875c62",
+    "name": "Soy PB + Banana Protein, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "530",
+      "protein": "36g",
+      "carbohydrate": "57g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32163d6bbbbcc966e127",
+    "name": "Soy PB + Banana Protein, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "34g",
+      "carbohydrate": "43g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216f8a279ab87395372",
+    "name": "Soy Protein Berry Workout, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "20g",
+      "carbohydrate": "87g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321614a6346871510479",
+    "name": "Soy Protein Berry Workout, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "19g",
+      "carbohydrate": "76g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32160ff77e14a74f5606",
+    "name": "Soy Protein Berry Workout, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "16g",
+      "carbohydrate": "57g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321625d60b6825195f50",
+    "name": "Spring Veggie Egg Bake",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "10g",
+      "carbohydrate": "8g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32161833aa884e8e8ac9",
+    "name": "Strawberries 'N Cream, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "13g",
+      "carbohydrate": "90g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216814b8d1ab8d14376",
+    "name": "Strawberries 'N Cream, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "10g",
+      "carbohydrate": "72g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216b8ef1772ef382a2f",
+    "name": "Strawberries 'N Cream, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "8g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216c3273087a5c4a7ce",
+    "name": "Strawberries Wild, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "6g",
+      "carbohydrate": "102g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321680f28ba20dffc3c8",
+    "name": "Strawberries Wild, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "5g",
+      "carbohydrate": "77g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216336d773cd23efcf7",
+    "name": "Strawberries Wild, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "3g",
+      "carbohydrate": "56g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32167a8659191a327964",
+    "name": "Strawberry Blueberry Waffle Bowl with Froyo",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "11g",
+      "carbohydrate": "91g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ec76d04764f6c7e9",
+    "name": "Strawberry Surf Rider, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "1g",
+      "carbohydrate": "102g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321698278e86bdc918aa",
+    "name": "Strawberry Surf Rider, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "1g",
+      "carbohydrate": "80g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d19ba47b68fee57d",
+    "name": "Strawberry Surf Rider, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "1g",
+      "carbohydrate": "57g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e805174327f65fa0",
+    "name": "Strawberry Whirl, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "3g",
+      "carbohydrate": "87g",
+      "fat": "1g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d321692bc75fa200bb1bc",
+    "name": "Strawberry Whirl, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "2g",
+      "carbohydrate": "49g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216aa37f6fee9e0dee3",
+    "name": "Strawberry Whirl, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "2g",
+      "carbohydrate": "49g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321630c050c4241e999c",
+    "name": "Super Blends Smoothies, Acai Super-Antioxidant, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "10g",
+      "carbohydrate": "111g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321646a8a9719a8ba8ea",
+    "name": "Super Blends Smoothies, Acai Super-Antioxidant, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "7g",
+      "carbohydrate": "88g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216734eb295ecea8cef",
+    "name": "Super Blends Smoothies, Acai Super-Antioxidant, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "6g",
+      "carbohydrate": "67g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321640e8bc097134fad5",
+    "name": "Super Blends Smoothies, Orange C-Booster, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "4g",
+      "carbohydrate": "90g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32165fc6244d46723b49",
+    "name": "Super Blends Smoothies, Orange C-Booster, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "3g",
+      "carbohydrate": "71g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216c2fa3843882428ea",
+    "name": "Super Blends Smoothies, Orange C-Booster, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "2g",
+      "carbohydrate": "52g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216a89e079efeb8e817",
+    "name": "Super Blends Smoothies, The Go Getter, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "10g",
+      "carbohydrate": "85g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d5c63ccf6ec9bf81",
+    "name": "Super Blends Smoothies, The Go Getter, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "8g",
+      "carbohydrate": "70g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321622580e443f5c7b04",
+    "name": "Super Blends Smoothies, The Go Getter, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "7g",
+      "carbohydrate": "57g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32166b1ae781b510feca",
+    "name": "Sweet Cloud Whip Bold 'N Cold Brew, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "23g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32164be2fe2576272d15",
+    "name": "Sweet Cloud Whip Bold 'N Cold Brew, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32164c6828e15ec3f1b9",
+    "name": "Sweet Cloud Whip Gotcha Matcha, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "4g",
+      "carbohydrate": "24g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32161458de18b516f3ba",
+    "name": "Sweet Cloud Whip Gotcha Matcha, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "2g",
+      "carbohydrate": "22g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216b587adfe18e9eb54",
+    "name": "Sweet Pretzel",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "9g",
+      "carbohydrate": "78g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321603f8e038d14c0fcf",
+    "name": "Tango Oasis, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "2g",
+      "carbohydrate": "112g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216eac454a7c0dac5ef",
+    "name": "Tango Oasis, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "2g",
+      "carbohydrate": "85g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d2bbb6c346fe4b49",
+    "name": "Tango Oasis, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "1g",
+      "carbohydrate": "61g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216765ef8b17f4ff55d",
+    "name": "The Go Getter, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "10g",
+      "carbohydrate": "85g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32161382d810f02e4cdf",
+    "name": "The Go Getter, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "8g",
+      "carbohydrate": "70g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216387b742025caa3fc",
+    "name": "The Go Getter, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "7g",
+      "carbohydrate": "57g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321671d3870db5ac848a",
+    "name": "Triple Berry Crumble Bar",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "6g",
+      "carbohydrate": "23g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216033b7c60263ed3b8",
+    "name": "Turkey Sausage Wrap",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "17g",
+      "carbohydrate": "30g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321653e0e895e2dbec7b",
+    "name": "Turmeric Shot",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d321675a45831b79ef20a",
+    "name": "Vanilla Blue Sky",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "5g",
+      "carbohydrate": "60g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32165bac11b12e336158",
+    "name": "Vanilla Blue Sky, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "3g",
+      "carbohydrate": "77g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32161bc0f5a08962fd36",
+    "name": "Vanilla Blue Sky, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "3g",
+      "carbohydrate": "59g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216694b5a6dab209a7a",
+    "name": "Vanilla Blue Sky, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "2g",
+      "carbohydrate": "43g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32166157f7591e0af5a8",
+    "name": "Veggie Vitality, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "6g",
+      "carbohydrate": "65g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216a45f29f242e44a89",
+    "name": "Veggie Vitality, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "5g",
+      "carbohydrate": "52g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32166ca2af5dfba7d7e7",
+    "name": "Veggie Vitality, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "4g",
+      "carbohydrate": "44g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216b3be1c0a8ad0f8e6",
+    "name": "Watermelon Breeze (Classic), Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "3g",
+      "carbohydrate": "117g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216bf9581d6fd4c869b",
+    "name": "Watermelon Breeze (Classic), Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "2g",
+      "carbohydrate": "98g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d5d12bf340350109",
+    "name": "Watermelon Breeze (Classic), Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "2g",
+      "carbohydrate": "72g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216d2c32493bb4d433a",
+    "name": "Watermelon Breeze (Dairy Free), Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "590",
+      "protein": "4g",
+      "carbohydrate": "120g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216b795a64acb80d163",
+    "name": "Watermelon Breeze (Dairy Free), Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "3g",
+      "carbohydrate": "99g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216c17b946798ce7a32",
+    "name": "Watermelon Breeze (Dairy Free), Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "2g",
+      "carbohydrate": "69g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32167ae52a3d44df1165",
+    "name": "Watermelon Lemonade, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "2g",
+      "carbohydrate": "112g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216945eec460b33961c",
+    "name": "Watermelon Lemonade, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "2g",
+      "carbohydrate": "90g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216480443f548e257ed",
+    "name": "Watermelon Lemonade, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "1g",
+      "carbohydrate": "66g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32167537326da44af3be",
+    "name": "Watermelon Tajin, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "2g",
+      "carbohydrate": "129g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216dfb29efb374302f8",
+    "name": "Watermelon Tajin, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "2g",
+      "carbohydrate": "105g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216e7abd8c3b7be0826",
+    "name": "Watermelon Tajin, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "1g",
+      "carbohydrate": "70g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216be8c0632b091dfa6",
+    "name": "Wheatgrass, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d321636cc5a78ad636a9e",
+    "name": "Wheatgrass, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216584d5a31382cb5a0",
+    "name": "Whey PB + Banana Protein, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "830",
+      "protein": "51g",
+      "carbohydrate": "91g",
+      "fat": "35g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32169c327806d5c759f3",
+    "name": "Whey PB + Banana Protein, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "650",
+      "protein": "44g",
+      "carbohydrate": "71g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32163ff02cc41266ff90",
+    "name": "Whey PB + Banana Protein, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "560",
+      "protein": "42g",
+      "carbohydrate": "53g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216f76197ff1bc8a360",
+    "name": "Whey Protein Berry Workout, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "24g",
+      "carbohydrate": "85g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32161462a7783db51c60",
+    "name": "Whey Protein Berry Workout, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "22g",
+      "carbohydrate": "71g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216ba3734ba0d680dd4",
+    "name": "Whey Protein Berry Workout, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "20g",
+      "carbohydrate": "51g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d32164b2d2755ba33cec6",
+    "name": "White Gummi, Large",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "600",
+      "protein": "4g",
+      "carbohydrate": "136g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d321633dfd148948f5222",
+    "name": "White Gummi, Medium",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "2g",
+      "carbohydrate": "102g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d3216f361b5f7cf9a96ef",
+    "name": "White Gummi, Small",
+    "brandName": "Jamba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "2g",
+      "carbohydrate": "70g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  }
+]

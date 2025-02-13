@@ -1,0 +1,6112 @@
+[
+  {
+    "itemId": "22384818adb378ae00398554",
+    "name": "Additional Shot of Caramel Syrup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818f805311bd76d6613",
+    "name": "Additional Shot of Espresso",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22384818004246701000a854",
+    "name": "Agave Lemonade, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "52g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848184f3c76d95c2c59c5",
+    "name": "Agave Lemonade, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "0g",
+      "carbohydrate": "78g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481860435f09aa8a0166",
+    "name": "Agave Lemonade, Serves 4",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "1g",
+      "carbohydrate": "165g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481833e7ea6803e9905c",
+    "name": "Agave Lemonade, Serves 8",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1350",
+      "protein": "2g",
+      "carbohydrate": "331g",
+      "fat": "1.5g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22389619cddc279b503d29fd",
+    "name": "Almond Pastry",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "9g",
+      "carbohydrate": "50g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818df285cd34744c355",
+    "name": "Americano, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "2238481839448130be14a362",
+    "name": "Apple",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481889e0cf96f634b8cb",
+    "name": "Apple Cider Vinegar BBQ Sauce",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818356e1174462a1981",
+    "name": "Artisan Ciabatta Bread,",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "6g",
+      "carbohydrate": "30g",
+      "fat": "1.5g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "223848189129e152ac6a0f22",
+    "name": "Artisan Ciabatta Bread, Half Sandwich & Breakfast Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "7g",
+      "carbohydrate": "38g",
+      "fat": "2g"
+    },
+    "serving": "0.3"
+  },
+  {
+    "itemId": "2238481863ac22919486763e",
+    "name": "Asiago Cheese Bagel",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "14g",
+      "carbohydrate": "55g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848181d9cbbec89027886",
+    "name": "Asiago Sausage & Egg on Asiago Bagel",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "820",
+      "protein": "32g",
+      "carbohydrate": "58g",
+      "fat": "51g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bb1d614e01545544",
+    "name": "Bacon Double Take on Black Pepper Focaccia",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "30g",
+      "carbohydrate": "38g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184ad8093dd53ae4ab",
+    "name": "Bacon Mac & Cheese, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1060",
+      "protein": "38g",
+      "carbohydrate": "69g",
+      "fat": "71g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848182a7f5cd45998bc65",
+    "name": "Bacon Mac & Cheese, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1200",
+      "protein": "46g",
+      "carbohydrate": "165g",
+      "fat": "40g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818499e5c25f0671f3b",
+    "name": "Bacon Mac & Cheese, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "530",
+      "protein": "19g",
+      "carbohydrate": "34g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818407d980135a9c358",
+    "name": "Bacon Mac & Cheese, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2110",
+      "protein": "76g",
+      "carbohydrate": "137g",
+      "fat": "143g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bdbcd2c2486b0fe1",
+    "name": "Bacon Turkey Bravo on Tomato Basil, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "24g",
+      "carbohydrate": "38g",
+      "fat": "21g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "2238481830e0d7a01b230704",
+    "name": "Bacon Turkey Bravo on Tomato Basil, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "870",
+      "protein": "48g",
+      "carbohydrate": "76g",
+      "fat": "42g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818765db1e93bf34130",
+    "name": "Bacon, Egg & Cheese on Ciabatta",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "23g",
+      "carbohydrate": "41g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896199cb151d20d370b04",
+    "name": "Bacon, Egg & Cheese on Croissant",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "21g",
+      "carbohydrate": "34g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818fa298fab84c41f9a",
+    "name": "Balsamic Chicken Greens with Grains Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "17g",
+      "carbohydrate": "23g",
+      "fat": "15g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818c610be4b9d11ca32",
+    "name": "Balsamic Greens with Grains Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "4g",
+      "carbohydrate": "23g",
+      "fat": "14g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818bf26b89ee48c3d07",
+    "name": "Balsamic Greens with Grains Salad, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "9g",
+      "carbohydrate": "45g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481853368b2de98f5ee3",
+    "name": "Balsamic Vinaigrette, Half Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "4g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223848189629396e32200300",
+    "name": "Balsamic Vinaigrette, Whole Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "8g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223848188f0cb10217d4ce10",
+    "name": "Banana",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "1g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "534448b87395ed134519e4de",
+    "name": "Bistro French Onion Soup Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "8g",
+      "carbohydrate": "21g",
+      "fat": "9g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238481835355d2894759a0a",
+    "name": "Bistro French Onion Soup, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "720",
+      "protein": "26g",
+      "carbohydrate": "82g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848183b70e4081f749088",
+    "name": "Bistro French Onion, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "10g",
+      "carbohydrate": "33g",
+      "fat": "12g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22384818d528883f58954c0d",
+    "name": "Bistro French Onion, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "860",
+      "protein": "34g",
+      "carbohydrate": "153g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818eaf427133867124c",
+    "name": "Bistro French Onion, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "7g",
+      "carbohydrate": "22g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818be884baae62b2e57",
+    "name": "Black Pepper Focaccia Bread",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "5g",
+      "carbohydrate": "26g",
+      "fat": "1.5g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "22384818aa94a83a4fa91c41",
+    "name": "Black Pepper Focaccia Bread, Half Sandwich & Breakfast Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "6g",
+      "carbohydrate": "33g",
+      "fat": "2g"
+    },
+    "serving": "0.3"
+  },
+  {
+    "itemId": "22384818914bdc1ada617bbb",
+    "name": "Blue Packet Sweetener",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896197624e7c16766568d",
+    "name": "Blueberry Bagel",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "10g",
+      "carbohydrate": "61g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848183152b3647ac91299",
+    "name": "Blueberry Lavender Lemonade, Naturally Flavored, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "54g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818d1f54357a96f196a",
+    "name": "Blueberry Lavender Lemonade, Naturally Flavored, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "1g",
+      "carbohydrate": "81g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818d94bb593422d4025",
+    "name": "Blueberry Lavender Lemonade, Naturally Flavored, Serves 4",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "760",
+      "protein": "1g",
+      "carbohydrate": "187g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818beff2082f473e2a3",
+    "name": "Blueberry Lavender Lemonade, Naturally Flavored, Serves 8",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1520",
+      "protein": "2g",
+      "carbohydrate": "374g",
+      "fat": "1g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238481884891c5ecfb514d3",
+    "name": "Blueberry Muffin",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "7g",
+      "carbohydrate": "79g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481889460c2ed102957f",
+    "name": "Bottled Passionfruit Papaya Naturally Flavored Iced Green Tea",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "31g",
+      "fat": "0g"
+    },
+    "serving": "500"
+  },
+  {
+    "itemId": "22384818c6debab30c8b5c04",
+    "name": "Bottled Water",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "500"
+  },
+  {
+    "itemId": "2238481836b332b876c29cdd",
+    "name": "Bravo Signature Sauce",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481846abeb3da3faca96",
+    "name": "Broccoli Cheddar Soup, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "840",
+      "protein": "29g",
+      "carbohydrate": "58g",
+      "fat": "55g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185926e6c9148d4b8c",
+    "name": "Broccoli Cheddar, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "13g",
+      "carbohydrate": "25g",
+      "fat": "24g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22384818a4679796956f0466",
+    "name": "Broccoli Cheddar, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "910",
+      "protein": "35g",
+      "carbohydrate": "147g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185b4dc5e58adcfb5a",
+    "name": "Broccoli Cheddar, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a8ecc36e2436e7f4",
+    "name": "Brownie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "7g",
+      "carbohydrate": "69g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848183824633c8255e7b2",
+    "name": "Caesar Dressing, Half Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "9g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22384818e3405d47e9401bd3",
+    "name": "Caesar Dressing, Whole Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "18g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22384818394907cc70c8706d",
+    "name": "Caesar Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "6g",
+      "carbohydrate": "12g",
+      "fat": "15g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "2238481852b7ec2159cb5f7d",
+    "name": "Caesar Salad, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "12g",
+      "carbohydrate": "24g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818880f1b4255f23785",
+    "name": "Caesar with Chicken Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "18g",
+      "carbohydrate": "13g",
+      "fat": "16g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818c8d11993deb361eb",
+    "name": "Caesar with Chicken Salad, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "36g",
+      "carbohydrate": "26g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818ea1c9c7f6cecfaf5",
+    "name": "Cafe Blend Dark Roast Coffee, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "22384818624b11d1a4b068ba",
+    "name": "Cafe Blend Dark Roast Coffee, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848181090d6b464c2f7d9",
+    "name": "Cafe Blend Dark Roast Coffee, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848181f02adb48a3f335a",
+    "name": "Cafe Blend Light Roast Coffee, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "223848185633f82910463f44",
+    "name": "Cafe Blend Light Roast Coffee, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818c61c53a7b044bb3a",
+    "name": "Cafe Blend Light Roast Coffee, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184ec3545d58fde889",
+    "name": "Caffe Latte, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "8g",
+      "carbohydrate": "12g",
+      "fat": "5g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "22384818d0ab8e1b08600d70",
+    "name": "Caffe Latte, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "10g",
+      "carbohydrate": "15g",
+      "fat": "6g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848184f6a680512788338",
+    "name": "Caffeine Free Diet Pepsi, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848186e1b588def1f319f",
+    "name": "Canada Dry Ginger Ale, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "60g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848186149eef919141684",
+    "name": "Canada Dry Ginger Ale, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "0g",
+      "carbohydrate": "90g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481880ee138a158723bc",
+    "name": "Candy Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "4g",
+      "carbohydrate": "68g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d66fe5ff068fdc40",
+    "name": "Candy Mini Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "18g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848183ac6a34811b038f4",
+    "name": "Cane Sugar Syrup, 1 pump",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185986a42d7464f1d9",
+    "name": "Cappuccino, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "8g",
+      "carbohydrate": "12g",
+      "fat": "5g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "223848183964cd3cc1c92d27",
+    "name": "Cappuccino, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "10g",
+      "carbohydrate": "15g",
+      "fat": "6g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848181cbf7a904a61dde1",
+    "name": "Caramel Latte, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "9g",
+      "carbohydrate": "51g",
+      "fat": "9g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "223848181daae638b530e5fa",
+    "name": "Caramel Latte, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "11g",
+      "carbohydrate": "66g",
+      "fat": "10g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818f226416b55cd5db1",
+    "name": "Catering, Balsamic Chicken Greens with Grains Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2920",
+      "protein": "168g",
+      "carbohydrate": "241g",
+      "fat": "150g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22384818d69010b72f683b04",
+    "name": "Catering, Balsamic Chicken Greens with Grains Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1460",
+      "protein": "84g",
+      "carbohydrate": "121g",
+      "fat": "75g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186958f57580841ac2",
+    "name": "Catering, Balsamic Greens with Grains Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2300",
+      "protein": "45g",
+      "carbohydrate": "232g",
+      "fat": "139g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848184689a5eddf23eddf",
+    "name": "Catering, Balsamic Greens with Grains Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1150",
+      "protein": "23g",
+      "carbohydrate": "116g",
+      "fat": "69g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184777943d477babc9",
+    "name": "Catering, Butter Pat",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848189ed88d3ef9299083",
+    "name": "Catering, Caesar Salad with Chicken, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1450",
+      "protein": "92g",
+      "carbohydrate": "68g",
+      "fat": "89g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848188f039ebaf49f16cb",
+    "name": "Catering, Caesar Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2280",
+      "protein": "61g",
+      "carbohydrate": "126g",
+      "fat": "167g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848181a109650a475abb2",
+    "name": "Catering, Caesar Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1140",
+      "protein": "30g",
+      "carbohydrate": "63g",
+      "fat": "83g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e81a980f9b23f5ba",
+    "name": "Catering, Chipotle Aioli For Breakfast Sandwiches",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223848184f6404f9bb883832",
+    "name": "Catering, French Baguette",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1060",
+      "protein": "40g",
+      "carbohydrate": "217g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c4878e6f820403e2",
+    "name": "Catering, Fruit Bowl, Large",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "9g",
+      "carbohydrate": "140g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848183c7d68a0a8670002",
+    "name": "Catering, Fruit Bowl, Small",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "4g",
+      "carbohydrate": "70g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481896dbd582aa79650a",
+    "name": "Catering, Fuji Apple Salad without Pecans, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1790",
+      "protein": "24g",
+      "carbohydrate": "177g",
+      "fat": "112g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848188fcb7932cf8d2f5f",
+    "name": "Catering, Fuji Apple Salad without Pecans, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "900",
+      "protein": "12g",
+      "carbohydrate": "89g",
+      "fat": "56g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481873c75155ffc89b93",
+    "name": "Catering, Fuji Apple Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2320",
+      "protein": "31g",
+      "carbohydrate": "188g",
+      "fat": "163g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22384818a3951666328f9dc8",
+    "name": "Catering, Fuji Apple Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1160",
+      "protein": "15g",
+      "carbohydrate": "94g",
+      "fat": "82g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848187077c62dc10953df",
+    "name": "Catering, Fuji Apple with Chicken Salad without Pecans, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2410",
+      "protein": "147g",
+      "carbohydrate": "187g",
+      "fat": "122g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22384818bb7d0a9676d88cdd",
+    "name": "Catering, Fuji Apple with Chicken Salad without Pecans, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1210",
+      "protein": "73g",
+      "carbohydrate": "93g",
+      "fat": "61g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848181fc3a1143a487f50",
+    "name": "Catering, Fuji Apple with Chicken Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2950",
+      "protein": "154g",
+      "carbohydrate": "197g",
+      "fat": "174g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22384818c41f99db25c483d8",
+    "name": "Catering, Fuji Apple with Chicken Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1470",
+      "protein": "77g",
+      "carbohydrate": "99g",
+      "fat": "87g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818829845463c52e394",
+    "name": "Catering, Fuji Apple without Pecans, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "2g",
+      "carbohydrate": "16g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818a5d5a29a883382ca",
+    "name": "Catering, Fuji Apple without Pecans, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "5g",
+      "carbohydrate": "32g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481801462b5c1ae227c4",
+    "name": "Catering, Fuji Apple, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "3g",
+      "carbohydrate": "17g",
+      "fat": "15g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818120ed23cc29b4257",
+    "name": "Catering, Fuji Apple, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "6g",
+      "carbohydrate": "35g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185e5f81c96935fb55",
+    "name": "Catering, Garlic Aioli For Breakfast Sandwiches",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "12g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818ca09ab97fb762e3f",
+    "name": "Catering, Greek Salad with Chicken, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2960",
+      "protein": "164g",
+      "carbohydrate": "101g",
+      "fat": "217g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22384818b780a6a6fce8b967",
+    "name": "Catering, Greek Salad with Chicken, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1480",
+      "protein": "82g",
+      "carbohydrate": "50g",
+      "fat": "109g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818f2ef63d3830b01a6",
+    "name": "Catering, Greek Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2340",
+      "protein": "41g",
+      "carbohydrate": "92g",
+      "fat": "207g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22384818b668dd4606eb4df4",
+    "name": "Catering, Greek Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1170",
+      "protein": "21g",
+      "carbohydrate": "46g",
+      "fat": "103g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818ff5dee73e813beeb",
+    "name": "Catering, Green Goddess Cobb Salad with Chicken, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2650",
+      "protein": "212g",
+      "carbohydrate": "122g",
+      "fat": "152g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848188a48efc2fb31728b",
+    "name": "Catering, Green Goddess Cobb Salad with Chicken, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1330",
+      "protein": "106g",
+      "carbohydrate": "61g",
+      "fat": "76g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238961998a6bef209cc6884",
+    "name": "Catering, Ham & Cheddar on Country Rustic Sourdough, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "760",
+      "protein": "38g",
+      "carbohydrate": "52g",
+      "fat": "44g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848188b31e4fec596eebb",
+    "name": "Catering, Mediterranean Chicken Greens with Grains Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "3470",
+      "protein": "159g",
+      "carbohydrate": "214g",
+      "fat": "221g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848183a5cfb30d30c1c47",
+    "name": "Catering, Mediterranean Chicken Greens with Grains Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1740",
+      "protein": "80g",
+      "carbohydrate": "107g",
+      "fat": "111g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481870259c55b797b95a",
+    "name": "Catering, Mediterranean Greens with Grains Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "2850",
+      "protein": "37g",
+      "carbohydrate": "204g",
+      "fat": "211g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848184585ca4934d5c7e0",
+    "name": "Catering, Mediterranean Greens with Grains Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1420",
+      "protein": "18g",
+      "carbohydrate": "102g",
+      "fat": "105g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818aed71406039a6240",
+    "name": "Catering, Ranch Cobb Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1240",
+      "protein": "44g",
+      "carbohydrate": "49g",
+      "fat": "98g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818057eafb010aa4834",
+    "name": "Catering, Southwest Chicken Ranch Salad, Serves 10",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "3370",
+      "protein": "158g",
+      "carbohydrate": "175g",
+      "fat": "235g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238481842d75a791c35ec44",
+    "name": "Catering, Southwest Chicken Ranch Salad, Serves 5",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1680",
+      "protein": "79g",
+      "carbohydrate": "88g",
+      "fat": "118g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481897160bf673dd604d",
+    "name": "Chai Tea Latte, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "10g",
+      "carbohydrate": "33g",
+      "fat": "6g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "2238481830f3cbc0d5304957",
+    "name": "Chai Tea Latte, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "12g",
+      "carbohydrate": "41g",
+      "fat": "7g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22389619279d5ba4d55b4cc3",
+    "name": "Cherry Pastry",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "6g",
+      "carbohydrate": "48g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184b27d131a5d3dfee",
+    "name": "Chicken Bacon Rancher on Black Pepper Focaccia Round, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "27g",
+      "carbohydrate": "37g",
+      "fat": "22g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223848185babec99d8dfffb7",
+    "name": "Chicken Bacon Rancher on Black Pepper Focaccia Round, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "900",
+      "protein": "53g",
+      "carbohydrate": "74g",
+      "fat": "43g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818948ac6aeed80e1e3",
+    "name": "Chicken Caesar Wrap",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "33g",
+      "carbohydrate": "39g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e47f73cfbabcf016",
+    "name": "Chipotle Aioli, Sandwich Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818295c394c442d1fdd",
+    "name": "Chipotle Chicken Avo Melt on Black Pepper Focaccia Round, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "24g",
+      "carbohydrate": "38g",
+      "fat": "24g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818d8ccf3ef6f796499",
+    "name": "Chipotle Chicken Avo Melt on Black Pepper Focaccia Round, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "920",
+      "protein": "48g",
+      "carbohydrate": "76g",
+      "fat": "49g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d54d86eb2686a350",
+    "name": "Chipotle Chicken, Egg & Avo on Ciabatta",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "27g",
+      "carbohydrate": "44g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e8d978934ba9f031",
+    "name": "Chocolate Chip Muffie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "5g",
+      "carbohydrate": "51g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bfc547bedbdc96ab",
+    "name": "Chocolate Chipper Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "4g",
+      "carbohydrate": "52g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619ceb849cfcad39cf3",
+    "name": "Chocolate Coconut Macaroon Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "23g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848180bff1aa0a865c1a2",
+    "name": "Chocolate Croissant Pastry",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "7g",
+      "carbohydrate": "49g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a2f81bb6e06c5d47",
+    "name": "Ciabatta Cheesesteak, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "26g",
+      "carbohydrate": "46g",
+      "fat": "26g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "2238481879357fc5bcc6678a",
+    "name": "Ciabatta Cheesesteak, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1040",
+      "protein": "53g",
+      "carbohydrate": "92g",
+      "fat": "52g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bb9be806ec7825eb",
+    "name": "Cinnamon Crunch Bagel",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "9g",
+      "carbohydrate": "82g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a7f8a36eca03e517",
+    "name": "Cinnamon Roll",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "7g",
+      "carbohydrate": "84g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186b8506095430acf1",
+    "name": "Cinnamon Swirl & Raisin Bagel",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "10g",
+      "carbohydrate": "65g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481840b89c55d007243b",
+    "name": "Cinnascramble",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "18g",
+      "carbohydrate": "58g",
+      "fat": "31g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186287af81e678f27b",
+    "name": "Citrus Punch, Naturally Flavored, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "62g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481858c5ae6908719120",
+    "name": "Citrus Punch, Naturally Flavored, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "0g",
+      "carbohydrate": "93g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848181fe6cae8862d43ae",
+    "name": "Citrus Punch, Naturally Flavored, Serves 4",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "890",
+      "protein": "1g",
+      "carbohydrate": "214g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848183f2df230a95df06e",
+    "name": "Citrus Punch, Naturally Flavored, Serves 8",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1780",
+      "protein": "2g",
+      "carbohydrate": "428g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223896196bff4221f4572a1f",
+    "name": "Classic Avo Toast",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "5g",
+      "carbohydrate": "26g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619a290fa02f6a1dee7",
+    "name": "Classic White Miche Bread",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "6g",
+      "carbohydrate": "27g",
+      "fat": "4g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "223848188e8f951ad9d29543",
+    "name": "Classic White Miche Bread, Half Sandwich & Breakfast Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "6g",
+      "carbohydrate": "31g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238961989f933d651632cd9",
+    "name": "Coconut Macaroon Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "2g",
+      "carbohydrate": "24g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186b4bd3755d0fc269",
+    "name": "Coke Zero, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848188f6b5232b5e95442",
+    "name": "Coke Zero, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818df4caf3b3ac36fe4",
+    "name": "Coke Zero, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848187e10be251abb9658",
+    "name": "Coke, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "67g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818a81d336e138156d0",
+    "name": "Coke, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "68g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848180b77b5cce923ca77",
+    "name": "Coke, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "0g",
+      "carbohydrate": "100g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481838ec1d5c06a0684c",
+    "name": "Country Rustic Sourdough Bread",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "5g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "22384818956e2b865daf1a59",
+    "name": "Country Rustic Sourdough Bread, Half Sandwich & Breakfast Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "4g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896193c69f49ce705342f",
+    "name": "Cranberry Orange Cake Slice",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "5g",
+      "carbohydrate": "53g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818fdf44fbf35788210",
+    "name": "Cream of Chicken & Wild Rice, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "8g",
+      "carbohydrate": "27g",
+      "fat": "16g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22384818117d9b98b70a844a",
+    "name": "Cream of Chicken & Wild Rice, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "860",
+      "protein": "32g",
+      "carbohydrate": "149g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185ebbc331b48b439a",
+    "name": "Cream of Chicken & Wild Rice, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "5g",
+      "carbohydrate": "18g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185fe233bdf37aa373",
+    "name": "Cream of Chicken and Wild Rice, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "650",
+      "protein": "18g",
+      "carbohydrate": "64g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619e9766d03ab6a84de",
+    "name": "Croissant",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "5g",
+      "carbohydrate": "32g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481887eb224af74d5c47",
+    "name": "Dasani Lemon, 12 fl oz Can",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "355"
+  },
+  {
+    "itemId": "223848183cc1670c49deeeed",
+    "name": "Dasani Lime, 12 fl oz Can",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "355"
+  },
+  {
+    "itemId": "22384818bfde271a61dc3ee5",
+    "name": "Decaf Coffee, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "22384818a9b2c5ae2ae9203c",
+    "name": "Decaf Coffee, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818bb1675fec9d381b7",
+    "name": "Decaf Coffee, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d97550a7be8f3312",
+    "name": "Diet Coke, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818692f1849d3677583",
+    "name": "Diet Coke, 20 oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848182c6c0deca26eacea",
+    "name": "Diet Coke, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818a6e537525b2e0e61",
+    "name": "Diet Dr. Pepper, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818d336a2730e8701a0",
+    "name": "Diet Dr. Pepper, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818894fa13e78f12c95",
+    "name": "Diet Mountain Dew, 12 fl oz Can",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "355"
+  },
+  {
+    "itemId": "22384818ceff214bdf66a21b",
+    "name": "Diet Mountain Dew, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818f003c72b11defe0c",
+    "name": "Diet Mountain Dew, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818c0c6fbb7590f6555",
+    "name": "Diet Pepsi, 12 fl oz Can",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "355"
+  },
+  {
+    "itemId": "223848187af808095ba9f8b5",
+    "name": "Diet Pepsi, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848185969c3f1ac12ea1a",
+    "name": "Diet Pepsi, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818502147358c6da63e",
+    "name": "Diet Pepsi, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818ba4c3dfe36d87ea0",
+    "name": "Dozen Chocolate Chipper Cookies",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "4g",
+      "carbohydrate": "52g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e355bfabcc2342fb",
+    "name": "Dozen Mixed Cookies",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "4840",
+      "protein": "46g",
+      "carbohydrate": "683g",
+      "fat": "215g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818cdc06a1b5f792051",
+    "name": "Dr Pepper, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "66g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818741c63c926229280",
+    "name": "Dr. Pepper, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "65g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848186257b1a9794ec151",
+    "name": "Dr. Pepper, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "0g",
+      "carbohydrate": "98g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848183782b220a9a13732",
+    "name": "Drive Thru, Agave Lemonade, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "32g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818a99dfe1e53325185",
+    "name": "Drive Thru, Agave Lemonade, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "48g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818e57803370121b010",
+    "name": "Drive Thru, Blueberry Lavender Lemonade, Naturally Flavored, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "36g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848185540672da6dcf436",
+    "name": "Drive Thru, Blueberry Lavender Lemonade, Naturally Flavored, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "54g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818a3219dc2361120c0",
+    "name": "Drive Thru, Caffeine Free Diet Pepsi, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481824f0cb0016809544",
+    "name": "Drive Thru, Caffeine Free Diet Pepsi, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481801b089d8c4f0f1ef",
+    "name": "Drive Thru, Canada Dry Ginger Ale, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "38g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818d3a31ca7d35cb9fb",
+    "name": "Drive Thru, Canada Dry Ginger Ale, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "57g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818428f900d5836f421",
+    "name": "Drive Thru, Citrus Punch, Naturally Flavored, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818f1641503ae4f8d32",
+    "name": "Drive Thru, Citrus Punch, Naturally Flavored, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "62g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818beb55c1e81df5a26",
+    "name": "Drive Thru, Coke Zero, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848184d3caee5fc915c8b",
+    "name": "Drive Thru, Coke Zero, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818a5e64c76c36950e3",
+    "name": "Drive Thru, Coke, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818df5baf8f128e7ba8",
+    "name": "Drive Thru, Coke, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "63g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848180720c2902defb7b0",
+    "name": "Drive Thru, Diet Coke, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818d04c4f4787ae65d6",
+    "name": "Drive Thru, Diet Coke, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481835830fdc74841e51",
+    "name": "Drive Thru, Diet Dr. Pepper, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818a60b6886e0acb02f",
+    "name": "Drive Thru, Diet Dr. Pepper, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818713d37dd942c074a",
+    "name": "Drive Thru, Diet Mountain Dew, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481891247d5e19325d7c",
+    "name": "Drive Thru, Diet Mountain Dew, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818ca8e5bd7a930b342",
+    "name": "Drive Thru, Diet Pepsi, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818ee486d4babd80936",
+    "name": "Drive Thru, Diet Pepsi, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818905ee6b2ce52665b",
+    "name": "Drive Thru, Dr. Pepper, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818567f4c3545854a7d",
+    "name": "Drive Thru, Dr. Pepper, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "61g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818581c9055e7fef2b7",
+    "name": "Drive Thru, Fanta Orange, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848187fa50d19c63c69df",
+    "name": "Drive Thru, Fanta Orange, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "63g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818603eea918e8557be",
+    "name": "Drive Thru, Lipton Brisk Raspberry Tea, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818a7ddf7869bc5ceea",
+    "name": "Drive Thru, Lipton Brisk Raspberry Tea, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "0g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818134324848cfe4a5a",
+    "name": "Drive Thru, Mountain Dew, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "46g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818872e06bafceb4317",
+    "name": "Drive Thru, Mountain Dew, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "69g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848185b0e3bcdd085623f",
+    "name": "Drive Thru, Mug Root Beer, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "40g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848180170385895a0f37e",
+    "name": "Drive Thru, Mug Root Beer, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "60g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481893618376d5f8ea3b",
+    "name": "Drive Thru, Passion Papaya Naturally Flavored Iced Green Tea, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481873b80949c0ad7043",
+    "name": "Drive Thru, Passion Papaya Naturally Flavored Iced Green Tea, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "29g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818683b15f5c71f1d87",
+    "name": "Drive Thru, Pepsi Zero, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818e7d418f3c641a2cb",
+    "name": "Drive Thru, Pepsi, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "43g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481827cbe3a074368a45",
+    "name": "Drive Thru, Pepsi, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "65g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818cdad08ffa7bd8eae",
+    "name": "Drive Thru, Pibb Xtra, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818ddacaeef5d26bf25",
+    "name": "Drive Thru, Pibb Xtra, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "58g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818aaea524601364350",
+    "name": "Drive Thru, Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481805505a4016eef9d4",
+    "name": "Drive Thru, Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481838bbaf7004363048",
+    "name": "Drive Thru, Powerade Mountain Blast, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818efb8be1391a111e2",
+    "name": "Drive Thru, Sobe Life Water Yumberry Pomegranate, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481808fb1fb478046961",
+    "name": "Drive Thru, Sobe Life Water Yumberry Pomegranate, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848183d24b050c9aa35f3",
+    "name": "Drive Thru, Sprite, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "38g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481838e4fd50bf7a513e",
+    "name": "Drive Thru, Sprite, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "57g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481812b49ecc1f1826c4",
+    "name": "Drive Thru, Starry Lemon Lime, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "43g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818635ae5f5937e0a02",
+    "name": "Drive Thru, Starry Lemon Lime, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "61g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818b76580aeda8165e7",
+    "name": "Drive Thru, Tropicana Fruit Punch, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "49g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848181e567bfc082c3abc",
+    "name": "Drive Thru, Tropicana Fruit Punch, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "71g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818cdd9b23becbbcb77",
+    "name": "Drive Thru, Tropicana Lemonade, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818361de32848620de9",
+    "name": "Drive Thru, Tropicana Lemonade, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "62g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818c7909c970cace5bc",
+    "name": "Drive Thru, Tropicana Light Lemonade, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818e8aea76b65629469",
+    "name": "Drive Thru, Tropicana Light Lemonade, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481862b9d2e9a8d43196",
+    "name": "Drive Thru, Unsweetened Iced Tea, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481823f77fb8b958ea5a",
+    "name": "Drive Thru, Unsweetened Iced Tea, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481840e0f051143cf4dc",
+    "name": "Drive Thru, Wild Cherry Pepsi 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "44g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818a28df7def00ef947",
+    "name": "Drive Thru, Wild Cherry Pepsi 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "66g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848186adbe39909a8e1ac",
+    "name": "Drive Thur, Powerade Mountain Blast, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "35g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818c8a0f74f1af7e938",
+    "name": "Drive-Thru, Lime Bubly Sparkling Water, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848182cf4a8b08fdf904e",
+    "name": "Drive-Thru, Lime Bubly Sparkling Water, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481853094aa1cec65ae3",
+    "name": "Egg & Cheese on Ciabatta",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "20g",
+      "carbohydrate": "40g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238961981b60cbeab88c1da",
+    "name": "Egg & Cheese on Croissant",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "18g",
+      "carbohydrate": "33g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818326af0a4609cc731",
+    "name": "Egg Whites",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "6g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818487fd7f9bae08776",
+    "name": "Espresso",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "59"
+  },
+  {
+    "itemId": "2238481862644f1def638543",
+    "name": "Everything Bagel",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "10g",
+      "carbohydrate": "58g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818cce31debcfcdffb7",
+    "name": "Fanta Orange, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "66g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818a85ca556da653c0f",
+    "name": "Fanta Orange, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "0g",
+      "carbohydrate": "99g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "513fc991927da704080004f3",
+    "name": "French Baguette",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "5g",
+      "carbohydrate": "30g",
+      "fat": "0g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "22384818142101b04b97b9e9",
+    "name": "French Baguette Bread, Half Sandwich & Breakfast Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "10g",
+      "carbohydrate": "54g",
+      "fat": "1g"
+    },
+    "serving": "0.3"
+  },
+  {
+    "itemId": "223848180a99ade0fac27bbb",
+    "name": "French Baguette, Side Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "7g",
+      "carbohydrate": "36g",
+      "fat": "0.5g"
+    },
+    "serving": "59"
+  },
+  {
+    "itemId": "22384818e0ebca4f275d1798",
+    "name": "Frontega Chicken Wrap",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "33g",
+      "carbohydrate": "37g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818528d2561d3a15c17",
+    "name": "Fruit Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d0fda1dfd7299ad7",
+    "name": "Fuji Apple Chicken Salad without Pecans, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "15g",
+      "carbohydrate": "17g",
+      "fat": "11g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818f70cc8cb171b6bf0",
+    "name": "Fuji Apple Chicken Salad without Pecans, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "29g",
+      "carbohydrate": "34g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818158dc45869ee2fad",
+    "name": "Fuji Apple Chicken Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "15g",
+      "carbohydrate": "18g",
+      "fat": "16g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818c0d7211b3eb6d584",
+    "name": "Fuji Apple Chicken Salad, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "30g",
+      "carbohydrate": "36g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818830e32824de31771",
+    "name": "Garden Avo & Egg White on Multigrain Bagel Flat",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "19g",
+      "carbohydrate": "36g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619d489a38f2415ecc0",
+    "name": "Garden Avo Toast",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "6g",
+      "carbohydrate": "27g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d19b1d5fdaf462ef",
+    "name": "Garlic Aioli, Sandwich Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481832d61520d223ab17",
+    "name": "Gold Peak Unsweetened Iced Tea, 18.5 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "547"
+  },
+  {
+    "itemId": "2238481863414b6df5f7e5f3",
+    "name": "Greek Dressing, Half Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "12g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22384818f8325587a8c4dbe6",
+    "name": "Greek Dressing, Sandwich Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a4139bfe527a5aa1",
+    "name": "Greek Dressing, Whole Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "25g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22384818e1e15813e194277b",
+    "name": "Greek Salad with Chicken, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "16g",
+      "carbohydrate": "9g",
+      "fat": "19g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818c240bdb326873e90",
+    "name": "Greek Salad with Chicken, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "32g",
+      "carbohydrate": "19g",
+      "fat": "38g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848188e62c1d2829b85ce",
+    "name": "Greek Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "4g",
+      "carbohydrate": "9g",
+      "fat": "18g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818ff0d9d635f29edb5",
+    "name": "Greek Salad, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818ca01f3cfaa8b595e",
+    "name": "Greek Yogurt with Mixed Berries",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "16g",
+      "carbohydrate": "29g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896196709ce41e5cbce3f",
+    "name": "Green Chile Salsa Verde, Sandwich Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e5e415ebb4f1c872",
+    "name": "Green Goddess Chicken Wrap",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "34g",
+      "carbohydrate": "44g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481879e2003dedd44607",
+    "name": "Green Goddess Cobb Salad with Chicken, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "21g",
+      "carbohydrate": "11g",
+      "fat": "15g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818377f5df04c000421",
+    "name": "Green Goddess Cobb Salad with Chicken, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "42g",
+      "carbohydrate": "23g",
+      "fat": "29g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184e5978a91ba660b4",
+    "name": "Green Goddess Dressing, Half Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22384818b028f1ae795da909",
+    "name": "Green Goddess Dressing, Sandwich Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848189f337a0ec90e40af",
+    "name": "Green Goddess Dressing, Whole Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22384818443f86e91eea6c70",
+    "name": "Grilled Cheese on Classic White Miche, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "18g",
+      "carbohydrate": "37g",
+      "fat": "26g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818cdd589fba86c6d1a",
+    "name": "Grilled Cheese on Classic White Miche, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "890",
+      "protein": "35g",
+      "carbohydrate": "73g",
+      "fat": "51g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e09d841769ce4da9",
+    "name": "Grilled Chicken & Avo BLT on Country Rustic Sourdough, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "24g",
+      "carbohydrate": "28g",
+      "fat": "27g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223848186f2ef88dee7ff24b",
+    "name": "Grilled Chicken & Avo BLT on Country Rustic Sourdough, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "900",
+      "protein": "49g",
+      "carbohydrate": "55g",
+      "fat": "55g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848189003d6de40eebfa9",
+    "name": "Half & Half, 1 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818fc44de3303af1134",
+    "name": "Ham, Egg & Cheese on Ciabatta",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "25g",
+      "carbohydrate": "40g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d70ca8ff1469f428",
+    "name": "Hard Boiled Eggs",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "13g",
+      "carbohydrate": "1g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848188230189614857a2c",
+    "name": "Hazelnut Coffee, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a3aeb7d27c992299",
+    "name": "Hazelnut Flavored Coffee, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "2238481883f1860e1dec36fc",
+    "name": "Hazelnut Flavored Coffee, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22389619a12928d61896d7f0",
+    "name": "Hearty Fireside Chili, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "27g",
+      "carbohydrate": "43g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896199776bdb2ab8d2d2e",
+    "name": "Hearty Fireside Chili, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "900",
+      "protein": "42g",
+      "carbohydrate": "160g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619935da956de2cc7a7",
+    "name": "Hearty Fireside Chili, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "18g",
+      "carbohydrate": "29g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896199cc6eac6755c3f6d",
+    "name": "Hearty Fireside Chili, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "930",
+      "protein": "63g",
+      "carbohydrate": "101g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a1be968e4e4906f1",
+    "name": "Homestyle Chicken Noodle Soup, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "14g",
+      "carbohydrate": "19g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a2315f8e401bc979",
+    "name": "Homestyle Chicken Noodle Soup, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "790",
+      "protein": "36g",
+      "carbohydrate": "143g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481859f6d135017eba24",
+    "name": "Homestyle Chicken Noodle Soup, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "10g",
+      "carbohydrate": "13g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818f9952f97db6dc00f",
+    "name": "Homestyle Chicken Noodle Soup, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "33g",
+      "carbohydrate": "45g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e00b199f22a7121c",
+    "name": "Honest Berry Hibiscus Iced Tea, 16.9 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "26g",
+      "fat": "0g"
+    },
+    "serving": "500"
+  },
+  {
+    "itemId": "22384818d1f4971388e9cb16",
+    "name": "Hummus",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848180d220e34d9b51133",
+    "name": "Iced Cafe Blend Dark Roast Coffee, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481819232be8f090a873",
+    "name": "Iced Cafe Blend Dark Roast Coffee, 20 fl oz, No Ice",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848186769c70d335eea6c",
+    "name": "Iced Cafe Blend Dark Roast Coffee, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818ca9d3f7b5af57ea5",
+    "name": "Iced Cafe Blend Dark Roast Coffee, 30 fl oz, No Ice",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481866f3bb4df1e22d17",
+    "name": "Iced Caffe Latte, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "10g",
+      "carbohydrate": "15g",
+      "fat": "6g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818848fb012c127e997",
+    "name": "Iced Caramel Latte, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "11g",
+      "carbohydrate": "54g",
+      "fat": "10g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481838188040d502c503",
+    "name": "Iced Chai Tea Latte, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "10g",
+      "carbohydrate": "33g",
+      "fat": "6g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481880c458d204cd6d94",
+    "name": "Iced Madagascar Vanilla Latte, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "11g",
+      "carbohydrate": "35g",
+      "fat": "10g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818f6b2e3efd1dc6817",
+    "name": "Kettle Cooked Potato Chips",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "2g",
+      "carbohydrate": "17g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619b3f06d6603a03d3c",
+    "name": "Kickin' Grilled Cheese on Classic White Miche, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "16g",
+      "carbohydrate": "35g",
+      "fat": "24g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22389619f64fea7bc4aedd3b",
+    "name": "Kickin' Grilled Cheese on Classic White Miche, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "840",
+      "protein": "31g",
+      "carbohydrate": "70g",
+      "fat": "49g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619b61a6b1e6cb223f9",
+    "name": "Kids Broccoli Cheddar Soup, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619fd2b7307abc2d3be",
+    "name": "Kids Grilled Cheese on Classic White Miche, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "890",
+      "protein": "35g",
+      "carbohydrate": "73g",
+      "fat": "51g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619634bca25ed327803",
+    "name": "Kids Ham & American Cheese on Classic White Miche, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "39g",
+      "carbohydrate": "68g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896197818fa2590e57b36",
+    "name": "Kids Mac & Cheese, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "16g",
+      "carbohydrate": "34g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481809c88148d725e1f7",
+    "name": "Kids Organic Apple Juice",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "24g",
+      "fat": "0g"
+    },
+    "serving": "200"
+  },
+  {
+    "itemId": "223848181663e680ea81db1f",
+    "name": "Kids Organic Chocolate Milk",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "8g",
+      "carbohydrate": "23g",
+      "fat": "2.5g"
+    },
+    "serving": "237"
+  },
+  {
+    "itemId": "22384818515d94a1d74e564b",
+    "name": "Kids Organic White Milk",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "13g",
+      "fat": "2.5g"
+    },
+    "serving": "237"
+  },
+  {
+    "itemId": "223896196c307a216a41f189",
+    "name": "Kids Turkey & American Cheese on Classic White Miche, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "43g",
+      "carbohydrate": "69g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848180dda8708e15afbcb",
+    "name": "Kitchen Sink Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "820",
+      "protein": "8g",
+      "carbohydrate": "99g",
+      "fat": "44g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481895b619f2de263983",
+    "name": "Lime Bubly Sparkling Water, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818406ef219bc3fb81e",
+    "name": "Lime Bubly Sparkling Water, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818ebf1c2d366f9a649",
+    "name": "Lipton Brisk Raspberry Tea, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "30g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848183f0af7780649e304",
+    "name": "Lipton Brisk Raspberry Tea, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "45g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848186a8508f5f6f7627f",
+    "name": "Mac & Cheese, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "960",
+      "protein": "32g",
+      "carbohydrate": "67g",
+      "fat": "64g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848185c6532093bb0ba84",
+    "name": "Mac & Cheese, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1150",
+      "protein": "43g",
+      "carbohydrate": "164g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848189345d222fb76f3af",
+    "name": "Mac & Cheese, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "16g",
+      "carbohydrate": "34g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481815440f00b7421bf6",
+    "name": "Mac & Cheese, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1930",
+      "protein": "65g",
+      "carbohydrate": "134g",
+      "fat": "128g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186250892dd8b5055b",
+    "name": "Madagascar Vanilla Latte, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "9g",
+      "carbohydrate": "32g",
+      "fat": "9g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "2238481814977fc4dcd66f47",
+    "name": "Madagascar Vanilla Latte, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "11g",
+      "carbohydrate": "41g",
+      "fat": "10g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818959cd23e519d6f31",
+    "name": "Mango Smoothie with Greek Yogurt, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "13g",
+      "carbohydrate": "51g",
+      "fat": "5g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "2238961947dd9cfdb5f0a6b6",
+    "name": "Mayonnaise",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d581fb574789dcd5",
+    "name": "Mediterranean Chicken Greens with Grains Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "16g",
+      "carbohydrate": "21g",
+      "fat": "20g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818e52b5ea7a33b434a",
+    "name": "Mediterranean Chicken Greens with Grains Salad, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "660",
+      "protein": "32g",
+      "carbohydrate": "43g",
+      "fat": "41g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481880a63502998d3fae",
+    "name": "Mediterranean Greens with Grains Salads, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "4g",
+      "carbohydrate": "21g",
+      "fat": "19g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223848187dcf9fe5a86660f6",
+    "name": "Mediterranean Greens with Grains Salads, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "8g",
+      "carbohydrate": "41g",
+      "fat": "39g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185af2d255fb3e454b",
+    "name": "Mediterranean Veggie on Tomato Basil, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "9g",
+      "carbohydrate": "38g",
+      "fat": "7g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818d75ee3ff431fa49d",
+    "name": "Mediterranean Veggie on Tomato Basil, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "18g",
+      "carbohydrate": "77g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481824fa7f6c0ddfe0c0",
+    "name": "Mini Brownie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "2g",
+      "carbohydrate": "17g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d73cb5bf3f573fac",
+    "name": "Minute Maid Orange Juice, 12 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "51g",
+      "fat": "0g"
+    },
+    "serving": "355"
+  },
+  {
+    "itemId": "22389619f904453fe8ebd437",
+    "name": "Mitten Shaped Shortbread Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "4g",
+      "carbohydrate": "55g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848181269ad9cc58d16bb",
+    "name": "Mountain Dew, 12 fl oz Can",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "46g",
+      "fat": "0g"
+    },
+    "serving": "355"
+  },
+  {
+    "itemId": "22384818a4846956e5eecb03",
+    "name": "Mountain Dew, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "73g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818901cbb921ec34954",
+    "name": "Mountain Dew, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "77g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818e97a3c73331952c8",
+    "name": "Mountain Dew, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "0g",
+      "carbohydrate": "110g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818430fe915b6039592",
+    "name": "Mug Root Beer, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "64g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818c4e23123b660357a",
+    "name": "Mug Root Beer, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "0g",
+      "carbohydrate": "96g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818ca2b742b632272a9",
+    "name": "Multigrain Bagel Flat",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "7g",
+      "carbohydrate": "32g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184ae2bedd9d410c06",
+    "name": "New England Roll",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "9g",
+      "carbohydrate": "44g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848183d3756648e03bd1a",
+    "name": "Oatmeal Raisin with Berries Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "4g",
+      "carbohydrate": "55g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848189d7f9bc6ffce76a3",
+    "name": "Oatmeal Raisin with Berries Mini Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481826897e64c144148f",
+    "name": "Orange Mini Scone",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "3g",
+      "carbohydrate": "26g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848180e6caed89e14336e",
+    "name": "Orange Scone",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "8g",
+      "carbohydrate": "77g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481803b9d44c93cea4c2",
+    "name": "Passion Papaya Naturally Flavored Iced Green Tea, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "36g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818d7dbbb6b7bdebb55",
+    "name": "Passion Papaya Naturally Flavored Iced Green Tea, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818e3c676efff44212f",
+    "name": "Passion Papaya Naturally Flavored Iced Green Tea, Serves 4",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "0g",
+      "carbohydrate": "114g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818510141a59739e52e",
+    "name": "Passion Papaya Naturally Flavored Iced Green Tea, Serves 8",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "930",
+      "protein": "0g",
+      "carbohydrate": "227g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22384818eb1ef523bd5e2fea",
+    "name": "Pecan Braid Pastry",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "6g",
+      "carbohydrate": "53g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818166458b0775e1b71",
+    "name": "Pepsi 12 fl oz Can",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "355"
+  },
+  {
+    "itemId": "22384818011db57c3fe6dc64",
+    "name": "Pepsi Zero, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848183c292e086d195181",
+    "name": "Pepsi Zero, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818413a78812303ba98",
+    "name": "Pepsi, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "69g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818eb633bfb2fe4fca4",
+    "name": "Pepsi, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "69g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848182d4f3bc852dd3581",
+    "name": "Pepsi, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "0g",
+      "carbohydrate": "103g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818f17a10af7f47c431",
+    "name": "Petite Chocolate Chipper Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "1g",
+      "carbohydrate": "13g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481811a97facf2352c8b",
+    "name": "Pibb Xtra, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "61g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818860d603ac7a35c03",
+    "name": "Pibb Xtra, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "0g",
+      "carbohydrate": "92g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818c5ff618fedb5751b",
+    "name": "Pickle Spear",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818949e3a36244ae498",
+    "name": "Pink Packet Sweetener",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481885c4ad7eceacd42f",
+    "name": "Plain Bagel",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "10g",
+      "carbohydrate": "57g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481803820ad8c949ff7b",
+    "name": "Plain Cream Cheese Spread, 1.75 oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e3ebdd6317bd5504",
+    "name": "Plain Cream Cheese Spread, 8 oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "10g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848186d030df1d9c351b7",
+    "name": "Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818f9c76f43539b37b1",
+    "name": "Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "19g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818b4b1c92e8ca7475a",
+    "name": "Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, Serves 4",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "43g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a12f09ba7ff55b19",
+    "name": "Pomegranate Hibiscus Herbal Tea Infusion, Naturally Flavored, Serves 8",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "0g",
+      "carbohydrate": "87g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848185408abe54d4147f5",
+    "name": "Powerade Mountain Blast, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "37g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818862c649eb71a1fba",
+    "name": "Powerade Mountain Blast, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "55g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848182a5fc414dafbeefb",
+    "name": "Premium Orange Juice, 11.5 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "2g",
+      "carbohydrate": "37g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848189c3daad68d544566",
+    "name": "Premium Orange Juice, Serves 4",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "900",
+      "protein": "17g",
+      "carbohydrate": "204g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818edec5afffda0f74f",
+    "name": "Premium Orange Juice, Serves 8",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1800",
+      "protein": "33g",
+      "carbohydrate": "408g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22389619a18e55da6d043121",
+    "name": "Pumpkin Shaped Shortbread Cookie",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "4g",
+      "carbohydrate": "62g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d09105a319a1f9d0",
+    "name": "Ranch Cobb Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "9g",
+      "carbohydrate": "9g",
+      "fat": "19g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223848180e76d0acfb6c266f",
+    "name": "Ranch Cobb Salad, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "17g",
+      "carbohydrate": "18g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818edde27d74e8ab795",
+    "name": "Ranch Dressing, Half Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "10g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223848183643c2f81ceeb00c",
+    "name": "Ranch Dressing, Sandwich Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bf1b1ee6cfe77447",
+    "name": "Ranch Dressing, Whole Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "21g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22384818caef116faf7358a2",
+    "name": "Reduced Fat Honey Walnut Cream Cheese Spread, 1.75 oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "3g",
+      "carbohydrate": "8g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848180c7387642fe79b90",
+    "name": "Reduced Fat Honey Walnut Cream Cheese Spread, 8 oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "2g",
+      "carbohydrate": "5g",
+      "fat": "6g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "2238961974787d55e645b4e7",
+    "name": "Rustic Baked Potato Soup, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "12g",
+      "carbohydrate": "26g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238961921f31108f6ee36f7",
+    "name": "Rustic Baked Potato Soup, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "880",
+      "protein": "32g",
+      "carbohydrate": "148g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896196ccde0413b3abce4",
+    "name": "Rustic Baked Potato Soup, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619e1bc1037b6fc1aea",
+    "name": "Rustic Baked Potato Soup, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "880",
+      "protein": "28g",
+      "carbohydrate": "61g",
+      "fat": "60g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184df9e0ad15cbf734",
+    "name": "Sausage Cinnascramble",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "790",
+      "protein": "25g",
+      "carbohydrate": "58g",
+      "fat": "51g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185436275d0a075bc4",
+    "name": "Sausage, Egg & Cheese on Ciabatta",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "590",
+      "protein": "27g",
+      "carbohydrate": "40g",
+      "fat": "35g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238961936d0b598a5d1c63e",
+    "name": "Sausage, Egg & Cheese on Croissant",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "660",
+      "protein": "25g",
+      "carbohydrate": "34g",
+      "fat": "47g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818da9bef53396c9610",
+    "name": "Scrambled Egg",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "8g",
+      "carbohydrate": "1g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481878121cf5ec5414c3",
+    "name": "Sesame Bagel",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "11g",
+      "carbohydrate": "58g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c9818b972628cca0",
+    "name": "Smokehouse BBQ Chicken on Artisan Ciabatta, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "25g",
+      "carbohydrate": "45g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "2238481862475ce178ea6b09",
+    "name": "Smokehouse BBQ Chicken on Artisan Ciabatta, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "730",
+      "protein": "49g",
+      "carbohydrate": "90g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481800fd7150dfa4d7e3",
+    "name": "Sobe Life Water Yumberry Pomegranate, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848185b3fe4052950ecf4",
+    "name": "Sobe Life Water Yumberry Pomegranate, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848188f4b20de2031e2a8",
+    "name": "Souffle - Spinach & Bacon",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "19g",
+      "carbohydrate": "36g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184bcf128d593507b1",
+    "name": "Souffle, Four Cheese",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "14g",
+      "carbohydrate": "36g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bdb84eaec255169f",
+    "name": "Southwest Chicken Ranch Salad, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "16g",
+      "carbohydrate": "17g",
+      "fat": "22g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223848189280859295835882",
+    "name": "Southwest Chicken Ranch Salad, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "650",
+      "protein": "31g",
+      "carbohydrate": "34g",
+      "fat": "45g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619f47a9337785848e9",
+    "name": "Spicy Fiesta Chicken on Ciabatta, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "26g",
+      "carbohydrate": "44g",
+      "fat": "16g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223896197c49b36d0467a6ec",
+    "name": "Spicy Fiesta Chicken on Ciabatta, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "840",
+      "protein": "51g",
+      "carbohydrate": "88g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e2a7d0dfd9a127d3",
+    "name": "Sprite Zero, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818bcd4f53a343603cc",
+    "name": "Sprite, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "61g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818b1243e3e31374f04",
+    "name": "Sprite, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "64g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818ce8f33d36c29f83d",
+    "name": "Sprite, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "0g",
+      "carbohydrate": "91g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818d99cc043271fbbec",
+    "name": "Starry Lemon Lime, 12 fl oz Can",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "355"
+  },
+  {
+    "itemId": "22384818982e55066c043229",
+    "name": "Starry Lemon Lime, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "68g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481836c86b589c8ae57a",
+    "name": "Starry Lemon Lime, 20 fl oz Bottle",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "68g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "223848185389fc415da5574d",
+    "name": "Starry Lemon Lime, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "0g",
+      "carbohydrate": "97g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "2238481810c3e710e780732b",
+    "name": "Steak & Wake on Ciabatta",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "33g",
+      "carbohydrate": "41g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848180124b1ace90fc737",
+    "name": "Steel Cut Oatmeal with Strawberries & Cinnamon Crunch Topping without Pecans",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "7g",
+      "carbohydrate": "50g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818f3180b335ee2908d",
+    "name": "Steel Cut Oatmeal with Strawberries, Pecans & Cinnamon Crunch Topping",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "8g",
+      "carbohydrate": "52g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c7cc5f2f560a0f7d",
+    "name": "Strawberry Banana Smoothie with Greek Yogurt, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "7g",
+      "carbohydrate": "51g",
+      "fat": "2.5g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "2238481856cd3069afe3c41a",
+    "name": "Strawberry Smoothie with Greek Yogurt, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "12g",
+      "carbohydrate": "43g",
+      "fat": "4.5g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "22384818f79bc8db692a3f05",
+    "name": "Sugar",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186b0b43cd078d0738",
+    "name": "Sweet Iced Tea, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "0g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818e49f59336075a8dd",
+    "name": "Sweet Iced Tea, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "38g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818346e413ce4c64c1b",
+    "name": "Sweet Iced Tea, Serves 4",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "0g",
+      "carbohydrate": "87g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818da94b9579694bae6",
+    "name": "Sweet Iced Tea, Serves 8",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "0g",
+      "carbohydrate": "175g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238481831e9ebc49b48ce02",
+    "name": "Toasted Frontega Chicken on Black Pepper Focaccia, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "23g",
+      "carbohydrate": "36g",
+      "fat": "18g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "2238481872ae43416b8ce6c5",
+    "name": "Toasted Frontega Chicken on Black Pepper Focaccia, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "790",
+      "protein": "45g",
+      "carbohydrate": "73g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848183f96c950eeb95daf",
+    "name": "Toasted Garden Caprese Melt on Artisan Ciabatta, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "16g",
+      "carbohydrate": "43g",
+      "fat": "24g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818eada78ffca184473",
+    "name": "Toasted Garden Caprese Melt on Artisan Ciabatta, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "890",
+      "protein": "32g",
+      "carbohydrate": "86g",
+      "fat": "47g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c1b5b89b85e5e73a",
+    "name": "Toasted Italiano on Baguette, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "640",
+      "protein": "30g",
+      "carbohydrate": "58g",
+      "fat": "32g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818585c5ad5281c1100",
+    "name": "Toasted Italiano on Baguette, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1280",
+      "protein": "61g",
+      "carbohydrate": "116g",
+      "fat": "64g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bf774506450026a5",
+    "name": "Tomato Basil BLT on Tomato Basil Miche, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "13g",
+      "carbohydrate": "33g",
+      "fat": "21g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223848181a9af2a8b60649de",
+    "name": "Tomato Basil BLT on Tomato Basil Miche, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "750",
+      "protein": "25g",
+      "carbohydrate": "67g",
+      "fat": "43g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818319d000c204ddcb0",
+    "name": "Tomato Basil Miche Bread",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "5g",
+      "carbohydrate": "27g",
+      "fat": "0g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "223848183d939d00511ae3cd",
+    "name": "Tomato Basil Miche Bread, Half Sandwich & Breakfast Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "5g",
+      "carbohydrate": "30g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481861297afd221136c4",
+    "name": "Tropical Green Smoothie, 16 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "2g",
+      "carbohydrate": "89g",
+      "fat": "1g"
+    },
+    "serving": "473"
+  },
+  {
+    "itemId": "223848186a5d39dd3e317168",
+    "name": "Tropicana Fruit Punch, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "78g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818f7df89f71cc95e20",
+    "name": "Tropicana Fruit Punch, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "0g",
+      "carbohydrate": "113g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818a850393ef335045b",
+    "name": "Tropicana Lemonade, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "67g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "22384818c7186a9309db0850",
+    "name": "Tropicana Lemonade, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "0g",
+      "carbohydrate": "100g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "22384818dbfdea5b2e647b5c",
+    "name": "Tropicana Light Lemonade, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481853fcaa4118c1e1b4",
+    "name": "Tropicana Light Lemonade, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848183e4e99e415762460",
+    "name": "Tuna Salad on Country Rustic Sourdough, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "12g",
+      "carbohydrate": "25g",
+      "fat": "14g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818b062e8b6318c1ef4",
+    "name": "Tuna Salad on Country Rustic Sourdough, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "24g",
+      "carbohydrate": "49g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481826ffe10c8780a8b2",
+    "name": "Turbinado Cane Sugar Packet",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e693e127ec3f096b",
+    "name": "Turkey & Cheddar on Country Rustic Sourdough, Half",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "21g",
+      "carbohydrate": "26g",
+      "fat": "22g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22384818e97f8c27cac0a107",
+    "name": "Turkey & Cheddar on Country Rustic Sourdough, Whole",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "770",
+      "protein": "41g",
+      "carbohydrate": "52g",
+      "fat": "45g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818220e1790342f2f8c",
+    "name": "Turkey & Cheddar Wrap",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "33g",
+      "carbohydrate": "38g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818dccb9c835ca963ad",
+    "name": "Uniced Cinnamon Roll",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "7g",
+      "carbohydrate": "55g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481886d9a1623c0c8320",
+    "name": "Unsweetened Iced Tea, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481897b1ac024252d32d",
+    "name": "Unsweetened Iced Tea, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848181d3106e02d0d5f70",
+    "name": "Unsweetened Iced Tea, Serves 4",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481889afc9162946cfa0",
+    "name": "Unsweetened Iced Tea, Serves 8",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "0g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223848189ec1a7927d3ab7b9",
+    "name": "Value Duet, Caesar Salad & Homestyle Chicken Noodle Soup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "15g",
+      "carbohydrate": "25g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481895e0a06e75b2fb7d",
+    "name": "Value Duet, Greek Salad & Creamy Tomato Soup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "8g",
+      "carbohydrate": "33g",
+      "fat": "34g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848188add08ae55383971",
+    "name": "Value Duet, Grilled Cheese & Creamy Tomato Soup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "710",
+      "protein": "22g",
+      "carbohydrate": "62g",
+      "fat": "42g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619b69ef272698d6729",
+    "name": "Value Duet, Kickin' Grilled Cheese & Creamy Tomato Soup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "20g",
+      "carbohydrate": "60g",
+      "fat": "40g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818098205b02fe170a0",
+    "name": "Value Duet, Mediterranean Veggie & Creamy Tomato Soup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "13g",
+      "carbohydrate": "63g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d2e122978ec15b96",
+    "name": "Value Duet, Toasted Smokehouse BBQ Chicken Sandwich & Creamy Tomato Soup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "640",
+      "protein": "26g",
+      "carbohydrate": "65g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818512362ade96cdb23",
+    "name": "Value Duet, Tuna Sandwich & Creamy Tomato Soup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "530",
+      "protein": "16g",
+      "carbohydrate": "50g",
+      "fat": "30g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848189bb6202e4e481001",
+    "name": "Value Duet, Turkey & Cheddar Sandwich & Cream of Chicken & Wild Rice Soup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "26g",
+      "carbohydrate": "44g",
+      "fat": "33g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22389619edb856737fa56005",
+    "name": "Vegetarian Autumn Squash Soup, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "8g",
+      "carbohydrate": "41g",
+      "fat": "16g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22389619b511dd460a6932d4",
+    "name": "Vegetarian Autumn Squash Soup, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "880",
+      "protein": "32g",
+      "carbohydrate": "158g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238961914d866d448fe6a2d",
+    "name": "Vegetarian Autumn Squash Soup, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "5g",
+      "carbohydrate": "27g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223896192e6edee80d2f1c88",
+    "name": "Vegetarian Autumn Squash Soup, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "760",
+      "protein": "19g",
+      "carbohydrate": "96g",
+      "fat": "38g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848182f814c8cfb21a433",
+    "name": "Vegetarian Creamy Tomato Soup, Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "6g",
+      "carbohydrate": "35g",
+      "fat": "23g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223848184ac14749755c6b85",
+    "name": "Vegetarian Creamy Tomato Soup, Cup",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "4g",
+      "carbohydrate": "25g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186a8a4445b49e134e",
+    "name": "Vegetarian Creamy Tomato Soup, Group",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "920",
+      "protein": "14g",
+      "carbohydrate": "89g",
+      "fat": "56g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481859244fe1cc50a34f",
+    "name": "Vegetarian Creamy Tomato, Bread Bowl",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "930",
+      "protein": "31g",
+      "carbohydrate": "155g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d233e933ab4d31ae",
+    "name": "White Balsamic Vinaigrette Flavored with Apple, Half Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "6g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22384818e1e63d5367979e19",
+    "name": "White Balsamic Vinaigrette Flavored with Apple, Whole Portion",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "13g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223848180cae4fd0de7df983",
+    "name": "Whole Grain Lahvash Bread",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "12g",
+      "carbohydrate": "25g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848187fd36a4534db6ec4",
+    "name": "Wild Cherry Pepsi, 20 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "70g",
+      "fat": "0g"
+    },
+    "serving": "591"
+  },
+  {
+    "itemId": "2238481888ceeb8a0d784de8",
+    "name": "Wild Cherry Pepsi, 30 fl oz",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "0g",
+      "carbohydrate": "106g",
+      "fat": "0g"
+    },
+    "serving": "887"
+  },
+  {
+    "itemId": "223848183083a8d85c1052a9",
+    "name": "Yellow Packet Sweetener",
+    "brandName": "Panera Bread",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  }
+]

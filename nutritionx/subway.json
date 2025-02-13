@@ -1,0 +1,2472 @@
+[
+  {
+    "itemId": "22383217918a566a845fba16",
+    "name": "6 inch #1 The Philly",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "28g",
+      "carbohydrate": "43g",
+      "fat": "25g"
+    },
+    "serving": "192g"
+  },
+  {
+    "itemId": "22383217f8f1e477b317897e",
+    "name": "6 inch #10 All-American Club",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "27g",
+      "carbohydrate": "45g",
+      "fat": "28g"
+    },
+    "serving": "242g"
+  },
+  {
+    "itemId": "2238321794a00296cdd970f7",
+    "name": "6 inch #11 Subway Club",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "31g",
+      "carbohydrate": "43g",
+      "fat": "24g"
+    },
+    "serving": "263g"
+  },
+  {
+    "itemId": "22383217586337d921bd7a44",
+    "name": "6 inch #15 Titan Turkey",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "31g",
+      "carbohydrate": "42g",
+      "fat": "23g"
+    },
+    "serving": "251g"
+  },
+  {
+    "itemId": "22383217bb515076979ebe32",
+    "name": "6 inch #16 All-Pro Sweet Onion Teriyaki",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "29g",
+      "carbohydrate": "55g",
+      "fat": "11g"
+    },
+    "serving": "256g"
+  },
+  {
+    "itemId": "223832179f89bc4eb8783f3e",
+    "name": "6 inch #17 Garlic Roast Beef",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "30g",
+      "carbohydrate": "45g",
+      "fat": "21g"
+    },
+    "serving": "247g"
+  },
+  {
+    "itemId": "223832178291754aa3bebf1a",
+    "name": "6 inch #18 Ultimate B.M.T.",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "560",
+      "protein": "27g",
+      "carbohydrate": "45g",
+      "fat": "30g"
+    },
+    "serving": "240g"
+  },
+  {
+    "itemId": "22383217e13f9fb3d91ef0c3",
+    "name": "6 inch #2 The Outlaw",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "31g",
+      "carbohydrate": "42g",
+      "fat": "22g"
+    },
+    "serving": "198g"
+  },
+  {
+    "itemId": "22383217c425c61b0de0a474",
+    "name": "6 inch #20 Elite Chicken & Bacon Ranch",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "35g",
+      "carbohydrate": "44g",
+      "fat": "29g"
+    },
+    "serving": "262g"
+  },
+  {
+    "itemId": "22384818316e9b983fcdb980",
+    "name": "6 inch #21 Honey Mustard BBQ Chicken",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "30g",
+      "carbohydrate": "53g",
+      "fat": "20g"
+    },
+    "serving": "272g"
+  },
+  {
+    "itemId": "22384818eed3c7ebe78a656f",
+    "name": "6 inch #22 Spicy Nacho Chicken on Ghost Pepper Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "26g",
+      "carbohydrate": "51g",
+      "fat": "19g"
+    },
+    "serving": "217g"
+  },
+  {
+    "itemId": "22384818aab8cd3e9632d63a",
+    "name": "6 inch #22 Spicy Nacho Chicken on Italian Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "24g",
+      "carbohydrate": "49g",
+      "fat": "17g"
+    },
+    "serving": "203g"
+  },
+  {
+    "itemId": "22383217ab055c2a6bde9009",
+    "name": "6 inch #23 Hotshot Italiano",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "630",
+      "protein": "27g",
+      "carbohydrate": "45g",
+      "fat": "38g"
+    },
+    "serving": "238g"
+  },
+  {
+    "itemId": "22384818e39c15bf9273c5aa",
+    "name": "6 inch #24 Firey Meatball on Ghost Pepper Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "28g",
+      "carbohydrate": "57g",
+      "fat": "37g"
+    },
+    "serving": "275g"
+  },
+  {
+    "itemId": "22383217bbbc07d2814369e6",
+    "name": "6 inch #30 The Beast",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "740",
+      "protein": "40g",
+      "carbohydrate": "47g",
+      "fat": "44g"
+    },
+    "serving": "317g"
+  },
+  {
+    "itemId": "22384818693a2ef9e2680b27",
+    "name": "6 inch #31 Cheesy Garlic Steak",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "26g",
+      "carbohydrate": "49g",
+      "fat": "23g"
+    },
+    "serving": "199g"
+  },
+  {
+    "itemId": "223848183059ab5c4a8837dd",
+    "name": "6 inch #34 Spicy Nacho Steak on Ghost Pepper Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "28g",
+      "carbohydrate": "52g",
+      "fat": "20g"
+    },
+    "serving": "217g"
+  },
+  {
+    "itemId": "22384818b221f9aa976e14aa",
+    "name": "6 inch #40 Turkey, Bacon & Sliced Avocado",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "790",
+      "protein": "48g",
+      "carbohydrate": "58g",
+      "fat": "41g"
+    },
+    "serving": "367g"
+  },
+  {
+    "itemId": "22384818266b3ad4a113eeba",
+    "name": "6 inch #40 Turkey, Bacon & Smashed Avocado",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "820",
+      "protein": "48g",
+      "carbohydrate": "59g",
+      "fat": "44g"
+    },
+    "serving": "374g"
+  },
+  {
+    "itemId": "22384818b938a3eee77c03df",
+    "name": "6 inch #42 Homestyle Chicken Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "35g",
+      "carbohydrate": "53g",
+      "fat": "36g"
+    },
+    "serving": "323g"
+  },
+  {
+    "itemId": "2238481859c228150a56bd50",
+    "name": "6 inch #45 Honey Mustard Chicken",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "650",
+      "protein": "46g",
+      "carbohydrate": "57g",
+      "fat": "27g"
+    },
+    "serving": "337g"
+  },
+  {
+    "itemId": "2238321755f9988d4db2d949",
+    "name": "6 inch #6 The Boss",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "33g",
+      "carbohydrate": "56g",
+      "fat": "38g"
+    },
+    "serving": "268g"
+  },
+  {
+    "itemId": "22383217531cfa891bc6a780",
+    "name": "6 inch #99 Homerun Ham",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "28g",
+      "carbohydrate": "45g",
+      "fat": "24g"
+    },
+    "serving": "251g"
+  },
+  {
+    "itemId": "529e7dc2ea63d49335001588",
+    "name": "6 inch Artisan Italian Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "8g",
+      "carbohydrate": "39g",
+      "fat": "2g"
+    },
+    "serving": "71g"
+  },
+  {
+    "itemId": "22383217167aa07c8d223f9e",
+    "name": "6 inch B.L.T.",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "18g",
+      "carbohydrate": "42g",
+      "fat": "15g"
+    },
+    "serving": "157g"
+  },
+  {
+    "itemId": "223832171b9cb8acda0c1817",
+    "name": "6 inch Bacon, Egg & Cheese",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "24g",
+      "carbohydrate": "42g",
+      "fat": "27g"
+    },
+    "serving": "182g"
+  },
+  {
+    "itemId": "22383217fb55fa43f0d2aa9b",
+    "name": "6 inch Bacon, Egg & Cheese Flatbread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "21g",
+      "carbohydrate": "28g",
+      "fat": "27g"
+    },
+    "serving": "156g"
+  },
+  {
+    "itemId": "2238321776c365694bc0f671",
+    "name": "6 inch Big Hot Pastrami",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "28g",
+      "carbohydrate": "43g",
+      "fat": "27g"
+    },
+    "serving": "219g"
+  },
+  {
+    "itemId": "22383217adda1f1a3dc4944c",
+    "name": "6 inch Black Forest Ham",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "19g",
+      "carbohydrate": "42g",
+      "fat": "5g"
+    },
+    "serving": "219g"
+  },
+  {
+    "itemId": "223832179202d8baf1db34a7",
+    "name": "6 inch Black Forest Ham, Egg & Cheese",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "24g",
+      "carbohydrate": "43g",
+      "fat": "21g"
+    },
+    "serving": "195g"
+  },
+  {
+    "itemId": "22383217bb0a12f264407e21",
+    "name": "6 inch Black Forest Ham, Egg & Cheese Flatbread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "21g",
+      "carbohydrate": "28g",
+      "fat": "22g"
+    },
+    "serving": "170g"
+  },
+  {
+    "itemId": "223832172b4888b41f1cef24",
+    "name": "6 inch Buffalo Chicken with Grilled Chicken",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "25g",
+      "carbohydrate": "44g",
+      "fat": "12g"
+    },
+    "serving": "254g"
+  },
+  {
+    "itemId": "2238321719b7121c233c8da4",
+    "name": "6 inch Cold Cut Combo",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "17g",
+      "carbohydrate": "43g",
+      "fat": "10g"
+    },
+    "serving": "219g"
+  },
+  {
+    "itemId": "22383217033f7d9c3aabd698",
+    "name": "6 inch Egg & Cheese",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "19g",
+      "carbohydrate": "42g",
+      "fat": "20g"
+    },
+    "serving": "167g"
+  },
+  {
+    "itemId": "22383217c4243e53a7f3bdbe",
+    "name": "6 inch Egg & Cheese Flatbread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "16g",
+      "carbohydrate": "27g",
+      "fat": "21g"
+    },
+    "serving": "141g"
+  },
+  {
+    "itemId": "22384823dec07ad7937828ba",
+    "name": "6 inch Ghost Pepper Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "9g",
+      "carbohydrate": "41g",
+      "fat": "5g"
+    },
+    "serving": "83g"
+  },
+  {
+    "itemId": "2238321763098e65857a1f92",
+    "name": "6 inch Grilled Chicken",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "26g",
+      "carbohydrate": "40g",
+      "fat": "5g"
+    },
+    "serving": "233g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d3500154f",
+    "name": "6 inch Hearty Multigrain Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "9g",
+      "carbohydrate": "36g",
+      "fat": "3g"
+    },
+    "serving": "71g"
+  },
+  {
+    "itemId": "2238482345175ba19f0c507a",
+    "name": "6 inch Honey Oat Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "9g",
+      "carbohydrate": "39g",
+      "fat": "3g"
+    },
+    "serving": "75g"
+  },
+  {
+    "itemId": "529e7dc2ea63d49335001589",
+    "name": "6 inch Italian Herbs & Cheese Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "10g",
+      "carbohydrate": "42g",
+      "fat": "5g"
+    },
+    "serving": "82g"
+  },
+  {
+    "itemId": "c64053393c5e1fe01bd7ccc0",
+    "name": "6 inch Jalapeno Cheddar Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "9g",
+      "carbohydrate": "39g",
+      "fat": "5g"
+    },
+    "serving": "82g"
+  },
+  {
+    "itemId": "223832177245f32daaef61b2",
+    "name": "6 inch Meatball Marinara",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "20g",
+      "carbohydrate": "52g",
+      "fat": "20g"
+    },
+    "serving": "211g"
+  },
+  {
+    "itemId": "22383217ffdb0f77fe7928c3",
+    "name": "6 inch Oven Roasted Turkey",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "20g",
+      "carbohydrate": "40g",
+      "fat": "4g"
+    },
+    "serving": "219g"
+  },
+  {
+    "itemId": "223832177e3b5d25cfc21367",
+    "name": "6 inch Oven Roasted Turkey and Ham",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "20g",
+      "carbohydrate": "41g",
+      "fat": "4g"
+    },
+    "serving": "219g"
+  },
+  {
+    "itemId": "2238321794184a16753338bd",
+    "name": "6 inch Pizza Sub",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "19g",
+      "carbohydrate": "46g",
+      "fat": "24g"
+    },
+    "serving": "171g"
+  },
+  {
+    "itemId": "22383217f8cc9defe0939be7",
+    "name": "6 inch Roast Beef",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "25g",
+      "carbohydrate": "42g",
+      "fat": "4g"
+    },
+    "serving": "233g"
+  },
+  {
+    "itemId": "22383217787c3239b8b227ee",
+    "name": "6 inch Rotisserie-Style Chicken",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "24g",
+      "carbohydrate": "40g",
+      "fat": "6g"
+    },
+    "serving": "233g"
+  },
+  {
+    "itemId": "2238321732063180d008803b",
+    "name": "6 inch Steak with American Cheese",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "26g",
+      "carbohydrate": "42g",
+      "fat": "10g"
+    },
+    "serving": "167g"
+  },
+  {
+    "itemId": "22383217ef664ef31edb4300",
+    "name": "6 inch Steak, Egg & Cheese",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "29g",
+      "carbohydrate": "43g",
+      "fat": "23g"
+    },
+    "serving": "209g"
+  },
+  {
+    "itemId": "22383217c21b66c3f811027f",
+    "name": "6 inch Steak, Egg & Cheese Flatbread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "26g",
+      "carbohydrate": "28g",
+      "fat": "23g"
+    },
+    "serving": "184g"
+  },
+  {
+    "itemId": "223832177a17ed29f25e21a3",
+    "name": "6 inch Tuna",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "20g",
+      "carbohydrate": "42g",
+      "fat": "25g"
+    },
+    "serving": "229g"
+  },
+  {
+    "itemId": "223832174d8ee139acb001b6",
+    "name": "6 inch Veggie Delite",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "10g",
+      "carbohydrate": "40g",
+      "fat": "3g"
+    },
+    "serving": "162g"
+  },
+  {
+    "itemId": "223832178db73df664fa8c19",
+    "name": "6 inch Veggie Patty",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "16g",
+      "carbohydrate": "57g",
+      "fat": "12g"
+    },
+    "serving": "247g"
+  },
+  {
+    "itemId": "22383223137fabc0b23db992",
+    "name": "All-American Club Meats (Ham, Turkey, Bacon)",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "15g",
+      "carbohydrate": "2g",
+      "fat": "8g"
+    },
+    "serving": "72g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015a6",
+    "name": "American",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "2g",
+      "carbohydrate": "1g",
+      "fat": "4g"
+    },
+    "serving": "11g"
+  },
+  {
+    "itemId": "bd9d48164a8a6779efea931f",
+    "name": "Applesauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "90g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015b2",
+    "name": "Avocado, Sliced",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "4g"
+    },
+    "serving": "28g"
+  },
+  {
+    "itemId": "ddee3980e8a28c0fa5ecfb76",
+    "name": "Avocado, Smashed",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "6g"
+    },
+    "serving": "35g"
+  },
+  {
+    "itemId": "22383217f635942f475db7bd",
+    "name": "B.L.T. Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "22g",
+      "carbohydrate": "10g",
+      "fat": "26g"
+    },
+    "serving": "248g"
+  },
+  {
+    "itemId": "22383217e80e42834ccd3765",
+    "name": "B.L.T. Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "13g",
+      "carbohydrate": "11g",
+      "fat": "14g"
+    },
+    "serving": "317g"
+  },
+  {
+    "itemId": "22383217973d6b727fa3bb05",
+    "name": "B.L.T. Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "610",
+      "protein": "29g",
+      "carbohydrate": "53g",
+      "fat": "31g"
+    },
+    "serving": "206g"
+  },
+  {
+    "itemId": "529e7dc3ea63d49335001596",
+    "name": "Baby Spinach",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "7g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d35001596",
+    "name": "Bacon",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "5g",
+      "carbohydrate": "1g",
+      "fat": "6g"
+    },
+    "serving": "15g"
+  },
+  {
+    "itemId": "22383217fa6b3b2743827575",
+    "name": "Bacon Pizza",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "780",
+      "protein": "34g",
+      "carbohydrate": "96g",
+      "fat": "28g"
+    },
+    "serving": "308g"
+  },
+  {
+    "itemId": "22383217b4114b622e1d47ec",
+    "name": "Bacon, Egg & Cheese Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "850",
+      "protein": "41g",
+      "carbohydrate": "55g",
+      "fat": "51g"
+    },
+    "serving": "301g"
+  },
+  {
+    "itemId": "529e7dc2ea63d49335001544",
+    "name": "Baja Chipotle Sauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "7g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "529e7dc2ea63d4933500154c",
+    "name": "Banana Peppers",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "4g"
+  },
+  {
+    "itemId": "223848234bf780059eb08f2e",
+    "name": "BBQ Sauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "22383217a3f992d62d3a0f3c",
+    "name": "Big Hot Pastrami Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "45g",
+      "carbohydrate": "15g",
+      "fat": "52g"
+    },
+    "serving": "490g"
+  },
+  {
+    "itemId": "22383217f022a0b7be7e073a",
+    "name": "Big Hot Pastrami Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "24g",
+      "carbohydrate": "14g",
+      "fat": "26g"
+    },
+    "serving": "450g"
+  },
+  {
+    "itemId": "223832172ac96650d1851f93",
+    "name": "Big Hot Pastrami Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "850",
+      "protein": "47g",
+      "carbohydrate": "55g",
+      "fat": "50g"
+    },
+    "serving": "351g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015b1",
+    "name": "Black Forest Ham",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "10g",
+      "carbohydrate": "2g",
+      "fat": "2g"
+    },
+    "serving": "57g"
+  },
+  {
+    "itemId": "22383217ab92ff9ef3fd976b",
+    "name": "Black Forest Ham Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "21g",
+      "carbohydrate": "12g",
+      "fat": "5g"
+    },
+    "serving": "302g"
+  },
+  {
+    "itemId": "22383217abc9b25acfc84e17",
+    "name": "Black Forest Ham Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "13g",
+      "carbohydrate": "12g",
+      "fat": "3g"
+    },
+    "serving": "344g"
+  },
+  {
+    "itemId": "223832175e02a4c10901ef70",
+    "name": "Black Forest Ham Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "29g",
+      "carbohydrate": "57g",
+      "fat": "9g"
+    },
+    "serving": "295g"
+  },
+  {
+    "itemId": "22383217cc1562ab9fd924da",
+    "name": "Black Forest Ham, Egg & Cheese Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "750",
+      "protein": "40g",
+      "carbohydrate": "56g",
+      "fat": "40g"
+    },
+    "serving": "328g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d35001597",
+    "name": "Black Olives",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "3g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015aa",
+    "name": "Broccoli Cheddar Soup",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "9g",
+      "carbohydrate": "16g",
+      "fat": "13g"
+    },
+    "serving": "227g"
+  },
+  {
+    "itemId": "22383217c13af6c3ea2e0c0f",
+    "name": "Buffalo Chicken with Grilled Chicken Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "36g",
+      "carbohydrate": "13g",
+      "fat": "21g"
+    },
+    "serving": "414g"
+  },
+  {
+    "itemId": "223832170b8c6fe8ca6545c7",
+    "name": "Buffalo Chicken with Grilled Chicken Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "20g",
+      "carbohydrate": "13g",
+      "fat": "19g"
+    },
+    "serving": "414g"
+  },
+  {
+    "itemId": "223832171301bf704402ef65",
+    "name": "Buffalo Chicken Wrap with Grilled Chicken",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "43g",
+      "carbohydrate": "55g",
+      "fat": "17g"
+    },
+    "serving": "344g"
+  },
+  {
+    "itemId": "22384823358c4c5c2fabd0c8",
+    "name": "Cheddar Cheese Sauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "3g"
+    },
+    "serving": "18g"
+  },
+  {
+    "itemId": "22383217b0684fce35873b9c",
+    "name": "Cheese Pizza",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "700",
+      "protein": "29g",
+      "carbohydrate": "95g",
+      "fat": "22g"
+    },
+    "serving": "293g"
+  },
+  {
+    "itemId": "2238482315ca7578c804e57f",
+    "name": "Chicken & Cheese Dipper",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "21g",
+      "carbohydrate": "51g",
+      "fat": "13g"
+    },
+    "serving": "148g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015a4",
+    "name": "Chicken Noodle Soup",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "7g",
+      "carbohydrate": "6g",
+      "fat": "3g"
+    },
+    "serving": "227g"
+  },
+  {
+    "itemId": "22384823e296d8ff8c4fccca",
+    "name": "Chicken Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "25g",
+      "carbohydrate": "1g",
+      "fat": "31g"
+    },
+    "serving": "149g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015b2",
+    "name": "Chocolate Chip Cookie",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "2g",
+      "carbohydrate": "30g",
+      "fat": "10g"
+    },
+    "serving": "45g"
+  },
+  {
+    "itemId": "2238322303725be858f923dd",
+    "name": "Churro, Footlong",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "1g",
+      "carbohydrate": "28g",
+      "fat": "9g"
+    },
+    "serving": "55g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015a1",
+    "name": "Cold Cut Combo Meats",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "9g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "64g"
+  },
+  {
+    "itemId": "223832174f355889cd809703",
+    "name": "Cold Cut Combo Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "20g",
+      "carbohydrate": "9g",
+      "fat": "16g"
+    },
+    "serving": "316g"
+  },
+  {
+    "itemId": "22383217d1550dafb779739a",
+    "name": "Cold Cut Combo Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "12g",
+      "carbohydrate": "10g",
+      "fat": "9g"
+    },
+    "serving": "351g"
+  },
+  {
+    "itemId": "223832171b096f2cbb265e32",
+    "name": "Cold Cut Combo Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "28g",
+      "carbohydrate": "54g",
+      "fat": "21g"
+    },
+    "serving": "302g"
+  },
+  {
+    "itemId": "22383223b286a01e71b5b585",
+    "name": "Cookie, Chocolate Chip",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1330",
+      "protein": "14g",
+      "carbohydrate": "181g",
+      "fat": "61g"
+    },
+    "serving": "285g"
+  },
+  {
+    "itemId": "c640533932d74230519396ed",
+    "name": "Creamy Sriracha Sauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "4g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "22384823a6b91b96e98ed9f7",
+    "name": "Double Cheese Dipper",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "19g",
+      "carbohydrate": "52g",
+      "fat": "21g"
+    },
+    "serving": "141g"
+  },
+  {
+    "itemId": "22383223f370b0bf92c0e2ba",
+    "name": "Double Chocolate Cookie",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "2g",
+      "carbohydrate": "29g",
+      "fat": "9g"
+    },
+    "serving": "45g"
+  },
+  {
+    "itemId": "22383217bafd90c6c76865d7",
+    "name": "Egg & Cheese Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "690",
+      "protein": "31g",
+      "carbohydrate": "54g",
+      "fat": "38g"
+    },
+    "serving": "271g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d35001593",
+    "name": "Egg Patty",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "10g",
+      "carbohydrate": "2g",
+      "fat": "15g"
+    },
+    "serving": "85g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d35001559",
+    "name": "Flatbread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "4g",
+      "carbohydrate": "24g",
+      "fat": "3g"
+    },
+    "serving": "45g"
+  },
+  {
+    "itemId": "2238322320f8abc44fba3ac9",
+    "name": "Footlong Pretzel",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "10g",
+      "carbohydrate": "53g",
+      "fat": "10g"
+    },
+    "serving": "107g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015ac",
+    "name": "Frank's RedHot Buffalo Sauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "223832231dfda4540f7b85d8",
+    "name": "Genoa Salami",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "6g"
+    },
+    "serving": "18g"
+  },
+  {
+    "itemId": "c64053392a45ffe8bb27b02e",
+    "name": "Giardiniera",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "9g"
+    },
+    "serving": "28g"
+  },
+  {
+    "itemId": "c64053391d31ead02e907300",
+    "name": "Grated Parmesan",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1g"
+  },
+  {
+    "itemId": "c640533927d08c885b4db709",
+    "name": "Green Chiles",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "c64053397b2bbd55d2901be3",
+    "name": "Grilled Chicken",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "16g",
+      "carbohydrate": "1g",
+      "fat": "2g"
+    },
+    "serving": "71g"
+  },
+  {
+    "itemId": "2238321715e2e9f804eccd54",
+    "name": "Grilled Chicken Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "35g",
+      "carbohydrate": "9g",
+      "fat": "4g"
+    },
+    "serving": "330g"
+  },
+  {
+    "itemId": "223832172160197c80742522",
+    "name": "Grilled Chicken Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "19g",
+      "carbohydrate": "10g",
+      "fat": "3g"
+    },
+    "serving": "358g"
+  },
+  {
+    "itemId": "2238321756a389fd7fbe97dd",
+    "name": "Grilled Chicken Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "460",
+      "protein": "42g",
+      "carbohydrate": "53g",
+      "fat": "9g"
+    },
+    "serving": "323g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015a1",
+    "name": "Grilled Chicken, Buffalo",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "17g",
+      "carbohydrate": "2g",
+      "fat": "2g"
+    },
+    "serving": "99g"
+  },
+  {
+    "itemId": "529e7dc3ea63d49335001597",
+    "name": "Grilled Chicken, Sweet Onion Teriyaki Glazed",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "16g",
+      "carbohydrate": "9g",
+      "fat": "2g"
+    },
+    "serving": "85g"
+  },
+  {
+    "itemId": "22383217e0f40ec32e9d2654",
+    "name": "Ham & Jack Sliders",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "10g",
+      "carbohydrate": "21g",
+      "fat": "4g"
+    },
+    "serving": "71g"
+  },
+  {
+    "itemId": "223832232bb92324eb6effdf",
+    "name": "Hash Browns",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "3g",
+      "carbohydrate": "24g",
+      "fat": "9g"
+    },
+    "serving": "108g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d3500158b",
+    "name": "Honey Mustard Sauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "5g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "22383217463593e1d33470eb",
+    "name": "Italian Spice Sliders",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "9g",
+      "carbohydrate": "21g",
+      "fat": "15g"
+    },
+    "serving": "72g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d3500158f",
+    "name": "Jalapeno Peppers",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "4g"
+  },
+  {
+    "itemId": "22383217efbc12738f4a192e",
+    "name": "Kids Mini Black Forest Ham",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "11g",
+      "carbohydrate": "28g",
+      "fat": "3g"
+    },
+    "serving": "137g"
+  },
+  {
+    "itemId": "22383217fd3e470f44591849",
+    "name": "Kids Mini Oven Roasted Turkey",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "12g",
+      "carbohydrate": "27g",
+      "fat": "3g"
+    },
+    "serving": "137g"
+  },
+  {
+    "itemId": "223832174fbf03215fcb6bdd",
+    "name": "Kids Mini Veggie Delite",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "6g",
+      "carbohydrate": "27g",
+      "fat": "2g"
+    },
+    "serving": "108g"
+  },
+  {
+    "itemId": "223832174d657979095e0d20",
+    "name": "Little Cheesesteak Sliders",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "8g",
+      "carbohydrate": "21g",
+      "fat": "7g"
+    },
+    "serving": "71g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015ab",
+    "name": "Loaded Baked Potato with Bacon Soup",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "9g",
+      "carbohydrate": "17g",
+      "fat": "14g"
+    },
+    "serving": "227g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015ad",
+    "name": "Mayonnaise",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "11g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "22383217d6f7453f240df2c4",
+    "name": "Meatball Marinara Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "560",
+      "protein": "27g",
+      "carbohydrate": "34g",
+      "fat": "37g"
+    },
+    "serving": "469g"
+  },
+  {
+    "itemId": "223832171e246db81559b5b8",
+    "name": "Meatball Marinara Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "15g",
+      "carbohydrate": "23g",
+      "fat": "19g"
+    },
+    "serving": "426g"
+  },
+  {
+    "itemId": "223832177ace59e1e6cbfa53",
+    "name": "Meatball Marinara Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "790",
+      "protein": "33g",
+      "carbohydrate": "75g",
+      "fat": "41g"
+    },
+    "serving": "369g"
+  },
+  {
+    "itemId": "22383217624a9a5520eda3d0",
+    "name": "Meatball Pizza",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "810",
+      "protein": "35g",
+      "carbohydrate": "98g",
+      "fat": "31g"
+    },
+    "serving": "330g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015a5",
+    "name": "Meatballs",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "12g",
+      "carbohydrate": "13g",
+      "fat": "18g"
+    },
+    "serving": "139g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015a7",
+    "name": "Mini Artisan Italian Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "5g",
+      "carbohydrate": "26g",
+      "fat": "2g"
+    },
+    "serving": "47g"
+  },
+  {
+    "itemId": "529e7dc2ea63d49335001552",
+    "name": "Mini Hearty Multigrain Bread",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "6g",
+      "carbohydrate": "24g",
+      "fat": "2g"
+    },
+    "serving": "47g"
+  },
+  {
+    "itemId": "223832236852652583f737c2",
+    "name": "MVP Parmesan Vinaigrette",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "6g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015bf",
+    "name": "Oatmeal Raisin Cookie",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "3g",
+      "carbohydrate": "30g",
+      "fat": "8g"
+    },
+    "serving": "45g"
+  },
+  {
+    "itemId": "529e7dc2ea63d49335001547",
+    "name": "Oil",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "5g"
+    },
+    "serving": "5g"
+  },
+  {
+    "itemId": "bd9d48161ca16c0c09e579d0",
+    "name": "Oil & Vinegar",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "5g"
+    },
+    "serving": "9g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015ab",
+    "name": "Oven Roasted Turkey",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "11g",
+      "carbohydrate": "0g",
+      "fat": "2g"
+    },
+    "serving": "57g"
+  },
+  {
+    "itemId": "223832178233daa6b4ea1e8a",
+    "name": "Oven Roasted Turkey & Ham Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "22g",
+      "carbohydrate": "10g",
+      "fat": "4g"
+    },
+    "serving": "302g"
+  },
+  {
+    "itemId": "22383217c7d74df300cce014",
+    "name": "Oven Roasted Turkey & Ham Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "13g",
+      "carbohydrate": "11g",
+      "fat": "3g"
+    },
+    "serving": "344g"
+  },
+  {
+    "itemId": "22383217b87a654a1b78c9e8",
+    "name": "Oven Roasted Turkey & Ham Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "30g",
+      "carbohydrate": "55g",
+      "fat": "8g"
+    },
+    "serving": "295g"
+  },
+  {
+    "itemId": "223832172f5fee9c80b5d146",
+    "name": "Oven Roasted Turkey Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "23g",
+      "carbohydrate": "8g",
+      "fat": "4g"
+    },
+    "serving": "302g"
+  },
+  {
+    "itemId": "22383217105343f411933320",
+    "name": "Oven Roasted Turkey Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "14g",
+      "carbohydrate": "10g",
+      "fat": "3g"
+    },
+    "serving": "344g"
+  },
+  {
+    "itemId": "223832171190d680a370420a",
+    "name": "Oven Roasted Turkey Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "31g",
+      "carbohydrate": "53g",
+      "fat": "8g"
+    },
+    "serving": "295g"
+  },
+  {
+    "itemId": "c6405339623397a1488b04e5",
+    "name": "Pastrami",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "9g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "57g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d3500159f",
+    "name": "Pepper Jack",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "0g",
+      "fat": "4g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d35001553",
+    "name": "Peppercorn Ranch Sauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015b1",
+    "name": "Pepperoni",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "7g"
+    },
+    "serving": "18g"
+  },
+  {
+    "itemId": "223848239b9eef964d6e208d",
+    "name": "Pepperoni & Cheese Dipper",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "17g",
+      "carbohydrate": "51g",
+      "fat": "22g"
+    },
+    "serving": "136g"
+  },
+  {
+    "itemId": "223832177dc46495120d0c00",
+    "name": "Pepperoni Pizza",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "780",
+      "protein": "33g",
+      "carbohydrate": "96g",
+      "fat": "29g"
+    },
+    "serving": "311g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d35001545",
+    "name": "Pickles",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12g"
+  },
+  {
+    "itemId": "2238321701f70948eb14d34b",
+    "name": "Pizza Sub Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "610",
+      "protein": "30g",
+      "carbohydrate": "18g",
+      "fat": "48g"
+    },
+    "serving": "372g"
+  },
+  {
+    "itemId": "22383217ac7a770e5bfdb391",
+    "name": "Pizza Sub Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "14g",
+      "carbohydrate": "16g",
+      "fat": "23g"
+    },
+    "serving": "374g"
+  },
+  {
+    "itemId": "223832175fecc22d8d356dae",
+    "name": "Pizza Sub Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "710",
+      "protein": "27g",
+      "carbohydrate": "58g",
+      "fat": "41g"
+    },
+    "serving": "226g"
+  },
+  {
+    "itemId": "529e7dc3ea63d4933500159d",
+    "name": "Provolone",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "4g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015b4",
+    "name": "Raspberry Cheesecake Cookie",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "2g",
+      "carbohydrate": "29g",
+      "fat": "9g"
+    },
+    "serving": "45g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d35001592",
+    "name": "Roast Beef",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "15g",
+      "carbohydrate": "2g",
+      "fat": "2g"
+    },
+    "serving": "71g"
+  },
+  {
+    "itemId": "22383217f56d4b0b490103ed",
+    "name": "Roast Beef Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "33g",
+      "carbohydrate": "12g",
+      "fat": "4g"
+    },
+    "serving": "330g"
+  },
+  {
+    "itemId": "2238321726e634488dc56c8e",
+    "name": "Roast Beef Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "17g",
+      "carbohydrate": "12g",
+      "fat": "4g"
+    },
+    "serving": "358g"
+  },
+  {
+    "itemId": "22383217fc7ec73704291e7c",
+    "name": "Roast Beef Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "41g",
+      "carbohydrate": "57g",
+      "fat": "8g"
+    },
+    "serving": "323g"
+  },
+  {
+    "itemId": "223832235adce7dd3a6ae090",
+    "name": "Roasted Garlic Aioli",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "9g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "ddee3980ba2c92b252e6a68d",
+    "name": "Rotisserie-Style Chicken",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "15g",
+      "carbohydrate": "0g",
+      "fat": "4g"
+    },
+    "serving": "71g"
+  },
+  {
+    "itemId": "223832178cbd3302e4aef3c7",
+    "name": "Rotisserie-Style Chicken Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "31g",
+      "carbohydrate": "8g",
+      "fat": "8g"
+    },
+    "serving": "325g"
+  },
+  {
+    "itemId": "2238321750288271e77a470f",
+    "name": "Rotisserie-Style Chicken Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "18g",
+      "carbohydrate": "10g",
+      "fat": "5g"
+    },
+    "serving": "358g"
+  },
+  {
+    "itemId": "223832171f514348901af57a",
+    "name": "Rotisserie-Style Chicken Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "39g",
+      "carbohydrate": "53g",
+      "fat": "13g"
+    },
+    "serving": "323g"
+  },
+  {
+    "itemId": "bd9d4816981fb8e289bc7dfe",
+    "name": "Salt",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": null
+  },
+  {
+    "itemId": "6729d1a6b1cdcf0008b2c88d",
+    "name": "Sauce, Baja Chipotle",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "not-found",
+      "protein": "02g",
+      "carbohydrate": "1g0%\nDaily Value",
+      "fat": "7g11%\nDaily Value"
+    },
+    "serving": "not-found"
+  },
+  {
+    "itemId": "663221f03c005e0009f371f1",
+    "name": "Sauce, Creamy Italian MVP",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "not-found",
+      "protein": "0g",
+      "carbohydrate": "2g1%\nDaily Value",
+      "fat": "16g25%\nDaily Value"
+    },
+    "serving": "not-found"
+  },
+  {
+    "itemId": "6638b953faf3950006636012",
+    "name": "Sauce, Roasted Garlic Aioli",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "not-found",
+      "protein": "0g",
+      "carbohydrate": "2g1%\nDaily Value",
+      "fat": "16g25%\nDaily Value"
+    },
+    "serving": "not-found"
+  },
+  {
+    "itemId": "6729d1acb1cdcf0008b2c894",
+    "name": "Sauce, Sweet Onion Teriyaki",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "not-found",
+      "protein": "02g",
+      "carbohydrate": "9g3%\nDaily Value",
+      "fat": "0g0%\nDaily Value"
+    },
+    "serving": "not-found"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d35001557",
+    "name": "Shredded Monterey Cheddar",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "1g",
+      "fat": "5g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "529e7dc3ea63d493350015b0",
+    "name": "Steak",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "17g",
+      "carbohydrate": "2g",
+      "fat": "5g"
+    },
+    "serving": "71g"
+  },
+  {
+    "itemId": "22383217d1332a6367f2f91d",
+    "name": "Steak (Includes American Cheese) Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "42g",
+      "carbohydrate": "12g",
+      "fat": "19g"
+    },
+    "serving": "358g"
+  },
+  {
+    "itemId": "2238321794e9dc7e322279cc",
+    "name": "Steak with American Cheese Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "22g",
+      "carbohydrate": "12g",
+      "fat": "9g"
+    },
+    "serving": "370g"
+  },
+  {
+    "itemId": "223832177293020d8c8e2a5a",
+    "name": "Steak Wrap with American Cheese",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "560",
+      "protein": "44g",
+      "carbohydrate": "54g",
+      "fat": "18g"
+    },
+    "serving": "257g"
+  },
+  {
+    "itemId": "22383217ca5e85fb6980c6a5",
+    "name": "Steak, Egg & Cheese Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "800",
+      "protein": "47g",
+      "carbohydrate": "56g",
+      "fat": "43g"
+    },
+    "serving": "342g"
+  },
+  {
+    "itemId": "223848234db62f59f58b7ae7",
+    "name": "Subkrunch",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "5g"
+    },
+    "serving": "11g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d3500158e",
+    "name": "Subway Club Meats (Turkey, Ham, Roast Beef)",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "17g",
+      "carbohydrate": "3g",
+      "fat": "3g"
+    },
+    "serving": "92g"
+  },
+  {
+    "itemId": "529e7dc3ea63d49335001593",
+    "name": "Sweet Onion Teriyaki Sauce",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "14g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d3500158a",
+    "name": "Tomatoes",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "35g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d3500158c",
+    "name": "Tuna",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "12g",
+      "carbohydrate": "0g",
+      "fat": "23g"
+    },
+    "serving": "74g"
+  },
+  {
+    "itemId": "2238321794255eeeace1efd2",
+    "name": "Tuna Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "26g",
+      "carbohydrate": "8g",
+      "fat": "47g"
+    },
+    "serving": "337g"
+  },
+  {
+    "itemId": "223832173beecc0895428f4a",
+    "name": "Tuna Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "15g",
+      "carbohydrate": "10g",
+      "fat": "24g"
+    },
+    "serving": "362g"
+  },
+  {
+    "itemId": "22383217670dce1d5d9a8809",
+    "name": "Tuna Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "800",
+      "protein": "34g",
+      "carbohydrate": "52g",
+      "fat": "51g"
+    },
+    "serving": "323g"
+  },
+  {
+    "itemId": "2238321746a5d5b9452305c1",
+    "name": "Turkey Sliders",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "11g",
+      "carbohydrate": "20g",
+      "fat": "9g"
+    },
+    "serving": "81g"
+  },
+  {
+    "itemId": "22383217368068dc50ba5ef5",
+    "name": "Veggie Delite Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "9g",
+      "fat": "1g"
+    },
+    "serving": "287g"
+  },
+  {
+    "itemId": "223832179edb3e5a0178a02c",
+    "name": "Veggie Delite Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "11g",
+      "carbohydrate": "56g",
+      "fat": "6g"
+    },
+    "serving": "273g"
+  },
+  {
+    "itemId": "529e7dc3ea63d4933500159e",
+    "name": "Veggie Patty",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "6g",
+      "carbohydrate": "17g",
+      "fat": "9g"
+    },
+    "serving": "85g"
+  },
+  {
+    "itemId": "22383217918305261650a060",
+    "name": "Veggie Patty Protein Bowl",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "14g",
+      "carbohydrate": "41g",
+      "fat": "19g"
+    },
+    "serving": "358g"
+  },
+  {
+    "itemId": "22383217c6851d2fcca077bb",
+    "name": "Veggie Patty Salad",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "9g",
+      "carbohydrate": "26g",
+      "fat": "10g"
+    },
+    "serving": "372g"
+  },
+  {
+    "itemId": "22383217a244de6283b80f66",
+    "name": "Veggie Patty Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "640",
+      "protein": "22g",
+      "carbohydrate": "86g",
+      "fat": "23g"
+    },
+    "serving": "351g"
+  },
+  {
+    "itemId": "529e7dc3f9655f6d350015c1",
+    "name": "White Chip Macadamia Nut Cookie",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "2g",
+      "carbohydrate": "28g",
+      "fat": "10g"
+    },
+    "serving": "45g"
+  },
+  {
+    "itemId": "22383223b5b1d8ba81e1962a",
+    "name": "Wrap",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "9g",
+      "carbohydrate": "49g",
+      "fat": "5g"
+    },
+    "serving": "90g"
+  },
+  {
+    "itemId": "529e7dc2f9655f6d3500154c",
+    "name": "Yellow Mustard",
+    "brandName": "Subway",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "1g"
+    },
+    "serving": "14g"
+  }
+]

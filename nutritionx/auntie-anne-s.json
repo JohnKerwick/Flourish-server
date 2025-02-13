@@ -1,0 +1,990 @@
+[
+  {
+    "itemId": "22384818914025b2caab0393",
+    "name": "Bacon, Egg & Cheese Sandwich",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "16g",
+      "carbohydrate": "29g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184196a14de7f01c4b",
+    "name": "Breakfast Sausage Stix (5)",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "750",
+      "protein": "28g",
+      "carbohydrate": "65g",
+      "fat": "42g"
+    },
+    "serving": "5"
+  },
+  {
+    "itemId": "2238481889349f220d7ced20",
+    "name": "Caramel",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "1g",
+      "carbohydrate": "37g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a7d2c4be1ea710dc",
+    "name": "Cheese",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "4g",
+      "carbohydrate": "4g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c2ecaa1716cefe14",
+    "name": "Cheese Pizza, 8-Inch",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "590",
+      "protein": "22g",
+      "carbohydrate": "96g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c19a420f039c8d94",
+    "name": "Cheese Pretzel Dog",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "12g",
+      "carbohydrate": "33g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bebf578e5200fbf5",
+    "name": "Cherry Coke, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "76g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c1288367cd3e9373",
+    "name": "Cherry Coke, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "54g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848189f07618652d954b1",
+    "name": "Cherry Coke, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "40g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e5f3ce2fc89a54bb",
+    "name": "Cinnamon Sugar Nuggets, Regular",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "13g",
+      "carbohydrate": "130g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186d5390813c62e63c",
+    "name": "Cinnamon Sugar Nuggets, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "10g",
+      "carbohydrate": "95g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818dbc17d0bb6a62b32",
+    "name": "Cinnamon Sugar Pretzel",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "8g",
+      "carbohydrate": "85g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e293e99be3a1de1b",
+    "name": "Coca-Cola, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "73g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481872816ac5d86b3b7b",
+    "name": "Coca-Cola, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "52g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848182de45630cc0948f7",
+    "name": "Coca-Cola, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "38g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818fde76343a8b1dafa",
+    "name": "Diet Coke, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848180eef40906ef10749",
+    "name": "Diet Coke, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818ca6d9a3b493e6959",
+    "name": "Diet Coke, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d2b9c6ab90f81c4e",
+    "name": "Dr Pepper, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "73g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848182458b9ecd98d972f",
+    "name": "Dr Pepper, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "51g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481851c31d9d9eba03a6",
+    "name": "Dr Pepper, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "38g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c6a46c9f2a85c4f8",
+    "name": "Egg & Cheese Sandwich",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "13g",
+      "carbohydrate": "29g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a958756244006825",
+    "name": "Fanta Orange, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "80g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818782d575103934bc4",
+    "name": "Fanta Orange, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "57g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185cab3a091c6fcdc8",
+    "name": "Fanta Orange, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818aa91fcee6e3a3ce9",
+    "name": "Frozen Lemonade Mixer, Blue Raspberry, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "0g",
+      "carbohydrate": "127g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481863b648e5f78a916b",
+    "name": "Frozen Lemonade Mixer, Blue Raspberry, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "0g",
+      "carbohydrate": "85g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bf8d0c8653ac4931",
+    "name": "Frozen Lemonade Mixer, Blue Raspberry, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "68g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481846ac8d3dbdcfd152",
+    "name": "Frozen Lemonade Mixer, Mango, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "0g",
+      "carbohydrate": "127g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818edf973a33684fb20",
+    "name": "Frozen Lemonade Mixer, Mango, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "0g",
+      "carbohydrate": "86g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818276d3a487a736d31",
+    "name": "Frozen Lemonade Mixer, Mango, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "68g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481837b738d45dceccd5",
+    "name": "Frozen Lemonade Mixer, Strawberry, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "0g",
+      "carbohydrate": "127g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481837a2527892ec6ff2",
+    "name": "Frozen Lemonade Mixer, Strawberry, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "0g",
+      "carbohydrate": "86g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818e1096f6b2bbfb9a4",
+    "name": "Frozen Lemonade Mixer, Strawberry, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "68g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186cdca115ce06fca7",
+    "name": "Frozen Lemonade, Original, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "0g",
+      "carbohydrate": "110g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848187b33e169c6180dc3",
+    "name": "Frozen Lemonade, Original, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "74g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818bf1c1fd28b4e7346",
+    "name": "Frozen Lemonade, Original, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "60g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d7d2714fdf985b9f",
+    "name": "Hi-C Fruit Punch, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "81g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818935870c21d2bf3d0",
+    "name": "Hi-C Fruit Punch, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "57g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481857f8a915ebda157f",
+    "name": "Hi-C Fruit Punch, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "43g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848181ba8971c23452774",
+    "name": "Honey Mustard",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a1cb0696cd01eedf",
+    "name": "Hot Salsa Cheese",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "4g",
+      "carbohydrate": "4g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818cd3ffe3bf76a4eef",
+    "name": "Jalapeno Cheese Pretzel Dog",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "12g",
+      "carbohydrate": "34g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186e07ba21aaed795a",
+    "name": "Jalapeno Pretzel",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "8g",
+      "carbohydrate": "66g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481836b55d104d39ae69",
+    "name": "Lemonade Mixer, Blue Raspberry, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "0g",
+      "carbohydrate": "107g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848187745f4d5ec1b0bcf",
+    "name": "Lemonade Mixer, Blue Raspberry, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "72g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d946a5b7cd6b944b",
+    "name": "Lemonade Mixer, Blue Raspberry, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "56g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818b54b15d21eb99068",
+    "name": "Lemonade Mixer, Mango, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "0g",
+      "carbohydrate": "107g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848188da5c922793f49bd",
+    "name": "Lemonade Mixer, Mango, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "72g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818de00515f6e548c25",
+    "name": "Lemonade Mixer, Mango, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "56g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848184ce04719babf641e",
+    "name": "Lemonade Mixer, Strawberry, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "0g",
+      "carbohydrate": "107g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818a98104da41e0aaa1",
+    "name": "Lemonade Mixer, Strawberry, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "72g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481879be9115048c24b8",
+    "name": "Lemonade Mixer, Strawberry, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "56g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185d60007569108c71",
+    "name": "Light Cream Cheese",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "3g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818f532bd5b8ecc0dfa",
+    "name": "Marinara",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848180c8c30e43df488e8",
+    "name": "Mini Pretzel Dogs (10)",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "700",
+      "protein": "21g",
+      "carbohydrate": "72g",
+      "fat": "37g"
+    },
+    "serving": "10"
+  },
+  {
+    "itemId": "22384818681b987dd051e2ef",
+    "name": "Original Lemonade, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "0g",
+      "carbohydrate": "91g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848188ac0a1ce6812b2ad",
+    "name": "Original Lemonade, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "64g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481835cc7e0c6f3ad249",
+    "name": "Original Lemonade, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "47g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818286a579c7e251369",
+    "name": "Original Nuggets, Regular",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "13g",
+      "carbohydrate": "105g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481839283d9cc3fa3663",
+    "name": "Original Nuggets, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "420",
+      "protein": "10g",
+      "carbohydrate": "77g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818ec991a1f86b5c22e",
+    "name": "Original Pretzel",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "8g",
+      "carbohydrate": "65g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848186457ac618ad8ba5a",
+    "name": "Pepperoni Nuggets, Regular",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "650",
+      "protein": "22g",
+      "carbohydrate": "78g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818fd7a5abf78f48c05",
+    "name": "Pepperoni Nuggets, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "16g",
+      "carbohydrate": "58g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848182944f8a489ebe17e",
+    "name": "Pepperoni Pizza, 8-Inch",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "25g",
+      "carbohydrate": "96g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818fdfa615fd1f165cb",
+    "name": "Pepperoni Pretzel",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "16g",
+      "carbohydrate": "66g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481810221a6496cce9be",
+    "name": "Pretzel Dog",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "10g",
+      "carbohydrate": "33g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818c9d1e36711b1fde8",
+    "name": "Root Beer, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "0g",
+      "carbohydrate": "81g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848185548d829f5227bdf",
+    "name": "Root Beer, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "0g",
+      "carbohydrate": "57g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818d68276b391c33f26",
+    "name": "Root Beer, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481880af938203dc9324",
+    "name": "Sausage, Egg & Cheese Sandwich",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "20g",
+      "carbohydrate": "29g",
+      "fat": "22g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481856b5bfcded6e867b",
+    "name": "Sprite, Large",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "70g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238481888f0a70a96b4bdae",
+    "name": "Sprite, Medium",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "49g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818fb044bd7b1ff8202",
+    "name": "Sprite, Small",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "36g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223848181fc7d95c29130df0",
+    "name": "Sweet Almond Pretzel",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "8g",
+      "carbohydrate": "74g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22384818ea640e53e7901e37",
+    "name": "Sweet Glaze",
+    "brandName": "Auntie Anne's",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "32g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  }
+]

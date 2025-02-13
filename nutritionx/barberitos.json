@@ -1,0 +1,3031 @@
+[
+  {
+    "itemId": "22383617e013ae377ee88c5d",
+    "name": "Bowl, Avocado Slices",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "2238361799f6e9763ab2cffc",
+    "name": "Bowl, Black Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "3g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617da4fb3b3c6d4ddeb",
+    "name": "Bowl, Black Olives",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "4.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617ad14ab26ed0a9547",
+    "name": "Bowl, Cheese",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "17g",
+      "carbohydrate": "1g",
+      "fat": "20g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "22383617f8bb731bbb0176be",
+    "name": "Bowl, Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "36g",
+      "carbohydrate": "1g",
+      "fat": "5g"
+    },
+    "serving": "4.5"
+  },
+  {
+    "itemId": "22383617e803bb8fac2faee2",
+    "name": "Bowl, Chipotle Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617b2c6c332c8995703",
+    "name": "Bowl, Chipotle Ranch",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836178072146e9f5bbd4e",
+    "name": "Bowl, Cucumbers",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361759a9058175b4f3e1",
+    "name": "Bowl, Fat Free Balsamic Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238361778bade1dd17440ff",
+    "name": "Bowl, Fish",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "20g",
+      "carbohydrate": "1g",
+      "fat": "4g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238361705a20a349a90f35a",
+    "name": "Bowl, Green Pepper",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361709fafa5c79622ec5",
+    "name": "Bowl, Ground Beef",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "20g",
+      "carbohydrate": "2g",
+      "fat": "18g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836177fa0bc3de82c3c83",
+    "name": "Bowl, Ground Turkey",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "14g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836179ae6029ae718287f",
+    "name": "Bowl, Guacamole (2 oz)",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "5g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617f83b09e7a8369efe",
+    "name": "Bowl, Guacamole (2.25 oz)",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "1g",
+      "carbohydrate": "5g",
+      "fat": "6g"
+    },
+    "serving": "2.3"
+  },
+  {
+    "itemId": "223836176d0c8125658a3d15",
+    "name": "Bowl, Heavy D Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617b48dae7e5625b1bd",
+    "name": "Bowl, Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617909323e23ceec22c",
+    "name": "Bowl, Iceberg Lettuce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617f3eea2abf3f653cf",
+    "name": "Bowl, Jalapeno, Fresh",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361753393b014b9f8dc9",
+    "name": "Bowl, Jalapeno, Pickled",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836176b760701a07df3be",
+    "name": "Bowl, Mushrooms",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836179b7475c22b331564",
+    "name": "Bowl, Onions",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361716b30cc45fcca1ad",
+    "name": "Bowl, Rice",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836177ef05fbdc3e598b3",
+    "name": "Bowl, Romaine Lettuce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836173f8db368dca5a5eb",
+    "name": "Bowl, Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617d2aa69fbc3880d63",
+    "name": "Bowl, Southwestern Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "26g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361745377219dca7d067",
+    "name": "Bowl, Spicy Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "24g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617bcd4f8ea7f2478dd",
+    "name": "Bowl, Steak",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "32g",
+      "carbohydrate": "2g",
+      "fat": "15g"
+    },
+    "serving": "4.5"
+  },
+  {
+    "itemId": "2238361740f9fb4dd8bb5cb3",
+    "name": "Bowl, Tofu",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617605ffdc5e93c1863",
+    "name": "Bowl, Tomatillo Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617dfe0983bf24bd0ef",
+    "name": "Burrito, Avocado Slices",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223836174e6b87bd9df17916",
+    "name": "Burrito, Black Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "3g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836171bd94c80b45b0c36",
+    "name": "Burrito, Black Olives",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "4.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361764e2fefd091496a8",
+    "name": "Burrito, Cheese",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "10g",
+      "carbohydrate": "0g",
+      "fat": "13g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361798de37a237e93fd4",
+    "name": "Burrito, Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "24g",
+      "carbohydrate": "1g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617c4405237b34078e2",
+    "name": "Burrito, Chipotle Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617baf61ba2f39cfb4b",
+    "name": "Burrito, Chipotle Ranch",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617bf276a664b206ab1",
+    "name": "Burrito, Chipotle Tortilla",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "8g",
+      "carbohydrate": "39g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223836173381664ce7c5955b",
+    "name": "Burrito, Corn Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617bfc3ddaa248c9804",
+    "name": "Burrito, Cucumbers",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617ec57b867e665da77",
+    "name": "Burrito, Fat Free Balsamic Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617d90d3d4fd599267b",
+    "name": "Burrito, Fish",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "20g",
+      "carbohydrate": "1g",
+      "fat": "4g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836174d7e3ecd17833cc4",
+    "name": "Burrito, Flour Tortilla",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "10g",
+      "carbohydrate": "47g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617375658f0e55c76df",
+    "name": "Burrito, Ground Beef",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "20g",
+      "carbohydrate": "2g",
+      "fat": "18g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617b283427e0fc66cc8",
+    "name": "Burrito, Ground Turkey",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "14g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836175c1e3975312f11c0",
+    "name": "Burrito, Guacamole",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "3.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836179ebdb9b6060bb31c",
+    "name": "Burrito, Heavy D Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617420152ed37e385d0",
+    "name": "Burrito, Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361726cebf280b55b63c",
+    "name": "Burrito, Jalapeno, Fresh",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617323b5814de179447",
+    "name": "Burrito, Jalapeno, Pickled",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617b91755d6cf07b83f",
+    "name": "Burrito, Mushrooms",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361777735f99e79b1677",
+    "name": "Burrito, Onions",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836172a74c6bcfa7376ef",
+    "name": "Burrito, Pinto Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617a0d608fea362ba0a",
+    "name": "Burrito, Rice",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "3g",
+      "carbohydrate": "28g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617febdf4d3de7804af",
+    "name": "Burrito, Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "22383617e190ace7d4462bc7",
+    "name": "Burrito, Sour Cream",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "6g"
+    },
+    "serving": "1.2"
+  },
+  {
+    "itemId": "22383617912e9616fb11fd0f",
+    "name": "Burrito, Southwestern Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "26g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836174cf398c5d9063cdf",
+    "name": "Burrito, Spicy Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "24g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617516da4d1ef79a727",
+    "name": "Burrito, Spinach",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836178d1573f27ae18df1",
+    "name": "Burrito, Spinach Tortilla",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "8g",
+      "carbohydrate": "41g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223836175644669124434abc",
+    "name": "Burrito, Steak",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "21g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617d4cb480f77e30431",
+    "name": "Burrito, Tofu",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238361780acd4b2068da4a8",
+    "name": "Burrito, Tomatillo Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836173a2bd6c44179f249",
+    "name": "Burrito, Wheat Tortilla",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "9g",
+      "carbohydrate": "37g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238361744deef0d33effd74",
+    "name": "Chips & Dip, Avocado Slices",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22383617351326a46d8fc95d",
+    "name": "Chips & Dip, Black Olives",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "4.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836179b47132e3c1fff58",
+    "name": "Chips & Dip, Chipotle Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836179070775a4fb6ced9",
+    "name": "Chips & Dip, Chips (1.75 oz)",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "4g",
+      "carbohydrate": "30g",
+      "fat": "4.5g"
+    },
+    "serving": "1.8"
+  },
+  {
+    "itemId": "223836178a1f2312d6292ccf",
+    "name": "Chips & Dip, Chips (3.5 oz)",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "9g",
+      "carbohydrate": "55g",
+      "fat": "9g"
+    },
+    "serving": "3.5"
+  },
+  {
+    "itemId": "223836175acac3b51195d504",
+    "name": "Chips & Dip, Corn Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617f96bd1b7f466f0a3",
+    "name": "Chips & Dip, Cucumbers",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617646749d1cb6e3b6b",
+    "name": "Chips & Dip, Green Pepper",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836174f06159113c2e420",
+    "name": "Chips & Dip, Heavy D Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361775bc347111645a5c",
+    "name": "Chips & Dip, Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617cbf14c27996bcb06",
+    "name": "Chips & Dip, Jalapeno, Fresh",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361784957b6a4e3c0d7d",
+    "name": "Chips & Dip, Jalapeno, Pickled",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617bdc31a460b3bf8d4",
+    "name": "Chips & Dip, Large Cheese Dip",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "780",
+      "protein": "81g",
+      "carbohydrate": "9g",
+      "fat": "47g"
+    },
+    "serving": "8"
+  },
+  {
+    "itemId": "2238361757d80bc98ddbd906",
+    "name": "Chips & Dip, Medium Cheese Dip",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "40g",
+      "carbohydrate": "5g",
+      "fat": "23g"
+    },
+    "serving": "4"
+  },
+  {
+    "itemId": "2238361719b81154b6ce3a1a",
+    "name": "Chips & Dip, Mushrooms",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617d9bf3e8f63876765",
+    "name": "Chips & Dip, Onions",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836173ef49ee0b09c8966",
+    "name": "Chips & Dip, Poblano",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617dd40a4b3631ecb79",
+    "name": "Chips & Dip, Small Cheese Dip",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "20g",
+      "carbohydrate": "2g",
+      "fat": "12g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617f5c126fb9898b45a",
+    "name": "Chips & Dip, Spinach",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617fee28dd3d8b8db2b",
+    "name": "Chips & Dip, Tomatillo",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617b630d2e27d1e82bd",
+    "name": "Chips & Dip, Tomatillo Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836172536429cc4e77f4b",
+    "name": "Extras, Avocado Slices",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "2238361768e2b525bdb70c5e",
+    "name": "Extras, Black Olives",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "4.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836179b522ca683014606",
+    "name": "Extras, Chipotle Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617bd0fd8ae284b69dc",
+    "name": "Extras, Corn Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836175c7af1f9550f583d",
+    "name": "Extras, Cucumbers",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617b8ff6ae2f0a4d6b3",
+    "name": "Extras, Green Pepper",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836171e53a64004a5b248",
+    "name": "Extras, Heavy D Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617bc41892a9f569782",
+    "name": "Extras, Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836178839f15ed733333f",
+    "name": "Extras, Jalapeno, Fresh",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361779eb1eed2872760c",
+    "name": "Extras, Jalapeno, Pickled",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617983ceacafc629a17",
+    "name": "Extras, Mushrooms",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361793dbe3cae41d6abf",
+    "name": "Extras, Onions",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617e7ec5a8fa999feca",
+    "name": "Extras, Spinach",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617478cde7930fed9d4",
+    "name": "Extras, Tomatillo Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617c52d369bad34a01e",
+    "name": "Nachos, Avocado Slices",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22383617bdef6f6a5198a381",
+    "name": "Nachos, Black Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "3g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617127f7d4c54df92a5",
+    "name": "Nachos, Black Olives",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "4.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836172a4c8c7c502f6bbd",
+    "name": "Nachos, Cheese",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "21g",
+      "carbohydrate": "1g",
+      "fat": "25g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836174fea01d5e94e6edf",
+    "name": "Nachos, Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "24g",
+      "carbohydrate": "1g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836171f0406d4738b9385",
+    "name": "Nachos, Chipotle Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836174bb2c3794b40922d",
+    "name": "Nachos, Chipotle Ranch",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361714bb9988cc06d8b3",
+    "name": "Nachos, Chips",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "9g",
+      "carbohydrate": "55g",
+      "fat": "9g"
+    },
+    "serving": "3.5"
+  },
+  {
+    "itemId": "22383617e4adcda31cc24a24",
+    "name": "Nachos, Corn Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617ba192c1e01430ba0",
+    "name": "Nachos, Cucumbers",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361768dfe7f5f4262baf",
+    "name": "Nachos, Fat Free Balsamic Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617e58454e72bc51bbc",
+    "name": "Nachos, Fish",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "20g",
+      "carbohydrate": "1g",
+      "fat": "4g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836177d63fed9d617b3ab",
+    "name": "Nachos, Green Pepper",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836176039c36588a2c92a",
+    "name": "Nachos, Ground Beef",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "20g",
+      "carbohydrate": "2g",
+      "fat": "18g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617f4a48ac772d4ad71",
+    "name": "Nachos, Ground Turkey",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "14g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238361789206deea001382a",
+    "name": "Nachos, Guacamole",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "5g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361706178ed0f8d89933",
+    "name": "Nachos, Heavy D Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617c9f45217073bcf5c",
+    "name": "Nachos, Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617aab62de63ece985c",
+    "name": "Nachos, Iceberg Lettuce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617b64a864e0d2d850c",
+    "name": "Nachos, Jalapeno, Fresh",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361770df65d935be45d4",
+    "name": "Nachos, Jalapeno, Pickled",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836179e34d7a6b98f25ce",
+    "name": "Nachos, Mushrooms",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617d803b64734496d08",
+    "name": "Nachos, Onions",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836175e2ce3c9e21688ef",
+    "name": "Nachos, Pinto Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617b74a8dca5ceac48d",
+    "name": "Nachos, Rice",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361739e670a065146a91",
+    "name": "Nachos, Romaine Lettuce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617120775c069970a0d",
+    "name": "Nachos, Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "22383617e1c20a4f128355a4",
+    "name": "Nachos, Small Cheese Dip",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "20g",
+      "carbohydrate": "2g",
+      "fat": "12g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617d9dcd187048afa00",
+    "name": "Nachos, Sour Cream",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "9g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617952a90fa08131ee0",
+    "name": "Nachos, Southwestern Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "26g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836179eca25625e076ed1",
+    "name": "Nachos, Spicy Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "24g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617c64e170bc9d305a7",
+    "name": "Nachos, Spinach",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617f9c6ba73c6cb5853",
+    "name": "Nachos, Steak",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "21g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836178a80a4261a9ad9c4",
+    "name": "Nachos, Tofu",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238361784a4cf8eb73465ca",
+    "name": "Nachos, Tomatillo Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836171dad67a4fc17e343",
+    "name": "Quesadillas, Avocado Slices",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22383617be980096f0907dab",
+    "name": "Quesadillas, Black Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "22383617936f39eaece4784b",
+    "name": "Quesadillas, Black Olives",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "4.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361709d4122ccf5d29c3",
+    "name": "Quesadillas, Cheese",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "17g",
+      "carbohydrate": "1g",
+      "fat": "20g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "22383617ef559acf3e948948",
+    "name": "Quesadillas, Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "24g",
+      "carbohydrate": "1g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617a43421ba07b82eb0",
+    "name": "Quesadillas, Chipotle Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617982ca3a6c111434f",
+    "name": "Quesadillas, Chipotle Ranch",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361739fc84c40ac60c4c",
+    "name": "Quesadillas, Corn Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617e61bc41f5630f685",
+    "name": "Quesadillas, Cucumbers",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617419c6b191299fa7c",
+    "name": "Quesadillas, Fat Free Balsamic Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "2238361768b18331982281ee",
+    "name": "Quesadillas, Fish",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "20g",
+      "carbohydrate": "1g",
+      "fat": "4g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836173b4325f0d86edc6b",
+    "name": "Quesadillas, Flour Tortilla",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "6g",
+      "carbohydrate": "31g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617a902f9c68750c34a",
+    "name": "Quesadillas, Green Pepper",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836178a744e8ec4ff223f",
+    "name": "Quesadillas, Ground Beef",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "20g",
+      "carbohydrate": "2g",
+      "fat": "18g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836171de3e658fa6ccd03",
+    "name": "Quesadillas, Ground Turkey",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "14g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238361769e5d7dd0ae29870",
+    "name": "Quesadillas, Guacamole",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "2g"
+    },
+    "serving": "0.8"
+  },
+  {
+    "itemId": "2238361766bbdb3d133422c8",
+    "name": "Quesadillas, Heavy D Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836172bd11cb4a17927b2",
+    "name": "Quesadillas, Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836170c6463f0a84a15e6",
+    "name": "Quesadillas, Iceberg Lettuce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "3.8"
+  },
+  {
+    "itemId": "22383617a98ae3a2b9c428d2",
+    "name": "Quesadillas, Jalapeno, Fresh",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617e628ac3fb81df4de",
+    "name": "Quesadillas, Jalapeno, Pickled",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617a00c631a32c3b67c",
+    "name": "Quesadillas, Mushrooms",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617fca184bfec94b4b3",
+    "name": "Quesadillas, Onions",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617770a73198182c702",
+    "name": "Quesadillas, Pinto Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "3g",
+      "carbohydrate": "8g",
+      "fat": "0g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "2238361787e8afb287394a1a",
+    "name": "Quesadillas, Rice",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361724454234bc7c09d6",
+    "name": "Quesadillas, Romaine Lettuce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "3.8"
+  },
+  {
+    "itemId": "22383617226e8a4027a05ec0",
+    "name": "Quesadillas, Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836175ed63b85634e0ddd",
+    "name": "Quesadillas, Sour Cream",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "9g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617fcd0661bacde3522",
+    "name": "Quesadillas, Southwestern Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "26g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836176ae5de815abfbd31",
+    "name": "Quesadillas, Spicy Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "24g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617a3ea70e24f28bdd9",
+    "name": "Quesadillas, Spinach",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617850d16f689023bbe",
+    "name": "Quesadillas, Steak",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "21g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617399ec014d11c5a2f",
+    "name": "Quesadillas, Tofu",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617d4039347fa27b74f",
+    "name": "Quesadillas, Tomatillo Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836178860dcca2097bb34",
+    "name": "Quesadillas, Wheat Tortilla",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "5g",
+      "carbohydrate": "24g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223836172eef77e060874d01",
+    "name": "Salad, Avocado Slices",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "223836175d970e59ebc082cf",
+    "name": "Salad, Black Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "3g",
+      "carbohydrate": "11g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238361755d619e98b989b0e",
+    "name": "Salad, Black Olives",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "4.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836175b7ee671756643a1",
+    "name": "Salad, Cheese",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "10g",
+      "carbohydrate": "0g",
+      "fat": "13g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836173ffd6444aa973bc2",
+    "name": "Salad, Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "24g",
+      "carbohydrate": "1g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238361764200b51e004c707",
+    "name": "Salad, Chipotle Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361752e584512bd44ff4",
+    "name": "Salad, Chipotle Ranch",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361733b7c1b4628873f5",
+    "name": "Salad, Corn Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617ac6eea8a7775204d",
+    "name": "Salad, Cucumbers",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617e49d9d47bcafaed6",
+    "name": "Salad, Fat Free Balsamic Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617b722be6a4d6641d1",
+    "name": "Salad, Fish",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "20g",
+      "carbohydrate": "1g",
+      "fat": "4g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617dfde9393e2a5bf6b",
+    "name": "Salad, Green Pepper",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617d353f4333bd198a4",
+    "name": "Salad, Ground Beef",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "20g",
+      "carbohydrate": "2g",
+      "fat": "18g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836171c3c55eca19b644a",
+    "name": "Salad, Ground Turkey",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "14g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238361795d78942d0e26cb7",
+    "name": "Salad, Guacamole",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "5g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617148f63c0f1367c27",
+    "name": "Salad, Heavy D Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617786242098647d63e",
+    "name": "Salad, Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617efe5035bfd3ea367",
+    "name": "Salad, Iceberg Lettuce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "3.8"
+  },
+  {
+    "itemId": "22383617cda102e35c33d0b1",
+    "name": "Salad, Jalapeno, Fresh",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617b878ba0ef791d1a3",
+    "name": "Salad, Jalapeno, Pickled",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617cb5388ef836203a2",
+    "name": "Salad, Mushrooms",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836174ffce26929910ba8",
+    "name": "Salad, Onions",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361781fd6386c6b169b3",
+    "name": "Salad, Pinto Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836175182ff316ff5a099",
+    "name": "Salad, Rice",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617130d03383b68cf4c",
+    "name": "Salad, Salad Shell",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "6g",
+      "carbohydrate": "31g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617e2750357e8cc215b",
+    "name": "Salad, Southwestern Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "26g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361794fbfe82e92645c7",
+    "name": "Salad, Spicy Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "24g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "223836173640699c7c6a8dd9",
+    "name": "Salad, Spinach (1.5 oz)",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836172133d45c871e935e",
+    "name": "Salad, Spinach (3.75 oz)",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "3g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "3.8"
+  },
+  {
+    "itemId": "22383617cecb61e34e86189d",
+    "name": "Salad, Steak",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "21g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617b11c1f22c217d243",
+    "name": "Salad, Tofu",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "22383617019592e0d1dcd25f",
+    "name": "Salad, Tomatillo Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22383617f0c92c5fbba729fe",
+    "name": "Taco, Avocado Slices",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "10g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "22383617a42d2eae63c46cdd",
+    "name": "Taco, Black Beans",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617d7e84d5f04940564",
+    "name": "Taco, Black Olives",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "4.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617b23e6ba69e85350e",
+    "name": "Taco, Cheese",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "5g",
+      "carbohydrate": "0g",
+      "fat": "6g"
+    },
+    "serving": "0.8"
+  },
+  {
+    "itemId": "223836174163830dca502a8f",
+    "name": "Taco, Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "12g",
+      "carbohydrate": "1g",
+      "fat": "2g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836178743e11a31fa1128",
+    "name": "Taco, Chipotle Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836170de011f88de1de8e",
+    "name": "Taco, Chipotle Ranch",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836176416b3015e834c11",
+    "name": "Taco, Corn Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "4g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361733ce2f9011d0f728",
+    "name": "Taco, Corn Tortilla",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617090a1bfcf2deb91f",
+    "name": "Taco, Cucumbers",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361744df2285927f7e9a",
+    "name": "Taco, Fat Free Balsamic Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617b504182e29414c6c",
+    "name": "Taco, Fish",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "not-found",
+      "protein": "not-found",
+      "carbohydrate": "not-found",
+      "fat": "not-found"
+    },
+    "serving": "not-found"
+  },
+  {
+    "itemId": "22383617ac4c63d641f40f81",
+    "name": "Taco, Flour Tortilla",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "6g",
+      "carbohydrate": "31g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "22383617cc0b8a3bf594db83",
+    "name": "Taco, Green Pepper",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "2238361777c1c64dc396d553",
+    "name": "Taco, Ground Beef",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "10g",
+      "carbohydrate": "1g",
+      "fat": "9g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836177f308b213110ae3c",
+    "name": "Taco, Ground Turkey",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "not-found",
+      "protein": "not-found",
+      "carbohydrate": "not-found",
+      "fat": "not-found"
+    },
+    "serving": "not-found"
+  },
+  {
+    "itemId": "22383617829fdd721322d320",
+    "name": "Taco, Guacamole",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "2g"
+    },
+    "serving": "0.8"
+  },
+  {
+    "itemId": "22383617bdaa459a7ee07711",
+    "name": "Taco, Hard Shell Taco",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "7g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "223836176cb5500526aa0610",
+    "name": "Taco, Heavy D Salsa",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836177b322ec5f3fcd82f",
+    "name": "Taco, Hot Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "2238361767c5ab65261dc6f4",
+    "name": "Taco, Jalapeno, Fresh",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836178f2b335abe1bf11a",
+    "name": "Taco, Jalapeno, Pickled",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617c7e43927a8179176",
+    "name": "Taco, Mushrooms",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617a33b4a2e578c480d",
+    "name": "Taco, Onions",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617af3a3616f05f29af",
+    "name": "Taco, Rice",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617df56fdcfd3542adf",
+    "name": "Taco, Sour Cream",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "3g"
+    },
+    "serving": "0.6"
+  },
+  {
+    "itemId": "223836179bc92362614815c5",
+    "name": "Taco, Southwestern Vinaigrette",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "26g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "223836172f664c288e0efda2",
+    "name": "Taco, Spicy Chicken",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "12g",
+      "carbohydrate": "1g",
+      "fat": "2g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836175259ad21bfc9d99a",
+    "name": "Taco, Spinach",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617381810346e4b58a5",
+    "name": "Taco, Steak",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "11g",
+      "carbohydrate": "1g",
+      "fat": "5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "223836176aacd839ca9bb9ab",
+    "name": "Taco, Tofu",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "4g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "22383617d7ce87cffda02e2f",
+    "name": "Taco, Tomatillo Sauce",
+    "brandName": "Barberitos",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "2"
+  }
+]

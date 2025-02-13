@@ -1,0 +1,1861 @@
+[
+  {
+    "itemId": "bd9d8021dd7d1d9be92df0b3",
+    "name": "Apple Sauce, Natural",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "0g"
+    },
+    "serving": "111"
+  },
+  {
+    "itemId": "bd9d8021b0263822b16ab7f2",
+    "name": "Bacon (Select Locations) (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "9g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d802166a2efd9ecee87eb",
+    "name": "Bacon (Select Locations) (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "19g",
+      "carbohydrate": "2g",
+      "fat": "17g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d80216fe2ac0154ee7d41",
+    "name": "Barq's Root Beer (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "0g",
+      "carbohydrate": "110g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021e25042e39e2a4a6e",
+    "name": "Barq's Root Beer (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "73g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d8021f56e5b330f9df66c",
+    "name": "Black Beans (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "5g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d80216cbfd89158f3a399",
+    "name": "Black Beans (4 oz.) (v)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "9g",
+      "carbohydrate": "24g",
+      "fat": "1g"
+    },
+    "serving": "113"
+  },
+  {
+    "itemId": "bd9d80217682a8cd45b261bd",
+    "name": "Brisket Birria (3.5 oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "15g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "99"
+  },
+  {
+    "itemId": "bd9d8021ac10313a21acded8",
+    "name": "Caffeine Free Diet Coke (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d802159006ec5be36b29a",
+    "name": "Caffeine Free Diet Coke (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d802122fa0fa83f297904",
+    "name": "Cherry Coca-Cola (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "0g",
+      "carbohydrate": "104g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021a42fc70ecfe84743",
+    "name": "Cherry Coca-Cola (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "69g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d802166920eb9f38629ab",
+    "name": "Chicken Queso Bowl",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "740",
+      "protein": "47g",
+      "carbohydrate": "74g",
+      "fat": "30g"
+    },
+    "serving": "468"
+  },
+  {
+    "itemId": "bd9d80218de8a4b2eaf8bafb",
+    "name": "Chicken Queso Burrito",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1040",
+      "protein": "55g",
+      "carbohydrate": "126g",
+      "fat": "37g"
+    },
+    "serving": "569"
+  },
+  {
+    "itemId": "bd9d80214f82ce896a887959",
+    "name": "Chile Corn Salsa (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021f8f3eecb0bac8548",
+    "name": "Chile Crema (1 oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "11g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021ad0367ee1c8f1b10",
+    "name": "Chocolate Chunk Cookie (CANADA)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "3g",
+      "carbohydrate": "34g",
+      "fat": "11g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d80215e2a9a25c180a45f",
+    "name": "Chocolate Chunk Cookie (US)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "3g",
+      "carbohydrate": "33g",
+      "fat": "12g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d80212621f3a87f1056c1",
+    "name": "Cholula Hot & Sweet Chicken (3.5oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "19g",
+      "carbohydrate": "8g",
+      "fat": "7g"
+    },
+    "serving": "99"
+  },
+  {
+    "itemId": "bd9d8021ed21b957e0be6e47",
+    "name": "Cholula Hot & Sweet Chicken Bowl",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "590",
+      "protein": "35g",
+      "carbohydrate": "76g",
+      "fat": "18g"
+    },
+    "serving": "418"
+  },
+  {
+    "itemId": "bd9d80219c52fbe26b63a119",
+    "name": "Cholula Hot & Sweet Chicken Burrito",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "900",
+      "protein": "43g",
+      "carbohydrate": "128g",
+      "fat": "25g"
+    },
+    "serving": "520"
+  },
+  {
+    "itemId": "bd9d802108ebd754af6a30e2",
+    "name": "Chorizo (1.5 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "7g",
+      "carbohydrate": "2g",
+      "fat": "10g"
+    },
+    "serving": "43"
+  },
+  {
+    "itemId": "bd9d8021524f6ef58d4e98a6",
+    "name": "Chorizo (3.0 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "14g",
+      "carbohydrate": "5g",
+      "fat": "20g"
+    },
+    "serving": "85"
+  },
+  {
+    "itemId": "bd9d802187c1500a51193f85",
+    "name": "Churro bites (CANADA Only)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "3g",
+      "carbohydrate": "41g",
+      "fat": "24g"
+    },
+    "serving": "100"
+  },
+  {
+    "itemId": "bd9d80216dcabf05f61bd85b",
+    "name": "Cilantro Lime Rice (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "2g",
+      "carbohydrate": "19g",
+      "fat": "1.5g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d8021cb9aaee35219a101",
+    "name": "Cilantro Lime Rice (4 oz.) (v)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "3g",
+      "carbohydrate": "38g",
+      "fat": "2.5g"
+    },
+    "serving": "113"
+  },
+  {
+    "itemId": "bd9d802143f9325d11b31908",
+    "name": "Citrus Lime Chicken Salad",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "35g",
+      "carbohydrate": "48g",
+      "fat": "22g"
+    },
+    "serving": "421"
+  },
+  {
+    "itemId": "bd9d802137b018e0202399e4",
+    "name": "Citrus Vinaigrette (1.5 oz.) (CANADA)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "21g"
+    },
+    "serving": "43"
+  },
+  {
+    "itemId": "bd9d8021f9a1b7577fbdc78d",
+    "name": "Citrus Vinaigrette (1.5 oz.) (US)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "8g"
+    },
+    "serving": "43"
+  },
+  {
+    "itemId": "bd9d8021e265dcd3e4adf0d7",
+    "name": "Coca Cola (20 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "67g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d802187fd3b8e76e22c19",
+    "name": "Coca-Cola (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "0g",
+      "carbohydrate": "100g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021989807c2105aaa10",
+    "name": "Coca-Cola (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "67g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d80216bebedd5f8df29bf",
+    "name": "Coca-Cola Zero (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021d2e12ea360e97ea5",
+    "name": "Coca-Cola Zero (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d802191cfc04259d56b25",
+    "name": "Cotija Cheese (.25 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "2g"
+    },
+    "serving": "7"
+  },
+  {
+    "itemId": "bd9d80210bbbd7782d2af46c",
+    "name": "Crispy Taco Shell",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "8g",
+      "fat": "2.5g"
+    },
+    "serving": "13"
+  },
+  {
+    "itemId": "bd9d8021bea3403a31af6464",
+    "name": "Crunchy Tortilla Shell",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "7g",
+      "carbohydrate": "41g",
+      "fat": "22g"
+    },
+    "serving": "73"
+  },
+  {
+    "itemId": "bd9d8021d0341e3f62fac539",
+    "name": "Diet Coke (20 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d80210ea511648a6d6782",
+    "name": "Diet Coke (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021ba732a5a3f994ffc",
+    "name": "Diet Coke (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d80219720ac2a071c1fa0",
+    "name": "Double Chocolate Brownie (CANADA)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "4g",
+      "carbohydrate": "38g",
+      "fat": "17g"
+    },
+    "serving": "72"
+  },
+  {
+    "itemId": "bd9d80211887fe486f20a011",
+    "name": "Double Chocolate Brownie (US)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "6g",
+      "carbohydrate": "49g",
+      "fat": "19g"
+    },
+    "serving": "91"
+  },
+  {
+    "itemId": "bd9d80218c93e69689ca365a",
+    "name": "Double Protein Bowl, Chicken",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "59g",
+      "carbohydrate": "39g",
+      "fat": "32g"
+    },
+    "serving": "546"
+  },
+  {
+    "itemId": "bd9d80210b375c849ab62c0a",
+    "name": "Double Protein Bowl, Steak",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "850",
+      "protein": "42g",
+      "carbohydrate": "44g",
+      "fat": "56g"
+    },
+    "serving": "553"
+  },
+  {
+    "itemId": "bd9d8021bc8335ca1981e04c",
+    "name": "Eggs (6 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "19g",
+      "carbohydrate": "2g",
+      "fat": "16g"
+    },
+    "serving": "170"
+  },
+  {
+    "itemId": "bd9d8021e3e8c72ba369603e",
+    "name": "Fajita Vegan Bowl",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "530",
+      "protein": "17g",
+      "carbohydrate": "79g",
+      "fat": "17g"
+    },
+    "serving": "482"
+  },
+  {
+    "itemId": "bd9d802149ffc0a1257922c4",
+    "name": "Fajita Veggies (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "3g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d8021980afbe6db0641cb",
+    "name": "Fanta Orange (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "0g",
+      "carbohydrate": "110g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d80218833d1e209bae368",
+    "name": "Fanta Orange (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "73g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d8021d4044bd77ccf5815",
+    "name": "Flour Tortilla (10 inch)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "6g",
+      "carbohydrate": "36g",
+      "fat": "5g"
+    },
+    "serving": "71"
+  },
+  {
+    "itemId": "bd9d8021f3ffd56b4d91235d",
+    "name": "Flour Tortilla (12.5 inch)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "8g",
+      "carbohydrate": "52g",
+      "fat": "7g"
+    },
+    "serving": "102"
+  },
+  {
+    "itemId": "bd9d8021dd5e6c77e26cb68b",
+    "name": "Flour Tortilla (5.5 inch)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "2g",
+      "carbohydrate": "12g",
+      "fat": "1.5g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "bd9d80213f90440c005c7010",
+    "name": "Gold Peak Classic Blend Tea (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d80216249bde1147c4c3c",
+    "name": "Gold Peak Classic Blend Tea (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d8021f20086d3acea50ba",
+    "name": "Gold Peak Classic Sweet Tea (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "61g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021d30d5613af081b4e",
+    "name": "Gold Peak Classic Sweet Tea (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d80217e497fe54e7f3055",
+    "name": "Gold Peak Green Tea (16.9 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "38g",
+      "fat": "0g"
+    },
+    "serving": "16.9"
+  },
+  {
+    "itemId": "bd9d80210d9f727c589fabf1",
+    "name": "Gold Peak Peach Ice Tea (16.9 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "45g",
+      "fat": "0g"
+    },
+    "serving": "16.9"
+  },
+  {
+    "itemId": "bd9d8021924004c6d161148f",
+    "name": "Gold Peak Raspberry Ice Tea (16.9 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "48g",
+      "fat": "0g"
+    },
+    "serving": "16.9"
+  },
+  {
+    "itemId": "bd9d8021bf1c1906d0138687",
+    "name": "Gold Peak Southern Tea (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "69g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021431d64ad4e7da7b5",
+    "name": "Gold Peak Southern Tea (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "46g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d8021a7d631125e7b8bc9",
+    "name": "Grilled Adobo Chicken (3.5 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "23g",
+      "carbohydrate": "1g",
+      "fat": "9g"
+    },
+    "serving": "99"
+  },
+  {
+    "itemId": "bd9d80210610190cf7c640cb",
+    "name": "Grilled Chicken (1.75 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "12g",
+      "carbohydrate": "1g",
+      "fat": "4.5g"
+    },
+    "serving": "50"
+  },
+  {
+    "itemId": "bd9d8021c4aef95bf0181ce7",
+    "name": "Grilled Steak (1.75 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "8g",
+      "carbohydrate": "2g",
+      "fat": "10g"
+    },
+    "serving": "50"
+  },
+  {
+    "itemId": "bd9d8021e0e7283b49112651",
+    "name": "Grilled Steak (3.5 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "15g",
+      "carbohydrate": "3g",
+      "fat": "21g"
+    },
+    "serving": "99"
+  },
+  {
+    "itemId": "bd9d8021caa0476719edf294",
+    "name": "Ground Beef (3.5 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "15g",
+      "carbohydrate": "4g",
+      "fat": "12g"
+    },
+    "serving": "99"
+  },
+  {
+    "itemId": "bd9d802121c4e7345b0eaccd",
+    "name": "Habanero Salsa (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d802161faaae9d8b950ab",
+    "name": "Hand Crafted Guacamole (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "1g",
+      "carbohydrate": "5g",
+      "fat": "8g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d802115ae9320e23cee23",
+    "name": "Hand Crafted Guacamole (4 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "2g",
+      "carbohydrate": "9g",
+      "fat": "15g"
+    },
+    "serving": "113"
+  },
+  {
+    "itemId": "bd9d8021626ba4f91bd1e2ac",
+    "name": "Hand Smashed Guac (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "4g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021147d8788a8c4edf2",
+    "name": "Hi-C Flashin Fruit Punch (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "0g",
+      "carbohydrate": "111g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d80217efe55c9e9e4e813",
+    "name": "Hi-C Flashin Fruit Punch (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "74g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d802185548c3ab06a9cea",
+    "name": "ImpossibleTM Taco Salad, Select Locations Only",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "31g",
+      "carbohydrate": "46g",
+      "fat": "23g"
+    },
+    "serving": "400"
+  },
+  {
+    "itemId": "bd9d8021602558fd6c977fc9",
+    "name": "Jarritos Lime (12.5 fl.oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "44g",
+      "fat": "0g"
+    },
+    "serving": "12.5"
+  },
+  {
+    "itemId": "bd9d8021fe85747bb2d4c792",
+    "name": "Jarritos Mandarian (12.5 fl.oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "36g",
+      "fat": "0g"
+    },
+    "serving": "12.5"
+  },
+  {
+    "itemId": "bd9d8021829788ee74775671",
+    "name": "Jarritos Pineapple (12.5 fl. oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "35g",
+      "fat": "0g"
+    },
+    "serving": "12.5"
+  },
+  {
+    "itemId": "bd9d8021be8e15f25b606aed",
+    "name": "Jarritos Strawberry (12.5fl. oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "43g",
+      "fat": "0g"
+    },
+    "serving": "12.5"
+  },
+  {
+    "itemId": "bd9d802117c422946b34d5d1",
+    "name": "Keto Bowl, Brisket Birria",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "25g",
+      "carbohydrate": "13g",
+      "fat": "25g"
+    },
+    "serving": "340"
+  },
+  {
+    "itemId": "bd9d8021d0bbc5dfd20c5c6b",
+    "name": "Keto Bowl, Chicken",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "33g",
+      "carbohydrate": "11g",
+      "fat": "26g"
+    },
+    "serving": "340"
+  },
+  {
+    "itemId": "bd9d8021a80a7cfed20f5c3b",
+    "name": "Keto Bowl, Steak",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "25g",
+      "carbohydrate": "13g",
+      "fat": "38g"
+    },
+    "serving": "340"
+  },
+  {
+    "itemId": "bd9d8021852afd3eb78369a6",
+    "name": "Kids Flour Tortilla (5.5 inch)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "2g",
+      "carbohydrate": "12g",
+      "fat": "1.5g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "bd9d8021027ef15c1f5737b0",
+    "name": "Kids Soft Corn Tortilla",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "11g",
+      "fat": "0.5g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021953742e28c0ea7de",
+    "name": "Kids Sour Cream (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "5g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021608419ad7391cc09",
+    "name": "Loaded Mexican Street Corn, Side",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "7g",
+      "carbohydrate": "39g",
+      "fat": "15g"
+    },
+    "serving": "203"
+  },
+  {
+    "itemId": "bd9d802158b76a55d2e0854f",
+    "name": "Mello Yello (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "0g",
+      "carbohydrate": "117g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d80210e600fa84d9184f5",
+    "name": "Mello Yello (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "78g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d8021fe3a4dff03d7c7f4",
+    "name": "Mexican Street Corn (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "1g",
+      "carbohydrate": "6g",
+      "fat": "1.5g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021e2176c6b593547dd",
+    "name": "Mexican Street Corn Chicken Bowl",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "700",
+      "protein": "39g",
+      "carbohydrate": "77g",
+      "fat": "27g"
+    },
+    "serving": "418"
+  },
+  {
+    "itemId": "bd9d8021204cafac46ca0ac5",
+    "name": "Mexican Street Corn Shrimp Bowl",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "610",
+      "protein": "30g",
+      "carbohydrate": "76g",
+      "fat": "20g"
+    },
+    "serving": "415"
+  },
+  {
+    "itemId": "bd9d80219e6fc15225ce7af8",
+    "name": "Milk, Chocolate Lowfat 1% (7 fl. oz.)/ CA Standards",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "8g",
+      "carbohydrate": "22g",
+      "fat": "2g"
+    },
+    "serving": "7"
+  },
+  {
+    "itemId": "bd9d8021e1b92367f732409f",
+    "name": "Milk, Chocolate Lowfat 1% (8 fl. oz.)/ Fed Standards",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "9g",
+      "carbohydrate": "25g",
+      "fat": "2.5g"
+    },
+    "serving": "8"
+  },
+  {
+    "itemId": "bd9d80212ecfd96c04787dc4",
+    "name": "Milk, White Lowfat 1% (7 fl. oz.)/ CA Standards",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "7g",
+      "carbohydrate": "11g",
+      "fat": "2g"
+    },
+    "serving": "7"
+  },
+  {
+    "itemId": "bd9d802189eae912a42d1492",
+    "name": "Milk, White Lowfat 1% (8 fl. oz.)/ Fed Standards",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "8g",
+      "carbohydrate": "12g",
+      "fat": "2.5g"
+    },
+    "serving": "8"
+  },
+  {
+    "itemId": "bd9d80218d37d54eaff5ea42",
+    "name": "Minute Maid Kid's Apple Juice Box (6 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "0g"
+    },
+    "serving": "6"
+  },
+  {
+    "itemId": "bd9d802162081cd92483da0c",
+    "name": "Minute Maid Lemonade(HFCS) Lrg",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "0g",
+      "carbohydrate": "109g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021143c5c10ec8c3ce7",
+    "name": "Minute Maid Lemonade(HFCS) Reg",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "72g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d802146d68905339f7f54",
+    "name": "Minute Maid Light Lemonade (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d8021907aec3664db0f6d",
+    "name": "Minute Maid Light Lemonade (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d80212a24edd42c01db40",
+    "name": "Picante Ranch Dressing (1.5 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "8g"
+    },
+    "serving": "43"
+  },
+  {
+    "itemId": "bd9d80215d9a7f494ffeeb31",
+    "name": "Pickled Jalapenos (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021772b1a9d63dac405",
+    "name": "Pickled Red Onion (0.8 oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "23"
+  },
+  {
+    "itemId": "bd9d80218dc484c699464c52",
+    "name": "Pico de Gallo (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d802163d67ef59fbad34a",
+    "name": "Pinto Beans (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "4g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d80215511efcddd86ca8f",
+    "name": "Pinto Beans (4 oz.) (v)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "8g",
+      "carbohydrate": "23g",
+      "fat": "1g"
+    },
+    "serving": "113"
+  },
+  {
+    "itemId": "bd9d8021546c25e90d885e64",
+    "name": "Plant-Based ImpossibleTM (3.1 oz.), Select Locations Only",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "13g",
+      "carbohydrate": "8g",
+      "fat": "9g"
+    },
+    "serving": "88"
+  },
+  {
+    "itemId": "bd9d8021e4e0fb979cfc233a",
+    "name": "POWERade Mountain Berry Blast (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d80212d99e21c4922ed15",
+    "name": "POWERade Mountain Berry Blast (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "35g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d8021f322a417e07cbb1b",
+    "name": "Pulled Pork (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "8g",
+      "carbohydrate": "0g",
+      "fat": "2.5g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d8021466566bd3761e708",
+    "name": "Pulled Pork (3.5 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "14g",
+      "carbohydrate": "0g",
+      "fat": "4.5g"
+    },
+    "serving": "99"
+  },
+  {
+    "itemId": "bd9d8021222d56b034b49d44",
+    "name": "Quesabirria Burrito",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "980",
+      "protein": "46g",
+      "carbohydrate": "124g",
+      "fat": "95g"
+    },
+    "serving": "569"
+  },
+  {
+    "itemId": "bd9d8021a0ff0eca86dd72aa",
+    "name": "Quesabirria Quesadilla",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1080",
+      "protein": "55g",
+      "carbohydrate": "67g",
+      "fat": "127g"
+    },
+    "serving": "456"
+  },
+  {
+    "itemId": "bd9d802141b94f79a278d8c6",
+    "name": "Queso Diablo (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "2g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d802167304df91c86fc10",
+    "name": "Roasted Tomato Salsa (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021591202e967c51ae1",
+    "name": "Romaine Lettuce for Salad (3.5 oz)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "99"
+  },
+  {
+    "itemId": "bd9d8021fba37e2fb2e226ce",
+    "name": "Salsa Roja (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d80218b8047fea0daf40e",
+    "name": "Salsa Verde (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d80218907bbc60bb07a10",
+    "name": "Seasoned Brown Rice",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "2g",
+      "carbohydrate": "18g",
+      "fat": "1g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d802181c5ecd2a64cc472",
+    "name": "Seasoned Brown Rice (4 oz.) (v)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "4g",
+      "carbohydrate": "36g",
+      "fat": "1.5g"
+    },
+    "serving": "113"
+  },
+  {
+    "itemId": "bd9d8021ba2e104ab00004a2",
+    "name": "Seasoned Potatoes (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "1g",
+      "carbohydrate": "12g",
+      "fat": "0g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d80219f5b2f82f9b67fdf",
+    "name": "Shredded Cheese (0.5 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "3g",
+      "carbohydrate": "0g",
+      "fat": "4.5g"
+    },
+    "serving": "14"
+  },
+  {
+    "itemId": "bd9d80214175e6d1374d74b0",
+    "name": "Shredded Cheese (1.0 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "7g",
+      "carbohydrate": "1g",
+      "fat": "9g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021b4e5970e99cd0182",
+    "name": "Side (Black Beans w/ Cheese)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "9g",
+      "carbohydrate": "13g",
+      "fat": "7g"
+    },
+    "serving": "77"
+  },
+  {
+    "itemId": "bd9d8021c82613e7d8dca53f",
+    "name": "Simply Orange Juice (11.5 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "2g",
+      "carbohydrate": "37g",
+      "fat": "0g"
+    },
+    "serving": "11.5"
+  },
+  {
+    "itemId": "bd9d8021a558da2e7a7db749",
+    "name": "Soft Corn Tortilla",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "1g",
+      "carbohydrate": "11g",
+      "fat": "0.5g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d802150219385eabf840b",
+    "name": "Sour Cream, (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "5g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021bf5611762815ffd8",
+    "name": "Southwest Steak Burrito",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1110",
+      "protein": "38g",
+      "carbohydrate": "133g",
+      "fat": "47g"
+    },
+    "serving": "498"
+  },
+  {
+    "itemId": "bd9d8021c6d1411fd7c51fef",
+    "name": "Sprite (Lrg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "0g",
+      "carbohydrate": "101g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "bd9d80218a91ffaeae1b0cba",
+    "name": "Sprite (Reg)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "67g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d80218a6bcb5a3bd8f9bc",
+    "name": "Street Style Chicken Tacos (3) Corn",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "31g",
+      "carbohydrate": "43g",
+      "fat": "22g"
+    },
+    "serving": "328"
+  },
+  {
+    "itemId": "bd9d80218bf97f2608548f0c",
+    "name": "Street Style Chicken Tacos (3) Flour",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "33g",
+      "carbohydrate": "46g",
+      "fat": "25g"
+    },
+    "serving": "311"
+  },
+  {
+    "itemId": "bd9d802185ba4e4e83a5dae6",
+    "name": "Street Style Pulled Pork Tacos (3) Corn",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "20g",
+      "carbohydrate": "36g",
+      "fat": "10g"
+    },
+    "serving": "256"
+  },
+  {
+    "itemId": "bd9d8021010e5c187a563c49",
+    "name": "Street Style Pulled Pork Tacos (3) Flour",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "23g",
+      "carbohydrate": "38g",
+      "fat": "13g"
+    },
+    "serving": "238"
+  },
+  {
+    "itemId": "bd9d8021010c275830dea4ec",
+    "name": "Surf & Turf Bowl (8 Pieces Shrimp & 3.5 oz Steak)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "870",
+      "protein": "42g",
+      "carbohydrate": "73g",
+      "fat": "47g"
+    },
+    "serving": "524"
+  },
+  {
+    "itemId": "bd9d8021f134c31b236be148",
+    "name": "Surf & Turf Burrito (8 Pieces Shrimp & 3.5 oz Steak)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1180",
+      "protein": "50g",
+      "carbohydrate": "125g",
+      "fat": "54g"
+    },
+    "serving": "625"
+  },
+  {
+    "itemId": "bd9d8021fca37f334b0584ed",
+    "name": "Three Cheese Queso (1 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "4g"
+    },
+    "serving": "28"
+  },
+  {
+    "itemId": "bd9d8021746a0669d698fab7",
+    "name": "Three Cheese Queso (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "3g",
+      "carbohydrate": "3g",
+      "fat": "8g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d8021d3bed2db9eef2ea6",
+    "name": "Three Cheese Queso (4 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "6g",
+      "carbohydrate": "5g",
+      "fat": "17g"
+    },
+    "serving": "113"
+  },
+  {
+    "itemId": "bd9d802181311b8aa4e4fb6e",
+    "name": "Tortilla Chips (2 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "3g",
+      "carbohydrate": "37g",
+      "fat": "13g"
+    },
+    "serving": "57"
+  },
+  {
+    "itemId": "bd9d80219f6f7132405faa8d",
+    "name": "Tortilla Chips (4 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "560",
+      "protein": "7g",
+      "carbohydrate": "75g",
+      "fat": "26g"
+    },
+    "serving": "113"
+  },
+  {
+    "itemId": "bd9d8021639001ad30b10940",
+    "name": "Tortilla Strips (0.5 oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "8g",
+      "fat": "4.5g"
+    },
+    "serving": "14"
+  },
+  {
+    "itemId": "bd9d8021e3dcff0be8bb0bff",
+    "name": "Vitamin Water Power C (20 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "0g",
+      "carbohydrate": "27g",
+      "fat": "0g"
+    },
+    "serving": "16.9"
+  },
+  {
+    "itemId": "bd9d8021e0103f5fa6201962",
+    "name": "Vitamin Water XXX (20 fl. oz.)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "26g",
+      "fat": "0g"
+    },
+    "serving": "16.9"
+  },
+  {
+    "itemId": "bd9d8021c8c529bf59c6b57d",
+    "name": "Whole Wheat Flour Tortilla 12.5 inch (CANADA Only)",
+    "brandName": "Qdoba",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "8g",
+      "carbohydrate": "45g",
+      "fat": "7g"
+    },
+    "serving": "96"
+  }
+]

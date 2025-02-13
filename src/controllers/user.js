@@ -99,7 +99,7 @@ export const CONTROLLER_USER = {
 
     const userId = decoded?._id
     const user = await User.findById(userId).select('student')
-    const campus = user.student.school
+    const campus = user.student.school //hpu [hpu]
     const date = Date.now()
     const restaurants = await Restaurants.find({
       campus,

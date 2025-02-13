@@ -1,0 +1,2394 @@
+[
+  {
+    "itemId": "22387216f8b85dfb554a1709",
+    "name": "Apple Pie Roll",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "2g",
+      "carbohydrate": "30g",
+      "fat": "3g"
+    },
+    "serving": "1.9"
+  },
+  {
+    "itemId": "22387216ca7d03fbd0827f07",
+    "name": "Barq's Root Beer, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "44g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216ed72bfcf73e53f15",
+    "name": "Barq's Root Beer, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "560",
+      "protein": "0g",
+      "carbohydrate": "153g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872167b21fc810bfa31cc",
+    "name": "Barq's Root Beer, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "80g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216e6556aa34b84bc45",
+    "name": "Beijing Beef",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "480",
+      "protein": "14g",
+      "carbohydrate": "46g",
+      "fat": "27g"
+    },
+    "serving": "5.6"
+  },
+  {
+    "itemId": "22387216c6976df3fe66f173",
+    "name": "Beijing Beef for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "11g",
+      "carbohydrate": "35g",
+      "fat": "20g"
+    },
+    "serving": "4.2"
+  },
+  {
+    "itemId": "2238721697312fea8b6a1846",
+    "name": "Beyond Orange Chicken",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "13g",
+      "carbohydrate": "47g",
+      "fat": "22g"
+    },
+    "serving": "4.8"
+  },
+  {
+    "itemId": "22387216f37eea231f3c4a64",
+    "name": "Beyond Orange Chicken for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "10g",
+      "carbohydrate": "36g",
+      "fat": "17g"
+    },
+    "serving": "3.6"
+  },
+  {
+    "itemId": "22387216c1b0b60f6abeafa1",
+    "name": "Black Pepper Chicken",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "13g",
+      "carbohydrate": "15g",
+      "fat": "19g"
+    },
+    "serving": "6.3"
+  },
+  {
+    "itemId": "22387216d0a74c7fd308701b",
+    "name": "Black Pepper Chicken for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "10g",
+      "carbohydrate": "11g",
+      "fat": "14g"
+    },
+    "serving": "4.6"
+  },
+  {
+    "itemId": "22387216a43c6dee39f951d0",
+    "name": "Black Pepper Sirloin Steak",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "19g",
+      "carbohydrate": "13g",
+      "fat": "10g"
+    },
+    "serving": "5.1"
+  },
+  {
+    "itemId": "2238721635294fcc5be29a11",
+    "name": "Black Pepper Sirloin Steak for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "14g",
+      "carbohydrate": "10g",
+      "fat": "8g"
+    },
+    "serving": "3.9"
+  },
+  {
+    "itemId": "2238721625aa62a846952405",
+    "name": "Black Tea, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216b3156fb60de3b200",
+    "name": "Black Tea, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "40"
+  },
+  {
+    "itemId": "223872162c322b60b34fc366",
+    "name": "Black Tea, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "32"
+  },
+  {
+    "itemId": "22387216fbf84f63d1ea4343",
+    "name": "Black Tea, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "223872162bf11374c80d9397",
+    "name": "Broccoli Beef",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "9g",
+      "carbohydrate": "13g",
+      "fat": "7g"
+    },
+    "serving": "5.4"
+  },
+  {
+    "itemId": "22387216e8fd09b74b8eb40d",
+    "name": "Broccoli Beef Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "11g",
+      "carbohydrate": "49g",
+      "fat": "7g"
+    },
+    "serving": "9.5"
+  },
+  {
+    "itemId": "223872166470a8199e0a8e3e",
+    "name": "Broccoli Beef for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "7g",
+      "carbohydrate": "10g",
+      "fat": "6g"
+    },
+    "serving": "4.1"
+  },
+  {
+    "itemId": "2238721671701c95d813948f",
+    "name": "Cherry Coca-Cola, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216efea8ca3dbd553a7",
+    "name": "Cherry Coca-Cola, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "0g",
+      "carbohydrate": "147g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872167b6afcddd596f5e3",
+    "name": "Cherry Coca-Cola, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "0g",
+      "carbohydrate": "105g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216b9b1d75a1fb453a0",
+    "name": "Cherry Coca-Cola, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "77g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216a5afaf9ee478845b",
+    "name": "Chicken Egg Roll (1 Roll)",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "6g",
+      "carbohydrate": "20g",
+      "fat": "10g"
+    },
+    "serving": "2.8"
+  },
+  {
+    "itemId": "22387216854b8772ed1018ab",
+    "name": "Chicken Potsticker (3 Pieces)",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "6g",
+      "carbohydrate": "20g",
+      "fat": "6g"
+    },
+    "serving": "3.3"
+  },
+  {
+    "itemId": "22387216e8e2cf6fb24e62f6",
+    "name": "Chili Crisp Shrimp",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "13g",
+      "carbohydrate": "19g",
+      "fat": "10g"
+    },
+    "serving": "4"
+  },
+  {
+    "itemId": "22387216c0df8107ad725cc2",
+    "name": "Chili Crisp Shrimp for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "10g",
+      "carbohydrate": "14g",
+      "fat": "8g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "2238721686f65ff65e1e6be9",
+    "name": "Chili Sauce",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "0.3"
+  },
+  {
+    "itemId": "2238721632b762acd1e7b57f",
+    "name": "Chocolate Chunk Cookie",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "2g",
+      "carbohydrate": "25g",
+      "fat": "7g"
+    },
+    "serving": "1.1"
+  },
+  {
+    "itemId": "22387216358c3148b81fb152",
+    "name": "Chow Fun",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "9g",
+      "carbohydrate": "73g",
+      "fat": "9g"
+    },
+    "serving": "8.5"
+  },
+  {
+    "itemId": "22387216f7f9e347af825cf2",
+    "name": "Chow Fun for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "6g",
+      "carbohydrate": "53g",
+      "fat": "6g"
+    },
+    "serving": "6.2"
+  },
+  {
+    "itemId": "223872160dd361507b5e0055",
+    "name": "Chow Mein",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "600",
+      "protein": "15g",
+      "carbohydrate": "94g",
+      "fat": "23g"
+    },
+    "serving": "11"
+  },
+  {
+    "itemId": "223872163f5bde40cab156c7",
+    "name": "Chow Mein for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "11g",
+      "carbohydrate": "57g",
+      "fat": "19g"
+    },
+    "serving": "8.3"
+  },
+  {
+    "itemId": "223872160d84f568688b6cb9",
+    "name": "Coca-Cola Zero Sugar, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872169172b8266b5f2e09",
+    "name": "Coca-Cola Zero Sugar, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872166483be41b4752dae",
+    "name": "Coca-Cola Zero Sugar, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "2238721658beaa299e59ca46",
+    "name": "Coca-Cola Zero Sugar, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "2238721627e38c94ce9f7913",
+    "name": "Coca-Cola, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "40g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216e411918fec1d1aa3",
+    "name": "Coca-Cola, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "0g",
+      "carbohydrate": "140g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216f05cd107ed78c5bf",
+    "name": "Coca-Cola, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "0g",
+      "carbohydrate": "100g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216d2456a2b52f0c21d",
+    "name": "Coca-Cola, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "73g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216116de5888ff5322a",
+    "name": "Cream Cheese Rangoon (3 Pieces)",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "5g",
+      "carbohydrate": "24g",
+      "fat": "8g"
+    },
+    "serving": "2.4"
+  },
+  {
+    "itemId": "2238721630370bb08670035a",
+    "name": "Diet Coke, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216e22a3feb3130f9f0",
+    "name": "Diet Coke, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872164f762275f9bbbefb",
+    "name": "Diet Coke, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216f248540fce3667df",
+    "name": "Diet Coke, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "2238721602980af08c243d4e",
+    "name": "Dr Pepper, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872160f8aee34ba669d7a",
+    "name": "Dr Pepper, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "0g",
+      "carbohydrate": "137g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872167560494d1bad9698",
+    "name": "Dr Pepper, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "0g",
+      "carbohydrate": "98g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "223872162a4315948046a8a2",
+    "name": "Dr Pepper, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "0g",
+      "carbohydrate": "72g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216158bbdac697c8c35",
+    "name": "Eggplant Tofu",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "7g",
+      "carbohydrate": "23g",
+      "fat": "24g"
+    },
+    "serving": "6.1"
+  },
+  {
+    "itemId": "22387216cecb848bcd83f29b",
+    "name": "Eggplant Tofu for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "5g",
+      "carbohydrate": "17g",
+      "fat": "18g"
+    },
+    "serving": "4.6"
+  },
+  {
+    "itemId": "22387216bda0775e2f9ca268",
+    "name": "Fanta Fruit Punch, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216b4ed123ae434a3bf",
+    "name": "Fanta Fruit Punch, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "530",
+      "protein": "0g",
+      "carbohydrate": "145g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216563ffc9102a2041c",
+    "name": "Fanta Fruit Punch, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "0g",
+      "carbohydrate": "104g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "223872160a6a1f5c2c2c90fc",
+    "name": "Fanta Fruit Punch, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "76g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216439f8165dda5ce63",
+    "name": "Fanta Orange (PR Only), Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216a48e706601e33f4c",
+    "name": "Fanta Orange (PR Only), Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "0g",
+      "carbohydrate": "147g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872161bc4ebcc852edd9e",
+    "name": "Fanta Orange (PR Only), Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "0g",
+      "carbohydrate": "105g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216469b9135d17d3db3",
+    "name": "Fanta Orange (PR Only), Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "77g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "2238721674c17e4566f6fbbd",
+    "name": "Fanta Orange, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "40g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216b52dc672fb0ef987",
+    "name": "Fanta Orange, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "0g",
+      "carbohydrate": "142g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216c7c18cd3f59ad40b",
+    "name": "Fanta Orange, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "0g",
+      "carbohydrate": "101g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216895e844615e72ab8",
+    "name": "Fanta Orange, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "74g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216fed510476dd131cd",
+    "name": "Fanta Strawberry (TX Only), Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "44g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216627d4121fd63a92f",
+    "name": "Fanta Strawberry (TX Only), Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "570",
+      "protein": "0g",
+      "carbohydrate": "155g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216cb7a8b0f0139bc40",
+    "name": "Fanta Strawberry (TX Only), Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "0g",
+      "carbohydrate": "111g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216a3b10c962ec80ab4",
+    "name": "Fanta Strawberry (TX Only), Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "81g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216f233b373a504defe",
+    "name": "Fanta Strawberry, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "43g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216d168494bd553eed3",
+    "name": "Fanta Strawberry, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "0g",
+      "carbohydrate": "150g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216b66acec2101a3dd8",
+    "name": "Fanta Strawberry, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "0g",
+      "carbohydrate": "107g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "223872162d42c974b1ff3642",
+    "name": "Fanta Strawberry, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "79g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "223872169594e22a63e46821",
+    "name": "Fortune Cookie",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "0.2"
+  },
+  {
+    "itemId": "22387216376317a4b4db7266",
+    "name": "Fried Rice",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "620",
+      "protein": "13g",
+      "carbohydrate": "101g",
+      "fat": "19g"
+    },
+    "serving": "11"
+  },
+  {
+    "itemId": "22387216e21ff5974c0d7545",
+    "name": "Fried Rice for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "9g",
+      "carbohydrate": "76g",
+      "fat": "13g"
+    },
+    "serving": "8.3"
+  },
+  {
+    "itemId": "22387216b9e03c1e886fda12",
+    "name": "Fuze Lemon Black Tea, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872162896c8b0817e568e",
+    "name": "Fuze Lemon Black Tea, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "78g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872160db35738c005b0f3",
+    "name": "Fuze Lemon Black Tea, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "56g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "2238721697026f9ab2fb1bae",
+    "name": "Fuze Lemon Black Tea, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216a23091eaff0309bb",
+    "name": "Fuze Raspberry Tea, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872167c8e8e81d5793ad7",
+    "name": "Fuze Raspberry Tea, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "78g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216b5b27b320c10b7fc",
+    "name": "Fuze Raspberry Tea, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "56g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "223872161b3c26d863fa9ac9",
+    "name": "Fuze Raspberry Tea, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "2238721685606a4ac97be86f",
+    "name": "Glaceau Vitaminwater Squeezed Zero, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216147d7b70696a4c81",
+    "name": "Glaceau Vitaminwater Squeezed Zero, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216d19b0cbbdbc85aa7",
+    "name": "Glaceau Vitaminwater Squeezed Zero, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216d6189f979b220e82",
+    "name": "Glaceau Vitaminwater Squeezed Zero, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216453f857d1c87ca80",
+    "name": "Gold Peak Premium Unsweetened Tea, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872165f4a4bd17fffc24d",
+    "name": "Gold Peak Premium Unsweetened Tea, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216621fe8956aa04485",
+    "name": "Gold Peak Premium Unsweetened Tea, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216eec19d5f69e745d1",
+    "name": "Gold Peak Premium Unsweetened Tea, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216b265270aa1dc722a",
+    "name": "Golden Treasure Shrimp",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "14g",
+      "carbohydrate": "35g",
+      "fat": "18g"
+    },
+    "serving": "5"
+  },
+  {
+    "itemId": "22387216121ec6387504891d",
+    "name": "Golden Treasure Shrimp for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "8g",
+      "carbohydrate": "20g",
+      "fat": "10g"
+    },
+    "serving": "2.8"
+  },
+  {
+    "itemId": "22387216c82828074e173495",
+    "name": "Grilled Teriyaki Chicken",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "33g",
+      "carbohydrate": "14g",
+      "fat": "10g"
+    },
+    "serving": "6"
+  },
+  {
+    "itemId": "223872162bfed0a015cb7f04",
+    "name": "Grilled Teriyaki Chicken Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "400",
+      "protein": "28g",
+      "carbohydrate": "36g",
+      "fat": "16g"
+    },
+    "serving": "9.3"
+  },
+  {
+    "itemId": "223872162dfb8f58fba42f7f",
+    "name": "Grilled Teriyaki Chicken for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "25g",
+      "carbohydrate": "11g",
+      "fat": "8g"
+    },
+    "serving": "4.5"
+  },
+  {
+    "itemId": "22387216fffabe57c34f3d2f",
+    "name": "Hi-C Flashin Fruit Punch, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "42g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216bee8648e64f297cd",
+    "name": "Hi-C Flashin Fruit Punch, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "0g",
+      "carbohydrate": "148g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216bc03c9da7d3b2a61",
+    "name": "Hi-C Flashin Fruit Punch, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "0g",
+      "carbohydrate": "106g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "223872163e1c76dcbedcd3ae",
+    "name": "Hi-C Flashin Fruit Punch, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "78g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216c7e80def84d02d86",
+    "name": "Honey Sesame Chicken Breast",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "16g",
+      "carbohydrate": "35g",
+      "fat": "15g"
+    },
+    "serving": "5.3"
+  },
+  {
+    "itemId": "223872164058ba55b34b1b9a",
+    "name": "Honey Sesame Chicken Breast for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "12g",
+      "carbohydrate": "26g",
+      "fat": "11g"
+    },
+    "serving": "4"
+  },
+  {
+    "itemId": "22387216209d4d3c9abb6c6a",
+    "name": "Honey Walnut Shrimp",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "13g",
+      "carbohydrate": "32g",
+      "fat": "28g"
+    },
+    "serving": "4.4"
+  },
+  {
+    "itemId": "22387216a3d136e262e3cdb1",
+    "name": "Honey Walnut Shrimp for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "7g",
+      "carbohydrate": "17g",
+      "fat": "15g"
+    },
+    "serving": "3.3"
+  },
+  {
+    "itemId": "22387216040aeb2c651d8029",
+    "name": "Hot & Sour Soup, Bowl",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "10g",
+      "carbohydrate": "20g",
+      "fat": "6g"
+    },
+    "serving": "17.4"
+  },
+  {
+    "itemId": "22387216d1b4f81fe5085d67",
+    "name": "Hot & Sour Soup, Cup",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "7g",
+      "carbohydrate": "14g",
+      "fat": "5g"
+    },
+    "serving": "12.2"
+  },
+  {
+    "itemId": "22387216324906d4a077ab5a",
+    "name": "Hot Mustard",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "1g"
+    },
+    "serving": "0.3"
+  },
+  {
+    "itemId": "22387216ad344b8ee8ec29fb",
+    "name": "Kung Pao Chicken",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "17g",
+      "carbohydrate": "15g",
+      "fat": "21g"
+    },
+    "serving": "6.7"
+  },
+  {
+    "itemId": "2238721684ffefc2de3b315b",
+    "name": "Kung Pao Chicken for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "12g",
+      "carbohydrate": "11g",
+      "fat": "15g"
+    },
+    "serving": "5.1"
+  },
+  {
+    "itemId": "22387216d09bf767c91e1dfb",
+    "name": "Lemon Green Tea, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "3g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "40"
+  },
+  {
+    "itemId": "223872167bc2b0350f7317a0",
+    "name": "Lemon Green Tea, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "2g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "32"
+  },
+  {
+    "itemId": "22387216d9f76603137bb7b4",
+    "name": "Lemon Green Tea, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216d38464ffe722d263",
+    "name": "Mango Guava Tea",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "46g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "22387216dce22a6384f8f9e2",
+    "name": "Minute Maid Lemonade, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872160920ed78783c2cb1",
+    "name": "Minute Maid Lemonade, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "550",
+      "protein": "0g",
+      "carbohydrate": "138g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872163dca1794cc3df057",
+    "name": "Minute Maid Lemonade, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "0g",
+      "carbohydrate": "99g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "2238721643d76b79ee7b48db",
+    "name": "Minute Maid Lemonade, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "72g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216023662c47c2500b1",
+    "name": "Minute Maid Light Lemonade, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872166615dbb189fe48e6",
+    "name": "Minute Maid Light Lemonade, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872167fb5d9ede0926777",
+    "name": "Minute Maid Light Lemonade, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216e3ba780fd0ed226b",
+    "name": "Minute Maid Light Lemonade, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216a40f939eab893b7a",
+    "name": "Mushroom Chicken",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "13g",
+      "carbohydrate": "10g",
+      "fat": "14g"
+    },
+    "serving": "5.7"
+  },
+  {
+    "itemId": "223872166d7f6f0d20e17958",
+    "name": "Mushroom Chicken for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "10g",
+      "carbohydrate": "8g",
+      "fat": "11g"
+    },
+    "serving": "4.3"
+  },
+  {
+    "itemId": "223872165be9121568e8eee5",
+    "name": "Orange Chicken",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "26g",
+      "carbohydrate": "53g",
+      "fat": "24g"
+    },
+    "serving": "5.9"
+  },
+  {
+    "itemId": "22387216eda87efb9764dc36",
+    "name": "Orange Chicken Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "22g",
+      "carbohydrate": "84g",
+      "fat": "17g"
+    },
+    "serving": "9.5"
+  },
+  {
+    "itemId": "22387216f8d174bfa15c7b92",
+    "name": "Orange Chicken for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "20g",
+      "carbohydrate": "39g",
+      "fat": "18g"
+    },
+    "serving": "4.4"
+  },
+  {
+    "itemId": "223872163660f9145cda39d9",
+    "name": "Passionfruit Mango Black Tea, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872166972446d9c73ef66",
+    "name": "Passionfruit Mango Black Tea, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "0g"
+    },
+    "serving": "40"
+  },
+  {
+    "itemId": "22387216d1ece03b44449379",
+    "name": "Passionfruit Mango Black Tea, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "32"
+  },
+  {
+    "itemId": "22387216df90412f91038c06",
+    "name": "Passionfruit Mango Black Tea, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "223872162d203684cb12638f",
+    "name": "Peach Lychee Refresher",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "223872168b7b44cad8015667",
+    "name": "Plum Sauce",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "0.3"
+  },
+  {
+    "itemId": "223872166ffb4ec1ceb15f9f",
+    "name": "Pomegranate Pineapple Lemonade",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "62g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "223872163c5a0c2049acca71",
+    "name": "Potato Chicken",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "8g",
+      "carbohydrate": "18g",
+      "fat": "10g"
+    },
+    "serving": "5.2"
+  },
+  {
+    "itemId": "22387216bb51d056cb92b2e3",
+    "name": "Potato Chicken for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "6g",
+      "carbohydrate": "15g",
+      "fat": "8g"
+    },
+    "serving": "3.9"
+  },
+  {
+    "itemId": "2238721621c55ca01e51d270",
+    "name": "Potsticker Sauce",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "0.4"
+  },
+  {
+    "itemId": "22387216ff85c4abac02feb2",
+    "name": "Powerade Fruit Punch, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216b984f25a33849d6c",
+    "name": "Powerade Fruit Punch, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "75g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216d5083c938e9b571e",
+    "name": "Powerade Fruit Punch, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "0g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "2238721649effe61c5ddf30f",
+    "name": "Powerade Fruit Punch, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216e8e04943a373339a",
+    "name": "Powerade Mountain Berry Blast, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "22g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872165d7dabfdcf6b605f",
+    "name": "Powerade Mountain Berry Blast, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "77g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216f49fde6758dd376d",
+    "name": "Powerade Mountain Berry Blast, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "55g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216de727a6f4da4be69",
+    "name": "Powerade Mountain Berry Blast, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "40g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216ea0158633afd791c",
+    "name": "Seagram's Ginger Ale, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "35g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216769f26bd66c22769",
+    "name": "Seagram's Ginger Ale, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "0g",
+      "carbohydrate": "121g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872169ded515ae15c210b",
+    "name": "Seagram's Ginger Ale, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "0g",
+      "carbohydrate": "87g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "223872168d04b1ae1d0315c8",
+    "name": "Seagram's Ginger Ale, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "64g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "2238721641b4fc312e2da9bc",
+    "name": "Soy Sauce",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "0.2"
+  },
+  {
+    "itemId": "223872163b028e78a4ea2e2a",
+    "name": "Sprite Zero, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "223872160159c9087ea5de41",
+    "name": "Sprite Zero, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "22387216752ffcb5cdfe554b",
+    "name": "Sprite Zero, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216a667b4dad60b88e7",
+    "name": "Sprite Zero, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "5",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "22387216840d8cd682b3afce",
+    "name": "Sprite, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "37g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "2238721668ef54e95bb43dbd",
+    "name": "Sprite, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "0g",
+      "carbohydrate": "129g",
+      "fat": "0g"
+    },
+    "serving": "42"
+  },
+  {
+    "itemId": "223872168fb7367abb7757ae",
+    "name": "Sprite, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "0g",
+      "carbohydrate": "92g",
+      "fat": "0g"
+    },
+    "serving": "30"
+  },
+  {
+    "itemId": "22387216fa2f137fb0855af6",
+    "name": "Sprite, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "68g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "2238721612ba5b70fe962e5b",
+    "name": "Steamed Ginger Fish",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "15g",
+      "carbohydrate": "8g",
+      "fat": "12g"
+    },
+    "serving": "6"
+  },
+  {
+    "itemId": "22387216c0bfd5ffc7fca36b",
+    "name": "Steamed Ginger Fish for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "5g",
+      "carbohydrate": "3g",
+      "fat": "4g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "22387216bf6d5b8aa341776a",
+    "name": "String Bean Chicken Breast",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "12g",
+      "carbohydrate": "13g",
+      "fat": "12g"
+    },
+    "serving": "5.6"
+  },
+  {
+    "itemId": "22387216f1ff42f7d037e91b",
+    "name": "String Bean Chicken Breast for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "9g",
+      "carbohydrate": "10g",
+      "fat": "9g"
+    },
+    "serving": "4.2"
+  },
+  {
+    "itemId": "223872160d5930b0f6f9602b",
+    "name": "Super Greens",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "9g",
+      "carbohydrate": "14g",
+      "fat": "4g"
+    },
+    "serving": "10"
+  },
+  {
+    "itemId": "22387216859e276a8d8faebe",
+    "name": "Super Greens Entree",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "6g",
+      "carbohydrate": "10g",
+      "fat": "3g"
+    },
+    "serving": "7"
+  },
+  {
+    "itemId": "22387216aad34f4e71346c89",
+    "name": "Super Greens for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "6g",
+      "carbohydrate": "10g",
+      "fat": "3g"
+    },
+    "serving": "7.5"
+  },
+  {
+    "itemId": "2238721632f3f3fc5614b839",
+    "name": "Super Greens for Cub Meal Entree",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "4g",
+      "carbohydrate": "7g",
+      "fat": "2g"
+    },
+    "serving": "5.3"
+  },
+  {
+    "itemId": "223872169dedb41255322a89",
+    "name": "Sweet & Sour Chicken Breast",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "10g",
+      "carbohydrate": "40g",
+      "fat": "12g"
+    },
+    "serving": "5.5"
+  },
+  {
+    "itemId": "22387216d031b8fb11621dd0",
+    "name": "Sweet & Sour Chicken Breast for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "9g",
+      "carbohydrate": "35g",
+      "fat": "10g"
+    },
+    "serving": "4.1"
+  },
+  {
+    "itemId": "22387216c04959bfc1907c23",
+    "name": "Sweet & Sour Sauce",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "0g"
+    },
+    "serving": "1.8"
+  },
+  {
+    "itemId": "223872164be04aad2eec01fc",
+    "name": "Sweet Tea, Kids",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "12"
+  },
+  {
+    "itemId": "22387216878b3beeb6f9a1aa",
+    "name": "Sweet Tea, Large",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "0g",
+      "carbohydrate": "129g",
+      "fat": "0g"
+    },
+    "serving": "40"
+  },
+  {
+    "itemId": "22387216fc3e750fc84b64d3",
+    "name": "Sweet Tea, Medium",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "0g",
+      "carbohydrate": "103g",
+      "fat": "0g"
+    },
+    "serving": "32"
+  },
+  {
+    "itemId": "22387216f4bd99736ed1d14d",
+    "name": "Sweet Tea, Small",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "0g",
+      "carbohydrate": "71g",
+      "fat": "0g"
+    },
+    "serving": "22"
+  },
+  {
+    "itemId": "223872163b19c524b6d91eea",
+    "name": "Sweetfire Chicken Breast",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "15g",
+      "carbohydrate": "40g",
+      "fat": "15g"
+    },
+    "serving": "5.8"
+  },
+  {
+    "itemId": "22387216e0f04bab40261e1d",
+    "name": "Sweetfire Chicken Breast for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "11g",
+      "carbohydrate": "30g",
+      "fat": "11g"
+    },
+    "serving": "4.4"
+  },
+  {
+    "itemId": "2238721660423ff9ee5eb1e3",
+    "name": "Teriyaki Chicken",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "41g",
+      "carbohydrate": "14g",
+      "fat": "13g"
+    },
+    "serving": "6"
+  },
+  {
+    "itemId": "223872168712ba0ad8418d0b",
+    "name": "Teriyaki Chicken for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "31g",
+      "carbohydrate": "10g",
+      "fat": "10g"
+    },
+    "serving": "4.5"
+  },
+  {
+    "itemId": "22387216bed2679ed76fea77",
+    "name": "Teriyaki Sauce",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "0g"
+    },
+    "serving": "1.8"
+  },
+  {
+    "itemId": "22387216816063fa112ad3e8",
+    "name": "Tree Top Apple Crisps",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "0.3"
+  },
+  {
+    "itemId": "223872169b804abe59a1dfbd",
+    "name": "Vegetable Spring Roll (2 Rolls)",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "4g",
+      "carbohydrate": "24g",
+      "fat": "14g"
+    },
+    "serving": "3.5"
+  },
+  {
+    "itemId": "2238721606fb2a6c9623ceaa",
+    "name": "Watermelon Mango Refresher",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "0g",
+      "carbohydrate": "53g",
+      "fat": "0g"
+    },
+    "serving": "24"
+  },
+  {
+    "itemId": "22387216d5e36a174948b329",
+    "name": "White Steamed Rice",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "10g",
+      "carbohydrate": "118g",
+      "fat": "0g"
+    },
+    "serving": "11"
+  },
+  {
+    "itemId": "22387216ecc1420bc3ec3143",
+    "name": "White Steamed Rice for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "8g",
+      "carbohydrate": "87g",
+      "fat": "0g"
+    },
+    "serving": "8.3"
+  },
+  {
+    "itemId": "2238721602ff6054e6517913",
+    "name": "Wok-Fired Shrimp",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "17g",
+      "carbohydrate": "19g",
+      "fat": "5g"
+    },
+    "serving": "6"
+  },
+  {
+    "itemId": "2238721676993ce99e09c5da",
+    "name": "Wok-Fired Shrimp for Cub Meal",
+    "brandName": "Panda Express",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "13g",
+      "carbohydrate": "15g",
+      "fat": "4g"
+    },
+    "serving": "4.5"
+  }
+]

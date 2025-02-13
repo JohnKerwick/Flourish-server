@@ -1,0 +1,5865 @@
+[
+  {
+    "itemId": "bd9d0017c2356f87a5fe3062",
+    "name": "16oz Bottled Dressing, Balsamic Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00173481a4a09f7144ae",
+    "name": "16oz Bottled Dressing, Blue Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017eee1892bcd07a653",
+    "name": "16oz Bottled Dressing, Caesar",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017878d4236fd9e639b",
+    "name": "16oz Bottled Dressing, Chipotle Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "32g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00172b5bf35c49caad59",
+    "name": "16oz Bottled Dressing, Greek Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "17g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017292e4b880c59a9ec",
+    "name": "16oz Bottled Dressing, Green Goddess",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017e80b0b23c2e785d7",
+    "name": "16oz Bottled Dressing, Honey Mustard",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "22g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017a19c19ba47a2b329",
+    "name": "16oz Bottled Dressing, Italian Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "30g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001781593322afd5e6b2",
+    "name": "16oz Bottled Dressing, Jalapeno Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "31g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00178111da0e0f99ad54",
+    "name": "16oz Bottled Dressing, Lemon Olive Oil Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "36g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001716647c4c273fdc7c",
+    "name": "16oz Bottled Dressing, Lite Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "13g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017f756a3dbe2b6a2a7",
+    "name": "16oz Bottled Dressing, Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017eb21e89b8827d776",
+    "name": "16oz Bottled Dressing, Raspberry Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00175d702bedda55b153",
+    "name": "16oz Bottled Dressing, Sweet Sesame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "8g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00177fb16a09a02344aa",
+    "name": "16oz Bottled Dressing, Thousand Island",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "24g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00176db97d155d5b6a61",
+    "name": "16oz Tractor Bottled Beverages, Berry Patch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d0017d2ac02a39e4ba4ae",
+    "name": "16oz Tractor Bottled Beverages, Farmers Punch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d0017ab08ab6a2a5acdac",
+    "name": "16oz Tractor Bottled Beverages, Lemonade",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "0g",
+      "carbohydrate": "37g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d00175b1a4901ff8cf3f3",
+    "name": "16oz Tractor Bottled Beverages, Peach",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "29g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d00179f763002426c0285",
+    "name": "16oz Tractor Bottled Beverages, Strawberry Dragonfruit",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "39g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d0017899c9d2a97fcd332",
+    "name": "16oz Tractor Bottled Beverages, Sweet Black Tea",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "41g",
+      "fat": "0g"
+    },
+    "serving": "16"
+  },
+  {
+    "itemId": "bd9d0017e72c55d3391d45e4",
+    "name": "A Wrap Creation Of Your Own, Base, Baby Spinach",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017680d5c815ceafd5d",
+    "name": "A Wrap Creation Of Your Own, Base, Chopped Kale",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "3g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017986eddd2e3695d87",
+    "name": "A Wrap Creation Of Your Own, Base, Radiatorre Pasta",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "5g",
+      "carbohydrate": "31g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a7c23ab29c8f0d6a",
+    "name": "A Wrap Creation Of Your Own, Base, Romaine/Iceberg Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "2g",
+      "carbohydrate": "5g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017178493809fe9b9c6",
+    "name": "A Wrap Creation Of Your Own, Base, Spring Mix",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017d902e6e35d5155a1",
+    "name": "A Wrap Creation Of Your Own, Base, Super Grains Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "4g",
+      "carbohydrate": "36g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017478df8014dd1d7a5",
+    "name": "A Wrap Creation Of Your Own, Base, Super Greens Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "2g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfc7ba4ca15456f589a",
+    "name": "A Wrap Creation Of Your Own, Choose Wrap, Flour Wrap",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "8g",
+      "carbohydrate": "48g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017872339a618eacd40",
+    "name": "A Wrap Creation Of Your Own, Choose Wrap, Wheat Wrap",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "310",
+      "protein": "8g",
+      "carbohydrate": "49g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b447e9fe7f47c309",
+    "name": "A Wrap Creation Of Your Own, Dressing, Balsamic Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175f8f11b95ff41005",
+    "name": "A Wrap Creation Of Your Own, Dressing, Classic Caesar",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c1171b73a59759b2",
+    "name": "A Wrap Creation Of Your Own, Dressing, Creamy Blue Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f8af6ea7eaa71cb3",
+    "name": "A Wrap Creation Of Your Own, Dressing, Creamy French",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ab35440e9814feb2",
+    "name": "A Wrap Creation Of Your Own, Dressing, Greek Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f6c92dd309aee990",
+    "name": "A Wrap Creation Of Your Own, Dressing, Green Goddess",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174c0f06d95f3e6611",
+    "name": "A Wrap Creation Of Your Own, Dressing, Honey Mustard",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f80aea4fba7b61de",
+    "name": "A Wrap Creation Of Your Own, Dressing, Housemade Chipotle Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017bc482aee7df6b191",
+    "name": "A Wrap Creation Of Your Own, Dressing, Jalapeno Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001733f0e200a2ca259e",
+    "name": "A Wrap Creation Of Your Own, Dressing, Lemon Olive Oil Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00179220169af24200ab",
+    "name": "A Wrap Creation Of Your Own, Dressing, Lite Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001704e9c01041cabed1",
+    "name": "A Wrap Creation Of Your Own, Dressing, Lite Raspberry Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00173a387a685dba281d",
+    "name": "A Wrap Creation Of Your Own, Dressing, Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001725f959dca4b0497a",
+    "name": "A Wrap Creation Of Your Own, Dressing, Sweet Sesame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c5856253ed8a0fb3",
+    "name": "A Wrap Creation Of Your Own, Dressing, Thousand Island",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017145af7104eb35a91",
+    "name": "A Wrap Creation Of Your Own, Proteins, Baked Tofu",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "8g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174c6fe0299215519e",
+    "name": "A Wrap Creation Of Your Own, Proteins, Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "12g",
+      "carbohydrate": "15g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f51af81f1346e448",
+    "name": "A Wrap Creation Of Your Own, Proteins, Fresh Avocado",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001781118d8e4b831771",
+    "name": "A Wrap Creation Of Your Own, Proteins, Grilled Buffalo Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "12g",
+      "carbohydrate": "0g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017bf1f42d2f3e61c23",
+    "name": "A Wrap Creation Of Your Own, Proteins, Pepperoni",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178620c4bec2f183cf",
+    "name": "A Wrap Creation Of Your Own, Proteins, Roasted Turkey",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "10g",
+      "carbohydrate": "1g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00173c554554e4d5cfbf",
+    "name": "A Wrap Creation Of Your Own, Proteins, Sliced Egg",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "6g",
+      "carbohydrate": "1g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c32d3f432160cd94",
+    "name": "A Wrap Creation Of Your Own, Proteins, Smoked Ham",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "9g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017114209440a494410",
+    "name": "A Wrap Creation Of Your Own, Proteins, Smoky Bacon",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "8g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175d5c46a16eaaf8ed",
+    "name": "A Wrap Creation Of Your Own, Proteins, Smoky BBQ Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "13g",
+      "carbohydrate": "30g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017bab6251ed1524fa3",
+    "name": "A Wrap Creation Of Your Own, Proteins, Sweet Chili Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "11g",
+      "carbohydrate": "28g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ffa83907df6d517b",
+    "name": "A Wrap Creation Of Your Own, Super Premiums, Shrimp Skewer",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "18g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175e29ecd53889ac3c",
+    "name": "A Wrap Creation Of Your Own, Super Premiums, Steak Skewer",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "15g",
+      "carbohydrate": "2g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001700329734575fefd1",
+    "name": "A Wrap Creation Of Your Own, Super Premiums, Surf & Turf Skewer",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "16g",
+      "carbohydrate": "1g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017af813c5600c639d4",
+    "name": "A Wrap Creation Of Your Own, Toppings, Bleu Cheese Crumbles",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "6g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f55b6ca3c876723b",
+    "name": "A Wrap Creation Of Your Own, Toppings, Cheddar Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "7g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00172356fa2c5bb661f5",
+    "name": "A Wrap Creation Of Your Own, Toppings, Crispy Wonton Strips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "2g",
+      "carbohydrate": "8g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ae6f4eba7eb70339",
+    "name": "A Wrap Creation Of Your Own, Toppings, Diced Apples",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00176e452475ab34ad22",
+    "name": "A Wrap Creation Of Your Own, Toppings, Diced Red Onion",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00170d37f4d04079c12d",
+    "name": "A Wrap Creation Of Your Own, Toppings, Diced Tomatoes",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00171ab8e7f4c42f44c3",
+    "name": "A Wrap Creation Of Your Own, Toppings, Dried Cranberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001784c1a0764b3a5489",
+    "name": "A Wrap Creation Of Your Own, Toppings, Edamame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "4g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00170a3df5c0d9d27693",
+    "name": "A Wrap Creation Of Your Own, Toppings, Feta Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "5g",
+      "carbohydrate": "1g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e9dec5cfafaadff6",
+    "name": "A Wrap Creation Of Your Own, Toppings, Fire-Roasted Corn & Bean Medley",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b0ba0ee664a1ab21",
+    "name": "A Wrap Creation Of Your Own, Toppings, Fresh Broccoli",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017608afbc9cf93c593",
+    "name": "A Wrap Creation Of Your Own, Toppings, Honey Roasted Pecans",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ec41e9072e8e3cf0",
+    "name": "A Wrap Creation Of Your Own, Toppings, Housemade Croutons",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "20g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e4fa2b774afdd875",
+    "name": "A Wrap Creation Of Your Own, Toppings, Kalamata Olives",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c806b86707281128",
+    "name": "A Wrap Creation Of Your Own, Toppings, Mandarin Oranges",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017cbb42d17e50cae7f",
+    "name": "A Wrap Creation Of Your Own, Toppings, Matchsticks Carrots",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001724017620285c9854",
+    "name": "A Wrap Creation Of Your Own, Toppings, Onion Crisps",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017226270241e74cd80",
+    "name": "A Wrap Creation Of Your Own, Toppings, Parmesan Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "11g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00173120b3989a4519fe",
+    "name": "A Wrap Creation Of Your Own, Toppings, Pepper Jack Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "11g",
+      "carbohydrate": "2g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00176ff767b16105b901",
+    "name": "A Wrap Creation Of Your Own, Toppings, Provolone Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "7g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00171622e1bcbf885db2",
+    "name": "A Wrap Creation Of Your Own, Toppings, Red Grapes",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00177b412fcd29acd670",
+    "name": "A Wrap Creation Of Your Own, Toppings, Roasted Broccoli",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "2g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175e9ca14d5c08a3b5",
+    "name": "A Wrap Creation Of Your Own, Toppings, Roasted Brussels Sprouts",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "7g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b0554f265d90a125",
+    "name": "A Wrap Creation Of Your Own, Toppings, Roasted Butternut Squash",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c2d338cbb56e390a",
+    "name": "A Wrap Creation Of Your Own, Toppings, Roasted Cauliflower",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001742ad73592d189620",
+    "name": "A Wrap Creation Of Your Own, Toppings, Roasted Red Peppers",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001795366676c6fed5cf",
+    "name": "A Wrap Creation Of Your Own, Toppings, Shredded Mozzarella",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "7g",
+      "carbohydrate": "0g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00171972951cf7f327af",
+    "name": "A Wrap Creation Of Your Own, Toppings, Sliced Banana Peppers",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178b68079ed12eaf8b",
+    "name": "A Wrap Creation Of Your Own, Toppings, Smoky Chickpeas",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175dca97c95bdf2e75",
+    "name": "A Wrap Creation Of Your Own, Toppings, Sunflower Seeds",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "3g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001773b15761ceeaa6cb",
+    "name": "A Wrap Creation Of Your Own, Toppings, Sweet Corn",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b1fc2172664f1c61",
+    "name": "A Wrap Creation Of Your Own, Toppings, Tri-Color Tortilla Strips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e9972a135d067dc1",
+    "name": "A Wrap Creation Of Your Own, Toppings, Walnuts",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00179607b2226e64b30d",
+    "name": "Asian Crispy Chicken Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "19g",
+      "carbohydrate": "57g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a4e634b23a4519a8",
+    "name": "Asian Crispy Chicken Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "21g",
+      "carbohydrate": "89g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001785fa4726e46b44d3",
+    "name": "Asian Crispy Chicken Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "27g",
+      "carbohydrate": "105g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001765e06961b233f642",
+    "name": "Avocado Cobb Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "450",
+      "protein": "35g",
+      "carbohydrate": "15g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ff74903b4518854d",
+    "name": "Avocado Cobb Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "520",
+      "protein": "36g",
+      "carbohydrate": "42g",
+      "fat": "23g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e4298333c78dc20b",
+    "name": "Avocado Cobb Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "760",
+      "protein": "43g",
+      "carbohydrate": "63g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00170efa6b1493467f1a",
+    "name": "Baked Potato Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "11g",
+      "carbohydrate": "38g",
+      "fat": "32g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ef3cf87b9289dd9a",
+    "name": "Baked Potato Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "8g",
+      "carbohydrate": "28g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfbbbe3351445980514",
+    "name": "Baked Potato Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "5g",
+      "carbohydrate": "18g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfabbe3351445980501",
+    "name": "Balsamic Vinaigrette, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017496293ad5851001d",
+    "name": "Bently Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "34g",
+      "carbohydrate": "11g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c80c5693ff68a4c7",
+    "name": "Bently Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "36g",
+      "carbohydrate": "42g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001739484120c7c00007",
+    "name": "Bently Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "660",
+      "protein": "42g",
+      "carbohydrate": "59g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175887c39ddbeeb9a7",
+    "name": "Bottled Coke",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "65g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d0017421255f1b68f8142",
+    "name": "Bottled Diet Coke",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d0017ca9684ffd14215b7",
+    "name": "Bottled Sprite",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "64g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d0017ec71e9439f92b2fa",
+    "name": "Bottled Water",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "20"
+  },
+  {
+    "itemId": "bd9d00178a960a0e8fba27da",
+    "name": "Broccoli Cheddar Cheese Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "13g",
+      "carbohydrate": "24g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b3713acac762a92b",
+    "name": "Broccoli Cheddar Cheese Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "280",
+      "protein": "10g",
+      "carbohydrate": "18g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfb9a631f1645ecfd1c",
+    "name": "Broccoli Cheddar Cheese Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "6g",
+      "carbohydrate": "11g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfc7ba4ca15456f5893",
+    "name": "Buffalo Bleu Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "20g",
+      "carbohydrate": "16g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00173fb2e7a8b225cc62",
+    "name": "Buffalo Bleu Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "22g",
+      "carbohydrate": "47g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00173ae73d44cf4432c7",
+    "name": "Buffalo Bleu Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "600",
+      "protein": "28g",
+      "carbohydrate": "64g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017409c94b1fc57ea83",
+    "name": "Cheddar Sun Chips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "2g",
+      "carbohydrate": "19g",
+      "fat": "6g"
+    },
+    "serving": "14"
+  },
+  {
+    "itemId": "bd9d0017ba6bad26c7921187",
+    "name": "Chicken Noodle Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "19g",
+      "carbohydrate": "24g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfc7ba4ca15456f5898",
+    "name": "Chicken Noodle Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "14g",
+      "carbohydrate": "18g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ca999dfb9ed81aea",
+    "name": "Chicken Noodle Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "9g",
+      "carbohydrate": "11g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178a22a9bec731dd4f",
+    "name": "Chicken Poblano Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "19g",
+      "carbohydrate": "35g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ff71eb8b4e7e7bf9",
+    "name": "Chicken Poblano Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "14g",
+      "carbohydrate": "26g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b69750b23a3e5f6c",
+    "name": "Chicken Poblano Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "9g",
+      "carbohydrate": "17g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001762aeffc98b2f711a",
+    "name": "Chicken Tortilla Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "360",
+      "protein": "19g",
+      "carbohydrate": "26g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174e916bc57613da1d",
+    "name": "Chicken Tortilla Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "14g",
+      "carbohydrate": "19g",
+      "fat": "14g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017459155d5064115c0",
+    "name": "Chicken Tortilla Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "9g",
+      "carbohydrate": "12g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017fc41bfc33a246328",
+    "name": "Chocolate Chip Cookie",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "4g",
+      "carbohydrate": "52g",
+      "fat": "18g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "bd9d00172df0b10437464c20",
+    "name": "Chocolate Fudge Brownie",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "5g",
+      "carbohydrate": "63g",
+      "fat": "28g"
+    },
+    "serving": "4"
+  },
+  {
+    "itemId": "bd9d0017deb9810b02c58ca4",
+    "name": "Classic Caesar, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfbbbe3351445980511",
+    "name": "Classic Greek Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "180",
+      "protein": "7g",
+      "carbohydrate": "11g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175b9f46995c4fc92d",
+    "name": "Classic Greek Salad Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "490",
+      "protein": "15g",
+      "carbohydrate": "59g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00177561e2752e41c680",
+    "name": "Classic Greek Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "9g",
+      "carbohydrate": "42g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001771af3c95301b8984",
+    "name": "Creamy Blue Cheese, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00179b7bfa5a791947b9",
+    "name": "Creamy French, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "21g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017357d153081f92ede",
+    "name": "Creamy Tomato Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "410",
+      "protein": "8g",
+      "carbohydrate": "34g",
+      "fat": "28g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178fe036aa2dd2be88",
+    "name": "Creamy Tomato Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "6g",
+      "carbohydrate": "25g",
+      "fat": "21g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfb7395ed134519ed4b",
+    "name": "Creamy Tomato Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "4g",
+      "carbohydrate": "16g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001743b147ad91887112",
+    "name": "Create Your Own Grain Bowl, Base, Baby Spinach",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00170c965ed88a568786",
+    "name": "Create Your Own Grain Bowl, Base, Chopped Kale",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "3g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178ded899a26a019f4",
+    "name": "Create Your Own Grain Bowl, Base, Radiatorre Pasta",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "5g",
+      "carbohydrate": "31g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00171757e57c00d72e14",
+    "name": "Create Your Own Grain Bowl, Base, Romaine/Iceberg Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "2g",
+      "carbohydrate": "5g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017be2c3672b4578686",
+    "name": "Create Your Own Grain Bowl, Base, Spring Mix",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e2d7546795a4a746",
+    "name": "Create Your Own Grain Bowl, Base, Super Grains Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "4g",
+      "carbohydrate": "36g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174b30fdcd5aee61f1",
+    "name": "Create Your Own Grain Bowl, Base, Super Greens Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "2g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b0937c5aaaebd22e",
+    "name": "Create Your Own Grain Bowl, Proteins, Baked Tofu",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "8g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001744e0a65d579fc9c9",
+    "name": "Create Your Own Grain Bowl, Proteins, Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "12g",
+      "carbohydrate": "15g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e77cfe5b7e919af1",
+    "name": "Create Your Own Grain Bowl, Proteins, Fresh Avocado",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c2610c2b50306c85",
+    "name": "Create Your Own Grain Bowl, Proteins, Grilled Buffalo Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "12g",
+      "carbohydrate": "0g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001749cefa9d8079a006",
+    "name": "Create Your Own Grain Bowl, Proteins, Grilled Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "12g",
+      "carbohydrate": "1g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017acfcc326a4e6f726",
+    "name": "Create Your Own Grain Bowl, Proteins, Pepperoni",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017318c8ad00909d124",
+    "name": "Create Your Own Grain Bowl, Proteins, Roasted Turkey",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "10g",
+      "carbohydrate": "1g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017988b75c6df9bd9f7",
+    "name": "Create Your Own Grain Bowl, Proteins, Sliced Egg",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "6g",
+      "carbohydrate": "1g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00179468e1064738d7bd",
+    "name": "Create Your Own Grain Bowl, Proteins, Smoked Ham",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "9g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00172b0e19fc910e6886",
+    "name": "Create Your Own Grain Bowl, Proteins, Smoky Bacon",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "8g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a6e194226cbd5df9",
+    "name": "Create Your Own Grain Bowl, Proteins, Smoky BBQ Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "13g",
+      "carbohydrate": "30g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017541dbd2df16978d3",
+    "name": "Create Your Own Grain Bowl, Proteins, Sweet Chili Cripsy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "11g",
+      "carbohydrate": "28g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a4f330cab7531466",
+    "name": "Create Your Own Grain Bowl, Super Premiums, Shrimp Skewer",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "18g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a5c5d42616e3e810",
+    "name": "Create Your Own Grain Bowl, Super Premiums, Steak Skewer",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "15g",
+      "carbohydrate": "2g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001781220c6240fe863d",
+    "name": "Create Your Own Grain Bowl, Super Premiums, Surf & Turf Skewer",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "16g",
+      "carbohydrate": "1g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001797163f2e26613a70",
+    "name": "Create Your Own Grain Bowl, Toppings, Bleu Cheese Crumbles",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "6g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017faa3672b720d550d",
+    "name": "Create Your Own Grain Bowl, Toppings, Cheddar Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "7g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a8e4af4a141b2730",
+    "name": "Create Your Own Grain Bowl, Toppings, Crispy Wonton Strips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "2g",
+      "carbohydrate": "8g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e514f0d3689d8ed1",
+    "name": "Create Your Own Grain Bowl, Toppings, Diced Apples",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175bd4f82191502cb6",
+    "name": "Create Your Own Grain Bowl, Toppings, Diced Red Onion",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c311f7af1b6950cc",
+    "name": "Create Your Own Grain Bowl, Toppings, Diced Tomatoes",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00173fd8ad74ecff7167",
+    "name": "Create Your Own Grain Bowl, Toppings, Dried Cranberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e1732f2ba0419826",
+    "name": "Create Your Own Grain Bowl, Toppings, Edamame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "4g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174a5874451d9246b4",
+    "name": "Create Your Own Grain Bowl, Toppings, Feta Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "5g",
+      "carbohydrate": "1g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00177cee6bc18fe352da",
+    "name": "Create Your Own Grain Bowl, Toppings, Fire-Roasted Corn & Bean Medley",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001758a55b810b90d17c",
+    "name": "Create Your Own Grain Bowl, Toppings, Fresh Broccoli",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001769d9b695d4ef1bdf",
+    "name": "Create Your Own Grain Bowl, Toppings, Honey Roasted Pecans",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017eb1e681f18cab584",
+    "name": "Create Your Own Grain Bowl, Toppings, Housemade Croutons",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "20g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00172fe4056cccc1a72f",
+    "name": "Create Your Own Grain Bowl, Toppings, Kalamata Olives",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017701c3429ca480fc7",
+    "name": "Create Your Own Grain Bowl, Toppings, Mandarin Oranges",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a313b2ead08a4fc3",
+    "name": "Create Your Own Grain Bowl, Toppings, Matchsticks Carrots",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ba9a53ba5aa3829d",
+    "name": "Create Your Own Grain Bowl, Toppings, Onion Crisps",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b4d2053a2f63468c",
+    "name": "Create Your Own Grain Bowl, Toppings, Parmesan Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "11g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017ce7a51937a39c4bd",
+    "name": "Create Your Own Grain Bowl, Toppings, Pepper Jack Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "11g",
+      "carbohydrate": "2g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f7b1e37f67cc23c9",
+    "name": "Create Your Own Grain Bowl, Toppings, Provolone Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "7g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017297876945dbb6221",
+    "name": "Create Your Own Grain Bowl, Toppings, Red Grapes",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017583f876da00b7f42",
+    "name": "Create Your Own Grain Bowl, Toppings, Roasted Broccoli",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "2g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017177ae68895440366",
+    "name": "Create Your Own Grain Bowl, Toppings, Roasted Brussels Sprouts",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "7g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a3e35dea73a4cbe5",
+    "name": "Create Your Own Grain Bowl, Toppings, Roasted Butternut Squash",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017568de24155d70819",
+    "name": "Create Your Own Grain Bowl, Toppings, Roasted Cauliflower",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a989823e4e2a7371",
+    "name": "Create Your Own Grain Bowl, Toppings, Roasted Red Peppers",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00171fe708f4681ec1ed",
+    "name": "Create Your Own Grain Bowl, Toppings, Shredded Mozzarella",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "7g",
+      "carbohydrate": "0g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178a37bafec8974d27",
+    "name": "Create Your Own Grain Bowl, Toppings, Sliced Banana Peppers",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174c4d514d23bcaf90",
+    "name": "Create Your Own Grain Bowl, Toppings, Smoky Chickpeas",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001795629266db0254ab",
+    "name": "Create Your Own Grain Bowl, Toppings, Sunflower Seeds",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "3g",
+      "carbohydrate": "3g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017cdc77a6f99af55fe",
+    "name": "Create Your Own Grain Bowl, Toppings, Sweet Corn",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001786e3f0aa116cb5d4",
+    "name": "Create Your Own Grain Bowl, Toppings, Tri-Color Tortilla Strips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c273bbab97fc895e",
+    "name": "Create Your Own Grain Bowl, Toppings, Walnuts",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444df97395ed134519ed2e",
+    "name": "Create Your Own Salad, Base, Baby Spinach",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175db84d9545fd6785",
+    "name": "Create Your Own Salad, Base, Chopped Kale",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "3g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444df97395ed134519ed2f",
+    "name": "Create Your Own Salad, Base, Radiatorre Pasta",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "5g",
+      "carbohydrate": "31g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444df9bbe33514459804fe",
+    "name": "Create Your Own Salad, Base, Romaine/Iceberg Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "2g",
+      "carbohydrate": "5g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444df9bbe33514459804fc",
+    "name": "Create Your Own Salad, Base, Spring Mix",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001744ca1d5d85fa5cc6",
+    "name": "Create Your Own Salad, Base, Super Grains Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "4g",
+      "carbohydrate": "36g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017cf85784b7bac43a9",
+    "name": "Create Your Own Salad, Base, Super Greens Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "2g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f4dbec2b5558d825",
+    "name": "Create Your Own Salad, Dressing, Balsamic Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017cc2874bbfcbfbfbb",
+    "name": "Create Your Own Salad, Dressing, Classic Caesar",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178b4560fec21ba647",
+    "name": "Create Your Own Salad, Dressing, Creamy Blue Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001728ba1cec854f9e4e",
+    "name": "Create Your Own Salad, Dressing, Creamy French",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017205fc14411efebf0",
+    "name": "Create Your Own Salad, Dressing, Greek Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f8905867a501f6ba",
+    "name": "Create Your Own Salad, Dressing, Green Goddess",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174f58c8f19db6090a",
+    "name": "Create Your Own Salad, Dressing, Honey Mustard",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00172683d2e4e77103db",
+    "name": "Create Your Own Salad, Dressing, Housemade Chipotle Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f4f41dffe2cda0cb",
+    "name": "Create Your Own Salad, Dressing, Italian Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001711a99b20a1fcfc92",
+    "name": "Create Your Own Salad, Dressing, Jalapeno Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178f27ca7e235e1298",
+    "name": "Create Your Own Salad, Dressing, Lemon Olive Oil Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017035efe04a6c0bece",
+    "name": "Create Your Own Salad, Dressing, Lite Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001737a6c08021ff869c",
+    "name": "Create Your Own Salad, Dressing, Lite Raspberry Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001703096010a9304cfe",
+    "name": "Create Your Own Salad, Dressing, Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001744d5614d5c9a0009",
+    "name": "Create Your Own Salad, Dressing, Sweet Sesame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00170081dcccecbb5063",
+    "name": "Create Your Own Salad, Dressing, Thousand Island",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00179e22fc12507cfbb5",
+    "name": "Create Your Own Salad, Honey Oat Roll",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "4g",
+      "carbohydrate": "22g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfbbbe335144598050b",
+    "name": "Create Your Own Salad, Proteins, Baked Tofu",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "8g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f524016780b21162",
+    "name": "Create Your Own Salad, Proteins, Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "12g",
+      "carbohydrate": "15g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa9a631f1645ecfd07",
+    "name": "Create Your Own Salad, Proteins, Fresh Avocado",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfbbbe335144598050a",
+    "name": "Create Your Own Salad, Proteins, Grilled Buffalo Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "12g",
+      "carbohydrate": "0g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed43",
+    "name": "Create Your Own Salad, Proteins, Grilled Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "12g",
+      "carbohydrate": "1g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed47",
+    "name": "Create Your Own Salad, Proteins, Pepperoni",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "4g",
+      "carbohydrate": "0g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfbbbe335144598050c",
+    "name": "Create Your Own Salad, Proteins, Roasted Turkey",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "10g",
+      "carbohydrate": "1g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a40e5336b2316c6e",
+    "name": "Create Your Own Salad, Proteins, Sliced Egg",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "6g",
+      "carbohydrate": "1g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfc7ba4ca15456f588c",
+    "name": "Create Your Own Salad, Proteins, Smoked Ham",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "9g",
+      "carbohydrate": "2g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017d4a5d77b0d03d8ac",
+    "name": "Create Your Own Salad, Proteins, Smoky Bacon",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "8g",
+      "carbohydrate": "2g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178ecc250ab368746a",
+    "name": "Create Your Own Salad, Proteins, Smoky BBQ Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "13g",
+      "carbohydrate": "30g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001756c78165e291ed1b",
+    "name": "Create Your Own Salad, Proteins, Sweet Chili Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "11g",
+      "carbohydrate": "28g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001701abe88c0e848640",
+    "name": "Create Your Own Salad, Super Premiums, Steak Skewer",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "15g",
+      "carbohydrate": "2g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174392e6212650ec68",
+    "name": "Create Your Own Salad, Super Premiums, Surf & Turf Skewer",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "16g",
+      "carbohydrate": "1g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444df97395ed134519ed30",
+    "name": "Create Your Own Salad, Toppings, Bleu Cheese Crumbles",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "6g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017195c79f08abbc372",
+    "name": "Create Your Own Salad, Toppings, Blueberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "53444df99a631f1645ecfd03",
+    "name": "Create Your Own Salad, Toppings, Cheddar Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "7g",
+      "carbohydrate": "1g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017fee382efb90733ee",
+    "name": "Create Your Own Salad, Toppings, Crispy Wonton Strips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "2g",
+      "carbohydrate": "8g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfabbe3351445980507",
+    "name": "Create Your Own Salad, Toppings, Diced Apples",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017fbcce9f377fbc749",
+    "name": "Create Your Own Salad, Toppings, Diced Red Onion",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed41",
+    "name": "Create Your Own Salad, Toppings, Diced Tomatoes",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017648427198ea16e26",
+    "name": "Create Your Own Salad, Toppings, Dried Cranberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "23g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfabbe3351445980509",
+    "name": "Create Your Own Salad, Toppings, Edamame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "4g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfabbe3351445980500",
+    "name": "Create Your Own Salad, Toppings, Feta Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "5g",
+      "carbohydrate": "1g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00179b9ab1f65e212fe1",
+    "name": "Create Your Own Salad, Toppings, Fire-Roasted Corn & Bean Medley",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "40",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "1g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfc7ba4ca15456f5888",
+    "name": "Create Your Own Salad, Toppings, Fresh Broccoli",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa9a631f1645ecfd08",
+    "name": "Create Your Own Salad, Toppings, Honey Roasted Pecans",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a0797b5ef749cd8f",
+    "name": "Create Your Own Salad, Toppings, Housemade Croutons",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "1g",
+      "carbohydrate": "20g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa9a631f1645ecfd10",
+    "name": "Create Your Own Salad, Toppings, Kalamata Olives",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed3e",
+    "name": "Create Your Own Salad, Toppings, Mandarin Oranges",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "0g",
+      "carbohydrate": "9g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa9a631f1645ecfd09",
+    "name": "Create Your Own Salad, Toppings, Matchsticks Carrots",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f3049237d93972eb",
+    "name": "Create Your Own Salad, Toppings, Onion Crisps",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed32",
+    "name": "Create Your Own Salad, Toppings, Parmesan Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "11g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017cf61073b15ce1e6c",
+    "name": "Create Your Own Salad, Toppings, Pepper Jack Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "11g",
+      "carbohydrate": "2g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed31",
+    "name": "Create Your Own Salad, Toppings, Provolone Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "7g",
+      "carbohydrate": "1g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001703d5da08f8c9b307",
+    "name": "Create Your Own Salad, Toppings, Red Grapes",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "20",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017d06ef19327cd9f4c",
+    "name": "Create Your Own Salad, Toppings, Roasted Broccoli",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "2g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001755b74849352b8c0c",
+    "name": "Create Your Own Salad, Toppings, Roasted Brussels Sprouts",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "3g",
+      "carbohydrate": "7g",
+      "fat": "2.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001708b3e3e88c00cfe6",
+    "name": "Create Your Own Salad, Toppings, Roasted Butternut Squash",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a1e8644a85878646",
+    "name": "Create Your Own Salad, Toppings, Roasted Cauliflower",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed40",
+    "name": "Create Your Own Salad, Toppings, Roasted Red Peppers",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7ba4ca15456f587e",
+    "name": "Create Your Own Salad, Toppings, Shredded Mozzarella",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "7g",
+      "carbohydrate": "0g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfb7ba4ca15456f5886",
+    "name": "Create Your Own Salad, Toppings, Sliced Banana Peppers",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b5ec7302fd07acbf",
+    "name": "Create Your Own Salad, Toppings, Smoky Chickpeas",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "45",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017699563ed6fb7a9d1",
+    "name": "Create Your Own Salad, Toppings, Strawberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "53444dfabbe3351445980506",
+    "name": "Create Your Own Salad, Toppings, Sweet Corn",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed3a",
+    "name": "Create Your Own Salad, Toppings, Tri-Color Tortilla Strips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa9a631f1645ecfd0b",
+    "name": "Create Your Own Salad, Toppings, Walnuts",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e5e2c623b3572b82",
+    "name": "Crispy Rice Marshmallow Treat",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "2g",
+      "carbohydrate": "45g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed35",
+    "name": "Dressing, Balsamic Vinaigrette 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfb7ba4ca15456f5883",
+    "name": "Dressing, Classic Caesar 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfb7ba4ca15456f5880",
+    "name": "Dressing, Creamy Blue Cheese 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed34",
+    "name": "Dressing, Creamy French 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "21g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00173ca45000f11e4ff3",
+    "name": "Dressing, Greek Vinaigrette 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "17g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfabbe3351445980503",
+    "name": "Dressing, Green Goddess 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfb7ba4ca15456f5882",
+    "name": "Dressing, Honey Mustard 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "22g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017f1d625d36a07c031",
+    "name": "Dressing, Housemade Chipotle Ranch 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "32g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017ffaaa0432afa31fc",
+    "name": "Dressing, Housemade Lemon Olive Oil Vinaigrette 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "36g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed38",
+    "name": "Dressing, Housemade Salsa Ranch with Dressing 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017d7e319a7b680ead2",
+    "name": "Dressing, Italian Vinaigrette 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "30g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfa9a631f1645ecfd05",
+    "name": "Dressing, Lite Ranch 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "13g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001708db49ac08c5b068",
+    "name": "Dressing, Lite Raspberry Vinaigrette 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017114a95883c23daf4",
+    "name": "Dressing, Poppyseed Dressing 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfb7ba4ca15456f587f",
+    "name": "Dressing, Ranch 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfabbe3351445980505",
+    "name": "Dressing, Sweet Sesame 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "8g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed3d",
+    "name": "Dressing, Thousand Island 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "24g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017dd6d460f4a2f5e79",
+    "name": "Farmers Market Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "28g",
+      "carbohydrate": "28g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017bba4477693c400ae",
+    "name": "Farmers Market Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "30g",
+      "carbohydrate": "59g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017bab11a9a90862a02",
+    "name": "Farmers Market Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "660",
+      "protein": "36g",
+      "carbohydrate": "76g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001790ad0a361cf35308",
+    "name": "Gold Peak Green Tea",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "36g",
+      "fat": "0g"
+    },
+    "serving": "18.5"
+  },
+  {
+    "itemId": "bd9d00176cb7d3a9c902e127",
+    "name": "Gold Peak Lemon Tea",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "34g",
+      "fat": "0g"
+    },
+    "serving": "18.5"
+  },
+  {
+    "itemId": "bd9d001748e21ecd98ce2dc6",
+    "name": "Gold Peak Peach Tea",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "45g",
+      "fat": "0g"
+    },
+    "serving": "18.5"
+  },
+  {
+    "itemId": "bd9d0017cf0b87a7f134243f",
+    "name": "Gold Peak Raspberry Tea",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "48g",
+      "fat": "0g"
+    },
+    "serving": "18.5"
+  },
+  {
+    "itemId": "bd9d0017a6e6eb4ae779f583",
+    "name": "Gold Peak Sweet Tea",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "0g",
+      "carbohydrate": "48g",
+      "fat": "0g"
+    },
+    "serving": "18.5"
+  },
+  {
+    "itemId": "bd9d0017b686de1a1cdc15e4",
+    "name": "Gold Peak Unsweetened Tea",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "18.5"
+  },
+  {
+    "itemId": "bd9d001796fe060a36e9c3fc",
+    "name": "Grain Bowl Side, Honey Oat Roll",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "4g",
+      "carbohydrate": "22g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c1927a8f04e0d298",
+    "name": "Grain Bowl, Dressing, Balsamic Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017d3acadcf13bcedc8",
+    "name": "Grain Bowl, Dressing, Classic Caesar",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "13g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e7aa9bff4b1e4329",
+    "name": "Grain Bowl, Dressing, Creamy Blue Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017c0977c53e19aa4a7",
+    "name": "Grain Bowl, Dressing, Creamy French",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017263ec2d01a69e0a0",
+    "name": "Grain Bowl, Dressing, Greek Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001711551b34076be6a8",
+    "name": "Grain Bowl, Dressing, Green Goddess",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f11c302f9f493d7a",
+    "name": "Grain Bowl, Dressing, Honey Mustard",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174919a3598fa478d2",
+    "name": "Grain Bowl, Dressing, Housemade Chipotle Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "1g",
+      "carbohydrate": "2g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017756cc7791c3a6d14",
+    "name": "Grain Bowl, Dressing, Italian Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f2e972930fa1d2f0",
+    "name": "Grain Bowl, Dressing, Jalapeno Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00172cddcb7c8ba5b2b6",
+    "name": "Grain Bowl, Dressing, Lemon Olive Oil Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001733a31b9c5f3e7271",
+    "name": "Grain Bowl, Dressing, Lite Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017414ee9e528cf3aa8",
+    "name": "Grain Bowl, Dressing, Lite Raspberry Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "30",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017081f6820ae2f592a",
+    "name": "Grain Bowl, Dressing, Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "15g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174e8e85f97e3a92e1",
+    "name": "Grain Bowl, Dressing, Sweet Sesame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "0g",
+      "carbohydrate": "11g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178b794d023eaec8e8",
+    "name": "Grain Bowl, Dressing, Thousand Island",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "12g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a75d215e96b169be",
+    "name": "Grain Bowl, Toppings, Blueberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "bd9d0017d39d890f3a0abf34",
+    "name": "Grain Bowl, Toppings, Fried Onions",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d0017fb5fad1f24ca24e8",
+    "name": "Grain Bowl, Toppings, Strawberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "bd9d00178b0a78164be881c5",
+    "name": "Greek Vinaigrette, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "17g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017da6b211b605e20bd",
+    "name": "Green Goddess, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfb9a631f1645ecfd16",
+    "name": "Grilled Chicken Caesar Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "32g",
+      "carbohydrate": "28g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e842c87fbc4d43e6",
+    "name": "Grilled Chicken Caesar Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "530",
+      "protein": "34g",
+      "carbohydrate": "59g",
+      "fat": "20g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a28b82be7b271035",
+    "name": "Grilled Chicken Caesar Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "700",
+      "protein": "40g",
+      "carbohydrate": "76g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017daa506b366ab0699",
+    "name": "Grilled Chicken Mediterranean Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "20g",
+      "carbohydrate": "16g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00171c4afe14841d937a",
+    "name": "Grilled Chicken Mediterranean Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "22g",
+      "carbohydrate": "47g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178020c9560f2ebe90",
+    "name": "Grilled Chicken Mediterranean Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "540",
+      "protein": "28g",
+      "carbohydrate": "64g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017529540e57bcfe2c5",
+    "name": "Honey Mustard, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "22g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00170425fa94b1f5ef2a",
+    "name": "Hot Honey Chicken Panini Melt with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "1290",
+      "protein": "55g",
+      "carbohydrate": "120g",
+      "fat": "71g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f8793523b3a363ee",
+    "name": "Hot Honey Chicken Panini Melt, Butter (Butter Only)",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "50",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "6g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d00176d5bbc9d0ce8e218",
+    "name": "Hot Honey Chicken Panini Melt, Ciabatta Bread (Bread Only)",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "380",
+      "protein": "14g",
+      "carbohydrate": "76g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001798c554c2e0f07c83",
+    "name": "Hot Honey Chicken Panini Melt, Hot Honey Crispy Chicken (Chicken Only)",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "14g",
+      "carbohydrate": "30g",
+      "fat": "2g"
+    },
+    "serving": "4"
+  },
+  {
+    "itemId": "bd9d0017a20f8f6a5de25471",
+    "name": "Hot Honey Chicken Panini Melt, Housemade Chipotle Ranch (Dressing Only)",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "32g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00173b8bdac84423d30d",
+    "name": "Hot Honey Chicken Panini Melt, Onion Crisps (Onion Crisps Only)",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d00179a6270ce611abf01",
+    "name": "Hot Honey Chicken Panini Melt, Pepper Jack Cheese (Cheese Only)",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "24g",
+      "carbohydrate": "4g",
+      "fat": "26g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "bd9d0017165e69204c87d121",
+    "name": "Hot Honey Chicken Panini Melt, Roasted Red Peppers (Peppers Only)",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b807f6d6a6b0df96",
+    "name": "Hot Honey Chicken Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "670",
+      "protein": "26g",
+      "carbohydrate": "41g",
+      "fat": "48g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b4b7af865f090295",
+    "name": "Hot Honey Chicken Salad, Choose Premium Toppings, Hot Honey Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2.3"
+  },
+  {
+    "itemId": "bd9d0017bd05feda9402f30a",
+    "name": "Hot Honey Chicken Salad, Choose Super Premium Toppings, Hot Honey Shrimp",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "15g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "bd9d001768831ddd62d9ce85",
+    "name": "Hot Honey Chicken Salad, Included Toppings, Fried Onions",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d00174d96c255df348037",
+    "name": "Hot Honey Chicken Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "790",
+      "protein": "27g",
+      "carbohydrate": "72g",
+      "fat": "47g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175622a1817f15ea05",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Balsamic Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00177905ae1ddfdaa907",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Classic Caesar",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017f434434f257555fc",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Creamy Blue Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017deade483e905751f",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Creamy French",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "21g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017f1119c97fa47b01b",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Greek Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "17g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001710319b486220f899",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Green Goddess",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017ba1009aa7bed470d",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Honey Mustard",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "22g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00171a2c093cba87bf56",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Housemade Chipotle Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "32g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00173d7246c8bf738d46",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Housemade Lemon Olive Oil Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "36g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001704eaee8cda3c016b",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Italian Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "30g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017346b3bf87764281d",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Lite Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "13g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017b7b3152e3052f214",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Lite Raspberry Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017ca857b5f63a29321",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Poppyseed Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017929c6e0eb2266d66",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017c2ead95bb822f716",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Sweet Sesame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "8g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00174fee47e5673e82b9",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Dressing, Thousand Island",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "24g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001773423a99a2ada4de",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Included Toppings, Hot Honey Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "10g",
+      "carbohydrate": "21g",
+      "fat": "1g"
+    },
+    "serving": "2.8"
+  },
+  {
+    "itemId": "bd9d0017c5d3b1af6ec40a35",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Premium Toppings, Hot Honey Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2.3"
+  },
+  {
+    "itemId": "bd9d0017d8591e83ed717a73",
+    "name": "Hot Honey Chicken Warm Grain Bowl, Super Premium Toppings, Hot Honey Shrimp",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "11g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "bd9d0017e6791f570c66ae50",
+    "name": "Hot Honey Chicken Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "950",
+      "protein": "32g",
+      "carbohydrate": "87g",
+      "fat": "54g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175edec199061b2b64",
+    "name": "Hot Honey Chicken Wrap, Bases, Baby Spinach",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "1g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d001701eb94acf74865b3",
+    "name": "Hot Honey Chicken Wrap, Bases, Chopped Kale",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "2g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d0017cea73f03236b0a78",
+    "name": "Hot Honey Chicken Wrap, Bases, Radiatorre Pasta",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "80",
+      "protein": "3g",
+      "carbohydrate": "16g",
+      "fat": "0.5g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d001739d888b49c14df0a",
+    "name": "Hot Honey Chicken Wrap, Bases, Romaine/Iceberg Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "bd9d0017452177d5ef663843",
+    "name": "Hot Honey Chicken Wrap, Bases, Spring Mix",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "2g",
+      "fat": "0g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d0017dd9ab25785d2d36e",
+    "name": "Hot Honey Chicken Wrap, Bases, Super Grains Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "2g",
+      "carbohydrate": "18g",
+      "fat": "1g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "bd9d0017044e0aa4840dbb6e",
+    "name": "Hot Honey Chicken Wrap, Bases, Super Greens Blend",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "1g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00170c7e331070cda291",
+    "name": "Hot Honey Chicken Wrap, Choose Toppings, Blueberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "25",
+      "protein": "0g",
+      "carbohydrate": "6g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "bd9d00170e89942cf646fdab",
+    "name": "Hot Honey Chicken Wrap, Choose Toppings, Strawberries",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "15",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1.5"
+  },
+  {
+    "itemId": "bd9d00174e95b45de364879b",
+    "name": "Hot Honey Chicken Wrap, Dressing, Balsamic Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "7g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001785358976efde18ff",
+    "name": "Hot Honey Chicken Wrap, Dressing, Classic Caesar",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "25g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00171fb5e120cef31b27",
+    "name": "Hot Honey Chicken Wrap, Dressing, Creamy Blue Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017ab9de4e6ed3c278f",
+    "name": "Hot Honey Chicken Wrap, Dressing, Creamy French",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "10g",
+      "fat": "21g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00179f53179e54eaffed",
+    "name": "Hot Honey Chicken Wrap, Dressing, Greek Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "17g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017ca9db94bf6539f33",
+    "name": "Hot Honey Chicken Wrap, Dressing, Green Goddess",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "2g",
+      "carbohydrate": "6g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00176fc8f0a54bf1d625",
+    "name": "Hot Honey Chicken Wrap, Dressing, Honey Mustard",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "0g",
+      "carbohydrate": "13g",
+      "fat": "22g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00177aa7dfc98c82aa3e",
+    "name": "Hot Honey Chicken Wrap, Dressing, Housemade Chipotle Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "32g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00172c5e5d4cfa025093",
+    "name": "Hot Honey Chicken Wrap, Dressing, Housemade Lemon Olive Oil Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "36g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00175cf07b81e2ab784f",
+    "name": "Hot Honey Chicken Wrap, Dressing, Italian Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "30g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00175687e78d08a51d58",
+    "name": "Hot Honey Chicken Wrap, Dressing, Lite Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "13g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001727a1dc94ac39f762",
+    "name": "Hot Honey Chicken Wrap, Dressing, Lite Raspberry Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017e63c3fb37a7f58dd",
+    "name": "Hot Honey Chicken Wrap, Dressing, Poppyseed Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017b1c7fdbe0969eaa4",
+    "name": "Hot Honey Chicken Wrap, Dressing, Ranch",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001719b99c7c64624f05",
+    "name": "Hot Honey Chicken Wrap, Dressing, Sweet Sesame",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "8g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017a8beb62a1e92a248",
+    "name": "Hot Honey Chicken Wrap, Dressing, Thousand Island",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "24g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017e4f9ddfb2f0ed99c",
+    "name": "Hot Honey Chicken Wrap, Included Toppings, Carrots",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "3g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00173c5ca6a0a0a2b4d2",
+    "name": "Hot Honey Chicken Wrap, Included Toppings, Fried Onions",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "35",
+      "protein": "1g",
+      "carbohydrate": "4g",
+      "fat": "2g"
+    },
+    "serving": "0.5"
+  },
+  {
+    "itemId": "bd9d0017875a89be189b7ef0",
+    "name": "Hot Honey Chicken Wrap, Included Toppings, Hot Honey Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "10g",
+      "carbohydrate": "21g",
+      "fat": "1g"
+    },
+    "serving": "2.8"
+  },
+  {
+    "itemId": "bd9d00176e1794bd448dc9c1",
+    "name": "Hot Honey Chicken Wrap, Included Toppings, Pepper Jack Cheese",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "10g",
+      "carbohydrate": "2g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a3c6385a500a2145",
+    "name": "Hot Honey Chicken Wrap, Premium Toppings, Hot Honey Crispy Chicken",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "8g",
+      "carbohydrate": "17g",
+      "fat": "1g"
+    },
+    "serving": "2.3"
+  },
+  {
+    "itemId": "bd9d0017a4dffdce484191bd",
+    "name": "Hot Honey Chicken Wrap, Super Premium Toppings, Hot Honey Shrimp",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "100",
+      "protein": "15g",
+      "carbohydrate": "10g",
+      "fat": "0g"
+    },
+    "serving": "2.5"
+  },
+  {
+    "itemId": "bd9d0017734fabb1cd1eb2ab",
+    "name": "Housemade Chipotle Ranch, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "2g",
+      "carbohydrate": "4g",
+      "fat": "32g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed36",
+    "name": "Italian Vinaigrette, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "30g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d00177138fc3d1adb88c8",
+    "name": "Italian Wedding Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "13g",
+      "carbohydrate": "20g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017e966ab470915cc50",
+    "name": "Italian Wedding Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "10g",
+      "carbohydrate": "15g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfb9a631f1645ecfd20",
+    "name": "Italian Wedding Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "6g",
+      "carbohydrate": "9g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a7aa7ac6def84e63",
+    "name": "Jalapeno Ranch, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "290",
+      "protein": "0g",
+      "carbohydrate": "5g",
+      "fat": "31g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017329eb7b4ac86fcb2",
+    "name": "Lasagna with Turkey Sausage Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "13g",
+      "carbohydrate": "21g",
+      "fat": "11g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfb7395ed134519ed49",
+    "name": "Lasagna with Turkey Sausage Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "8g",
+      "carbohydrate": "13g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001763da182156598e01",
+    "name": "Lemon Olive Oil Vinaigrette, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "36g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001784317e2691eacd3e",
+    "name": "Lite Ranch, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "2g",
+      "carbohydrate": "2g",
+      "fat": "13g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfa7395ed134519ed39",
+    "name": "Lite Raspberry Vinaigrette, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "60",
+      "protein": "0g",
+      "carbohydrate": "15g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017e2b0dcdb675224cd",
+    "name": "Maine Lobster Bisque, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "640",
+      "protein": "11g",
+      "carbohydrate": "28g",
+      "fat": "53g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00179b6640c65760b955",
+    "name": "Maine Lobster Bisque, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "470",
+      "protein": "8g",
+      "carbohydrate": "21g",
+      "fat": "39g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00172ee0a99c3b34d904",
+    "name": "Maine Lobster Bisque, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "5g",
+      "carbohydrate": "13g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017814fdf52aba8ff2e",
+    "name": "Maryland Crab Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "190",
+      "protein": "15g",
+      "carbohydrate": "25g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f92c782348f774a5",
+    "name": "Maryland Crab Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "11g",
+      "carbohydrate": "18g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfb7395ed134519ed4a",
+    "name": "Maryland Crab Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "90",
+      "protein": "7g",
+      "carbohydrate": "12g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017836d29163ba66968",
+    "name": "Miss Vickie's BBQ Chips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "3g",
+      "carbohydrate": "23g",
+      "fat": "11g"
+    },
+    "serving": "15"
+  },
+  {
+    "itemId": "bd9d00175c8821f598b23be6",
+    "name": "Miss Vickie's Jalapeno Chips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "3g",
+      "carbohydrate": "23g",
+      "fat": "11g"
+    },
+    "serving": "15"
+  },
+  {
+    "itemId": "bd9d0017cacad4ffc7292183",
+    "name": "Miss Vickie's Sea Salt Chips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "210",
+      "protein": "3g",
+      "carbohydrate": "23g",
+      "fat": "12g"
+    },
+    "serving": "15"
+  },
+  {
+    "itemId": "bd9d00179ff8944e6ce7a9d1",
+    "name": "Miss Vickies Salt and Vinegar",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "200",
+      "protein": "3g",
+      "carbohydrate": "23g",
+      "fat": "11g"
+    },
+    "serving": "15"
+  },
+  {
+    "itemId": "bd9d001760081521feeb7217",
+    "name": "New England Clam Chowder, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "500",
+      "protein": "17g",
+      "carbohydrate": "30g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175d1f2d9d4b1452b1",
+    "name": "New England Clam Chowder, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "13g",
+      "carbohydrate": "22g",
+      "fat": "27g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017d65d5e772cd7db4c",
+    "name": "New England Clam Chowder, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "8g",
+      "carbohydrate": "14g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00172be1d704e661740f",
+    "name": "Oatmeal Raisin Cookie",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "5g",
+      "carbohydrate": "52g",
+      "fat": "15g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "bd9d0017d749f2b35d2a0171",
+    "name": "Organic Butternut Squash Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "320",
+      "protein": "6g",
+      "carbohydrate": "62g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017da80fb9747c29431",
+    "name": "Organic Butternut Squash Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "4g",
+      "carbohydrate": "46g",
+      "fat": "5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfb9a631f1645ecfd1b",
+    "name": "Organic Butternut Squash Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "3g",
+      "carbohydrate": "29g",
+      "fat": "3.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00171186054c2ac95c00",
+    "name": "Organic Veggie Chili, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "230",
+      "protein": "9g",
+      "carbohydrate": "43g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174bf42fa16446ea55",
+    "name": "Organic Veggie Chili, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "170",
+      "protein": "7g",
+      "carbohydrate": "32g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfbbbe3351445980516",
+    "name": "Organic Veggie Chili, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "4g",
+      "carbohydrate": "20g",
+      "fat": "1.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174d018849cb474237",
+    "name": "Poppyseed Dressing, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "240",
+      "protein": "0g",
+      "carbohydrate": "16g",
+      "fat": "20g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017115fb2bcf508b78b",
+    "name": "Ranch, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "270",
+      "protein": "0g",
+      "carbohydrate": "4g",
+      "fat": "29g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017950c7e0a0a245014",
+    "name": "Red Wine Vinegar, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "10",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "0g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "53444dfc7ba4ca15456f5895",
+    "name": "Roasted Turkey Club Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "340",
+      "protein": "25g",
+      "carbohydrate": "40g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017afe72d86b437e21a",
+    "name": "Roasted Turkey Club Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "330",
+      "protein": "22g",
+      "carbohydrate": "40g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017cb875d53cc189773",
+    "name": "Roasted Turkey Club Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "650",
+      "protein": "33g",
+      "carbohydrate": "88g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f8d386b327b61128",
+    "name": "Side Choice, Roll",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "4g",
+      "carbohydrate": "22g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001771680d6903072fc8",
+    "name": "Smoky BBQ Crispy Chicken Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "370",
+      "protein": "23g",
+      "carbohydrate": "47g",
+      "fat": "16g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f4b9fa8792ba1976",
+    "name": "Smoky BBQ Crispy Chicken Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "510",
+      "protein": "25g",
+      "carbohydrate": "78g",
+      "fat": "17g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001799e4ddca9d2e8f1e",
+    "name": "Smoky BBQ Crispy Chicken Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "680",
+      "protein": "31g",
+      "carbohydrate": "95g",
+      "fat": "24g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "53444dfb9a631f1645ecfd1a",
+    "name": "Sophie's Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "430",
+      "protein": "20g",
+      "carbohydrate": "48g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001734a6e2b858732125",
+    "name": "Sophie's Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "23g",
+      "carbohydrate": "81g",
+      "fat": "19g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017443a32bd7d9750d9",
+    "name": "Sophie's Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "740",
+      "protein": "28g",
+      "carbohydrate": "96g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017baebc72e9d855516",
+    "name": "Southwest Chipotle Ranch Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "440",
+      "protein": "28g",
+      "carbohydrate": "27g",
+      "fat": "25g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175b1cea51f8470433",
+    "name": "Southwest Chipotle Ranch Warm Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "30g",
+      "carbohydrate": "58g",
+      "fat": "26g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a745fc8ecb97fcbf",
+    "name": "Southwest Chipotle Ranch Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "750",
+      "protein": "36g",
+      "carbohydrate": "75g",
+      "fat": "33g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00172afe32544a75f871",
+    "name": "Southwest Corn Chowder, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "350",
+      "protein": "23g",
+      "carbohydrate": "43g",
+      "fat": "9g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175c2bd505d9805693",
+    "name": "Southwest Corn Chowder, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "260",
+      "protein": "17g",
+      "carbohydrate": "32g",
+      "fat": "7g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017a15cbca2a6739bae",
+    "name": "Southwest Corn Chowder, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "11g",
+      "carbohydrate": "20g",
+      "fat": "4.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017dab1e07bf904f70f",
+    "name": "Spring Vegetable Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "4g",
+      "carbohydrate": "28g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178c3e469a197c23f4",
+    "name": "Spring Vegetable Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "3g",
+      "carbohydrate": "21g",
+      "fat": "3g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017f35343bbe13e69db",
+    "name": "Spring Vegetable Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "70",
+      "protein": "2g",
+      "carbohydrate": "13g",
+      "fat": "2g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00178a8d6a1a0ef02ea4",
+    "name": "Sugar Cookie",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "390",
+      "protein": "4g",
+      "carbohydrate": "48g",
+      "fat": "20g"
+    },
+    "serving": "3"
+  },
+  {
+    "itemId": "bd9d0017146db6743069089c",
+    "name": "Summer Berry Grain Bowl with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "730",
+      "protein": "22g",
+      "carbohydrate": "78g",
+      "fat": "37g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b4c40836f6990fbf",
+    "name": "Summer Berry Grain Bowl, Dressing, Housemade Lemon Olive Oil Vinaigrette",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "0g",
+      "carbohydrate": "0g",
+      "fat": "18g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017b2b1369e99aae25e",
+    "name": "Summer Berry Grain Bowl, Dressing, Poppyseed Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "120",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017dc13c233d540980b",
+    "name": "Summer Berry Salad with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "580",
+      "protein": "20g",
+      "carbohydrate": "47g",
+      "fat": "36g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00179ea1096ebd6d48d2",
+    "name": "Summer Berry Wrap with Dressing",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "870",
+      "protein": "27g",
+      "carbohydrate": "92g",
+      "fat": "44g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017d73f5057fbf4b7bf",
+    "name": "Summer Berry Wrap, Included Toppings, Honey Roasted Pecans",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "130",
+      "protein": "1g",
+      "carbohydrate": "14g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017739016c923638238",
+    "name": "Sweet Sesame, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "160",
+      "protein": "0g",
+      "carbohydrate": "21g",
+      "fat": "8g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d001756414741451bde21",
+    "name": "Thousand Island, 2 oz",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "250",
+      "protein": "0g",
+      "carbohydrate": "8g",
+      "fat": "24g"
+    },
+    "serving": "2"
+  },
+  {
+    "itemId": "bd9d0017cf94b007eb2f456b",
+    "name": "Turkey Sausage & Kale Soup, Large",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "300",
+      "protein": "11g",
+      "carbohydrate": "26g",
+      "fat": "8g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d001706fbdd8460e80e69",
+    "name": "Turkey Sausage & Kale Soup, Medium",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "220",
+      "protein": "8g",
+      "carbohydrate": "19g",
+      "fat": "6g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00174d0332619601173a",
+    "name": "Turkey Sausage & Kale Soup, Small",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "140",
+      "protein": "5g",
+      "carbohydrate": "12g",
+      "fat": "4g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00175322280dd70c99ab",
+    "name": "Wrap Side Choice, Honey Oat Roll",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "110",
+      "protein": "4g",
+      "carbohydrate": "22g",
+      "fat": "0.5g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d00176609a63d0a521878",
+    "name": "Wrap, Side Choice, Chips",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "150",
+      "protein": "2g",
+      "carbohydrate": "15g",
+      "fat": "10g"
+    },
+    "serving": "1"
+  },
+  {
+    "itemId": "bd9d0017017d8824e87d5fcf",
+    "name": "Wrap, Side Choice, Pickle",
+    "brandName": "SaladWorks",
+    "type": "Unknown",
+    "nutrients": {
+      "calories": "0",
+      "protein": "0g",
+      "carbohydrate": "1g",
+      "fat": "0g"
+    },
+    "serving": "1"
+  }
+]
