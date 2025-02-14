@@ -39,7 +39,7 @@ export const getUserById = async (userId) => {
 
 export const getAllMenuItems = async (campus, allergy, allergyTypes) => {
   return Restaurants.aggregate([
-    { $match: { campus } },
+    { $match: { campus: { $in: [campus] } } },
     { $unwind: '$menu' },
     { $unwind: '$menu.items' },
     {
@@ -52,11 +52,16 @@ export const getAllMenuItems = async (campus, allergy, allergyTypes) => {
     },
     { $unwind: '$mealDetails' },
     { $match: { 'mealDetails.nutrients.calories': { $gt: 0 } } },
-    ...(allergy
+    {
+      $match: {
+        'mealDetails._id': { $ne: null },
+      },
+    },
+    ...(allergy && Array.isArray(allergyTypes) && allergyTypes.length > 0
       ? [
           {
             $match: {
-              'mealDetails.allergens': { $nin: allergyTypes },
+              'mealDetails.allergens': { $not: { $elemMatch: { $in: allergyTypes } } },
             },
           },
         ]
@@ -78,7 +83,7 @@ export const getAllMenuItems = async (campus, allergy, allergyTypes) => {
         mealId: '$mealDetails._id',
       },
     },
-    { $sort: { 'mealDetails.nutrients.calories': -1 } },
+    { $sort: { calories: -1 } },
   ])
 }
 
@@ -92,8 +97,8 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
 
   const weeklyPlan = []
   const usedMeals = { breakfast: new Set(), lunch: new Set(), dinner: new Set() }
-  const mealUsageCount = {} // Track how often a meal has been used
-  const lastUsedLocations = { breakfast: null, lunch: null, dinner: null } // Rotate locations
+  const mealUsageCount = {}
+  const lastUsedLocations = { breakfast: null, lunch: null, dinner: null }
 
   const groupMealsByLocation = (meals) => {
     return meals.reduce((groups, meal) => {
@@ -154,7 +159,6 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
           if (mealUsageCount[meal.mealId] >= 2) continue // Don't overuse a meal
 
           if (currentCalories + meal.calories <= targetCalories * 1.05) {
-            // Allow ±5% buffer
             selectedMeals.push(meal)
             currentCalories += meal.calories
             currentProtein += meal.protein
@@ -166,10 +170,9 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
 
           if (currentCalories >= targetCalories * 0.95) break
         }
-        lastUsedLocations[mealType] = location // Track last used location
+        lastUsedLocations[mealType] = location
       }
 
-      // Redistribute unassigned calories across remaining meals
       const calorieDifference = targetCalories - currentCalories
       if (calorieDifference > 0) {
         const remainingMeals = ['breakfast', 'lunch', 'dinner'].filter((m) => m !== mealType)
@@ -183,6 +186,8 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
       totalFat += currentFat
       totalCarbs += currentCarbs
       dayPlan[mealType] = selectedMeals
+      console.log('Fat', totalFat)
+      console.log('Carbs', totalCarbs)
     }
 
     dayPlan.caloriesBMR = Math.trunc(totalCalories)

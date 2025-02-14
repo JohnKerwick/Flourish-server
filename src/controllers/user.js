@@ -102,7 +102,7 @@ export const CONTROLLER_USER = {
     const campus = user.student.school //hpu [hpu]
     const date = Date.now()
     const restaurants = await Restaurants.find({
-      campus,
+      campus: { $in: campus },
       category,
     })
       .select('name id tabItems campus likedBy')

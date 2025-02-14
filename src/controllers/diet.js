@@ -24,11 +24,28 @@ export const CONTROLLER_DIET = {
     const campus = user.student.school
     const allMenuItems = await getAllMenuItems(campus, allergy, allergyTypes)
 
+    const mealOptions = {
+      breakfast: ['Starbucks', 'Jamba Juice', 'Village Juice'],
+      lunch: ['Barberitos', 'Qdoba', 'SaladWorks', 'Bojangles'],
+      dinner: ['Subway', 'Chick-Fil-A', 'Panera Bread', 'Taco Bell', 'Panda Express'],
+    }
+
     const mealItemsByType = {
       breakfast: allMenuItems.filter((item) => item.mealType === 'Breakfast'),
       lunch: allMenuItems.filter((item) => item.mealType === 'Lunch'),
       dinner: allMenuItems.filter((item) => item.mealType === 'Dinner'),
     }
+
+    allMenuItems
+      .filter((item) => item.mealType === 'Unknown')
+      .forEach((item) => {
+        for (const [mealType, restaurants] of Object.entries(mealOptions)) {
+          if (restaurants.includes(item.restaurantName)) {
+            mealItemsByType[mealType].push({ ...item, mealType })
+            return
+          }
+        }
+      })
 
     if (
       mealItemsByType.breakfast.length === 0 ||
