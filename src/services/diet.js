@@ -1,8 +1,6 @@
 import { User, Restaurants, Diet } from '../models'
 
-export const calculateBMR = ({ dob, gender, weight, height, goal, exercise, exerciseTypes }) => {
-  console.log(exercise)
-  console.log(exerciseTypes)
+export const calculateBMR = ({ dob, gender, weight, height, goal, exercise }) => {
   const birthDate = new Date(dob)
   const now = new Date()
   let age = now.getFullYear() - birthDate.getFullYear()
@@ -12,20 +10,32 @@ export const calculateBMR = ({ dob, gender, weight, height, goal, exercise, exer
   ) {
     age--
   }
+
   const HEIGHT_CONVERSION = 2.54
   const GENDER_FACTORS = { male: 5, female: -161 }
+  const ACTIVITY_FACTORS = {
+    'Never (0 times a week)': 1.2,
+    'Sometimes (1-2 times a week)': 1.375,
+    'Regularly (3-4 times a week)': 1.55,
+    'Often (5-6 times a week)': 1.725,
+    'Daily (> 7 times a week)': 1.9,
+  }
   const GOAL_FACTORS = {
     'Gain Weight': 1.2,
     'Maintain Weight': 1.0,
     'Loss Weight': 0.8,
   }
+
   const heightInCm = height * HEIGHT_CONVERSION
   const genderFactor = GENDER_FACTORS[gender.toLowerCase()] || 0
+  const activityFactor = ACTIVITY_FACTORS[exercise] || 1.2 // Default to Sedentary
   const goalFactor = GOAL_FACTORS[goal] || 1.0
 
-  const bmr = (10 * weight + 6.25 * heightInCm - 5 * age + genderFactor) * goalFactor
+  const bmr = 10 * weight + 6.25 * heightInCm - 5 * age + genderFactor
+  const tdee = bmr * activityFactor // Total Daily Energy Expenditure
+  const caloricIntake = tdee * goalFactor // Adjusted for Goal
 
-  return bmr
+  return caloricIntake
 }
 
 export const getUserById = async (userId) => {
@@ -186,8 +196,6 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
       totalFat += currentFat
       totalCarbs += currentCarbs
       dayPlan[mealType] = selectedMeals
-      console.log('Fat', totalFat)
-      console.log('Carbs', totalCarbs)
     }
 
     dayPlan.caloriesBMR = Math.trunc(totalCalories)
