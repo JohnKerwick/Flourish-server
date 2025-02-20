@@ -11,7 +11,7 @@ import { USER_TYPES } from '../utils'
 
 const router = Router()
 
-router.get(
+router.post(
   '/diet-plan',
   Authenticate(),
   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),

@@ -23,7 +23,7 @@ export const CONTROLLER_DIET = {
     const { allergy, allergyTypes } = user
     const campus = user.student.school
     const allMenuItems = await getAllMenuItems(campus, allergy, allergyTypes)
-
+    const { dietPlan, selectedMeals } = req.body
     const mealOptions = {
       breakfast: ['Starbucks', 'Jamba Juice', 'Village Juice'],
       lunch: ['Barberitos', 'Qdoba', 'SaladWorks', 'Bojangles'],
@@ -31,13 +31,14 @@ export const CONTROLLER_DIET = {
     }
 
     const mealItemsByType = {
-      breakfast: allMenuItems.filter((item) => item.mealType === 'Breakfast'),
-      lunch: allMenuItems.filter((item) => item.mealType === 'Lunch'),
-      dinner: allMenuItems.filter((item) => item.mealType === 'Dinner'),
+      breakfast: allMenuItems.filter((item) => item.mealType === 'Breakfast' && item.calories <= 900),
+      lunch: allMenuItems.filter((item) => item.mealType === 'Lunch' && item.calories <= 900),
+      dinner: allMenuItems.filter((item) => item.mealType === 'Dinner' && item.calories <= 900),
     }
 
+    // Assign 'Unknown' meals to proper meal types based on restaurant
     allMenuItems
-      .filter((item) => item.mealType === 'Unknown')
+      .filter((item) => item.mealType === 'Unknown' && item.calories <= 900)
       .forEach((item) => {
         for (const [mealType, restaurants] of Object.entries(mealOptions)) {
           if (restaurants.includes(item.restaurantName)) {
@@ -65,7 +66,7 @@ export const CONTROLLER_DIET = {
     }
 
     const totalCalories = calculateBMR(user)
-    const weeklyPlan = createWeeklyDietPlanService(totalCalories, sortedMealItemsByType)
+    const weeklyPlan = createWeeklyDietPlanService(totalCalories, sortedMealItemsByType, dietPlan, selectedMeals)
 
     return res.status(StatusCodes.OK).json({
       message: 'Weekly diet plan generated successfully.',

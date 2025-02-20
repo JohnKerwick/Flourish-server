@@ -43,6 +43,7 @@ export const CONTROLLER_RESTAURANTS = {
       restaurant: {
         name: result[0].restaurantName,
         campus: result[0].campus,
+        restaurantCategory: result[0].restaurantCategory,
         tabItems: result[0].tabItems,
         _id: result[0].restaurantId,
       },

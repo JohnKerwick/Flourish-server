@@ -90,112 +90,129 @@ export const getAllMenuItems = async (campus, allergy, allergyTypes) => {
         carbohydrate: '$mealDetails.nutrients.carbohydrate',
         restaurantName: '$name',
         restaurantId: '$_id',
+        category: '$category',
         mealId: '$mealDetails._id',
       },
     },
     { $sort: { calories: -1 } },
   ])
 }
-
-export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType) => {
+export const createWeeklyDietPlanService = (
+  totalCalories,
+  sortedMealItemsByType,
+  mealSwipeLimits,
+  selectedMealTypes
+) => {
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-  let calorieDistribution = {
-    breakfast: Math.round(totalCalories * 0.3),
-    lunch: Math.round(totalCalories * 0.4),
-    dinner: Math.round(totalCalories * 0.3),
+
+  let calorieDistribution = { breakfast: 0, lunch: 0, dinner: 0 }
+  const totalSelectedMeals = selectedMealTypes.length
+
+  if (totalSelectedMeals === 3) {
+    calorieDistribution = {
+      breakfast: Math.round(totalCalories * 0.3),
+      lunch: Math.round(totalCalories * 0.4),
+      dinner: Math.round(totalCalories * 0.3),
+    }
+  } else if (selectedMealTypes.includes('breakfast') && selectedMealTypes.includes('dinner')) {
+    calorieDistribution = {
+      breakfast: Math.round(totalCalories * 0.4),
+      lunch: Math.round(totalCalories * 0.2),
+      dinner: Math.round(totalCalories * 0.4),
+    }
+  } else if (selectedMealTypes.includes('breakfast')) {
+    calorieDistribution = { breakfast: Math.round(totalCalories * 0.6), lunch: Math.round(totalCalories * 0.4) }
+  } else if (selectedMealTypes.includes('dinner')) {
+    calorieDistribution = { lunch: Math.round(totalCalories * 0.4), dinner: Math.round(totalCalories * 0.6) }
   }
 
   const weeklyPlan = []
-  const usedMeals = { breakfast: new Set(), lunch: new Set(), dinner: new Set() }
-  const mealUsageCount = {}
-  const lastUsedLocations = { breakfast: null, lunch: null, dinner: null }
-
-  const groupMealsByLocation = (meals) => {
-    return meals.reduce((groups, meal) => {
-      if (!groups[meal.restaurantId]) groups[meal.restaurantId] = []
-      groups[meal.restaurantId].push(meal)
-      return groups
-    }, {})
-  }
-
-  // Group meals by location and sort by calorie count
-  const groupedMealsByType = {
-    breakfast: groupMealsByLocation([...sortedMealItemsByType.breakfast].sort((a, b) => b.calories - a.calories)),
-    lunch: groupMealsByLocation([...sortedMealItemsByType.lunch].sort((a, b) => b.calories - a.calories)),
-    dinner: groupMealsByLocation([...sortedMealItemsByType.dinner].sort((a, b) => b.calories - a.calories)),
-  }
-
-  // Initialize meal usage tracking
-  for (const mealType of ['breakfast', 'lunch', 'dinner']) {
-    for (const meals of Object.values(groupedMealsByType[mealType])) {
-      for (const meal of meals) {
-        mealUsageCount[meal.mealId] = 0
-      }
-    }
-  }
+  let mealCategoryUsage = { Franchise: 0, 'Dining-Halls': 0 }
+  let usedMealsLog = [new Set(), new Set()] // Track last two days' meals
 
   for (let dayIndex = 0; dayIndex < 7; dayIndex++) {
     const dayPlan = { day: daysOfWeek[dayIndex] }
-    let totalProvidedCalories = 0
-    let totalProtein = 0
-    let totalFat = 0
-    let totalCarbs = 0
+    let totalProvidedCalories = 0,
+      totalProtein = 0,
+      totalFat = 0,
+      totalCarbs = 0
+    let mealTypeCategoryMap = {} // Store selected category per meal type
 
-    for (const mealType of ['breakfast', 'lunch', 'dinner']) {
+    for (const mealType of selectedMealTypes) {
       const targetCalories = calorieDistribution[mealType]
-      let selectedMeals = []
-      let currentCalories = 0
-      let currentProtein = 0
-      let currentFat = 0
-      let currentCarbs = 0
 
-      // Pick a location that wasn't used last for variety
-      let locationMeals = Object.entries(groupedMealsByType[mealType])
-        .filter(([location]) => location !== lastUsedLocations[mealType])
-        .sort((a, b) => b[1][0].calories - a[1][0].calories) // Highest calorie first
-        .find(([_, meals]) => meals.some((meal) => mealUsageCount[meal.mealId] < 2))
+      if (!mealTypeCategoryMap[mealType]) {
+        let availableCategories = Object.keys(mealSwipeLimits).filter(
+          (category) => mealCategoryUsage[category] < mealSwipeLimits[category]
+        )
 
-      if (!locationMeals) {
-        // If no new location, reuse a previous one
-        locationMeals = Object.entries(groupedMealsByType[mealType])
-          .sort((a, b) => b[1][0].calories - a[1][0].calories)
-          .find(([_, meals]) => meals.some((meal) => mealUsageCount[meal.mealId] < 3))
-      }
+        let chosenCategory = availableCategories.find((cat) =>
+          sortedMealItemsByType[mealType].some((meal) => meal.category === cat)
+        )
 
-      if (locationMeals) {
-        const [location, meals] = locationMeals
-        for (const meal of meals) {
-          if (usedMeals[mealType].has(meal.mealId)) continue
-          if (mealUsageCount[meal.mealId] >= 2) continue // Don't overuse a meal
-
-          if (currentCalories + meal.calories <= targetCalories * 1.05) {
-            selectedMeals.push(meal)
-            currentCalories += meal.calories
-            currentProtein += meal.protein
-            currentFat += meal.fat
-            currentCarbs += meal.carbohydrate
-            usedMeals[mealType].add(meal.mealId)
-            mealUsageCount[meal.mealId] += 1
-          }
-
-          if (currentCalories >= targetCalories * 0.95) break
+        if (!chosenCategory) {
+          console.warn(`No meals available for ${mealType} on ${daysOfWeek[dayIndex]}`)
+          continue
         }
-        lastUsedLocations[mealType] = location
+
+        mealTypeCategoryMap[mealType] = chosenCategory // Assign chosen category
       }
 
-      const calorieDifference = targetCalories - currentCalories
-      if (calorieDifference > 0) {
-        const remainingMeals = ['breakfast', 'lunch', 'dinner'].filter((m) => m !== mealType)
-        remainingMeals.forEach((m) => {
-          calorieDistribution[m] += Math.round(calorieDifference / remainingMeals.length)
-        })
+      let selectedMeals = []
+      let currentCalories = 0,
+        currentProtein = 0,
+        currentFat = 0,
+        currentCarbs = 0
+
+      let chosenCategory = mealTypeCategoryMap[mealType]
+      let availableMeals = sortedMealItemsByType[mealType].filter(
+        (meal) => meal.category === chosenCategory && !usedMealsLog.some((set) => set.has(meal._id))
+      )
+
+      if (availableMeals.length === 0) {
+        continue
       }
 
+      availableMeals.sort((a, b) => b.calories - a.calories)
+
+      for (const meal of availableMeals) {
+        if (currentCalories + meal.calories > targetCalories * 1.1) continue
+
+        selectedMeals.push(meal)
+        currentCalories += meal.calories
+        currentProtein += meal.protein
+        currentFat += meal.fat
+        currentCarbs += meal.carbohydrate
+
+        if (currentCalories >= targetCalories * 0.9) break
+      }
+
+      if (selectedMeals.length === 0) {
+        let closestMeal = availableMeals.reduce((closest, meal) => {
+          return Math.abs(meal.calories - targetCalories) < Math.abs(closest.calories - targetCalories) ? meal : closest
+        }, availableMeals[0])
+
+        if (closestMeal) {
+          selectedMeals.push(closestMeal)
+          currentCalories += closestMeal.calories
+          currentProtein += closestMeal.protein
+          currentFat += closestMeal.fat
+          currentCarbs += closestMeal.carbohydrate
+        }
+      }
+
+      dayPlan[mealType] = selectedMeals
+      mealCategoryUsage[chosenCategory]++
       totalProvidedCalories += currentCalories
       totalProtein += currentProtein
       totalFat += currentFat
       totalCarbs += currentCarbs
-      dayPlan[mealType] = selectedMeals
+
+      selectedMeals.forEach((meal) => usedMealsLog[1].add(meal._id))
+    }
+
+    if (totalProvidedCalories < totalCalories * 0.9 || totalProvidedCalories > totalCalories * 1.1) {
+      console.warn(`Adjusting calorie range for ${daysOfWeek[dayIndex]}`)
     }
 
     dayPlan.caloriesBMR = Math.trunc(totalCalories)
@@ -204,6 +221,9 @@ export const createWeeklyDietPlanService = (totalCalories, sortedMealItemsByType
     dayPlan.fatProvided = Math.trunc(totalFat)
     dayPlan.carbsProvided = Math.trunc(totalCarbs)
     weeklyPlan.push(dayPlan)
+
+    usedMealsLog.shift()
+    usedMealsLog.push(new Set())
   }
 
   return weeklyPlan
