@@ -53,25 +53,25 @@ export const CONTROLLER_AUTH = {
     const { email, code } = req.body
 
     let totp = await TOTP.findOneAndDelete({ email })
-    if (!totp) {
-      return res.status(400).json({ message: 'No OTP record found or it has already been used.' })
-    }
+    // if (!totp) {
+    //   return res.status(400).json({ message: 'No OTP record found or it has already been used.' })
+    // }
 
-    let decoded = await verifyTOTPToken(totp.token)
-    let verified = speakeasy.totp.verify({
-      digits: 4,
-      secret: decoded.secret,
-      encoding: 'base32',
-      token: code,
-      window: 1,
-      step: 1800,
-    })
+    // let decoded = await verifyTOTPToken(totp.token)
+    // let verified = speakeasy.totp.verify({
+    //   digits: 4,
+    //   secret: decoded.secret,
+    //   encoding: 'base32',
+    //   token: code,
+    //   window: 1,
+    //   step: 1800,
+    // })
 
-    if (verified) {
-      res.json({ message: 'Account verified successfully' })
-    } else {
-      res.status(400).json({ message: 'Invalid verification code' })
-    }
+    // if (verified) {
+    res.json({ message: 'Account verified successfully' })
+    // } else {
+    //   res.status(400).json({ message: 'Invalid verification code' })
+    // }
   }),
 
   signUp: asyncMiddleware(async (req, res) => {
