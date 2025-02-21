@@ -16,7 +16,6 @@ import { init } from './socket'
 import { endMealCron, mealTimeCron } from './utils'
 import { initializeFirebase } from './utils/firebase'
 import dotenv from 'dotenv'
-
 // import { setupSocketEventHandlers } from './socketEvents'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)
@@ -59,9 +58,9 @@ server.listen(PORT, async () => {
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })
 
-import { Meals, Restaurants } from './models'
+// import { Meals, Restaurants } from './models'
 
-app.get('/get-data', async (req, res) => {
+app.get('/api/get-data', async (req, res) => {
   try {
     const brands = [
       { name: 'Subway', id: '513fbc1283aa2dc80c000005', campus: ['HPU', 'UMD'] },
@@ -78,14 +77,18 @@ app.get('/get-data', async (req, res) => {
       { name: 'Bojangles', id: '513fbc1283aa2dc80c0002eb', campus: ['UNCC'] },
     ]
 
+    let finalData = []
+
     for (let brand of brands) {
       console.log(`Processing brand: ${brand.name}, ID: ${brand.id}`)
+
       try {
         const response1 = await axios.get(`https://www.nutritionix.com/nixapi/brands/${brand.id}/items/1?limit=3900`, {
           headers: { 'Content-Type': 'application/json' },
         })
 
         const brandedItems = response1.data.items
+        let menuItems = []
 
         for (let item of brandedItems) {
           try {
@@ -93,85 +96,52 @@ app.get('/get-data', async (req, res) => {
               params: { nix_item_id: item.item_id },
               headers: {
                 'Content-Type': 'application/json',
-                'x-app-id': '35363ffd',
-                'x-app-key': '56633048ecdeb2b2c6678242decf3012',
+                'x-app-id': 'b500ff7b',
+                'x-app-key': 'f3fbe97ed2e9a393363808fd2b31cf03',
               },
             })
-            console.log(response2.data.foods[0].food_name)
+
+            const food = response2.data.foods[0]
+
+            if (!food) continue
+
+            console.log(food.food_name)
+
             const menuData = {
-              mealName: response2.data.foods[0].food_name,
-              calories: response2.data.foods[0].nf_calories,
-              protein: response2.data.foods[0].nf_protein,
-              fat: response2.data.foods[0].nf_total_fat,
-              carbohydrate: response2.data.foods[0].nf_total_carbohydrate,
-              serving: `${response2.data.foods[0].serving_qty} ${response2.data.foods[0].serving_unit}`,
+              mealName: food.food_name,
+              calories: food.nf_calories,
+              protein: food.nf_protein,
+              fat: food.nf_total_fat,
+              carbohydrate: food.nf_total_carbohydrate,
+              serving: `${food.serving_qty} ${food.serving_unit}`,
             }
 
-            // Check if the meal already exists
-            const existingMeal = await Meals.findOne({ name: menuData.mealName })
-
-            let meal
-            if (existingMeal) {
-              // Update the existing meal
-              meal = await Meals.findOneAndUpdate(
-                { name: menuData.mealName },
-                {
-                  $set: {
-                    'nutrients.calories': menuData.calories,
-                    'nutrients.protein': menuData.protein,
-                    'nutrients.fat': menuData.fat,
-                    'nutrients.carbohydrate': menuData.carbohydrate,
-                    serving: menuData.serving,
-                  },
-                },
-                { new: true }
-              )
-              console.log(`Updated meal: ${menuData.mealName}`)
-            } else {
-              // Insert a new meal
-              meal = new Meals({
-                name: menuData.mealName,
-                nutrients: {
-                  calories: menuData.calories,
-                  protein: menuData.protein,
-                  fat: menuData.fat,
-                  carbohydrate: menuData.carbohydrate,
-                },
-                serving: menuData.serving,
-                isAvailable: true,
-              })
-              await meal.save()
-              console.log(`Inserted new meal: ${menuData.mealName}`)
-            }
-
-            // Link the meal to the restaurant
-            await Restaurants.findOneAndUpdate(
-              { name: brand.name },
-              {
-                $set: {
-                  campus: 'UMD',
-                  category: 'Franchises',
-                },
-                $addToSet: {
-                  'menu.items': meal._id, // Use $addToSet to avoid duplicates
-                },
-              },
-              { new: true, upsert: true }
-            )
-
-            console.log(`Linked meal "${menuData.mealName}" to restaurant "${brand.name}"`)
+            menuItems.push(menuData)
           } catch (itemError) {
-            console.error(`Error processing item for brand "${brand.name}":`, itemError)
+            console.error(`Error processing item for brand "${brand.name}":`, itemError.message)
           }
         }
+
+        finalData.push({
+          restaurantName: brand.name,
+          campus: brand.campus,
+          category: 'Franchises',
+          menu: menuItems,
+        })
       } catch (brandError) {
-        console.error(`Error fetching brand data for "${brand.name}":`, brandError)
+        console.error(`Error fetching brand data for "${brand.name}":`, brandError.message)
       }
     }
 
-    res.status(200).json({ message: 'Data fetched and uploaded to MongoDB successfully!' })
+    // Define file path
+    const filePath = path.join(__dirname, 'meals_data.json')
+
+    // Save data to JSON file
+    fs.writeFileSync(filePath, JSON.stringify(finalData, null, 2), 'utf-8')
+
+    res.status(200).json({ message: 'Data fetched and saved to JSON successfully!' })
   } catch (error) {
-    console.error('Error during data fetching:', error)
+    console.error('Error during data fetching:', error.message)
     res.status(500).json({ message: 'An error occurred while fetching data.' })
   }
 })

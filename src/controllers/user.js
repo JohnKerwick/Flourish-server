@@ -57,7 +57,8 @@ export const CONTROLLER_USER = {
         message: 'User not found.',
       })
     }
-    if (existingUser.student) {
+
+    if (existingUser.student && body.student) {
       if (body.student.school && body.student.school !== existingUser.student.school) {
         console.log('Campus has changed. Clearing likedMeals and likedRestaurants.')
         if (existingUser.likedMeals?.length) {
