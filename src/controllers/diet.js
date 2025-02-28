@@ -11,6 +11,7 @@ import {
 import jwt from 'jsonwebtoken'
 import { asyncMiddleware } from '../middlewares'
 import { Diet, Notification } from '../models'
+import { ConversationPage } from 'twilio/lib/rest/conversations/v1/conversation'
 
 export const CONTROLLER_DIET = {
   getWeeklyDietPlan: asyncMiddleware(async (req, res) => {
@@ -66,6 +67,7 @@ export const CONTROLLER_DIET = {
     }
 
     const totalCalories = calculateBMR(user)
+    console.log(dietPlan)
     const weeklyPlan = createWeeklyDietPlanService(totalCalories, sortedMealItemsByType, dietPlan, selectedMeals)
 
     return res.status(StatusCodes.OK).json({

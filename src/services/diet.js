@@ -126,8 +126,13 @@ export const createWeeklyDietPlanService = (
     calorieDistribution = { lunch: Math.round(totalCalories * 0.4), dinner: Math.round(totalCalories * 0.6) }
   }
 
+  let franchiseSwipesLeft = mealSwipeLimits['Franchise']
+  console.log('franchiseSwipesLeft', franchiseSwipesLeft)
+  let cafeteriaSwipesLeft = mealSwipeLimits['Dining-Halls']
+  console.log('cafeteriaSwipesLeft', cafeteriaSwipesLeft)
+  console.log('mealSwipeLimits', mealSwipeLimits)
+
   const weeklyPlan = []
-  let mealCategoryUsage = { Franchise: 0, 'Dining-Halls': 0 }
   let usedMealsLog = [new Set(), new Set()] // Track last two days' meals
 
   for (let dayIndex = 0; dayIndex < 7; dayIndex++) {
@@ -136,26 +141,55 @@ export const createWeeklyDietPlanService = (
       totalProtein = 0,
       totalFat = 0,
       totalCarbs = 0
-    let mealTypeCategoryMap = {} // Store selected category per meal type
+    let chosenRestaurants = {}
 
     for (const mealType of selectedMealTypes) {
       const targetCalories = calorieDistribution[mealType]
 
-      if (!mealTypeCategoryMap[mealType]) {
-        let availableCategories = Object.keys(mealSwipeLimits).filter(
-          (category) => mealCategoryUsage[category] < mealSwipeLimits[category]
-        )
+      let availableMeals =
+        sortedMealItemsByType[mealType]?.filter((meal) => !usedMealsLog.some((set) => set.has(meal._id))) || []
 
-        let chosenCategory = availableCategories.find((cat) =>
-          sortedMealItemsByType[mealType].some((meal) => meal.category === cat)
-        )
+      if (availableMeals.length === 0) {
+        console.warn(`No meals available for ${mealType} on ${daysOfWeek[dayIndex]}`)
+        continue
+      }
 
-        if (!chosenCategory) {
-          console.warn(`No meals available for ${mealType} on ${daysOfWeek[dayIndex]}`)
+      availableMeals.sort((a, b) => b.calories - a.calories)
+
+      // **Pick a restaurant for this meal type on this day**
+      if (!chosenRestaurants[mealType]) {
+        let validRestaurants = [...new Set(availableMeals.map((meal) => meal.restaurantName))]
+
+        let chosenRestaurant = null
+        for (let restaurant of validRestaurants) {
+          let sampleMeal = availableMeals.find((meal) => meal.restaurantName === restaurant)
+
+          if (!sampleMeal) continue
+          if (sampleMeal.category === 'Franchise' && franchiseSwipesLeft > 0) {
+            chosenRestaurant = restaurant
+            franchiseSwipesLeft--
+            break
+          } else if (sampleMeal.category === 'Dining-Halls' && cafeteriaSwipesLeft > 0) {
+            chosenRestaurant = restaurant
+            cafeteriaSwipesLeft--
+            break
+          }
+        }
+
+        if (!chosenRestaurant) {
+          console.warn(`No available restaurant meets meal swipe limits for ${mealType} on ${daysOfWeek[dayIndex]}`)
           continue
         }
 
-        mealTypeCategoryMap[mealType] = chosenCategory // Assign chosen category
+        chosenRestaurants[mealType] = chosenRestaurant
+      }
+
+      let chosenRestaurant = chosenRestaurants[mealType]
+      availableMeals = availableMeals.filter((meal) => meal.restaurantName === chosenRestaurant)
+
+      if (availableMeals.length === 0) {
+        console.warn(`No meals found from ${chosenRestaurant} for ${mealType} on ${daysOfWeek[dayIndex]}`)
+        continue
       }
 
       let selectedMeals = []
@@ -164,19 +198,8 @@ export const createWeeklyDietPlanService = (
         currentFat = 0,
         currentCarbs = 0
 
-      let chosenCategory = mealTypeCategoryMap[mealType]
-      let availableMeals = sortedMealItemsByType[mealType].filter(
-        (meal) => meal.category === chosenCategory && !usedMealsLog.some((set) => set.has(meal._id))
-      )
-
-      if (availableMeals.length === 0) {
-        continue
-      }
-
-      availableMeals.sort((a, b) => b.calories - a.calories)
-
       for (const meal of availableMeals) {
-        if (currentCalories + meal.calories > targetCalories * 1.1) continue
+        if (currentCalories + meal.calories > targetCalories + 10) continue
 
         selectedMeals.push(meal)
         currentCalories += meal.calories
@@ -184,7 +207,7 @@ export const createWeeklyDietPlanService = (
         currentFat += meal.fat
         currentCarbs += meal.carbohydrate
 
-        if (currentCalories >= targetCalories * 0.9) break
+        if (currentCalories >= targetCalories - 10) break
       }
 
       if (selectedMeals.length === 0) {
@@ -201,8 +224,12 @@ export const createWeeklyDietPlanService = (
         }
       }
 
+      if (selectedMeals.length === 0) {
+        console.warn(`No valid meals could be selected for ${mealType} on ${daysOfWeek[dayIndex]}`)
+        continue
+      }
+
       dayPlan[mealType] = selectedMeals
-      mealCategoryUsage[chosenCategory]++
       totalProvidedCalories += currentCalories
       totalProtein += currentProtein
       totalFat += currentFat
@@ -211,8 +238,11 @@ export const createWeeklyDietPlanService = (
       selectedMeals.forEach((meal) => usedMealsLog[1].add(meal._id))
     }
 
-    if (totalProvidedCalories < totalCalories * 0.9 || totalProvidedCalories > totalCalories * 1.1) {
-      console.warn(`Adjusting calorie range for ${daysOfWeek[dayIndex]}`)
+    // Enforce strict calorie range: ±10 of BMR
+    if (totalProvidedCalories < totalCalories - 10 || totalProvidedCalories > totalCalories + 10) {
+      console.warn(
+        `⚠️ Adjusting calorie range for ${daysOfWeek[dayIndex]}: Target=${totalCalories}, Provided=${totalProvidedCalories}`
+      )
     }
 
     dayPlan.caloriesBMR = Math.trunc(totalCalories)

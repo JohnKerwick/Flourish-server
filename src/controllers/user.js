@@ -112,7 +112,8 @@ export const CONTROLLER_USER = {
     const diet = await Diet.find({ dietOwner: userId, expiresAt: { $gte: date } })
       .select('name')
       .lean()
-
+    console.log(campus)
+    console.log(restaurants)
     res.status(StatusCodes.OK).json({
       data: { restaurants, diet },
       message: 'home info fetched successfully',
@@ -121,7 +122,6 @@ export const CONTROLLER_USER = {
 
   deleteUser: asyncMiddleware(async (req, res) => {
     const userId = req.query.id
-    console.log(userId)
 
     const session = await mongoose.startSession()
     session.startTransaction()
