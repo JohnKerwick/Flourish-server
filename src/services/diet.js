@@ -133,7 +133,7 @@ export const createWeeklyDietPlanService = (
   console.log('mealSwipeLimits', mealSwipeLimits)
 
   const weeklyPlan = []
-  let usedMealsLog = [new Set(), new Set()] // Track last two days' meals
+  let usedMealsLog = new Set()
 
   for (let dayIndex = 0; dayIndex < 7; dayIndex++) {
     const dayPlan = { day: daysOfWeek[dayIndex] }
@@ -146,8 +146,7 @@ export const createWeeklyDietPlanService = (
     for (const mealType of selectedMealTypes) {
       const targetCalories = calorieDistribution[mealType]
 
-      let availableMeals =
-        sortedMealItemsByType[mealType]?.filter((meal) => !usedMealsLog.some((set) => set.has(meal._id))) || []
+      let availableMeals = sortedMealItemsByType[mealType]?.filter((meal) => !usedMealsLog.has(meal._id)) || []
 
       if (availableMeals.length === 0) {
         console.warn(`No meals available for ${mealType} on ${daysOfWeek[dayIndex]}`)
@@ -235,7 +234,7 @@ export const createWeeklyDietPlanService = (
       totalFat += currentFat
       totalCarbs += currentCarbs
 
-      selectedMeals.forEach((meal) => usedMealsLog[1].add(meal._id))
+      selectedMeals.forEach((meal) => usedMealsLog.add(meal._id))
     }
 
     // Enforce strict calorie range: ±10 of BMR
@@ -251,9 +250,6 @@ export const createWeeklyDietPlanService = (
     dayPlan.fatProvided = Math.trunc(totalFat)
     dayPlan.carbsProvided = Math.trunc(totalCarbs)
     weeklyPlan.push(dayPlan)
-
-    usedMealsLog.shift()
-    usedMealsLog.push(new Set())
   }
 
   return weeklyPlan
