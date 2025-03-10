@@ -127,10 +127,8 @@ export const createWeeklyDietPlanService = (
   }
 
   let franchiseSwipesLeft = mealSwipeLimits['Franchise']
-  console.log('franchiseSwipesLeft', franchiseSwipesLeft)
+
   let cafeteriaSwipesLeft = mealSwipeLimits['Dining-Halls']
-  console.log('cafeteriaSwipesLeft', cafeteriaSwipesLeft)
-  console.log('mealSwipeLimits', mealSwipeLimits)
 
   const weeklyPlan = []
   let usedMealsLog = new Set()
@@ -149,13 +147,11 @@ export const createWeeklyDietPlanService = (
       let availableMeals = sortedMealItemsByType[mealType]?.filter((meal) => !usedMealsLog.has(meal._id)) || []
 
       if (availableMeals.length === 0) {
-        console.warn(`No meals available for ${mealType} on ${daysOfWeek[dayIndex]}`)
         continue
       }
 
       availableMeals.sort((a, b) => b.calories - a.calories)
 
-      // **Pick a restaurant for this meal type on this day**
       if (!chosenRestaurants[mealType]) {
         let validRestaurants = [...new Set(availableMeals.map((meal) => meal.restaurantName))]
 
@@ -176,7 +172,6 @@ export const createWeeklyDietPlanService = (
         }
 
         if (!chosenRestaurant) {
-          console.warn(`No available restaurant meets meal swipe limits for ${mealType} on ${daysOfWeek[dayIndex]}`)
           continue
         }
 
@@ -187,7 +182,6 @@ export const createWeeklyDietPlanService = (
       availableMeals = availableMeals.filter((meal) => meal.restaurantName === chosenRestaurant)
 
       if (availableMeals.length === 0) {
-        console.warn(`No meals found from ${chosenRestaurant} for ${mealType} on ${daysOfWeek[dayIndex]}`)
         continue
       }
 
@@ -224,7 +218,6 @@ export const createWeeklyDietPlanService = (
       }
 
       if (selectedMeals.length === 0) {
-        console.warn(`No valid meals could be selected for ${mealType} on ${daysOfWeek[dayIndex]}`)
         continue
       }
 
@@ -237,11 +230,8 @@ export const createWeeklyDietPlanService = (
       selectedMeals.forEach((meal) => usedMealsLog.add(meal._id))
     }
 
-    // Enforce strict calorie range: ±10 of BMR
     if (totalProvidedCalories < totalCalories - 10 || totalProvidedCalories > totalCalories + 10) {
-      console.warn(
-        `⚠️ Adjusting calorie range for ${daysOfWeek[dayIndex]}: Target=${totalCalories}, Provided=${totalProvidedCalories}`
-      )
+      ;`⚠️ Adjusting calorie range for ${daysOfWeek[dayIndex]}: Target=${totalCalories}, Provided=${totalProvidedCalories}`
     }
 
     dayPlan.caloriesBMR = Math.trunc(totalCalories)

@@ -31,15 +31,16 @@ export const CONTROLLER_DIET = {
       dinner: ['Subway', 'Chick-Fil-A', 'Panera Bread', 'Taco Bell', 'Panda Express'],
     }
 
+    const isValidCalorieRange = (calories) => calories >= 30 && calories <= 900
+
     const mealItemsByType = {
-      breakfast: allMenuItems.filter((item) => item.mealType === 'Breakfast' && item.calories <= 900),
-      lunch: allMenuItems.filter((item) => item.mealType === 'Lunch' && item.calories <= 900),
-      dinner: allMenuItems.filter((item) => item.mealType === 'Dinner' && item.calories <= 900),
+      breakfast: allMenuItems.filter((item) => item.mealType === 'Breakfast' && isValidCalorieRange(item.calories)),
+      lunch: allMenuItems.filter((item) => item.mealType === 'Lunch' && isValidCalorieRange(item.calories)),
+      dinner: allMenuItems.filter((item) => item.mealType === 'Dinner' && isValidCalorieRange(item.calories)),
     }
 
-    // Assign 'Unknown' meals to proper meal types based on restaurant
     allMenuItems
-      .filter((item) => item.mealType === 'Unknown' && item.calories <= 900)
+      .filter((item) => item.mealType === 'Unknown' && isValidCalorieRange(item.calories))
       .forEach((item) => {
         for (const [mealType, restaurants] of Object.entries(mealOptions)) {
           if (restaurants.includes(item.restaurantName)) {
@@ -67,7 +68,7 @@ export const CONTROLLER_DIET = {
     }
 
     const totalCalories = calculateBMR(user)
-    console.log(dietPlan)
+
     const weeklyPlan = createWeeklyDietPlanService(totalCalories, sortedMealItemsByType, dietPlan, selectedMeals)
 
     return res.status(StatusCodes.OK).json({

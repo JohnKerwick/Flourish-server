@@ -42,7 +42,7 @@ export const scrapeHPU = async () => {
       const $ = load(html)
 
       const restaurantName = $('#location-header-content h1').text().trim()
-      const campus = 'HPU'
+      const campus = ['HPU']
       const category = 'Dining-Halls'
 
       const rawTabItems = []

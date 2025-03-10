@@ -27,7 +27,11 @@ const fetchWithRetry = async (url, options = {}, maxRetries = 3, delayMs = 2000)
 }
 
 export const scrapeUMD = async () => {
-  const urls = ['16', '51', '19']
+  const urls = [
+    // '16',
+    // '51',
+    '19',
+  ]
   const allData = []
 
   for (const url of urls) {
@@ -42,8 +46,8 @@ export const scrapeUMD = async () => {
     const restaurantName = selectedOption.text().trim()
     console.log('Selected Restaurant:', restaurantName)
 
-    const campus = 'UMD'
-    const category = 'Dining Halls'
+    const campus = ['UMD']
+    const category = 'Dining-Halls'
 
     const mealTypes = []
     $('.nav-link').each((_, element) => {

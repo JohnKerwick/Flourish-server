@@ -7,7 +7,6 @@ import { CONTROLLER_SCRAPPER } from '../controllers'
 const router = Router()
 
 router.get('/', CONTROLLER_SCRAPPER.scrapeAllMenus)
-router.get('/nutritionx', CONTROLLER_SCRAPPER.scrapeNutritionX)
-router.post('/migrate-data', CONTROLLER_SCRAPPER.dataMigration)
+router.get('/nutritionx', CONTROLLER_SCRAPPER.getNutritionixData)
 
 export default router

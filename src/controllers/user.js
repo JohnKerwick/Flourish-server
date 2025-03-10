@@ -14,7 +14,7 @@ export const CONTROLLER_USER = {
   profile: asyncMiddleware(async (req, res) => {
     const { _id } = req.decoded
     const id = req.query.id
-    // console.log('id', id)
+
     let userId
     if (id) {
       userId = id
@@ -43,7 +43,6 @@ export const CONTROLLER_USER = {
 
   updateProfile: asyncMiddleware(async (req, res) => {
     const id = req.query.id
-    console.log(id)
 
     let body = JSON.parse(req.body.body)
 
@@ -60,7 +59,6 @@ export const CONTROLLER_USER = {
 
     if (existingUser.student && body.student) {
       if (body.student.school && body.student.school !== existingUser.student.school) {
-        console.log('Campus has changed. Clearing likedMeals and likedRestaurants.')
         if (existingUser.likedMeals?.length) {
           await Meals.updateMany(
             { _id: { $in: existingUser.likedMeals.map((meal) => meal.mealId) } },
@@ -112,8 +110,7 @@ export const CONTROLLER_USER = {
     const diet = await Diet.find({ dietOwner: userId, expiresAt: { $gte: date } })
       .select('name')
       .lean()
-    console.log(campus)
-    console.log(restaurants)
+
     res.status(StatusCodes.OK).json({
       data: { restaurants, diet },
       message: 'home info fetched successfully',
