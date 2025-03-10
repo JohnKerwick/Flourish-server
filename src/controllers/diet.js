@@ -26,9 +26,9 @@ export const CONTROLLER_DIET = {
     const allMenuItems = await getAllMenuItems(campus, allergy, allergyTypes)
     const { dietPlan, selectedMeals } = req.body
     const mealOptions = {
-      breakfast: ['Starbucks', 'Jamba Juice', 'Village Juice'],
+      breakfast: ['Starbucks', 'Jamba Juice', 'Village Juice', 'Taco Bell'],
       lunch: ['Barberitos', 'Qdoba', 'SaladWorks', 'Bojangles'],
-      dinner: ['Subway', 'Chick-Fil-A', 'Panera Bread', 'Taco Bell', 'Panda Express'],
+      dinner: ['Subway', 'Chick-Fil-A', 'Panera Bread', 'Panda Express'],
     }
 
     const isValidCalorieRange = (calories) => calories >= 50 && calories <= 900
