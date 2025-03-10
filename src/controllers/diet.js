@@ -31,7 +31,7 @@ export const CONTROLLER_DIET = {
       dinner: ['Subway', 'Chick-Fil-A', 'Panera Bread', 'Taco Bell', 'Panda Express'],
     }
 
-    const isValidCalorieRange = (calories) => calories >= 30 && calories <= 900
+    const isValidCalorieRange = (calories) => calories >= 50 && calories <= 900
 
     const mealItemsByType = {
       breakfast: allMenuItems.filter((item) => item.mealType === 'Breakfast' && isValidCalorieRange(item.calories)),
