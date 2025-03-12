@@ -8,7 +8,7 @@ export const getAllRestaurantsService = async (userId, category) => {
     campus,
     category,
   })
-    .select('name id tabItems campus likedBy')
+    .select('name id tabItems campus category likedBy')
     .lean()
 }
 
