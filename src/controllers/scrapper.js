@@ -1719,17 +1719,17 @@ export const CONTROLLER_SCRAPPER = {
     try {
       const allData = []
 
-      console.log('Scraping UMD...')
-      const umdData = await scrapeUMD()
-      if (umdData) allData.push(...umdData)
+      // console.log('Scraping UMD...')
+      // const umdData = await scrapeUMD()
+      // if (umdData) allData.push(...umdData)
 
       // console.log('Scraping HPU...')
       // const hpuData = await scrapeHPU()
       // if (hpuData) allData.push(...hpuData)
 
-      // console.log('Scraping UNCC...')
-      // const unccData = await scrapeUNCC()
-      // if (unccData) allData.push(...unccData)
+      console.log('Scraping UNCC...')
+      const unccData = await scrapeUNCC()
+      if (unccData) allData.push(...unccData)
 
       res.status(200).json({
         message: 'Scraping completed and data saved to MongoDB successfully',

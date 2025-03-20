@@ -53,7 +53,7 @@ app.use(errorHandler)
 app.get('/ping', (req, res) => res.send('Ping Successfulls 😄'))
 
 server.listen(PORT, async () => {
-  endMealCron.start()
-  mealTimeCron.start()
+  // endMealCron.start()
+  // mealTimeCron.start()
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })

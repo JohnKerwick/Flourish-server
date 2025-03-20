@@ -27,11 +27,7 @@ const fetchWithRetry = async (url, options = {}, maxRetries = 3, delayMs = 2000)
 }
 
 export const scrapeUMD = async () => {
-  const urls = [
-    // '16',
-    // '51',
-    '19',
-  ]
+  const urls = ['16', '51', '19']
   const allData = []
 
   for (const url of urls) {
@@ -140,7 +136,7 @@ export const scrapeUMD = async () => {
             },
             { new: true, upsert: true, setDefaultsOnInsert: true }
           )
-          console.log(meal.name)
+          console.log(item)
           categoryWithDetails.items.push(meal._id)
         } catch (error) {
           console.error(`Skipping meal ${item.mealName} due to fetch failure.`)
