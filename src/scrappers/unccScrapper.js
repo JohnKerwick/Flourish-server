@@ -11,7 +11,25 @@ const userAgents = [
 ]
 
 const getRandomUserAgent = () => userAgents[Math.floor(Math.random() * userAgents.length)]
-
+const createBrowser = async () => {
+  // Check if running on Heroku (process.env.DYNO is set on Heroku)
+  const isHeroku = process.env.DYNO
+  return await puppeteer.launch({
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--window-size=1920x1080',
+      // Additional args for Heroku
+      isHeroku ? '--disable-software-rasterizer' : null,
+      isHeroku ? '--disable-extensions' : null,
+    ].filter(Boolean), // Remove null values
+    // Specify executable path for Heroku
+    executablePath: isHeroku ? process.env.PUPPETEER_EXECUTABLE_PATH : null,
+  })
+}
 export const scrapeUNCC = async () => {
   const locations = [
     { id: '587124593191a200db4e68af', name: 'SoVi' },
@@ -23,7 +41,10 @@ export const scrapeUNCC = async () => {
     today.getDate()
   ).padStart(2, '0')}`
 
-  const browser = await puppeteer.launch({ headless: 'new' })
+  const isHeroku = process.env.DYNO
+
+  const browser = await createBrowser()
+
   const page = await browser.newPage()
 
   await page.setUserAgent(getRandomUserAgent())
