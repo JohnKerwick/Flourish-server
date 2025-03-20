@@ -1716,6 +1716,9 @@ import { allBrands } from '../utils/data'
 
 export const CONTROLLER_SCRAPPER = {
   async scrapeAllMenus(req, res) {
+    res.status(202).json({
+      message: 'Scraping completed and data saved to MongoDB successfully',
+    })
     try {
       const allData = []
 
@@ -1731,10 +1734,10 @@ export const CONTROLLER_SCRAPPER = {
       const unccData = await scrapeUNCC()
       if (unccData) allData.push(...unccData)
 
-      res.status(200).json({
-        message: 'Scraping completed and data saved to MongoDB successfully',
-        data: allData,
-      })
+      // res.status(200).json({
+      //   message: 'Scraping completed and data saved to MongoDB successfully',
+      //   data: allData,
+      // })
     } catch (error) {
       console.error('Error during scraping:', error)
       res.status(500).json({ message: 'Scraping failed', error: error.message })

@@ -131,6 +131,7 @@ export const scrapeUNCC = async () => {
 
               locationData.menu.push(...periodMenu)
               locationData.tabItems.push(periodData.menu.periods.name)
+              console.log(periodData.menu.periods.name)
               break
             } catch (error) {
               if (error.message.includes('526')) {
@@ -159,6 +160,7 @@ export const scrapeUNCC = async () => {
         )
 
         allLocationsData.push(locationData)
+
         break
       } catch (error) {
         if (error.message.includes('526')) {
