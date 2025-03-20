@@ -23,7 +23,7 @@ export const scrapeUNCC = async () => {
     today.getDate()
   ).padStart(2, '0')}`
 
-  const browser = await puppeteer.launch({ headless: false })
+  const browser = await puppeteer.launch({ headless: 'new' })
   const page = await browser.newPage()
 
   await page.setUserAgent(getRandomUserAgent())
