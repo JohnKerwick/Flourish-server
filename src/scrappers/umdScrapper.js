@@ -54,23 +54,35 @@ export const scrapeUMD = async () => {
     })
 
     const menuItems = []
-
+    const seenMeals = new Set()
     $('.tab-pane.fade').each((index, element) => {
       const mealType = mealTypes[index] ? mealTypes[index].name : 'Unknown'
-
       $(element)
         .find('.card-title')
         .each((_, titleElement) => {
           const category = $(titleElement).text().trim()
           const items = []
 
+          console.log(`Processing category: ${category}`)
+
           $(titleElement)
             .closest('.card')
             .find('.menu-item-row')
             .each((_, rowElement) => {
               const mealName = $(rowElement).find('.menu-item-name').text().trim()
+
+              if (seenMeals.has(mealName)) {
+                console.log(`Skipping duplicate meal: ${mealName}`)
+                return // Skip duplicate
+              }
+
+              // Otherwise, add meal to seenMeals and process it
+              seenMeals.add(mealName)
+              console.log(`Adding meal: ${mealName}`)
+
               const detailsUrl = $(rowElement).find('.menu-item-name').attr('href')
               const dieteryPreferences = []
+
               $(rowElement)
                 .find('.nutri-icon')
                 .each((_, iconElement) => {
@@ -80,16 +92,15 @@ export const scrapeUMD = async () => {
 
               items.push({
                 mealName,
-                mealType,
+                mealType, // Ensure this variable is defined elsewhere
                 detailsUrl,
                 dieteryPreferences,
               })
             })
 
-          menuItems.push({
-            category,
-            items,
-          })
+          if (items.length > 0) {
+            menuItems.push({ category, items })
+          }
         })
     })
 
@@ -100,8 +111,6 @@ export const scrapeUMD = async () => {
       categoryWithDetails.items = []
 
       for (const item of category.items) {
-        await delay(randomDelay())
-
         try {
           const detailsResponse = await fetchWithRetry(`https://nutrition.umd.edu/${item.detailsUrl}`)
           const detailsPage = load(detailsResponse.data)

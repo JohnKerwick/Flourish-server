@@ -6,6 +6,7 @@ import axios from 'axios'
 // import cheerio from 'cheerio'
 import { load } from 'cheerio'
 import { allBrands } from '../utils/data'
+import { notifyError } from '../middlewares/errorHandler'
 
 // const brands = [
 //   { name: 'Subway', id: '513fbc1283aa2dc80c000005', campus: ['HPU', 'UMD'] },
@@ -1722,24 +1723,20 @@ export const CONTROLLER_SCRAPPER = {
     try {
       const allData = []
 
-      // console.log('Scraping UMD...')
-      // const umdData = await scrapeUMD()
-      // if (umdData) allData.push(...umdData)
+      console.log('Scraping UMD...')
+      const umdData = await scrapeUMD()
+      if (umdData) allData.push(...umdData)
 
-      // console.log('Scraping HPU...')
-      // const hpuData = await scrapeHPU()
-      // if (hpuData) allData.push(...hpuData)
+      console.log('Scraping HPU...')
+      const hpuData = await scrapeHPU()
+      if (hpuData) allData.push(...hpuData)
 
       console.log('Scraping UNCC...')
       const unccData = await scrapeUNCC()
       if (unccData) allData.push(...unccData)
-
-      // res.status(200).json({
-      //   message: 'Scraping completed and data saved to MongoDB successfully',
-      //   data: allData,
-      // })
     } catch (error) {
       console.error('Error during scraping:', error)
+      notifyError(error)
       res.status(500).json({ message: 'Scraping failed', error: error.message })
     }
   },
