@@ -16,6 +16,7 @@ import { init } from './socket'
 import { endMealCron, mealTimeCron } from './utils'
 import { initializeFirebase } from './utils/firebase'
 import dotenv from 'dotenv'
+import scheduleScraper from './utils/scrapper_cron'
 // import { setupSocketEventHandlers } from './socketEvents'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)
@@ -53,7 +54,6 @@ app.use(errorHandler)
 app.get('/ping', (req, res) => res.send('Ping Successfulls 😄'))
 
 server.listen(PORT, async () => {
-  // endMealCron.start()
-  // mealTimeCron.start()
+  scheduleScraper()
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })

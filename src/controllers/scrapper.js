@@ -1723,10 +1723,6 @@ export const CONTROLLER_SCRAPPER = {
     try {
       const allData = []
 
-      console.log('Scraping UMD...')
-      const umdData = await scrapeUMD()
-      if (umdData) allData.push(...umdData)
-
       console.log('Scraping HPU...')
       const hpuData = await scrapeHPU()
       if (hpuData) allData.push(...hpuData)
@@ -1734,6 +1730,12 @@ export const CONTROLLER_SCRAPPER = {
       console.log('Scraping UNCC...')
       const unccData = await scrapeUNCC()
       if (unccData) allData.push(...unccData)
+
+      console.log('Scraping UMD...')
+      const umdData = await scrapeUMD()
+      if (umdData) allData.push(...umdData)
+
+      notifyError('Scrapper Sucess')
     } catch (error) {
       console.error('Error during scraping:', error)
       notifyError(error)
