@@ -106,10 +106,10 @@ export const createWeeklyDietPlanService = (
   selectedMealTypes
 ) => {
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+  let calorieDistribution = {}
 
-  let calorieDistribution = { breakfast: 0, lunch: 0, dinner: 0 }
+  // Distribute calories based on selected meal types
   const totalSelectedMeals = selectedMealTypes.length
-
   if (totalSelectedMeals === 3) {
     calorieDistribution = {
       breakfast: Math.round(totalCalories * 0.3),
@@ -123,16 +123,22 @@ export const createWeeklyDietPlanService = (
       dinner: Math.round(totalCalories * 0.4),
     }
   } else if (selectedMealTypes.includes('breakfast')) {
-    calorieDistribution = { breakfast: Math.round(totalCalories * 0.6), lunch: Math.round(totalCalories * 0.4) }
+    calorieDistribution = {
+      breakfast: Math.round(totalCalories * 0.6),
+      lunch: Math.round(totalCalories * 0.4),
+    }
   } else if (selectedMealTypes.includes('dinner')) {
-    calorieDistribution = { lunch: Math.round(totalCalories * 0.4), dinner: Math.round(totalCalories * 0.6) }
+    calorieDistribution = {
+      lunch: Math.round(totalCalories * 0.4),
+      dinner: Math.round(totalCalories * 0.6),
+    }
   }
 
   let franchiseSwipesLeft = mealSwipeLimits['Franchise']
   let cafeteriaSwipesLeft = mealSwipeLimits['Dining-Halls']
+  let usedMealsSet = new Set()
 
   const weeklyPlan = []
-  let usedMealsLog = new Set()
 
   for (let dayIndex = 0; dayIndex < 7; dayIndex++) {
     const dayPlan = { day: daysOfWeek[dayIndex] }
@@ -143,31 +149,31 @@ export const createWeeklyDietPlanService = (
 
     let chosenRestaurants = {}
 
-    // Shuffle meal types daily to change order
-    let shuffledMealTypes = _.shuffle(selectedMealTypes)
-
-    for (const mealType of shuffledMealTypes) {
+    for (const mealType of selectedMealTypes) {
       const targetCalories = calorieDistribution[mealType]
 
-      let availableMeals = sortedMealItemsByType[mealType]?.filter((meal) => !usedMealsLog.has(meal._id)) || []
+      // Get available meals excluding already used ones
+      let availableMeals = sortedMealItemsByType[mealType]?.filter((meal) => !usedMealsSet.has(meal._id)) || []
 
-      if (availableMeals.length === 0) continue
+      if (availableMeals.length === 0) continue // Skip if no meals left
 
-      // **Prioritize high-calorie meals first**
-      availableMeals = _.orderBy(availableMeals, ['calories'], ['desc']) // Sort meals by calories in descending order
+      // Classify into main and side
+      let mainMeals = availableMeals.filter((meal) => meal.calories >= 400)
+      let sideMeals = availableMeals.filter((meal) => meal.calories < 300)
+
+      if (mainMeals.length === 0) continue
+
+      mainMeals = _.shuffle(mainMeals)
+      sideMeals = _.shuffle(sideMeals)
 
       if (!chosenRestaurants[mealType]) {
         let validRestaurants = [...new Set(availableMeals.map((meal) => meal.restaurantName))]
-
-        // Randomly decide whether to prioritize franchise or cafeteria for the day
         let categoryPriority = Math.random() > 0.5 ? ['Franchise', 'Dining-Halls'] : ['Dining-Halls', 'Franchise']
-
         let chosenRestaurant = null
+
         for (let category of categoryPriority) {
           for (let restaurant of _.shuffle(validRestaurants)) {
-            let sampleMeal = availableMeals.find(
-              (meal) => meal.restaurantName === restaurant && meal.category === category
-            )
+            let sampleMeal = mainMeals.find((meal) => meal.restaurantName === restaurant && meal.category === category)
 
             if (!sampleMeal) continue
             if (category === 'Franchise' && franchiseSwipesLeft > 0) {
@@ -184,14 +190,14 @@ export const createWeeklyDietPlanService = (
         }
 
         if (!chosenRestaurant) continue
-
         chosenRestaurants[mealType] = chosenRestaurant
       }
 
       let chosenRestaurant = chosenRestaurants[mealType]
-      availableMeals = availableMeals.filter((meal) => meal.restaurantName === chosenRestaurant)
+      mainMeals = mainMeals.filter((meal) => meal.restaurantName === chosenRestaurant)
+      sideMeals = sideMeals.filter((meal) => meal.restaurantName === chosenRestaurant)
 
-      if (availableMeals.length === 0) continue
+      if (mainMeals.length === 0) continue
 
       let selectedMeals = []
       let currentCalories = 0,
@@ -199,42 +205,44 @@ export const createWeeklyDietPlanService = (
         currentFat = 0,
         currentCarbs = 0
 
-      for (const meal of availableMeals) {
-        if (currentCalories + meal.calories > targetCalories + 10) continue
+      // Pick at least one main meal
+      let mainMeal = mainMeals.shift()
+      selectedMeals.push(mainMeal)
+      usedMealsSet.add(mainMeal._id)
+      currentCalories += mainMeal.calories
+      currentProtein += mainMeal.protein
+      currentFat += mainMeal.fat
+      currentCarbs += mainMeal.carbohydrate
 
-        selectedMeals.push(meal)
-        currentCalories += meal.calories
-        currentProtein += meal.protein
-        currentFat += meal.fat
-        currentCarbs += meal.carbohydrate
-
-        if (currentCalories >= targetCalories - 10) break
-      }
-
-      // **Ensure at least one meal is selected (fallback to the closest)**
-      if (selectedMeals.length === 0) {
-        let closestMeal = availableMeals.reduce((closest, meal) => {
-          return Math.abs(meal.calories - targetCalories) < Math.abs(closest.calories - targetCalories) ? meal : closest
-        }, availableMeals[0])
-
-        if (closestMeal) {
-          selectedMeals.push(closestMeal)
-          currentCalories += closestMeal.calories
-          currentProtein += closestMeal.protein
-          currentFat += closestMeal.fat
-          currentCarbs += closestMeal.carbohydrate
+      // Add side meals first
+      for (let sideMeal of sideMeals) {
+        if (currentCalories + sideMeal.calories <= targetCalories) {
+          selectedMeals.push(sideMeal)
+          usedMealsSet.add(sideMeal._id)
+          currentCalories += sideMeal.calories
+          currentProtein += sideMeal.protein
+          currentFat += sideMeal.fat
+          currentCarbs += sideMeal.carbohydrate
         }
+        if (currentCalories >= targetCalories) break
       }
 
-      if (selectedMeals.length === 0) continue
+      // If calories are still too low, add more main meals
+      while (currentCalories < targetCalories * 0.95 && mainMeals.length > 0) {
+        let extraMainMeal = mainMeals.shift()
+        selectedMeals.push(extraMainMeal)
+        usedMealsSet.add(extraMainMeal._id)
+        currentCalories += extraMainMeal.calories
+        currentProtein += extraMainMeal.protein
+        currentFat += extraMainMeal.fat
+        currentCarbs += extraMainMeal.carbohydrate
+      }
 
       dayPlan[mealType] = selectedMeals
       totalProvidedCalories += currentCalories
       totalProtein += currentProtein
       totalFat += currentFat
       totalCarbs += currentCarbs
-
-      selectedMeals.forEach((meal) => usedMealsLog.add(meal._id))
     }
 
     dayPlan.caloriesBMR = Math.trunc(totalCalories)
