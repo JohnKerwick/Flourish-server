@@ -98,7 +98,6 @@ export const getAllMenuItems = async (campus, allergy, allergyTypes) => {
     { $sort: { calories: -1 } },
   ])
 }
-
 export const createWeeklyDietPlanService = (
   totalCalories,
   sortedMealItemsByType,
@@ -108,7 +107,7 @@ export const createWeeklyDietPlanService = (
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
   let calorieDistribution = {}
 
-  // Distribute calories based on selected meal types
+  // Default calorie distribution
   const totalSelectedMeals = selectedMealTypes.length
   if (totalSelectedMeals === 3) {
     calorieDistribution = {
@@ -118,14 +117,14 @@ export const createWeeklyDietPlanService = (
     }
   } else if (selectedMealTypes.includes('breakfast') && selectedMealTypes.includes('dinner')) {
     calorieDistribution = {
-      breakfast: Math.round(totalCalories * 0.4),
+      breakfast: Math.round(totalCalories * 0.3),
       lunch: Math.round(totalCalories * 0.2),
-      dinner: Math.round(totalCalories * 0.4),
+      dinner: Math.round(totalCalories * 0.5),
     }
   } else if (selectedMealTypes.includes('breakfast')) {
     calorieDistribution = {
-      breakfast: Math.round(totalCalories * 0.6),
-      lunch: Math.round(totalCalories * 0.4),
+      breakfast: Math.round(totalCalories * 0.4),
+      lunch: Math.round(totalCalories * 0.6),
     }
   } else if (selectedMealTypes.includes('dinner')) {
     calorieDistribution = {
@@ -148,28 +147,27 @@ export const createWeeklyDietPlanService = (
       totalCarbs = 0
 
     let chosenRestaurants = {}
+    let breakfastCalories = 0
 
     for (const mealType of selectedMealTypes) {
-      const targetCalories = calorieDistribution[mealType]
+      let targetCalories = calorieDistribution[mealType]
+      let availableMeals =
+        sortedMealItemsByType[mealType]?.filter((meal) => {
+          if (!meal?.name) return true // Keep meals with no name
+          return !meal.name.toLowerCase().endsWith('oil') && !usedMealsSet.has(meal._id)
+        }) || []
+      if (availableMeals.length === 0) continue
 
-      // Get available meals excluding already used ones
-      let availableMeals = sortedMealItemsByType[mealType]?.filter((meal) => !usedMealsSet.has(meal._id)) || []
-
-      if (availableMeals.length === 0) continue // Skip if no meals left
-
-      // Classify into main and side
-      let mainMeals = availableMeals.filter((meal) => meal.calories >= 400)
-      let sideMeals = availableMeals.filter((meal) => meal.calories < 300)
-
+      let mainMeals = availableMeals.filter((meal) => meal.calories >= 300)
       if (mainMeals.length === 0) continue
 
       mainMeals = _.shuffle(mainMeals)
-      sideMeals = _.shuffle(sideMeals)
 
       if (!chosenRestaurants[mealType]) {
         let validRestaurants = [...new Set(availableMeals.map((meal) => meal.restaurantName))]
-        let categoryPriority = Math.random() > 0.5 ? ['Franchise', 'Dining-Halls'] : ['Dining-Halls', 'Franchise']
+        let categoryPriority = ['Franchise', 'Dining-Halls']
         let chosenRestaurant = null
+        let chosenCategory = null
 
         for (let category of categoryPriority) {
           for (let restaurant of _.shuffle(validRestaurants)) {
@@ -178,10 +176,12 @@ export const createWeeklyDietPlanService = (
             if (!sampleMeal) continue
             if (category === 'Franchise' && franchiseSwipesLeft > 0) {
               chosenRestaurant = restaurant
+              chosenCategory = 'Franchise'
               franchiseSwipesLeft--
               break
             } else if (category === 'Dining-Halls' && cafeteriaSwipesLeft > 0) {
               chosenRestaurant = restaurant
+              chosenCategory = 'Dining-Halls'
               cafeteriaSwipesLeft--
               break
             }
@@ -190,12 +190,11 @@ export const createWeeklyDietPlanService = (
         }
 
         if (!chosenRestaurant) continue
-        chosenRestaurants[mealType] = chosenRestaurant
+        chosenRestaurants[mealType] = { restaurant: chosenRestaurant, category: chosenCategory }
       }
 
-      let chosenRestaurant = chosenRestaurants[mealType]
+      let { restaurant: chosenRestaurant, category: chosenCategory } = chosenRestaurants[mealType]
       mainMeals = mainMeals.filter((meal) => meal.restaurantName === chosenRestaurant)
-      sideMeals = sideMeals.filter((meal) => meal.restaurantName === chosenRestaurant)
 
       if (mainMeals.length === 0) continue
 
@@ -205,37 +204,49 @@ export const createWeeklyDietPlanService = (
         currentFat = 0,
         currentCarbs = 0
 
-      // Pick at least one main meal
-      let mainMeal = mainMeals.shift()
-      selectedMeals.push(mainMeal)
-      usedMealsSet.add(mainMeal._id)
-      currentCalories += mainMeal.calories
-      currentProtein += mainMeal.protein
-      currentFat += mainMeal.fat
-      currentCarbs += mainMeal.carbohydrate
+      // **Special Rule for Franchise Breakfast**
+      if (mealType === 'breakfast' && chosenCategory === 'Franchise') {
+        let highestCalorieMeal = mainMeals.reduce(
+          (maxMeal, meal) => (meal.calories > maxMeal.calories ? meal : maxMeal),
+          mainMeals[0]
+        )
+        selectedMeals.push(highestCalorieMeal)
+        usedMealsSet.add(highestCalorieMeal._id)
+        breakfastCalories = highestCalorieMeal.calories // Store breakfast calories
+        currentCalories = highestCalorieMeal.calories
+        currentProtein = highestCalorieMeal.protein
+        currentFat = highestCalorieMeal.fat
+        currentCarbs = highestCalorieMeal.carbohydrate
 
-      // Add side meals first
-      for (let sideMeal of sideMeals) {
-        if (currentCalories + sideMeal.calories <= targetCalories) {
-          selectedMeals.push(sideMeal)
-          usedMealsSet.add(sideMeal._id)
-          currentCalories += sideMeal.calories
-          currentProtein += sideMeal.protein
-          currentFat += sideMeal.fat
-          currentCarbs += sideMeal.carbohydrate
+        // **Recalculate Remaining Calories for Lunch & Dinner**
+        let remainingCalories = totalCalories - breakfastCalories
+        calorieDistribution.lunch = Math.round(remainingCalories * 0.55)
+        calorieDistribution.dinner = Math.round(remainingCalories * 0.45)
+      } else {
+        // **Regular Meal Selection (Lunch & Dinner)**
+        let mainMeal = mainMeals.shift()
+
+        selectedMeals.push(mainMeal)
+        usedMealsSet.add(mainMeal._id)
+        currentCalories += mainMeal.calories
+        currentProtein += mainMeal.protein
+        currentFat += mainMeal.fat
+        currentCarbs += mainMeal.carbohydrate
+
+        // Add extra meals if required
+        while (
+          currentCalories < targetCalories * 0.95 &&
+          totalProvidedCalories + mainMeals[0].calories <= totalCalories &&
+          mainMeals.length > 0
+        ) {
+          let extraMainMeal = mainMeals.shift()
+          selectedMeals.push(extraMainMeal)
+          usedMealsSet.add(extraMainMeal._id)
+          currentCalories += extraMainMeal.calories
+          currentProtein += extraMainMeal.protein
+          currentFat += extraMainMeal.fat
+          currentCarbs += extraMainMeal.carbohydrate
         }
-        if (currentCalories >= targetCalories) break
-      }
-
-      // If calories are still too low, add more main meals
-      while (currentCalories < targetCalories * 0.95 && mainMeals.length > 0) {
-        let extraMainMeal = mainMeals.shift()
-        selectedMeals.push(extraMainMeal)
-        usedMealsSet.add(extraMainMeal._id)
-        currentCalories += extraMainMeal.calories
-        currentProtein += extraMainMeal.protein
-        currentFat += extraMainMeal.fat
-        currentCarbs += extraMainMeal.carbohydrate
       }
 
       dayPlan[mealType] = selectedMeals
@@ -244,6 +255,53 @@ export const createWeeklyDietPlanService = (
       totalFat += currentFat
       totalCarbs += currentCarbs
     }
+    let calorieDiff = totalCalories - totalProvidedCalories
+
+    // ✅ Add Side Meals If Needed, But Stay Under BMR
+    while (calorieDiff > 0) {
+      let sideMeal = sortedMealItemsByType['sideMeals']
+        ?.filter((meal) => !usedMealsSet.has(meal._id) && meal.calories <= calorieDiff)
+        .sort((a, b) => a.calories - b.calories)[0] // Pick the smallest suitable meal
+
+      if (!sideMeal || totalProvidedCalories + sideMeal.calories > totalCalories) break
+
+      dayPlan.dinner.push(sideMeal) // Add side meal to dinner
+      usedMealsSet.add(sideMeal._id)
+      totalProvidedCalories += sideMeal.calories
+      calorieDiff -= sideMeal.calories
+    }
+
+    // ✅ Remove Excess Calories If We Over-Shoot
+    if (totalProvidedCalories > totalCalories) {
+      let excess = totalProvidedCalories - totalCalories
+
+      // First, try removing an entire side meal
+      for (let mealType of selectedMealTypes) {
+        let mealIndex = dayPlan[mealType]?.findIndex((meal) => meal.calories <= excess)
+        if (mealIndex !== -1) {
+          let removedMeal = dayPlan[mealType].splice(mealIndex, 1)[0]
+          totalProvidedCalories -= removedMeal.calories
+          excess -= removedMeal.calories
+          break
+        }
+      }
+
+      // If still excess, reduce calories from the largest meal
+      if (excess > 0) {
+        let largestMeal = selectedMealTypes
+          .flatMap((mealType) => dayPlan[mealType])
+          .sort((a, b) => b.calories - a.calories)[0] // Find highest-calorie meal
+
+        if (largestMeal && largestMeal.calories > excess) {
+          largestMeal.calories -= excess // Trim just enough calories
+          totalProvidedCalories -= excess
+        }
+      }
+    }
+
+    // ✅ Ensure Calories Match Exactly
+    dayPlan.caloriesBMR = Math.trunc(totalCalories)
+    dayPlan.caloriesProvided = Math.trunc(totalProvidedCalories)
 
     dayPlan.caloriesBMR = Math.trunc(totalCalories)
     dayPlan.caloriesProvided = Math.trunc(totalProvidedCalories)
