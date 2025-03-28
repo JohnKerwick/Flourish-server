@@ -9,11 +9,8 @@ import { connectMongoDB } from './config/dbConnection'
 import { corsConfig } from './config/cors'
 import session from 'express-session'
 import configSwagger from './config/swagger'
-const axios = require('axios')
-const fs = require('fs')
 import { createServer } from 'node:http'
 import { init } from './socket'
-import { endMealCron, mealTimeCron } from './utils'
 import { initializeFirebase } from './utils/firebase'
 import dotenv from 'dotenv'
 import scheduleScraper from './utils/scrapper_cron'
