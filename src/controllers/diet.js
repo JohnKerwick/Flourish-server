@@ -11,18 +11,7 @@ import {
 import jwt from 'jsonwebtoken'
 import { asyncMiddleware } from '../middlewares'
 import { Diet, Notification } from '../models'
-import { ConversationPage } from 'twilio/lib/rest/conversations/v1/conversation'
-function normalizeMealName(mealName) {
-  if (!mealName || typeof mealName !== 'string') return ''
 
-  return mealName
-    .toLowerCase()
-    .replace(/\b(medium|cheese|chips|large|small|extra|double|spicy|grilled|crispy|special|combo|meal)\b/g, '') // Remove single-word descriptors
-    .replace(/\b(cheese dip|chips & dip|side order|family pack| medium cheese dip)\b/g, '') // Remove common meal phrases
-    .replace(/[^\w\s]/g, '') // Remove non-alphanumeric characters (optional)
-    .replace(/\s+/g, ' ') // Collapse multiple spaces
-    .trim()
-}
 export const CONTROLLER_DIET = {
   getWeeklyDietPlan: asyncMiddleware(async (req, res) => {
     const token = req.headers.authorization?.split(' ')[1]
@@ -35,11 +24,28 @@ export const CONTROLLER_DIET = {
     const allMenuItems = await getAllMenuItems(campus, allergy, allergyTypes)
     const { dietPlan, selectedMeals } = req.body
 
-    // Meal type & restaurant normalization
-    const normalizeText = (text) => text?.trim().toLowerCase()
+    // Normalize meal names to prevent duplicates (remove size, weight, etc.)
+    const extractCoreMealName = (mealName) => {
+      let name = mealName.toLowerCase()
+
+      // Handle special cases like Nachos & Chips
+      if (name.includes('nachos')) {
+        if (name.includes('cheese') && !name.includes('chips')) return 'nachos_cheese'
+        if (name.includes('chips')) return 'nachos_chips'
+        return 'nachos_plain'
+      }
+
+      // Remove weight/size units like "3.5 oz", "8 oz", "Large", "Small"
+      return name
+        .replace(/\b(large|medium|small|extra large|extra)\b/g, '') // Remove size words
+        .replace(/\b(chips|dip|cheese dip)\b/g, '') // Normalize chips/dip wording
+        .replace(/\b(\d+(\.\d+)?\s?(oz|g|lbs)?)\b/g, '') // Remove weight units
+        .replace(/[^\w\s]/g, '') // Remove special characters
+        .trim()
+    }
 
     const normalizeMealType = (mealType) => {
-      const normalized = normalizeText(mealType)
+      const normalized = mealType?.trim().toLowerCase()
       const mealVariants = {
         breakfast: ['breakfast', 'morning meal'],
         lunch: ['lunch', 'midday meal'],
@@ -49,11 +55,10 @@ export const CONTROLLER_DIET = {
       for (const [key, values] of Object.entries(mealVariants)) {
         if (values.includes(normalized)) return key
       }
-
-      return 'unknown' // Default if mealType is unrecognized
+      return 'unknown'
     }
 
-    const normalizeRestaurantName = (name) => normalizeText(name)
+    const normalizeRestaurantName = (name) => name?.trim().toLowerCase()
 
     const mealOptions = {
       breakfast: ['starbucks', 'jamba juice', 'village juice', 'taco bell'],
@@ -63,34 +68,44 @@ export const CONTROLLER_DIET = {
 
     const isValidCalorieRange = (calories) => calories >= 50 && calories <= 900
 
-    // Categorizing menu items by meal type
-    const mealItemsByType = {
-      breakfast: [],
-      lunch: [],
-      dinner: [],
-    }
+    // Group meals by type while preventing duplicates
+    const mealItemsByType = { breakfast: [], lunch: [], dinner: [] }
+    const mealVariantsMap = new Map()
 
     allMenuItems.forEach((item) => {
-      const normalizedMealType = normalizeMealType(item.mealType)
-      const normalizedRestaurant = normalizeRestaurantName(item.restaurantName)
-      const normalizedMealName = normalizeMealName(item.name) // 🔥 **Apply Meal Name Normalization**
+      if (!item?.mealName || typeof item.mealName !== 'string') return
 
-      if (isValidCalorieRange(item.calories)) {
-        if (normalizedMealType !== 'unknown') {
-          mealItemsByType[normalizedMealType].push({ ...item, mealType: normalizedMealType, name: normalizedMealName })
-        } else {
-          // Assign "unknown" meal types to appropriate categories based on restaurant
-          for (const [mealType, restaurants] of Object.entries(mealOptions)) {
-            if (restaurants.includes(normalizedRestaurant)) {
-              mealItemsByType[mealType].push({ ...item, mealType, name: normalizedMealName })
-              break
-            }
+      const normalizedMealType = normalizeMealType(item.mealType)
+      const coreMealName = extractCoreMealName(item.mealName)
+      const normalizedRestaurant = normalizeRestaurantName(item.restaurantName)
+
+      if (!isValidCalorieRange(item.calories)) return
+
+      // Assign "unknown" meal types to appropriate categories based on restaurant
+      let finalMealType = normalizedMealType
+      if (finalMealType === 'unknown') {
+        for (const [mealType, restaurants] of Object.entries(mealOptions)) {
+          if (restaurants.includes(normalizedRestaurant)) {
+            finalMealType = mealType
+            break
           }
         }
       }
+
+      // Prevent duplicate meal variants (keep highest calorie version)
+      if (!mealVariantsMap.has(coreMealName) || mealVariantsMap.get(coreMealName).calories < item.calories) {
+        mealVariantsMap.set(coreMealName, { ...item, mealType: finalMealType })
+      }
     })
 
-    // Check if any meal type is empty
+    // Move filtered meals to categorized lists
+    mealVariantsMap.forEach((item) => {
+      if (item.mealType !== 'unknown') {
+        mealItemsByType[item.mealType].push(item)
+      }
+    })
+
+    // Ensure at least one meal exists per category
     if (
       mealItemsByType.breakfast.length === 0 ||
       mealItemsByType.lunch.length === 0 ||
