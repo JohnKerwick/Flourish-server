@@ -228,7 +228,7 @@ export const createWeeklyDietPlanService = (
 
         selectedMeals.push(mainMeal)
         usedMealsSet.add(mainMeal._id)
-        currentCalories += mainMeal.calories
+        currentCalories += mainMeal?.calories ?? 0
         currentProtein += mainMeal.protein
         currentFat += mainMeal.fat
         currentCarbs += mainMeal.carbohydrate
@@ -236,13 +236,13 @@ export const createWeeklyDietPlanService = (
         // Add extra meals if required
         while (
           currentCalories < targetCalories * 0.95 &&
-          totalProvidedCalories + mainMeals[0].calories <= totalCalories &&
+          totalProvidedCalories + (mainMeals[0]?.calories ?? 0) <= totalCalories &&
           mainMeals.length > 0
         ) {
           let extraMainMeal = mainMeals.shift()
           selectedMeals.push(extraMainMeal)
           usedMealsSet.add(extraMainMeal._id)
-          currentCalories += extraMainMeal.calories
+          currentCalories += extraMainMeal?.calories ?? 0
           currentProtein += extraMainMeal.protein
           currentFat += extraMainMeal.fat
           currentCarbs += extraMainMeal.carbohydrate
@@ -251,6 +251,7 @@ export const createWeeklyDietPlanService = (
 
       dayPlan[mealType] = selectedMeals
       totalProvidedCalories += currentCalories
+
       totalProtein += currentProtein
       totalFat += currentFat
       totalCarbs += currentCarbs
@@ -263,12 +264,12 @@ export const createWeeklyDietPlanService = (
         ?.filter((meal) => !usedMealsSet.has(meal._id) && meal.calories <= calorieDiff)
         .sort((a, b) => a.calories - b.calories)[0] // Pick the smallest suitable meal
 
-      if (!sideMeal || totalProvidedCalories + sideMeal.calories > totalCalories) break
+      if (!sideMeal || totalProvidedCalories + (sideMeal?.calories ?? 0) > totalCalories) break
 
       dayPlan.dinner.push(sideMeal) // Add side meal to dinner
       usedMealsSet.add(sideMeal._id)
-      totalProvidedCalories += sideMeal.calories
-      calorieDiff -= sideMeal.calories
+      totalProvidedCalories += sideMeal?.calories ?? 0
+      calorieDiff -= sideMeal?.calories ?? 0
     }
 
     // ✅ Remove Excess Calories If We Over-Shoot
