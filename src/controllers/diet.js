@@ -24,26 +24,6 @@ export const CONTROLLER_DIET = {
     const allMenuItems = await getAllMenuItems(campus, allergy, allergyTypes)
     const { dietPlan, selectedMeals } = req.body
 
-    // Normalize meal names to prevent duplicates (remove size, weight, etc.)
-    const extractCoreMealName = (mealName) => {
-      let name = mealName.toLowerCase()
-
-      // Handle special cases like Nachos & Chips
-      if (name.includes('nachos')) {
-        if (name.includes('cheese') && !name.includes('chips')) return 'nachos_cheese'
-        if (name.includes('chips')) return 'nachos_chips'
-        return 'nachos_plain'
-      }
-
-      // Remove weight/size units like "3.5 oz", "8 oz", "Large", "Small"
-      return name
-        .replace(/\b(large|medium|small|extra large|extra)\b/g, '') // Remove size words
-        .replace(/\b(chips|dip|cheese dip)\b/g, '') // Normalize chips/dip wording
-        .replace(/\b(\d+(\.\d+)?\s?(oz|g|lbs)?)\b/g, '') // Remove weight units
-        .replace(/[^\w\s]/g, '') // Remove special characters
-        .trim()
-    }
-
     const normalizeMealType = (mealType) => {
       const normalized = mealType?.trim().toLowerCase()
       const mealVariants = {
@@ -68,20 +48,39 @@ export const CONTROLLER_DIET = {
 
     const isValidCalorieRange = (calories) => calories >= 50 && calories <= 900
 
-    // Group meals by type while preventing duplicates
-    const mealItemsByType = { breakfast: [], lunch: [], dinner: [] }
-    const mealVariantsMap = new Map()
+    // 🔥 Track the highest calorie meal for "chips" or "nachos"
+    const bestChipsNachosMeal = new Map()
+    const filteredMenuItems = []
+
+    const seenKeywords = new Set() // Track keywords like "chips" and "nachos"
 
     allMenuItems.forEach((item) => {
+      const mealName = item.mealName.toLowerCase()
+      const containsKeyword = ['chips', 'nachos'].find((word) => mealName.includes(word))
+
+      if (containsKeyword) {
+        if (!seenKeywords.has(containsKeyword)) {
+          console.log('First occurrence added:', mealName) // ✅ Log only first time
+          seenKeywords.add(containsKeyword)
+          filteredMenuItems.push(item) // ✅ Add first occurrence only
+        }
+      } else {
+        filteredMenuItems.push(item) // ✅ Always add non-chips/nachos meals
+      }
+    })
+    // ✅ Add only the highest calorie chips/nachos meals
+    filteredMenuItems.push(...bestChipsNachosMeal.values())
+
+    const mealItemsByType = { breakfast: [], lunch: [], dinner: [] }
+
+    filteredMenuItems.forEach((item) => {
       if (!item?.mealName || typeof item.mealName !== 'string') return
 
       const normalizedMealType = normalizeMealType(item.mealType)
-      const coreMealName = extractCoreMealName(item.mealName)
       const normalizedRestaurant = normalizeRestaurantName(item.restaurantName)
 
       if (!isValidCalorieRange(item.calories)) return
 
-      // Assign "unknown" meal types to appropriate categories based on restaurant
       let finalMealType = normalizedMealType
       if (finalMealType === 'unknown') {
         for (const [mealType, restaurants] of Object.entries(mealOptions)) {
@@ -92,20 +91,11 @@ export const CONTROLLER_DIET = {
         }
       }
 
-      // Prevent duplicate meal variants (keep highest calorie version)
-      if (!mealVariantsMap.has(coreMealName) || mealVariantsMap.get(coreMealName).calories < item.calories) {
-        mealVariantsMap.set(coreMealName, { ...item, mealType: finalMealType })
+      if (finalMealType !== 'unknown') {
+        mealItemsByType[finalMealType].push(item)
       }
     })
 
-    // Move filtered meals to categorized lists
-    mealVariantsMap.forEach((item) => {
-      if (item.mealType !== 'unknown') {
-        mealItemsByType[item.mealType].push(item)
-      }
-    })
-
-    // Ensure at least one meal exists per category
     if (
       mealItemsByType.breakfast.length === 0 ||
       mealItemsByType.lunch.length === 0 ||
