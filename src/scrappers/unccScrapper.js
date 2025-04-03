@@ -102,11 +102,18 @@ export const scrapeUNCC = async () => {
                               allergens: item.filters.filter((f) => f.type === 'allergen').map((f) => f.name),
                               dieteryPreferences: item.filters.filter((f) => f.type === 'label').map((f) => f.name),
                               nutrients: {
-                                calories: item.nutrients.find((f) => f.name === 'Calories')?.value_numeric || 0,
-                                protein: item.nutrients.find((f) => f.name === 'Protein (g)')?.value_numeric || 0,
-                                fat: item.nutrients.find((f) => f.name === 'Total Fat (g)')?.value_numeric || 0,
-                                carbohydrate:
-                                  item.nutrients.find((f) => f.name === 'Total Carbohydrates (g)')?.value_numeric || 0,
+                                calories: (
+                                  item.nutrients.find((f) => f.name === 'Calories')?.value_numeric || 0
+                                ).toFixed(2),
+                                protein: (
+                                  item.nutrients.find((f) => f.name === 'Protein (g)')?.value_numeric || 0
+                                ).toFixed(2),
+                                fat: (
+                                  item.nutrients.find((f) => f.name === 'Total Fat (g)')?.value_numeric || 0
+                                ).toFixed(2),
+                                carbohydrate: (
+                                  item.nutrients.find((f) => f.name === 'Total Carbohydrates (g)')?.value_numeric || 0
+                                ).toFixed(2),
                               },
                               serving: item.portion || '',
                             },

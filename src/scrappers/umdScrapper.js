@@ -124,10 +124,11 @@ export const scrapeUMD = async () => {
             .text()
             .trim()
             .replace(/Serving size\s*/i, '')
-          const calories = caloriesMatch ? parseFloat(caloriesMatch[1]) : 0
-          const fat = fatMatch ? parseFloat(fatMatch[1]) : 0
-          const carbohydrate = carbMatch ? parseFloat(carbMatch[1]) : 0
-          const protein = proteinMatch ? parseFloat(proteinMatch[1]) : 0
+          const calories = caloriesMatch ? parseFloat(parseFloat(caloriesMatch[1]).toFixed(2)) : 0
+          const fat = fatMatch ? parseFloat(parseFloat(fatMatch[1]).toFixed(2)) : 0
+          const carbohydrate = carbMatch ? parseFloat(parseFloat(carbMatch[1]).toFixed(2)) : 0
+          const protein = proteinMatch ? parseFloat(parseFloat(proteinMatch[1]).toFixed(2)) : 0
+
           const ingredients = detailsPage('.labelingredientsvalue').text().trim().split(/,\s*/)
           const allergens = detailsPage('.labelallergensvalue').text().trim().split(/,\s*/)
 

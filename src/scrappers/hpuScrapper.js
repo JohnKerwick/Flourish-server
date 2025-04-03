@@ -5,19 +5,33 @@ import delay from '../utils/delay'
 
 const extractMealTypes = (tabItems) => {
   const mealTypes = new Set()
-  const nonRelevantPatterns = /\b(hours?|operation)\b/i
   const mealTypePattern = /(Breakfast|Lunch|Dinner)/i
+  const timePattern = /(\d{1,2})(am|pm)\s*-\s*(\d{1,2})(am|pm)/i
 
   tabItems.forEach((item) => {
-    if (nonRelevantPatterns.test(item)) {
-      mealTypes.add(item)
+    const matchedMeals = item.match(mealTypePattern)
+    if (matchedMeals) {
+      matchedMeals.forEach((meal) => mealTypes.add(meal))
     } else {
-      const matchedMeals = item.match(mealTypePattern)
-      if (matchedMeals) {
-        matchedMeals.forEach((meal) => mealTypes.add(meal))
+      const matchedTime = item.match(timePattern)
+      if (matchedTime) {
+        let startHour = parseInt(matchedTime[1])
+        const startPeriod = matchedTime[2].toLowerCase()
+        if (startPeriod === 'pm' && startHour !== 12) startHour += 12
+
+        if (startHour < 11) {
+          mealTypes.add('Breakfast')
+        } else if (startHour < 16) {
+          mealTypes.add('Lunch')
+        } else {
+          mealTypes.add('Dinner')
+        }
+      } else {
+        mealTypes.add('Breakfast') // Default to Breakfast if nothing is matched
       }
     }
   })
+
   return Array.from(mealTypes)
 }
 
@@ -33,6 +47,7 @@ export const scrapeHPU = async () => {
     'https://dining.highpoint.edu/locations/the-grille-at-the-village/',
   ]
 
+  const specialFranchises = new Set(['Purple Pie', 'The Great Day Bakery', 'Butterfly Cafe', 'The Point Sports Grille'])
   const allData = []
 
   for (const url of urls) {
@@ -43,17 +58,16 @@ export const scrapeHPU = async () => {
 
       const restaurantName = $('#location-header-content h1').text().trim()
       const campus = ['HPU']
-      const category = 'Dining-Halls'
+      const category = specialFranchises.has(restaurantName) ? 'Franchise' : 'Dining-Halls'
 
+      // Extract meal types
       const rawTabItems = []
       $('.c-tabs-nav__link-inner').each((_, element) => {
-        const tabItem = $(element).text().trim()
-        rawTabItems.push(tabItem)
+        rawTabItems.push($(element).text().trim())
       })
 
       const mealTypes = extractMealTypes(rawTabItems)
 
-      // Process all meals asynchronously
       const mealPromises = $('.c-tab')
         .map((index, element) =>
           (async () => {
@@ -64,13 +78,13 @@ export const scrapeHPU = async () => {
               .find('.menu-station')
               .map((_, station) =>
                 (async () => {
-                  let category = ''
+                  let stationCategory = ''
                   let mealItemPromises = []
 
                   $(station)
                     .find('.toggle-menu-station-data')
                     .each((_, el) => {
-                      category = $(el).text().trim()
+                      stationCategory = $(el).text().trim()
                     })
 
                   $(station)
@@ -102,11 +116,14 @@ export const scrapeHPU = async () => {
                               { name: parsedData.name, type: mealType },
                               {
                                 $set: {
-                                  calories: parsedData.facts.find((f) => f.label === 'Calories')?.value || 0,
-                                  protein: parsedData.facts.find((f) => f.label === 'Protein')?.value || 0,
-                                  fat: parsedData.facts.find((f) => f.label === 'Total Fat')?.value || 0,
-                                  carbohydrate:
-                                    parsedData.facts.find((f) => f.label === 'Total Carbohydrate')?.value || 0,
+                                  calories: (parsedData.facts.find((f) => f.label === 'Calories')?.value || 0).toFixed(
+                                    2
+                                  ),
+                                  protein: (parsedData.facts.find((f) => f.label === 'Protein')?.value || 0).toFixed(2),
+                                  fat: (parsedData.facts.find((f) => f.label === 'Total Fat')?.value || 0).toFixed(2),
+                                  carbohydrate: (
+                                    parsedData.facts.find((f) => f.label === 'Total Carbohydrate')?.value || 0
+                                  ).toFixed(2),
                                   serving: parsedData.serving_size || '',
                                   allergens: parsedData.allergens_list || '',
                                   ingredients: parsedData.ingredients_list || '',
@@ -128,7 +145,7 @@ export const scrapeHPU = async () => {
                   const resolvedItems = (await Promise.all(mealItemPromises)).filter(Boolean)
 
                   menu.push({
-                    category,
+                    category: stationCategory,
                     items: resolvedItems,
                   })
                 })()
@@ -142,7 +159,6 @@ export const scrapeHPU = async () => {
         .get()
 
       const resolvedMenus = await Promise.all(mealPromises)
-
       const finalMenu = resolvedMenus.flatMap(({ menu }) => menu)
 
       await Restaurants.findOneAndUpdate(
@@ -157,18 +173,12 @@ export const scrapeHPU = async () => {
         },
         { new: true, upsert: true, setDefaultsOnInsert: true }
       )
-
-      allData.push({
-        restaurant: restaurantName,
-        campus,
-        category,
-        menu: finalMenu,
-        tabItems: mealTypes,
-      })
+      allData.push({ restaurant: restaurantName, campus, category, menu: finalMenu, tabItems: mealTypes })
     } catch (error) {
       console.error(`Error processing HPU URL ${url}:`, error)
     }
   }
 
+  // ✅ Return allData without pushing to DB
   return allData
 }

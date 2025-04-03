@@ -31,7 +31,6 @@ export const userSchema = new Schema(
     allergyTypes: Array,
     student: {
       school: String,
-      gpa: String,
       status: String,
     },
     exercise: String,
