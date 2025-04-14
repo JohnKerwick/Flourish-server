@@ -222,6 +222,9 @@ export const createWeeklyDietPlanService = (
         let remainingCalories = totalCalories - breakfastCalories
         calorieDistribution.lunch = Math.round(remainingCalories * 0.55)
         calorieDistribution.dinner = Math.round(remainingCalories * 0.45)
+        sortedMealItemsByType[mealType] = sortedMealItemsByType[mealType].filter(
+          (meal) => meal._id !== highestCalorieMeal._id
+        )
       } else {
         // **Regular Meal Selection (Lunch & Dinner)**
         let mainMeal = mainMeals.shift()
@@ -232,6 +235,7 @@ export const createWeeklyDietPlanService = (
         currentProtein += mainMeal.protein
         currentFat += mainMeal.fat
         currentCarbs += mainMeal.carbohydrate
+        sortedMealItemsByType[mealType] = sortedMealItemsByType[mealType].filter((meal) => meal._id !== mainMeal._id)
 
         // Add extra meals if required
         while (
@@ -246,6 +250,9 @@ export const createWeeklyDietPlanService = (
           currentProtein += extraMainMeal.protein
           currentFat += extraMainMeal.fat
           currentCarbs += extraMainMeal.carbohydrate
+          sortedMealItemsByType[mealType] = sortedMealItemsByType[mealType].filter(
+            (meal) => meal._id !== extraMainMeal._id
+          )
         }
       }
 
@@ -341,4 +348,47 @@ export const getDietDetails = async (dietId) => {
       model: 'Meal',
     })
     .lean()
+}
+
+export const getFranchiseItems = async (campus) => {
+  return Restaurants.aggregate([
+    { $match: { campus: { $in: [campus] }, category: 'Dining-Halls' } },
+    { $unwind: '$menu' },
+    { $unwind: '$menu.items' },
+    {
+      $lookup: {
+        from: 'meals',
+        localField: 'menu.items',
+        foreignField: '_id',
+        as: 'mealDetails',
+      },
+    },
+    { $unwind: '$mealDetails' },
+    { $match: { 'mealDetails.nutrients.calories': { $gt: 0 } } },
+    {
+      $match: {
+        'mealDetails._id': { $ne: null },
+      },
+    },
+
+    {
+      $project: {
+        mealName: '$mealDetails.name',
+        mealType: '$mealDetails.type',
+        ingredients: '$mealDetails.ingredients',
+        allergens: '$mealDetails.allergens',
+        dietaryPreferences: '$mealDetails.dietaryPreferences',
+        serving: '$mealDetails.serving',
+        calories: '$mealDetails.nutrients.calories',
+        protein: '$mealDetails.nutrients.protein',
+        fat: '$mealDetails.nutrients.fat',
+        carbohydrate: '$mealDetails.nutrients.carbohydrate',
+        restaurantName: '$name',
+        restaurantId: '$_id',
+        category: '$category',
+        mealId: '$mealDetails._id',
+      },
+    },
+    { $sort: { calories: -1 } },
+  ])
 }
