@@ -11,7 +11,7 @@ import { scrapeUNCC } from '../scrappers/unccScrapper'
 // 0 0 * * *, every 24 hour
 
 const scheduleScraper = () => {
-  cron.schedule('* * * * *', async () => {
+  cron.schedule('0 0 0 * * *', async () => {
     try {
       const allData = []
 
