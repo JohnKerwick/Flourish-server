@@ -48,7 +48,7 @@ export const getUserById = async (userId) => {
   return user
 }
 
-export const getAllMenuItems = async (campus, allergy, allergyTypes) => {
+export const getAllMenuItems = async (campus) => {
   return Restaurants.aggregate([
     { $match: { campus: { $in: [campus] } } },
     { $unwind: '$menu' },
@@ -68,15 +68,7 @@ export const getAllMenuItems = async (campus, allergy, allergyTypes) => {
         'mealDetails._id': { $ne: null },
       },
     },
-    ...(allergy && Array.isArray(allergyTypes) && allergyTypes.length > 0
-      ? [
-          {
-            $match: {
-              'mealDetails.allergens': { $not: { $elemMatch: { $in: allergyTypes } } },
-            },
-          },
-        ]
-      : []),
+
     {
       $project: {
         mealName: '$mealDetails.name',

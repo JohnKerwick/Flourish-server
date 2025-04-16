@@ -72,13 +72,11 @@ export const scrapeUMD = async () => {
               const mealName = $(rowElement).find('.menu-item-name').text().trim()
 
               if (seenMeals.has(mealName)) {
-                console.log(`Skipping duplicate meal: ${mealName}`)
                 return // Skip duplicate
               }
 
               // Otherwise, add meal to seenMeals and process it
               seenMeals.add(mealName)
-              console.log(`Adding meal: ${mealName}`)
 
               const detailsUrl = $(rowElement).find('.menu-item-name').attr('href')
               const dieteryPreferences = []

@@ -7,6 +7,7 @@ import {
   saveDietPlan,
   getDietDetails,
   getDietHistoryService,
+  getFranchiseItems as getCafeteriaItems,
 } from '../services'
 import jwt from 'jsonwebtoken'
 import { asyncMiddleware } from '../middlewares'
@@ -17,13 +18,11 @@ export const CONTROLLER_DIET = {
     const token = req.headers.authorization?.split(' ')[1]
     const decoded = jwt.decode(token)
     const userId = decoded?._id
-
     const user = await getUserById(userId)
-    const { allergy, allergyTypes } = user
-    const campus = user.student.school
-    const allMenuItems = await getAllMenuItems(campus, allergy, allergyTypes)
-    const { dietPlan, selectedMeals } = req.body
 
+    const campus = user.student.school
+    const allMenuItems = await getAllMenuItems(campus)
+    const { dietPlan, selectedMeals } = req.body
     const normalizeMealType = (mealType) => {
       const normalized = mealType?.trim().toLowerCase()
       const mealVariants = {
@@ -37,23 +36,16 @@ export const CONTROLLER_DIET = {
       }
       return 'unknown'
     }
-
     const normalizeRestaurantName = (name) => name?.trim().toLowerCase()
-
     const mealOptions = {
       breakfast: ['starbucks', 'jamba juice', 'village juice', 'taco bell'],
       lunch: ['barberitos', 'qdoba', 'saladworks', 'bojangles'],
       dinner: ['subway', 'chick-fil-a', 'panera bread', 'panda express'],
     }
-
     const isValidCalorieRange = (calories) => calories >= 50 && calories <= 900
-
-    // 🔥 Track the highest calorie meal for "chips" or "nachos"
     const bestChipsNachosMeal = new Map()
     const filteredMenuItems = []
-
     const seenKeywords = new Set() // Track keywords like "chips" and "nachos"
-
     allMenuItems.forEach((item) => {
       const mealName = item.mealName.toLowerCase()
       const containsKeyword = ['chips', 'nachos'].find((word) => mealName.includes(word))
@@ -68,11 +60,8 @@ export const CONTROLLER_DIET = {
         filteredMenuItems.push(item) // ✅ Always add non-chips/nachos meals
       }
     })
-    // ✅ Add only the highest calorie chips/nachos meals
     filteredMenuItems.push(...bestChipsNachosMeal.values())
-
     const mealItemsByType = { breakfast: [], lunch: [], dinner: [] }
-
     filteredMenuItems.forEach((item) => {
       if (!item?.mealName || typeof item.mealName !== 'string') return
 
@@ -95,7 +84,6 @@ export const CONTROLLER_DIET = {
         mealItemsByType[finalMealType].push(item)
       }
     })
-
     if (
       mealItemsByType.breakfast.length === 0 ||
       mealItemsByType.lunch.length === 0 ||
@@ -106,18 +94,12 @@ export const CONTROLLER_DIET = {
         statusCode: StatusCodes.NOT_FOUND,
       })
     }
-
-    // Sort meals by calorie count (highest first)
     const sortedMealItemsByType = {
       breakfast: mealItemsByType.breakfast.sort((a, b) => b.calories - a.calories),
       lunch: mealItemsByType.lunch.sort((a, b) => b.calories - a.calories),
       dinner: mealItemsByType.dinner.sort((a, b) => b.calories - a.calories),
     }
-
-    // Calculate daily calorie needs
     const totalCalories = calculateBMR(user)
-
-    // Generate weekly diet plan
     const weeklyPlan = createWeeklyDietPlanService(totalCalories, sortedMealItemsByType, dietPlan, selectedMeals)
 
     return res.status(StatusCodes.OK).json({
@@ -182,6 +164,201 @@ export const CONTROLLER_DIET = {
     return res.status(StatusCodes.OK).json({
       updatedDiet,
       message: 'Diet History fetched successfully.',
+      statusCode: StatusCodes.OK,
+    })
+  }),
+
+  getVeganDiet: asyncMiddleware(async (req, res) => {
+    const token = req.headers.authorization?.split(' ')[1]
+    const decoded = jwt.decode(token)
+    const userId = decoded?._id
+    const user = await getUserById(userId)
+    const campus = user.student.school
+    const allMenuItems = await getCafeteriaItems(campus)
+
+    // List of animal-based ingredients to check
+    const nonVeganIngredients = [
+      'cheese',
+      'bacon',
+      'butter',
+      'milk',
+      'egg',
+      'lard',
+      'cream',
+      'honey',
+      'gelatin',
+      'meat',
+      'fish',
+      'chicken',
+      'beef',
+      'pork',
+    ]
+
+    // Function to check if a meal is vegan based on its ingredients
+    const isVegan = (ingredients) => {
+      return !ingredients.some((ingredient) =>
+        nonVeganIngredients.some((nonVegan) => ingredient.toLowerCase().includes(nonVegan))
+      )
+    }
+
+    // Filter the menu items to return only vegan meals
+    const veganMenuItems = allMenuItems.filter((item) => isVegan(item.ingredients))
+    const normalizeMealType = (mealType) => {
+      const normalized = mealType?.trim().toLowerCase()
+
+      const mealVariants = {
+        breakfast: ['breakfast'],
+        lunch: ['lunch'],
+        dinner: ['dinner'],
+      }
+
+      for (const [key, values] of Object.entries(mealVariants)) {
+        if (values.includes(normalized)) return key
+      }
+      return 'unknown'
+    }
+    const mealItemsByType = { breakfast: [], lunch: [], dinner: [] }
+    veganMenuItems.forEach((item) => {
+      if (!item?.mealName || typeof item.mealName !== 'string') return
+
+      const normalizedMealType = normalizeMealType(item.mealType)
+      // const normalizedRestaurant = normalizeRestaurantName(item.restaurantName)
+
+      // if (!isValidCalorieRange(item.calories)) return
+
+      let finalMealType = normalizedMealType
+      if (finalMealType === 'unknown') {
+        for (const [mealType, restaurants] of Object.entries(mealOptions)) {
+          if (restaurants.includes(normalizedRestaurant)) {
+            finalMealType = mealType
+            break
+          }
+        }
+      }
+
+      if (finalMealType !== 'unknown') {
+        mealItemsByType[finalMealType].push(item)
+      }
+    })
+    const sortedMealItemsByType = {
+      breakfast: mealItemsByType.breakfast.sort((a, b) => b.calories - a.calories),
+      lunch: mealItemsByType.lunch.sort((a, b) => b.calories - a.calories),
+      dinner: mealItemsByType.dinner.sort((a, b) => b.calories - a.calories),
+    }
+    const totalCalories = calculateBMR(user)
+    const weeklyPlan = createWeeklyDietPlanService(
+      totalCalories,
+      sortedMealItemsByType,
+      { Franchise: 0, 'Dining-Halls': 21 },
+      ['breakfast', 'lunch', 'dinner']
+    )
+    return res.status(StatusCodes.OK).json({
+      sortedMealItemsByType,
+      message: 'Vegan Diet Plan fetched successfully.',
+      statusCode: StatusCodes.OK,
+    })
+  }),
+
+  getPaleoDiet: asyncMiddleware(async (req, res) => {
+    const token = req.headers.authorization?.split(' ')[1]
+    const decoded = jwt.decode(token)
+    const userId = decoded?._id
+    const user = await getUserById(userId)
+    const campus = user.student.school
+    const allMenuItems = await getCafeteriaItems(campus)
+
+    const nonPaleoIngredients = [
+      'wheat',
+      'oats',
+      'rice',
+      'barley',
+      'quinoa',
+      'corn',
+      'beans',
+      'lentils',
+      'soy',
+      'tofu',
+      'milk',
+      'cheese',
+      'butter',
+      'cream',
+      'yogurt',
+      'sugar',
+      'high fructose corn syrup',
+      'honey',
+      'canola oil',
+      'sunflower oil',
+      'margarine',
+      'processed',
+      'flour',
+      'bread',
+      'pasta',
+    ]
+
+    const isPaleo = (ingredients) => {
+      return !ingredients.some((ingredient) =>
+        nonPaleoIngredients.some((nonPaleo) => ingredient.toLowerCase().includes(nonPaleo))
+      )
+    }
+
+    const paleoMenuItems = allMenuItems.filter((item) => isPaleo(item.ingredients))
+
+    const normalizeMealType = (mealType) => {
+      const normalized = mealType?.trim().toLowerCase()
+
+      const mealVariants = {
+        breakfast: ['breakfast'],
+        lunch: ['lunch'],
+        dinner: ['dinner'],
+      }
+
+      for (const [key, values] of Object.entries(mealVariants)) {
+        if (values.includes(normalized)) return key
+      }
+      return 'unknown'
+    }
+
+    const mealItemsByType = { breakfast: [], lunch: [], dinner: [] }
+
+    paleoMenuItems.forEach((item) => {
+      if (!item?.mealName || typeof item.mealName !== 'string') return
+
+      const normalizedMealType = normalizeMealType(item.mealType)
+
+      let finalMealType = normalizedMealType
+      if (finalMealType === 'unknown') {
+        for (const [mealType, restaurants] of Object.entries(mealOptions)) {
+          if (restaurants.includes(item.restaurantName?.toLowerCase())) {
+            finalMealType = mealType
+            break
+          }
+        }
+      }
+
+      if (finalMealType !== 'unknown') {
+        mealItemsByType[finalMealType].push(item)
+      }
+    })
+
+    const sortedMealItemsByType = {
+      breakfast: mealItemsByType.breakfast.sort((a, b) => b.calories - a.calories),
+      lunch: mealItemsByType.lunch.sort((a, b) => b.calories - a.calories),
+      dinner: mealItemsByType.dinner.sort((a, b) => b.calories - a.calories),
+    }
+
+    const totalCalories = calculateBMR(user)
+
+    const weeklyPlan = createWeeklyDietPlanService(
+      totalCalories,
+      sortedMealItemsByType,
+      { Franchise: 0, 'Dining-Halls': 21 },
+      ['breakfast', 'lunch', 'dinner']
+    )
+
+    return res.status(StatusCodes.OK).json({
+      sortedMealItemsByType,
+      weeklyPlan,
+      message: 'Paleo Diet Plan fetched successfully.',
       statusCode: StatusCodes.OK,
     })
   }),
