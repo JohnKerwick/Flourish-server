@@ -150,7 +150,7 @@ export const createWeeklyDietPlanService = (
         }) || []
       if (availableMeals.length === 0) continue
 
-      let mainMeals = availableMeals.filter((meal) => meal.calories >= 300)
+      let mainMeals = availableMeals.filter((meal) => meal.calories >= 100)
       if (mainMeals.length === 0) continue
 
       mainMeals = _.shuffle(mainMeals)

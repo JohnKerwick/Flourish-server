@@ -19,10 +19,12 @@ export const CONTROLLER_DIET = {
     const decoded = jwt.decode(token)
     const userId = decoded?._id
     const user = await getUserById(userId)
-
+    const goal = user.goal
     const campus = user.student.school
     const allMenuItems = await getAllMenuItems(campus)
     const { dietPlan, selectedMeals } = req.body
+
+    // Function to normalize meal types
     const normalizeMealType = (mealType) => {
       const normalized = mealType?.trim().toLowerCase()
       const mealVariants = {
@@ -36,6 +38,7 @@ export const CONTROLLER_DIET = {
       }
       return 'unknown'
     }
+
     const normalizeRestaurantName = (name) => name?.trim().toLowerCase()
     const mealOptions = {
       breakfast: ['starbucks', 'jamba juice', 'village juice', 'taco bell'],
@@ -46,6 +49,7 @@ export const CONTROLLER_DIET = {
     const bestChipsNachosMeal = new Map()
     const filteredMenuItems = []
     const seenKeywords = new Set() // Track keywords like "chips" and "nachos"
+
     allMenuItems.forEach((item) => {
       const mealName = item.mealName.toLowerCase()
       const containsKeyword = ['chips', 'nachos'].find((word) => mealName.includes(word))
@@ -60,7 +64,10 @@ export const CONTROLLER_DIET = {
         filteredMenuItems.push(item) // ✅ Always add non-chips/nachos meals
       }
     })
+
     filteredMenuItems.push(...bestChipsNachosMeal.values())
+
+    // Organize meals by type
     const mealItemsByType = { breakfast: [], lunch: [], dinner: [] }
     filteredMenuItems.forEach((item) => {
       if (!item?.mealName || typeof item.mealName !== 'string') return
@@ -84,6 +91,8 @@ export const CONTROLLER_DIET = {
         mealItemsByType[finalMealType].push(item)
       }
     })
+
+    // Return error if no meals available for one or more types
     if (
       mealItemsByType.breakfast.length === 0 ||
       mealItemsByType.lunch.length === 0 ||
@@ -94,13 +103,27 @@ export const CONTROLLER_DIET = {
         statusCode: StatusCodes.NOT_FOUND,
       })
     }
+
+    // Sort meals by calories
     const sortedMealItemsByType = {
       breakfast: mealItemsByType.breakfast.sort((a, b) => b.calories - a.calories),
       lunch: mealItemsByType.lunch.sort((a, b) => b.calories - a.calories),
       dinner: mealItemsByType.dinner.sort((a, b) => b.calories - a.calories),
     }
+
+    // Normalize and fix meal calories (if needed) before using them
+    const normalizedBreakfast = normalizeMealCalories_Maintain(sortedMealItemsByType.breakfast, true)
+    const normalizedLunch = normalizeMealCalories_Maintain(sortedMealItemsByType.lunch, true)
+    const normalizedDinner = normalizeMealCalories_Maintain(sortedMealItemsByType.dinner, true)
+
+    // Now we can use the normalized meals in the diet plan generation
     const totalCalories = calculateBMR(user)
-    const weeklyPlan = createWeeklyDietPlanService(totalCalories, sortedMealItemsByType, dietPlan, selectedMeals)
+    const weeklyPlan = createWeeklyDietPlanService(
+      totalCalories,
+      { breakfast: normalizedBreakfast, lunch: normalizedLunch, dinner: normalizedDinner },
+      dietPlan,
+      selectedMeals
+    )
 
     return res.status(StatusCodes.OK).json({
       message: 'Weekly diet plan generated successfully.',
@@ -362,4 +385,108 @@ export const CONTROLLER_DIET = {
       statusCode: StatusCodes.OK,
     })
   }),
+}
+
+export const normalizeMealCalories_Maintain = (meals, shouldFix = false) => {
+  const MACRO_CALORIES = {
+    protein: 4,
+    fat: 9,
+    carbohydrate: 4,
+  }
+
+  return meals
+    .map((meal) => {
+      const { protein = 0, fat = 0, carbohydrate = 0, calories } = meal
+
+      // Calculate the total calories from the macronutrients
+      const calculatedCalories =
+        protein * MACRO_CALORIES.protein + fat * MACRO_CALORIES.fat + carbohydrate * MACRO_CALORIES.carbohydrate
+
+      // Calculate the fat percentage of the total calories
+      const fatPercentage = ((fat * MACRO_CALORIES.fat) / calculatedCalories) * 100
+
+      // Calculate the carbohydrate percentage of the total calories
+      const carbPercentage = ((carbohydrate * MACRO_CALORIES.carbohydrate) / calculatedCalories) * 100
+
+      // If the fat percentage is greater than 50%, or carbohydrate percentage is greater than 65%, skip this meal (filter it out)
+      if (fatPercentage > 50 || carbPercentage > 70) {
+        return null // Returning null will remove the meal from the array
+      }
+
+      const diff = Math.abs(calculatedCalories - calories)
+
+      const isMismatch = diff > 20 // more than 20 kcal difference
+
+      if (isMismatch && shouldFix) {
+        return {
+          ...meal,
+          calories: Math.round(calculatedCalories),
+          _calorieMismatch: true, // Optional: for debug tracking
+        }
+      }
+
+      return {
+        ...meal,
+        _calorieMismatch: isMismatch ? true : undefined, // Mark only if mismatch
+      }
+    })
+    .filter(Boolean) // Remove any null values (meals with >50% fat or >65% carbs)
+}
+
+export const normalizeMealCalories_HighProtien = (meals, shouldFix = false) => {
+  const MACRO_CALORIES = {
+    protein: 4,
+    fat: 9,
+    carbohydrate: 4,
+  }
+
+  return (
+    meals
+      .map((meal) => {
+        const { protein = 0, fat = 0, carbohydrate = 0, calories } = meal
+
+        const calculatedCalories =
+          protein * MACRO_CALORIES.protein + fat * MACRO_CALORIES.fat + carbohydrate * MACRO_CALORIES.carbohydrate
+
+        const proteinPercentage = ((protein * MACRO_CALORIES.protein) / calculatedCalories) * 100
+        const fatPercentage = ((fat * MACRO_CALORIES.fat) / calculatedCalories) * 100
+        const carbPercentage = ((carbohydrate * MACRO_CALORIES.carbohydrate) / calculatedCalories) * 100
+
+        // Add condition for high protein, and reduce fat & carb bias
+        const isHighProtein = proteinPercentage >= 25
+        const isAcceptableFat = fatPercentage <= 30
+        const isAcceptableCarb = carbPercentage <= 60
+
+        if (!isHighProtein || !isAcceptableFat || !isAcceptableCarb) {
+          return null
+        }
+
+        const diff = Math.abs(calculatedCalories - calories)
+        const isMismatch = diff > 20
+
+        if (isMismatch && shouldFix) {
+          return {
+            ...meal,
+            calories: Math.round(calculatedCalories),
+            _calorieMismatch: true,
+          }
+        }
+
+        return {
+          ...meal,
+          _calorieMismatch: isMismatch ? true : undefined,
+        }
+      })
+      .filter(Boolean)
+      // Optional: Sort meals with highest protein % first
+      .sort((a, b) => {
+        const aCalories = a.protein * 4 + a.fat * 9 + a.carbohydrate * 4
+        const bCalories = b.protein * 4 + b.fat * 9 + b.carbohydrate * 4
+
+        const aProteinRatio = (a.protein * 4) / aCalories
+        const bProteinRatio = (b.protein * 4) / bCalories
+
+        return bProteinRatio - aProteinRatio // highest protein first
+      })
+  )
 }
