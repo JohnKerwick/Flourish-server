@@ -45,14 +45,16 @@ export const CONTROLLER_DIET = {
       lunch: ['barberitos', 'qdoba', 'saladworks', 'bojangles'],
       dinner: ['subway', 'chick-fil-a', 'panera bread', 'panda express'],
     }
-    const isValidCalorieRange = (calories) => calories >= 50 && calories <= 900
+    const isValidCalorieRange = (calories) => calories >= 50 && calories <= 9000
     const bestChipsNachosMeal = new Map()
     const filteredMenuItems = []
     const seenKeywords = new Set() // Track keywords like "chips" and "nachos"
 
     allMenuItems.forEach((item) => {
       const mealName = item.mealName.toLowerCase()
-      const containsKeyword = ['chips', 'nachos'].find((word) => mealName.includes(word))
+      const containsKeyword = ['chips', 'nachos', 'tortilla', 'smoothies', 'cookies', 'burrito', 'quesadillas'].find(
+        (word) => mealName.includes(word)
+      )
 
       if (containsKeyword) {
         if (!seenKeywords.has(containsKeyword)) {

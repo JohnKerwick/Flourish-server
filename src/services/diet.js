@@ -308,6 +308,11 @@ export const createWeeklyDietPlanService = (
     dayPlan.proteinProvided = Math.trunc(totalProtein)
     dayPlan.fatProvided = Math.trunc(totalFat)
     dayPlan.carbsProvided = Math.trunc(totalCarbs)
+    for (const mealType of selectedMealTypes) {
+      if (Array.isArray(dayPlan[mealType])) {
+        dayPlan[mealType] = dayPlan[mealType].slice(0, 4)
+      }
+    }
     weeklyPlan.push(dayPlan)
   }
 
