@@ -10,7 +10,7 @@ import { CONTROLLER_SCRAPPER } from '../controllers'
 // Define the task using ES6 arrow function syntax
 
 export const task = schedule(
-  '* * * * *',
+  '0 0 0 * * *',
   () => {
     CONTROLLER_SCRAPPER.scrapeAllMenus()
   },

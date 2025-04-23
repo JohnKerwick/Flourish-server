@@ -13,7 +13,7 @@ import { createServer } from 'node:http'
 import { init } from './socket'
 import { initializeFirebase } from './utils/firebase'
 import dotenv from 'dotenv'
-import scheduleScraper from './utils/scrapper_cron'
+import { task } from './utils/scrapper_cron'
 // import { setupSocketEventHandlers } from './socketEvents'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)
@@ -51,6 +51,6 @@ app.use(errorHandler)
 app.get('/ping', (req, res) => res.send('Ping Successfulls 😄'))
 
 server.listen(PORT, async () => {
-  scheduleScraper()
+  task.start()
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })
