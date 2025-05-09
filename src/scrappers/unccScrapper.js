@@ -99,7 +99,7 @@ export const scrapeUNCC = async () => {
                           {
                             $set: {
                               restaurantName: location.name,
-                              campus: location.campus,
+                              campus: ['UNCC'],
                               ingredients: item.ingredients ? item.ingredients.split(',').map((i) => i.trim()) : [],
                               allergens: item.filters.filter((f) => f.type === 'allergen').map((f) => f.name),
                               dieteryPreferences: item.filters.filter((f) => f.type === 'label').map((f) => f.name),
