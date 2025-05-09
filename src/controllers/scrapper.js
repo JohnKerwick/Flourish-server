@@ -1935,18 +1935,18 @@ export const CONTROLLER_SCRAPPER = {
 
   async getNutritionixData(req, res) {
     const brands = [
-      { name: 'Panda Express', id: '513fbc1283aa2dc80c00002e', campus: ['UMD'] },
-      { name: 'Subway', id: '513fbc1283aa2dc80c000005', campus: ['HPU', 'UMD'] },
-      { name: 'Barberitos', id: '521b95434a56d006cae297f3', campus: ['HPU'] },
-      { name: 'Jamba', id: '513fbc1283aa2dc80c000040', campus: ['HPU'] },
-      { name: 'Chick-Fil-A', id: '513fbc1283aa2dc80c000025', campus: ['HPU', 'UMD', 'UNCC'] },
-      { name: 'Starbucks', id: '513fbc1283aa2dc80c00001f', campus: ['HPU', 'UNCC'] },
-      { name: 'Taco Bell', id: '513fbc1283aa2dc80c000020', campus: ['UMD'] },
-      { name: 'Panera Bread', id: '513fbc1283aa2dc80c00000c', campus: ['UMD'] },
-      { name: 'SaladWorks', id: '521b95444a56d006cae29993', campus: ['UMD'] },
-      { name: 'Qdoba', id: '513fbc1283aa2dc80c00003a', campus: ['UMD'] },
-      { name: "Auntie Anne's", id: '513fbc1283aa2dc80c00013e', campus: ['UNCC'] },
-      { name: 'Bojangles', id: '513fbc1283aa2dc80c0002eb', campus: ['UNCC'] },
+      { name: 'Panda Express', id: '513fbc1283aa2dc80c00002e', category: 'Dinner', campus: ['UMD'] },
+      { name: 'Subway', id: '513fbc1283aa2dc80c000005', category: 'Dinner', campus: ['HPU', 'UMD'] },
+      { name: 'Barberitos', id: '521b95434a56d006cae297f3', category: 'Lunch', campus: ['HPU'] },
+      { name: 'Jamba', id: '513fbc1283aa2dc80c000040', category: 'Breakfast', campus: ['HPU'] },
+      { name: 'Chick-Fil-A', id: '513fbc1283aa2dc80c000025', category: 'Dinner', campus: ['HPU', 'UMD', 'UNCC'] },
+      { name: 'Starbucks', id: '513fbc1283aa2dc80c00001f', category: 'Breakfast', campus: ['HPU', 'UNCC'] },
+      { name: 'Taco Bell', id: '513fbc1283aa2dc80c000020', category: 'Breakfast', campus: ['UMD'] },
+      { name: 'Panera Bread', id: '513fbc1283aa2dc80c00000c', category: 'Dinner', campus: ['UMD'] },
+      { name: 'SaladWorks', id: '521b95444a56d006cae29993', category: 'Lunch', campus: ['UMD'] },
+      { name: 'Qdoba', id: '513fbc1283aa2dc80c00003a', category: 'Lunch', campus: ['UMD'] },
+      { name: "Auntie Anne's", id: '513fbc1283aa2dc80c00013e', category: 'Dinner', campus: ['UNCC'] },
+      { name: 'Bojangles', id: '513fbc1283aa2dc80c0002eb', category: 'Breakfast', campus: ['UNCC'] },
     ]
 
     for (let brand of brands) {
@@ -1979,7 +1979,9 @@ export const CONTROLLER_SCRAPPER = {
               { name: food.food_name },
               {
                 name: food.food_name,
-                type: 'Unknown',
+                restaurantName: brand.name,
+                campus: brand.campus,
+                type: brand.category || 'Unknown',
                 ingredients: [],
                 allergens: [],
                 dieteryPreferences: [],

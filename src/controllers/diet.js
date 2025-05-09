@@ -14,7 +14,7 @@ import { asyncMiddleware } from '../middlewares'
 import { Diet, Notification } from '../models'
 
 export const CONTROLLER_DIET = {
-  getWeeklyDietPlan: asyncMiddleware(async (req, res) => {
+  getWeeklyDietPlanOld: asyncMiddleware(async (req, res) => {
     const token = req.headers.authorization?.split(' ')[1]
     const decoded = jwt.decode(token)
     const userId = decoded?._id
@@ -133,6 +133,8 @@ export const CONTROLLER_DIET = {
       statusCode: 200,
     })
   }),
+
+  getWeeklyDietPlan: asyncMiddleware(async (req, res) => {}),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {
     const dietPlanData = req.body

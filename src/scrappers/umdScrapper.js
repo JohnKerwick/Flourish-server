@@ -135,6 +135,8 @@ export const scrapeUMD = async () => {
             { name: item.mealName, type: item.mealType },
             {
               $set: {
+                restaurantName: restaurantName,
+                campus: campus,
                 ingredients,
                 allergens,
                 dieteryPreferences: item.dieteryPreferences,

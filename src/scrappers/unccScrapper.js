@@ -98,6 +98,8 @@ export const scrapeUNCC = async () => {
                           { name: item.name, type: periodData.menu.periods.name },
                           {
                             $set: {
+                              restaurantName: location.name,
+                              campus: location.campus,
                               ingredients: item.ingredients ? item.ingredients.split(',').map((i) => i.trim()) : [],
                               allergens: item.filters.filter((f) => f.type === 'allergen').map((f) => f.name),
                               dieteryPreferences: item.filters.filter((f) => f.type === 'label').map((f) => f.name),
