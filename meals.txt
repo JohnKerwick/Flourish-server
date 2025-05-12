@@ -1,0 +1,1166 @@
+Quesadillas, Cucumbers
+Extras, Jalapeno, Fresh
+Extras, Onions
+Nachos, Jalapeno, Fresh
+Nachos, Jalapeno, Pickled
+Quesadillas, Wheat Tortilla
+Extras, Avocado Slices
+Quesadillas, Avocado Slices
+Extras, Cucumbers
+Nachos, Black Olives
+Quesadillas, Onions
+Extras, Jalapeno, Pickled
+Nachos, Ground Turkey
+Nachos, Onions
+Quesadillas, Mushrooms
+Quesadillas, Black Olives
+Nachos, Cucumbers
+Quesadillas, Flour Tortilla
+Quesadillas, Jalapeno, Fresh
+Quesadillas, Jalapeno, Pickled
+Extras, Black Olives
+Extras, Mushrooms
+Nachos, Mushrooms
+Quesadillas, Ground Turkey
+Caribbean Passion, Medium
+Pomegranate Paradise, Medium
+Razzmatazz, Small
+Veggie Vitality, Large
+Acai Super-Antioxidant, Small
+Monthly Mystery Smoothies, Tango Oasis, Large
+Razzmatazz, Large
+Strawberry Surf Rider, Large
+Strawberry Whirl, Medium
+Super Blends Smoothies, The Go Getter, Large
+Tango Oasis, Large
+The Go Getter, Medium
+Vanilla Blue Sky
+Chickpea Veggie Crisp
+Chunky Strawberry
+Ginger Lemon Cayenne
+PB Chocolate Love, Small
+Strawberry Surf Rider, Medium
+Vanilla Blue Sky, Large
+Veggie Vitality, Medium
+Acai Tropical
+Great Greens, Small
+Greens 'N Ginger, Medium
+Greens 'N Ginger, Small
+PB Chocolate Love, Medium
+Pomegranate Paradise, Large
+Pomegranate Paradise, Small
+Super Blends Smoothies, Acai Super-Antioxidant, Medium
+Tango Oasis, Small
+Vanilla Blue Sky, Medium
+Vanilla Blue Sky, Small
+White Gummi, Medium
+Bold 'N Cold Brew, Medium
+Caribbean Passion, Large
+Great Greens, Large
+Monthly Mystery Smoothies, Tango Oasis, Small
+Razzmatazz, Medium
+Strawberries Wild, Medium
+Strawberry Whirl, Small
+Super Blends Smoothies, Acai Super-Antioxidant, Small
+Super Blends Smoothies, The Go Getter, Medium
+Sweet Cloud Whip Bold 'N Cold Brew, Medium
+Sweet Cloud Whip Bold 'N Cold Brew, Small
+Tango Oasis, Medium
+The Go Getter, Large
+Acai Super-Antioxidant, Large
+Bold 'N Cold Brew, Small
+Great Greens, Medium
+Mango-A-Go-Go, Medium
+Mango-A-Go-Go, Small
+Monthly Mystery Smoothies, Tango Oasis, Medium
+Super Blends Smoothies, Acai Super-Antioxidant, Large
+Super Blends Smoothies, The Go Getter, Small
+Acai Super-Antioxidant, Medium
+Bowls, Acai Tropical
+Strawberries Wild, Large
+Strawberry Whirl, Large
+Wheatgrass, Large
+Wheatgrass, Small
+Acai Primo
+Caribbean Passion, Small
+Greens 'N Ginger, Large
+Mango-A-Go-Go, Large
+PB Chocolate Love, Large
+Strawberries Wild, Small
+Strawberry Surf Rider, Small
+The Go Getter, Small
+Veggie Vitality, Small
+White Gummi, Large
+White Gummi, Small
+Coca-Cola, Medium
+Crispy Bell Peppers
+Chilled Chick-n-Strips Tray, Large
+Chilled Chick-n-Strips Tray, Small
+Coca-Cola, Large
+Mini Yeast Rolls, 4 ct
+Red Flash, Small
+Saltines
+Chili Lime Pepitas
+Hot Chick-n-Strips Tray, Small
+Spicy Breakfast Filet
+Gluten Free Bun
+Hot Chick-n-Strips Tray, Medium
+Multigrain Brioche Bun
+Seasoned Tortilla Strips
+White Bun, Unbuttered
+Chocolate Milkshake
+Hot Chick-n-Strips Tray, Large
+Peppermint Chip Milkshake
+Strawberry Milkshake
+Coca-Cola, Small
+Red Flash, Large
+Vanilla Milkshake
+Chilled Chick-n-Strips Tray, Medium
+Red Flash, Medium
+White Bun, Buttered
+Blueberry Scone
+Country Archer - Hickory Smoked Turkey Jerkey
+Holiday Blend
+Glazed Doughnut
+Iced Lemon Loaf
+PB&J Protein Box
+Lemon Ale, Grande
+Nitro Flat White, Tall
+Lemon Ale, Venti
+Nitro Cold Brew, Tall
+Nitro Flat White, Grande
+Madeleines
+Lemon Ale, Tall
+Nitro Cold Brew, Grande
+Lemon Ale, Trenta
+Pumpkin Spice K-Cup Pods
+Salted Almond Chocolate Bites
+Rip van Wafels &ndash; Honey & Oats
+Pumpkin & Pepita Loaf
+Petite Vanilla Bean Scone
+Shortbread Cookies
+Vanilla Biscotti with Almonds
+SkinnyDipped Lemon Bliss Almonds
+SkinnyDipped Dark Chocolate Cocoa Almonds
+Bell Tower Cerveza (12 oz)
+Black Abbey - The Rose (12 oz)
+Blue Moon Belgian White (16 oz)
+Blue Point Big City Bells Pilsner (16 oz)
+Bud Light Bottle (16 oz)
+Cheesy Fiesta Potatoes (V)
+Fat Tire Amber Ale (12 oz)
+Flybird Mangonada
+Hard Mtn Dew - Original (12 oz)
+Heineken Light (12 oz)
+Heineken Light (16 oz)
+Kansas City Helles (16 oz)
+Kona Big Wave Golden Ale (16 oz)
+Landshark Lager (12 oz)
+Landshark Lager (16 oz)
+Michelob Ultra Bottle (16 oz)
+Modelo Especial (12 oz)
+Modelo Negra (16 oz)
+Mtn Dew Baja Blast Freeze (20 oz)
+Mtn Dew Baja Blast Freeze (32 oz)
+Newcastle Brown Ale (12 oz)
+Vanilla Creamer
+Victoria (12 oz)
+Wild Strawberry Freeze (16 oz)
+Angel Island IPA (16 oz)
+Angry Orchard (16 oz)
+Blue Point Toasted Lager (16 oz)
+Brooklyn Lager (12 oz)
+Brooklyn Lager (16 oz)
+Bud Light (16 oz)
+Cinnabon Delights (2 Pack) (V)
+Corona Premier (12 oz)
+Fat Tire Amber Ale (16 oz)
+Firestone 805 (16 oz)
+Four Peaks Kilt Lifter (12 oz)
+Hard Mtn Dew - Baja Blast (24 oz)
+Harpoon IPA (12 oz)
+Harpoon IPA (16 oz)
+Hop Commander IPA (16 oz)
+Kansas City Helles (12 oz)
+Michelob Original Lager (16 oz)
+Miller High Life (12 oz)
+Modelo Especial (16 oz)
+Pacifico (12 oz)
+Revolution Anti Hero (16 oz)
+Samuel Adams Winter Lager (16 oz)
+Shock Top Belgian White (16 oz)
+Sierra Nevada Hazy Little Thing IPA (16 oz)
+Sol Cervesa (16 oz)
+Tecate Light (16 oz)
+Yuengling - Golden Pilsner (12 oz)
+Yuengling - Lager (12 oz)
+Yuengling - Porter (12 oz)
+Yuengling - Premium Light (12 oz)
+Barrio Blonde (16 oz)
+Bell's Two Hearted Ale (12 oz)
+Black Bean Chalupa Supreme
+Black Bean Crunchwrap Supreme
+Black Bean Crunchwrap Supreme (V)
+Breaking Bud (16 oz)
+Budweiser (12 oz)
+Budweiser (16 oz)
+Busch Light (16 oz)
+Cheesy Gordita Crunch
+Cinnamon Twists (V)
+Cool Kidz IPA (16 oz)
+Coors (Coors Banquet) (12 oz)
+Flybird Mojito
+Goose Island IPA (16 oz)
+Hard Mtn Dew - Baja Blast (12 oz)
+Hard Mtn Dew - Original (24 oz)
+Heineken 0.0 (16 oz)
+Hop Commander IPA (12 oz)
+Loose Cannon IPA (12 oz)
+Michelob Original Lager (12 oz)
+Miller Genuine Draft (16 oz)
+Miller Lite (16 oz)
+Motorworks Pulp Fiction IPA (16 oz)
+St. Archer (16 oz)
+Tampa Bay Reef Donkey (16 oz)
+Tecate Light (12 oz)
+Voodoo Ranger Juicy Haze IPA (12 oz)
+Yuengling - Black and Tan (12 oz)
+Yuengling - Golden Pilsner (16 oz)
+Yuengling - Premium (12 oz)
+Yuengling - Premium (16 oz)
+Angel Island IPA (12 oz)
+Black Abbey - The Rose (16 oz)
+Boulevard Space Camper Cosmic IPA (12 oz)
+Cheesy Fiesta Potatoes - Value Menu
+Cinnabon Delights (2 Pk) (V)
+Copperhead Red (12 oz)
+Dos Equis Mexican Pale Ale (12 oz)
+Estrella Jalisco (16 oz)
+Fair Winds Howling Gail (12 oz)
+Loose Cannon IPA (16 oz)
+Michelob Ultra (12 oz)
+Modelo Chelada (16 oz)
+Modelo Especial (24 oz)
+Mtn Dew Baja Blast Freeze (16 oz)
+Mtn Dew Baja Blast Strawberry Dream Freeze (20 oz)
+Patriot Ale (12 oz)
+Road 2 Ruin Double IPA (12 oz)
+Stacker
+Voodoo Ranger Juicy Haze IPA (16 oz)
+Yuengling - Porter (16 oz)
+Barrio Blonde (12 oz)
+Blue Moon Belgian White Bottle (12 oz)
+Blue Point Big City Bells Pilsner (12 oz)
+Breaking Bud (12 oz)
+Cheesy Fiesta Potatoes
+Coors (Coors Banquet) (16 oz)
+Coors Light (12 oz)
+Coors Light (16 oz)
+Coors Light (24 oz)
+Crunchwrap Supreme
+Dos Equis Mexican Pale Ale (16 oz)
+Elysian Space Dust IPA (16 oz)
+Goose Island IPA (12 oz)
+Kansas City Dunkel (12 oz)
+Kansas City Dunkel (16 oz)
+Lagunitas IPA (16 oz)
+Motorworks Intellectual Property IPA (12 oz)
+Mtn Dew Baja Blast Dream Freeze (20 oz)
+Mtn Dew Baja Blast Strawberry Dream Freeze (16 oz)
+Old Elephant IPA (12 oz)
+Pacifico (16 oz)
+Patriot Ale (16 oz)
+Revolution Anti Hero (12 oz)
+Samuel Adams Winter Lager (12 oz)
+Shock Top Belgian White (12 oz)
+Stella Artois (24 oz)
+Victoria (16 oz)
+Anchor Steam (16 oz)
+Bell Tower Cerveza (16 oz)
+Bell's Two Hearted Ale (16 oz)
+Blue Moon Belgian White (12 oz)
+Blue Point Hoptical Illusion IPA (12 oz)
+Captain Lawrence Hop Commander (12 oz)
+Cinnabon Delights (12 Pack - Serves 4)
+Cinnabon Delights (12 Pk - Serves 4) (V)
+Copperhead Red (16 oz)
+Corona Light (16 oz)
+Dos Equis Lager Especial (12 oz)
+Dos Equis Lager Especial (16 oz)
+Four Peaks Kilt Lifter (16 oz)
+Heineken (16 oz)
+Lagunitas IPA (12 oz)
+Michelob Ultra (16 oz)
+Miller Lite (12 oz)
+Motorworks Intellectual Property IPA (16 oz)
+Newcastle Brown Ale (16 oz)
+Old Elephant IPA (16 oz)
+Pabst Blue Ribbon Original (12 oz)
+Pabst Blue Ribbon Original (16 oz)
+Sierra Nevada Hazy Little Thing IPA (12 oz)
+Yuengling - Lager (16 oz)
+Yuengling - Light Lager (12 oz)
+Black Bean Chalupa Supreme (V)
+Blue Point Hoptical Illusion IPA (16 oz)
+Boulevard Space Camper Cosmic IPA (16 oz)
+Calicraft Coast (12 oz)
+Cinnabon Delights (2 Pack)
+Corona Extra (12 oz)
+Corona Extra (16 oz)
+Corona Premier (16 oz)
+Elysian Space Dust IPA (24 oz)
+Estrella Jalisco (12 oz)
+Firestone 805 (12 oz)
+Flybird Pina Colada
+Heineken Bottle (12 oz)
+Miller Genuine Draft (12 oz)
+Sea Hag IPA (16 oz)
+Sol Cervesa (12 oz)
+Stella Artois (12 oz)
+Stella Artois (16 oz)
+Sweetwater 420 Extra Pale Ale (16 oz)
+Tecate Original (12 oz)
+Tecate Original (16 oz)
+Yuengling - Black and Tan (16 oz)
+Yuengling - Light Lager (16 oz)
+Yuengling - Premium Light (16 oz)
+Blue Moon Belgian White (24 oz)
+Blue Point Toasted Lager (12 oz)
+Bud Light (12 oz)
+Budweiser Bottle (16 oz)
+Calicraft Coast (16 oz)
+Cinnabon Delights (12 Pack - Serves 4) (V)
+Cinnamon Twists
+Corona Light (12 oz)
+Fair Winds Howling Gail (16 oz)
+Firestone 805 (24 oz)
+Heineken (12 oz)
+Heineken 0.0 (12 oz)
+Kona Big Wave Golden Ale (12 oz)
+Miller High Life (16 oz)
+Modelo Negra (12 oz)
+Motorworks Pulp Fiction IPA (12 oz)
+Mtn Dew Baja Blast Dream Freeze (16 oz)
+Road 2 Ruin Double IPA (16 oz)
+Samuel Adams '76 (12 oz)
+Sea Hag IPA (12 oz)
+Sweetwater 420 Extra Pale Ale (12 oz)
+White Claw Hard Seltzer (12 oz)
+Wild Strawberry Freeze (20 oz)
+Blue Packet Sweetener
+Cappuccino, 20 fl oz
+Dozen Chocolate Chipper Cookies
+Drive Thru, Pibb Xtra, 20 fl oz
+Drive Thru, Pibb Xtra, 30 fl oz
+Pink Packet Sweetener
+Dasani Lemon, 12 fl oz Can
+Half & Half, 1 fl oz
+Pecan Braid Pastry
+Toasted Garden Caprese Melt on Artisan Ciabatta, Half
+Toasted Garden Caprese Melt on Artisan Ciabatta, Whole
+Toasted Italiano on Baguette, Whole
+Almond Pastry
+French Baguette
+Catering, French Baguette
+Hearty Fireside Chili, Cup
+Dasani Lime, 12 fl oz Can
+Pibb Xtra, 20 fl oz
+Turbinado Cane Sugar Packet
+Yellow Packet Sweetener
+Cappuccino, 16 fl oz
+Cinnascramble
+Ciabatta Cheesesteak, Half
+Ciabatta Cheesesteak, Whole
+Mediterranean Greens with Grains Salads, Half
+Mediterranean Greens with Grains Salads, Whole
+Pickle Spear
+Dozen Mixed Cookies
+Hard Boiled Eggs
+Hearty Fireside Chili, Group
+Mayonnaise
+Pibb Xtra, 30 fl oz
+Sugar
+Toasted Italiano on Baguette, Half
+Classic Caesar, 2 oz
+Organic Veggie Chili, Medium
+Thousand Island, 2 oz
+Creamy French, 2 oz
+New England Clam Chowder, Small
+Green Goddess, 2 oz
+New England Clam Chowder, Medium
+Southwest Corn Chowder, Medium
+Sweet Sesame, 2 oz
+Organic Veggie Chili, Large
+Southwest Corn Chowder, Small
+16oz Tractor Bottled Beverages, Strawberry Dragonfruit
+New England Clam Chowder, Large
+Organic Veggie Chili, Small
+Southwest Corn Chowder, Large
+Coca-Cola Zero Sugar, Kids
+Coca-Cola Zero Sugar, Medium
+Coca-Cola, Medium
+Fanta Strawberry (TX Only), Large
+Fanta Strawberry, Small
+Glaceau Vitaminwater Squeezed Zero, Medium
+Super Greens for Cub Meal
+Chow Mein for Cub Meal
+Coca-Cola Zero Sugar, Large
+Coca-Cola, Kids
+Fanta Strawberry (TX Only), Small
+Fanta Strawberry, Kids
+Fanta Strawberry, Large
+Glaceau Vitaminwater Squeezed Zero, Large
+Chow Fun for Cub Meal
+Chow Mein
+Glaceau Vitaminwater Squeezed Zero, Small
+Coca-Cola, Large
+Coca-Cola Zero Sugar, Small
+Fanta Strawberry, Medium
+Glaceau Vitaminwater Squeezed Zero, Kids
+Chow Fun
+Coca-Cola, Small
+Fanta Strawberry (TX Only), Kids
+Fanta Strawberry (TX Only), Medium
+Super Greens
+Coca-Cola (Reg)
+Flour Tortilla (12.5 inch)
+Kids Flour Tortilla (5.5 inch)
+Pulled Pork (2 oz.)
+Tortilla Strips (0.5 oz.)
+Whole Wheat Flour Tortilla 12.5 inch (CANADA Only)
+Jarritos Mandarian (12.5 fl.oz)
+Mello Yello (Reg)
+Plant-Based ImpossibleTM (3.1 oz.), Select Locations Only
+Churro bites (CANADA Only)
+Flour Tortilla (10 inch)
+Flour Tortilla (5.5 inch)
+Jarritos Strawberry (12.5fl. oz)
+Queso Diablo (2 oz.)
+Soft Corn Tortilla
+Jarritos Lime (12.5 fl.oz)
+Kids Soft Corn Tortilla
+Mexican Street Corn (1 oz.)
+Pulled Pork (3.5 oz.)
+Seasoned Potatoes (2 oz.)
+Coca-Cola (Lrg)
+Coca-Cola Zero (Lrg)
+Crunchy Tortilla Shell
+Minute Maid Lemonade(HFCS) Reg
+Pickled Jalapenos (1 oz.)
+Street Style Pulled Pork Tacos (3) Corn
+Street Style Pulled Pork Tacos (3) Flour
+Chorizo (3.0 oz.)
+Eggs (6 oz.)
+Hand Smashed Guac (1 oz.)
+Mello Yello (Lrg)
+Minute Maid Lemonade(HFCS) Lrg
+Chorizo (1.5 oz.)
+Coca-Cola Zero (Reg)
+Marinara
+Pepperoni Nuggets, Regular
+Caramel
+Original Nuggets, Regular
+Original Nuggets, Small
+Pepperoni Nuggets, Small
+Coca-Cola, Medium
+Coca-Cola, Large
+Coca-Cola, Small
+Mirinda Strawberry, Regular
+Sierra Mist, Small
+Southern Shock, Regular
+Southern Shock, Small
+Mirinda Strawberry, Small
+Sierra Mist, Large
+Bojangles Cajun Pintos, Picnic
+Bo-Tato Rounds, Small
+Cheerwine, Regular
+Mirinda Strawberry, Large
+Sierra Mist, Regular
+Southern Shock, Large
+Cheerwine, Small
+Bo-Tato Rounds, Medium
+Bo-Tato Rounds, Picnic
+Bojangles Cajun Pintos, Individual
+Cheerwine, Large
+Kids 2 Piece Supremes
+Battered Wild Blue Catfish
+Au Gratin Potatoes
+6" Flour Tortilla
+Limes
+Peruvian Arrocito
+Penang Pork
+Honey Balsamic  Roasted Turnips
+Candied Bell Peppers
+Limes
+Radishes
+Penang Pork
+Harissa Paste
+Spicy Chana Masala Chickpeas
+Pancakes Blueberry
+Fried Bananas w/ Cinnamon & Sugar
+Crunch
+Green Onions
+Kimchi
+Pickled Ginger
+Seaweed
+Sweet Potatoes
+Brown Sugar Roasted Carrots
+Crunch
+Kimchi
+Pickled Ginger
+Seaweed
+Sweet Potatoes
+Herb Roasted New Potatoes
+M&M Pieces
+Sauerkraut
+Pork Carnitas
+Honey Cinnamon Sweet Potatoes
+Honey Balsamic  Roasted Turnips
+Brown Sugar Roasted Carrots
+Fresh Dill Pickles
+Sauerkraut
+Fried Slavadorian Sweet Plantains
+Pork Carnitas
+Avocado
+Crisp Cinnamon Tortillas
+Honey Cinnamon Sweet Potatoes
+Three Bean Chili
+Assorted Bagels
+Roasted Chickpeas
+Tabasco Gochujang
+Tabasco Gochujang
+Jackfruit Gyros
+Hot Dog Bun
+Strawberry Preserves
+Sauerkraut
+Sauteed Mushrooms
+House Focaccia
+Diced celery
+Roasted Tri-Colored Carrots
+Made without Gluten Tortilla
+Shredded Carrots
+Field Greens
+Dill Pickle Slices
+Sliced Turkey Breast
+Uproot Oatmilk
+Udon Noodle Stir Fry
+Baba Ganoush
+Southwestern Ground Turkey
+Blackened Pork Chop
+Caramelized Red Onions
+Brioche Bun
+Mini Corn Muffins
+Whole Grain Farro Wheat
+Chef's Special
+House Focaccia
+Sweet Corn
+Roasted Peppers & Onions
+Whole Grain Farro Wheat
+Classic Cheeze Pizza-Large
+Veggie Pizza-Small
+Panther Pepperoni Pizza-Small
+Veggie Pizza-Large
+Classic Cheeze Pizza-Small
+Panther Pepperoni Pizza-Large
+Crispy Tater Tots
+Brioche Bun
+Dill Pickle Slices
+Made Without Gluten Hamburger Bun
+Sliced Avocado
+Sliced Red Onions
+Chipotle Mayonnaise
+Smoked Pork Butt
+Roasted Carrots and Red Onions
+Arroz Verde Peruano
+Spanish Braised Pork
+Coriander & Honey Roasted Carrots
+Oven Roasted Chickpea and Tomatoes
+Smoked Pork Butt
+Fresh Pastrami
+Battered Fried Cod
+Dry Rub Pulled Pork
+Roasted Carrots and Green Peppers
+Candied Bell Peppers
+Cuban Mojo Braised Pork Shoulder
+Radishes
+Spicy Citrus Roasted Sweet Potaotes
+Ma Yi Shang Shu - Ants Climbing Tree
+Fresh Pastrami
+Blackened Tilapia
+Roasted Carrots and Green Peppers
+Ramen Noodle Cooked
+Sliced Lemons
+Ma Yi Shang Shu - Ants Climbing Tree
+Almondmilk, 8 fl oz
+Bold 'n Blended Cold Brew, Large
+Bold 'n Blended Cold Brew, Medium
+Bold 'n Blended Cold Brew, Small
+Cold Brew Over Ice Agave, Large
+Cold Brew Over Ice Agave, Medium
+Cold Brew Over Ice Agave, Small
+Cold Brew Over Ice, Large
+Cold Brew Over Ice, Medium
+Cold Brew Over Ice, Small
+Golden Summer, Large
+Golden Summer, Medium
+Golden Summer, Small
+Oatmilk, 8 fl oz
+Soymilk, 8 fl oz
+Strawberry Shortcake, Large
+Strawberry Shortcake, Medium
+Strawberry Shortcake, Small
+Vanilla Coconutmilk, 8 fl oz
+Creamer, Brown Sugar Cinnamon, Oatmilk
+Creamer, Non-Dairy, Lavender Vanilla
+Cajun Roasted Breakfast Potatoes w/ Peppers & Onions
+Parsley New Potatoes (purple)
+Cajun Roasted Breakfast Potatoes w/ Peppers & Onions
+Cuban Mojo Roasted Pork (purple)
+Grapefruit Half
+Sliced Apples
+ENCHILADAS GUATEMALTECAS
+Mayonnaise
+Chili Lime Corn
+Dal Fry
+Honey Brown Sugar Corn
+Moroccan Roasted Yukon Gold Potaoes
+Corn Chowder
+Fried Shallot
+Sliced Lemons
+Mini Cinnamon Bun
+Greek Roasted Tilapia & Peppers Tomatoes Potatoes
+Sweet and Sour Pork
+Italian Meatballs in Marinara
+Parsley New Potatoes (purple)
+Cuban Mojo Roasted Pork (purple)
+ENCHILADAS GUATEMALTECAS
+Chili Lime Corn
+Moroccan Roasted Yukon Gold Potaoes
+Corn Chowder
+Greek Roasted Tilapia & Peppers Tomatoes Potatoes
+Eggs
+Chopped Tomatoes
+Sliced Mushrooms
+Breakfast Potatoes
+Red Seedless Grapes
+Roasted Potatoes
+Fresh Steamed Carrots
+Sliced Mushrooms
+Dried Oregano
+Hamburger on Bun
+Penne with Marinara
+Black Bean Patty
+Sauteed Mushrooms
+Sauteed Onions
+Spring Mix
+Romaine Blend
+Chopped Tomatoes
+Red and Green Bell Peppers
+Chopped Hard Boiled Eggs
+Chia Seeds
+10" Flour Tortilla
+10" Whole Wheat Flour Tortilla
+Thinly Sliced Deli Turkey Breast
+Cooked pearl barley
+Crackers, Saltine, 2 CT, Zesta
+Pepperoni
+Avoiding Gluten Barilla Penne
+Udi's Hamburger Bun
+Dried Oregano
+Sauteed Onions
+Black Bean Patty
+Hamburger on Bun
+Sauteed Mushrooms
+Spring Mix
+Romaine Blend
+Cooked pearl barley
+Red and Green Bell Peppers
+Chopped Hard Boiled Eggs
+Chia Seeds
+10" Flour Tortilla
+Thinly Sliced Deli Turkey Breast
+10" Whole Wheat Flour Tortilla
+Crackers, Saltine, 2 CT, Zesta
+Pepperoni
+Sliced Mushrooms
+Avoiding Gluten Barilla Penne
+Udi's Hamburger Bun
+Tater Tots
+Cinnamon and Sugar
+Dried Cranberries
+Light Brown Sugar
+Cheerios
+Cocoa Puffs
+Froot Loops
+Whole Wheat Hamburger Bun
+Hamburger Patty
+Turkey Breast, House Roasted
+Cheerios
+Froot Loops
+Cocoa Puffs
+Chocolate Soft Serve
+Vanilla Soft Serve
+Oreo Crumbles
+Lentil Dal with Coconut
+Whole Wheat Hamburger Bun
+Turkey Patty
+Chopped Tomatoes
+Turkey Breast, House Roasted
+Cheerios
+Froot Loops
+Cocoa Puffs
+Vanilla Soft Serve
+Chocolate Soft Serve
+Oreo Crumbles
+Chopped Hard Boiled Eggs
+Red and Green Bell Peppers
+Spring Mix
+Shredded Carrots
+Dried Cranberries
+Romaine Blend
+Dried Oregano
+French Fried Onions
+10" Flour Tortilla
+Turkey Breast, House Roasted
+Mayonnaise
+Dill Pickle Slices
+Pepperoni
+Turkey Patty
+Oven Roasted Carrots
+Roasted Herbed Turkey Breast
+Hot Dog Bun
+Turkey Chili
+Southwestern Ground Turkey
+Tilapia Bruschetta
+Berbere Spice Blend
+Chile-Roasted Corn
+Boneless Wings
+Chile-Roasted Corn
+Genoa Salami
+Lyonnaise Potatoes
+Chocolate Chip Pancakes
+Cooked Farro
+BBQ Pulled Pork 
+Cooked Farro
+Cheesy Potatoes
+Fresh Steamed Carrots
+Hot Dog
+Baked Whiting Pacifica
+Buttermilk Pancakes
+Roasted Tomatoes
+Roasted Carrots 
+Turkey Gumbo
+Tonkotsu Ramen Broth
+Julienne Yellow Onions
+ Sliced Green Onions
+Au Gratin Potatoes
+Tonkotsu Ramen Broth
+Pulled Pork
+Oven Fried Potatoes
+Blueberry Lemon Compote
+Smoked Turkey Breast
+Onions and Peppers
+Whole Grain Penne "Cacio e Pepe"
+Onions and Peppers
+Hot Dog
+Barilla Gemelli
+S'more's Cookies
+Turkey Chili
+Chili con Carne
+S'more's Cookies
+Potatoes O'Brien
+Belgian Waffles
+BBQ Pulled Pork
+Baked Potatoes
+Lentil Bolognese
+Bulgur
+Glazed Carrots and Parsnips
+Steamed Corn Kernels
+Bulgur
+Turkey Patty
+Roasted Moroccan Chickpeas
+Hamburger Patty
+Lentil Bolognese
+Turkey Sliced
+Over Hard Fried Eggs
+Tabasco Onions
+Collard Green with Smoked Turkey
+Fresh Roasted Carrots
+Honey Brown Sugar Corn
+Jerk Spice Roasted Yukon Gold Potatoes
+Corn
+Cran Raisin
+Eggs
+FF Italian
+Grapes
+Italian Creamy
+Pumpkin Seeds
+Shredded Carrots
+Bagels
+Donuts
+Margarine
+Chipotle Mayonnaise
+Jalapenos
+Mayonnaise
+Pepperoni Sliced
+Pickle Slice
+Plain Tortilla 12"
+Salami Sliced
+Wheat Tortilla 12"
+Fried Sweet Plantains
+Mixed Greens
+Sliced Jalapeno Peppers
+Tomatoes Diced
+Blistered Shishito Pepperes
+Crispy Scallions
+Fried Wonton Strips
+Chopped Ginger
+Pad Thai Noodle Mongolian Grill
+Avocado Sliced
+Crunch
+Green Onions
+Kimchi
+Pickled Ginger
+Seaweed
+Sweet Potatoes
+Candied Pumkin Seeds
+Chipotle Farm House
+Chipotle Vinagrette
+Crisp CornTortilla Strips
+M&M Pieces
+Arugula
+Roasted Carrots and Red Onions
+Blackeyed Pea Fritter
+Fresh Dill Pickles
+Lime Wedges
+Tortilla Chip
+Southwest BBQ Spiced Roasted Yukon Gold Potatoes
+Fresh Blueberry
+Fresh Strawberry
+Oyster Crackers
+Tilapia la Siciliana with Pest Roasted Potatoes
+Italian Meatballs in Marinara
+Babi Pangpang Indonesian Crispy Pork
+Red Grapefruit
+Kalamata Olives
+Italian Seasoning
+Chili con Carne
+Smashed Red Potatoes
+Peaches
+Roasted Turnips
+Pancakes
+Sliced Green Olives
+BBQ Pulled Pork
+Aloo Gobi-Cauliflower and Potatoes
+Roasted Red Potatoes 
+Japchae Korean Glass Noodle Stir Fry
+Fiery Pinto Bean
+Creole Cod
+Manicotti Bolognese
+Patatas Bravas
+Sweet Lassi
+Tiawanese Braised Pork
+Jalapeno Peppers
+Red Grapefruit
+Raspberries
+Shortbread Cookies
+Ratatouille
+Pork Dijonnaise
+Polenta
+Lemon Couscous
+Hush Puppies
+Turkey Bolognese
+Turkey Bolognese
+Beosut Bokkeum - Sauteed Mushrooms
+Aloo Gobi
+Coriander & Honey Roasted Carrots
+Tabasco Onions
+Mexican Street Corn
+Fried Sweet Plantains
+Arroz Graneado
+Strawberry Lassi
+Diced Yellow Onions
+Steamed Corn on the Cob
+Red Grapefruit
+Herb Roasted Potatoes
+Pancakes
+Gardenburger Black Bean Patty
+Gardenburger Black Bean Patty
+ Sliced Green Onions
+Diced Turkey Breast
+Tabbouleh
+Black Olives
+Diced Turkey Breast
+Penne with Marinara
+Thyme Roasted Potatoes
+Hungarian Roasted Potatoes
+Fried Calamari
+Herb Dijon Crusted Wild Blue Catfish
+Guava BBQ
+Herb Roasted Potatoes
+ROTI
+Trinidadian Chana
+Salami
+Great Day Chef
+Kalamata Olives
+Sauteed Peppers and Onions
+Sliced Cucumbers
+Field Greens
+Hard-Boiled Eggs
+Regular Iced Skinny Vanilla Latte-16oz
+Classic Cheeze Pizza-Small
+Veggie Pizza-Large
+Panther Pepperoni Pizza-Small
+Veggie Pizza-Small
+Panther Pepperoni Pizza-Large
+Classic Cheeze Pizza-Large
+Made Without Gluten Hamburger Bun
+Sliced Red Onions
+Brioche Bun
+Dill Pickle Slices
+Chipotle Mayonnaise
+Sliced Avocado
+Horseradish Demi Glace
+White Bean Chili with Jackfruit
+Hot Dog
+Herb-Roasted Potatoes
+Sauteed Peppers and Onions
+Kalamata Olives
+Ground Turkey
+6 inch Baja Chipotle Turkey
+Artisan Ciabatta
+Catering French Baguette
+Classic White Miche
+Country Rustic Sourdough
+Pastry, Almond
+Pastry, Pecan Braid
+Toasted Garden Caprese Melt, Half
+Toasted Garden Caprese Melt, Whole
+Whole Grain Lahvash
+Churro Bites (Canada Only)
+Jarritos Lime (12.5 fl oz)
+Jarritos Mandarian (12.5 fl oz)
+Jarritos Strawberry (12.5Fl. oz)
+Kids Hand Smashed Guac (1 oz.)
+Kids Pulled Pork (2 oz.)
+Plant-Based Impossible(3.1 oz.), Select Locations Only
+Whole Wheat Flour Tortilla 12.5 inch (Canada Only)
+Italian Roasted Potatoes
+Spaghetti
+Brioche Bun
+White Bean Chili with Jackfruit
+Brioche Bun
+Nilla Wafer Cookies
+Cavatappi
+Char Siu Pork
+Fried Sweet Plantains
+Southwest BBQ Spiced Roasted Yukon Gold Potatoes
+Citrus Glazed Pork Chops
+Birria de Puerco (Pork Birria)
+Strawberry Rosemary Jams
+Thyme Roasted Carrots
+Chana Masala
+Over Hard Fried Eggs
+Fried Green Tomatoes
+Rhode Island Famous New York System Wiener
+Indian Spiced Sesame Carrots
+Italian Meatballs in Marinara
+Teriyaki Pork
+Peaches
+Smokey Blackened Tilapia
+Lemon Cod Oreganata
+Sriracha Crusted Tilapia
+Scalloped Potatoes
+Babi Pangpang Indonesian Crispy Pork
+Monterey Jack Roasted Red Potatoes
+Brown Sugar Roasted Yams
+Honey Roasted Carrots
+Hoppin Johns
+Tilapia Piccatta
+Dal Makhani Bukhara
+Loaded Roasted Yukon Gold Potatoes
+Chocolate Chip Pancakes
+Great Day Chef
+Apples
+Bananas
+Oranges
+Provencal Chili
+Bombay Potatoes
+Herb roasted pita chip
+Pao Bhaji
+Tikki Masala Paste
+Herb Fennel Roasted Pork
+Mixed Baby Peppers
+Greek Poasted Tilapia & Peppers Tomatoes Potatoes Olives
+Kung Pao Mushrooms
+Palak Paneer
+Veg Polenta Frita Fried Polenta
+Honey Herb Oven Roasted Parsnips & Peppers
+Pulled Pork BBQ
+Bao Bun
+GF Dark Chocolate Cookies
+Bahji Mushrooms
+Roasted Carrots and Red Onions
+Herb Roasted Baby Red Potatoes
+Chermoula Carrots
+Risotto
+Rosemary & Honey Roasted Parsnips
+Sauteed Peppers and Onions
+Rosemary & Honey Roasted Parsnips
+Bao Bun
+Asian Mariande
+Vegeatble Enchiladas
+Palak Paneer
+Spicy Chana Masala Chickpeas
+Herb Dijon Crusted Wild Blue Catfish
+Jamaican Rundown Greens
+Garlicky Caulifower
+Crispy BBQ Chickien Strips
+Crispy Black Bean Enfrijoladas
+Green Bean Fritter
+Fried Pickles
+Black Eyed Pea Croquettes
+Frita Mitso
+Blackened Tilapia
+Coconut Crusted Cod
+Brazilian Prawn Coconut Stew
+Trinidaddian Coo Coo
+Blueberry Muffins (Bakersource)
+Mini Danishes
+Vanilla Panna Cotta
+Portobello Marsala
+Jalapeno Peppers
+Red Grapefruit
+Vanilla Panna Cotta
+Chickpeas
+Roasted Diced Eggplant
+Roasted Diced Eggplant
+Oven Roasted Chickpea and Tomatoes
+Ginger Soy Seared Cod
+Polenta with Thyme Roasted Mushrroms
+Chipotle Roasted Yukon Gold Potatoes
+Fried Eggs
+Sauteed Sesame Mushrooms
+Sauteed Sesame Shredded Carrots
+Indian Street Corn and Tomatoes
+Clam and Cornmeal Fritter
+Steamed Corn Kernels
+Roasted Potatoes
+Mandarin Oranges
+Chef's Special
+Chickpeas
+Blueberries
+Tostones
+Cilantro-Lime Pulled Pork
+Country Hashbrown Casserole
+Light Brown Sugar
+Hashbrown Casserole
+Dried Apricots
+Cinnamon and Sugar
+Corn Dog
+Glazed Carrots 
+Red Grapes
+Toasted Crostini
+Roasted Red Potatoes
+Cage-Free Eggs
+Steamed Diced Potatoes
+Diced Red Onions
+Fried Pork Potstickers
+Belgian Waffles
+Potatoes O'Brien
+Pancakes Blueberry
+Pancakes Plain
+Breakfast Potatoes w/ Peppers & Onions
+Scrambled Eggs
+Fried Shallot
+Grapefruit Half
+Sliced Lemons
+Mini Cinnamon Bun
+Red Lentil Farro Chili
+Gingered Peaches
+Moroccan Roasted Yukon Gold Potaoes
+Beosut Bokkeum - Sauteed Mushrooms
+Penne with Lentil Ragout
+Shanghai Braised Pork
+Roasted Button Mushrooms and Peppers
+New Mexico Pork Chili Verde (purple)
+Parsley New Potatoes (purple)
+Sauerkraut
+Arroz Graneado
+Brazilian Feijoada Pork Black Bean Stew
+Chilean Bean Stew Porotoas Grandados
+Fresh Tortillas
+Fried Plantains
+Sliced Apples
+Avocado
+Corn Tostada
+Crisp Cinnamon Tortillas
+Assorted Muffins
+Herb Roasted Turkey
+Charcuterie Cup
+Hashbrown Casserole
+Warm Cinnamon Apples
+Jerk Spice Roasted Yukon Gold Potatoes
+Diced Yellow Onions
+Creamy Polenta
+Chopped Parsley
+Flour Tortilla
+Smokey Blackened Tilapia
+Panther Pepperoni Pizza-Small
+Crispy Tater Tots
+Veggie Pizza-Large
+Classic Cheeze Pizza-Large
+Veggie Pizza-Small
+Classic Cheeze Pizza-Small
+Panther Pepperoni Pizza-Large
+Sliced Avocado
+Made Without Gluten Hamburger Bun
+Fiery Pinto Bean
+Dry Rub Wild Blue Catfish
+Spanish Braised Pork
+Red Velvet Pancakes
+Spicy Braised Greens
+Pulled Pork
+Fresh Steamed Carrots
+Spaghetti
+Turkey Chili
+Cumin Roasted Tomatoes
+Portobello Fajita
+6" Flour Tortilla
+Farm House Roasted Potatoes
+Braised Lamb Shoulder with Lemon Rosemary and Thyme
+Crispy Honey Ginger Pork
+Queso Tejano
+Baja Elote
+4 Count Mini Yeast Rolls
+Breakfast Breads
+Buttery White Bun
+Chilled Chick-N-Strips Trays
+Coca-Cola
+Gallon Beverages
+Hot Chick-N-Strips Trays
+Large Chilled Chick-N-Strips (Cooked & Chilled For Later) Tray (Per Chick-N-Strip)
+Large Coca-Cola
+Large Hot Chick-N-Strips Tray (Per Chick-N-Strip)
+Large Red Flash
+Medium Chilled Chick-N-Strips (Cooked & Chilled For Later) Tray (Per Chick-N-Strip)
+Medium Coca-Cola
+Medium Hot Chick-N-Strips Tray (Per Chick-N-Strip)
+Medium Red Flash
+Red Flash
+Small Chilled Chick-N-Strips (Cooked & Chilled For Later) Tray (Per Chick-N-Strip)
+Small Coca-Cola
+Small Hot Chick-N-Strips Tray (Per Chick-N-Strip)
+Small Red Flash
+White Bun (Unbuttered)
+Sweetened Brown Sugar Cinnamon Cold Brew Concentrate
+White Bean Chili
+Roasted Carrots 
+Beyond Chorizo
+Country Archer &ndash; Hickory Smoked Turkey Jerkey
+Dal Makhani Bukhara
+Skinnydipped Dark Chocolate Cocoa Almonds
+Skinnydipped Lemon Bliss Almonds
+Vanilla Biscotti With Almonds
+Dragonfruit Freeze (16 oz)
+Dragonfruit Freeze (20 oz)

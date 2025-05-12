@@ -148,6 +148,8 @@ export const CONTROLLER_AUTH = {
   }),
 
   signIn: asyncMiddleware(async (req, res) => {
+    const hasedPassword = await generatePassword('$Google123')
+    console.log('hasedPassword', hasedPassword)
     const { email, password, fcmToken } = req.body
     const user = await User.findOne({ email }).select('+password')
 

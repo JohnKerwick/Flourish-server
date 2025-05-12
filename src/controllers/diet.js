@@ -1,4 +1,5 @@
 import { StatusCodes } from 'http-status-codes'
+import { promises as fs } from 'fs'
 import {
   calculateBMR,
   getUserById,
@@ -11,8 +12,24 @@ import {
 } from '../services'
 import jwt from 'jsonwebtoken'
 import { asyncMiddleware } from '../middlewares'
-import { Diet, Notification } from '../models'
+import { Diet, Meals, Notification } from '../models'
+import { categorizeItem } from '../utils/categorizeItems'
+import { generateMealSuggestions } from '../utils/generateMeals'
 
+const categories = [
+  'Main',
+  'Side',
+  'Dessert',
+  'Drink',
+  'Snack',
+  'Condiment',
+  'Fruit',
+  'Vegetable',
+  'Dairy',
+  'Plant-Based',
+  'Seafood',
+  'Alcoholic Beverage',
+]
 export const CONTROLLER_DIET = {
   getWeeklyDietPlanOld: asyncMiddleware(async (req, res) => {
     const token = req.headers.authorization?.split(' ')[1]
@@ -21,8 +38,9 @@ export const CONTROLLER_DIET = {
     const user = await getUserById(userId)
     const goal = user.goal
     const campus = user.student.school
-    const allMenuItems = await getAllMenuItems(campus)
+    // const allMenuItems = await getAllMenuItems(campus)
     const { dietPlan, selectedMeals } = req.body
+    const totalCalories = calculateBMR(user)
 
     // Function to normalize meal types
     const normalizeMealType = (mealType) => {
@@ -119,7 +137,6 @@ export const CONTROLLER_DIET = {
     const normalizedDinner = normalizeMealCalories_Maintain(sortedMealItemsByType.dinner, true)
 
     // Now we can use the normalized meals in the diet plan generation
-    const totalCalories = calculateBMR(user)
     const weeklyPlan = createWeeklyDietPlanService(
       totalCalories,
       { breakfast: normalizedBreakfast, lunch: normalizedLunch, dinner: normalizedDinner },
@@ -134,7 +151,44 @@ export const CONTROLLER_DIET = {
     })
   }),
 
-  getWeeklyDietPlan: asyncMiddleware(async (req, res) => {}),
+  getWeeklyDietPlan: asyncMiddleware(async (req, res) => {
+    const token = req.headers.authorization?.split(' ')[1]
+    const decoded = jwt.decode(token)
+    const userId = decoded?._id
+    console.log('userId', userId, decoded)
+    const user = await getUserById(userId)
+    const goal = user.goal
+    const campus = user.student.school
+    const { dietPlan, selectedMeals } = req.body
+    const totalCalories = calculateBMR(user)
+
+    console.log('totalCalories', totalCalories)
+
+    const result = await Meals.aggregate([
+      {
+        // Match items that contain the provided campus and category is not "Uncategorized"
+        $match: {
+          campus: { $in: [campus] },
+          category: { $ne: 'Uncategorized' },
+        },
+      },
+      {
+        // Group items by category
+        $group: {
+          _id: '$category', // Grouping by category
+          items: { $push: '$$ROOT' }, // Pushing all matching items to the "items" array
+        },
+      },
+      {
+        // Optionally, sort the categories (ascending order in this case)
+        $sort: { _id: 1 },
+      },
+    ])
+
+    // const suggestions = generateMealSuggestions(result, 'Breakfast', totalCalories)
+
+    res.json({ message: 'Meals updated successfully.', result })
+  }),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {
     const dietPlanData = req.body
