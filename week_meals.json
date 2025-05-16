@@ -1,0 +1,347 @@
+[
+  {
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "name": "Vegan Smoked Gouda Scrambled Eggs",
+        "calories": 492.4,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Orange Wedges",
+        "calories": 103.9,
+        "resturantName": "Yahentamitsi Dining Hall"
+      }
+    ]
+  },
+  {
+    "mealType": "Lunch",
+    "items": [
+      {
+        "name": "Chicken Caesar Wrap",
+        "calories": 375.2,
+        "resturantName": "South Campus"
+      },
+      {
+        "name": "French Dressing",
+        "calories": 70.3,
+        "resturantName": "South Campus"
+      }
+    ]
+  },
+  {
+    "mealType": "Dinner",
+    "items": [
+      {
+        "name": "Grilled Naan",
+        "calories": 351.4,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Vegan Mayonnaise",
+        "calories": 101.3,
+        "resturantName": "Yahentamitsi Dining Hall"
+      }
+    ]
+  },
+  {
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "name": "Breakfast Pizza",
+        "calories": 620.4,
+        "resturantName": "Yahentamitsi Dining Hall"
+      }
+    ]
+  },
+  {
+    "mealType": "Lunch",
+    "items": [
+      {
+        "name": "Chicken Salad & Cheddar Melt",
+        "calories": 525.5,
+        "resturantName": "South Campus"
+      }
+    ]
+  },
+  {
+    "mealType": "Dinner",
+    "items": [
+      {
+        "name": "Grilled Chicken Club with No Cheese",
+        "calories": 440,
+        "resturantName": "Chick-Fil-A"
+      }
+    ]
+  },
+  {
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "name": "Scrambled Cheesy Cheddar Egg",
+        "calories": 241.3,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Banana Coconut Spinach Smoothie",
+        "calories": 111,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Mini Croissant",
+        "calories": 123.2,
+        "resturantName": "Yahentamitsi Dining Hall"
+      }
+    ]
+  },
+  {
+    "mealType": "Lunch",
+    "items": [
+      {
+        "name": "Chicken Karahi",
+        "calories": 118.2,
+        "resturantName": "South Campus"
+      },
+      {
+        "name": "Tomato Basil Soup",
+        "calories": 235.5,
+        "resturantName": "South Campus"
+      },
+      {
+        "name": "French Dressing",
+        "calories": 70.3,
+        "resturantName": "South Campus"
+      }
+    ]
+  },
+  {
+    "mealType": "Dinner",
+    "items": [
+      {
+        "name": "Polynesian Sauce",
+        "calories": 110,
+        "resturantName": "Chick-Fil-A"
+      },
+      {
+        "name": "Grilled Chicken Club with Pepper Jack",
+        "calories": 520,
+        "resturantName": "Chick-Fil-A"
+      }
+    ]
+  },
+  {
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "name": "French Toast",
+        "calories": 250.8,
+        "resturantName": "251 North"
+      },
+      {
+        "name": "Banana",
+        "calories": 109.8,
+        "resturantName": "251 North"
+      },
+      {
+        "name": "Bacon Bits",
+        "calories": 127.3,
+        "resturantName": "Yahentamitsi Dining Hall"
+      }
+    ]
+  },
+  {
+    "mealType": "Lunch",
+    "items": [
+      {
+        "name": "Buffalo Chicken Pizza",
+        "calories": 214.8,
+        "resturantName": "251 North"
+      },
+      {
+        "name": "Basil Pesto Roasted Red pepper Pasta Salad",
+        "calories": 163.3,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Potato Salad",
+        "calories": 150.7,
+        "resturantName": "Yahentamitsi Dining Hall"
+      }
+    ]
+  },
+  {
+    "mealType": "Dinner",
+    "items": [
+      {
+        "name": "Italian Sausage and Peppers",
+        "calories": 276.6,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Biscuit",
+        "calories": 272.2,
+        "resturantName": "Yahentamitsi Dining Hall"
+      }
+    ]
+  },
+  {
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "name": "Egg Cheese Breakfast Croissant",
+        "calories": 358.3,
+        "resturantName": "251 North"
+      },
+      {
+        "name": "Avocado Toast",
+        "calories": 175.1,
+        "resturantName": "251 North"
+      }
+    ]
+  },
+  {
+    "mealType": "Lunch",
+    "items": [
+      {
+        "name": "Chicken Tortilla  Soup",
+        "calories": 129.6,
+        "resturantName": "South Campus"
+      },
+      {
+        "name": "Grilled Chicken Breast",
+        "calories": 179.8,
+        "resturantName": "251 North"
+      },
+      {
+        "name": "Potato Chips",
+        "calories": 135.1,
+        "resturantName": "South Campus"
+      }
+    ]
+  },
+  {
+    "mealType": "Dinner",
+    "items": [
+      {
+        "name": "Carmelized Onion & Balsamic Glaze",
+        "calories": 105.1,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Breaded Chicken Cutlet",
+        "calories": 259.4,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Grilled Lemon Pepper Salmon",
+        "calories": 139.2,
+        "resturantName": "251 North"
+      }
+    ]
+  },
+  {
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "name": "Special K Berry",
+        "calories": 503,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Banana Coconut Spinach Smoothie",
+        "calories": 111,
+        "resturantName": "Yahentamitsi Dining Hall"
+      }
+    ]
+  },
+  {
+    "mealType": "Lunch",
+    "items": [
+      {
+        "name": "Grilled Ham and Cheddar Grilled Cheese Sandwich",
+        "calories": 321.2,
+        "resturantName": "South Campus"
+      },
+      {
+        "name": "French Fries",
+        "calories": 124.9,
+        "resturantName": "South Campus"
+      }
+    ]
+  },
+  {
+    "mealType": "Dinner",
+    "items": [
+      {
+        "name": "Honey BBQ Grilled Salmon",
+        "calories": 173.2,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Buffalo Popcorn Shrimp",
+        "calories": 321.1,
+        "resturantName": "South Campus"
+      }
+    ]
+  },
+  {
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "name": "Scrambled Eggs Tomato Pepper Jack Cheese",
+        "calories": 239.4,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Cereal Granola",
+        "calories": 193.8,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Banana",
+        "calories": 109.8,
+        "resturantName": "251 North"
+      }
+    ]
+  },
+  {
+    "mealType": "Lunch",
+    "items": [
+      {
+        "name": "Chicken Enchiladas",
+        "calories": 229.3,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "name": "Vegetable Shawarma Flat Bread",
+        "calories": 159.7,
+        "resturantName": "South Campus"
+      },
+      {
+        "name": "Basil & Pepper Gourmet Beans",
+        "calories": 150.3,
+        "resturantName": "South Campus"
+      }
+    ]
+  },
+  {
+    "mealType": "Dinner",
+    "items": [
+      {
+        "name": "Chicken Philly Steak",
+        "calories": 125.2,
+        "resturantName": "South Campus"
+      },
+      {
+        "name": "Basil Pesto Roasted Yukon Gold Potatoes",
+        "calories": 120.8,
+        "resturantName": "South Campus"
+      },
+      {
+        "name": "Red Lentil Penne Pasta",
+        "calories": 169.8,
+        "resturantName": "251 North"
+      }
+    ]
+  }
+]

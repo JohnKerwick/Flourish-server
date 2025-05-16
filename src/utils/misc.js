@@ -1,145 +1,222 @@
-// import axios from 'axios'
-// import { isEmpty } from 'lodash'
 import mongoose from 'mongoose'
-// import { USER_STATUS } from './user'
-// import { Readable } from 'stream'
-// import OrderID from 'ordersid-generator'
-// import numeral from 'numeral'
 
 export const toObjectId = (id) => {
   return mongoose.Types.ObjectId(id)
 }
-// export const getNewInvoiceNumber = () => {
-//   // return OrderID('long')
-//   return OrderID('short', process.env.CLIENT_NAME.replace(' ', ''))
-// }
-
-// export function formatToCurrency(number) {
-//   return numeral(number).format('$0,0.00')
-// }
-
-// export const getRandomWholeNumber = (min, max) => {
-//   return Math.floor(Math.random() * (max - min) + min)
-// }
-
-// export function fRemainingDays({ endDate, startDate = Date.now() }) {
-//   const countDownDate = new Date(endDate).getTime()
-//   const now = new Date(startDate).getTime()
-//   const timeleft = countDownDate - now
-//   const days = Math.ceil(timeleft / (1000 * 60 * 60 * 24))
-
-//   return days
-//   // let duration = intervalToDuration({
-//   //   start: new Date(date),
-//   //   end: new Date(),
-//   // })
-
-//   // console.log('duration', duration)
-//   // return formatDuration(duration, {
-//   //   delimiter: ', ',
-//   // })
-// }
-
-// export const bufferToStream = (binary) => {
-//   const readableInstanceStream = new Readable({
-//     read() {
-//       this.push(binary)
-//       this.push(null)
-//     },
-//   })
-
-//   return readableInstanceStream
-// }
-
-// export const removeSeperatorKey = (fileKey) => {
-//   const seperator = '-seperator-'
-
-//   const transformed = fileKey.includes(seperator)
-//     ? fileKey.slice(fileKey.indexOf(seperator) + seperator.length, fileKey.length)
-//     : fileKey
-
-//   return transformed
-// }
-
-// export const filterNullUndefined = (arr) => {
-//   const newArray = arr.filter((a) => a !== undefined && a !== null && !isNaN(a))
-//   return newArray
-// }
-
-// export const getFacebookUserData = async (access_token) => {
-//   const { data } = await axios.get('https://graph.facebook.com/me', {
-//     params: {
-//       fields: ['id', 'email', 'first_name', 'last_name', 'picture'].join(','),
-//       access_token,
-//     },
-//   })
-//   return data
-// }
-
-// export const getRandomString = () => {
-//   const random = Math.random().toString(36)
-//   return random.slice(2, random.length)
-// }
 
 export const getLoginLinkByEnv = () => {
   return process.env.CLOUD === 'DEV_CLOUD' ? process.env.DOMAIN_FRONT_DEV : process.env.DOMAIN_PROD
 }
 
-// export const getSanitizeCompanyName = (company, countryCode) => {
-//   console.log('company, countryCode', company, countryCode)
-//   return countryCode?.toLowerCase() + '-' + company?.toLowerCase().replace(/[^a-z]/gi, '')
-// }
+export const getMaxCaloriesPerMeal = (mealsPerWeek, mealType, dailyCalories, margin) => {
+  const mealsPerDay = mealsPerWeek / 7
 
-// export const filterDeletedItem = (arr) => {
-//   return arr.filter((item) => item.status === USER_STATUS.active)
-// }
-// export const escapeRegex = (text) => {
-//   return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')
-// }
+  if (mealsPerDay === 1) {
+    return dailyCalories + margin
+  }
 
-// export const getEndDateByDurationYear = (duration) => {
-//   const endDate = new Date()
-//   if (duration !== '1 year') endDate.setFullYear(endDate.getFullYear() + 2)
-//   else endDate.setFullYear(endDate.getFullYear() + 1)
-//   return endDate
-// }
+  if (mealsPerDay === 2) {
+    return dailyCalories / 2 + margin
+  }
 
-// export const sortByLatestDate = (array, key) =>
-//   array.sort(function (a, b) {
-//     return new Date(b[key]) - new Date(a[key])
-//   })
+  if (mealsPerDay >= 3) {
+    if (mealType.includes('Breakfast')) return dailyCalories * 0.4 + margin
+    return dailyCalories * 0.3 + margin
+  }
 
-// export const extractAssessmentIdFromReportKey = (key) => {
-//   const arraySplited = key.split('-')
-//   const keyContainsId = arraySplited.length === 5
+  return dailyCalories + margin // fallback
+}
 
-//   if (keyContainsId) {
-//     const companyAndId = arraySplited[1]
-//     const id = companyAndId.slice(companyAndId.indexOf('/') + 1, companyAndId.length)
+export const dietPlanModify = (mealRecommendations, dietPlan) => {
+  let modifiedPlan
 
-//     return id
-//   }
-// }
-// export const filterReportsByAssessmentIds = (array, ids = []) =>
-//   array?.filter((item) => {
-//     const idFromKey = extractAssessmentIdFromReportKey(item?.Key)
+  // Extract values safely
+  const { franchise, diningHall } = dietPlan
 
-//     return ids.indexOf(idFromKey) !== -1
-//   })
+  // Check if both Franchise and DiningHall values are provided
 
-// export const sortByFirstDate = (array, key) =>
-//   array.sort(function (a, b) {
-//     return new Date(a[key]) - new Date(b[key])
-//   })
+  let franchiseCount = 0
+  let diningHallCount = 0
+  if (franchise > 0 || diningHall >= 0) {
+    modifiedPlan = mealRecommendations.map((mealType) => {
+      const franchiseMeals = mealType.recommendations.flatMap((item) =>
+        item.items.filter((i) => i.restaurantType === 'Franchise')
+      )
+      const diningHallMeals = mealType.recommendations.flatMap((item) =>
+        item.items.filter((i) => i.restaurantType === 'Dining-Halls')
+      )
 
-// export const getShortName = (string) => {
-//   if (isEmpty(string)) return ''
+      console.log('franchiseMeals', franchiseMeals)
+      console.log('diningHallMeals', diningHallMeals)
 
-//   let shortName = string.slice(0, 2)
-//   const splittedName = string.split(' ')
+      franchiseCount = franchiseCount + franchiseMeals.length
+      diningHallCount = diningHallCount + diningHallMeals.length
+      return {
+        ...mealType,
+        franchiseCount: franchiseMeals.length,
+        diningHallCount: diningHallMeals.length,
+      }
+    })
 
-//   if (splittedName.length >= 2)
-//     shortName = splittedName[0].charAt(0) + splittedName[splittedName.length - 1].replace('&\r\n', '').charAt(0)
+    console.log('franchiseCount', franchiseCount)
+    console.log('diningHallCount', diningHallCount)
+    // Optionally calculate total count if needed
+    // const totalFranchise = modifiedPlan.reduce(
+    //   (sum, meal) => sum + meal.franchiseCount,
+    //   0
+    // );
+    // const totalDiningHall = modifiedPlan.reduce(
+    //   (sum, meal) => sum + meal.diningHallCount,
+    //   0
+    // );
 
-//   return shortName.toUpperCase()
-// }
+    // return {
+    //   modifiedPlan,
+    //   totalFranchise,
+    //   totalDiningHall,
+    // };
+  }
+
+  return modifiedPlan
+}
+
+export const caloriesInMeal = (selectedMeal, totalCalories) => {
+  const caloriesPerMeal = {}
+  if (selectedMeal.length === 3) {
+    if (selectedMeal.includes('Breakfast')) {
+      caloriesPerMeal.Breakfast = totalCalories * 0.4
+    }
+    if (selectedMeal.includes('Lunch')) {
+      caloriesPerMeal.Lunch = totalCalories * 0.3
+    }
+    if (selectedMeal.includes('Dinner')) {
+      caloriesPerMeal.Dinner = totalCalories * 0.3
+    }
+  }
+  if (selectedMeal.length === 2) {
+    if (selectedMeal.includes('Breakfast')) {
+      caloriesPerMeal.Breakfast = totalCalories * 0.5
+    }
+    if (selectedMeal.includes('Lunch')) {
+      caloriesPerMeal.Lunch = totalCalories * 0.5
+    }
+    if (selectedMeal.includes('Dinner')) {
+      caloriesPerMeal.Dinner = totalCalories * 0.5
+    }
+  }
+  if (selectedMeal.length === 1) {
+    if (selectedMeal.includes('Breakfast')) {
+      caloriesPerMeal.Breakfast = totalCalories
+    }
+    if (selectedMeal.includes('Lunch')) {
+      caloriesPerMeal.Lunch = totalCalories
+    }
+    if (selectedMeal.includes('Dinner')) {
+      caloriesPerMeal.Dinner = totalCalories
+    }
+  }
+  return caloriesPerMeal
+}
+
+export const promptSentence = (meals) => {
+  const entries = Object.entries(meals)
+
+  const sentence =
+    'Total calories for ' +
+    entries
+      .map(([meal, cal], index) => {
+        const mealName = index === 0 ? meal : meal.toLowerCase()
+        return `${mealName} should be ${cal}`
+      })
+      .join(entries.length === 2 ? ' and ' : ', ')
+      .replace(/, ([^,]*)$/, ' and $1') +
+    '.'
+
+  return sentence
+}
+export const generateMealPlan = (
+  mealRecommendations,
+  desiredFranchise,
+  desiredDining,
+  selectedMealTypes = ['Breakfast', 'Lunch', 'Dinner']
+) => {
+  const mealsPerType = 7
+  const result = {
+    possible: true,
+    adjustedSplit: {},
+    test: {},
+  }
+
+  // Helper to flatten nested structure
+  const flattenItems = (recommendations) => recommendations.flatMap((group) => group.items || [])
+
+  const franchisePerMeal = Math.floor(desiredFranchise / selectedMealTypes.length)
+  const diningPerMeal = Math.floor(desiredDining / selectedMealTypes.length)
+  const franchiseRemainder = desiredFranchise % selectedMealTypes.length
+  const diningRemainder = desiredDining % selectedMealTypes.length
+
+  selectedMealTypes.forEach((mealType, index) => {
+    const mealEntries = mealRecommendations.filter((m) => m.mealType === mealType)
+    const allRecommendations = mealEntries.flatMap((entry) => entry.recommendations)
+    const allItems = flattenItems(allRecommendations)
+
+    const franchiseItems = allItems.filter((i) => i.restaurantType === 'Franchise')
+    const diningItems = allItems.filter((i) => i.restaurantType === 'Dining-Halls')
+
+    console.log('franchiseItems', franchiseItems)
+    console.log('diningItems', diningItems)
+
+    let desiredF = franchisePerMeal + (index < franchiseRemainder ? 1 : 0)
+    let desiredD = diningPerMeal + (index < diningRemainder ? 1 : 0)
+
+    const selectedFranchise = franchiseItems.slice(0, desiredF)
+    const selectedDining = diningItems.slice(0, desiredD)
+
+    let combined = [...selectedFranchise, ...selectedDining]
+    let total = combined.length
+
+    const remainingFranchise = franchiseItems.slice(desiredF)
+    const remainingDining = diningItems.slice(desiredD)
+
+    while (total < mealsPerType) {
+      if (remainingFranchise.length > 0) {
+        combined.push(remainingFranchise.shift())
+        total++
+      } else if (remainingDining.length > 0) {
+        combined.push(remainingDining.shift())
+        total++
+      } else {
+        break
+      }
+    }
+
+    if (combined.length < mealsPerType) result.possible = false
+
+    result[mealType] = combined
+    result.adjustedSplit[mealType] = {
+      franchise: combined.filter((i) => i.restaurantType === 'Franchise').length,
+      diningHall: combined.filter((i) => i.restaurantType === 'Dining-Halls').length,
+    }
+    result.test = { franchiseItems, diningItems }
+  })
+
+  return result
+}
+
+export function compressRecommendations(data) {
+  const result = {}
+
+  for (const key in data) {
+    if (!result[key]) {
+      result[key] = []
+    }
+    data[key].forEach((item) => {
+      result[key].push({
+        name: item.name,
+        calories: item.calories,
+        resturantName: item.restaurantName,
+      })
+    })
+  }
+  return result
+}

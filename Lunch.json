@@ -1,0 +1,4016 @@
+[
+  {
+    "mealType": "Breakfast",
+    "recommendations": [
+      {
+        "_id": "Condiment",
+        "items": [
+          {
+            "name": "Extras, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Guacamole",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Small Cheese Dip",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Guacamole",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Dairy",
+        "items": [
+          {
+            "name": "Nachos, Cheese",
+            "calories": 310,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Cheese",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Main",
+        "items": [
+          {
+            "name": "Bowl, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Cheese",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chicken",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Guacamole (2 oz)",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Guacamole (2.25 oz)",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Romaine Lettuce",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Steak",
+            "calories": 270,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Cheese",
+            "calories": 160,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Tortilla",
+            "calories": 260,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Flour Tortilla",
+            "calories": 300,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Guacamole",
+            "calories": 45,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Rice",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Sour Cream",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spinach Tortilla",
+            "calories": 260,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Wheat Tortilla",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Black Beans",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Cheese",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chicken",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Corn Tortilla",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Fish",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Flour Tortilla",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Ground Beef",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Ground Turkey",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Guacamole",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Hard Shell Taco",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Sour Cream",
+            "calories": 25,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Spicy Chicken",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Steak",
+            "calories": 90,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Tofu",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Pinto Beans",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Salsa",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Side",
+        "items": [
+          {
+            "name": "Chips & Dip, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chips (1.75 oz)",
+            "calories": 170,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chips (3.5 oz)",
+            "calories": 340,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Large Cheese Dip",
+            "calories": 780,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Medium Cheese Dip",
+            "calories": 390,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Poblano",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Small Cheese Dip",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Tomatillo",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chips",
+            "calories": 340,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Black Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Pinto Beans",
+            "calories": 45,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Cheese",
+            "calories": 160,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Guacamole",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Salad Shell",
+            "calories": 280,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spinach (1.5 oz)",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spinach (3.75 oz)",
+            "calories": 25,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Romaine Lettuce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Vegetable",
+        "items": [
+          {
+            "name": "Extras, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Romaine Lettuce",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Romaine Lettuce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mealType": "Lunch",
+    "recommendations": [
+      {
+        "_id": "Condiment",
+        "items": [
+          {
+            "name": "Extras, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Guacamole",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Small Cheese Dip",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Guacamole",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Dairy",
+        "items": [
+          {
+            "name": "Nachos, Cheese",
+            "calories": 310,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Cheese",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Main",
+        "items": [
+          {
+            "name": "Bowl, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Cheese",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chicken",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Guacamole (2 oz)",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Guacamole (2.25 oz)",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Romaine Lettuce",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Steak",
+            "calories": 270,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Cheese",
+            "calories": 160,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Tortilla",
+            "calories": 260,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Flour Tortilla",
+            "calories": 300,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Guacamole",
+            "calories": 45,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Rice",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Sour Cream",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spinach Tortilla",
+            "calories": 260,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Wheat Tortilla",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Black Beans",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Cheese",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chicken",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Corn Tortilla",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Fish",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Flour Tortilla",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Ground Beef",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Ground Turkey",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Guacamole",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Hard Shell Taco",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Sour Cream",
+            "calories": 25,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Spicy Chicken",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Steak",
+            "calories": 90,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Tofu",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Pinto Beans",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Salsa",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Side",
+        "items": [
+          {
+            "name": "Chips & Dip, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chips (1.75 oz)",
+            "calories": 170,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chips (3.5 oz)",
+            "calories": 340,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Large Cheese Dip",
+            "calories": 780,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Medium Cheese Dip",
+            "calories": 390,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Poblano",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Small Cheese Dip",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Tomatillo",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chips",
+            "calories": 340,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Black Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Pinto Beans",
+            "calories": 45,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Cheese",
+            "calories": 160,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Guacamole",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Salad Shell",
+            "calories": 280,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spinach (1.5 oz)",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spinach (3.75 oz)",
+            "calories": 25,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Romaine Lettuce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Vegetable",
+        "items": [
+          {
+            "name": "Extras, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Romaine Lettuce",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Romaine Lettuce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mealType": "Dinner",
+    "recommendations": [
+      {
+        "_id": "Condiment",
+        "items": [
+          {
+            "name": "Extras, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Guacamole",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Small Cheese Dip",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Guacamole",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Dairy",
+        "items": [
+          {
+            "name": "Nachos, Cheese",
+            "calories": 310,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Cheese",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Main",
+        "items": [
+          {
+            "name": "Bowl, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Cheese",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chicken",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Guacamole (2 oz)",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Guacamole (2.25 oz)",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Romaine Lettuce",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Steak",
+            "calories": 270,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Cheese",
+            "calories": 160,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Chipotle Tortilla",
+            "calories": 260,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Flour Tortilla",
+            "calories": 300,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Guacamole",
+            "calories": 45,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Rice",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Sour Cream",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Spinach Tortilla",
+            "calories": 260,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Wheat Tortilla",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chicken",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Fish",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Ground Beef",
+            "calories": 250,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spicy Chicken",
+            "calories": 140,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Steak",
+            "calories": 180,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Tofu",
+            "calories": 110,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Black Beans",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Cheese",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chicken",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Corn Tortilla",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Fish",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Flour Tortilla",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Ground Beef",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Ground Turkey",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Guacamole",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Hard Shell Taco",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Sour Cream",
+            "calories": 25,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Spicy Chicken",
+            "calories": 70,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Steak",
+            "calories": 90,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Tofu",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Bowl, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Burrito, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Pinto Beans",
+            "calories": 30,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Taco, Salsa",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Side",
+        "items": [
+          {
+            "name": "Chips & Dip, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chips (1.75 oz)",
+            "calories": 170,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Chips (3.5 oz)",
+            "calories": 340,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Large Cheese Dip",
+            "calories": 780,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Medium Cheese Dip",
+            "calories": 390,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Poblano",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Small Cheese Dip",
+            "calories": 200,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Tomatillo",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Chips & Dip, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Chips",
+            "calories": 340,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Black Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Pinto Beans",
+            "calories": 45,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Avocado Slices",
+            "calories": 120,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Black Beans",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Black Olives",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Cheese",
+            "calories": 160,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chipotle Hot Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Chipotle Ranch",
+            "calories": 190,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Corn Salsa",
+            "calories": 80,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Cucumbers",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Fat Free Balsamic Vinaigrette",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Ground Turkey",
+            "calories": 130,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Guacamole",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Heavy D Salsa",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Hot Sauce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Jalapeno, Fresh",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Jalapeno, Pickled",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Mushrooms",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Onions",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Pinto Beans",
+            "calories": 50,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Rice",
+            "calories": 60,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Salad Shell",
+            "calories": 280,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Southwestern Vinaigrette",
+            "calories": 230,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spinach (1.5 oz)",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Spinach (3.75 oz)",
+            "calories": 25,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Tomatillo Sauce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Romaine Lettuce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Salsa",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Salad, Sour Cream",
+            "calories": 100,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      },
+      {
+        "_id": "Vegetable",
+        "items": [
+          {
+            "name": "Extras, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Extras, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Romaine Lettuce",
+            "calories": 0,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Nachos, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Green Pepper",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Iceberg Lettuce",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Romaine Lettuce",
+            "calories": 15,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          },
+          {
+            "name": "Quesadillas, Spinach",
+            "calories": 10,
+            "restaurantName": "Barberitos",
+            "restaurantType": "Franchise"
+          }
+        ]
+      }
+    ]
+  }
+]

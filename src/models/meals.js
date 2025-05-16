@@ -1,3 +1,4 @@
+
 import { model } from 'mongoose'
 
 var mongoose = require('mongoose')
@@ -43,6 +44,7 @@ var mealSchema = new Schema({
     fat: {
       type: Number,
     },
+    
   },
   likedBy: [
     {
@@ -51,6 +53,9 @@ var mealSchema = new Schema({
   ],
   isAvailable: {
     type: Boolean,
+  },
+   restaurantType: {
+    type: String,
   },
 })
 

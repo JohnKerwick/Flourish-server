@@ -14,6 +14,7 @@ import { init } from './socket'
 import { initializeFirebase } from './utils/firebase'
 import dotenv from 'dotenv'
 import { task } from './utils/scrapper_cron'
+import { OpenAI } from 'openai';
 // import { setupSocketEventHandlers } from './socketEvents'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)

@@ -1,5 +1,5 @@
 import { StatusCodes } from 'http-status-codes'
-import { promises as fs } from 'fs'
+import fs from 'fs/promises'
 import {
   calculateBMR,
   getUserById,
@@ -13,8 +13,19 @@ import {
 import jwt from 'jsonwebtoken'
 import { asyncMiddleware } from '../middlewares'
 import { Diet, Meals, Notification } from '../models'
-import { categorizeItem } from '../utils/categorizeItems'
-import { generateMealSuggestions } from '../utils/generateMeals'
+import { OpenAI } from 'openai'
+import dotenv from 'dotenv'
+import {
+  caloriesInMeal,
+  compressRecommendations,
+  dietPlanModify,
+  generateMealPlan,
+  getMaxCaloriesPerMeal,
+  promptSentence,
+} from '../utils/misc'
+import { max } from 'lodash'
+import { processMealRecommendations } from '../utils/chat-gpt'
+import { exampleJson } from '../utils/prompt-json'
 
 const categories = [
   'Main',
@@ -30,6 +41,13 @@ const categories = [
   'Seafood',
   'Alcoholic Beverage',
 ]
+
+const breakfastCategories = ['Main', 'Side', 'Drink', 'Dairy', 'Fruit', 'Vegetable']
+const lunchCategories = ['Main', 'Dessert', 'Drink', 'Condiment', 'Plant-Based', 'Seafood', 'Side']
+const dinnerCategories = ['Main', 'Seafood', 'Dessert', 'Drink', 'Snack', 'Condiment', 'Alcoholic Beverage']
+
+dotenv.config()
+
 export const CONTROLLER_DIET = {
   getWeeklyDietPlanOld: asyncMiddleware(async (req, res) => {
     const token = req.headers.authorization?.split(' ')[1]
@@ -158,7 +176,8 @@ export const CONTROLLER_DIET = {
     console.log('userId', userId, decoded)
     const user = await getUserById(userId)
     const goal = user.goal
-    const campus = user.student.school
+    // const campus = user.student.school
+    const campus = 'UMD'
     const { dietPlan, selectedMeals } = req.body
     const totalCalories = calculateBMR(user)
 
@@ -167,9 +186,12 @@ export const CONTROLLER_DIET = {
     const result = await Meals.aggregate([
       {
         // Match items that contain the provided campus and category is not "Uncategorized"
+        // UMD HPU UNCC
         $match: {
           campus: { $in: [campus] },
+          // restaurantName: { $ne: 'Starbucks' },
           category: { $ne: 'Uncategorized' },
+          nutrients: { $exists: true },
         },
       },
       {
@@ -185,9 +207,139 @@ export const CONTROLLER_DIET = {
       },
     ])
 
-    // const suggestions = generateMealSuggestions(result, 'Breakfast', totalCalories)
+    const categoriesMap = {
+      Breakfast: breakfastCategories,
+      Lunch: lunchCategories,
+      Dinner: dinnerCategories,
+    }
+    const mealsPerWeek = dietPlan.franchise + dietPlan.diningHall
+    const margin = 100
 
-    res.json({ message: 'Meals updated successfully.', result })
+    const mealRecommendations = selectedMeals.map((mealType) => {
+      const excludedCategories = categoriesMap[mealType] || []
+      console.log('excludedCategories', excludedCategories)
+      const maxCalories = getMaxCaloriesPerMeal(mealsPerWeek, mealType, totalCalories, margin)
+
+      let processedData = result
+
+      if ((campus === 'UNCC' || campus === 'HPU') && mealType === 'Breakfast') {
+        if (selectedMeals.length === 1) {
+          processedData = result.map((cat) =>
+            cat.items.filter(
+              (item) =>
+                !item.name.toLowerCase().includes('grande') &&
+                !item.name.toLowerCase().includes('tall') &&
+                !item.name.toLowerCase().includes('short')
+            )
+          )
+        } else if (selectedMeals.length === 2) {
+          processedData = result.map((cat) => {
+            return {
+              ...cat,
+              items: cat.items.filter(
+                (item) =>
+                  !item.name.toLowerCase().includes('venti') &&
+                  !item.name.toLowerCase().includes('tall') &&
+                  !item.name.toLowerCase().includes('short')
+              ),
+            }
+          })
+        } else {
+          processedData = result.map((cat) => {
+            return {
+              ...cat,
+              items: cat.items.filter(
+                (item) =>
+                  !item.name.toLowerCase().includes('grande') &&
+                  !item.name.toLowerCase().includes('venti') &&
+                  !item.name.toLowerCase().includes('short')
+              ),
+            }
+          })
+        }
+      }
+      const recommendations = processedData
+        .filter((group) => excludedCategories.includes(group._id))
+        .map((group) => {
+          const filteredItems = group.items
+            .filter(
+              (item) => item.type === mealType && item.nutrients.calories <= maxCalories && item.nutrients.calories > 100
+            )
+            .map((item) => ({
+              name: item.name,
+              calories: item.nutrients.calories,
+              restaurantName: item.restaurantName,
+              restaurantType: item.restaurantType,
+            }))
+
+          return {
+            _id: group._id,
+            items: filteredItems,
+          }
+        })
+        .filter((group) => group.items.length > 0) // remove empty groups
+
+      const groupedRecommendations = {
+        'Dining-Halls': [],
+        Franchise: [],
+      }
+
+      recommendations.forEach((category) => {
+        category.items.forEach((item) => {
+          const { restaurantType, ...rest } = item // remove restaurantType
+          if (groupedRecommendations[restaurantType]) {
+            groupedRecommendations[restaurantType].push(rest)
+          }
+        })
+      })
+      const compressed = compressRecommendations(groupedRecommendations)
+      return {
+        maxCalories,
+        mealType,
+        compressed,
+      }
+    })
+
+    const caloriesPerMeal = caloriesInMeal(selectedMeals, totalCalories)
+    console.log('caloriesPerMeal', caloriesPerMeal)
+    const sentence = promptSentence(caloriesPerMeal)
+    console.log('sentence', sentence)
+
+    const exampleJsonData = exampleJson(selectedMeals)
+
+    console.log('exampleJsonData', exampleJsonData, selectedMeals)
+    const prompt = `
+    ${JSON.stringify(mealRecommendations, null, 2)}
+
+    The above provided data are the food Items categorized in ${selectedMeals.join(',')}.
+    You have to use the provided data only, don't use any other data.
+    Generate total ${mealsPerWeek} realistic meals for ${selectedMeals.join(
+      ','
+    )}, each divided into each day with a maximum calorie limit of ${totalCalories} each day. But you have a margin of ±${margin} calories. ${sentence} All ${mealsPerWeek} meals must come from the ${
+      dietPlan.franchise
+    } franchise and ${
+      dietPlan.diningHall
+    } dining halls. However, you may adjust the selection of franchise and dining halls if the specified meals cannot be composed. Each individual meal items must be sourced from the same restaurant (compulsory requirement).
+    give me only JSON in response with all the food item details (name, restaurant, calories etc) in each meal. 
+    
+    I am adding the sample output below:
+    
+    ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
+
+    console.log('prompt', prompt)
+
+    const aiResponse = await processMealRecommendations(prompt)
+    console.log('res', aiResponse)
+
+      const cleanedResponse = aiResponse
+    .replace(/```json\s*/i, '') // remove ```json with optional whitespace
+    .replace(/```$/, '')        // remove ending ```
+    .trim();                    // trim extra whitespace
+
+    let newData = JSON.parse(cleanedResponse);
+    await fs.writeFile('week_meals.json', JSON.stringify(newData, null, 2), 'utf-8');
+
+    res.json({ message: 'Meals updated successfully.', aiResponse , mealRecommendations})
   }),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {

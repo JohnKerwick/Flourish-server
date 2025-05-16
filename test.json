@@ -1,0 +1,105 @@
+{
+  "7_day_meal_plan": [
+    {
+      "day": "Day 1",
+      "meal": [
+        { "name": "Grilled Chicken", "calories": 120 },
+        { "name": "Beef Chili", "calories": 300 },
+        { "name": "House Fried Potato Chips", "calories": 380 },
+        { "name": "Baby Spinach", "calories": 5 },
+        { "name": "Classic Hummus", "calories": 360 }
+      ],
+      "total_calories": 1165
+    },
+    {
+      "day": "Day 2",
+      "meal": [
+        { "name": "Pepperoni Pizza", "calories": 210 },
+        { "name": "Cheese Cauliflower Crust Pizza", "calories": 190 },
+        { "name": "Grated Parmesan Cheese", "calories": 10 },
+        { "name": "Cucumber, Tomato, Parsley Salad", "calories": 30 },
+        { "name": "BBQ Baked Butter Beans", "calories": 150 },
+        { "name": "Signature Cheese Sauce", "calories": 70 },
+        { "name": "Orange Chicken", "calories": 280 },
+        { "name": "Fat Free Italian Dressing", "calories": 15 }
+      ],
+      "total_calories": 955
+    },
+    {
+      "day": "Day 3",
+      "meal": [
+        { "name": "Udi's Whole Grain Bread", "calories": 130 },
+        { "name": "Thinly Sliced Smoked Ham", "calories": 110 },
+        { "name": "Cheddar Cheese Slice", "calories": 60 },
+        { "name": "Southern Style Slaw", "calories": 50 },
+        { "name": "Steamed Broccoli", "calories": 60 },
+        { "name": "Croutons", "calories": 80 },
+        { "name": "Sriracha Mayo", "calories": 80 },
+        { "name": "Cherry Tomatoes", "calories": 5 },
+        { "name": "Udi's Whole Grain Bread (extra slice)", "calories": 130 },
+        { "name": "Grilled Vegetables", "calories": 25 }
+      ],
+      "total_calories": 1030
+    },
+    {
+      "day": "Day 4",
+      "meal": [
+        { "name": "Grilled Chicken", "calories": 120 },
+        { "name": "Whole Wheat Bread (2 slices)", "calories": 280 },
+        { "name": "Cheddar Cheese Sauce", "calories": 35 },
+        { "name": "Chick Peas", "calories": 70 },
+        { "name": "Smoked Gouda & Red Pepper Soup", "calories": 260 },
+        { "name": "Sliced Jalapeno Pepper", "calories": 0 },
+        { "name": "No Nut Basil Pesto", "calories": 100 },
+        { "name": "Sliced Cucumber", "calories": 0 },
+        { "name": "Classic Hummus", "calories": 120 }
+      ],
+      "total_calories": 985
+    },
+    {
+      "day": "Day 5",
+      "meal": [
+        { "name": "Fish Sandwich with Cajun Slaw", "calories": 420 },
+        { "name": "Roasted Sunflower Seeds", "calories": 45 },
+        { "name": "Seasoned Brown Rice", "calories": 150 },
+        { "name": "Lettuce Leaf", "calories": 0 },
+        { "name": "Diced Onions", "calories": 15 },
+        { "name": "Chipotle Mayo", "calories": 60 },
+        { "name": "Classic Chicken Salad", "calories": 200 },
+        { "name": "Sliced Green Bell Pepper", "calories": 5 },
+        { "name": "Crushed Red Pepper", "calories": 5 }
+      ],
+      "total_calories": 1000
+    },
+    {
+      "day": "Day 6",
+      "meal": [
+        { "name": "Beef Hot Dog with Bun", "calories": 340 },
+        { "name": "Italian Sausage Crumbles", "calories": 70 },
+        { "name": "Udi's White Bread", "calories": 150 },
+        { "name": "Crushed Red Pepper", "calories": 5 },
+        { "name": "Chopped Spinach", "calories": 5 },
+        { "name": "Classic Hummus", "calories": 360 },
+        { "name": "Baby Spinach", "calories": 5 }
+      ],
+      "total_calories": 935
+    },
+    {
+      "day": "Day 7",
+      "meal": [
+        { "name": "Egg Whites", "calories": 45 },
+        { "name": "Diced Smoked Ham", "calories": 30 },
+        { "name": "Shredded Sharp Cheddar Cheese", "calories": 110 },
+        { "name": "Balsamic Vinaigrette Dressing", "calories": 60 },
+        { "name": "Grilled Vegetables", "calories": 25 },
+        { "name": "Baked Stuffed Potato Soup", "calories": 130 },
+        { "name": "Orange Chicken", "calories": 280 },
+        { "name": "Pesto Mayo", "calories": 40 },
+        { "name": "Cheese Cauliflower Crust Pizza", "calories": 190 },
+        { "name": "Baby Spinach", "calories": 5 },
+        { "name": "Chopped Green Bell Pepper", "calories": 0 }
+      ],
+      "total_calories": 1015
+    }
+  ]
+}
