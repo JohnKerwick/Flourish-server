@@ -414,7 +414,7 @@ export const CONTROLLER_DIET = {
       }
     })
 
-    res.json({ message: 'Meals updated successfully.', updatedResult })
+    res.json({ message: 'Meals updated successfully.', weeklyPlan:updatedResult })
   }),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {
