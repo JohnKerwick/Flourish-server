@@ -3,8 +3,9 @@ export function exampleJson(example) {
   if (example.length === 1 && example.includes('Breakfast')) {
     json = [
       {
-        mealType: 'Breakfast',
-        items: [
+        days: 'Monday',
+        caloriesProvided: 2000,
+        breakfast: [
           {
             name: 'Plain Cream Cheese',
             calories: 101.3,
@@ -28,8 +29,9 @@ export function exampleJson(example) {
   if (example.length === 1 && example.includes('Lunch')) {
     json = [
       {
-        mealType: 'Lunch',
-        items: [
+        days: 'Monday',
+        caloriesProvided: 2000,
+        lunch: [
           {
             name: '16oz Bottled Dressing, Balsamic Vinaigrette',
             calories: 250,
@@ -52,8 +54,9 @@ export function exampleJson(example) {
   if (example.length === 1 && example.includes('Dinner')) {
     json = [
       {
-        mealType: 'Dinner',
-        items: [
+        days: 'Monday',
+        caloriesProvided: 2000,
+        dinner: [
           {
             name: 'Shredded Smoked Pork Shoulder (no bbq sauce)',
             calories: 226.8,
@@ -77,8 +80,9 @@ export function exampleJson(example) {
   if (example.length === 2 && example.includes('Breakfast') && example.includes('Lunch')) {
     json = [
       {
-        mealType: 'Breakfast',
-        items: [
+        day: 'Monday',
+        caloriesProvided: 2000,
+        breakfast: [
           {
             name: 'Plain Cream Cheese',
             calories: 101.3,
@@ -95,10 +99,7 @@ export function exampleJson(example) {
             resturantName: 'Yahentamitsi Dining Hall',
           },
         ],
-      },
-      {
-        mealType: 'Lunch',
-        items: [
+        lunch: [
           {
             name: '16oz Bottled Dressing, Balsamic Vinaigrette',
             calories: 250,
@@ -122,8 +123,9 @@ export function exampleJson(example) {
   if (example.length === 2 && example.includes('Breakfast') && example.includes('Dinner')) {
     json = [
       {
-        mealType: 'Breakfast',
-        items: [
+        day: 'Monday',
+        caloriesProvided: 2000,
+        breakfast: [
           {
             name: 'Plain Cream Cheese',
             calories: 101.3,
@@ -140,10 +142,7 @@ export function exampleJson(example) {
             resturantName: 'Yahentamitsi Dining Hall',
           },
         ],
-      },
-      {
-        mealType: 'Dinner',
-        items: [
+        dinner: [
           {
             name: 'Baja Chipotle Sauce',
             calories: 70,
@@ -167,8 +166,9 @@ export function exampleJson(example) {
   if (example.length === 2 && example.includes('Lunch') && example.includes('Dinner')) {
     json = [
       {
-        mealType: 'Lunch',
-        items: [
+        day: 'Monday',
+        caloriesProvided: 2000,
+        lunch: [
           {
             name: 'Caramel Sauce',
             calories: 105.3,
@@ -185,10 +185,7 @@ export function exampleJson(example) {
             resturantName: '251 North',
           },
         ],
-      },
-      {
-        mealType: 'Dinner',
-        items: [
+        dinner: [
           {
             name: 'Baja Chipotle Sauce',
             calories: 70,
@@ -217,8 +214,9 @@ export function exampleJson(example) {
   ) {
     json = [
       {
-        mealType: 'Breakfast',
-        items: [
+        day: 'Monday',
+        caloriesProvided: 2000,
+        breakfast: [
           {
             name: 'Plain Cream Cheese',
             calories: 101.3,
@@ -235,10 +233,7 @@ export function exampleJson(example) {
             resturantName: 'Yahentamitsi Dining Hall',
           },
         ],
-      },
-      {
-        mealType: 'Lunch',
-        items: [
+        lunch: [
           {
             name: '16oz Bottled Dressing, Balsamic Vinaigrette',
             calories: 250,
@@ -255,10 +250,7 @@ export function exampleJson(example) {
             resturantName: 'SaladWorks',
           },
         ],
-      },
-      {
-        mealType: 'Dinner',
-        items: [
+        dinner: [
           {
             name: 'Shredded Smoked Pork Shoulder (no bbq sauce)',
             calories: 226.8,

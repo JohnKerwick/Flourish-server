@@ -1,5 +1,5 @@
 import { StatusCodes } from 'http-status-codes'
-import fs from 'fs/promises'
+import fs, { readFile } from 'fs/promises'
 import {
   calculateBMR,
   getUserById,
@@ -26,6 +26,7 @@ import {
 import { max } from 'lodash'
 import { processMealRecommendations } from '../utils/chat-gpt'
 import { exampleJson } from '../utils/prompt-json'
+import { validateAiResponse } from '../utils/validate-ai-response'
 
 const categories = [
   'Main',
@@ -207,6 +208,11 @@ export const CONTROLLER_DIET = {
       },
     ])
 
+    const orignalData = await Meals.find({
+      campus: { $in: [campus] },
+      category: { $ne: 'Uncategorized' },
+      nutrients: { $exists: true },
+    }).lean()
     const categoriesMap = {
       Breakfast: breakfastCategories,
       Lunch: lunchCategories,
@@ -263,7 +269,8 @@ export const CONTROLLER_DIET = {
         .map((group) => {
           const filteredItems = group.items
             .filter(
-              (item) => item.type === mealType && item.nutrients.calories <= maxCalories && item.nutrients.calories > 100
+              (item) =>
+                item.type === mealType && item.nutrients.calories <= maxCalories && item.nutrients.calories > 100
             )
             .map((item) => ({
               name: item.name,
@@ -313,33 +320,101 @@ export const CONTROLLER_DIET = {
 
     The above provided data are the food Items categorized in ${selectedMeals.join(',')}.
     You have to use the provided data only, don't use any other data.
-    Generate total ${mealsPerWeek} realistic meals for ${selectedMeals.join(
+    Generate total ${mealsPerWeek} realistic meals for 7 days(Not more then 7) only, for ${selectedMeals.join(
       ','
     )}, each divided into each day with a maximum calorie limit of ${totalCalories} each day. But you have a margin of ±${margin} calories. ${sentence} All ${mealsPerWeek} meals must come from the ${
       dietPlan.franchise
     } franchise and ${
       dietPlan.diningHall
-    } dining halls. However, you may adjust the selection of franchise and dining halls if the specified meals cannot be composed. Each individual meal items must be sourced from the same restaurant (compulsory requirement).
+    } dining halls. Each individual meal items must be sourced from the same restaurant (compulsory requirement), in each meal we can not have an item from restaurant A and another item from restaurant B.
     give me only JSON in response with all the food item details (name, restaurant, calories etc) in each meal. 
     
     I am adding the sample output below:
     
     ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
-    console.log('prompt', prompt)
+    // console.log('prompt', prompt)
 
-    const aiResponse = await processMealRecommendations(prompt)
-    console.log('res', aiResponse)
+    // const aiResponse = {}
 
-      const cleanedResponse = aiResponse
-    .replace(/```json\s*/i, '') // remove ```json with optional whitespace
-    .replace(/```$/, '')        // remove ending ```
-    .trim();                    // trim extra whitespace
+    // const aiResponse = await processMealRecommendations(prompt)
+    // // console.log('res', aiResponse)
 
-    let newData = JSON.parse(cleanedResponse);
-    await fs.writeFile('week_meals.json', JSON.stringify(newData, null, 2), 'utf-8');
+    // const cleanedResponse = aiResponse
+    //   .replace(/```json\s*/i, '') // remove ```json with optional whitespace
+    //   .replace(/```$/, '') // remove ending ```
+    //   .trim() // trim extra whitespace
 
-    res.json({ message: 'Meals updated successfully.', aiResponse , mealRecommendations})
+    // let newData = JSON.parse(cleanedResponse)
+    // await fs.writeFile('week_meals.json', JSON.stringify(newData, null, 2), 'utf-8')
+
+    const readAiRes = await readFile('week_meals.json', 'utf-8')
+    // console.log('readAiRes', readAiRes)
+    const formatedAiRes = JSON.parse(readAiRes)
+    // console.log('formatedAiRes', formatedAiRes)
+
+    const validateRes = validateAiResponse(formatedAiRes)
+
+    const normalize = (str) => str?.toLowerCase().trim()
+
+    const updatedResult = validateRes.map((day) => {
+      const updateMealItems = (mealItems) => {
+        const updatedItems = mealItems.map((item) => {
+          const match = orignalData.find(
+            (dataItem) =>
+              normalize(dataItem.name) === normalize(item.name) &&
+              normalize(dataItem.restaurantName) === normalize(item.resturantName)
+          )
+
+          return match
+            ? {
+                ...item,
+                ...match,
+                // calories: match.nutrients?.calories ?? item.calories,
+              }
+            : item
+        })
+
+        // Calculate total nutrients
+        const totalNutrients = updatedItems.reduce(
+          (totals, item) => {
+            const n = item.nutrients || {}
+            return {
+              protein: totals.protein + (n.protein || 0),
+              fat: totals.fat + (n.fat || 0),
+              carbohydrate: totals.carbohydrate + (n.carbohydrate || 0),
+            }
+          },
+          { protein: 0, fat: 0, carbohydrate: 0 }
+        )
+
+        return {
+          items: updatedItems,
+          totalNutrients,
+        }
+      }
+
+      const breakfast = updateMealItems(day.breakfast)
+      const lunch = updateMealItems(day.lunch)
+      const dinner = updateMealItems(day.dinner)
+
+      return {
+        ...day,
+        caloriesBMR: totalCalories,
+        proteinProvided:
+          breakfast.totalNutrients.protein + lunch.totalNutrients.protein + dinner.totalNutrients.protein,
+        fatProvided: breakfast.totalNutrients.fat + lunch.totalNutrients.fat + dinner.totalNutrients.fat,
+        carbsProvided:
+          breakfast.totalNutrients.carbohydrate +
+          lunch.totalNutrients.carbohydrate +
+          dinner.totalNutrients.carbohydrate,
+        breakfast: breakfast.items,
+        lunch: lunch.items,
+        dinner: dinner.items,
+      }
+    })
+
+    res.json({ message: 'Meals updated successfully.', validateRes, orignalData, updatedResult })
   }),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {
