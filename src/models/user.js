@@ -26,9 +26,14 @@ export const userSchema = new Schema(
     fcmToken: String,
     eatOptions: Array,
     goal: String,
-    appGoal: Array,
-    allergy: Boolean,
-    allergyTypes: Array,
+    dietPlan: {
+      plan: { type: String },
+      swipes: {
+        franchise: { type: Number },
+        diningHall: { type: Number },
+      },
+      selectedMeals: [String],
+    },
     student: {
       school: String,
       status: String,

@@ -86,7 +86,7 @@ export const CONTROLLER_USER = {
     }
 
     res.status(StatusCodes.OK).json({
-      data: { user: '' },
+      data: { user: user },
       message: 'Profile updated Successfully',
     })
   }),
