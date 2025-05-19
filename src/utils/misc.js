@@ -212,6 +212,7 @@ export function compressRecommendations(data) {
     }
     data[key].forEach((item) => {
       result[key].push({
+        id : item._id,
         name: item.name,
         calories: item.calories,
         resturantName: item.restaurantName,

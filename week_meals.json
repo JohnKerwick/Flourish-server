@@ -1,376 +1,323 @@
 [
   {
     "day": "Monday",
-    "caloriesProvided": 2336.24,
+    "caloriesProvided": 2336.6,
     "breakfast": [
       {
-        "name": "Vegan Smoked Gouda Scrambled Eggs",
-        "calories": 492.4,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "calories": 470,
+        "resturantName": "Starbucks"
       },
       {
-        "name": "Orange Wedges",
-        "calories": 103.9,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Cereal Granola",
-        "calories": 193.8,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Bacon Bits",
-        "calories": 127.3,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Blueberry Muffin",
-        "calories": 169.1,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacca0812499dafa5871",
+        "name": "Eggs & Cheddar Protein Box",
+        "calories": 460,
+        "resturantName": "Starbucks"
       }
     ],
     "lunch": [
       {
-        "name": "Hummus",
-        "calories": 141.8,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67aca9072523ee9db05d3b50",
+        "name": "Nachos, Southwestern Vinaigrette",
+        "calories": 230,
+        "resturantName": "Barberitos"
       },
       {
-        "name": "Buffalo Chicken Cheddar Wrap w/ Ranch, Lettuce & Tomato",
-        "calories": 580.9,
-        "resturantName": "South Campus"
+        "id": "67aca9072523ee9db05d3af4",
+        "name": "Burrito, Chipotle Ranch",
+        "calories": 190,
+        "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "name": "Vegan Chickpea Meatballs with Marinara Sauce",
-        "calories": 266.9,
-        "resturantName": "South Campus"
+        "id": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
+        "resturantName": "Chick-Fil-A"
       },
       {
-        "name": "Grilled Hot Dog",
-        "calories": 168.4,
-        "resturantName": "South Campus"
-      },
-      {
-        "name": "Lemon Asparagus Chicken Pasta",
-        "calories": 264.5,
-        "resturantName": "251 North"
+        "id": "67acaa04fab1224e86940465",
+        "name": "Creamy Salsa Dressing",
+        "calories": 290,
+        "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Tuesday",
-    "caloriesProvided": 2335.43,
+    "caloriesProvided": 2331.6,
     "breakfast": [
       {
-        "name": "Scrambled Cheesy Cheddar Egg",
-        "calories": 241.3,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "calories": 470,
+        "resturantName": "Starbucks"
       },
       {
-        "name": "Banana",
-        "calories": 109.8,
-        "resturantName": "251 North"
-      },
-      {
-        "name": "Oatmeal",
-        "calories": 340.2,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Orange",
-        "calories": 103.9,
-        "resturantName": "251 North"
-      },
-      {
-        "name": "Mini Croissant",
-        "calories": 123.2,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacca0812499dafa5872",
+        "name": "Eggs & Gouda Protein Box",
+        "calories": 530,
+        "resturantName": "Starbucks"
       }
     ],
     "lunch": [
       {
-        "name": "Vegetable Pizza",
-        "calories": 172.1,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67aca9072523ee9db05d3b50",
+        "name": "Nachos, Southwestern Vinaigrette",
+        "calories": 230,
+        "resturantName": "Barberitos"
       },
       {
-        "name": "Chicken Tortilla Soup",
-        "calories": 129.6,
-        "resturantName": "South Campus"
-      },
-      {
-        "name": "Buffalo Chicken Pizza",
-        "calories": 214.8,
-        "resturantName": "251 North"
+        "id": "67aca9072523ee9db05d3af4",
+        "name": "Burrito, Chipotle Ranch",
+        "calories": 190,
+        "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "name": "Grilled Chicken Breast",
-        "calories": 179.8,
-        "resturantName": "251 North"
+        "id": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
+        "resturantName": "Chick-Fil-A"
       },
       {
-        "name": "Italian Sausage and Peppers",
-        "calories": 276.6,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Honey Sesame Chicken Breast",
-        "calories": 340,
-        "resturantName": "Panda Express"
+        "id": "67acaa04fab1224e86940479",
+        "name": "Garden Herb Ranch Dressing",
+        "calories": 280,
+        "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Wednesday",
-    "caloriesProvided": 2334.78,
+    "caloriesProvided": 2339.6,
     "breakfast": [
       {
-        "name": "Breakfast Pizza",
-        "calories": 620.4,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "calories": 470,
+        "resturantName": "Starbucks"
       },
       {
-        "name": "Liquid Eggs (Omelet Station)",
-        "calories": 170.1,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Banana Coconut Spinach Smoothie",
-        "calories": 111,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "French Toast",
-        "calories": 250.8,
-        "resturantName": "251 North"
+        "id": "67acaacca0812499dafa5872",
+        "name": "Eggs & Gouda Protein Box",
+        "calories": 530,
+        "resturantName": "Starbucks"
       }
     ],
     "lunch": [
       {
-        "name": "Grilled Chicken American Burger",
-        "calories": 251.8,
-        "resturantName": "South Campus"
+        "id": "67aca9072523ee9db05d3b50",
+        "name": "Nachos, Southwestern Vinaigrette",
+        "calories": 230,
+        "resturantName": "Barberitos"
       },
       {
-        "name": "Vegetable Shawarma Flat Bread",
-        "calories": 159.7,
-        "resturantName": "South Campus"
-      },
-      {
-        "name": "Asian Chicken Mongolian Grill",
-        "calories": 125.2,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67aca9072523ee9db05d3af4",
+        "name": "Burrito, Chipotle Ranch",
+        "calories": 190,
+        "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "name": "Garlic Herb Grilled Cheese",
-        "calories": 584.2,
-        "resturantName": "251 North"
+        "id": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
+        "resturantName": "Chick-Fil-A"
       },
       {
-        "name": "Chicken Piccatta Brioche Provolone Lemon Basil Aioli",
-        "calories": 580,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaa04fab1224e86940465",
+        "name": "Creamy Salsa Dressing",
+        "calories": 290,
+        "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Thursday",
-    "caloriesProvided": 2337.02,
+    "caloriesProvided": 2334.6,
     "breakfast": [
       {
-        "name": "Cereal Granola",
-        "calories": 193.8,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "calories": 470,
+        "resturantName": "Starbucks"
       },
       {
-        "name": "Vegan French Toast",
-        "calories": 135.1,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Pork Sausage Link",
-        "calories": 189,
-        "resturantName": "251 North"
-      },
-      {
-        "name": "Special K Berry",
-        "calories": 503,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacca0812499dafa5871",
+        "name": "Eggs & Cheddar Protein Box",
+        "calories": 460,
+        "resturantName": "Starbucks"
       }
     ],
     "lunch": [
       {
-        "name": "Buffalo Chicken Pizza",
-        "calories": 214.8,
-        "resturantName": "251 North"
+        "id": "67aca9072523ee9db05d3b50",
+        "name": "Nachos, Southwestern Vinaigrette",
+        "calories": 230,
+        "resturantName": "Barberitos"
       },
       {
-        "name": "Sausage, Egg & Cheese Muffin",
-        "calories": 620,
-        "resturantName": "Chick-Fil-A"
+        "id": "67aca9072523ee9db05d3af4",
+        "name": "Burrito, Chipotle Ranch",
+        "calories": 190,
+        "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "name": "Spicy Chicken Sandwich",
-        "calories": 450,
+        "id": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
         "resturantName": "Chick-Fil-A"
       },
       {
-        "name": "Peach BBQ Chicken",
-        "calories": 230.1,
-        "resturantName": "251 North"
+        "id": "67acaa04fab1224e86940465",
+        "name": "Creamy Salsa Dressing",
+        "calories": 290,
+        "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Friday",
-    "caloriesProvided": 2335.66,
+    "caloriesProvided": 2336.6,
     "breakfast": [
       {
-        "name": "Waffle",
-        "calories": 784.9,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "calories": 470,
+        "resturantName": "Starbucks"
       },
       {
-        "name": "Orange Juice",
-        "calories": 140,
-        "resturantName": "Taco Bell"
-      },
-      {
-        "name": "Blueberry Banana French Toast Casserole",
-        "calories": 226,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaacca0812499dafa5872",
+        "name": "Eggs & Gouda Protein Box",
+        "calories": 530,
+        "resturantName": "Starbucks"
       }
     ],
     "lunch": [
       {
-        "name": "Creamy Tomato Soup, Bowl",
-        "calories": 290,
-        "resturantName": "Panera Bread"
+        "id": "67aca9072523ee9db05d3b50",
+        "name": "Nachos, Southwestern Vinaigrette",
+        "calories": 230,
+        "resturantName": "Barberitos"
       },
       {
-        "name": "Grilled Teriyaki Chicken",
-        "calories": 280,
-        "resturantName": "Panda Express"
+        "id": "67aca9072523ee9db05d3af4",
+        "name": "Burrito, Chipotle Ranch",
+        "calories": 190,
+        "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "name": "Lemon Pasta w/ Spring Veg",
-        "calories": 195.4,
-        "resturantName": "251 North"
+        "id": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
+        "resturantName": "Chick-Fil-A"
       },
       {
-        "name": "Sweet & Sour Chicken Breast",
-        "calories": 300,
-        "resturantName": "Panda Express"
+        "id": "67acaa04fab1224e86940479",
+        "name": "Garden Herb Ranch Dressing",
+        "calories": 280,
+        "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Saturday",
-    "caloriesProvided": 2336.45,
+    "caloriesProvided": 2335.6,
     "breakfast": [
       {
-        "name": "Egg Cheese Breakfast Croissant",
-        "calories": 358.3,
-        "resturantName": "251 North"
+        "id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "calories": 470,
+        "resturantName": "Starbucks"
       },
       {
-        "name": "Banana Chocolate Chip French Toast Casserole",
-        "calories": 215.1,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Bacon",
-        "calories": 241.9,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Avocado Toast",
-        "calories": 175.1,
-        "resturantName": "251 North"
+        "id": "67acaacca0812499dafa5871",
+        "name": "Eggs & Cheddar Protein Box",
+        "calories": 460,
+        "resturantName": "Starbucks"
       }
     ],
     "lunch": [
       {
-        "name": "Pork Carnitas Pizza",
-        "calories": 155.7,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67aca9072523ee9db05d3b50",
+        "name": "Nachos, Southwestern Vinaigrette",
+        "calories": 230,
+        "resturantName": "Barberitos"
       },
       {
-        "name": "BBQ Beef Quesadilla",
-        "calories": 777.7,
-        "resturantName": "South Campus"
+        "id": "67aca9072523ee9db05d3af4",
+        "name": "Burrito, Chipotle Ranch",
+        "calories": 190,
+        "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "name": "Grilled Lemon Pepper Salmon",
-        "calories": 139.2,
-        "resturantName": "251 North"
+        "id": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
+        "resturantName": "Chick-Fil-A"
       },
       {
-        "name": "Chicken Parmesan Ricotta Pizza",
-        "calories": 183.9,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaa04fab1224e86940479",
+        "name": "Garden Herb Ranch Dressing",
+        "calories": 280,
+        "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Sunday",
-    "caloriesProvided": 2337.17,
+    "caloriesProvided": 2330.6,
     "breakfast": [
       {
-        "name": "Chocolate Chip Cookie",
-        "calories": 187.9,
-        "resturantName": "South Campus"
+        "id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "calories": 470,
+        "resturantName": "Starbucks"
       },
       {
-        "name": "Vegan Cheddar Spinach Scrambled Eggs",
-        "calories": 172,
-        "resturantName": "Yahentamitsi Dining Hall"
-      },
-      {
-        "name": "Grilled Croissant",
-        "calories": 235.7,
-        "resturantName": "South Campus"
-      },
-      {
-        "name": "Coconut Mango Quinoa Pudding",
-        "calories": 163.3,
-        "resturantName": "251 North"
+        "id": "67acaacca0812499dafa5871",
+        "name": "Eggs & Cheddar Protein Box",
+        "calories": 460,
+        "resturantName": "Starbucks"
       }
     ],
     "lunch": [
       {
-        "name": "Cheeseburger with American Cheese",
-        "calories": 283.3,
-        "resturantName": "South Campus"
+        "id": "67aca9072523ee9db05d3b50",
+        "name": "Nachos, Southwestern Vinaigrette",
+        "calories": 230,
+        "resturantName": "Barberitos"
       },
       {
-        "name": "Garlic Herb Grilled Cheese",
-        "calories": 584.2,
-        "resturantName": "251 North"
+        "id": "67aca9072523ee9db05d3af4",
+        "name": "Burrito, Chipotle Ranch",
+        "calories": 190,
+        "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "name": "Vegan Chicken Slider",
-        "calories": 273.8,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
+        "resturantName": "Chick-Fil-A"
       },
       {
-        "name": "Grilled Chicken Keftas Flat Bread Cucumber Relis Tzatkiki",
-        "calories": 362,
-        "resturantName": "Yahentamitsi Dining Hall"
+        "id": "67acaa04fab1224e86940479",
+        "name": "Garden Herb Ranch Dressing",
+        "calories": 280,
+        "resturantName": "Chick-Fil-A"
       }
     ]
   }

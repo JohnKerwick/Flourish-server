@@ -23,7 +23,7 @@ import {
   getMaxCaloriesPerMeal,
   promptSentence,
 } from '../utils/misc'
-import { max } from 'lodash'
+import { cloneDeep, max } from 'lodash'
 import { processMealRecommendations } from '../utils/chat-gpt'
 import { exampleJson } from '../utils/prompt-json'
 import { validateAiResponse } from '../utils/validate-ai-response'
@@ -174,14 +174,11 @@ export const CONTROLLER_DIET = {
     const token = req.headers.authorization?.split(' ')[1]
     const decoded = jwt.decode(token)
     const userId = decoded?._id
-    console.log('userId', userId, decoded)
     const user = await getUserById(userId)
-    const goal = user.goal
-    // const campus = user.student.school
-    const campus = 'UMD'
-    const { dietPlan, selectedMeals } = req.body
+    const campus = user.student.school
+    const selectedMeals = user.dietPlan.selectedMeals
+    const dietPlan = user.dietPlan.swipes
     const totalCalories = calculateBMR(user)
-
     console.log('totalCalories', totalCalories)
 
     const result = await Meals.aggregate([
@@ -213,6 +210,7 @@ export const CONTROLLER_DIET = {
       category: { $ne: 'Uncategorized' },
       nutrients: { $exists: true },
     }).lean()
+
     const categoriesMap = {
       Breakfast: breakfastCategories,
       Lunch: lunchCategories,
@@ -223,7 +221,6 @@ export const CONTROLLER_DIET = {
 
     const mealRecommendations = selectedMeals.map((mealType) => {
       const excludedCategories = categoriesMap[mealType] || []
-      console.log('excludedCategories', excludedCategories)
       const maxCalories = getMaxCaloriesPerMeal(mealsPerWeek, mealType, totalCalories, margin)
 
       let processedData = result
@@ -273,6 +270,7 @@ export const CONTROLLER_DIET = {
                 item.type === mealType && item.nutrients.calories <= maxCalories && item.nutrients.calories > 100
             )
             .map((item) => ({
+              _id: item._id,
               name: item.name,
               calories: item.nutrients.calories,
               restaurantName: item.restaurantName,
@@ -308,37 +306,31 @@ export const CONTROLLER_DIET = {
     })
 
     const caloriesPerMeal = caloriesInMeal(selectedMeals, totalCalories)
-    console.log('caloriesPerMeal', caloriesPerMeal)
     const sentence = promptSentence(caloriesPerMeal)
-    console.log('sentence', sentence)
 
     const exampleJsonData = exampleJson(selectedMeals)
 
-    console.log('exampleJsonData', exampleJsonData, selectedMeals)
     const prompt = `
     ${JSON.stringify(mealRecommendations, null, 2)}
 
     The above provided data are the food Items categorized in ${selectedMeals.join(',')}.
-    You have to use the provided data only, don't use any other data.
+    You are strictly ordered to use the provided data only, don't use any other data.
     Generate total ${mealsPerWeek} realistic meals for 7 days(Not more then 7) only, for ${selectedMeals.join(
       ','
-    )}, each divided into each day with a maximum calorie limit of ${totalCalories} each day. But you have a margin of ±${margin} calories. ${sentence} All ${mealsPerWeek} meals must come from the ${
+    )}, each divided into each day with a maximum calorie limit of ${totalCalories} each day.
+    But you have a margin of ±${margin} calories. ${sentence} All ${mealsPerWeek} meals must come from the ${
       dietPlan.franchise
     } franchise and ${
       dietPlan.diningHall
-    } dining halls. Each individual meal items must be sourced from the same restaurant (compulsory requirement), in each meal we can not have an item from restaurant A and another item from restaurant B.
+    } dining halls. Each individual meal items must be sourced from the same restaurant (compulsory requirement).
+    In each meal we can not have an item from restaurant A and another item from restaurant B and also dont change the name of the meals.
     give me only JSON in response with all the food item details (name, restaurant, calories etc) in each meal. 
-    
+    Also, we can not change the calories and names of the food items please.
     I am adding the sample output below:
     
     ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
-    // console.log('prompt', prompt)
-
-    // const aiResponse = {}
-
     // const aiResponse = await processMealRecommendations(prompt)
-    // // console.log('res', aiResponse)
 
     // const cleanedResponse = aiResponse
     //   .replace(/```json\s*/i, '') // remove ```json with optional whitespace
@@ -349,72 +341,58 @@ export const CONTROLLER_DIET = {
     // await fs.writeFile('week_meals.json', JSON.stringify(newData, null, 2), 'utf-8')
 
     const readAiRes = await readFile('week_meals.json', 'utf-8')
-    // console.log('readAiRes', readAiRes)
     const formatedAiRes = JSON.parse(readAiRes)
-    // console.log('formatedAiRes', formatedAiRes)
 
     const validateRes = validateAiResponse(formatedAiRes)
 
-    const normalize = (str) => str?.toLowerCase().trim()
-
-    const updatedResult = validateRes.map((day) => {
-      const updateMealItems = (mealItems) => {
-        const updatedItems = mealItems.map((item) => {
-          const match = orignalData.find(
-            (dataItem) =>
-              normalize(dataItem.name) === normalize(item.name) &&
-              normalize(dataItem.restaurantName) === normalize(item.resturantName)
-          )
-
-          return match
-            ? {
-                ...item,
-                ...match,
-                // calories: match.nutrients?.calories ?? item.calories,
-              }
-            : item
+    const newDatas = []
+    for (let i = 0; i < validateRes.length; i++) {
+      const obj = cloneDeep(validateRes[i])
+      if (obj.breakfast) {
+        const breakfast = obj.breakfast.map((item) => {
+          // Calculate calories, fats, protein, and carbs
+          const mealItem = orignalData.find((meal) => meal._id.toString() === item.id)
+          obj.caloriesBMR = totalCalories;
+          obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem.nutrients.calories;
+          obj.proteinProvided = (obj.proteinProvided || 0) + mealItem.nutrients.protein;
+          obj.fatProvided = (obj.fatProvided || 0) + mealItem.nutrients.fat;
+          obj.carbsProvided = (obj.carbsProvided || 0) + mealItem.nutrients.carbohydrate;
+          return mealItem
         })
-
-        // Calculate total nutrients
-        const totalNutrients = updatedItems.reduce(
-          (totals, item) => {
-            const n = item.nutrients || {}
-            return {
-              protein: totals.protein + (n.protein || 0),
-              fat: totals.fat + (n.fat || 0),
-              carbohydrate: totals.carbohydrate + (n.carbohydrate || 0),
-            }
-          },
-          { protein: 0, fat: 0, carbohydrate: 0 }
-        )
-
-        return {
-          items: updatedItems,
-          totalNutrients,
-        }
+        obj.breakfast = breakfast
+        newDatas.push(obj)
       }
-
-      const breakfast = updateMealItems(day.breakfast)
-      const lunch = updateMealItems(day.lunch)
-      const dinner = updateMealItems(day.dinner)
-
-      return {
-        ...day,
-        caloriesBMR: totalCalories,
-        proteinProvided:
-          breakfast.totalNutrients.protein + lunch.totalNutrients.protein + dinner.totalNutrients.protein,
-        fatProvided: breakfast.totalNutrients.fat + lunch.totalNutrients.fat + dinner.totalNutrients.fat,
-        carbsProvided:
-          breakfast.totalNutrients.carbohydrate +
-          lunch.totalNutrients.carbohydrate +
-          dinner.totalNutrients.carbohydrate,
-        breakfast: breakfast.items,
-        lunch: lunch.items,
-        dinner: dinner.items,
+      if (obj.lunch) {
+        const lunch = obj.lunch.map((item) => {
+          // Calculate calories, fats, protein, and carbs
+          const mealItem = orignalData.find((meal) => meal._id.toString() === item.id)
+          obj.caloriesBMR = totalCalories;
+          obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem.nutrients.calories;
+          obj.proteinProvided = (obj.proteinProvided || 0) + mealItem.nutrients.protein;
+          obj.fatProvided = (obj.fatProvided || 0) + mealItem.nutrients.fat;
+          obj.carbsProvided = (obj.carbsProvided || 0) + mealItem.nutrients.carbohydrate;
+          return mealItem
+        })
+        obj.lunch = lunch
+        newDatas.push(obj)
       }
-    })
-
-    res.json({ message: 'Meals updated successfully.', weeklyPlan:updatedResult })
+      if (obj.dinner) {
+        const dinner = obj.dinner.map((item) => {
+          // Calculate calories, fats, protein, and carbs
+          const mealItem = orignalData.find((meal) => meal._id.toString() === item.id)
+          obj.caloriesBMR = totalCalories;
+          obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem.nutrients.calories;
+          obj.proteinProvided = (obj.proteinProvided || 0) + mealItem.nutrients.protein;
+          obj.fatProvided = (obj.fatProvided || 0) + mealItem.nutrients.fat;
+          obj.carbsProvided = (obj.carbsProvided || 0) + mealItem.nutrients.carbohydrate;
+          return mealItem
+        })
+        obj.dinner = dinner
+        newDatas.push(obj)
+      }
+    }
+    // const updatedResult = validateRes
+    res.json({ message: 'Meals updated successfully.', newDatas })
   }),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {
