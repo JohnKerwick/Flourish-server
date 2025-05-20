@@ -330,15 +330,15 @@ export const CONTROLLER_DIET = {
     
     ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
-    // const aiResponse = await processMealRecommendations(prompt)
+    const aiResponse = await processMealRecommendations(prompt)
 
-    // const cleanedResponse = aiResponse
-    //   .replace(/```json\s*/i, '') // remove ```json with optional whitespace
-    //   .replace(/```$/, '') // remove ending ```
-    //   .trim() // trim extra whitespace
+    const cleanedResponse = aiResponse
+      .replace(/```json\s*/i, '') // remove ```json with optional whitespace
+      .replace(/```$/, '') // remove ending ```
+      .trim() // trim extra whitespace
 
-    // let newData = JSON.parse(cleanedResponse)
-    // await fs.writeFile('week_meals.json', JSON.stringify(newData, null, 2), 'utf-8')
+    let newData = JSON.parse(cleanedResponse)
+    await fs.writeFile('week_meals.json', JSON.stringify(newData, null, 2), 'utf-8')
 
     const readAiRes = await readFile('week_meals.json', 'utf-8')
     const formatedAiRes = JSON.parse(readAiRes)
@@ -391,8 +391,8 @@ export const CONTROLLER_DIET = {
         newDatas.push(obj)
       }
     }
-    // const updatedResult = validateRes
-    res.json({ message: 'Meals updated successfully.', newDatas })
+  
+    res.json({ message: 'Meals updated successfully.', weeklyPlan: newDatas })
   }),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {
