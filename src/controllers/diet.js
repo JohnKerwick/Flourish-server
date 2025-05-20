@@ -176,10 +176,11 @@ export const CONTROLLER_DIET = {
     const userId = decoded?._id
     const user = await getUserById(userId)
     const campus = user.student.school
+    // const selectedMeals = ['Lunch', 'Dinner']
     const selectedMeals = user.dietPlan.selectedMeals
     const dietPlan = user.dietPlan.swipes
+    // const dietPlan = { diningHall: 3, franchise: 4 }
     const totalCalories = calculateBMR(user)
-    console.log('totalCalories', totalCalories)
 
     const result = await Meals.aggregate([
       {
@@ -318,11 +319,9 @@ export const CONTROLLER_DIET = {
     Generate total ${mealsPerWeek} realistic meals for 7 days(Not more then 7) only, for ${selectedMeals.join(
       ','
     )}, each divided into each day with a maximum calorie limit of ${totalCalories} each day.
-    But you have a margin of ±${margin} calories. ${sentence} All ${mealsPerWeek} meals must come from the ${
-      dietPlan.franchise
-    } franchise and ${
+    ${sentence} All ${mealsPerWeek} meals must come from the ${dietPlan.franchise} franchise and ${
       dietPlan.diningHall
-    } dining halls. Each individual meal items must be sourced from the same restaurant (compulsory requirement).
+    } dining halls. Each individual meal items must be sourced from the same restaurant (compulsory requirement) and please try not to repeat the meals.
     In each meal we can not have an item from restaurant A and another item from restaurant B and also dont change the name of the meals.
     give me only JSON in response with all the food item details (name, restaurant, calories etc) in each meal. 
     Also, we can not change the calories and names of the food items please.
@@ -349,49 +348,54 @@ export const CONTROLLER_DIET = {
     for (let i = 0; i < validateRes.length; i++) {
       const obj = cloneDeep(validateRes[i])
       if (obj.breakfast) {
-        const breakfast = obj.breakfast.map((item) => {
-          // Calculate calories, fats, protein, and carbs
-          const mealItem = orignalData.find((meal) => meal._id.toString() === item.id)
-          obj.caloriesBMR = totalCalories;
-          obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem.nutrients.calories;
-          obj.proteinProvided = (obj.proteinProvided || 0) + mealItem.nutrients.protein;
-          obj.fatProvided = (obj.fatProvided || 0) + mealItem.nutrients.fat;
-          obj.carbsProvided = (obj.carbsProvided || 0) + mealItem.nutrients.carbohydrate;
-          return mealItem
-        })
+        const breakfast = obj.breakfast
+          .map((item) => {
+            // Calculate calories, fats, protein, and carbs
+            const mealItem = orignalData.find((meal) => meal._id.toString() === item.id)
+            if (mealItem) {
+              obj.caloriesBMR = totalCalories
+              obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem?.nutrients?.calories
+              obj.proteinProvided = (obj.proteinProvided || 0) + mealItem?.nutrients?.protein
+              obj.fatProvided = (obj.fatProvided || 0) + mealItem?.nutrients?.fat
+              obj.carbsProvided = (obj.carbsProvided || 0) + mealItem?.nutrients?.carbohydrate
+              return mealItem
+            }
+          })
+          .filter((item) => item !== null)
         obj.breakfast = breakfast
-        newDatas.push(obj)
       }
       if (obj.lunch) {
         const lunch = obj.lunch.map((item) => {
           // Calculate calories, fats, protein, and carbs
           const mealItem = orignalData.find((meal) => meal._id.toString() === item.id)
-          obj.caloriesBMR = totalCalories;
-          obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem.nutrients.calories;
-          obj.proteinProvided = (obj.proteinProvided || 0) + mealItem.nutrients.protein;
-          obj.fatProvided = (obj.fatProvided || 0) + mealItem.nutrients.fat;
-          obj.carbsProvided = (obj.carbsProvided || 0) + mealItem.nutrients.carbohydrate;
-          return mealItem
-        })
+             if (mealItem) {
+          obj.caloriesBMR = totalCalories
+          obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem?.nutrients?.calories
+          obj.proteinProvided = (obj.proteinProvided || 0) + mealItem?.nutrients?.protein
+          obj.fatProvided = (obj.fatProvided || 0) + mealItem?.nutrients?.fat
+          obj.carbsProvided = (obj.carbsProvided || 0) + mealItem?.nutrients?.carbohydrate
+          return mealItem}
+        }).filter((item) => item !== null)
         obj.lunch = lunch
-        newDatas.push(obj)
       }
       if (obj.dinner) {
         const dinner = obj.dinner.map((item) => {
           // Calculate calories, fats, protein, and carbs
           const mealItem = orignalData.find((meal) => meal._id.toString() === item.id)
-          obj.caloriesBMR = totalCalories;
-          obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem.nutrients.calories;
-          obj.proteinProvided = (obj.proteinProvided || 0) + mealItem.nutrients.protein;
-          obj.fatProvided = (obj.fatProvided || 0) + mealItem.nutrients.fat;
-          obj.carbsProvided = (obj.carbsProvided || 0) + mealItem.nutrients.carbohydrate;
+          if(mealItem) {
+          obj.caloriesBMR = totalCalories
+          obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem?.nutrients?.calories
+          obj.proteinProvided = (obj.proteinProvided || 0) + mealItem?.nutrients?.protein
+          obj.fatProvided = (obj.fatProvided || 0) + mealItem?.nutrients?.fat
+          obj.carbsProvided = (obj.carbsProvided || 0) + mealItem?.nutrients?.carbohydrate
           return mealItem
-        })
+          }
+        }).filter((item) => item !== null)
         obj.dinner = dinner
-        newDatas.push(obj)
       }
+      newDatas.push(obj)
     }
-  
+
     res.json({ message: 'Meals updated successfully.', weeklyPlan: newDatas })
   }),
 

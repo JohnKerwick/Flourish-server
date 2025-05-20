@@ -1,32 +1,47 @@
 [
   {
     "day": "Monday",
-    "caloriesProvided": 2336.6,
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560b",
-        "name": "Cheddar & Uncured Salami Protein Box",
-        "calories": 470,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacca0812499dafa5871",
-        "name": "Eggs & Cheddar Protein Box",
-        "calories": 460,
-        "resturantName": "Starbucks"
-      }
-    ],
     "lunch": [
       {
-        "id": "67aca9072523ee9db05d3b50",
-        "name": "Nachos, Southwestern Vinaigrette",
-        "calories": 230,
+        "id": "67aca9072523ee9db05d3b39",
+        "name": "Nachos, Chipotle Ranch",
+        "calories": 190,
         "resturantName": "Barberitos"
       },
       {
-        "id": "67aca9072523ee9db05d3af4",
-        "name": "Burrito, Chipotle Ranch",
+        "id": "67aca9072523ee9db05d3b5c",
+        "name": "Quesadillas, Chipotle Ranch",
         "calories": 190,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3ad4",
+        "name": "Bowl, Chicken",
+        "calories": 190,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3af1",
+        "name": "Burrito, Cheese",
+        "calories": 160,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3af9",
+        "name": "Burrito, Fish",
+        "calories": 120,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b0b",
+        "name": "Burrito, Steak",
+        "calories": 180,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b0d",
+        "name": "Burrito, Tofu",
+        "calories": 110,
         "resturantName": "Barberitos"
       }
     ],
@@ -41,226 +56,283 @@
         "id": "67acaa04fab1224e86940465",
         "name": "Creamy Salsa Dressing",
         "calories": 290,
+        "resturantName": "Chick-Fil-A"
+      },
+      {
+        "id": "67acaa04fab1224e86940479",
+        "name": "Garden Herb Ranch Dressing",
+        "calories": 280,
+        "resturantName": "Chick-Fil-A"
+      },
+      {
+        "id": "67acaa04fab1224e869404cd",
+        "name": "Polynesian Sauce",
+        "calories": 110,
         "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Tuesday",
-    "caloriesProvided": 2331.6,
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560b",
-        "name": "Cheddar & Uncured Salami Protein Box",
-        "calories": 470,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacca0812499dafa5872",
-        "name": "Eggs & Gouda Protein Box",
-        "calories": 530,
-        "resturantName": "Starbucks"
-      }
-    ],
     "lunch": [
       {
-        "id": "67aca9072523ee9db05d3b50",
-        "name": "Nachos, Southwestern Vinaigrette",
-        "calories": 230,
+        "id": "67aca9072523ee9db05d3b40",
+        "name": "Nachos, Ground Beef",
+        "calories": 250,
         "resturantName": "Barberitos"
       },
       {
-        "id": "67aca9072523ee9db05d3af4",
-        "name": "Burrito, Chipotle Ranch",
-        "calories": 190,
+        "id": "67aca9072523ee9db05d3ad3",
+        "name": "Bowl, Cheese",
+        "calories": 250,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b5a",
+        "name": "Quesadillas, Cheese",
+        "calories": 160,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b72",
+        "name": "Quesadillas, Southwestern Vinaigrette",
+        "calories": 230,
         "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "id": "67acaa04fab1224e869403f1",
-        "name": "Avocado Lime Ranch Dressing",
-        "calories": 310,
+        "id": "67aca0a320afa3d5aa7109da",
+        "name": "Raspberry Cheesecake Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
+      {
+        "id": "67aca0a320afa3d5aa7109fe",
+        "name": "White Chip Macadamia Nut Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
+      {
+        "id": "67acaa04fab1224e869403f7",
+        "name": "Berry Parfait with Cookie Crumbs",
+        "calories": 240,
         "resturantName": "Chick-Fil-A"
       },
       {
-        "id": "67acaa04fab1224e86940479",
-        "name": "Garden Herb Ranch Dressing",
-        "calories": 280,
+        "id": "67acaa04fab1224e869403f8",
+        "name": "Berry Parfait with Granola",
+        "calories": 270,
         "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Wednesday",
-    "caloriesProvided": 2339.6,
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560b",
-        "name": "Cheddar & Uncured Salami Protein Box",
-        "calories": 470,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacca0812499dafa5872",
-        "name": "Eggs & Gouda Protein Box",
-        "calories": 530,
-        "resturantName": "Starbucks"
-      }
-    ],
     "lunch": [
       {
-        "id": "67aca9072523ee9db05d3b50",
-        "name": "Nachos, Southwestern Vinaigrette",
-        "calories": 230,
+        "id": "67aca9072523ee9db05d3afc",
+        "name": "Burrito, Ground Turkey",
+        "calories": 130,
         "resturantName": "Barberitos"
       },
       {
-        "id": "67aca9072523ee9db05d3af4",
-        "name": "Burrito, Chipotle Ranch",
-        "calories": 190,
+        "id": "67aca9072523ee9db05d3b3e",
+        "name": "Nachos, Fish",
+        "calories": 120,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3aeb",
+        "name": "Bowl, Steak",
+        "calories": 270,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b3a",
+        "name": "Nachos, Chips",
+        "calories": 340,
         "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "id": "67acaa04fab1224e869403f1",
-        "name": "Avocado Lime Ranch Dressing",
-        "calories": 310,
+        "id": "67aca0a320afa3d5aa7109a2",
+        "name": "Double Chocolate Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
+      {
+        "id": "67aca0a320afa3d5aa7109fe",
+        "name": "White Chip Macadamia Nut Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
+      {
+        "id": "67acaa04fab1224e869403f8",
+        "name": "Berry Parfait with Granola",
+        "calories": 270,
         "resturantName": "Chick-Fil-A"
       },
       {
-        "id": "67acaa04fab1224e86940465",
-        "name": "Creamy Salsa Dressing",
-        "calories": 290,
+        "id": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
         "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Thursday",
-    "caloriesProvided": 2334.6,
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560b",
-        "name": "Cheddar & Uncured Salami Protein Box",
-        "calories": 470,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacca0812499dafa5871",
-        "name": "Eggs & Cheddar Protein Box",
-        "calories": 460,
-        "resturantName": "Starbucks"
-      }
-    ],
     "lunch": [
       {
-        "id": "67aca9072523ee9db05d3b50",
-        "name": "Nachos, Southwestern Vinaigrette",
-        "calories": 230,
+        "id": "67aca9072523ee9db05d3b0f",
+        "name": "Burrito, Wheat Tortilla",
+        "calories": 250,
         "resturantName": "Barberitos"
       },
       {
-        "id": "67aca9072523ee9db05d3af4",
-        "name": "Burrito, Chipotle Ranch",
-        "calories": 190,
+        "id": "67aca9072523ee9db05d3b1c",
+        "name": "Chips & Dip, Large Cheese Dip",
+        "calories": 780,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b3c",
+        "name": "Nachos, Chicken",
+        "calories": 130,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b1d",
+        "name": "Chips & Dip, Medium Cheese Dip",
+        "calories": 390,
         "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "id": "67acaa04fab1224e869403f1",
-        "name": "Avocado Lime Ranch Dressing",
-        "calories": 310,
+        "id": "67aca0a320afa3d5aa7109a3",
+        "name": "Chocolate Chunk Cookie",
+        "calories": 370,
         "resturantName": "Chick-Fil-A"
       },
       {
-        "id": "67acaa04fab1224e86940465",
-        "name": "Creamy Salsa Dressing",
-        "calories": 290,
+        "id": "67aca0a320afa3d5aa7109da",
+        "name": "Raspberry Cheesecake Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
+      {
+        "id": "67aca0a320afa3d5aa7109fe",
+        "name": "White Chip Macadamia Nut Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
+      {
+        "id": "67acaa04fab1224e86940480",
+        "name": "Grilled Chicken Club with American",
+        "calories": 490,
         "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Friday",
-    "caloriesProvided": 2336.6,
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560b",
-        "name": "Cheddar & Uncured Salami Protein Box",
-        "calories": 470,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacca0812499dafa5872",
-        "name": "Eggs & Gouda Protein Box",
-        "calories": 530,
-        "resturantName": "Starbucks"
-      }
-    ],
     "lunch": [
       {
-        "id": "67aca9072523ee9db05d3b50",
-        "name": "Nachos, Southwestern Vinaigrette",
-        "calories": 230,
+        "id": "67aca9072523ee9db05d3b1d",
+        "name": "Chips & Dip, Medium Cheese Dip",
+        "calories": 390,
         "resturantName": "Barberitos"
       },
       {
-        "id": "67aca9072523ee9db05d3af4",
-        "name": "Burrito, Chipotle Ranch",
+        "id": "67aca9072523ee9db05d3b1c",
+        "name": "Chips & Dip, Large Cheese Dip",
+        "calories": 780,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3aee",
+        "name": "Burrito, Avocado Slices",
+        "calories": 120,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b5c",
+        "name": "Quesadillas, Chipotle Ranch",
         "calories": 190,
         "resturantName": "Barberitos"
       }
     ],
     "dinner": [
       {
-        "id": "67acaa04fab1224e869403f1",
-        "name": "Avocado Lime Ranch Dressing",
-        "calories": 310,
-        "resturantName": "Chick-Fil-A"
+        "id": "67aca0a320afa3d5aa7109fe",
+        "name": "White Chip Macadamia Nut Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
+      {
+        "id": "67aca0a320afa3d5aa7109da",
+        "name": "Raspberry Cheesecake Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
       },
       {
         "id": "67acaa04fab1224e86940479",
         "name": "Garden Herb Ranch Dressing",
         "calories": 280,
         "resturantName": "Chick-Fil-A"
+      },
+      {
+        "id": "67acaa04fab1224e869404cd",
+        "name": "Polynesian Sauce",
+        "calories": 110,
+        "resturantName": "Chick-Fil-A"
       }
     ]
   },
   {
     "day": "Saturday",
-    "caloriesProvided": 2335.6,
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560b",
-        "name": "Cheddar & Uncured Salami Protein Box",
-        "calories": 470,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacca0812499dafa5871",
-        "name": "Eggs & Cheddar Protein Box",
-        "calories": 460,
-        "resturantName": "Starbucks"
-      }
-    ],
     "lunch": [
       {
-        "id": "67aca9072523ee9db05d3b50",
-        "name": "Nachos, Southwestern Vinaigrette",
-        "calories": 230,
+        "id": "67aca9072523ee9db05d3b5c",
+        "name": "Quesadillas, Chipotle Ranch",
+        "calories": 190,
         "resturantName": "Barberitos"
       },
       {
-        "id": "67aca9072523ee9db05d3af4",
-        "name": "Burrito, Chipotle Ranch",
-        "calories": 190,
+        "id": "67aca9072523ee9db05d3afc",
+        "name": "Burrito, Ground Turkey",
+        "calories": 130,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b3e",
+        "name": "Nachos, Fish",
+        "calories": 120,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3b1c",
+        "name": "Chips & Dip, Large Cheese Dip",
+        "calories": 780,
         "resturantName": "Barberitos"
       }
     ],
     "dinner": [
+      {
+        "id": "67aca0a320afa3d5aa7109da",
+        "name": "Raspberry Cheesecake Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
+      {
+        "id": "67aca0a320afa3d5aa7109da",
+        "name": "Raspberry Cheesecake Cookie",
+        "calories": 210,
+        "resturantName": "Subway"
+      },
       {
         "id": "67acaa04fab1224e869403f1",
         "name": "Avocado Lime Ranch Dressing",
@@ -277,32 +349,29 @@
   },
   {
     "day": "Sunday",
-    "caloriesProvided": 2330.6,
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560b",
-        "name": "Cheddar & Uncured Salami Protein Box",
-        "calories": 470,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacca0812499dafa5871",
-        "name": "Eggs & Cheddar Protein Box",
-        "calories": 460,
-        "resturantName": "Starbucks"
-      }
-    ],
     "lunch": [
       {
-        "id": "67aca9072523ee9db05d3b50",
-        "name": "Nachos, Southwestern Vinaigrette",
-        "calories": 230,
+        "id": "67aca9072523ee9db05d3b1b",
+        "name": "Bowl, Fish",
+        "calories": 120,
         "resturantName": "Barberitos"
       },
       {
-        "id": "67aca9072523ee9db05d3af4",
-        "name": "Burrito, Chipotle Ranch",
+        "id": "67aca9072523ee9db05d3b5c",
+        "name": "Quesadillas, Chipotle Ranch",
         "calories": 190,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3aeb",
+        "name": "Bowl, Steak",
+        "calories": 270,
+        "resturantName": "Barberitos"
+      },
+      {
+        "id": "67aca9072523ee9db05d3afc",
+        "name": "Burrito, Tofu",
+        "calories": 110,
         "resturantName": "Barberitos"
       }
     ],
@@ -314,9 +383,21 @@
         "resturantName": "Chick-Fil-A"
       },
       {
+        "id": "67acaa04fab1224e86940465",
+        "name": "Creamy Salsa Dressing",
+        "calories": 290,
+        "resturantName": "Chick-Fil-A"
+      },
+      {
         "id": "67acaa04fab1224e86940479",
         "name": "Garden Herb Ranch Dressing",
         "calories": 280,
+        "resturantName": "Chick-Fil-A"
+      },
+      {
+        "id": "67acaa04fab1224e869404cd",
+        "name": "Polynesian Sauce",
+        "calories": 110,
         "resturantName": "Chick-Fil-A"
       }
     ]

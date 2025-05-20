@@ -130,7 +130,7 @@ export const promptSentence = (meals) => {
       })
       .join(entries.length === 2 ? ' and ' : ', ')
       .replace(/, ([^,]*)$/, ' and $1') +
-    '.'
+    ' You are strictly ordered not to exceed the calories limit and you must complete the above calories count please.'
 
   return sentence
 }
@@ -162,9 +162,6 @@ export const generateMealPlan = (
 
     const franchiseItems = allItems.filter((i) => i.restaurantType === 'Franchise')
     const diningItems = allItems.filter((i) => i.restaurantType === 'Dining-Halls')
-
-    console.log('franchiseItems', franchiseItems)
-    console.log('diningItems', diningItems)
 
     let desiredF = franchisePerMeal + (index < franchiseRemainder ? 1 : 0)
     let desiredD = diningPerMeal + (index < diningRemainder ? 1 : 0)
