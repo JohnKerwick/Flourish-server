@@ -12,6 +12,7 @@ export async function processMealRecommendations(content) {
 
     const response = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
+      // model: 'o4-mini',
       messages: [{ role: 'user', content }],
       temperature: 0.7,
     });

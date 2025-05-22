@@ -1,5 +1,6 @@
 import express from 'express'
 import path from 'path'
+import http from 'http'
 import cookieParser from 'cookie-parser'
 import logger from 'morgan'
 import cors from 'cors'
@@ -10,22 +11,25 @@ import { corsConfig } from './config/cors'
 import session from 'express-session'
 import configSwagger from './config/swagger'
 import { createServer } from 'node:http'
-import { init } from './socket'
 import { initializeFirebase } from './utils/firebase'
 import dotenv from 'dotenv'
 import { task } from './utils/scrapper_cron'
-import { OpenAI } from 'openai';
-// import { setupSocketEventHandlers } from './socketEvents'
+import { setupSocketEventHandlers } from './socketEvents'
+
+import { init as initSocket } from './socket.js'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)
 // setupSocketEventHandlers()
 
 const app = express()
+const server = http.createServer(app)
 dotenv.config()
 
+const io = initSocket(server)
+setupSocketEventHandlers(io)
 // For Socket.io
-const server = createServer(app)
-init(server)
+// const server = createServer(app)
+// init(server)
 // Setup Socket.IO event handlers
 initializeFirebase()
 const PORT = process.env.PORT || 3000

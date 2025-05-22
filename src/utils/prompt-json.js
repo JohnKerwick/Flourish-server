@@ -3,7 +3,7 @@ export function exampleJson(example) {
   if (example.length === 1 && example.includes('Breakfast')) {
     json = [
       {
-        days: 'Monday',
+        day: 'Monday',
         breakfast: [
           {
             id: '6799d34882a7649a9de25c37',
@@ -31,7 +31,7 @@ export function exampleJson(example) {
   if (example.length === 1 && example.includes('Lunch')) {
     json = [
       {
-        days: 'Monday',
+        day: 'Monday',
         lunch: [
           {
             id: '67acac3190199bff8920256a',
@@ -58,7 +58,7 @@ export function exampleJson(example) {
   if (example.length === 1 && example.includes('Dinner')) {
     json = [
       {
-        days: 'Monday',
+        day: 'Monday',
         dinner: [
           {
             id: '67caa4be0909e38b69423866',

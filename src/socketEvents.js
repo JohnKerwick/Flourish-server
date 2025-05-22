@@ -7,9 +7,9 @@ export const setupSocketEventHandlers = () => {
     console.log('A user connected')
 
     // Handling "joinAuction" event
-    socket.on('joinAuction', (auctionId) => {
-      console.log(`User ${socket.id} joining auction: ${auctionId}`)
-      socket.join(auctionId)
+    socket.on('weekly_plan', (weeklyPlan) => {
+      console.log(`User `)
+      socket.join(weeklyPlan)
     })
 
     // Add more event handlers here

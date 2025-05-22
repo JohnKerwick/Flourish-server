@@ -130,7 +130,7 @@ export const promptSentence = (meals) => {
       })
       .join(entries.length === 2 ? ' and ' : ', ')
       .replace(/, ([^,]*)$/, ' and $1') +
-    ' You are strictly ordered not to exceed the calories limit and you must complete the above calories count please.'
+    ' You are strictly ordered not to exceed the calories limit.'
 
   return sentence
 }
