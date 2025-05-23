@@ -211,6 +211,8 @@ export const CONTROLLER_DIET = {
       },
     ])
 
+    await fs.writeFile('request-db-data.json', JSON.stringify(result, null, 2), 'utf-8')
+
     const orignalData = await Meals.find({
       campus: { $in: [campus] },
       category: { $ne: 'Uncategorized' },
@@ -230,7 +232,7 @@ export const CONTROLLER_DIET = {
       const maxCalories = getMaxCaloriesPerMeal(mealsPerWeek, mealType, totalCalories, margin)
       // console.log("maxCalories", maxCalories)
 
-      let processedData = result
+      let processedData = cloneDeep(result)
       // console.log('processedData', processedData);
 
       if ((campus === 'UNCC' || campus === 'HPU') && mealType === 'Breakfast') {
@@ -309,17 +311,19 @@ export const CONTROLLER_DIET = {
         })
       })
       // console.log('groupedRecommendations', groupedRecommendations)
-      const compressed = compressRecommendations(groupedRecommendations)
+      const items = compressRecommendations(groupedRecommendations)
       return {
         maxCalories,
         mealType,
-        compressed,
+        items,
       }
     })
 
     const caloriesPerMeal = caloriesInMeal(selectedMeals, totalCalories)
     const sentence = promptSentence(caloriesPerMeal)
     const exampleJsonData = exampleJson(selectedMeals)
+
+    await fs.writeFile('request-data.json', JSON.stringify(mealRecommendations, null, 2), 'utf-8')
 
     const prompt = `
     Below is the categorized food item data for the selected meals:
@@ -340,16 +344,10 @@ Each item contains the following important fields:
 - ${sentence}
 
 ### Strict Rules:
-1. Each meal (e.g., Breakfast, Lunch, Dinner) must consist of items from the **same restaurant only**.
-2. **Mixing restaurants in a single meal is not allowed**. If no valid combination exists from one restaurant, skip that meal.
-3. You **must not modify** any of the following fields:
-   - "id"
-   - "name"
-   - "calories"
-   - "restaurantName"
-   - "restaurantType"
-   - "Day label"
-4. Do not repeat the **same exact meal more than twice** across the 7 days.
+1. Each meal (e.g., Mean for Breakfast, Lunch or Dinner) must consist of items from the **same restaurant only**.
+2. **Mixing restaurants in a single meal is not allowed**. If no valid combination exists from one restaurant, you can compromise on calories.
+3. You **must not modify** any of the fields in the result data.
+4. Try to not repeat the **same exact meal** across the 7 days.
 
 ### Output Format:
 - Return your response in **valid JSON only**.
@@ -362,7 +360,7 @@ Begin now.`
 
     const aiResponse = await processMealRecommendations(prompt)
     // const aiResponse = await deepSeekRes(prompt)
-    console.log('AIRESP', aiResponse)
+    // console.log('AIRESP', aiResponse)
 
     const cleanedResponse = aiResponse
       .replace(/^Here.*?requirements: \s*/i, '')
@@ -377,9 +375,9 @@ Begin now.`
 
     const newData = JSON.parse(jsonOnly)
 
-    await fs.writeFile('week_meals.json', JSON.stringify(newData, null, 2), 'utf-8')
+    await fs.writeFile('response-data.json', JSON.stringify(newData, null, 2), 'utf-8')
 
-    const readAiRes = await readFile('week_meals.json', 'utf-8')
+    const readAiRes = await readFile('response-data.json', 'utf-8')
     const formatedAiRes = JSON.parse(readAiRes)
 
     const validateRes = validateAiResponse(formatedAiRes)
@@ -392,7 +390,7 @@ Begin now.`
           .map((item) => {
             // Calculate calories, fats, protein, and carbs
             const mealItem = orignalData.find((meal) => meal._id.toString() === item.id)
-            console.log('mealItem', mealItem)
+            // console.log('mealItem', mealItem)
             if (mealItem) {
               obj.caloriesBMR = totalCalories
               obj.caloriesProvided = (obj.caloriesProvided || 0) + mealItem?.nutrients?.calories

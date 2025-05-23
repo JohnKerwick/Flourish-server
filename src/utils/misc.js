@@ -209,7 +209,7 @@ export function compressRecommendations(data) {
     }
     data[key].forEach((item) => {
       result[key].push({
-        id : item._id,
+        id: item._id,
         name: item.name,
         calories: item.calories,
         resturantName: item.restaurantName,
@@ -218,3 +218,39 @@ export function compressRecommendations(data) {
   }
   return result
 }
+
+// export function compressRecommendations(data) {
+//   console.log('Data is:', data)
+//   const result = {}
+
+//   for(let i = 0; i < data.length; i++) {
+//     const category = data[i]._id
+//     if (!result[mealType]) {
+//       result[mealType] = []
+//     }
+//     data[i].recommendations.forEach((item) => {
+//       item.items.forEach((i) => {
+//         result[mealType].push({
+//           id: i._id,
+//           name: i.name,
+//           calories: i.calories,
+//           resturantName: i.restaurantName,
+//         })
+//       })
+//     })
+//   }
+//   // for (const key in data) {
+//   //   if (!result[key]) {
+//   //     result[key] = []
+//   //   }
+//   //   data[key].forEach((item) => {
+//   //     result[key].push({
+//   //       id: item._id,
+//   //       name: item.name,
+//   //       calories: item.calories,
+//   //       resturantName: item.restaurantName,
+//   //     })
+//   //   })
+//   // }
+//   return result
+// }

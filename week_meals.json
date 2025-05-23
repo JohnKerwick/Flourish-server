@@ -1,162 +1,183 @@
 [
   {
-    "day": "Monday",
-    "breakfast": [
+    "Day label": "Day 1",
+    "meals": [
       {
-        "id": "6799d34882a7649a9de25c37",
-        "name": "Plain Cream Cheese",
-        "calories": 101.3,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "1",
+        "name": "Breakfast Item 1",
+        "calories": 300,
+        "restaurantName": "Restaurant A",
+        "restaurantType": "franchise"
       },
       {
-        "id": "6799d34a82a7649a9de25c39",
-        "name": "Strawberry Yogurt",
-        "calories": 67.4,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "2",
+        "name": "Lunch Item 1",
+        "calories": 400,
+        "restaurantName": "Restaurant A",
+        "restaurantType": "franchise"
       },
       {
-        "id": "6799d34a82a7649a9de25c3a",
-        "name": "Vanilla Greek Yogurt",
-        "calories": 85.7,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "3",
+        "name": "Dinner Item 1",
+        "calories": 500,
+        "restaurantName": "Restaurant A",
+        "restaurantType": "franchise"
       }
     ]
   },
   {
-    "day": "Tuesday",
-    "breakfast": [
+    "Day label": "Day 2",
+    "meals": [
       {
-        "id": "6799d34882a7649a9de25c37",
-        "name": "Plain Cream Cheese",
-        "calories": 101.3,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "4",
+        "name": "Breakfast Item 2",
+        "calories": 350,
+        "restaurantName": "Restaurant A",
+        "restaurantType": "franchise"
       },
       {
-        "id": "6799d34a82a7649a9de25c39",
-        "name": "Strawberry Yogurt",
-        "calories": 67.4,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "5",
+        "name": "Lunch Item 2",
+        "calories": 450,
+        "restaurantName": "Restaurant A",
+        "restaurantType": "franchise"
       },
       {
-        "id": "6799d34a82a7649a9de25c3a",
-        "name": "Vanilla Greek Yogurt",
-        "calories": 85.7,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "6",
+        "name": "Dinner Item 2",
+        "calories": 500,
+        "restaurantName": "Restaurant A",
+        "restaurantType": "franchise"
       }
     ]
   },
   {
-    "day": "Wednesday",
-    "breakfast": [
+    "Day label": "Day 3",
+    "meals": [
       {
-        "id": "6799d34882a7649a9de25c37",
-        "name": "Plain Cream Cheese",
-        "calories": 101.3,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "7",
+        "name": "Breakfast Item 1",
+        "calories": 300,
+        "restaurantName": "Restaurant B",
+        "restaurantType": "diningHall"
       },
       {
-        "id": "6799d34a82a7649a9de25c39",
-        "name": "Strawberry Yogurt",
-        "calories": 67.4,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "8",
+        "name": "Lunch Item 1",
+        "calories": 400,
+        "restaurantName": "Restaurant B",
+        "restaurantType": "diningHall"
       },
       {
-        "id": "6799d34a82a7649a9de25c3a",
-        "name": "Vanilla Greek Yogurt",
-        "calories": 85.7,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "9",
+        "name": "Dinner Item 1",
+        "calories": 500,
+        "restaurantName": "Restaurant B",
+        "restaurantType": "diningHall"
       }
     ]
   },
   {
-    "day": "Thursday",
-    "breakfast": [
+    "Day label": "Day 4",
+    "meals": [
       {
-        "id": "6799d34882a7649a9de25c37",
-        "name": "Plain Cream Cheese",
-        "calories": 101.3,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "10",
+        "name": "Breakfast Item 2",
+        "calories": 350,
+        "restaurantName": "Restaurant B",
+        "restaurantType": "diningHall"
       },
       {
-        "id": "6799d34a82a7649a9de25c39",
-        "name": "Strawberry Yogurt",
-        "calories": 67.4,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "11",
+        "name": "Lunch Item 2",
+        "calories": 450,
+        "restaurantName": "Restaurant B",
+        "restaurantType": "diningHall"
       },
       {
-        "id": "6799d34a82a7649a9de25c3a",
-        "name": "Vanilla Greek Yogurt",
-        "calories": 85.7,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "12",
+        "name": "Dinner Item 2",
+        "calories": 500,
+        "restaurantName": "Restaurant B",
+        "restaurantType": "diningHall"
       }
     ]
   },
   {
-    "day": "Friday",
-    "breakfast": [
+    "Day label": "Day 5",
+    "meals": [
       {
-        "id": "6799d34882a7649a9de25c37",
-        "name": "Plain Cream Cheese",
-        "calories": 101.3,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "13",
+        "name": "Breakfast Item 1",
+        "calories": 300,
+        "restaurantName": "Restaurant C",
+        "restaurantType": "franchise"
       },
       {
-        "id": "6799d34a82a7649a9de25c39",
-        "name": "Strawberry Yogurt",
-        "calories": 67.4,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "14",
+        "name": "Lunch Item 1",
+        "calories": 400,
+        "restaurantName": "Restaurant C",
+        "restaurantType": "franchise"
       },
       {
-        "id": "6799d34a82a7649a9de25c3a",
-        "name": "Vanilla Greek Yogurt",
-        "calories": 85.7,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "15",
+        "name": "Dinner Item 1",
+        "calories": 500,
+        "restaurantName": "Restaurant C",
+        "restaurantType": "franchise"
       }
     ]
   },
   {
-    "day": "Saturday",
-    "breakfast": [
+    "Day label": "Day 6",
+    "meals": [
       {
-        "id": "6799d34882a7649a9de25c37",
-        "name": "Plain Cream Cheese",
-        "calories": 101.3,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "16",
+        "name": "Breakfast Item 2",
+        "calories": 350,
+        "restaurantName": "Restaurant C",
+        "restaurantType": "franchise"
       },
       {
-        "id": "6799d34a82a7649a9de25c39",
-        "name": "Strawberry Yogurt",
-        "calories": 67.4,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "17",
+        "name": "Lunch Item 2",
+        "calories": 450,
+        "restaurantName": "Restaurant C",
+        "restaurantType": "franchise"
       },
       {
-        "id": "6799d34a82a7649a9de25c3a",
-        "name": "Vanilla Greek Yogurt",
-        "calories": 85.7,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "18",
+        "name": "Dinner Item 2",
+        "calories": 500,
+        "restaurantName": "Restaurant C",
+        "restaurantType": "franchise"
       }
     ]
   },
   {
-    "day": "Sunday",
-    "breakfast": [
+    "Day label": "Day 7",
+    "meals": [
       {
-        "id": "6799d34882a7649a9de25c37",
-        "name": "Plain Cream Cheese",
-        "calories": 101.3,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "19",
+        "name": "Breakfast Item 1",
+        "calories": 300,
+        "restaurantName": "Restaurant D",
+        "restaurantType": "diningHall"
       },
       {
-        "id": "6799d34a82a7649a9de25c39",
-        "name": "Strawberry Yogurt",
-        "calories": 67.4,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "20",
+        "name": "Lunch Item 1",
+        "calories": 400,
+        "restaurantName": "Restaurant D",
+        "restaurantType": "diningHall"
       },
       {
-        "id": "6799d34a82a7649a9de25c3a",
-        "name": "Vanilla Greek Yogurt",
-        "calories": 85.7,
-        "restaurantName": "Yahentamitsi Dining Hall"
+        "_id": "21",
+        "name": "Dinner Item 1",
+        "calories": 500,
+        "restaurantName": "Restaurant D",
+        "restaurantType": "diningHall"
       }
     ]
   }
