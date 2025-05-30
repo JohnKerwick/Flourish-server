@@ -3,60 +3,54 @@
     "day": "Monday",
     "breakfast": [
       {
-        "id": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d34682a7649a9de25c34",
+        "name": "Oatmeal",
+        "calories": 340.2,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67d7bb7a0767fdf567561c79",
-        "name": "Shredded Sharp Cheddar Cheese",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d4de82a7649a9de25d37",
+        "name": "Liquid Eggs (Omelet Station)",
+        "calories": 170.1,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "resturantName": "SoVi"
+        "id": "6799d4d782a7649a9de25d30",
+        "name": "Bacon Bits",
+        "calories": 127.3,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67dbfeed9b6775dfb1ef5bf7",
-        "name": "Vegan Cheese, Tofu Fajita Scramble",
-        "calories": 160,
-        "resturantName": "SoVi"
+        "id": "6799d4e282a7649a9de25d3a",
+        "name": "Shredded Cheddar Cheese",
+        "calories": 111.4,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67ee2ea57f4ebc37de6fcadb",
-        "name": "Cheese Grits",
-        "calories": 130,
-        "resturantName": "SoVi"
+        "id": "6799d50d82a7649a9de25d50",
+        "name": "Special K Berry",
+        "calories": 503,
+        "resturantName": "Yahentamitsi Dining Hall"
       }
     ],
     "lunch": [
       {
-        "id": "67d7bb8e0767fdf567561ca0",
-        "name": "Sesame Dressing",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff892026a4",
+        "name": "Grilled Chicken Caesar Wrap with Dressing",
+        "calories": 700,
+        "resturantName": "SaladWorks"
       },
       {
-        "id": "67d7bb8e0767fdf567561ca2",
-        "name": "Extra Virgin Olive Oil",
-        "calories": 480,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff89202685",
+        "name": "Farmers Market Wrap with Dressing",
+        "calories": 660,
+        "resturantName": "SaladWorks"
       },
       {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "679b74423ee80063f9fe961b",
-        "name": "Cheese Quesadilla",
-        "calories": 530,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff8920256f",
+        "name": "16oz Bottled Dressing, Green Goddess",
+        "calories": 270,
+        "resturantName": "SaladWorks"
       }
     ]
   },
@@ -64,60 +58,30 @@
     "day": "Tuesday",
     "breakfast": [
       {
-        "id": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67f4c5178dda880974bd42ed",
+        "name": "Vegan Waffle French Toast",
+        "calories": 808.4,
+        "resturantName": "251 North"
       },
       {
-        "id": "67d7bb7a0767fdf567561c79",
-        "name": "Shredded Sharp Cheddar Cheese",
-        "calories": 110,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67dbfeed9b6775dfb1ef5bf7",
-        "name": "Vegan Cheese, Tofu Fajita Scramble",
-        "calories": 160,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67ee2ea57f4ebc37de6fcadb",
-        "name": "Cheese Grits",
-        "calories": 130,
-        "resturantName": "SoVi"
+        "id": "67e4f278c50cf7c4dae7c314",
+        "name": "Egg Cheese Breakfast Croissant",
+        "calories": 358.3,
+        "resturantName": "251 North"
       }
     ],
     "lunch": [
       {
-        "id": "67d7bb8e0767fdf567561ca0",
-        "name": "Sesame Dressing",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67acad1dbb8cb08519ebad27",
+        "name": "Chicken Queso Bowl",
+        "calories": 740,
+        "resturantName": "Qdoba"
       },
       {
-        "id": "67d7bb8e0767fdf567561ca2",
-        "name": "Extra Virgin Olive Oil",
-        "calories": 480,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67b8e17e1ff573cd6ff57b75",
-        "name": "Teriyaki Chicken",
-        "calories": 210,
-        "resturantName": "SoVi"
+        "id": "67acad1dbb8cb08519ebad68",
+        "name": "Keto Bowl, Brisket Birria",
+        "calories": 370,
+        "resturantName": "Qdoba"
       }
     ]
   },
@@ -125,60 +89,54 @@
     "day": "Wednesday",
     "breakfast": [
       {
-        "id": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d51b82a7649a9de25d58",
+        "name": "Breakfast Pizza",
+        "calories": 620.4,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67d7bb7a0767fdf567561c79",
-        "name": "Shredded Sharp Cheddar Cheese",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d51682a7649a9de25d54",
+        "name": "Mini Croissant",
+        "calories": 123.2,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "resturantName": "SoVi"
+        "id": "6799d50882a7649a9de25d4a",
+        "name": "Orange Wedges",
+        "calories": 103.9,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67dbfeed9b6775dfb1ef5bf7",
-        "name": "Vegan Cheese, Tofu Fajita Scramble",
-        "calories": 160,
-        "resturantName": "SoVi"
+        "id": "6799d4d782a7649a9de25d30",
+        "name": "Bacon Bits",
+        "calories": 127.3,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67ee2ea57f4ebc37de6fcadb",
-        "name": "Cheese Grits",
-        "calories": 130,
-        "resturantName": "SoVi"
+        "id": "6799d4de82a7649a9de25d37",
+        "name": "Liquid Eggs (Omelet Station)",
+        "calories": 170.1,
+        "resturantName": "Yahentamitsi Dining Hall"
       }
     ],
     "lunch": [
       {
-        "id": "67d7bb8e0767fdf567561ca0",
-        "name": "Sesame Dressing",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff892025eb",
+        "name": "Classic Greek Salad Wrap with Dressing",
+        "calories": 490,
+        "resturantName": "SaladWorks"
       },
       {
-        "id": "67d7bb8e0767fdf567561ca2",
-        "name": "Extra Virgin Olive Oil",
-        "calories": 480,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff892025d2",
+        "name": "Bently Wrap with Dressing",
+        "calories": 660,
+        "resturantName": "SaladWorks"
       },
       {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "679b74423ee80063f9fe961b",
-        "name": "Cheese Quesadilla",
-        "calories": 530,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff8920267b",
+        "name": "Dressing, Housemade Salsa Ranch with Dressing 2 oz",
+        "calories": 150,
+        "resturantName": "SaladWorks"
       }
     ]
   },
@@ -186,60 +144,54 @@
     "day": "Thursday",
     "breakfast": [
       {
-        "id": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "679b72bd3ee80063f9fe960f",
+        "name": "Vegan French Toast",
+        "calories": 135.1,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67d7bb7a0767fdf567561c79",
-        "name": "Shredded Sharp Cheddar Cheese",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d33482a7649a9de25c1f",
+        "name": "Scrambled Cheesy Cheddar Egg",
+        "calories": 241.3,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "resturantName": "SoVi"
+        "id": "679c7fce3ee80063f9fe967d",
+        "name": "Mushroom, Spinach & Tomato Vegetable Hash",
+        "calories": 120.4,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67dbfeed9b6775dfb1ef5bf7",
-        "name": "Vegan Cheese, Tofu Fajita Scramble",
-        "calories": 160,
-        "resturantName": "SoVi"
+        "id": "6799d34682a7649a9de25c34",
+        "name": "Oatmeal",
+        "calories": 340.2,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67ee2ea57f4ebc37de6fcadb",
-        "name": "Cheese Grits",
-        "calories": 130,
-        "resturantName": "SoVi"
+        "id": "679c81253ee80063f9fe967e",
+        "name": "Banana Coconut Spinach Smoothie",
+        "calories": 111,
+        "resturantName": "Yahentamitsi Dining Hall"
       }
     ],
     "lunch": [
       {
-        "id": "67d7bb8e0767fdf567561ca0",
-        "name": "Sesame Dressing",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67acad1dbb8cb08519ebad9f",
+        "name": "Surf & Turf Bowl (8 Pieces Shrimp & 3.5 oz Steak)",
+        "calories": 870,
+        "resturantName": "Qdoba"
       },
       {
-        "id": "67d7bb8e0767fdf567561ca2",
-        "name": "Extra Virgin Olive Oil",
-        "calories": 480,
-        "resturantName": "SoVi"
+        "id": "67acad1dbb8cb08519ebad1c",
+        "name": "Bacon (Select Locations) (1 oz.)",
+        "calories": 120,
+        "resturantName": "Qdoba"
       },
       {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67d7bb8f0767fdf567561cb7",
-        "name": "Portobello Mushroom Crust Pizza",
-        "calories": 130,
-        "resturantName": "SoVi"
+        "id": "67acad1dbb8cb08519ebad58",
+        "name": "Grilled Adobo Chicken (3.5 oz.)",
+        "calories": 170,
+        "resturantName": "Qdoba"
       }
     ]
   },
@@ -247,60 +199,42 @@
     "day": "Friday",
     "breakfast": [
       {
-        "id": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67f4c56e8dda880974bd44d8",
+        "name": "Sausage Egg Cheese Breakfast Wrap",
+        "calories": 797,
+        "resturantName": "251 North"
       },
       {
-        "id": "67d7bb7a0767fdf567561c79",
-        "name": "Shredded Sharp Cheddar Cheese",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "679b3e6f3ee80063f9fe92d6",
+        "name": "Avocado Toast",
+        "calories": 175.1,
+        "resturantName": "251 North"
       },
       {
-        "id": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67dbfeed9b6775dfb1ef5bf7",
-        "name": "Vegan Cheese, Tofu Fajita Scramble",
-        "calories": 160,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67ee2ea57f4ebc37de6fcadb",
-        "name": "Cheese Grits",
-        "calories": 130,
-        "resturantName": "SoVi"
+        "id": "67d7bbc40767fdf567561d20",
+        "name": "Banana",
+        "calories": 109.8,
+        "resturantName": "251 North"
       }
     ],
     "lunch": [
       {
-        "id": "67d7bb8e0767fdf567561ca0",
-        "name": "Sesame Dressing",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff892026a7",
+        "name": "Grilled Chicken Mediterranean Wrap with Dressing",
+        "calories": 540,
+        "resturantName": "SaladWorks"
       },
       {
-        "id": "67d7bb8e0767fdf567561ca2",
-        "name": "Extra Virgin Olive Oil",
-        "calories": 480,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff892025cb",
+        "name": "Avocado Cobb Wrap with Dressing",
+        "calories": 760,
+        "resturantName": "SaladWorks"
       },
       {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67b8e17e1ff573cd6ff57b75",
-        "name": "Teriyaki Chicken",
-        "calories": 210,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff8920267d",
+        "name": "Dressing, Lite Ranch 2 oz",
+        "calories": 130,
+        "resturantName": "SaladWorks"
       }
     ]
   },
@@ -308,60 +242,66 @@
     "day": "Saturday",
     "breakfast": [
       {
-        "id": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d50b82a7649a9de25d4d",
+        "name": "Roasted Corn",
+        "calories": 125.7,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67d7bb7a0767fdf567561c79",
-        "name": "Shredded Sharp Cheddar Cheese",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d33e82a7649a9de25c2b",
+        "name": "Cereal Granola",
+        "calories": 193.8,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "resturantName": "SoVi"
+        "id": "6799d34782a7649a9de25c35",
+        "name": "Orange",
+        "calories": 103.9,
+        "resturantName": "251 North"
       },
       {
-        "id": "67dbfeed9b6775dfb1ef5bf7",
-        "name": "Vegan Cheese, Tofu Fajita Scramble",
-        "calories": 160,
-        "resturantName": "SoVi"
+        "id": "6799d50882a7649a9de25d4a",
+        "name": "Orange Wedges",
+        "calories": 103.9,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67ee2ea57f4ebc37de6fcadb",
-        "name": "Cheese Grits",
-        "calories": 130,
-        "resturantName": "SoVi"
+        "id": "6799d4ff82a7649a9de25d43",
+        "name": "Chicken Congee",
+        "calories": 222.2,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "id": "6799d4e282a7649a9de25d3a",
+        "name": "Shredded Cheddar Cheese",
+        "calories": 111.4,
+        "resturantName": "Yahentamitsi Dining Hall"
+      },
+      {
+        "id": "6799d4de82a7649a9de25d37",
+        "name": "Liquid Eggs (Omelet Station)",
+        "calories": 170.1,
+        "resturantName": "Yahentamitsi Dining Hall"
       }
     ],
     "lunch": [
       {
-        "id": "67d7bb8e0767fdf567561ca0",
-        "name": "Sesame Dressing",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff892025e1",
+        "name": "Chicken Poblano Soup, Large",
+        "calories": 470,
+        "resturantName": "SaladWorks"
       },
       {
-        "id": "67d7bb8e0767fdf567561ca2",
-        "name": "Extra Virgin Olive Oil",
-        "calories": 480,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff892025cc",
+        "name": "Baked Potato Soup, Large",
+        "calories": 470,
+        "resturantName": "SaladWorks"
       },
       {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "679b74423ee80063f9fe961b",
-        "name": "Cheese Quesadilla",
-        "calories": 530,
-        "resturantName": "SoVi"
+        "id": "67acac3190199bff89202598",
+        "name": "A Wrap Creation Of Your Own, Proteins, Crispy Chicken",
+        "calories": 130,
+        "resturantName": "SaladWorks"
       }
     ]
   },
@@ -369,60 +309,54 @@
     "day": "Sunday",
     "breakfast": [
       {
-        "id": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d4ff82a7649a9de25d43",
+        "name": "Chicken Congee",
+        "calories": 222.2,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67d7bb7a0767fdf567561c79",
-        "name": "Shredded Sharp Cheddar Cheese",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "6799d4dd82a7649a9de25d36",
+        "name": "French Toast",
+        "calories": 250.8,
+        "resturantName": "251 North"
       },
       {
-        "id": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "resturantName": "SoVi"
+        "id": "6799d33e82a7649a9de25c2b",
+        "name": "Cereal Granola",
+        "calories": 193.8,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67dbfeed9b6775dfb1ef5bf7",
-        "name": "Vegan Cheese, Tofu Fajita Scramble",
-        "calories": 160,
-        "resturantName": "SoVi"
+        "id": "6799d33482a7649a9de25c1f",
+        "name": "Scrambled Cheesy Cheddar Egg",
+        "calories": 241.3,
+        "resturantName": "Yahentamitsi Dining Hall"
       },
       {
-        "id": "67ee2ea57f4ebc37de6fcadb",
-        "name": "Cheese Grits",
-        "calories": 130,
-        "resturantName": "SoVi"
+        "id": "6799d34682a7649a9de25c34",
+        "name": "Oatmeal",
+        "calories": 340.2,
+        "resturantName": "Yahentamitsi Dining Hall"
       }
     ],
     "lunch": [
       {
-        "id": "67d7bb8e0767fdf567561ca0",
-        "name": "Sesame Dressing",
-        "calories": 110,
-        "resturantName": "SoVi"
+        "id": "67acad1dbb8cb08519ebad28",
+        "name": "Chicken Queso Burrito",
+        "calories": 1040,
+        "resturantName": "Qdoba"
       },
       {
-        "id": "67d7bb8e0767fdf567561ca2",
-        "name": "Extra Virgin Olive Oil",
-        "calories": 480,
-        "resturantName": "SoVi"
+        "id": "67acad1dbb8cb08519ebad5c",
+        "name": "Ground Beef (3.5 oz.)",
+        "calories": 190,
+        "resturantName": "Qdoba"
       },
       {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67b8e17e1ff573cd6ff57b75",
-        "name": "Teriyaki Chicken",
-        "calories": 210,
-        "resturantName": "SoVi"
+        "id": "67acad1dbb8cb08519ebad51",
+        "name": "Gold Peak Classic Sweet Tea (Lrg)",
+        "calories": 230,
+        "resturantName": "Qdoba"
       }
     ]
   }

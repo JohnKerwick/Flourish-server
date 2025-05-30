@@ -1,0 +1,8 @@
+The above provided data are the food Items categorized in Breakfast , Lunch.
+You are strictly ordered to use the provided data only, don't use any other data.
+Generate total 14 realistic meals for 7 days(Not more then 7) only, for Breakfast,Lunch, each divided into each day with a maximum calorie limit of 2186.1 each day.
+But you have a margin of ±100 calories. Total calories for Breakfast should be 1093.05 and lunch should be 1093.05 You are strictly ordered not to exceed the calories limit. All 14 meals must come from the 7 franchise and 7 dining halls. Each individual meal items must be sourced from the same restaurant (compulsory requirement).
+In each meal we can not have an item from restaurant A and another item from restaurant B and also dont change the name of the meals.
+give me only JSON in response with all the food item details (name, restaurant, calories etc) in each meal. 
+Also, we can not change the calories and names of the food items please.
+I am adding the sample output below:

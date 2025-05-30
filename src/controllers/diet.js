@@ -325,7 +325,7 @@ export const CONTROLLER_DIET = {
 
     await fs.writeFile('request-data.json', JSON.stringify(mealRecommendations, null, 2), 'utf-8')
 
-    const prompt = `
+    const promptOld = `
     Below is the categorized food item data for the selected meals:
 
 ${JSON.stringify(mealRecommendations, null, 2)}
@@ -357,6 +357,30 @@ ${JSON.stringify(exampleJsonData, null, 2)}
 ⚠️ Do not include any explanation, notes, or text outside of the JSON.
 
 Begin now.`
+
+    const prompt = `
+${JSON.stringify(mealRecommendations, null, 2)}
+
+The above provided data are the food Items categorized in ${selectedMeals.join(' , ')}.
+You are strictly ordered to use the provided data only, don't use any other data.
+Generate total ${mealsPerWeek} realistic meals for 7 days(Not more then 7) only, for ${selectedMeals.join(
+      ','
+    )}, each divided into each day with a maximum calorie limit of ${totalCalories} each day.
+
+    But you have a margin of ±${margin} calories. ${sentence} All ${mealsPerWeek} meals must come from the ${
+      dietPlan.franchise
+    } franchise and ${dietPlan.diningHall} dining halls. 
+
+    Each individual meal items must be sourced from the same restaurant (compulsory requirement).
+
+    In each meal we can not have an item from restaurant A and another item from restaurant B and also dont change the name of the meals.
+give me only JSON in response with all the food item details (name, restaurant, calories etc) in each meal. 
+
+Also, we can not change the calories and names of the food items please.
+I am adding the sample output below:
+
+
+${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
     const aiResponse = await processMealRecommendations(prompt)
     // const aiResponse = await deepSeekRes(prompt)

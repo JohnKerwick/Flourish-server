@@ -1,4 +1,3 @@
-
 import { OpenAI } from 'openai'
 import dotenv from 'dotenv'
 
@@ -9,17 +8,16 @@ const openai = new OpenAI({
 
 export async function processMealRecommendations(content) {
   try {
-
     const response = await openai.chat.completions.create({
-      model: 'gpt-4o-mini',
-      // model: 'o4-mini',
+      model: 'gpt-4.1-mini',
+      // model: 'gpt-4-1106-preview',
       messages: [{ role: 'user', content }],
       temperature: 0.7,
-    });
+    })
 
-    return response.choices[0].message.content;
+    return response.choices[0].message.content
   } catch (error) {
-    console.error('OpenAI Error:', error.message);
-    throw error;
+    console.error('OpenAI Error:', error.message)
+    throw error
   }
 }
