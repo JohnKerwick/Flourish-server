@@ -445,7 +445,7 @@ Begin now.`
     const io = getIO()
     io.to(userId).emit('weekly_plan', { message: 'Meals updated successfully.', weeklyPlan: finData })
 
-    res.json({ message: 'Meals updated successfully.', weeklyPlan: newDatas })
+    res.json({ message: 'Meals updated successfully.', weeklyPlan: finData })
   }),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {

@@ -3,22 +3,34 @@
     "day": "Monday",
     "breakfast": [
       {
-        "id": "67acaacba0812499dafa560e",
-        "name": "Cheese Trio Protein Box",
-        "calories": 520,
-        "resturantName": "Starbucks"
+        "id": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa541f",
-        "name": "Caffe Latte with Soy Milk, Grande",
-        "calories": 190,
-        "resturantName": "Starbucks"
+        "id": "67d7bb7a0767fdf567561c79",
+        "name": "Shredded Sharp Cheddar Cheese",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa5488",
-        "name": "Caffe Vanilla Frappuccino with Soy Milk and No Whip, Grande",
-        "calories": 310,
-        "resturantName": "Starbucks"
+        "id": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67dbfeed9b6775dfb1ef5bf7",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "calories": 160,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
+        "calories": 130,
+        "resturantName": "SoVi"
       }
     ],
     "lunch": [
@@ -35,9 +47,15 @@
         "resturantName": "SoVi"
       },
       {
-        "id": "67dbfeff9b6775dfb1ef5bfc",
-        "name": "Lentils with Sweet Potato and Spinach",
-        "calories": 190,
+        "id": "67d7bb8f0767fdf567561cb2",
+        "name": "Classic Hummus",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "679b74423ee80063f9fe961b",
+        "name": "Cheese Quesadilla",
+        "calories": 530,
         "resturantName": "SoVi"
       }
     ]
@@ -46,25 +64,49 @@
     "day": "Tuesday",
     "breakfast": [
       {
-        "id": "67acaacba0812499dafa541f",
-        "name": "Caffe Latte with Soy Milk, Grande",
-        "calories": 190,
-        "resturantName": "Starbucks"
+        "id": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa5488",
-        "name": "Caffe Vanilla Frappuccino with Soy Milk and No Whip, Grande",
-        "calories": 310,
-        "resturantName": "Starbucks"
+        "id": "67d7bb7a0767fdf567561c79",
+        "name": "Shredded Sharp Cheddar Cheese",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa541b",
-        "name": "Caffe Latte with Nonfat Milk, Grande",
+        "id": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67dbfeed9b6775dfb1ef5bf7",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "calories": 160,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
         "calories": 130,
-        "resturantName": "Starbucks"
+        "resturantName": "SoVi"
       }
     ],
     "lunch": [
+      {
+        "id": "67d7bb8e0767fdf567561ca0",
+        "name": "Sesame Dressing",
+        "calories": 110,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb8e0767fdf567561ca2",
+        "name": "Extra Virgin Olive Oil",
+        "calories": 480,
+        "resturantName": "SoVi"
+      },
       {
         "id": "67d7bb8f0767fdf567561cb2",
         "name": "Classic Hummus",
@@ -75,12 +117,6 @@
         "id": "67b8e17e1ff573cd6ff57b75",
         "name": "Teriyaki Chicken",
         "calories": 210,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67d7bb8c0767fdf567561c8d",
-        "name": "Chicken Tenders",
-        "calories": 340,
         "resturantName": "SoVi"
       }
     ]
@@ -89,25 +125,49 @@
     "day": "Wednesday",
     "breakfast": [
       {
-        "id": "67acaacba0812499dafa560e",
-        "name": "Cheese Trio Protein Box",
-        "calories": 520,
-        "resturantName": "Starbucks"
+        "id": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa541f",
-        "name": "Caffe Latte with Soy Milk, Grande",
-        "calories": 190,
-        "resturantName": "Starbucks"
+        "id": "67d7bb7a0767fdf567561c79",
+        "name": "Shredded Sharp Cheddar Cheese",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa5488",
-        "name": "Caffe Vanilla Frappuccino with Soy Milk and No Whip, Grande",
-        "calories": 310,
-        "resturantName": "Starbucks"
+        "id": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67dbfeed9b6775dfb1ef5bf7",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "calories": 160,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
+        "calories": 130,
+        "resturantName": "SoVi"
       }
     ],
     "lunch": [
+      {
+        "id": "67d7bb8e0767fdf567561ca0",
+        "name": "Sesame Dressing",
+        "calories": 110,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb8e0767fdf567561ca2",
+        "name": "Extra Virgin Olive Oil",
+        "calories": 480,
+        "resturantName": "SoVi"
+      },
       {
         "id": "67d7bb8f0767fdf567561cb2",
         "name": "Classic Hummus",
@@ -115,15 +175,9 @@
         "resturantName": "SoVi"
       },
       {
-        "id": "67b8e17e1ff573cd6ff57b75",
-        "name": "Teriyaki Chicken",
-        "calories": 210,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67d7bb8c0767fdf567561c8d",
-        "name": "Chicken Tenders",
-        "calories": 340,
+        "id": "679b74423ee80063f9fe961b",
+        "name": "Cheese Quesadilla",
+        "calories": 530,
         "resturantName": "SoVi"
       }
     ]
@@ -132,22 +186,34 @@
     "day": "Thursday",
     "breakfast": [
       {
-        "id": "67acaacba0812499dafa560e",
-        "name": "Cheese Trio Protein Box",
-        "calories": 520,
-        "resturantName": "Starbucks"
+        "id": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa541f",
-        "name": "Caffe Latte with Soy Milk, Grande",
-        "calories": 190,
-        "resturantName": "Starbucks"
+        "id": "67d7bb7a0767fdf567561c79",
+        "name": "Shredded Sharp Cheddar Cheese",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa5488",
-        "name": "Caffe Vanilla Frappuccino with Soy Milk and No Whip, Grande",
-        "calories": 310,
-        "resturantName": "Starbucks"
+        "id": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67dbfeed9b6775dfb1ef5bf7",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "calories": 160,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
+        "calories": 130,
+        "resturantName": "SoVi"
       }
     ],
     "lunch": [
@@ -164,9 +230,15 @@
         "resturantName": "SoVi"
       },
       {
-        "id": "67dbfeff9b6775dfb1ef5bfc",
-        "name": "Lentils with Sweet Potato and Spinach",
-        "calories": 190,
+        "id": "67d7bb8f0767fdf567561cb2",
+        "name": "Classic Hummus",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb8f0767fdf567561cb7",
+        "name": "Portobello Mushroom Crust Pizza",
+        "calories": 130,
         "resturantName": "SoVi"
       }
     ]
@@ -175,108 +247,34 @@
     "day": "Friday",
     "breakfast": [
       {
-        "id": "67acaacba0812499dafa560e",
-        "name": "Cheese Trio Protein Box",
-        "calories": 520,
-        "resturantName": "Starbucks"
+        "id": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa541f",
-        "name": "Caffe Latte with Soy Milk, Grande",
-        "calories": 190,
-        "resturantName": "Starbucks"
+        "id": "67d7bb7a0767fdf567561c79",
+        "name": "Shredded Sharp Cheddar Cheese",
+        "calories": 110,
+        "resturantName": "SoVi"
       },
       {
-        "id": "67acaacba0812499dafa5488",
-        "name": "Caffe Vanilla Frappuccino with Soy Milk and No Whip, Grande",
-        "calories": 310,
-        "resturantName": "Starbucks"
-      }
-    ],
-    "lunch": [
-      {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
+        "id": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
         "calories": 360,
         "resturantName": "SoVi"
       },
       {
-        "id": "67b8e17e1ff573cd6ff57b75",
-        "name": "Teriyaki Chicken",
-        "calories": 210,
+        "id": "67dbfeed9b6775dfb1ef5bf7",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "calories": 160,
         "resturantName": "SoVi"
       },
       {
-        "id": "67d7bb8c0767fdf567561c8d",
-        "name": "Chicken Tenders",
-        "calories": 340,
+        "id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
+        "calories": 130,
         "resturantName": "SoVi"
-      }
-    ]
-  },
-  {
-    "day": "Saturday",
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560e",
-        "name": "Cheese Trio Protein Box",
-        "calories": 520,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacba0812499dafa541f",
-        "name": "Caffe Latte with Soy Milk, Grande",
-        "calories": 190,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacba0812499dafa5488",
-        "name": "Caffe Vanilla Frappuccino with Soy Milk and No Whip, Grande",
-        "calories": 310,
-        "resturantName": "Starbucks"
-      }
-    ],
-    "lunch": [
-      {
-        "id": "67d7bb8f0767fdf567561cb2",
-        "name": "Classic Hummus",
-        "calories": 360,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67b8e17e1ff573cd6ff57b75",
-        "name": "Teriyaki Chicken",
-        "calories": 210,
-        "resturantName": "SoVi"
-      },
-      {
-        "id": "67d7bb8c0767fdf567561c8d",
-        "name": "Chicken Tenders",
-        "calories": 340,
-        "resturantName": "SoVi"
-      }
-    ]
-  },
-  {
-    "day": "Sunday",
-    "breakfast": [
-      {
-        "id": "67acaacba0812499dafa560e",
-        "name": "Cheese Trio Protein Box",
-        "calories": 520,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacba0812499dafa541f",
-        "name": "Caffe Latte with Soy Milk, Grande",
-        "calories": 190,
-        "resturantName": "Starbucks"
-      },
-      {
-        "id": "67acaacba0812499dafa5488",
-        "name": "Caffe Vanilla Frappuccino with Soy Milk and No Whip, Grande",
-        "calories": 310,
-        "resturantName": "Starbucks"
       }
     ],
     "lunch": [
@@ -293,9 +291,137 @@
         "resturantName": "SoVi"
       },
       {
-        "id": "67dbfeff9b6775dfb1ef5bfc",
-        "name": "Lentils with Sweet Potato and Spinach",
-        "calories": 190,
+        "id": "67d7bb8f0767fdf567561cb2",
+        "name": "Classic Hummus",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67b8e17e1ff573cd6ff57b75",
+        "name": "Teriyaki Chicken",
+        "calories": 210,
+        "resturantName": "SoVi"
+      }
+    ]
+  },
+  {
+    "day": "Saturday",
+    "breakfast": [
+      {
+        "id": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb7a0767fdf567561c79",
+        "name": "Shredded Sharp Cheddar Cheese",
+        "calories": 110,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67dbfeed9b6775dfb1ef5bf7",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "calories": 160,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
+        "calories": 130,
+        "resturantName": "SoVi"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "67d7bb8e0767fdf567561ca0",
+        "name": "Sesame Dressing",
+        "calories": 110,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb8e0767fdf567561ca2",
+        "name": "Extra Virgin Olive Oil",
+        "calories": 480,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb8f0767fdf567561cb2",
+        "name": "Classic Hummus",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "679b74423ee80063f9fe961b",
+        "name": "Cheese Quesadilla",
+        "calories": 530,
+        "resturantName": "SoVi"
+      }
+    ]
+  },
+  {
+    "day": "Sunday",
+    "breakfast": [
+      {
+        "id": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb7a0767fdf567561c79",
+        "name": "Shredded Sharp Cheddar Cheese",
+        "calories": 110,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67dbfeed9b6775dfb1ef5bf7",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "calories": 160,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
+        "calories": 130,
+        "resturantName": "SoVi"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "67d7bb8e0767fdf567561ca0",
+        "name": "Sesame Dressing",
+        "calories": 110,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb8e0767fdf567561ca2",
+        "name": "Extra Virgin Olive Oil",
+        "calories": 480,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67d7bb8f0767fdf567561cb2",
+        "name": "Classic Hummus",
+        "calories": 360,
+        "resturantName": "SoVi"
+      },
+      {
+        "id": "67b8e17e1ff573cd6ff57b75",
+        "name": "Teriyaki Chicken",
+        "calories": 210,
         "resturantName": "SoVi"
       }
     ]

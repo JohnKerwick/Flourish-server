@@ -22,7 +22,8 @@ export function validateAiResponse(example) {
 export function validateRestaurantUniformality(weeklyMealData) {
   const cleanedMealData = []
   for (const dayEntry of weeklyMealData) {
-    const cleanedDay = { day: dayEntry.day }
+    // const cleanedDay = { day: dayEntry.day }
+    const cleanedDay = { ...dayEntry }
     for (const mealType of ['breakfast', 'lunch', 'dinner']) {
       const mealItems = dayEntry[mealType]
       if (Array.isArray(mealItems)) {
