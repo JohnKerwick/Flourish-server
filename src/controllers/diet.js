@@ -26,7 +26,7 @@ import {
 import { cloneDeep, max } from 'lodash'
 import { processMealRecommendations } from '../utils/chat-gpt'
 import { exampleJson } from '../utils/prompt-json'
-import { validateAiResponse } from '../utils/validate-ai-response'
+import { validateAiResponse, validateRestaurantUniformality } from '../utils/validate-ai-response'
 import { getIO } from '../socket'
 import { deepSeekRes } from '../utils/deepseek'
 
@@ -440,8 +440,10 @@ Begin now.`
       newDatas.push(obj)
     }
 
+    const finData = validateRestaurantUniformality(newDatas)
+
     const io = getIO()
-    io.to(userId).emit('weekly_plan', { message: 'Meals updated successfully.', weeklyPlan: newDatas })
+    io.to(userId).emit('weekly_plan', { message: 'Meals updated successfully.', weeklyPlan: finData })
 
     res.json({ message: 'Meals updated successfully.', weeklyPlan: newDatas })
   }),
