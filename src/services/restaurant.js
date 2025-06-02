@@ -13,11 +13,9 @@ export const getAllRestaurantsService = async (userId, category) => {
 }
 
 export const getRestaurantDetailsService = async (restaurantId, mealTypeFilter) => {
-  return await Restaurants.aggregate([
+  const result = await Restaurants.aggregate([
     { $match: { _id: toObjectId(restaurantId) } },
-
     { $unwind: '$menu' },
-
     {
       $lookup: {
         from: 'meals',
@@ -27,21 +25,6 @@ export const getRestaurantDetailsService = async (restaurantId, mealTypeFilter) 
       },
     },
     { $unwind: { path: '$mealDetails', preserveNullAndEmptyArrays: true } },
-
-    {
-      $addFields: {
-        filteredMealType: mealTypeFilter ? mealTypeFilter : { $arrayElemAt: ['$tabItems', 0] },
-      },
-    },
-
-    {
-      $match: {
-        $expr: {
-          $eq: ['$mealDetails.type', '$filteredMealType'],
-        },
-      },
-    },
-
     {
       $group: {
         _id: '$menu.category',
@@ -53,7 +36,6 @@ export const getRestaurantDetailsService = async (restaurantId, mealTypeFilter) 
         restaurantId: { $first: '$_id' },
       },
     },
-
     {
       $project: {
         category: '$_id',
@@ -67,6 +49,16 @@ export const getRestaurantDetailsService = async (restaurantId, mealTypeFilter) 
       },
     },
   ])
+
+  if (mealTypeFilter) {
+    result.forEach((group) => {
+      group.meals = group.meals.filter((meal) => meal.type === mealTypeFilter)
+    })
+
+    return result.filter((group) => group.meals.length > 0)
+  }
+
+  return result
 }
 
 export const likeRestaurantService = async (userId, restaurantId) => {
