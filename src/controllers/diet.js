@@ -1,5 +1,5 @@
 import { StatusCodes } from 'http-status-codes'
-import fs, { readFile, writeFile } from 'fs/promises'
+import fs, { readFile } from 'fs/promises'
 import {
   calculateBMR,
   getUserById,
@@ -31,6 +31,7 @@ import { getIO } from '../socket'
 import { deepSeekRes } from '../utils/deepseek'
 import { GeneratedMeal } from '../models/generatedMeals'
 import { parseGeneratedMeals } from '../utils/generate-meals'
+import { writeFile } from 'fs/promises'
 
 const categories = [
   'Main',
@@ -478,10 +479,12 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const { calorieRange = { min: 300, max: 600 }, types = ['Breakfast', 'Lunch', 'Dinner'] } = req.body
 
       // Step 1: Fetch meals from DB
-      const items = await Meals.find({
+      const rawItems = await Meals.find({
         'nutrients.calories': { $gt: 0 },
         type: { $in: types },
       }).lean()
+
+      const items = rawItems.filter((item) => item.restaurantName && item.restaurantType)
 
       // Step 2: Group by restaurantName + restaurantType + mealType
       const grouped = {}
