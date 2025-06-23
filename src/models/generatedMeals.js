@@ -13,8 +13,10 @@ const generatedMealSchema = new mongoose.Schema({
       restaurantName: String,
       restaurantType: String,
       ingredients: [String], // List of ingredients
+      campus: [String], // List of campus
     },
   ],
+  campus: [String], // List of campus
   totalCalories: Number,
   restaurantName: String,
   restaurantType: String,

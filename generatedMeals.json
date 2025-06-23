@@ -4,166 +4,41 @@
     "mealType": "Breakfast",
     "items": [
       {
-        "itemId": "67b8c3cc1ff573cd6ff57ab7",
-        "name": "Sausage Egg Cheese Breakfast Bagel Sandwich",
-        "calories": 1144.5,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 1144.5,
-    "restaurantName": "Yahentamitsi Dining Hall",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea2075008810f",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 2",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "67cac4d70909e38b69423908",
-        "name": "Bacon Egg Cheese  Breakfast Bagel Sandwich",
-        "calories": 920.2,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 920.2,
-    "restaurantName": "Yahentamitsi Dining Hall",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088110",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 3",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "6799d51982a7649a9de25d56",
-        "name": "Waffle",
-        "calories": 784.9,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "6799d32f82a7649a9de25c19",
-        "name": "Butter",
-        "calories": 202.5,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "Butter Unsalted (PASTEURIZED CREAM (MILK)",
-          "NATURAL FLAVORINGS)"
-        ]
-      }
-    ],
-    "totalCalories": 987.4,
-    "restaurantName": "Yahentamitsi Dining Hall",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088111",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 4",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "6799d33582a7649a9de25c20",
-        "name": "Scrambled Eggs",
-        "calories": 215.9,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "6799d33982a7649a9de25c26",
-        "name": "Bagels",
-        "calories": 295,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "6799d34682a7649a9de25c34",
-        "name": "Oatmeal",
-        "calories": 340.2,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 851.0999999999999,
-    "restaurantName": "Yahentamitsi Dining Hall",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088112",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 5",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "6799d35082a7649a9de25c40",
-        "name": "Vegan Cheddar Spinach Scrambled Eggs",
-        "calories": 172,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "6799d33982a7649a9de25c26",
-        "name": "Bagels",
-        "calories": 295,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "6799d34282a7649a9de25d30",
-        "name": "Fresh Blueberry",
-        "calories": 51.8,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 518.8,
-    "restaurantName": "Yahentamitsi Dining Hall",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088113",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 6",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "6799d33582a7649a9de25c20",
-        "name": "Scrambled Eggs",
-        "calories": 215.9,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
         "itemId": "6799d33382a7649a9de25c1e",
         "name": "Pancakes Plain",
         "calories": 107.5,
         "restaurantName": "Yahentamitsi Dining Hall",
         "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "6799d32f82a7649a9de25c19",
-        "name": "Butter",
-        "calories": 202.5,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "ingredients": [
+          "Water",
+          "Sweet cream Pancake Mix (ENRICHED BLEACHED FLOUR (WHEAT FLOUR",
+          "MALTED BARLEY FLOUR",
+          "NIACIN",
+          "REDUCED IRON",
+          "THIAMIN MONONITRATE",
+          "RIBOFLAVIN",
+          "FOLIC ACID)",
+          "SUGAR",
+          "SOYBEAN OIL",
+          "DEFATTED SOY FLOUR",
+          "BAKING SODA",
+          "DEXTROSE",
+          "LESS THAN 2% OF: BUTTERMILK",
+          "MONOCALCIUM PHOSPHATE",
+          "NATURAL AND ARTIFICIAL FLAVORS",
+          "NONFAT MILK",
+          "SALT",
+          "SODIUM ALUMINUM PHOSPHATE",
+          "YELLOW 5",
+          "YELLOW 5 LAKE",
+          "YELLOW 6",
+          "YELLOW 6 LAKE.)",
+          "Butter Unsalted (PASTEURIZED CREAM (MILK)",
+          "NATURAL FLAVORINGS)"
+        ],
+        "campus": [
+          "UMD"
+        ]
       },
       {
         "itemId": "6799d33282a7649a9de25c1c",
@@ -171,25 +46,288 @@
         "calories": 57.8,
         "restaurantName": "Yahentamitsi Dining Hall",
         "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "ingredients": [
+          "Pancake Syrup (CORN SYRUP",
+          "WATER",
+          "ARTIFICIAL MAPLE FLAVOR",
+          "SALT",
+          "SODIUM BENZOATE",
+          "CMC GUM",
+          "POTASSIUM SORBATE (PRESERVATIVE)",
+          "CARAMEL COLOR.)"
+        ],
+        "campus": [
+          "UMD"
+        ]
       },
+      {
+        "itemId": "6799d33482a7649a9de25c1f",
+        "name": "Scrambled Cheesy Cheddar Egg",
+        "calories": 241.3,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Liquid Eggs  2/20 lb (WHOLE EGGS",
+          "CITRIC ACID",
+          "0.15% WATER ADDED AS CARRIER FOR CITRIC ACID. CITRIC ACID TO PRESERVE COLOR.)",
+          "Shredded Cheddar Cheese ( PASTEURIZED MILK",
+          "CHEESE CULTURE",
+          "SALT",
+          "ENZYMES AND ANNATTO (IF COLORED). POTATO STARCH AND POWDERED CELLULOSE ADDED TO PREVENT CAKING. )",
+          "Canola Oil (CANOLA OIL)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 406.6,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "685980c81c647662326820f6",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 2",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "6799d33982a7649a9de25c26",
+        "name": "Bagels",
+        "calories": 295,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Sesame Seed Bagel",
+          "Poppyseed Bagel",
+          "Onion Bagel",
+          "Bagels Everything",
+          "Egg Bagel",
+          "Cinnamon & Raisin Bagel",
+          "Blueberry Bagel",
+          "Plain Bagel (ENRICHED WHEAT FLOUR (WHEAT FLOUR",
+          "MALTED BARLEY FLOUR",
+          "NIACIN",
+          "REDUCED IRON",
+          "THIAMIN MONONITRATE",
+          "RIBOFLAVIN",
+          "FOLIC ACID)",
+          "WATER",
+          "DEXTROSE",
+          "CONTAINS 1.5% OR LESS OF EACH OF: SALT",
+          "VEGETABLE OIL (CANOLA OIL OR SOYBEAN OIL)",
+          "WHEAT GLUTEN",
+          "YEAST",
+          "FERMENTED RYE FLOUR",
+          "CORNMEAL",
+          "DOUGH CONDITIONERS (MONOGLYCERIDES",
+          "ENZYMES",
+          "L-CYSTEINE)",
+          "CALCIUM PROPIONATE (PRESERVATIVE)",
+          "MALTED BARLEY FLOUR",
+          "MODIFIED CORNSTARCH.)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "6799d34882a7649a9de25c37",
+        "name": "Plain Cream Cheese",
+        "calories": 101.3,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Cream Cheese Block (PASTEURIZED MILK AND CREAM",
+          "SALT",
+          "CAROB BEAN GUM",
+          "CHEESE CULTURE.)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "6799d33282a7649a9de25c1c",
+        "name": "Maple Syrup",
+        "calories": 57.8,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Pancake Syrup (CORN SYRUP",
+          "WATER",
+          "ARTIFICIAL MAPLE FLAVOR",
+          "SALT",
+          "SODIUM BENZOATE",
+          "CMC GUM",
+          "POTASSIUM SORBATE (PRESERVATIVE)",
+          "CARAMEL COLOR.)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 454.1,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "685980c81c647662326820f7",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 3",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "6799d33682a7649a9de25c22",
+        "name": "Strawberry Topping",
+        "calories": 94.5,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Strawberry Topping ( STRAWBERRIES",
+          "CORN SYRUP",
+          "SUGAR",
+          "HIGH FRUCTOSE CORN SYRUP",
+          "WATER",
+          "LESS THAN 2% OF: MODIFIED CORN STARCH",
+          "PROPYLENE GLYCOL",
+          "XANTHAN GUM",
+          "CITRIC ACID",
+          "SODIUM BENZOATE (PRESERVATIVE)",
+          "RED 40",
+          "ARTIFICIAL FLAVOR. )"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "6799d34382a7649a9de25c31",
+        "name": "Fresh Strawberry",
+        "calories": 8.5,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Strawberries (Strawberries)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "6799d33982a7649a9de25c26",
+        "name": "Bagels",
+        "calories": 295,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Sesame Seed Bagel",
+          "Poppyseed Bagel",
+          "Onion Bagel",
+          "Bagels Everything",
+          "Egg Bagel",
+          "Cinnamon & Raisin Bagel",
+          "Blueberry Bagel",
+          "Plain Bagel (ENRICHED WHEAT FLOUR (WHEAT FLOUR",
+          "MALTED BARLEY FLOUR",
+          "NIACIN",
+          "REDUCED IRON",
+          "THIAMIN MONONITRATE",
+          "RIBOFLAVIN",
+          "FOLIC ACID)",
+          "WATER",
+          "DEXTROSE",
+          "CONTAINS 1.5% OR LESS OF EACH OF: SALT",
+          "VEGETABLE OIL (CANOLA OIL OR SOYBEAN OIL)",
+          "WHEAT GLUTEN",
+          "YEAST",
+          "FERMENTED RYE FLOUR",
+          "CORNMEAL",
+          "DOUGH CONDITIONERS (MONOGLYCERIDES",
+          "ENZYMES",
+          "L-CYSTEINE)",
+          "CALCIUM PROPIONATE (PRESERVATIVE)",
+          "MALTED BARLEY FLOUR",
+          "MODIFIED CORNSTARCH.)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 398,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "685980c81c647662326820f8",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 4",
+    "mealType": "Breakfast",
+    "items": [
       {
         "itemId": "6799d34682a7649a9de25c34",
         "name": "Oatmeal",
         "calories": 340.2,
         "restaurantName": "Yahentamitsi Dining Hall",
         "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "ingredients": [
+          "Water",
+          "Oatmeal (100% NATURAL WHOLE GRAIN QUAKER QUALITY ROLLED OATS. )"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "6799d34282a7649a9de25c30",
+        "name": "Fresh Blueberry",
+        "calories": 51.8,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Blueberries (Blueberries)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "6799d34482a7649a9de25c32",
+        "name": "Grapes",
+        "calories": 39.2,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "White Grapes (Grapes)",
+          "Seedless Red Grapes (Grapes)"
+        ],
+        "campus": [
+          "UMD"
+        ]
       }
     ],
-    "totalCalories": 923.8999999999999,
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 431.2,
     "restaurantName": "Yahentamitsi Dining Hall",
     "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088114",
+    "_id": "685980c81c647662326820f9",
     "__v": 0
   },
   {
-    "name": "Generated Meal 7",
+    "name": "Generated Meal 5",
     "mealType": "Breakfast",
     "items": [
       {
@@ -198,7 +336,29 @@
         "calories": 503,
         "restaurantName": "251 North",
         "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "ingredients": [
+          "Special K w/ Strawberry (RICE",
+          "WHOLE GRAIN WHEAT",
+          "SUGAR",
+          "WHEAT BRAN",
+          "FREEZE-DRIED STRAWBERRIES",
+          "SOLUBLE WHEAT FIBER",
+          "CONTAINS 2% OR LESS OF BROWN SUGAR SYRUP",
+          "SALT",
+          "MALT FLAVOR. VITAMINS AND MINERALS: VITAMIN C (ASCORBIC ACID)",
+          "REDUCED IRON",
+          "NIACINAMIDE",
+          "VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE)",
+          "VITAMIN B1 (THIAMIN HYDROCHLORIDE)",
+          "VITAMIN B2 (RIBOFLAVIN)",
+          "VITAMIN A PALMITATE",
+          "FOLIC ACID",
+          "VITAMIN B12",
+          "VITAMIN D3)"
+        ],
+        "campus": [
+          "UMD"
+        ]
       },
       {
         "itemId": "6799d33c82a7649a9de25c29",
@@ -206,15 +366,19 @@
         "calories": 67.7,
         "restaurantName": "251 North",
         "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "6799d34782a7649a9de25c35",
-        "name": "Orange",
-        "calories": 103.9,
-        "restaurantName": "251 North",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "ingredients": [
+          "Yogurt Blueberry (Ingredients CULTURED GRADE A LOW FAT MILK",
+          "SUGAR",
+          "MODIFIED CORN STARCH. CONTAINS 1 % OR LESS OF: CORN STARCH",
+          "VEGETABLE AND FRUIT JUICE (FOR COLOR)",
+          "NATURAL FLAVOR",
+          "POTASSIUM SORBATE ADDED TO MAINTAIN FRESHNESS",
+          "VITAMIN A ACETATE",
+          "VITAMIN D3.)"
+        ],
+        "campus": [
+          "UMD"
+        ]
       },
       {
         "itemId": "6799d33082a7649a9de25c1a",
@@ -222,13 +386,171 @@
         "calories": 53.1,
         "restaurantName": "251 North",
         "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "ingredients": [
+          "Chicken Cranberry Sausage Link  (BONELESS CHICKEN THIGH MEAT (WITH SKIN)",
+          "BONELESS CHICKEN BREAST",
+          "DRIED CRANBERRIES",
+          "WATER",
+          "CORN SYRUP SOLIDS",
+          "SALT",
+          "SUGAR",
+          "LEMON JUICE POWDER (CORN SYRUP SOLIDS",
+          "LEMON JUICE SOLIDS",
+          "LEMON OIL)",
+          "FLAVORINGS",
+          "SPICES",
+          "DISODIUM INOSINATE AND DISODIUM GUANYLATE",
+          "BHA",
+          "BHT",
+          "PROPYL GALLATE.)"
+        ],
+        "campus": [
+          "UMD"
+        ]
       }
     ],
-    "totalCalories": 727.7,
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 623.8000000000001,
     "restaurantName": "251 North",
     "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088115",
+    "_id": "685980c81c647662326820fa",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 6",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "6799d34082a7649a9de25c2e",
+        "name": "Coco Puffs",
+        "calories": 186.7,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Cocoa Puffs (WHOLE GRAIN CORN",
+          "SUGAR",
+          "CORN MEAL",
+          "CORN SYRUP",
+          "CANOLA AND/OR RICE BRAN OIL",
+          "COCOA PROCESSED WITH ALKALI",
+          "CARAMEL COLOR",
+          "SALT",
+          "FRUCTOSE",
+          "TRISODIUM PHOSPHATE",
+          "NATURAL FLAVOR.VITAMINS AND MINERALS: TRICALCIUM PHOSPHATE",
+          "CALCIUM CARBONATE",
+          "ZINC AND IRON (MINERAL NUTRIENTS)",
+          "VITAMIN C (SODIUM ASCORBATE)",
+          "A B VITAMIN (NIACINAMIDE)",
+          "VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE)",
+          "VITAMIN B2 (RIBOFLAVIN)",
+          "VITAMIN B1 (THIAMIN MONONITRATE)",
+          "VITAMIN A (PALMITATE)",
+          "A B VITAMIN (FOLIC ACID)",
+          "VITAMIN B12",
+          "VITAMIN D3. MAY CONTAIN WHEAT INGREDIENTS.)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "6799d34982a7649a9de25c38",
+        "name": "Special K Strawberry",
+        "calories": 503,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Special K w/ Strawberry (RICE",
+          "WHOLE GRAIN WHEAT",
+          "SUGAR",
+          "WHEAT BRAN",
+          "FREEZE-DRIED STRAWBERRIES",
+          "SOLUBLE WHEAT FIBER",
+          "CONTAINS 2% OR LESS OF BROWN SUGAR SYRUP",
+          "SALT",
+          "MALT FLAVOR. VITAMINS AND MINERALS: VITAMIN C (ASCORBIC ACID)",
+          "REDUCED IRON",
+          "NIACINAMIDE",
+          "VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE)",
+          "VITAMIN B1 (THIAMIN HYDROCHLORIDE)",
+          "VITAMIN B2 (RIBOFLAVIN)",
+          "VITAMIN A PALMITATE",
+          "FOLIC ACID",
+          "VITAMIN B12",
+          "VITAMIN D3)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 689.7,
+    "restaurantName": "251 North",
+    "restaurantType": "Dining-Halls",
+    "_id": "685980c81c647662326820fb",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 7",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67e4f278c50cf7c4dae7c314",
+        "name": "Egg Cheese Breakfast Croissant",
+        "calories": 358.3,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "2oz Croissant  ( CROISSANTS (ENRICHED FLOUR [WHEAT FLOUR",
+          "MALTED BARLEY FLOUR",
+          "NIACIN",
+          "IRON",
+          "THIAMIN MONONITRATE",
+          "RIBOFLAVIN",
+          "FOLIC ACID]",
+          "WATER",
+          "BUTTER",
+          "SUGAR",
+          "YEAST. CONTAINS 2% OR LESS OF THE FOLLOWING: SALT",
+          "WHEY",
+          "MODIFIED CORN STARCH",
+          "CALCIUM PROPIONATE [PRESERVATIVE]",
+          "ASCORBIC ACID",
+          "ENZYMES).)",
+          "Large Brown Eggs (Egg Whole)",
+          "American Cheese (MILK",
+          "CREAM",
+          "WATER",
+          "SODIUM CITRATE",
+          "SALT",
+          "CHEESE CULTURE",
+          "SORBIC ACID (PRESERVATIVE)",
+          "CITRIC ACID",
+          "ENZYMES",
+          "SOY LECITHIN",
+          "COLOR ADDED.CONTAINS: MILK",
+          "SOY)",
+          "Olive Blend Shortening (75% CANOLA OIL",
+          "25% EXTRA VIRGIN OLIVE OIL)"
+        ],
+        "campus": [
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 358.3,
+    "restaurantName": "251 North",
+    "restaurantType": "Dining-Halls",
+    "_id": "685980c81c647662326820fc",
     "__v": 0
   },
   {
@@ -236,34 +558,46 @@
     "mealType": "Breakfast",
     "items": [
       {
-        "itemId": "6799d34982a7649a9de25c38",
-        "name": "Special K Strawberry",
-        "calories": 503,
-        "restaurantName": "251 North",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "itemId": "67acab5be1d6a1486cc48ec1",
+        "name": "Anchor Steam (16 oz)",
+        "calories": 200,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
       },
       {
-        "itemId": "6799d34082a7649a9de25c2e",
-        "name": "Coco Puffs",
-        "calories": 186.7,
-        "restaurantName": "251 North",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "itemId": "67acab5be1d6a1486cc48ec4",
+        "name": "Angry Orchard - Crisp Apple (16 oz)",
+        "calories": 260,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
       },
       {
-        "itemId": "6799d33c82a7649a9de25c29",
-        "name": "Blueberry Yogurt",
-        "calories": 67.7,
-        "restaurantName": "251 North",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "itemId": "67acab5be1d6a1486cc48ecc",
+        "name": "Bean Burrito",
+        "calories": 360,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
       }
     ],
-    "totalCalories": 757.4000000000001,
-    "restaurantName": "251 North",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088116",
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 820,
+    "restaurantName": "Taco Bell",
+    "restaurantType": "Franchise",
+    "_id": "685980c81c647662326820fd",
     "__v": 0
   },
   {
@@ -271,58 +605,46 @@
     "mealType": "Breakfast",
     "items": [
       {
-        "itemId": "6799d34482a7649a9de25c33",
-        "name": "Grits",
-        "calories": 60.4,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "itemId": "67acab5be1d6a1486cc48ec4",
+        "name": "Angry Orchard - Crisp Apple (16 oz)",
+        "calories": 260,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
       },
       {
-        "itemId": "6799d34882a7649a9de25c36",
-        "name": "Pineapple",
-        "calories": 40,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "itemId": "67acab5be1d6a1486cc48ecc",
+        "name": "Bean Burrito",
+        "calories": 360,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
       },
       {
-        "itemId": "6799d4e282a7649a9de25d3a",
-        "name": "Shredded Cheddar Cheese",
-        "calories": 111.4,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "6799d50082a7649a9de25d45",
-        "name": "Cottage Cheese",
-        "calories": 40.1,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "679b3e6f3ee80063f9fe92d1",
-        "name": "Whipped Butter",
-        "calories": 50,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "679b3e6f3ee80063f9fe92d5",
-        "name": "Turkey Sausage Patty",
-        "calories": 70,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
+        "itemId": "67acab5be1d6a1486cc48ec7",
+        "name": "Angel Island IPA (16 oz)",
+        "calories": 250,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
       }
     ],
-    "totalCalories": 371.9,
-    "restaurantName": "The Café",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088117",
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 870,
+    "restaurantName": "Taco Bell",
+    "restaurantType": "Franchise",
+    "_id": "685980c81c647662326820fe",
     "__v": 0
   },
   {
@@ -330,295 +652,46 @@
     "mealType": "Breakfast",
     "items": [
       {
-        "itemId": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "67d7bb780767fdf567561c6e",
-        "name": "Breakfast Potatoes",
-        "calories": 120,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "67d7bb790767fdf567561c75",
-        "name": "Red Seedless Grapes",
-        "calories": 40,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 630,
-    "restaurantName": "SoVi",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088118",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 11",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "67b8e1801ff573cd6ff57b85",
-        "name": "Pork Sausage Patty",
-        "calories": 360,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "67d7bb780767fdf567561c6e",
-        "name": "Breakfast Potatoes",
-        "calories": 120,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "67d7bb790767fdf567561c74",
-        "name": "Red Seedless Grapes",
-        "calories": 40,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "67d7bb790767fdf567561c77",
-        "name": "Peach Slices",
-        "calories": 25,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      },
-      {
-        "itemId": "67d7bb780767fdf567561c70",
-        "name": "Low Fat Strawberry Yogurt",
-        "calories": 110,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 655,
-    "restaurantName": "SoVi",
-    "restaurantType": "Dining-Halls",
-    "_id": "68595ba9e0dea20750088119",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 12",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e869403f4",
-        "name": "Bacon, Egg & Cheese Biscuit",
-        "calories": 510,
-        "restaurantName": "Bojangles",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67acadd500524d65401f31e7",
-        "name": "Add Egg",
-        "calories": 80,
-        "restaurantName": "Bojangles",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67acadd500524d65401f31e6",
-        "name": "Add American Cheese",
-        "calories": 40,
-        "restaurantName": "Bojangles",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67acadd500524d65401f31eb",
-        "name": "Bo-Berry Biscuit",
-        "calories": 370,
-        "restaurantName": "Bojangles",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 1000,
-    "restaurantName": "Bojangles",
-    "restaurantType": "Franchise",
-    "_id": "68595ba9e0dea2075008811a",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 13",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e869403f4",
-        "name": "Bacon, Egg & Cheese Biscuit",
-        "calories": 510,
-        "restaurantName": "Bojangles",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67acadd500524d65401f31e8",
-        "name": "Add Pimento Cheese",
-        "calories": 170,
-        "restaurantName": "Bojangles",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67acadd500524d65401f31eb",
-        "name": "Bo-Berry Biscuit",
-        "calories": 370,
-        "restaurantName": "Bojangles",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 1050,
-    "restaurantName": "Bojangles",
-    "restaurantType": "Franchise",
-    "_id": "68595ba9e0dea2075008811b",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 14",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "67acab5be1d6a1486cc48ef4",
-        "name": "Breakfast Crunchwrap - Sausage Patty",
-        "calories": 750,
-        "restaurantName": "Taco Bell",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
         "itemId": "67acab5be1d6a1486cc48ec0",
-        "name": "3-Cheese Chicken Flatbread Melt",
+        "name": "3-Cheese Chicken Flatbread Melt - Value Menu",
         "calories": 330,
         "restaurantName": "Taco Bell",
         "restaurantType": "Franchise",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 1080,
-    "restaurantName": "Taco Bell",
-    "restaurantType": "Franchise",
-    "_id": "68595ba9e0dea2075008811c",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 15",
-    "mealType": "Breakfast",
-    "items": [
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
+      },
       {
-        "itemId": "67acab5be1d6a1486cc48ef5",
-        "name": "Breakfast Crunchwrap - Bacon",
-        "calories": 670,
+        "itemId": "67acab5be1d6a1486cc48ec8",
+        "name": "Barrio Blonde (12 oz)",
+        "calories": 160,
         "restaurantName": "Taco Bell",
         "restaurantType": "Franchise",
-        "ingredients": []
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
       },
       {
-        "itemId": "67acab5be1d6a1486cc48ec0",
-        "name": "3-Cheese Chicken Flatbread Melt",
-        "calories": 330,
+        "itemId": "67acab5be1d6a1486cc48eca",
+        "name": "Beach Bell Beer (12 oz)",
+        "calories": 180,
         "restaurantName": "Taco Bell",
         "restaurantType": "Franchise",
-        "ingredients": []
+        "ingredients": [],
+        "campus": [
+          "UMD"
+        ]
       }
     ],
-    "totalCalories": 1000,
+    "campus": [
+      "UMD"
+    ],
+    "totalCalories": 670,
     "restaurantName": "Taco Bell",
     "restaurantType": "Franchise",
-    "_id": "68595ba9e0dea2075008811d",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 16",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "67cacf4e0909e38b69423935",
-        "name": "2% Milk, 8 fl oz",
-        "calories": 120,
-        "restaurantName": "Jamba",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67aca9904f62bb67b9fe21f7",
-        "name": "Tango Oasis, Large",
-        "calories": 470,
-        "restaurantName": "Jamba",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67aca9904f62bb67b9fe21db",
-        "name": "Spring Veggie Egg Bake",
-        "calories": 200,
-        "restaurantName": "Jamba",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 790,
-    "restaurantName": "Jamba",
-    "restaurantType": "Franchise",
-    "_id": "68595ba9e0dea2075008811e",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 17",
-    "mealType": "Breakfast",
-    "items": [
-      {
-        "itemId": "67cacf4e0909e38b69423935",
-        "name": "2% Milk, 8 fl oz",
-        "calories": 120,
-        "restaurantName": "Jamba",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67aca9904f62bb67b9fe21f8",
-        "name": "Tango Oasis, Medium",
-        "calories": 360,
-        "restaurantName": "Jamba",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      },
-      {
-        "itemId": "67aca9904f62bb67b9fe21f9",
-        "name": "Tango Oasis, Small",
-        "calories": 250,
-        "restaurantName": "Jamba",
-        "restaurantType": "Franchise",
-        "ingredients": []
-      }
-    ],
-    "totalCalories": 730,
-    "restaurantName": "Jamba",
-    "restaurantType": "Franchise",
-    "_id": "68595ba9e0dea2075008811f",
+    "_id": "685980c81c647662326820ff",
     "__v": 0
   }
 ]
