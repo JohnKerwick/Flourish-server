@@ -1,967 +1,624 @@
 [
   {
     "name": "Generated Meal 1",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "6799d32e82a7649a9de25c17",
-        "name": "Bacon",
-        "calories": 50,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa7109b3",
-        "name": "Hash Browns",
-        "calories": 270,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67b8c3cc1ff573cd6ff57ab7",
+        "name": "Sausage Egg Cheese Breakfast Bagel Sandwich",
+        "calories": 1144.5,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 320,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3c7",
+    "totalCalories": 1144.5,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea2075008810f",
     "__v": 0
   },
   {
     "name": "Generated Meal 2",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "6799d32e82a7649a9de25c17",
-        "name": "Bacon",
-        "calories": 50,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acaa04fab1224e869403f7",
-        "name": "Berry Parfait with Cookie Crumbs",
-        "calories": 240,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acaa04fab1224e869403fa",
-        "name": "Buddy Fruits Apple Sauce",
-        "calories": 45,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67cac4d70909e38b69423908",
+        "name": "Bacon Egg Cheese  Breakfast Bagel Sandwich",
+        "calories": 920.2,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 335,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3c8",
+    "totalCalories": 920.2,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088110",
     "__v": 0
   },
   {
     "name": "Generated Meal 3",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e86940440",
-        "name": "Chicken, Egg & Cheese Biscuit",
-        "calories": 550,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d51982a7649a9de25d56",
+        "name": "Waffle",
+        "calories": 784.9,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d32f82a7649a9de25c19",
+        "name": "Butter",
+        "calories": 202.5,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Butter Unsalted (PASTEURIZED CREAM (MILK)",
+          "NATURAL FLAVORINGS)"
+        ]
       }
     ],
-    "totalCalories": 550,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3c9",
+    "totalCalories": 987.4,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088111",
     "__v": 0
   },
   {
     "name": "Generated Meal 4",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e86940441",
-        "name": "Chicken, Egg & Cheese Muffin",
-        "calories": 410,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d33582a7649a9de25c20",
+        "name": "Scrambled Eggs",
+        "calories": 215.9,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       },
       {
-        "itemId": "67acaa04fab1224e869403f6",
-        "name": "Barbeque Sauce",
-        "calories": 45,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d33982a7649a9de25c26",
+        "name": "Bagels",
+        "calories": 295,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d34682a7649a9de25c34",
+        "name": "Oatmeal",
+        "calories": 340.2,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 455,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3ca",
+    "totalCalories": 851.0999999999999,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088112",
     "__v": 0
   },
   {
     "name": "Generated Meal 5",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e8694046a",
-        "name": "Egg White Grill",
-        "calories": 300,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d35082a7649a9de25c40",
+        "name": "Vegan Cheddar Spinach Scrambled Eggs",
+        "calories": 172,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       },
       {
-        "itemId": "67acaa04fab1224e8694046c",
-        "name": "Fat-Free Honey Mustard Dressing",
-        "calories": 90,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d33982a7649a9de25c26",
+        "name": "Bagels",
+        "calories": 295,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d34282a7649a9de25d30",
+        "name": "Fresh Blueberry",
+        "calories": 51.8,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 390,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3cb",
+    "totalCalories": 518.8,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088113",
     "__v": 0
   },
   {
     "name": "Generated Meal 6",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e8694047d",
-        "name": "Gluten Free Bun",
-        "calories": 180,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d33582a7649a9de25c20",
+        "name": "Scrambled Eggs",
+        "calories": 215.9,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       },
       {
-        "itemId": "67acaa04fab1224e86940485",
-        "name": "Grilled Filet",
-        "calories": 110,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d33382a7649a9de25c1e",
+        "name": "Pancakes Plain",
+        "calories": 107.5,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       },
       {
-        "itemId": "67acaa04fab1224e869403f6",
-        "name": "Barbeque Sauce",
-        "calories": 45,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d32f82a7649a9de25c19",
+        "name": "Butter",
+        "calories": 202.5,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d33282a7649a9de25c1c",
+        "name": "Maple Syrup",
+        "calories": 57.8,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d34682a7649a9de25c34",
+        "name": "Oatmeal",
+        "calories": 340.2,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 335,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3cc",
+    "totalCalories": 923.8999999999999,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088114",
     "__v": 0
   },
   {
     "name": "Generated Meal 7",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e8694048b",
-        "name": "Hash Brown Scramble Bowl with Bacon, No Hash Browns",
-        "calories": 300,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d34982a7649a9de25c38",
+        "name": "Special K Strawberry",
+        "calories": 503,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d33c82a7649a9de25c29",
+        "name": "Blueberry Yogurt",
+        "calories": 67.7,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d34782a7649a9de25c35",
+        "name": "Orange",
+        "calories": 103.9,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d33082a7649a9de25c1a",
+        "name": "Cranberry Chicken Sausage Breakfast",
+        "calories": 53.1,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 300,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3cd",
+    "totalCalories": 727.7,
+    "restaurantName": "251 North",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088115",
     "__v": 0
   },
   {
     "name": "Generated Meal 8",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e86940491",
-        "name": "Hash Brown Scramble Bowl with Nuggets, No Hash Browns",
-        "calories": 320,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d34982a7649a9de25c38",
+        "name": "Special K Strawberry",
+        "calories": 503,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d34082a7649a9de25c2e",
+        "name": "Coco Puffs",
+        "calories": 186.7,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d33c82a7649a9de25c29",
+        "name": "Blueberry Yogurt",
+        "calories": 67.7,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 320,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3ce",
+    "totalCalories": 757.4000000000001,
+    "restaurantName": "251 North",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088116",
     "__v": 0
   },
   {
     "name": "Generated Meal 9",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e86940493",
-        "name": "Hash Brown Scramble Bowl with Sausage, No Hash Browns",
-        "calories": 340,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "6799d34482a7649a9de25c33",
+        "name": "Grits",
+        "calories": 60.4,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d34882a7649a9de25c36",
+        "name": "Pineapple",
+        "calories": 40,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d4e282a7649a9de25d3a",
+        "name": "Shredded Cheddar Cheese",
+        "calories": 111.4,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "6799d50082a7649a9de25d45",
+        "name": "Cottage Cheese",
+        "calories": 40.1,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "679b3e6f3ee80063f9fe92d1",
+        "name": "Whipped Butter",
+        "calories": 50,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "679b3e6f3ee80063f9fe92d5",
+        "name": "Turkey Sausage Patty",
+        "calories": 70,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 340,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3cf",
+    "totalCalories": 371.9,
+    "restaurantName": "The Café",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088117",
     "__v": 0
   },
   {
     "name": "Generated Meal 10",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e86940495",
-        "name": "Hash Brown Scramble Bowl with Spicy Chicken, No Hash Browns",
-        "calories": 340,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "67d7bb780767fdf567561c6e",
+        "name": "Breakfast Potatoes",
+        "calories": 120,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "67d7bb790767fdf567561c75",
+        "name": "Red Seedless Grapes",
+        "calories": 40,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 340,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d0",
+    "totalCalories": 630,
+    "restaurantName": "SoVi",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088118",
     "__v": 0
   },
   {
     "name": "Generated Meal 11",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e86940497",
-        "name": "Hash Brown Scramble Burrito with Bacon, No Hash Browns",
-        "calories": 540,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "67d7bb780767fdf567561c6e",
+        "name": "Breakfast Potatoes",
+        "calories": 120,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "67d7bb790767fdf567561c74",
+        "name": "Red Seedless Grapes",
+        "calories": 40,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "67d7bb790767fdf567561c77",
+        "name": "Peach Slices",
+        "calories": 25,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
+      },
+      {
+        "itemId": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": []
       }
     ],
-    "totalCalories": 540,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d1",
+    "totalCalories": 655,
+    "restaurantName": "SoVi",
+    "restaurantType": "Dining-Halls",
+    "_id": "68595ba9e0dea20750088119",
     "__v": 0
   },
   {
     "name": "Generated Meal 12",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e8694049d",
-        "name": "Hash Brown Scramble Burrito with Nuggets, No Hash Browns",
-        "calories": 550,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67acaa04fab1224e869403f4",
+        "name": "Bacon, Egg & Cheese Biscuit",
+        "calories": 510,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": []
+      },
+      {
+        "itemId": "67acadd500524d65401f31e7",
+        "name": "Add Egg",
+        "calories": 80,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": []
+      },
+      {
+        "itemId": "67acadd500524d65401f31e6",
+        "name": "Add American Cheese",
+        "calories": 40,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": []
+      },
+      {
+        "itemId": "67acadd500524d65401f31eb",
+        "name": "Bo-Berry Biscuit",
+        "calories": 370,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": []
       }
     ],
-    "totalCalories": 550,
-    "restaurantName": "Chick-Fil-A",
+    "totalCalories": 1000,
+    "restaurantName": "Bojangles",
     "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d2",
+    "_id": "68595ba9e0dea2075008811a",
     "__v": 0
   },
   {
     "name": "Generated Meal 13",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e8694049f",
-        "name": "Hash Brown Scramble Burrito with Sausage, No Hash Browns",
-        "calories": 570,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67acaa04fab1224e869403f4",
+        "name": "Bacon, Egg & Cheese Biscuit",
+        "calories": 510,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": []
+      },
+      {
+        "itemId": "67acadd500524d65401f31e8",
+        "name": "Add Pimento Cheese",
+        "calories": 170,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": []
+      },
+      {
+        "itemId": "67acadd500524d65401f31eb",
+        "name": "Bo-Berry Biscuit",
+        "calories": 370,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": []
       }
     ],
-    "totalCalories": 570,
-    "restaurantName": "Chick-Fil-A",
+    "totalCalories": 1050,
+    "restaurantName": "Bojangles",
     "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d3",
+    "_id": "68595ba9e0dea2075008811b",
     "__v": 0
   },
   {
     "name": "Generated Meal 14",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e869404a1",
-        "name": "Hash Brown Scramble Burrito with Spicy Chicken, No Hash Browns",
-        "calories": 510,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67acab5be1d6a1486cc48ef4",
+        "name": "Breakfast Crunchwrap - Sausage Patty",
+        "calories": 750,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": []
+      },
+      {
+        "itemId": "67acab5be1d6a1486cc48ec0",
+        "name": "3-Cheese Chicken Flatbread Melt",
+        "calories": 330,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": []
       }
     ],
-    "totalCalories": 510,
-    "restaurantName": "Chick-Fil-A",
+    "totalCalories": 1080,
+    "restaurantName": "Taco Bell",
     "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d4",
+    "_id": "68595ba9e0dea2075008811c",
     "__v": 0
   },
   {
     "name": "Generated Meal 15",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "67acaa04fab1224e869404b5",
-        "name": "Light Balsamic Vinaigrette Dressing",
-        "calories": 80,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67acab5be1d6a1486cc48ef5",
+        "name": "Breakfast Crunchwrap - Bacon",
+        "calories": 670,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": []
       },
       {
-        "itemId": "67acaa04fab1224e8694047a",
-        "name": "Garden Herb Ranch Sauce",
-        "calories": 140,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acaa04fab1224e869403fb",
-        "name": "Buttery Biscuit",
-        "calories": 290,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise"
+        "itemId": "67acab5be1d6a1486cc48ec0",
+        "name": "3-Cheese Chicken Flatbread Melt",
+        "calories": 330,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise",
+        "ingredients": []
       }
     ],
-    "totalCalories": 510,
-    "restaurantName": "Chick-Fil-A",
+    "totalCalories": 1000,
+    "restaurantName": "Taco Bell",
     "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d5",
+    "_id": "68595ba9e0dea2075008811d",
     "__v": 0
   },
   {
     "name": "Generated Meal 16",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "6799d36d82a7649a9de25c68",
-        "name": "Tuna Salad",
-        "calories": 310,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
+        "itemId": "67cacf4e0909e38b69423935",
+        "name": "2% Milk, 8 fl oz",
+        "calories": 120,
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise",
+        "ingredients": []
       },
       {
-        "itemId": "679b3e753ee80063f9fe942f",
-        "name": "Roasted Garlic Aioli",
-        "calories": 80,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
+        "itemId": "67aca9904f62bb67b9fe21f7",
+        "name": "Tango Oasis, Large",
+        "calories": 470,
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise",
+        "ingredients": []
+      },
+      {
+        "itemId": "67aca9904f62bb67b9fe21db",
+        "name": "Spring Veggie Egg Bake",
+        "calories": 200,
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise",
+        "ingredients": []
       }
     ],
-    "totalCalories": 390,
-    "restaurantName": "Subway",
+    "totalCalories": 790,
+    "restaurantName": "Jamba",
     "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d6",
+    "_id": "68595ba9e0dea2075008811e",
     "__v": 0
   },
   {
     "name": "Generated Meal 17",
-    "mealType": "Dinner",
-    "ingredients": [
+    "mealType": "Breakfast",
+    "items": [
       {
-        "itemId": "679b3e7b3ee80063f9fe950b",
-        "name": "Black Forest Ham",
-        "calories": 70,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa71095a",
-        "name": "6 inch Black Forest Ham, Egg & Cheese",
-        "calories": 460,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 530,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d7",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 18",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "679b3e7b3ee80063f9fe9510",
-        "name": "Genoa Salami",
-        "calories": 70,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa71095b",
-        "name": "6 inch B.L.T.",
-        "calories": 370,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 440,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d8",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 19",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67aca0a320afa3d5aa71095c",
-        "name": "6 inch Bacon, Egg & Cheese",
-        "calories": 510,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 510,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3d9",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 20",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67aca0a320afa3d5aa710967",
-        "name": "6 inch Grilled Chicken",
-        "calories": 300,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa7109a1",
-        "name": "Double Cheese Dipper",
-        "calories": 470,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 770,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3da",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 21",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67aca0a320afa3d5aa7109a6",
-        "name": "Footlong Pretzel",
-        "calories": 330,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa71097a",
-        "name": "Applesauce",
-        "calories": 70,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 400,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3db",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 22",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "679b3e793ee80063f9fe94c6",
-        "name": "Plain Bagel",
-        "calories": 180,
-        "restaurantName": "Social 704",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "6799d33a82a7649a9de25c27",
-        "name": "Banana",
-        "calories": 110,
-        "restaurantName": "Social 704",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 290,
-    "restaurantName": "Social 704",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3dc",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 23",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "679b3e793ee80063f9fe94c6",
-        "name": "Plain Bagel",
-        "calories": 180,
-        "restaurantName": "Social 704",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acaa04fab1224e8694046b",
-        "name": "English Muffin",
-        "calories": 150,
-        "restaurantName": "Social 704",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 330,
-    "restaurantName": "Social 704",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3dd",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 24",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "6799d40182a7649a9de25ce9",
-        "name": "French Fries",
-        "calories": 160,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls"
-      },
-      {
-        "itemId": "6799d43f82a7649a9de25d25",
-        "name": "Brown Rice",
+        "itemId": "67cacf4e0909e38b69423935",
+        "name": "2% Milk, 8 fl oz",
         "calories": 120,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls"
-      }
-    ],
-    "totalCalories": 280,
-    "restaurantName": "SoVi",
-    "restaurantType": "Dining-Halls",
-    "_id": "68594b239add1d4c227ac3de",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 25",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "6799d43f82a7649a9de25d25",
-        "name": "Brown Rice",
-        "calories": 120,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls"
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise",
+        "ingredients": []
       },
       {
-        "itemId": "6799d63982a7649a9de25e64",
-        "name": "Beef Taco Meat",
-        "calories": 230,
-        "restaurantName": "SoVi",
-        "restaurantType": "Dining-Halls"
-      }
-    ],
-    "totalCalories": 350,
-    "restaurantName": "SoVi",
-    "restaurantType": "Dining-Halls",
-    "_id": "68594b239add1d4c227ac3df",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 26",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "6799d40482a7649a9de25ced",
-        "name": "Leaf Lettuce",
-        "calories": 17,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls"
+        "itemId": "67aca9904f62bb67b9fe21f8",
+        "name": "Tango Oasis, Medium",
+        "calories": 360,
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise",
+        "ingredients": []
       },
       {
-        "itemId": "6799d69082a7649a9de25ec1",
-        "name": "Pineapple",
-        "calories": 40,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls"
-      },
-      {
-        "itemId": "6799d7ce82a7649a9de25f0c",
-        "name": "Feta Cheese",
-        "calories": 60.8,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls"
-      },
-      {
-        "itemId": "67dbff109b6775dfb1ef5c14",
-        "name": "Yakisoba Noodles",
-        "calories": 260,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls"
-      }
-    ],
-    "totalCalories": 377.8,
-    "restaurantName": "The Café",
-    "restaurantType": "Dining-Halls",
-    "_id": "68594b239add1d4c227ac3e0",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 27",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "6799d40a82a7649a9de25cf5",
-        "name": "Turkey Sliced",
-        "calories": 75.9,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls"
-      },
-      {
-        "itemId": "6799d40c82a7649a9de25cf8",
-        "name": "Potato Hamburger Roll",
-        "calories": 122.6,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls"
-      },
-      {
-        "itemId": "6799d40f82a7649a9de25cfa",
-        "name": "Sliced Pepper Jack Cheese",
-        "calories": 108,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls"
-      }
-    ],
-    "totalCalories": 306.5,
-    "restaurantName": "Yahentamitsi Dining Hall",
-    "restaurantType": "Dining-Halls",
-    "_id": "68594b239add1d4c227ac3e1",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 28",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "6799d63082a7649a9de25e58",
-        "name": "Sourdough Bread",
-        "calories": 226.6,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls"
-      },
-      {
-        "itemId": "6799d41382a7649a9de25cfe",
-        "name": "Italian Roasted Brussel Sprouts",
-        "calories": 49.2,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls"
-      },
-      {
-        "itemId": "6799d62882a7649a9de25e50",
-        "name": "Pumpkin Seeds",
-        "calories": 151.9,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls"
-      }
-    ],
-    "totalCalories": 427.70000000000005,
-    "restaurantName": "Yahentamitsi Dining Hall",
-    "restaurantType": "Dining-Halls",
-    "_id": "68594b239add1d4c227ac3e2",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 29",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "6799d63182a7649a9de25e59",
-        "name": "Spinach Tortilla 12\"",
-        "calories": 298.1,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls"
-      },
-      {
-        "itemId": "6799d63682a7649a9de25e5f",
-        "name": "Vegan Shredded Cheddar Cheese",
-        "calories": 81,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls"
-      }
-    ],
-    "totalCalories": 379.1,
-    "restaurantName": "Yahentamitsi Dining Hall",
-    "restaurantType": "Dining-Halls",
-    "_id": "68594b239add1d4c227ac3e3",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 30",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "679b3e7f3ee80063f9fe9579",
-        "name": "Chicken Caesar Wrap",
-        "calories": 480,
-        "restaurantName": "Panera Bread",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 480,
-    "restaurantName": "Panera Bread",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3e4",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 31",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "679b3e793ee80063f9fe94af",
-        "name": "Sesame Bagel",
-        "calories": 300,
-        "restaurantName": "Panera Bread",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acabc79d77543a60e39e5c",
-        "name": "Additional Shot of Caramel Syrup",
-        "calories": 50,
-        "restaurantName": "Panera Bread",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 350,
-    "restaurantName": "Panera Bread",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3e5",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 32",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "6799d55c82a7649a9de25d90",
-        "name": "Sourdough Bread",
-        "calories": 140,
-        "restaurantName": "Panera Bread",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acabc79d77543a60e39e71",
-        "name": "Bacon, Egg & Cheese on Ciabatta",
-        "calories": 430,
-        "restaurantName": "Panera Bread",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 570,
-    "restaurantName": "Panera Bread",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3e6",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 33",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67acabc79d77543a60e39e6a",
-        "name": "Bacon Turkey Bravo on Tomato Basil, Half",
-        "calories": 420,
-        "restaurantName": "Panera Bread",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acabc79d77543a60e39e6d",
-        "name": "Bacon Mac & Cheese, Cup",
-        "calories": 520,
-        "restaurantName": "Panera Bread",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 940,
-    "restaurantName": "Panera Bread",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3e7",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 34",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67acacbf777994d8b8a42460",
-        "name": "Broccoli Beef",
-        "calories": 150,
-        "restaurantName": "Panda Express",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acacbf777994d8b8a42456",
-        "name": "Beyond Orange Chicken",
-        "calories": 440,
-        "restaurantName": "Panda Express",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 590,
-    "restaurantName": "Panda Express",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3e8",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 35",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67acacbf777994d8b8a42454",
-        "name": "Beijing Beef",
-        "calories": 480,
-        "restaurantName": "Panda Express",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 480,
-    "restaurantName": "Panda Express",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3e9",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 36",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67acacbf777994d8b8a4246d",
-        "name": "Chow Fun",
-        "calories": 410,
-        "restaurantName": "Panda Express",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acacbf777994d8b8a4246b",
-        "name": "Chili Sauce",
-        "calories": 10,
-        "restaurantName": "Panda Express",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acacbf777994d8b8a4246a",
-        "name": "Chili Crisp Shrimp",
-        "calories": 210,
-        "restaurantName": "Panda Express",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 630,
-    "restaurantName": "Panda Express",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3ea",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 37",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67acacbf777994d8b8a42470",
-        "name": "Chow Mein for Cub Meal",
-        "calories": 440,
-        "restaurantName": "Panda Express",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acacbf777994d8b8a4246b",
-        "name": "Chili Sauce",
-        "calories": 10,
-        "restaurantName": "Panda Express",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 450,
-    "restaurantName": "Panda Express",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3eb",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 38",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67acad74e444da4e6b493a55",
-        "name": "Bacon, Egg & Cheese Sandwich",
-        "calories": 300,
-        "restaurantName": "Auntie Anne's",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acad74e444da4e6b493a58",
-        "name": "Cheese",
-        "calories": 110,
-        "restaurantName": "Auntie Anne's",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 410,
-    "restaurantName": "Auntie Anne's",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3ec",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 39",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67acad74e444da4e6b493a6a",
-        "name": "Egg & Cheese Sandwich",
+        "itemId": "67aca9904f62bb67b9fe21f9",
+        "name": "Tango Oasis, Small",
         "calories": 250,
-        "restaurantName": "Auntie Anne's",
-        "restaurantType": "Franchise"
-      },
-      {
-        "itemId": "67acad74e444da4e6b493a5c",
-        "name": "Cherry Coke, Medium",
-        "calories": 210,
-        "restaurantName": "Auntie Anne's",
-        "restaurantType": "Franchise"
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise",
+        "ingredients": []
       }
     ],
-    "totalCalories": 460,
-    "restaurantName": "Auntie Anne's",
+    "totalCalories": 730,
+    "restaurantName": "Jamba",
     "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3ed",
-    "__v": 0
-  },
-  {
-    "name": "Generated Meal 40",
-    "mealType": "Dinner",
-    "ingredients": [
-      {
-        "itemId": "67acad74e444da4e6b493a9b",
-        "name": "Sausage, Egg & Cheese Sandwich",
-        "calories": 400,
-        "restaurantName": "Auntie Anne's",
-        "restaurantType": "Franchise"
-      }
-    ],
-    "totalCalories": 400,
-    "restaurantName": "Auntie Anne's",
-    "restaurantType": "Franchise",
-    "_id": "68594b239add1d4c227ac3ee",
+    "_id": "68595ba9e0dea2075008811f",
     "__v": 0
   }
 ]

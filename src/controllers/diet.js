@@ -510,8 +510,8 @@ Respond ONLY with a valid JSON array in the following format:
     "mealType": "Breakfast",
     "restaurantName": "Yahentamitsi Dining Hall",
     "restaurantType": "Dining-Halls",
-    "ingredients": [
-      { "id": "item_id", "name": "Item Name", "calories": 123 }
+    "items": [
+      { "id": "item_id", "name": "Item Name", "calories": 123, "ingredients": ["ingredient1", "ingredient2"] },
     ]
   }
 ]
@@ -528,6 +528,7 @@ ${JSON.stringify(
         id: i._id,
         name: i.name,
         calories: i.nutrients.calories,
+        ingredients: i.ingredients || [],
       })),
     }
   }),
@@ -550,14 +551,15 @@ ${JSON.stringify(
         combos.map((combo, i) => ({
           name: `Generated Meal ${i + 1}`,
           mealType: combo.mealType,
-          ingredients: combo.ingredients.map((i) => ({
+          items: combo.items.map((i) => ({
             itemId: i.id,
             name: i.name,
             calories: i.calories,
             restaurantName: combo.restaurantName,
             restaurantType: combo.restaurantType,
+            ingredients: i?.ingredients || [],
           })),
-          totalCalories: combo.ingredients.reduce((sum, i) => sum + i.calories, 0),
+          totalCalories: combo.items.reduce((sum, i) => sum + i.calories, 0),
           restaurantName: combo.restaurantName,
           restaurantType: combo.restaurantType,
         }))
