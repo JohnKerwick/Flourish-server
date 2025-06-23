@@ -1,5 +1,5 @@
 import { StatusCodes } from 'http-status-codes'
-import fs, { readFile } from 'fs/promises'
+import fs, { readFile, writeFile } from 'fs/promises'
 import {
   calculateBMR,
   getUserById,
@@ -29,6 +29,8 @@ import { exampleJson } from '../utils/prompt-json'
 import { validateAiResponse, validateRestaurantUniformality } from '../utils/validate-ai-response'
 import { getIO } from '../socket'
 import { deepSeekRes } from '../utils/deepseek'
+import { GeneratedMeal } from '../models/generatedMeals'
+import { parseGeneratedMeals } from '../utils/generate-meals'
 
 const categories = [
   'Main',
@@ -470,6 +472,101 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
     io.to(userId).emit('weekly_plan', { message: 'Meals updated successfully.', weeklyPlan: finData })
 
     res.json({ message: 'Meals updated successfully.', weeklyPlan: finData })
+  }),
+  generateMeals: asyncMiddleware(async (req, res) => {
+    try {
+      const { calorieRange = { min: 300, max: 600 }, types = ['Breakfast', 'Lunch', 'Dinner'] } = req.body
+
+      // Step 1: Fetch meals from DB
+      const items = await Meals.find({
+        'nutrients.calories': { $gt: 0 },
+        type: { $in: types },
+      }).lean()
+
+      // Step 2: Group by restaurantName + restaurantType + mealType
+      const grouped = {}
+      for (const item of items) {
+        const key = `${item.restaurantName}::${item.restaurantType}::${item.type}`
+        if (!grouped[key]) grouped[key] = []
+        grouped[key].push(item)
+      }
+
+      // Step 3: Format prompt for OpenAI
+      const prompt = `
+Below is a list of food items, grouped by restaurant and type. Your job is to generate as many realistic meal **combinations** as possible that meet the following criteria:
+
+- Each combination must:
+  - Be made from items **from the same restaurant**
+  - Match the meal type (Breakfast, Lunch, or Dinner)
+  - Have total calories in the range ${calorieRange.min} to ${calorieRange.max}
+  - Avoid repeating the same exact set of items
+
+Respond ONLY with a valid JSON array in the following format:
+[
+  {
+    "mealType": "Breakfast",
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "ingredients": [
+      { "id": "item_id", "name": "Item Name", "calories": 123 }
+    ]
+  }
+]
+
+Here is the data:
+${JSON.stringify(
+  Object.entries(grouped).map(([key, items]) => {
+    const [restaurantName, restaurantType, mealType] = key.split('::')
+    return {
+      restaurantName,
+      restaurantType,
+      mealType,
+      items: items.map((i) => ({
+        id: i._id,
+        name: i.name,
+        calories: i.nutrients.calories,
+      })),
+    }
+  }),
+  null,
+  2
+)}
+`.trim()
+
+      // Step 4: Call OpenAI to generate meal combos
+      const aiResponse = await processMealRecommendations(prompt)
+
+      // Step 5: Parse JSON safely
+      const jsonStart = aiResponse.indexOf('[')
+      const jsonEnd = aiResponse.lastIndexOf(']')
+      const jsonOnly = aiResponse.slice(jsonStart, jsonEnd + 1)
+      const combos = JSON.parse(jsonOnly)
+
+      // Step 6: Save to DB
+      const created = await GeneratedMeal.insertMany(
+        combos.map((combo, i) => ({
+          name: `Generated Meal ${i + 1}`,
+          mealType: combo.mealType,
+          ingredients: combo.ingredients.map((i) => ({
+            itemId: i.id,
+            name: i.name,
+            calories: i.calories,
+            restaurantName: combo.restaurantName,
+            restaurantType: combo.restaurantType,
+          })),
+          totalCalories: combo.ingredients.reduce((sum, i) => sum + i.calories, 0),
+          restaurantName: combo.restaurantName,
+          restaurantType: combo.restaurantType,
+        }))
+      )
+
+      await writeFile('generatedMeals.json', JSON.stringify(created, null, 2), 'utf-8')
+
+      res.status(200).json({ message: 'Meals generated successfully', count: created.length, data: created })
+    } catch (err) {
+      console.error(err)
+      res.status(500).json({ error: 'Internal server error' })
+    }
   }),
 
   createWeeklyDietPlan: asyncMiddleware(async (req, res) => {

@@ -1,0 +1,544 @@
+[
+  {
+    "name": "Generated Meal 1",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "6799d33182a7649a9de25c1b",
+        "name": "Egg Cheese Breakfast English Muffin",
+        "calories": 258.8,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d33782a7649a9de25c23",
+        "name": "Sweet Potato Hash",
+        "calories": 118.8,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 377.6,
+    "restaurantName": "undefined",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eeed",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 2",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "6799d33182a7649a9de25c1b",
+        "name": "Egg Cheese Breakfast English Muffin",
+        "calories": 258.8,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d35782a7649a9de25c4a",
+        "name": "Shoestring Potato Hashbrowns",
+        "calories": 106.9,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 365.70000000000005,
+    "restaurantName": "undefined",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eeee",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 3",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "6799d33782a7649a9de25c23",
+        "name": "Sweet Potato Hash",
+        "calories": 118.8,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d34d82a7649a9de25c3c",
+        "name": "Oatmeal w/ Blueberries",
+        "calories": 198.1,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 316.9,
+    "restaurantName": "undefined",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eeef",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 4",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "6799d33682a7649a9de25c21",
+        "name": "Southwestern Vegetable Hash",
+        "calories": 305,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d34d82a7649a9de25c3d",
+        "name": "Southwestern Bean Hash",
+        "calories": 92,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d35682a7649a9de25c49",
+        "name": "Polish Turkey Sausage & Peppers",
+        "calories": 4,
+        "restaurantName": "undefined",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 401,
+    "restaurantName": "undefined",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eef0",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 5",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "6799d33482a7649a9de25c1f",
+        "name": "Scrambled Cheesy Cheddar Egg",
+        "calories": 241.3,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d33282a7649a9de25c1c",
+        "name": "Maple Syrup",
+        "calories": 57.8,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d33382a7649a9de25c1e",
+        "name": "Pancakes Plain",
+        "calories": 107.5,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 406.6,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eef1",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 6",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "6799d33482a7649a9de25c1f",
+        "name": "Scrambled Cheesy Cheddar Egg",
+        "calories": 241.3,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d33982a7649a9de25c26",
+        "name": "Bagels",
+        "calories": 295,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 536.3,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eef2",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 7",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "6799d33482a7649a9de25c1f",
+        "name": "Scrambled Cheesy Cheddar Egg",
+        "calories": 241.3,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d34682a7649a9de25c34",
+        "name": "Oatmeal",
+        "calories": 340.2,
+        "restaurantName": "Yahentamitsi Dining Hall",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 581.5,
+    "restaurantName": "Yahentamitsi Dining Hall",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eef3",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 8",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67b8b1d41ff573cd6ff57a57",
+        "name": "Pancakes Blueberry",
+        "calories": 89.7,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "67d7bbc40767fdf567561d20",
+        "name": "Banana",
+        "calories": 109.8,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d33c82a7649a9de25c29",
+        "name": "Blueberry Yogurt",
+        "calories": 67.7,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 267.2,
+    "restaurantName": "251 North",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eef4",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 9",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67b8b1d41ff573cd6ff57a57",
+        "name": "Pancakes Blueberry",
+        "calories": 89.7,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d33f82a7649a9de25c2c",
+        "name": "Cereal Rice Chex",
+        "calories": 90.7,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "67d7bbc40767fdf567561d20",
+        "name": "Banana",
+        "calories": 109.8,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "67d7bbc40767fdf567561d14",
+        "name": "Cinnamon Spiced Berry Compote",
+        "calories": 35,
+        "restaurantName": "251 North",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 325.2,
+    "restaurantName": "251 North",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eef5",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 10",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "679b3e6f3ee80063f9fe92d6",
+        "name": "Avocado Toast",
+        "calories": 175.1,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "6799d34482a7649a9de25c33",
+        "name": "Grits",
+        "calories": 60.4,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "679b3e6f3ee80063f9fe92d8",
+        "name": "Turkey Bacon",
+        "calories": 50.6,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 286.1,
+    "restaurantName": "The Café",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eef6",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 11",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67acaa04fab1224e86940467",
+        "name": "Dr Pepper, Small",
+        "calories": 190,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise"
+      },
+      {
+        "itemId": "67acaa04fab1224e86940484",
+        "name": "Grilled Chicken Sandwich",
+        "calories": 570,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "totalCalories": 760,
+    "restaurantName": "Bojangles",
+    "restaurantType": "Franchise",
+    "_id": "68593d50d2d7bbe600b1eef7",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 12",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67acaa04fab1224e869403f4",
+        "name": "Bacon, Egg & Cheese Biscuit",
+        "calories": 510,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise"
+      },
+      {
+        "itemId": "67acadd500524d65401f31e6",
+        "name": "Add American Cheese",
+        "calories": 40,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "totalCalories": 550,
+    "restaurantName": "Bojangles",
+    "restaurantType": "Franchise",
+    "_id": "68593d50d2d7bbe600b1eef8",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 13",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67acab5be1d6a1486cc48ecc",
+        "name": "Bean Burrito",
+        "calories": 360,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise"
+      },
+      {
+        "itemId": "67acab5be1d6a1486cc48ef0",
+        "name": "Boulevard Unfiltered Wheat Beer (12 oz)",
+        "calories": 150,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "totalCalories": 510,
+    "restaurantName": "Taco Bell",
+    "restaurantType": "Franchise",
+    "_id": "68593d50d2d7bbe600b1eef9",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 14",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67acab5be1d6a1486cc48ecc",
+        "name": "Bean Burrito",
+        "calories": 360,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise"
+      },
+      {
+        "itemId": "67acab5be1d6a1486cc48ecf",
+        "name": "Beer - General (12 oz)",
+        "calories": 150,
+        "restaurantName": "Taco Bell",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "totalCalories": 510,
+    "restaurantName": "Taco Bell",
+    "restaurantType": "Franchise",
+    "_id": "68593d50d2d7bbe600b1eefa",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 15",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67cacf510909e38b6942393a",
+        "name": "Acai Super-Antioxidant Smoothie, Medium",
+        "calories": 430,
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise"
+      },
+      {
+        "itemId": "67cacf540909e38b6942393d",
+        "name": "Almondmilk, 8 fl oz",
+        "calories": 25,
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise"
+      },
+      {
+        "itemId": "67cacf560909e38b69423940",
+        "name": "Aloha Pineapple Smoothie, Small",
+        "calories": 270,
+        "restaurantName": "Jamba",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "totalCalories": 725,
+    "restaurantName": "Jamba",
+    "restaurantType": "Franchise",
+    "_id": "68593d50d2d7bbe600b1eefb",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 16",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67d7bb780767fdf567561c6e",
+        "name": "Breakfast Potatoes",
+        "calories": 120,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "67d7bb760767fdf567561c67",
+        "name": "Eggs",
+        "calories": 130,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 250,
+    "restaurantName": "SoVi",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eefc",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 17",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "67d7bb760767fdf567561c65",
+        "name": "Meatless Vegetarian Sausage Patty",
+        "calories": 70,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "67d7bb7a0767fdf567561c7a",
+        "name": "Oats 'n Honey Granola",
+        "calories": 20,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "itemId": "67d7bb790767fdf567561c76",
+        "name": "Mandarin Orange Sections",
+        "calories": 20,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "totalCalories": 220,
+    "restaurantName": "SoVi",
+    "restaurantType": "Dining-Halls",
+    "_id": "68593d50d2d7bbe600b1eefd",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 18",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "68234461390f80f272ba16d4",
+        "name": "Cinnamon Roll Casserole",
+        "calories": 340,
+        "restaurantName": "SoVi",
+        "restaurantType": "undefined"
+      }
+    ],
+    "totalCalories": 340,
+    "restaurantName": "SoVi",
+    "restaurantType": "undefined",
+    "_id": "68593d50d2d7bbe600b1eefe",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 19",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "679b3e7d3ee80063f9fe9549",
+        "name": "Chocolate Croissant",
+        "calories": 300,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "totalCalories": 300,
+    "restaurantName": "Starbucks",
+    "restaurantType": "Franchise",
+    "_id": "68593d50d2d7bbe600b1eeff",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 20",
+    "mealType": "Breakfast",
+    "ingredients": [
+      {
+        "itemId": "6825ef5c2a508b7efe2ff55b",
+        "name": "Frappuccino Chilled Coffee Drink",
+        "calories": 270,
+        "restaurantName": "Starbucks",
+        "restaurantType": "undefined"
+      }
+    ],
+    "totalCalories": 270,
+    "restaurantName": "Starbucks",
+    "restaurantType": "undefined",
+    "_id": "68593d50d2d7bbe600b1ef00",
+    "__v": 0
+  }
+]
