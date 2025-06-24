@@ -32,6 +32,8 @@ import { deepSeekRes } from '../utils/deepseek'
 import { GeneratedMeal } from '../models/generatedMeals'
 import { parseGeneratedMeals } from '../utils/generate-meals'
 import { writeFile } from 'fs/promises'
+import mealPlanGenerators from '../utils/mealPlanGenerator.js'
+const { generate14MealPlan, generate7MealPlan, generate21MealPlan } = mealPlanGenerators
 
 const categories = [
   'Main',
@@ -472,7 +474,77 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
     const io = getIO()
     io.to(userId).emit('weekly_plan', { message: 'Meals updated successfully.', weeklyPlan: finData })
 
-    res.json({ message: 'Meals updated successfully.', weeklyPlan: finData })
+    // After mealPlan is generated
+    // Map day numbers to names
+    const dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+    const formattedPlan = Object.entries(finData).map(([dayKey, dayPlan], idx) => {
+      // Support both {breakfast, lunch, dinner} and {meal} (for 7-meal/14-meal)
+      let breakfast = [],
+        lunch = [],
+        dinner = []
+      let caloriesProvided = 0,
+        proteinProvided = 0,
+        fatProvided = 0,
+        carbsProvided = 0
+
+      if (dayPlan.breakfast) {
+        breakfast = Array.isArray(dayPlan.breakfast.items) ? dayPlan.breakfast.items : dayPlan.breakfast.items || []
+        breakfast = breakfast.length
+          ? breakfast
+          : Array.isArray(dayPlan.breakfast)
+          ? dayPlan.breakfast
+          : [dayPlan.breakfast]
+      }
+      if (dayPlan.lunch) {
+        lunch = Array.isArray(dayPlan.lunch.items) ? dayPlan.lunch.items : dayPlan.lunch.items || []
+        lunch = lunch.length ? lunch : Array.isArray(dayPlan.lunch) ? dayPlan.lunch : [dayPlan.lunch]
+      }
+      if (dayPlan.dinner) {
+        dinner = Array.isArray(dayPlan.dinner.items) ? dayPlan.dinner.items : dayPlan.dinner.items || []
+        dinner = dinner.length ? dinner : Array.isArray(dayPlan.dinner) ? dayPlan.dinner : [dayPlan.dinner]
+      }
+      // For 7-meal/14-meal fallback keys
+      if (dayPlan.meal) {
+        if (dayPlan.meal.mealType === 'Breakfast') breakfast = dayPlan.meal.items
+        else if (dayPlan.meal.mealType === 'Lunch') lunch = dayPlan.meal.items
+        else if (dayPlan.meal.mealType === 'Dinner') dinner = dayPlan.meal.items
+      }
+      if (dayPlan.mealTypeA && dayPlan.mealTypeB) {
+        if (dayPlan.mealTypeA.mealType === 'Breakfast') breakfast = dayPlan.mealTypeA.items
+        if (dayPlan.mealTypeA.mealType === 'Lunch') lunch = dayPlan.mealTypeA.items
+        if (dayPlan.mealTypeA.mealType === 'Dinner') dinner = dayPlan.mealTypeA.items
+        if (dayPlan.mealTypeB.mealType === 'Breakfast') breakfast = dayPlan.mealTypeB.items
+        if (dayPlan.mealTypeB.mealType === 'Lunch') lunch = dayPlan.mealTypeB.items
+        if (dayPlan.mealTypeB.mealType === 'Dinner') dinner = dayPlan.mealTypeB.items
+      }
+      // Nutrition sums
+      const allItems = [...breakfast, ...lunch, ...dinner]
+      allItems.forEach((item) => {
+        if (item.nutrients) {
+          caloriesProvided += item.nutrients.calories || 0
+          proteinProvided += item.nutrients.protein || 0
+          fatProvided += item.nutrients.fat || 0
+          carbsProvided += item.nutrients.carbohydrate || 0
+        }
+      })
+      return {
+        day: dayNames[idx % 7],
+        breakfast,
+        lunch,
+        dinner,
+        caloriesBMR: caloriesProvided,
+        caloriesProvided,
+        proteinProvided,
+        fatProvided,
+        carbsProvided,
+      }
+    })
+
+    res.status(200).json({
+      success: true,
+      mealPlan: formattedPlan,
+    })
   }),
   generateMeals: asyncMiddleware(async (req, res) => {
     try {
@@ -676,6 +748,70 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       statusCode: StatusCodes.OK,
       dietPlan: newDietPlan,
     })
+  }),
+
+  createWeekPlan: asyncMiddleware(async (req, res) => {
+    try {
+      const {
+        selectedOption,
+        targetCaloriesPerDay,
+        preferredMealTypes, // For 14-meal plan
+        selectedMealType, // For 7-meal plan
+        campus,
+      } = req.body
+      var targetCalories = targetCaloriesPerDay
+      const breakfastMeals = await GeneratedMeal.find({
+        $and: [{ mealType: 'Breakfast' }, { campus: { $in: [campus] } }],
+      }).lean()
+      await writeFile('db_breakfast_meals.json', JSON.stringify(breakfastMeals, null, 2), 'utf-8')
+      const lunchMeals = await GeneratedMeal.find({
+        $and: [{ mealType: 'Lunch' }, { campus: { $in: [campus] } }],
+      }).lean()
+      await writeFile('db_lunch_meals.json', JSON.stringify(lunchMeals, null, 2), 'utf-8')
+      const dinnerMeals = await GeneratedMeal.find({
+        $and: [{ mealType: 'Dinner' }, { campus: { $in: [campus] } }],
+      }).lean()
+      await writeFile('db_dinner_meals.json', JSON.stringify(dinnerMeals, null, 2), 'utf-8')
+
+      let mealPlan
+
+      if (selectedOption === '21-meal') {
+        mealPlan = generate21MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCaloriesPerDay)
+      } else if (selectedOption === '14-meal') {
+        if (!preferredMealTypes || preferredMealTypes.length !== 2) {
+          return res.status(400).json({ error: 'preferredMealTypes (array of 2) is required for 14-meal plan.' })
+        }
+        if (targetCaloriesPerDay < 800) {
+          targetCalories = targetCaloriesPerDay * 0.6
+        }
+        console.log('targetCaloriesPerDay', targetCalories)
+        mealPlan = generate14MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, preferredMealTypes)
+      } else if (selectedOption === '7-meal') {
+        if (!selectedMealType) {
+          return res.status(400).json({ error: 'selectedMealType is required for 7-meal plan.' })
+        }
+        const mealType = Array.isArray(selectedMealType) ? selectedMealType[0] : selectedMealType
+        if (targetCaloriesPerDay < 800) {
+          targetCalories = targetCaloriesPerDay * 0.3
+        }
+        console.log('targetCaloriesPerDay', targetCalories)
+        mealPlan = generate7MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, mealType)
+      } else {
+        return res.status(400).json({ error: 'Invalid selectedOption provided.' })
+      }
+
+      res.status(200).json({
+        success: true,
+        mealPlan,
+      })
+    } catch (error) {
+      console.error(error)
+      res.status(500).json({
+        success: false,
+        message: 'Failed to generate meal plan.',
+        error: error.message,
+      })
+    }
   }),
 
   getDietHistory: asyncMiddleware(async (req, res) => {

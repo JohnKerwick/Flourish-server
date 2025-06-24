@@ -29,6 +29,12 @@ router.post(
   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_DIET.createWeeklyDietPlan
 )
+router.post(
+  '/create-week-plan',
+  Authenticate(),
+  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+  CONTROLLER_DIET.createWeekPlan
+)
 router.get(
   '/get-diet-details',
   Authenticate(),
