@@ -1,0 +1,592 @@
+[
+  {
+    "name": "Generated Meal 1",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "67aca9072523ee9db05d3afa",
+        "name": "Burrito, Flour Tortilla",
+        "calories": 300,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3afb",
+        "name": "Burrito, Ground Beef",
+        "calories": 250,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3af4",
+        "name": "Burrito, Chipotle Ranch",
+        "calories": 190,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3ad1",
+        "name": "Bowl, Black Beans",
+        "calories": 60,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 800,
+    "restaurantName": "Barberitos",
+    "restaurantType": "Franchise",
+    "_id": "685aa14ab2560dc1cde4e1ce",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 2",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "67aca9072523ee9db05d3b1c",
+        "name": "Chips & Dip, Large Cheese Dip",
+        "calories": 780,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3ad2",
+        "name": "Bowl, Black Olives",
+        "calories": 50,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 830,
+    "restaurantName": "Barberitos",
+    "restaurantType": "Franchise",
+    "_id": "685aa14ab2560dc1cde4e1cf",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 3",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "67aca9072523ee9db05d3b14",
+        "name": "Chips & Dip, Chips (3.5 oz)",
+        "calories": 340,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b3a",
+        "name": "Nachos, Chips",
+        "calories": 340,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b0e",
+        "name": "Burrito, Tomatillo Sauce",
+        "calories": 15,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b6d",
+        "name": "Quesadillas, Pinto Beans",
+        "calories": 45,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b0f",
+        "name": "Burrito, Wheat Tortilla",
+        "calories": 250,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 990,
+    "restaurantName": "Barberitos",
+    "restaurantType": "Franchise",
+    "_id": "685aa14ab2560dc1cde4e1d0",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 4",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "67aca9072523ee9db05d3b1d",
+        "name": "Chips & Dip, Medium Cheese Dip",
+        "calories": 390,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b1f",
+        "name": "Chips & Dip, Onions",
+        "calories": 15,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b21",
+        "name": "Chips & Dip, Small Cheese Dip",
+        "calories": 200,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b0d",
+        "name": "Burrito, Tofu",
+        "calories": 110,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3ad3",
+        "name": "Bowl, Cheese",
+        "calories": 250,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 965,
+    "restaurantName": "Barberitos",
+    "restaurantType": "Franchise",
+    "_id": "685aa14ab2560dc1cde4e1d1",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 5",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "67aca9072523ee9db05d3b59",
+        "name": "Quesadillas, Cheese",
+        "calories": 250,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b76",
+        "name": "Quesadillas, Tofu",
+        "calories": 110,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b3b",
+        "name": "Nachos, Corn Salsa",
+        "calories": 80,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b6e",
+        "name": "Quesadillas, Rice",
+        "calories": 60,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b74",
+        "name": "Quesadillas, Spinach",
+        "calories": 10,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 510,
+    "restaurantName": "Barberitos",
+    "restaurantType": "Franchise",
+    "_id": "685aa14ab2560dc1cde4e1d2",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 6",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "67aca9072523ee9db05d3afb",
+        "name": "Burrito, Ground Beef",
+        "calories": 250,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b50",
+        "name": "Nachos, Southwestern Vinaigrette",
+        "calories": 230,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b54",
+        "name": "Nachos, Tofu",
+        "calories": 110,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b6f",
+        "name": "Quesadillas, Romaine Lettuce",
+        "calories": 15,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 605,
+    "restaurantName": "Barberitos",
+    "restaurantType": "Franchise",
+    "_id": "685aa14ab2560dc1cde4e1d3",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 7",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "67aca9072523ee9db05d3b1c",
+        "name": "Chips & Dip, Large Cheese Dip",
+        "calories": 780,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b6d",
+        "name": "Quesadillas, Pinto Beans",
+        "calories": 45,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67aca9072523ee9db05d3b0e",
+        "name": "Burrito, Tomatillo Sauce",
+        "calories": 15,
+        "restaurantName": "Barberitos",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 840,
+    "restaurantName": "Barberitos",
+    "restaurantType": "Franchise",
+    "_id": "685aa14ab2560dc1cde4e1d4",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 8",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "6799d5cc82a7649a9de25df7",
+        "name": "Sunflower Seeds",
+        "calories": 172.1,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "RAW UNSALTED SUNFLOWER SEEDS [RAW SUNFLOWER KERNELS]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "6799d5b282a7649a9de25deb",
+        "name": "Chow Mein Noodles",
+        "calories": 131.6,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "NOODLE DRY CHOW MEIN [Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Palm Oil, LESS THAN 2% OF: Salt, Yeast, Sugar, Corn Starch.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "6799d54f82a7649a9de25d89",
+        "name": "Pumpkin Seeds",
+        "calories": 151.9,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "SHELLED PUMPKIN SEEDS [Pumpkin seed kernels.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "679b3e703ee80063f9fe930e",
+        "name": "Sliced Swiss Cheese",
+        "calories": 110,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "SLICED SWISS CHEESE [Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "6799d53182a7649a9de25d71",
+        "name": "Watermelon",
+        "calories": 50.2,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "FRUIT FRESH WATERMELON SEEDLESS"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "6799d52b82a7649a9de25d6c",
+        "name": "Pineapple",
+        "calories": 40,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "PINEAPPLE"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 655.8000000000001,
+    "restaurantName": "The Café",
+    "restaurantType": "Dining-Halls",
+    "_id": "685aa14ab2560dc1cde4e1d5",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 9",
+    "mealType": "Lunch",
+    "items": [
+      {
+        "itemId": "6799d5cc82a7649a9de25df7",
+        "name": "Sunflower Seeds",
+        "calories": 172.1,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "RAW UNSALTED SUNFLOWER SEEDS [RAW SUNFLOWER KERNELS]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "6799d5b282a7649a9de25deb",
+        "name": "Chow Mein Noodles",
+        "calories": 131.6,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "NOODLE DRY CHOW MEIN [Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Palm Oil, LESS THAN 2% OF: Salt, Yeast, Sugar, Corn Starch.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "6799d54f82a7649a9de25d89",
+        "name": "Pumpkin Seeds",
+        "calories": 151.9,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "SHELLED PUMPKIN SEEDS [Pumpkin seed kernels.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "679b3e703ee80063f9fe930e",
+        "name": "Sliced Swiss Cheese",
+        "calories": 110,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "SLICED SWISS CHEESE [Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "679a165782a7649a9de25f9d",
+        "name": "Cottage Cheese",
+        "calories": 40.1,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Cottage Cheese [Cultured Nonfat Milk, Milk, Cream, Contains less than 2% of: Nonfat Milk, Whey, Salt, Maltodextrin, Citric Acid, Carrageenan, Mono and Diglycerides, Locust Bean Gum, Guar Gum, Natural Flavors, Carbon Dioxide (to preserve freshness), Enzyme.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "679b3e7b3ee80063f9fe94ff",
+        "name": "Shredded Monterey Jack Cheese",
+        "calories": 25,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Shredded Monterey Jack Cheese [Monterey Jack cheese (pasteurized milk, cheese culture, salt, enzymes). Cheddar cheese (pasteurized milk, cheese culture, salt, enzymes, annatto [color] if colored). Potato starch and powdered cellulose added to prevent caking.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 630.7,
+    "restaurantName": "The Café",
+    "restaurantType": "Dining-Halls",
+    "_id": "685aa14ab2560dc1cde4e1d6",
+    "__v": 0
+  }
+]

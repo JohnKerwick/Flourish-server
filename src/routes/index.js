@@ -7,6 +7,7 @@ import restaurantsRoutes from './restaurants'
 import scrapperRoutes from './scrapper'
 import userRoutes from './user'
 import notificationRoute from './notification'
+import generateMealRoute from './generate-meal'
 
 const router = Router()
 
@@ -17,6 +18,7 @@ router.use('/restaurants', restaurantsRoutes)
 router.use('/diet', dietRoutes)
 router.use('/scrapper', scrapperRoutes)
 router.use('/meal', mealRoutes)
+router.use('/generate-meal', generateMealRoute)
 router.use('/notifications', notificationRoute)
 
 export default router

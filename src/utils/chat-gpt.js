@@ -14,8 +14,12 @@ export async function processMealRecommendations(content) {
       messages: [{ role: 'user', content }],
       temperature: 0.7,
     })
+    const result = {
+      responseText: response.choices[0].message.content,
+      usage: response.usage, // ✅ Token usage info
+    }
 
-    return response.choices[0].message.content
+    return result
   } catch (error) {
     console.error('OpenAI Error:', error.message)
     throw error
