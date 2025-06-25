@@ -1,5 +1,6 @@
 import { OpenAI } from 'openai'
 import dotenv from 'dotenv'
+import { enforceTokenDelay, estimateChatTokens, getBestModelForTokens, sleep } from './estimateTokens'
 
 dotenv.config()
 const openai = new OpenAI({
@@ -9,8 +10,8 @@ const openai = new OpenAI({
 export async function processMealRecommendations(content) {
   try {
     const response = await openai.chat.completions.create({
-      model: 'gpt-4.1-mini',
-      // model: 'gpt-4-1106-preview',
+      // model: 'gpt-4o',
+      model: 'gpt-4-1106-preview',
       messages: [{ role: 'user', content }],
       temperature: 0.7,
     })
@@ -20,6 +21,36 @@ export async function processMealRecommendations(content) {
     }
 
     return result
+  } catch (error) {
+    console.error('OpenAI Error:', error.message)
+    throw error
+  }
+}
+
+export async function processMealRecommendationsVariant(content) {
+  const messages = [{ role: 'user', content }]
+  const tokenCount = estimateChatTokens(messages)
+  console.log(`Estimated token count: ${tokenCount}`)
+  // const model = getBestModelForTokens(tokenCount)
+  const model = 'gpt-4.1-mini' // 16 count,"total_tokens": 8579,
+  // const model = 'gpt-4-1106-preview' //5 count,"total_tokens": 6809,
+  // const model = 'gpt-4o' //3 count,"total_tokens": 6464,
+
+  // await enforceTokenDelay(tokenCount, model)
+
+  try {
+    const response = await openai.chat.completions.create({
+      model,
+      messages,
+      temperature: 0.7,
+    })
+
+    return {
+      responseText: response.choices[0].message.content,
+      usage: response.usage,
+      modelUsed: model,
+      tokenCount,
+    }
   } catch (error) {
     console.error('OpenAI Error:', error.message)
     throw error

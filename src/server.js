@@ -17,6 +17,7 @@ import { task } from './utils/scrapper_cron'
 import { setupSocketEventHandlers } from './socketEvents'
 
 import { init as initSocket } from './socket.js'
+import { mealGenerationTask } from './utils/generate-meals_cron.js'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)
 // setupSocketEventHandlers()

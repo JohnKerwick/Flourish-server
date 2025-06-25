@@ -17,12 +17,12 @@ router.post(
   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_DIET.getWeeklyDietPlan
 )
-router.post(
-  '/generate-meals',
-  // Authenticate(),
-  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-  CONTROLLER_DIET.generateMeals
-)
+// router.post(
+//   '/generate-meals',
+//   // Authenticate(),
+//   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+//   CONTROLLER_DIET.generateMeals
+// )
 router.post(
   '/create-diet-plan',
   Authenticate(),
