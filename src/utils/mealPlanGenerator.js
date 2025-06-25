@@ -17,19 +17,24 @@ function generate21MealPlan(
     Lunch: [],
     Dinner: [],
   }
+  ;[
+    // Step 1: Organize meals
+    breakfastMeals,
+    lunchMeals,
+    dinnerMeals,
+  ]
+    .flat()
+    .forEach((meal) => {
+      const { mealType, restaurantType } = meal
 
-  // Step 1: Organize meals
-  ;[breakfastMeals, lunchMeals, dinnerMeals].flat().forEach((meal) => {
-    const { mealType, restaurantType } = meal
+      if (mealsByTypeAndCategory[mealType]?.[restaurantType]) {
+        mealsByTypeAndCategory[mealType][restaurantType].push(meal)
+      }
 
-    if (mealsByTypeAndCategory[mealType]?.[restaurantType]) {
-      mealsByTypeAndCategory[mealType][restaurantType].push(meal)
-    }
-
-    if (allMealsByType[mealType]) {
-      allMealsByType[mealType].push(meal)
-    }
-  })
+      if (allMealsByType[mealType]) {
+        allMealsByType[mealType].push(meal)
+      }
+    })
 
   const plan = {}
   const issues = []

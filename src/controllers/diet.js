@@ -30,6 +30,7 @@ import { validateAiResponse, validateRestaurantUniformality } from '../utils/val
 import { getIO } from '../socket'
 import { deepSeekRes } from '../utils/deepseek'
 import { GeneratedMeal } from '../models/generatedMeals'
+
 import { parseGeneratedMeals } from '../utils/generate-meals'
 import { writeFile } from 'fs/promises'
 import mealPlanGenerators from '../utils/mealPlanGenerator.js'
@@ -541,10 +542,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       }
     })
 
-    res.status(200).json({
-      success: true,
-      mealPlan: formattedPlan,
-    })
+    res.status(200).json(formattedPlan)
   }),
   generateMeals: asyncMiddleware(async (req, res) => {
     try {
@@ -760,18 +758,37 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         campus,
       } = req.body
       var targetCalories = targetCaloriesPerDay
+
       const breakfastMeals = await GeneratedMeal.find({
-        $and: [{ mealType: 'Breakfast' }, { campus: { $in: [campus] } }],
-      }).lean()
-      await writeFile('db_breakfast_meals.json', JSON.stringify(breakfastMeals, null, 2), 'utf-8')
+        mealType: 'Breakfast',
+        campus: { $in: [campus] },
+      })
+        .populate('items.itemId')
+        .lean()
+
+      console.log('breakfast', breakfastMeals)
+
       const lunchMeals = await GeneratedMeal.find({
-        $and: [{ mealType: 'Lunch' }, { campus: { $in: [campus] } }],
-      }).lean()
-      await writeFile('db_lunch_meals.json', JSON.stringify(lunchMeals, null, 2), 'utf-8')
+        mealType: 'Lunch',
+        campus: { $in: [campus] },
+      })
+        .populate('items.itemId')
+        .lean()
+      // console.log('breakfast', lunchMeals)
       const dinnerMeals = await GeneratedMeal.find({
-        $and: [{ mealType: 'Dinner' }, { campus: { $in: [campus] } }],
-      }).lean()
-      await writeFile('db_dinner_meals.json', JSON.stringify(dinnerMeals, null, 2), 'utf-8')
+        mealType: 'Dinner',
+        campus: { $in: [campus] },
+      })
+        .populate('items.itemId')
+        .lean()
+      // console.log('breakfast', dinnerMeals)
+      // ✅ Add this check:
+      if (breakfastMeals.length === 0 && lunchMeals.length === 0 && dinnerMeals.length === 0) {
+        return res.status(200).json({
+          success: false,
+          message: 'Generate response - database is empty',
+        })
+      }
 
       let mealPlan
 
@@ -784,7 +801,6 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         if (targetCaloriesPerDay < 800) {
           targetCalories = targetCaloriesPerDay * 0.6
         }
-        console.log('targetCaloriesPerDay', targetCalories)
         mealPlan = generate14MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, preferredMealTypes)
       } else if (selectedOption === '7-meal') {
         if (!selectedMealType) {
@@ -794,16 +810,63 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         if (targetCaloriesPerDay < 800) {
           targetCalories = targetCaloriesPerDay * 0.3
         }
-        console.log('targetCaloriesPerDay', targetCalories)
         mealPlan = generate7MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, mealType)
       } else {
         return res.status(400).json({ error: 'Invalid selectedOption provided.' })
       }
 
-      res.status(200).json({
-        success: true,
-        mealPlan,
+      // Transform the meal plan into the desired format
+      const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+      const transformedPlan = Object.values(mealPlan).map((dayMeals, index) => {
+        const dayName = daysOfWeek[index]
+
+        let dayCalories = 0
+        let dayProtein = 0
+        let dayFat = 0
+        let dayCarbs = 0
+
+        // Process each meal type
+        const breakfastItems = dayMeals.breakfast ? transformMealItems(dayMeals.breakfast.items) : []
+        const lunchItems = dayMeals.lunch ? transformMealItems(dayMeals.lunch.items) : []
+        const dinnerItems = dayMeals.dinner ? transformMealItems(dayMeals.dinner.items) : []
+
+        // Calculate nutritional totals
+        if (dayMeals.breakfast) {
+          dayCalories += dayMeals.breakfast.totalCalories || 0
+          ;(dayProtein += dayMeals.breakfast.item.itemId.protein),
+            (dayFat += dayMeals.breakfast.item.itemId.fat),
+            (dayCarbs += dayMeals.breakfast.item.itemId.carbohydrate)
+        }
+
+        if (dayMeals.lunch) {
+          dayCalories += dayMeals.lunch.totalCalories || 0
+          ;(dayProtein += dayMeals.lunch.item.itemId.protein),
+            (dayFat += dayMeals.lunch.item.itemId.fat),
+            (dayCarbs += dayMeals.lunch.item.itemId.carbohydrate)
+        }
+
+        if (dayMeals.dinner) {
+          dayCalories += dayMeals.dinner.totalCalories || 0
+          ;(dayProtein += dayMeals.dinner.item.itemId.protein),
+            (dayFat += dayMeals.dinner.item.itemId.fat),
+            (dayCarbs += dayMeals.dinner.item.itemId.carbohydrate)
+        }
+
+        return {
+          day: dayName,
+          breakfast: breakfastItems,
+          lunch: lunchItems,
+          dinner: dinnerItems,
+          caloriesBMR: targetCaloriesPerDay,
+          caloriesProvided: dayCalories,
+          proteinProvided: dayProtein,
+          fatProvided: dayFat,
+          carbsProvided: dayCarbs,
+        }
       })
+
+      res.status(200).json(transformedPlan)
     } catch (error) {
       console.error(error)
       res.status(500).json({
@@ -1056,6 +1119,51 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       statusCode: StatusCodes.OK,
     })
   }),
+}
+//{ "_id": ObjectId("67acaacba0812499dafa53f3") }
+// Helper function to transform meal items
+const transformMealItems = (items) => {
+  return items.map((item) => ({
+    _id: item.itemId._id,
+    name: item.name,
+    type: item.itemId.mealType,
+    ingredients: item.ingredients || [],
+    allergens: item.itemId.allergens || [],
+    dieteryPreferences: item.itemId.dieteryPreferences || [],
+    serving: item.itemId.serving, // You might need to adjust this
+    nutrients: {
+      calories: item.calories || 0,
+      protein: item.itemId.nutrients?.protein || 0,
+      fat: item.itemId.nutrients?.fat || 0,
+      carbohydrate: item.itemId.nutrients?.carbohydrate || 0,
+    },
+    likedBy: item.itemId.likedBy || [],
+    isAvailable: item.itemId.isAvailable,
+    campus: item.campus,
+    restaurantName: item.restaurantName,
+    category: item.itemId.category, // You might need to adjust this
+    restaurantType: item.restaurantType,
+  }))
+}
+
+const sumNutrients = (items) => {
+  return items.reduce(
+    (acc, item) => {
+      acc.calories += item.nutrients?.calories || 0
+      acc.protein += item.nutrients?.protein || 0
+      acc.fat += item.nutrients?.fat || 0
+      acc.carbohydrate += item.nutrients?.carbohydrate || 0
+      return acc
+    },
+    { calories: 0, protein: 0, fat: 0, carbohydrate: 0 }
+  )
+}
+
+// Helper function to sum a specific nutrient across items
+const sumNutrient = (items, nutrient) => {
+  return items.reduce((sum, item) => {
+    return sum + (item[nutrient] || 0)
+  }, 0)
 }
 
 export const normalizeMealCalories_Maintain = (meals, shouldFix = false) => {

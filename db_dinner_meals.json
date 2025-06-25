@@ -1,13 +1,13 @@
 [
   {
-    "_id": "685aa1a9b2560dc1cde4e1d9",
-    "name": "Generated Meal 1",
+    "_id": "685c17c9129f987653b68972",
+    "name": "Generated Meal 1750865865082",
     "mealType": "Dinner",
     "items": [
       {
-        "itemId": "67acaa04fab1224e86940440",
-        "name": "Chicken, Egg & Cheese Biscuit",
-        "calories": 550,
+        "itemId": "6799d32e82a7649a9de25c17",
+        "name": "Bacon",
+        "calories": 50,
         "restaurantName": "Chick-Fil-A",
         "restaurantType": "Franchise",
         "ingredients": [],
@@ -18,9 +18,9 @@
         ]
       },
       {
-        "itemId": "67acaa04fab1224e86940441",
-        "name": "Chicken, Egg & Cheese Muffin",
-        "calories": 410,
+        "itemId": "679b3e733ee80063f9fe93fa",
+        "name": "Chocolate Chunk Cookie",
+        "calories": 370,
         "restaurantName": "Chick-Fil-A",
         "restaurantType": "Franchise",
         "ingredients": [],
@@ -36,20 +36,244 @@
       "UMD",
       "UNCC"
     ],
-    "totalCalories": 960,
+    "totalCalories": 420,
     "restaurantName": "Chick-Fil-A",
     "restaurantType": "Franchise",
     "__v": 0
   },
   {
-    "_id": "685aa1a9b2560dc1cde4e1da",
-    "name": "Generated Meal 2",
+    "_id": "685c17c9129f987653b68973",
+    "name": "Generated Meal 1750865865083",
     "mealType": "Dinner",
     "items": [
       {
-        "itemId": "67acaa04fab1224e86940454",
-        "name": "Chocolate Milkshake",
-        "calories": 600,
+        "itemId": "67aca0a320afa3d5aa7109a0",
+        "name": "Creamy Sriracha Sauce",
+        "calories": 40,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "67aca0a320afa3d5aa7109a1",
+        "name": "Double Cheese Dipper",
+        "calories": 470,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UMD"
+    ],
+    "totalCalories": 510,
+    "restaurantName": "Chick-Fil-A",
+    "restaurantType": "Franchise",
+    "__v": 0
+  },
+  {
+    "_id": "685c17c9129f987653b68974",
+    "name": "Generated Meal 1750865865083",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "6799d36b82a7649a9de25c66",
+        "name": "Chicken Salad",
+        "calories": 380,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "679b3e7b3ee80063f9fe950b",
+        "name": "Black Forest Ham",
+        "calories": 70,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UMD"
+    ],
+    "totalCalories": 450,
+    "restaurantName": "Subway",
+    "restaurantType": "Franchise",
+    "__v": 0
+  },
+  {
+    "_id": "685c17c9129f987653b68975",
+    "name": "Generated Meal 1750865865083",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "67aca0a320afa3d5aa710944",
+        "name": "6 inch #10 All-American Club",
+        "calories": 540,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "67aca0a320afa3d5aa710945",
+        "name": "6 inch #11 Subway Club",
+        "calories": 500,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UMD"
+    ],
+    "totalCalories": 1040,
+    "restaurantName": "Subway",
+    "restaurantType": "Franchise",
+    "__v": 0
+  },
+  {
+    "_id": "685c17c9129f987653b68976",
+    "name": "Generated Meal 1750865865083",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "6799d40482a7649a9de25ced",
+        "name": "Leaf Lettuce",
+        "calories": 17,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "GREEN LEAF LETTUCE"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "679b3e713ee80063f9fe9374",
+        "name": "Sliced Swiss Cheese",
+        "calories": 110,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "SLICED SWISS CHEESE [Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes.]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 127,
+    "restaurantName": "The Café",
+    "restaurantType": "Dining-Halls",
+    "__v": 0
+  },
+  {
+    "_id": "685c17c9129f987653b68977",
+    "name": "Generated Meal 1750865865083",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "6799d7ce82a7649a9de25f0c",
+        "name": "Feta Cheese",
+        "calories": 60.8,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "CRUMBLED FETA CHEESE [Feta Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes). Anti-Caking Blend (Powdered Cellulose, Natamycin [A Natural Mold Inhibitor]).]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      },
+      {
+        "itemId": "67dbff109b6775dfb1ef5c11",
+        "name": "Yakisoba Noodles",
+        "calories": 260,
+        "restaurantName": "The Café",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Yakisoba Noodles"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 320.8,
+    "restaurantName": "The Café",
+    "restaurantType": "Dining-Halls",
+    "__v": 0
+  },
+  {
+    "_id": "685c17c9129f987653b68978",
+    "name": "Generated Meal 1750865865083",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "67acacbf777994d8b8a424e4",
+        "name": "Soy Sauce",
+        "calories": 5,
+        "restaurantName": "The Café",
+        "restaurantType": "Franchise",
+        "ingredients": [
+          "Light Soy Sauce [Water, Wheat, Soybeans, Salt, Lactic Acid, Sodium Benzoate]"
+        ],
+        "campus": [
+          "HPU"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU"
+    ],
+    "totalCalories": 5,
+    "restaurantName": "The Café",
+    "restaurantType": "Franchise",
+    "__v": 0
+  },
+  {
+    "_id": "685c183c129f987653b689aa",
+    "name": "Generated Meal 1750865980117",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "6799d32e82a7649a9de25c17",
+        "name": "Bacon",
+        "calories": 50,
         "restaurantName": "Chick-Fil-A",
         "restaurantType": "Franchise",
         "ingredients": [],
@@ -60,9 +284,158 @@
         ]
       },
       {
-        "itemId": "67acaa04fab1224e869403f6",
-        "name": "Barbeque Sauce",
-        "calories": 45,
+        "itemId": "67acaa04fab1224e869403f1",
+        "name": "Avocado Lime Ranch Dressing",
+        "calories": 310,
+        "restaurantName": "Chick-Fil-A",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UMD",
+      "UNCC"
+    ],
+    "totalCalories": 360,
+    "restaurantName": "Chick-Fil-A",
+    "restaurantType": "Franchise",
+    "__v": 0
+  },
+  {
+    "_id": "685c183c129f987653b689ab",
+    "name": "Generated Meal 1750865980118",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "67acaa04fab1224e869403f7",
+        "name": "Berry Parfait with Cookie Crumbs",
+        "calories": 240,
+        "restaurantName": "Chick-Fil-A",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaa04fab1224e869403f8",
+        "name": "Berry Parfait with Granola",
+        "calories": 270,
+        "restaurantName": "Chick-Fil-A",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UMD",
+      "UNCC"
+    ],
+    "totalCalories": 510,
+    "restaurantName": "Chick-Fil-A",
+    "restaurantType": "Franchise",
+    "__v": 0
+  },
+  {
+    "_id": "685c183c129f987653b689ac",
+    "name": "Generated Meal 1750865980118",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "6799d36b82a7649a9de25c66",
+        "name": "Chicken Salad",
+        "calories": 380,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "67aca0a320afa3d5aa710945",
+        "name": "6 inch #11 Subway Club",
+        "calories": 500,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UMD"
+    ],
+    "totalCalories": 880,
+    "restaurantName": "Subway",
+    "restaurantType": "Franchise",
+    "__v": 0
+  },
+  {
+    "_id": "685c183c129f987653b689ad",
+    "name": "Generated Meal 1750865980118",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "67aca0a320afa3d5aa71094e",
+        "name": "6 inch #22 Spicy Nacho Chicken on Italian Bread",
+        "calories": 440,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      },
+      {
+        "itemId": "67aca0a320afa3d5aa710950",
+        "name": "6 inch #24 Firey Meatball on Ghost Pepper Bread",
+        "calories": 670,
+        "restaurantName": "Subway",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UMD"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UMD"
+    ],
+    "totalCalories": 1110,
+    "restaurantName": "Subway",
+    "restaurantType": "Franchise",
+    "__v": 0
+  },
+  {
+    "_id": "685c1889129f987653b689bb",
+    "name": "Generated Meal 1750866057731",
+    "mealType": "Dinner",
+    "items": [
+      {
+        "itemId": "6799d32e82a7649a9de25c17",
+        "name": "Bacon",
+        "calories": 50,
         "restaurantName": "Chick-Fil-A",
         "restaurantType": "Franchise",
         "ingredients": [],
@@ -91,501 +464,14 @@
       "UMD",
       "UNCC"
     ],
-    "totalCalories": 785,
+    "totalCalories": 190,
     "restaurantName": "Chick-Fil-A",
     "restaurantType": "Franchise",
     "__v": 0
   },
   {
-    "_id": "685aa1a9b2560dc1cde4e1db",
-    "name": "Generated Meal 3",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940458",
-        "name": "Cobb Salad with Grilled Filet (Cold)",
-        "calories": 690,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e869403ee",
-        "name": "1% Milk",
-        "calories": 90,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 780,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1dc",
-    "name": "Generated Meal 4",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045a",
-        "name": "Cobb Salad with Grilled Nuggets",
-        "calories": 710,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694046c",
-        "name": "Fat-Free Honey Mustard Dressing",
-        "calories": 90,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 800,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1dd",
-    "name": "Generated Meal 5",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045b",
-        "name": "Cobb Salad with No Chicken",
-        "calories": 580,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e86940471",
-        "name": "Frosted Coffee",
-        "calories": 260,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 840,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1de",
-    "name": "Generated Meal 6",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045d",
-        "name": "Cobb Salad with Spicy Filet",
-        "calories": 860,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 860,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1df",
-    "name": "Generated Meal 7",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045c",
-        "name": "Cobb Salad with Nuggets",
-        "calories": 830,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 830,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1e0",
-    "name": "Generated Meal 8",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67aca0a320afa3d5aa710950",
-        "name": "6 inch #24 Firey Meatball on Ghost Pepper Bread",
-        "calories": 670,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "679b3e7b3ee80063f9fe950b",
-        "name": "Black Forest Ham",
-        "calories": 70,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "679b3e7b3ee80063f9fe9510",
-        "name": "Genoa Salami",
-        "calories": 70,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 810,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1e1",
-    "name": "Generated Meal 9",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67ee4cbb7f4ebc37de6fcca1",
-        "name": "#30 The Beast Protein Bowl",
-        "calories": 1080,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 1080,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1e2",
-    "name": "Generated Meal 10",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67aca0a320afa3d5aa7109c0",
-        "name": "Meatball Pizza",
-        "calories": 810,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 810,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1e3",
-    "name": "Generated Meal 11",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67ee4cb47f4ebc37de6fcc98",
-        "name": "#18 The Ultimate B.M.T. Wrap",
-        "calories": 820,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 820,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1e4",
-    "name": "Generated Meal 12",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67aca0a320afa3d5aa7109c1",
-        "name": "Meatballs",
-        "calories": 250,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa7109f4",
-        "name": "Tuna Protein Bowl",
-        "calories": 550,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 800,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1e5",
-    "name": "Generated Meal 13",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67dbff109b6775dfb1ef5c11",
-        "name": "Yakisoba Noodles",
-        "calories": 260,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "Yakisoba Noodles"
-        ],
-        "campus": [
-          "HPU"
-        ]
-      },
-      {
-        "itemId": "67dbff109b6775dfb1ef5c17",
-        "name": "Baked Sweet Potato",
-        "calories": 140,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "SWEET POTATO"
-        ],
-        "campus": [
-          "HPU"
-        ]
-      },
-      {
-        "itemId": "6799d40482a7649a9de25ced",
-        "name": "Leaf Lettuce",
-        "calories": 17,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "GREEN LEAF LETTUCE"
-        ],
-        "campus": [
-          "HPU"
-        ]
-      },
-      {
-        "itemId": "6799d7d082a7649a9de25f0e",
-        "name": "Grape Tomatoes",
-        "calories": 5.1,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "GRAPE TOMATO"
-        ],
-        "campus": [
-          "HPU"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU"
-    ],
-    "totalCalories": 422.1,
-    "restaurantName": "The Café",
-    "restaurantType": "Dining-Halls",
-    "__v": 0
-  },
-  {
-    "_id": "685aa1a9b2560dc1cde4e1e6",
-    "name": "Generated Meal 14",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "679b3e713ee80063f9fe9374",
-        "name": "Sliced Swiss Cheese",
-        "calories": 110,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "SLICED SWISS CHEESE [Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes.]"
-        ],
-        "campus": [
-          "HPU"
-        ]
-      },
-      {
-        "itemId": "679cb7d83ee80063f9fe9728",
-        "name": "Sugar Cookie",
-        "calories": 180.1,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "DOUGH COOKIE VALUE SUGAR FZ [ENRICHED BLEACHED FLOUR (BLEACHED WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUGAR, MARGARINE (PALM OIL, WATER, SOYBEAN OIL, CONTAINS 2% OR LESS OF: SALT, MONO- ANDDIGLYCERIDES, NATURAL FLAVORS [CONTAINS MILK], CITRIC ACID, VITAMIN A P ALMITATE ADDED, BETA CAROTENE [COLOR]), EGGS, CONTAINS 2% OR LESS OF: INVERT SUGAR, SALT, BAKING SODA, DEFATTED SOY FLOUR.]"
-        ],
-        "campus": [
-          "HPU"
-        ]
-      },
-      {
-        "itemId": "6799d69082a7649a9de25ec1",
-        "name": "Pineapple",
-        "calories": 40,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "PINEAPPLE"
-        ],
-        "campus": [
-          "HPU"
-        ]
-      },
-      {
-        "itemId": "6799d7ce82a7649a9de25f0c",
-        "name": "Feta Cheese",
-        "calories": 60.8,
-        "restaurantName": "The Café",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "CRUMBLED FETA CHEESE [Feta Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes). Anti-Caking Blend (Powdered Cellulose, Natamycin [A Natural Mold Inhibitor]).]"
-        ],
-        "campus": [
-          "HPU"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU"
-    ],
-    "totalCalories": 390.90000000000003,
-    "restaurantName": "The Café",
-    "restaurantType": "Dining-Halls",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1e9",
-    "name": "Generated Meal 1",
+    "_id": "685c1889129f987653b689bc",
+    "name": "Generated Meal 1750866057731",
     "mealType": "Dinner",
     "items": [
       {
@@ -602,90 +488,6 @@
         ]
       },
       {
-        "itemId": "67acaa04fab1224e86940440",
-        "name": "Chicken, Egg & Cheese Biscuit",
-        "calories": 550,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 860,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1ea",
-    "name": "Generated Meal 2",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940454",
-        "name": "Chocolate Milkshake",
-        "calories": 600,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e869403f7",
-        "name": "Berry Parfait with Cookie Crumbs",
-        "calories": 240,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 840,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1eb",
-    "name": "Generated Meal 3",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940455",
-        "name": "Cobb Salad",
-        "calories": 830,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
         "itemId": "67acaa04fab1224e869403f6",
         "name": "Barbeque Sauce",
         "calories": 45,
@@ -704,615 +506,14 @@
       "UMD",
       "UNCC"
     ],
-    "totalCalories": 875,
+    "totalCalories": 355,
     "restaurantName": "Chick-Fil-A",
     "restaurantType": "Franchise",
     "__v": 0
   },
   {
-    "_id": "685aa2e5b2560dc1cde4e1ec",
-    "name": "Generated Meal 4",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940458",
-        "name": "Cobb Salad with Grilled Filet (Cold)",
-        "calories": 690,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694046a",
-        "name": "Egg White Grill",
-        "calories": 300,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 990,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1ed",
-    "name": "Generated Meal 5",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940459",
-        "name": "Cobb Salad with Grilled Filet (Warm)",
-        "calories": 690,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694046c",
-        "name": "Fat-Free Honey Mustard Dressing",
-        "calories": 90,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 780,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1ee",
-    "name": "Generated Meal 6",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045a",
-        "name": "Cobb Salad with Grilled Nuggets",
-        "calories": 710,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e86940471",
-        "name": "Frosted Coffee",
-        "calories": 260,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 970,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1ef",
-    "name": "Generated Meal 7",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045b",
-        "name": "Cobb Salad with No Chicken",
-        "calories": 580,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694048a",
-        "name": "Hash Brown Scramble Bowl with Bacon",
-        "calories": 450,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 1030,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f0",
-    "name": "Generated Meal 8",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045c",
-        "name": "Cobb Salad with Nuggets",
-        "calories": 830,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694046c",
-        "name": "Fat-Free Honey Mustard Dressing",
-        "calories": 90,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 920,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f1",
-    "name": "Generated Meal 9",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045d",
-        "name": "Cobb Salad with Spicy Filet",
-        "calories": 860,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694046c",
-        "name": "Fat-Free Honey Mustard Dressing",
-        "calories": 90,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 950,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f2",
-    "name": "Generated Meal 10",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045e",
-        "name": "Cobb Salad with Spicy Grilled Filet (Cold)",
-        "calories": 690,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e86940472",
-        "name": "Frosted Lemonade",
-        "calories": 350,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e869403f6",
-        "name": "Barbeque Sauce",
-        "calories": 45,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 1085,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f3",
-    "name": "Generated Meal 11",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67aca0a320afa3d5aa710958",
-        "name": "6 inch #6 The Boss",
-        "calories": 690,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "679b3e7b3ee80063f9fe950b",
-        "name": "Black Forest Ham",
-        "calories": 70,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "679b3e7b3ee80063f9fe9510",
-        "name": "Genoa Salami",
-        "calories": 70,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 830,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f4",
-    "name": "Generated Meal 12",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67aca0a320afa3d5aa710951",
-        "name": "6 inch #30 The Beast",
-        "calories": 740,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "679b3e7b3ee80063f9fe950b",
-        "name": "Black Forest Ham",
-        "calories": 70,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 810,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f5",
-    "name": "Generated Meal 13",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67aca0a320afa3d5aa710953",
-        "name": "6 inch #34 Spicy Nacho Steak on Ghost Pepper Bread",
-        "calories": 500,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa71095a",
-        "name": "6 inch Artisan Italian Bread",
-        "calories": 210,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa71095b",
-        "name": "6 inch B.L.T.",
-        "calories": 370,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 1080,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f6",
-    "name": "Generated Meal 14",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67ee4ca97f4ebc37de6fcc8a",
-        "name": "#1 The Philly Wrap",
-        "calories": 700,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "67b8ad911ff573cd6ff57a4a",
-        "name": "General Tso's Tempura Cauliflower",
-        "calories": 164.9,
-        "restaurantName": "Yahentamitsi Dining Hall",
-        "restaurantType": "Dining-Halls",
-        "ingredients": [
-          "Cauliflower",
-          "General Tso's Sauce (Light Brown Sugar (Brown Sugar)",
-          "Water",
-          "Lite Soy Sauce (WATER",
-          "WHEAT",
-          "SOYBEANS",
-          "SALT",
-          "LACTIC ACID",
-          "SODIUM BENZOATE: LESS THAN 1/10 OF 1% AS A PRESERVATIVE)",
-          "Hoisin Sauce (SUGAR",
-          "WATER",
-          "SOYBEANS",
-          "SALT",
-          "SWEET POTATO",
-          "MODIFIED CORN STARCH",
-          "SESAME SEEDS",
-          "GARLIC",
-          "WHEAT FLOUR",
-          "CHILI PEPPER",
-          "SPICES",
-          "CARAMEL COLOR",
-          "ACETIC ACID",
-          "FD & C RED COLOR NO. 40)",
-          "Cornstarch (CORN STARCH)",
-          "Garlic",
-          "Crushed Red Pepper)",
-          "Water",
-          "Flour (UNBLEACHED WHEAT FLOUR",
-          "MALTED BARLEY FLOUR",
-          "NIACIN",
-          "IRON",
-          "THIAMIN MONONITRATE",
-          "RIBOFLAVIN",
-          "FOLIC ACID.)",
-          "Cornstarch (CORN STARCH)",
-          "Baking Powder"
-        ],
-        "campus": [
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 864.9,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f7",
-    "name": "Generated Meal 15",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67ee4cb47f4ebc37de6fcc98",
-        "name": "#18 The Ultimate B.M.T. Wrap",
-        "calories": 820,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "67ee4ca87f4ebc37de6fcc89",
-        "name": "#1 The Philly Salad",
-        "calories": 450,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 1270,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa2e5b2560dc1cde4e1f8",
-    "name": "Generated Meal 16",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67ee4cb77f4ebc37de6fcc9b",
-        "name": "#20 Elite Chicken & Bacon Ranch Wrap",
-        "calories": 830,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      },
-      {
-        "itemId": "67aca0a320afa3d5aa710958",
-        "name": "6 inch #6 The Boss",
-        "calories": 690,
-        "restaurantName": "Subway",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD"
-    ],
-    "totalCalories": 1520,
-    "restaurantName": "Subway",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e208",
-    "name": "Generated Meal 1",
+    "_id": "685c1889129f987653b689bd",
+    "name": "Generated Meal 1750866057731",
     "mealType": "Dinner",
     "items": [
       {
@@ -1348,371 +549,6 @@
       "UNCC"
     ],
     "totalCalories": 960,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e209",
-    "name": "Generated Meal 2",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940454",
-        "name": "Chocolate Milkshake",
-        "calories": 600,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e869403f7",
-        "name": "Berry Parfait with Cookie Crumbs",
-        "calories": 240,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 840,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e20a",
-    "name": "Generated Meal 3",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940455",
-        "name": "Cobb Salad",
-        "calories": 830,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e869403f6",
-        "name": "Barbeque Sauce",
-        "calories": 45,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 875,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e20b",
-    "name": "Generated Meal 4",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045c",
-        "name": "Cobb Salad with Nuggets",
-        "calories": 830,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694046c",
-        "name": "Fat-Free Honey Mustard Dressing",
-        "calories": 90,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 920,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e20c",
-    "name": "Generated Meal 5",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045d",
-        "name": "Cobb Salad with Spicy Filet",
-        "calories": 860,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 860,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e20d",
-    "name": "Generated Meal 6",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940458",
-        "name": "Cobb Salad with Grilled Filet (Cold)",
-        "calories": 690,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e86940471",
-        "name": "Frosted Coffee",
-        "calories": 260,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 950,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e20e",
-    "name": "Generated Meal 7",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940459",
-        "name": "Cobb Salad with Grilled Filet (Warm)",
-        "calories": 690,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694047a",
-        "name": "Garden Herb Ranch Sauce",
-        "calories": 140,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 830,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e20f",
-    "name": "Generated Meal 8",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694045a",
-        "name": "Cobb Salad with Grilled Nuggets",
-        "calories": 710,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694047d",
-        "name": "Gluten Free Bun",
-        "calories": 180,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 890,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e211",
-    "name": "Generated Meal 10",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e86940498",
-        "name": "Hash Brown Scramble Burrito with Grilled Filet",
-        "calories": 650,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694047d",
-        "name": "Gluten Free Bun",
-        "calories": 180,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 830,
-    "restaurantName": "Chick-Fil-A",
-    "restaurantType": "Franchise",
-    "__v": 0
-  },
-  {
-    "_id": "685aa3b3b2560dc1cde4e212",
-    "name": "Generated Meal 11",
-    "mealType": "Dinner",
-    "items": [
-      {
-        "itemId": "67acaa04fab1224e8694049c",
-        "name": "Hash Brown Scramble Burrito with Nuggets",
-        "calories": 700,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      },
-      {
-        "itemId": "67acaa04fab1224e8694046c",
-        "name": "Fat-Free Honey Mustard Dressing",
-        "calories": 90,
-        "restaurantName": "Chick-Fil-A",
-        "restaurantType": "Franchise",
-        "ingredients": [],
-        "campus": [
-          "HPU",
-          "UMD",
-          "UNCC"
-        ]
-      }
-    ],
-    "campus": [
-      "HPU",
-      "UMD",
-      "UNCC"
-    ],
-    "totalCalories": 790,
     "restaurantName": "Chick-Fil-A",
     "restaurantType": "Franchise",
     "__v": 0
