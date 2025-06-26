@@ -1,0 +1,2070 @@
+[{
+  "_id": {
+    "$oid": "6859823a1c64766232682110"
+  },
+  "name": "Generated Meal 1",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d53f82a7649a9de25d7d"
+      },
+      "name": "Black Bean Burger",
+      "calories": 360,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Black Bean Burger^",
+        "Hamburger Bun^",
+        "Tomatoes",
+        "Lettuce Leaf",
+        "Cooking Oil Spray^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67d7bb8a0767fdf567561c83"
+      },
+      "name": "Shredded Sharp Cheddar Cheese",
+      "calories": 110,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Sharp Cheddar Cheese^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d36582a7649a9de25c5d"
+      },
+      "name": "French Fries",
+      "calories": 160,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "French Fries^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 630,
+  "restaurantName": "SoVi",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682111"
+  },
+  "name": "Generated Meal 2",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67d7bb8b0767fdf567561c8d"
+      },
+      "name": "Chicken Tenders",
+      "calories": 340,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Breaded Chicken Breast^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d53e82a7649a9de25d7b"
+      },
+      "name": "Spanish Rice",
+      "calories": 90,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "No Added Salt Tomatoes^",
+        "Long Grain White Rice^",
+        "Yellow Onions",
+        "Green Bell Peppers",
+        "Water",
+        "Canola Oil",
+        "Kosher Salt^",
+        "Cilantro",
+        "Garlic",
+        "Black Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67d7bb8a0767fdf567561c86"
+      },
+      "name": "Steamed Broccoli",
+      "calories": 30,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Broccoli",
+        "Salt",
+        "Black Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3da82a7649a9de25cbe"
+      },
+      "name": "Shredded Cheddar Cheese",
+      "calories": 30,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Cheddar Cheese^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 490,
+  "restaurantName": "SoVi",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682112"
+  },
+  "name": "Generated Meal 3",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67d7bb8b0767fdf567561c8b"
+      },
+      "name": "Hamburger on Bun",
+      "calories": 360,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Beef Patty",
+        "Hamburger Bun^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d36582a7649a9de25c5d"
+      },
+      "name": "French Fries",
+      "calories": 160,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "French Fries^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67d7bb8a0767fdf567561c81"
+      },
+      "name": "Diced Onions",
+      "calories": 15,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Yellow Onions"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 535,
+  "restaurantName": "SoVi",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682113"
+  },
+  "name": "Generated Meal 4",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67d7bb8d0767fdf567561c9a"
+      },
+      "name": "Red and Green Bell Peppers",
+      "calories": 15,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Green Bell Peppers",
+        "Red Bell Peppers"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67d7bb8c0767fdf567561c90"
+      },
+      "name": "Sauteed Onions",
+      "calories": 100,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Yellow Onions",
+        "Canola Oil",
+        "Black Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67d7bb8b0767fdf567561c89"
+      },
+      "name": "Penne Pasta",
+      "calories": 110,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Water",
+        "Barilla Plus Penne^",
+        "Canola Oil"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d5d982a7649a9de25e04"
+      },
+      "name": "Alfredo Sauce",
+      "calories": 220,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Whole Milk^",
+        "Whipping Cream^",
+        "Parmesan Cheese^",
+        "Unsalted Butter",
+        "All Purpose Flour^",
+        "Garlic",
+        "Kosher Salt^",
+        "White Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 445,
+  "restaurantName": "SoVi",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682114"
+  },
+  "name": "Generated Meal 5",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67d7bb8b0767fdf567561c8c"
+      },
+      "name": "Penne with Marinara",
+      "calories": 480,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Water",
+        "Barilla Plus Penne^",
+        "Tomatoes^",
+        "Tomato Puree^",
+        "Canola Oil",
+        "Yellow Onions",
+        "Olive Oil",
+        "Sea Salt",
+        "Garlic",
+        "Basil",
+        "Oregano",
+        "Red Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67d7bb8f0767fdf567561cb2"
+      },
+      "name": "Classic Hummus",
+      "calories": 360,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Low Sodium Chick Peas^",
+        "Water",
+        "Sesame Tahini Paste",
+        "Lemon Juice",
+        "Cumin",
+        "Garlic",
+        "Kosher Salt^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 840,
+  "restaurantName": "SoVi",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682115"
+  },
+  "name": "Generated Meal 6",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "679b74423ee80063f9fe961b"
+      },
+      "name": "Cheese Quesadilla",
+      "calories": 530,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Flour Tortilla^",
+        "Cheddar Cheese^",
+        "Butter^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d53e82a7649a9de25d7b"
+      },
+      "name": "Spanish Rice",
+      "calories": 90,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "No Added Salt Tomatoes^",
+        "Long Grain White Rice^",
+        "Yellow Onions",
+        "Green Bell Peppers",
+        "Water",
+        "Canola Oil",
+        "Kosher Salt^",
+        "Cilantro",
+        "Garlic",
+        "Black Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67d7bb8d0767fdf567561c9f"
+      },
+      "name": "Fat Free Raspberry Dressing",
+      "calories": 30,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Fat Free Raspberry Vinaigrette^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 650,
+  "restaurantName": "SoVi",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682116"
+  },
+  "name": "Generated Meal 7",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67d7bb8b0767fdf567561c8d"
+      },
+      "name": "Chicken Tenders",
+      "calories": 340,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Breaded Chicken Breast^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67d7bb8c0767fdf567561c8e"
+      },
+      "name": "Black Bean Patty",
+      "calories": 160,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Black Bean Burger^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3da82a7649a9de25cbe"
+      },
+      "name": "Shredded Cheddar Cheese",
+      "calories": 30,
+      "restaurantName": "SoVi",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Cheddar Cheese^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 530,
+  "restaurantName": "SoVi",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682117"
+  },
+  "name": "Generated Meal 8",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67ce9958be8ffe192f21858a"
+      },
+      "name": "Cheese Pizza",
+      "calories": 430,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Pizza Dough^",
+        "Part Skim Mozzarella Cheese^",
+        "Tomatoes^",
+        "Canola Oil",
+        "Parmesan Cheese^",
+        "Kosher Salt^",
+        "Garlic",
+        "Basil",
+        "Black Pepper",
+        "Parsley",
+        "Oregano",
+        "Red Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3b182a7649a9de25ca2"
+      },
+      "name": "Caesar Dressing",
+      "calories": 150,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Creamy Caesar Dressing^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 580,
+  "restaurantName": "Social 704",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682118"
+  },
+  "name": "Generated Meal 9",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67ce99bbbe8ffe192f218590"
+      },
+      "name": "Pepperoni Pizza",
+      "calories": 470,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Pizza Dough^",
+        "Part Skim Mozzarella Cheese^",
+        "Tomatoes^",
+        "Pepperoni-^",
+        "Canola Oil",
+        "Parmesan Cheese^",
+        "Kosher Salt^",
+        "Garlic",
+        "Basil",
+        "Black Pepper",
+        "Parsley",
+        "Oregano",
+        "Red Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3de82a7649a9de25cc2"
+      },
+      "name": "Sliced Red Onion",
+      "calories": 10,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Red Onions"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 480,
+  "restaurantName": "Social 704",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c64766232682119"
+  },
+  "name": "Generated Meal 10",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67d7bb8b0767fdf567561c87"
+      },
+      "name": "Veggie Pizza",
+      "calories": 170,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Pizza Dough^",
+        "Part Skim Mozzarella Cheese^",
+        "Tomatoes^",
+        "Green Bell Peppers",
+        "Red Onions",
+        "Black Olives^",
+        "Mushrooms",
+        "Canola Oil",
+        "Kosher Salt^",
+        "Basil",
+        "Garlic",
+        "Black Pepper"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3b082a7649a9de25ca0"
+      },
+      "name": "Banana",
+      "calories": 110,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Banana"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3de82a7649a9de25cc2"
+      },
+      "name": "Sliced Red Onion",
+      "calories": 10,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Red Onions"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 290,
+  "restaurantName": "Social 704",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c6476623268211a"
+  },
+  "name": "Generated Meal 11",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67d7bb900767fdf567561cc3"
+      },
+      "name": "Udi's Plain Bagel",
+      "calories": 310,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Gluten Free Plain Bagel^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3b182a7649a9de25ca2"
+      },
+      "name": "Caesar Dressing",
+      "calories": 150,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Creamy Caesar Dressing^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "679a189d82a7649a9de25fa9"
+      },
+      "name": "Apple",
+      "calories": 70,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Red Delicious Apple"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 530,
+  "restaurantName": "Social 704",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859823a1c6476623268211b"
+  },
+  "name": "Generated Meal 12",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67d7bb8c0767fdf567561c93"
+      },
+      "name": "Steamed Rice",
+      "calories": 150,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Water",
+        "Long Grain White Rice^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3b182a7649a9de25ca2"
+      },
+      "name": "Caesar Dressing",
+      "calories": 150,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Creamy Caesar Dressing^"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "679a194182a7649a9de25fb2"
+      },
+      "name": "Orange",
+      "calories": 60,
+      "restaurantName": "Social 704",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Orange"
+      ],
+      "campus": [
+        "UNCC"
+      ]
+    }
+  ],
+  "campus": [
+    "UNCC"
+  ],
+  "totalCalories": 360,
+  "restaurantName": "Social 704",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685983c11c6476623268211e"
+  },
+  "name": "Generated Meal 1",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d36e82a7649a9de25c6a"
+      },
+      "name": "Beef Burger",
+      "calories": 227.6,
+      "restaurantName": "251 North",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Fresh Beef Burger 4 oz  (BEEF.)",
+        "Season All Salt"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d36782a7649a9de25c60"
+      },
+      "name": "Kettle Potato Chip",
+      "calories": 111.1,
+      "restaurantName": "251 North",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "1/8\" Potato Chip ( POTATOES",
+        "VEGETABLE OIL (MAY CONTAIN ONE OR MORE OF THE FOLLOWING: CANOLA OIL",
+        "SUNFLOWER OIL",
+        "COTTONSEED OIL",
+        "PALM OIL",
+        "CORN OIL",
+        "SOYBEAN OIL)",
+        "SALT",
+        "DISODIUM DIHYDROGEN PYROPHOSPHATE (TO PROMOTE COLOR RETENTION)",
+        "DEXTROSE. )",
+        "Season All Salt"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    }
+  ],
+  "campus": [
+    "UMD"
+  ],
+  "totalCalories": 338.7,
+  "restaurantName": "251 North",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685983c11c6476623268211f"
+  },
+  "name": "Generated Meal 2",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d36f82a7649a9de25c6b"
+      },
+      "name": "Grilled Hot Dog",
+      "calories": 168.4,
+      "restaurantName": "251 North",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Berks Frank 6/1 (BEEF",
+        "WATER",
+        "SALT",
+        "FLAVORINGS",
+        "SODIUM PHOSPHATE",
+        "PAPRIKA",
+        "SPICES",
+        "SODIUM ERYTHORBATE",
+        "SODIUM NITRITE)"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d37082a7649a9de25c6d"
+      },
+      "name": "Potato Hot Dog Roll",
+      "calories": 140,
+      "restaurantName": "251 North",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "ROLL HOT DOG POTATO (ENRICHED FLOUR (WHEAT FLOUR",
+        "MALTED BARLEY FLOUR",
+        "NIACIN",
+        "REDUCED IRON",
+        "THIAMIN MONONITRATE",
+        "RIBOFLAVIN",
+        "FOLIC ACID)",
+        "WATER",
+        "SUGAR",
+        "DEHYDRATED POTATOES",
+        "YEAST",
+        "CONTAINS 2% OR LESS OF THE FOLLOWING: SOYBEAN OIL",
+        "WHEAT GLUTEN",
+        "SALT",
+        "CULTURED WHEAT FLOUR",
+        "GUAR GUM",
+        "WHEAT FLOUR",
+        "VINEGAR",
+        "ASCORBIC ACID (DOUGH CONDITIONER)",
+        "ENZYMES. CONTAINS: WHEAT AND SOY. )"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    }
+  ],
+  "campus": [
+    "UMD"
+  ],
+  "totalCalories": 308.4,
+  "restaurantName": "251 North",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685983c11c64766232682120"
+  },
+  "name": "Generated Meal 3",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d36e82a7649a9de25c6a"
+      },
+      "name": "Beef Burger",
+      "calories": 227.6,
+      "restaurantName": "251 North",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Fresh Beef Burger 4 oz  (BEEF.)",
+        "Season All Salt"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d36782a7649a9de25c60"
+      },
+      "name": "Kettle Potato Chip",
+      "calories": 111.1,
+      "restaurantName": "251 North",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "1/8\" Potato Chip ( POTATOES",
+        "VEGETABLE OIL (MAY CONTAIN ONE OR MORE OF THE FOLLOWING: CANOLA OIL",
+        "SUNFLOWER OIL",
+        "COTTONSEED OIL",
+        "PALM OIL",
+        "CORN OIL",
+        "SOYBEAN OIL)",
+        "SALT",
+        "DISODIUM DIHYDROGEN PYROPHOSPHATE (TO PROMOTE COLOR RETENTION)",
+        "DEXTROSE. )",
+        "Season All Salt"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3ae82a7649a9de25c9e"
+      },
+      "name": "Bacon Bits",
+      "calories": 127.3,
+      "restaurantName": "251 North",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Bacon Bits  (BACON (CURED WITH WATER",
+        "SALT",
+        "SUGAR",
+        "SODIUM ERYTHORBATE",
+        "SODIUM NITRITE. MAY ALSO CONTAIN DEXTROSE",
+        "FLAVORING",
+        "HONEY",
+        "DEHYDRATED PORK BROTH",
+        "POTASSIUM CHLORIDE",
+        "POTASSIUM LACTATE",
+        "SMOKE FLAVORING",
+        "SODIUM DIACETATE",
+        "SODIUM PHOSPHATE.). )"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    }
+  ],
+  "campus": [
+    "UMD"
+  ],
+  "totalCalories": 466,
+  "restaurantName": "251 North",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685983c11c64766232682121"
+  },
+  "name": "Generated Meal 4",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d36a82a7649a9de25c65"
+      },
+      "name": "Buffalo Chicken Cheddar Wrap w/ Ranch, Lettuce & Tomato",
+      "calories": 580.9,
+      "restaurantName": "South Campus",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Spicy Breaded Chicken Breast (CHICKEN BREAST FILLETS WITH RIB MEAT CONTAINING UP TO 17 OF SOLUTION OF WATER",
+        "SEASONING [SALT",
+        "SODIUM PHOSPHATES",
+        "MODIFIED POTATO STARCH",
+        "SPICE",
+        "INCLUDING CELERY SEED AND MUSTARD",
+        "GUM ARABIC",
+        "SPICE EXTRACTIVES",
+        "PAPRIKA",
+        "EXTRACTIVES OF PAPRIKA",
+        "AND EXTRACTIVES OF TURMERIC]. BREADED WITH: WHEAT FLOUR",
+        "WATER",
+        "MODIFIED CORN STARCH",
+        "SALT",
+        "LENTIL FLOUR",
+        "SPICE",
+        "WHEAT GLUTEN",
+        "YELLOW CORN FLOUR",
+        "LEAVENING SODIUM ACID PYROPHOSPHATE",
+        "SODIUM BICARBONATE",
+        "MONOCALCIUM PHOSPHATE",
+        "SPICE EXTRACTIVES AND EXTRACTIVES OF PAPRIKA. BREADING SET IN VEGETABLE OIL.)",
+        "Tortillas 12\" (ENRICHED UNBLEACHED FLOUR (WHEAT FLOUR",
+        "NIACIN",
+        "REDUCED IRON",
+        "THIAMINE MONONITRATE",
+        "RIBOFLAVIN AND FOLIC ACID)",
+        "WATER",
+        "VEGETABLE SHORTENING (CONTAINS ONE OR MORE OF THE FOLLOWING: PALM OIL AND/OR OLIVE OIL)",
+        "CONTAINS 2% OR LESS OF THE FOLLOWING: SALT",
+        "LEAVENING (SODIUM ACID PYROPHOSPHATE",
+        "SODIUM BICARBONATE",
+        "CORNSTARCH",
+        "MONO CALCIUM PHOSPHATE)",
+        "WHEAT PROTEIN",
+        "PRESERVATIVES (CALCIUM PROPIONATE",
+        "SORBIC ACID)",
+        "DOUGH CONDITIONER (FUMARIC ACID",
+        "XANTHAN GUM",
+        "MONO- AND DIGLYCERIDES",
+        "SODIUM METABISULPHITE). CONTAINS: WHEAT)",
+        "Shredded Cheddar Cheese ( PASTEURIZED MILK",
+        "CHEESE CULTURE",
+        "SALT",
+        "ENZYMES AND ANNATTO (IF COLORED). POTATO STARCH AND POWDERED CELLULOSE ADDED TO PREVENT CAKING. )",
+        "Shd Lettuce",
+        "DSG RANCH KD gf (OYBEAN OIL",
+        "WATER",
+        "VINEGAR",
+        "EGG YOLK",
+        "BUTTERMILK SOLIDS",
+        "CONTAINS LESS THAN 2% OF: SALT",
+        "SUGAR",
+        "LEMON JUICE CONCENTRATE",
+        "GARLIC",
+        "NATURAL FLAVOR (MILK)",
+        "ONION",
+        "XANTHAN GUM",
+        "SORBIC ACID",
+        "POTASSIUM SORBATE AND CALCIUM DISODIUM EDTA AS PRESERVATIVES",
+        "SPICE",
+        "CREAM",
+        "BUTTERMILK",
+        "NON FAT DRY MILK.)",
+        "Frank's Buffalo Wing Sauce (CONTAINS: VINEGAR",
+        "AGED RED CAYENNE PEPPER",
+        "SALT",
+        "WATER",
+        "CANOLA OIL",
+        "PAPRIKA",
+        "XANTHAN GUM",
+        "GARLIC POWDER",
+        "NATURAL FLAVOUR",
+        "DIMETHYL SILICONE.)",
+        "Tomato"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    }
+  ],
+  "campus": [
+    "UMD"
+  ],
+  "totalCalories": 580.9,
+  "restaurantName": "South Campus",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685983c11c64766232682122"
+  },
+  "name": "Generated Meal 5",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d3ac82a7649a9de25c9b"
+      },
+      "name": "Red Lentil Penne Pasta",
+      "calories": 169.8,
+      "restaurantName": "South Campus",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Water",
+        "Red Lentil Pasta  (RED LENTIL FLOUR)",
+        "Canola Oil (CANOLA OIL)",
+        "Kosher Salt (SALT",
+        "YELLOW PRUSSIATE OF SODA)"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3df82a7649a9de25cc4"
+      },
+      "name": "Chicken Tortilla  Soup",
+      "calories": 129.6,
+      "restaurantName": "South Campus",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Chicken Tortilla Soup (INGREDIENTS: CHICKEN STOCK (water",
+        "chicken",
+        "salt",
+        "chicken fat",
+        "dextrose",
+        "sugar",
+        "natural flavoring",
+        "chicken broth",
+        "turmeric)",
+        "CHICKEN",
+        "TOMATO PUREE (tomatoes",
+        "salt",
+        "citric acid)",
+        "GREEN PEPPER",
+        "ONION",
+        "TORTILLAS (whole grain corn",
+        "water",
+        "vegetable oil [contains one or more of the following cottonseed oil",
+        "corn oil",
+        "palm oil]",
+        "salt)",
+        "GARLIC",
+        "CHIPOTLE PEPPER (peppers",
+        "water",
+        "tomatoes",
+        "vinegar",
+        "soybean oil",
+        "iodized salt",
+        "onion",
+        "garlic",
+        "spices)",
+        "LIME JUICE",
+        "CANOLA/OLIVE OIL BLEND",
+        "CILANTRO",
+        "CORNSTARCH",
+        "SUGAR",
+        "SPICES.)"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    }
+  ],
+  "campus": [
+    "UMD"
+  ],
+  "totalCalories": 299.4,
+  "restaurantName": "South Campus",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685983c11c64766232682123"
+  },
+  "name": "Generated Meal 6",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "679c9d093ee80063f9fe96ba"
+      },
+      "name": "Pan BBQ Chicken Pizza",
+      "calories": 218.4,
+      "restaurantName": "South Campus",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Dry Rub Spiced Chicken (Diced Chicken (BONELESS",
+        "SKINLESS CHICKEN BREAST",
+        "WATER",
+        "SALT AND SODIUM PHOSPHATES. )",
+        "BBQ Dry Rub Spice (Chili Powder (CHILI PEPPER",
+        "SPICES",
+        "SALT",
+        "SILICON DIOXIDE(ADDED TO MAKE FREE FLOWING) AND GARLIC)",
+        "Ground Cumin (ground cumin)",
+        "Garlic Powder",
+        "Onion Powder (onion powder)",
+        "Cracked Black Pepper)",
+        "Olive Blend Shortening (75% CANOLA OIL",
+        "25% EXTRA VIRGIN OLIVE OIL))",
+        "Dough Ball Pizza 24 oz (Ingredients: Enriched Wheat Flour (Wheat Flour",
+        "Malted Barley flour",
+        "Niacin",
+        "Reduced Iron",
+        "Potassium Bromate",
+        "Thiamine Mononitrate",
+        "Riboflavin",
+        "Folic Acid)",
+        "Water",
+        "Cane Sugar",
+        "Soybean Oil",
+        "Salt",
+        "Instant Yeast (Yeast",
+        "Sorbitan Monostearate",
+        "Ascorbic Acid). Contains: Wheat",
+        "Soy. Processed in a facility that uses Eggs.)",
+        "Mozzarella Cheese Shredded ( WHOLE MILK LOW MOISTURE MOZZARELLA CHEESE PASTEURIZED MILK",
+        "CHEESE CULTURES",
+        "SALT",
+        "ENZYMES",
+        "CELLULOSE POWDER ADDED TO PREVENT CAKING",
+        "NATAMYCIN A NATURAL MOLD INHIBITOR.)",
+        "Roasted Garlic Basil Marinara Sauce (Roasted Garlic Basil Marinara Sauce (TOMATOES",
+        "WATER",
+        "ONIONS",
+        "GARLIC",
+        "BASIL",
+        "TOMATO PASTE",
+        "SEA SALT",
+        "CANOLA OIL",
+        "EXTRA VIRGIN OLIVEOIL",
+        "SPICES",
+        "GRANULATED SUGAR.))",
+        "BBQ Sauce (VINEGAR",
+        "SUGAR",
+        "TOMATO PASTE",
+        "WATER",
+        "MOLASSES",
+        "MODIFIED FOOD STARCH",
+        "SALT",
+        "CONTAINS LESS THAN 2% OF: NATURAL SMOKE FLAVOR",
+        "SPICES",
+        "ONION",
+        "GARLIC",
+        "CARAMEL",
+        "MALTODEXTRIN",
+        "YEAST EXTRACT",
+        "NATURAL FLAVOR",
+        "PROPYLENE GLYCOL ALGINATE",
+        "SUNFLOWER OIL. )",
+        "Shredded Parmesan Cheese (IMPORTED PARMESAN CHEESE PASTEURIZED PART SKIM COW'S MILK",
+        "CHEESE CULTURES",
+        "SALT",
+        "ENZYMES",
+        "AND POWDERED CELLULOSE ADDED TO PREVENT CAKING",
+        "NATAMYCIN A NATURAL MOLD INHIBITOR)",
+        "Grated Parmesan Cheese (IMPORTED PARMESAN CHEESE PASTEURIZED PART SKIM MILK",
+        "CHEESE CULTURES",
+        "SALT",
+        "ENZYMES POWDERED CELLULOSE ANTI-CAKING AGENT",
+        "NATAMYCIN)",
+        "Sour Cream (Grade A cultured Cream )",
+        "Olive Blend Shortening (75% CANOLA OIL",
+        "25% EXTRA VIRGIN OLIVE OIL)"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    }
+  ],
+  "campus": [
+    "UMD"
+  ],
+  "totalCalories": 218.4,
+  "restaurantName": "South Campus",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685983c11c64766232682124"
+  },
+  "name": "Generated Meal 7",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d37082a7649a9de25c6c"
+      },
+      "name": "Potato Hamburger Roll",
+      "calories": 122.6,
+      "restaurantName": "Yahentamitsi Dining Hall",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Potato Roll (ENRICHED FLOUR (WHEAT FLOUR",
+        "MALTED BARLEY FLOUR",
+        "NIACIN",
+        "REDUCED IRON",
+        "THIAMIN MONONITRATE",
+        "RIBOFLAVIN",
+        "FOLIC ACID)",
+        "WATER",
+        "DEHYDRATED POTATOES",
+        "HIGH FRUCTOSE CORN SYRUP ",
+        "SOYBEAN OIL",
+        "CONTAINS 2% OR LESS OF EACH OF THE FOLLOWING: YELLOW CORN MEAL",
+        "YEAST",
+        "SALT",
+        "WHEAT GLUTEN",
+        "MONO- AND DIGLYCERDIES",
+        "CALCIUM STEAROYL LACTYLATE",
+        "SODIUM STEAROYL LACTYLATE ",
+        "SODIUM ACID PHROPHOSPHATE",
+        "CALCIUM SULFATE",
+        "SOY LECITHIN",
+        "CALCIUM IODATE",
+        "CALCIUM PEROXIDE",
+        "ENZYMES",
+        "AZODICARBONAMIDE",
+        "CALCIUM PROPIONATE AND CITRIC ACID(TO RETARD SPOILAGE) )"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d37282a7649a9de25c6e"
+      },
+      "name": "Sliced Pepper Jack Cheese",
+      "calories": 108,
+      "restaurantName": "Yahentamitsi Dining Hall",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Sliced Pepper Jack Cheese (Pasteurized milk",
+        "Jalapeno peppers",
+        "cheese culture",
+        "salt",
+        "enzymes)"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d37382a7649a9de25c6f"
+      },
+      "name": "Basil Garlic Roasted Button Mushrooms",
+      "calories": 27.2,
+      "restaurantName": "Yahentamitsi Dining Hall",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Mushroom Button (MUSHROOM",
+        "SMALL SIZE",
+        "UP TO 1.25 IN",
+        "APPROX 64 (+/- 18) MUSHROOMS PER POUND. ALSO KNOWN AS WHITE BUTTON MUSHROOM.)",
+        "Garlic",
+        "Olive Blend Shortening (75% CANOLA OIL",
+        "25% EXTRA VIRGIN OLIVE OIL)",
+        "Fresh Basil (Fresh Basil)",
+        "Kosher Salt (SALT",
+        "YELLOW PRUSSIATE OF SODA)",
+        "Black Pepper"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    }
+  ],
+  "campus": [
+    "UMD"
+  ],
+  "totalCalories": 257.8,
+  "restaurantName": "Yahentamitsi Dining Hall",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685983c11c64766232682125"
+  },
+  "name": "Generated Meal 8",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d36a82a7649a9de25c64"
+      },
+      "name": "Provolone Cheese Sliced",
+      "calories": 75.9,
+      "restaurantName": "Yahentamitsi Dining Hall",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "Provolone Cheese Sliced (CULTURED PASTEURIZED MILK",
+        "SALT",
+        "ENZYMES.)"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d36e82a7649a9de25c69"
+      },
+      "name": "Turkey Sliced",
+      "calories": 75.9,
+      "restaurantName": "Yahentamitsi Dining Hall",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "CM Turkey Sliced (Deli Turkey Breast (INGREDIENTS: TURKEY BREAST MEAT",
+        "TURKEY BROTH CONTAINS 2% OR LESS SALT",
+        "MODIFIED FOOD STARCH",
+        "SUGAR",
+        "CARRAGEENAN",
+        "SODIUM PHOSPHATE",
+        "PEPPER",
+        "BROWNED IN OIL. ))"
+      ],
+      "campus": [
+        "UMD"
+      ]
+    }
+  ],
+  "campus": [
+    "UMD"
+  ],
+  "totalCalories": 151.8,
+  "restaurantName": "Yahentamitsi Dining Hall",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682140"
+  },
+  "name": "Generated Meal 1",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d36782a7649a9de25c61"
+      },
+      "name": "Leaf Lettuce",
+      "calories": 17,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "GREEN LEAF LETTUCE"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3cf82a7649a9de25cb0"
+      },
+      "name": "Feta Cheese",
+      "calories": 60.8,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "CRUMBLED FETA CHEESE [Feta Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes). Anti-Caking Blend (Powdered Cellulose, Natamycin [A Natural Mold Inhibitor]).]"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3d282a7649a9de25cb3"
+      },
+      "name": "Grape Tomatoes",
+      "calories": 5.1,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "GRAPE TOMATO"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d3dd82a7649a9de25cc1"
+      },
+      "name": "Sliced Black Olives",
+      "calories": 25.5,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "BLACK OLIVES [Olives, water, salt, ferrous gluconate]"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d52b82a7649a9de25d6c"
+      },
+      "name": "Pineapple",
+      "calories": 40,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "PINEAPPLE"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "6799d53182a7649a9de25d71"
+      },
+      "name": "Watermelon",
+      "calories": 50.2,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "FRUIT FRESH WATERMELON SEEDLESS"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 198.59999999999997,
+  "restaurantName": "The Café",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682141"
+  },
+  "name": "Generated Meal 2",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "6799d5b282a7649a9de25deb"
+      },
+      "name": "Chow Mein Noodles",
+      "calories": 131.6,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "NOODLE DRY CHOW MEIN [Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Palm Oil, LESS THAN 2% OF: Salt, Yeast, Sugar, Corn Starch.]"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "679b3e703ee80063f9fe930e"
+      },
+      "name": "Sliced Swiss Cheese",
+      "calories": 110,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "SLICED SWISS CHEESE [Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes.]"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "679b3e713ee80063f9fe9360"
+      },
+      "name": "Marinara Sauce",
+      "calories": 20,
+      "restaurantName": "The Café",
+      "restaurantType": "Dining-Halls",
+      "ingredients": [
+        "ORGANIC CANNED CRUSHED TOMATOES, CANNED TOMATO PUREE, WATER, CANOLA OIL [Canola Oil], YELLOW ONION, FRESH BASIL, GARLIC, KOSHER SALT, GROUND BLACK PEPPER, DRIED OREGANO"
+      ],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 261.6,
+  "restaurantName": "The Café",
+  "restaurantType": "Dining-Halls",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682142"
+  },
+  "name": "Generated Meal 3",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3ad1"
+      },
+      "name": "Bowl, Black Beans",
+      "calories": 60,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3ad4"
+      },
+      "name": "Bowl, Cheese",
+      "calories": 250,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3ad6"
+      },
+      "name": "Bowl, Chipotle Ranch",
+      "calories": 190,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 500,
+  "restaurantName": "Barberitos",
+  "restaurantType": "Franchise",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682143"
+  },
+  "name": "Generated Meal 4",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3ad4"
+      },
+      "name": "Bowl, Cheese",
+      "calories": 250,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3adb"
+      },
+      "name": "Bowl, Ground Beef",
+      "calories": 250,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3ae6"
+      },
+      "name": "Bowl, Rice",
+      "calories": 60,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 560,
+  "restaurantName": "Barberitos",
+  "restaurantType": "Franchise",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682144"
+  },
+  "name": "Generated Meal 5",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3adb"
+      },
+      "name": "Bowl, Ground Beef",
+      "calories": 250,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3ae9"
+      },
+      "name": "Bowl, Southwestern Vinaigrette",
+      "calories": 230,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3af1"
+      },
+      "name": "Burrito, Cheese",
+      "calories": 160,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 640,
+  "restaurantName": "Barberitos",
+  "restaurantType": "Franchise",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682145"
+  },
+  "name": "Generated Meal 6",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3af5"
+      },
+      "name": "Burrito, Chipotle Tortilla",
+      "calories": 260,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3af2"
+      },
+      "name": "Burrito, Chicken",
+      "calories": 130,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3af7"
+      },
+      "name": "Burrito, Corn Salsa",
+      "calories": 80,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 470,
+  "restaurantName": "Barberitos",
+  "restaurantType": "Franchise",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682146"
+  },
+  "name": "Generated Meal 7",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3afb"
+      },
+      "name": "Burrito, Ground Beef",
+      "calories": 250,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3afc"
+      },
+      "name": "Burrito, Ground Turkey",
+      "calories": 130,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3af7"
+      },
+      "name": "Burrito, Corn Salsa",
+      "calories": 80,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 460,
+  "restaurantName": "Barberitos",
+  "restaurantType": "Franchise",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682147"
+  },
+  "name": "Generated Meal 8",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3b14"
+      },
+      "name": "Chips & Dip, Chips (3.5 oz)",
+      "calories": 340,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3b1d"
+      },
+      "name": "Chips & Dip, Medium Cheese Dip",
+      "calories": 390,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 730,
+  "restaurantName": "Barberitos",
+  "restaurantType": "Franchise",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682148"
+  },
+  "name": "Generated Meal 9",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3b36"
+      },
+      "name": "Nachos, Cheese",
+      "calories": 310,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3b37"
+      },
+      "name": "Nachos, Chicken",
+      "calories": 130,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3b3b"
+      },
+      "name": "Nachos, Corn Salsa",
+      "calories": 80,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 520,
+  "restaurantName": "Barberitos",
+  "restaurantType": "Franchise",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685985ee1c64766232682149"
+  },
+  "name": "Generated Meal 10",
+  "mealType": "Lunch",
+  "items": [
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3b53"
+      },
+      "name": "Nachos, Steak",
+      "calories": 180,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3b50"
+      },
+      "name": "Nachos, Southwestern Vinaigrette",
+      "calories": 230,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    },
+    {
+      "itemId": {
+        "$oid": "67aca9072523ee9db05d3b4f"
+      },
+      "name": "Nachos, Small Cheese Dip",
+      "calories": 200,
+      "restaurantName": "Barberitos",
+      "restaurantType": "Franchise",
+      "ingredients": [],
+      "campus": [
+        "HPU"
+      ]
+    }
+  ],
+  "campus": [
+    "HPU"
+  ],
+  "totalCalories": 610,
+  "restaurantName": "Barberitos",
+  "restaurantType": "Franchise",
+  "__v": 0
+}]
