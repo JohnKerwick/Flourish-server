@@ -1,0 +1,704 @@
+[
+  {
+    "name": "Generated Meal 1",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acaa04fab1224e86940484",
+        "name": "Grilled Chicken Sandwich",
+        "calories": 570,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31f6",
+        "name": "Brisk Strawberry Melon Tea, Small",
+        "calories": 90,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31f2",
+        "name": "Bojangles' Dirty Rice, Individual",
+        "calories": 170,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "UNCC"
+    ],
+    "totalCalories": 830,
+    "restaurantName": "Bojangles",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e21f",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 2",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acadd500524d65401f31ed",
+        "name": "Bo-Tato Rounds, Picnic",
+        "calories": 650,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31e6",
+        "name": "Add American Cheese",
+        "calories": 40,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31e8",
+        "name": "Add Pimento Cheese",
+        "calories": 170,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "UNCC"
+    ],
+    "totalCalories": 860,
+    "restaurantName": "Bojangles",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e220",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 3",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acaa04fab1224e869403f4",
+        "name": "Bacon, Egg & Cheese Biscuit",
+        "calories": 510,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31e7",
+        "name": "Add Egg",
+        "calories": 80,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31f0",
+        "name": "Bojangles Cajun Pintos, Individual",
+        "calories": 130,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31f6",
+        "name": "Brisk Strawberry Melon Tea, Small",
+        "calories": 90,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "UNCC"
+    ],
+    "totalCalories": 810,
+    "restaurantName": "Bojangles",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e221",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 4",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acadd500524d65401f31ef",
+        "name": "Bo's Chicken Sandwich",
+        "calories": 670,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31e6",
+        "name": "Add American Cheese",
+        "calories": 40,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31e8",
+        "name": "Add Pimento Cheese",
+        "calories": 170,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "UNCC"
+    ],
+    "totalCalories": 880,
+    "restaurantName": "Bojangles",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e222",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 5",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acaa04fab1224e86940467",
+        "name": "Dr Pepper, Large",
+        "calories": 380,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31eb",
+        "name": "Bo-Berry Biscuit",
+        "calories": 370,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31f6",
+        "name": "Brisk Strawberry Melon Tea, Small",
+        "calories": 90,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "UNCC"
+    ],
+    "totalCalories": 840,
+    "restaurantName": "Bojangles",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e223",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 6",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acadd500524d65401f31ec",
+        "name": "Bo-Tato Rounds, Medium",
+        "calories": 390,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acadd500524d65401f31f7",
+        "name": "Cajun Filet Biscuit",
+        "calories": 570,
+        "restaurantName": "Bojangles",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "UNCC"
+    ],
+    "totalCalories": 960,
+    "restaurantName": "Bojangles",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e224",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 7",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Pork Sausage^"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67d7bb770767fdf567561c67",
+        "name": "Eggs",
+        "calories": 130,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Liquid Egg^"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Low Fat Strawberry Yogurt^"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67d7bb790767fdf567561c75",
+        "name": "Red Seedless Grapes",
+        "calories": 40,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Grapes"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67d7bb790767fdf567561c78",
+        "name": "Raisins",
+        "calories": 40,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Raisins"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67d7bbc30767fdf567561d0f",
+        "name": "Tater Tots",
+        "calories": 140,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Tater Tot Potatoes^"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "UNCC"
+    ],
+    "totalCalories": 820,
+    "restaurantName": "SoVi",
+    "restaurantType": "Dining-Halls",
+    "_id": "685aa433b2560dc1cde4e225",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 8",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67b8e1801ff573cd6ff57b85",
+        "name": "Pork Sausage Patty",
+        "calories": 360,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Pork Sausage^"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67d7bb770767fdf567561c67",
+        "name": "Eggs",
+        "calories": 130,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Liquid Egg^"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "calories": 110,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Low Fat Strawberry Yogurt^"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67dbfeed9b6775dfb1ef5bf7",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "calories": 160,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Tofu^",
+          "Vegan Mozzarella^",
+          "Green Bell Peppers",
+          "Tomatoes",
+          "Soy Sauce^",
+          "Canola Oil",
+          "Green Onions",
+          "Garlic",
+          "Chili Powder^",
+          "Turmeric"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67d7bb790767fdf567561c78",
+        "name": "Raisins",
+        "calories": 40,
+        "restaurantName": "SoVi",
+        "restaurantType": "Dining-Halls",
+        "ingredients": [
+          "Raisins"
+        ],
+        "campus": [
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "UNCC"
+    ],
+    "totalCalories": 800,
+    "restaurantName": "SoVi",
+    "restaurantType": "Dining-Halls",
+    "_id": "685aa433b2560dc1cde4e226",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 9",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "679b3e7d3ee80063f9fe9549",
+        "name": "Chocolate Croissant",
+        "calories": 300,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53ed",
+        "name": "2% Milk, Venti",
+        "calories": 370,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53f0",
+        "name": "Almond Milk, Venti",
+        "calories": 180,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53f8",
+        "name": "Bakery, Avocado Spread",
+        "calories": 90,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UNCC"
+    ],
+    "totalCalories": 940,
+    "restaurantName": "Starbucks",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e227",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 10",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acaacba0812499dafa53f1",
+        "name": "Apple Juice, Grande",
+        "calories": 250,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa5407",
+        "name": "Blueberry Streusel Muffin",
+        "calories": 370,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53fa",
+        "name": "Berry Trio Parfait",
+        "calories": 240,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53fc",
+        "name": "Blended Strawberry Lemonade, Grande",
+        "calories": 200,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UNCC"
+    ],
+    "totalCalories": 1060,
+    "restaurantName": "Starbucks",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e228",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 11",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acaacba0812499dafa53f6",
+        "name": "Bacon, Sausage & Egg Wrap",
+        "calories": 640,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53f8",
+        "name": "Bakery, Avocado Spread",
+        "calories": 90,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53fe",
+        "name": "Blended Strawberry Lemonade, Venti",
+        "calories": 280,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UNCC"
+    ],
+    "totalCalories": 1010,
+    "restaurantName": "Starbucks",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e229",
+    "__v": 0
+  },
+  {
+    "name": "Generated Meal 12",
+    "mealType": "Breakfast",
+    "items": [
+      {
+        "itemId": "67acaacba0812499dafa53eb",
+        "name": "2% Milk, Grande",
+        "calories": 260,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53ed",
+        "name": "2% Milk, Venti",
+        "calories": 370,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa5409",
+        "name": "Butter Croissant",
+        "calories": 250,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      },
+      {
+        "itemId": "67acaacba0812499dafa53f8",
+        "name": "Bakery, Avocado Spread",
+        "calories": 90,
+        "restaurantName": "Starbucks",
+        "restaurantType": "Franchise",
+        "ingredients": [],
+        "campus": [
+          "HPU",
+          "UNCC"
+        ]
+      }
+    ],
+    "campus": [
+      "HPU",
+      "UNCC"
+    ],
+    "totalCalories": 970,
+    "restaurantName": "Starbucks",
+    "restaurantType": "Franchise",
+    "_id": "685aa433b2560dc1cde4e22a",
+    "__v": 0
+  }
+]

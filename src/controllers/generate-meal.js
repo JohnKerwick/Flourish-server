@@ -1,0 +1,519 @@
+import { Meals } from '../../dist/models/meals'
+import { asyncMiddleware, notifyError } from '../middlewares'
+import { GeneratedMeal, GeneratedMealNew } from '../models/generatedMeals'
+import { processMealRecommendations, processMealRecommendationsVariant } from '../utils/chat-gpt'
+import { enforceTokenDelay, estimateChatTokens, getBestModelForTokens } from '../utils/estimateTokens'
+import { runMealGenerationManually } from '../utils/generate-meals_cron'
+
+export const CONTROLLER_GENERATE_MEAL = {
+  generateMeals: asyncMiddleware(async (req, resOrParams) => {
+    const isCron = !resOrParams || typeof resOrParams !== 'object' || !('status' in resOrParams)
+    const input = isCron ? req : req.body
+    const res = isCron ? { status: () => ({ json: () => {} }) } : resOrParams
+
+    console.log(`🚀 Generating meals via ${isCron ? 'CRON' : 'HTTP API'} mode`)
+    try {
+      const { calorieRange = { min: 300, max: 600 }, types = ['Breakfast', 'Lunch', 'Dinner'], campus } = input
+
+      const query = {
+        'nutrients.calories': { $gt: 0 },
+        type: { $in: types },
+      }
+
+      const defaultCampuses = ['HPU', 'UMD', 'UNCC']
+      const campusList = campus?.length ? campus : defaultCampuses
+      console.log(`campusList: (${campusList}), Meal(types): (${types})`)
+      query.campus = { $in: campusList }
+
+      // Step 1: Fetch meals from DB
+      const projection = {
+        name: 1,
+        type: 1,
+        'nutrients.calories': 1,
+        restaurantName: 1,
+        restaurantType: 1,
+        ingredients: 1,
+        campus: 1,
+      }
+
+      const rawItems = await Meals.find(query).select(projection).lean()
+
+      const items = rawItems.filter((item) => item.restaurantName && item.restaurantType)
+
+      // Step 2: Group by restaurantName + restaurantType + mealType
+      // const grouped = {}
+      // for (const item of items) {
+      //   const key = `${item.restaurantName}::${item.restaurantType}::${item.type}`
+      //   if (!grouped[key]) grouped[key] = []
+      //   grouped[key].push(item)
+      // }
+      const grouped = {}
+
+      for (const item of items) {
+        const key = `${item.restaurantName}::${item.restaurantType}::${item.type}`
+
+        if (!grouped[key]) grouped[key] = []
+
+        // Add item only if we haven't reached the limit
+        if (grouped[key].length < 50) {
+          grouped[key].push(item)
+        }
+      }
+
+      // Step 3: Format prompt for OpenAI
+
+      //? 2nd "WORKING VERSION"
+      const prompt = `
+            Below is a list of food items, grouped by restaurant and type. Your job is to generate as many realistic meal **combinations** as possible that meet the following criteria:
+
+            - Each combination must:
+              - Be made from items **from the same restaurant**
+              - Match the meal type (Breakfast, Lunch, or Dinner)
+              - Have total calories in the range ${calorieRange.min} to ${calorieRange.max}
+              - Avoid repeating the same exact set of items
+        - Be a **unique set of items** (do not generate duplicate combinations with the same items)
+
+      - A single item **cannot appear twice** in one meal combination.
+      - The **same item** can appear in **different combinations**, but **each combination must be unique**.
+
+            Return ONLY with a valid JSON array in the following format:
+            [
+              {
+                "mealType": "Breakfast",
+                "restaurantName": "Yahentamitsi Dining Hall",
+                "restaurantType": "Dining-Halls",
+                "items": [
+                  { "id": "item_id", "name": "Item Name", "calories": 123, },
+                ]
+              }
+            ]
+
+            Here is the data:
+            ${JSON.stringify(
+              Object.entries(grouped).map(([key, items]) => {
+                const [restaurantName, restaurantType, mealType] = key.split('::')
+                return {
+                  restaurantName,
+                  restaurantType,
+                  mealType,
+                  items: items.map((i) => ({
+                    id: i._id,
+                    calories: i.nutrients.calories,
+                  })),
+                }
+              }),
+              null,
+              2
+            )}
+            `.trim()
+
+      const aiRes = await processMealRecommendationsVariant(prompt)
+      const aiResponse = aiRes?.responseText
+
+      // Step 5: Parse JSON safely
+      const jsonStart = aiResponse.indexOf('[')
+      const jsonEnd = aiResponse.lastIndexOf(']')
+      const jsonOnly = aiResponse.slice(jsonStart, jsonEnd + 1)
+      const combos = JSON.parse(jsonOnly)
+
+      // Step 5.5: Filter combinations to ensure all items belong to the same restaurant
+      const validCombos = combos.filter((combo) => {
+        const firstItemId = combo.items?.[0]?.id?.toString()
+        const firstItem = items.find((m) => m._id.toString() === firstItemId)
+
+        if (!firstItem) return false
+
+        return combo.items.every((item) => {
+          const matched = items.find((m) => m._id.toString() === item.id.toString())
+          return (
+            matched &&
+            matched.restaurantName === firstItem.restaurantName &&
+            matched.restaurantType === firstItem.restaurantType
+          )
+        })
+      })
+
+      // Step 6: Save to DB
+      const createdPayload = validCombos.map((combo, i) => {
+        const enrichedItems = combo.items.map((item) => {
+          const matched = items.find((m) => m._id.toString() === item.id.toString())
+
+          return {
+            itemId: item.id,
+            name: matched?.name || item.name || 'Unknown',
+            calories: matched?.nutrients?.calories || item.calories || 0,
+            restaurantName: matched?.restaurantName || combo.restaurantName,
+            restaurantType: matched?.restaurantType || combo.restaurantType,
+            ingredients: matched?.ingredients || [],
+            campus: matched?.campus || [],
+          }
+        })
+
+        return {
+          name: `Generated Meal ${Date.now()}`,
+          mealType: combo.mealType,
+          items: enrichedItems,
+          totalCalories: enrichedItems.reduce((sum, it) => sum + (it.calories || 0), 0),
+          restaurantName: combo.restaurantName,
+          restaurantType: combo.restaurantType,
+          campus: enrichedItems[0]?.campus || [],
+        }
+      })
+      const created = await GeneratedMeal.insertMany(createdPayload)
+
+      // await writeFile(`generatedMeals-${types[0]}-${campus[0]}.json`, JSON.stringify(created, null, 2), 'utf-8')
+
+      const rejectedCount = combos?.length - validCombos?.length
+      if (rejectedCount > 0) {
+        let message = `${rejectedCount} invalid combos skipped due to mixed restaurant items`
+        console.warn(message)
+      }
+      res.status(200).json({
+        message: 'Meals generated successfully',
+        count: created.length,
+        data: created,
+        usage: aiRes?.usage,
+        rejectedCount,
+      })
+    } catch (err) {
+      console.error(err)
+      res.status(500).json({ error: 'Internal server error' })
+    }
+  }),
+
+  generateMealsTesting: asyncMiddleware(async (req, resOrParams) => {
+    const isCron = !resOrParams || typeof resOrParams !== 'object' || !('status' in resOrParams)
+    const input = isCron ? req : req.body
+    const res = isCron ? { status: () => ({ json: () => {} }) } : resOrParams
+
+    console.log(`🚀 Generating meals via ${isCron ? 'CRON' : 'HTTP API'} mode`)
+    try {
+      const { calorieRange = { min: 300, max: 600 }, types = ['Breakfast', 'Lunch', 'Dinner'], campus } = input
+
+      const defaultCampuses = ['HPU', 'UMD', 'UNCC']
+      const campusList = campus?.length ? campus : defaultCampuses
+      console.log(`campusList: (${campusList}), Meal(types): (${types})`)
+
+      const query = {
+        'nutrients.calories': { $gt: 0 },
+        type: { $in: types },
+        campus: { $in: campusList },
+      }
+
+      const projection = {
+        name: 1,
+        type: 1,
+        'nutrients.calories': 1,
+        restaurantName: 1,
+        restaurantType: 1,
+        ingredients: 1,
+        campus: 1,
+      }
+
+      const rawItems = await Meals.find(query).select(projection).lean()
+      const items = rawItems.filter((item) => item.restaurantName && item.restaurantType)
+
+      // Group by restaurantName + mealType, max 50 items per group
+      const grouped = {}
+      for (const item of items) {
+        const key = `${item.restaurantName}::${item.type}`
+        if (!grouped[key]) grouped[key] = []
+        if (grouped[key].length < 50) grouped[key].push(item)
+      }
+
+      // OpenAI Prompt
+      const prompt = `
+Below is a list of food items grouped by restaurant and meal type.
+
+🧠 Think like a **dietician planning student meals**. Generate **realistic, satisfying, balanced combinations**.
+
+---
+
+### ✅ Meal Rules:
+
+1. Meals must:
+   - Use items from only **one restaurant**
+   - Match the given **meal type**
+   - Stay within **${calorieRange.min}-${calorieRange.max} calories**
+   - Include **2 to 4 items**, no duplicates
+
+2. 🍱 Include:
+   - ✅ 1 main (e.g. chicken, burger, patty, tofu)
+   - ✅ 1 carb or side (e.g. rice, bread, pasta, naan)
+   - Optional: drink, vegetable, dessert
+   - ❌ Do NOT include only dressings or sauces
+   - ❌ Avoid more than 1 bread or 1 drink
+
+3. Return at least **20 unique combinations** if possible.
+
+---
+
+### 📦 Format:
+
+[
+  {
+    "mealType": "Lunch",
+    "restaurantName": "The Café",
+    "items": [
+      { "id": "item_id", "name": "Item Name", "calories": 123 }
+    ]
+  }
+]
+
+---
+
+### Item Data:
+${JSON.stringify(
+  Object.entries(grouped).map(([key, items]) => {
+    const [restaurantName, mealType] = key.split('::')
+    return {
+      restaurantName,
+      mealType,
+      items: items.map((i) => ({
+        id: i._id,
+        name: i.name,
+        calories: i.nutrients.calories,
+      })),
+    }
+  }),
+  null,
+  2
+)}
+`.trim()
+
+      const aiRes = await processMealRecommendationsVariant(prompt)
+      const aiResponse = aiRes?.responseText || ''
+
+      const jsonStart = aiResponse.indexOf('[')
+      const jsonEnd = aiResponse.lastIndexOf(']')
+      const jsonOnly = aiResponse.slice(jsonStart, jsonEnd + 1)
+      const combos = JSON.parse(jsonOnly)
+      console.log('🔍 Raw combos returned by OpenAI:', JSON.stringify(combos, null, 2))
+      console.log('🧪 First combo items:', combos[0]?.items)
+
+      // Validation: realistic meals
+      function isRealisticMeal(items = []) {
+        const names = items.map((i) => i?.name?.toLowerCase() || '')
+
+        const totalCalories = items.reduce((sum, i) => sum + (i.calories || 0), 0)
+
+        if (totalCalories < 300) {
+          console.warn('❌ Rejected: Total calories too low:', totalCalories)
+          return false
+        }
+
+        const onlyDressings = names.every((n) => /dressing|sauce/.test(n))
+        if (onlyDressings) {
+          console.warn('❌ Rejected: Only sauces')
+          return false
+        }
+
+        return true
+      }
+
+      const validCombos = combos.filter((combo) => {
+        const enriched = combo.items.map((i) => items.find((m) => m._id.toString() === i.id.toString())).filter(Boolean)
+        if (!enriched.length || !isRealisticMeal(enriched)) return false
+        const first = enriched[0]
+        return enriched.every((i) => i.restaurantName === first.restaurantName)
+      })
+
+      // Final payload
+      const createdPayload = validCombos.map((combo) => {
+        const enrichedItems = combo.items.map((item) => {
+          const matched = items.find((m) => m._id?.toString() === item.id?.toString())
+          if (!matched) {
+            console.warn('❌ No match found for ID:', item.id)
+          }
+          return {
+            itemId: item.id,
+            name: matched?.name || item.name || 'Unknown',
+            calories: matched?.nutrients?.calories || item.calories || 0,
+            restaurantName: matched?.restaurantName || combo.restaurantName,
+            restaurantType: matched?.restaurantType || 'Franchise',
+            ingredients: matched?.ingredients || [],
+            campus: matched?.campus || [],
+          }
+        })
+
+        return {
+          name: `Generated Meal ${Date.now()}`,
+          mealType: combo.mealType,
+          items: enrichedItems,
+          totalCalories: enrichedItems.reduce((sum, it) => sum + (it.calories || 0), 0),
+          restaurantName: combo.restaurantName,
+          restaurantType: enrichedItems[0]?.restaurantType || 'Franchise',
+          campus: enrichedItems[0]?.campus || [],
+        }
+      })
+
+      const created = await GeneratedMealNew.insertMany(createdPayload)
+
+      const rejectedCount = combos.length - validCombos.length
+      if (rejectedCount > 0) console.warn(`⚠️ ${rejectedCount} invalid combos skipped due to validation.`)
+
+      res.status(200).json({
+        message: 'Meals generated successfully',
+        count: created.length,
+        data: created,
+        usage: aiRes?.usage,
+        rejectedCount,
+      })
+    } catch (err) {
+      console.error(err)
+      res.status(500).json({ error: 'Internal server error' })
+    }
+  }),
+
+  generateMealsManually: asyncMiddleware(async (req, res) => {
+    res.status(202).json({
+      message: 'Meal Generation completed and data saved to MongoDB successfully',
+    })
+    try {
+      runMealGenerationManually()
+      notifyError('Meal Generation Sucess')
+    } catch (error) {
+      console.error('Error during Meal Generation:', error)
+      notifyError(error)
+      res.status(500).json({ message: 'Meal Generation failed', error: error.message })
+    }
+  }),
+}
+//? 1st version
+//       const prompt = `
+// You are a meal planner assistant.
+
+// Below is a list of food items grouped by restaurant and type. Generate as many realistic meal **combinations** as possible.
+
+// ### Rules:
+// - All items in a combination must be:
+//   - From the **same restaurant**
+//   - Of the **same meal type** (Breakfast, Lunch, Dinner)
+//   - Between **${calorieRange.min}-${calorieRange.max} calories**
+//   - Not repeat the same item within a combination
+//   - A unique set (no duplicates)
+
+// ### Output Format:
+// [
+//   {
+//     "mealType": "Breakfast",
+//     "restaurantName": "Example Hall",
+//     "restaurantType": "Dining-Halls",
+//     "items": [
+//       { "id": "item_id", "calories": 123 }
+//     ]
+//   }
+// ]
+
+// ### Food Data:
+// ${JSON.stringify(
+//   Object.entries(grouped).map(([key, groupItems]) => {
+//     const [restaurantName, restaurantType, mealType] = key.split('::')
+//     return {
+//       restaurantName,
+//       restaurantType,
+//       mealType,
+//       items: groupItems.map((i) => ({
+//         id: i._id,
+//         calories: i.nutrients.calories,
+//       })),
+//     }
+//   }),
+//   null,
+//   2
+// )}
+//     `.trim()
+
+//? 2nd "WORKING VERSION"
+// const prompt = `
+//       Below is a list of food items, grouped by restaurant and type. Your job is to generate as many realistic meal **combinations** as possible that meet the following criteria:
+
+//       - Each combination must:
+//         - Be made from items **from the same restaurant**
+//         - Match the meal type (Breakfast, Lunch, or Dinner)
+//         - Have total calories in the range ${calorieRange.min} to ${calorieRange.max}
+//         - Avoid repeating the same exact set of items
+//   - Be a **unique set of items** (do not generate duplicate combinations with the same items)
+
+// - A single item **cannot appear twice** in one meal combination.
+// - The **same item** can appear in **different combinations**, but **each combination must be unique**.
+
+//       Return ONLY with a valid JSON array in the following format:
+//       [
+//         {
+//           "mealType": "Breakfast",
+//           "restaurantName": "Yahentamitsi Dining Hall",
+//           "restaurantType": "Dining-Halls",
+//           "items": [
+//             { "id": "item_id", "name": "Item Name", "calories": 123, },
+//           ]
+//         }
+//       ]
+
+//       Here is the data:
+//       ${JSON.stringify(
+//         Object.entries(grouped).map(([key, items]) => {
+//           const [restaurantName, restaurantType, mealType] = key.split('::')
+//           return {
+//             restaurantName,
+//             restaurantType,
+//             mealType,
+//             items: items.map((i) => ({
+//               id: i._id,
+//               calories: i.nutrients.calories,
+//             })),
+//           }
+//         }),
+//         null,
+//         2
+//       )}
+//       `.trim()
+
+// ? 3rd version
+// const prompt = `
+// Below is a list of food items, grouped by restaurant and type. Your job is to generate as many **realistic meal combinations** as possible that meet the following criteria:
+
+// - Each combination must:
+//   - Contain a **main item** (e.g., entree, sandwich, burger, pizza slice, rice bowl, etc.)
+//   - Optionally include **1–2 sides** (e.g., fries, salad, fruits, desserts) and/or **1 drink**
+//   - Avoid combinations that consist of only drinks, only sides, or duplicates of the same item
+//   - Be made from items **from the same restaurant**
+//   - Match the meal type: **Breakfast**, **Lunch**, or **Dinner**
+//   - Have **total calories** between ${calorieRange.min} and ${calorieRange.max}
+//   - Be a **unique set of items** (do not generate duplicate combinations with the same items)
+//   - A single item **must not appear twice** in the same combination
+//   - The same item **can** appear in multiple different combinations
+
+// - If there are no valid combinations that include a main item, **do not generate a meal** for that restaurant.
+
+// Return ONLY a valid JSON array in the following format:
+
+// [
+//   {
+//     "mealType": "Lunch",
+//     "restaurantName": "Sample Restaurant",
+//     "restaurantType": "Dining-Halls",
+//     "items": [
+//       { "id": "item_id", "name": "Item Name", "calories": 123 }
+//     ]
+//   }
+// ]
+
+// Here is the data:
+// ${JSON.stringify(
+//   Object.entries(grouped).map(([key, items]) => {
+//     const [restaurantName, restaurantType, mealType] = key.split('::')
+//     return {
+//       restaurantName,
+//       restaurantType,
+//       mealType,
+//       items: items.map((i) => ({
+//         id: i._id,
+//         calories: i.nutrients.calories,
+//       })),
+//     }
+//   }),
+//   null,
+//   2
+// )}
+// `.trim()
