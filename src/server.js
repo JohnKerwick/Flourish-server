@@ -17,7 +17,6 @@ import { task } from './utils/scrapper_cron'
 import { setupSocketEventHandlers } from './socketEvents'
 
 import { init as initSocket } from './socket.js'
-import { mealGenerationTask } from './utils/generate-meals_cron.js'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)
 // setupSocketEventHandlers()
@@ -58,6 +57,5 @@ app.get('/ping', (req, res) => res.send('Ping Successfulls 😄'))
 
 server.listen(PORT, async () => {
   task.start()
-  mealGenerationTask.start()
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })

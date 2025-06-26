@@ -23,3 +23,4 @@ const generatedMealSchema = new mongoose.Schema({
 })
 
 export const GeneratedMeal = mongoose.model('GeneratedMeal', generatedMealSchema)
+export const GeneratedMealNew = mongoose.model('GeneratedMealNew', generatedMealSchema)
