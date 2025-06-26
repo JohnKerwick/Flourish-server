@@ -34,7 +34,7 @@ import { GeneratedMeal } from '../models/generatedMeals'
 import { parseGeneratedMeals } from '../utils/generate-meals'
 import { writeFile } from 'fs/promises'
 import mealPlanGenerators from '../utils/mealPlanGenerator.js'
-const { generate14MealPlan, generate7MealPlan, generate21MealPlan } = mealPlanGenerators
+const { generate14MealPlan, generate7MealPlan, generate19MealPlan } = mealPlanGenerators
 
 const categories = [
   'Main',
@@ -479,70 +479,73 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
     // Map day numbers to names
     const dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-    const formattedPlan = Object.entries(finData).map(([dayKey, dayPlan], idx) => {
-      // Support both {breakfast, lunch, dinner} and {meal} (for 7-meal/14-meal)
-      let breakfast = [],
-        lunch = [],
-        dinner = []
-      let caloriesProvided = 0,
-        proteinProvided = 0,
-        fatProvided = 0,
-        carbsProvided = 0
+    const transformedPlan = Object.values(finData).map((dayMeals, index) => {
+      const dayName = dayNames[index]
 
-      if (dayPlan.breakfast) {
-        breakfast = Array.isArray(dayPlan.breakfast.items) ? dayPlan.breakfast.items : dayPlan.breakfast.items || []
-        breakfast = breakfast.length
-          ? breakfast
-          : Array.isArray(dayPlan.breakfast)
-          ? dayPlan.breakfast
-          : [dayPlan.breakfast]
+      let dayCalories = 0
+      let dayProtein = 0
+      let dayFat = 0
+      let dayCarbs = 0
+      let breakfastItems = []
+      let lunchItems = []
+      let dinnerItems = []
+
+      // Handle all plan types (7, 14, 21)
+      if (dayMeals.breakfast) breakfastItems = transformMealItems(dayMeals.breakfast.items)
+      if (dayMeals.lunch) lunchItems = transformMealItems(dayMeals.lunch.items)
+      if (dayMeals.dinner) dinnerItems = transformMealItems(dayMeals.dinner.items)
+
+      // For 7-meal plan
+      if (dayMeals.meal) {
+        if (dayMeals.meal.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.meal.items)
+        if (dayMeals.meal.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.meal.items)
+        if (dayMeals.meal.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.meal.items)
       }
-      if (dayPlan.lunch) {
-        lunch = Array.isArray(dayPlan.lunch.items) ? dayPlan.lunch.items : dayPlan.lunch.items || []
-        lunch = lunch.length ? lunch : Array.isArray(dayPlan.lunch) ? dayPlan.lunch : [dayPlan.lunch]
+      // For 14-meal plan
+      if (dayMeals.mealTypeA) {
+        if (dayMeals.mealTypeA.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.mealTypeA.items)
+        if (dayMeals.mealTypeA.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.mealTypeA.items)
+        if (dayMeals.mealTypeA.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.mealTypeA.items)
       }
-      if (dayPlan.dinner) {
-        dinner = Array.isArray(dayPlan.dinner.items) ? dayPlan.dinner.items : dayPlan.dinner.items || []
-        dinner = dinner.length ? dinner : Array.isArray(dayPlan.dinner) ? dayPlan.dinner : [dayPlan.dinner]
+      if (dayMeals.mealTypeB) {
+        if (dayMeals.mealTypeB.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.mealTypeB.items)
+        if (dayMeals.mealTypeB.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.mealTypeB.items)
+        if (dayMeals.mealTypeB.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.mealTypeB.items)
       }
-      // For 7-meal/14-meal fallback keys
-      if (dayPlan.meal) {
-        if (dayPlan.meal.mealType === 'Breakfast') breakfast = dayPlan.meal.items
-        else if (dayPlan.meal.mealType === 'Lunch') lunch = dayPlan.meal.items
-        else if (dayPlan.meal.mealType === 'Dinner') dinner = dayPlan.meal.items
-      }
-      if (dayPlan.mealTypeA && dayPlan.mealTypeB) {
-        if (dayPlan.mealTypeA.mealType === 'Breakfast') breakfast = dayPlan.mealTypeA.items
-        if (dayPlan.mealTypeA.mealType === 'Lunch') lunch = dayPlan.mealTypeA.items
-        if (dayPlan.mealTypeA.mealType === 'Dinner') dinner = dayPlan.mealTypeA.items
-        if (dayPlan.mealTypeB.mealType === 'Breakfast') breakfast = dayPlan.mealTypeB.items
-        if (dayPlan.mealTypeB.mealType === 'Lunch') lunch = dayPlan.mealTypeB.items
-        if (dayPlan.mealTypeB.mealType === 'Dinner') dinner = dayPlan.mealTypeB.items
-      }
-      // Nutrition sums
-      const allItems = [...breakfast, ...lunch, ...dinner]
-      allItems.forEach((item) => {
-        if (item.nutrients) {
-          caloriesProvided += item.nutrients.calories || 0
-          proteinProvided += item.nutrients.protein || 0
-          fatProvided += item.nutrients.fat || 0
-          carbsProvided += item.nutrients.carbohydrate || 0
+
+      // Calculate nutritional totals from all meals for the day
+      const allDayItems = [
+        ...(dayMeals.breakfast?.items || []),
+        ...(dayMeals.lunch?.items || []),
+        ...(dayMeals.dinner?.items || []),
+        ...(dayMeals.meal?.items || []),
+        ...(dayMeals.mealTypeA?.items || []),
+        ...(dayMeals.mealTypeB?.items || []),
+      ]
+
+      allDayItems.forEach((item) => {
+        dayCalories += item.calories || 0
+        if (item.itemId && item.itemId.nutrients) {
+          dayProtein += item.itemId.nutrients.protein || 0
+          dayFat += item.itemId.nutrients.fat || 0
+          dayCarbs += item.itemId.nutrients.carbohydrate || 0
         }
       })
+
       return {
-        day: dayNames[idx % 7],
-        breakfast,
-        lunch,
-        dinner,
-        caloriesBMR: caloriesProvided,
-        caloriesProvided,
-        proteinProvided,
-        fatProvided,
-        carbsProvided,
+        day: dayName,
+        breakfast: breakfastItems,
+        lunch: lunchItems,
+        dinner: dinnerItems,
+        caloriesBMR: targetCaloriesPerDay,
+        caloriesProvided: dayCalories,
+        proteinProvided: dayProtein,
+        fatProvided: dayFat,
+        carbsProvided: dayCarbs,
       }
     })
 
-    res.status(200).json(formattedPlan)
+    res.status(200).json(transformedPlan)
   }),
   generateMeals: asyncMiddleware(async (req, res) => {
     try {
@@ -755,6 +758,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         targetCaloriesPerDay,
         preferredMealTypes, // For 14-meal plan
         selectedMealType, // For 7-meal plan
+        rejectedMealType, // For 19-mealplan
         campus,
       } = req.body
       var targetCalories = targetCaloriesPerDay
@@ -766,7 +770,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         .populate('items.itemId')
         .lean()
 
-      console.log('breakfast', breakfastMeals)
+      //console.log('breakfast', breakfastMeals.length)
 
       const lunchMeals = await GeneratedMeal.find({
         mealType: 'Lunch',
@@ -774,14 +778,14 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       })
         .populate('items.itemId')
         .lean()
-      // console.log('breakfast', lunchMeals)
+      //console.log('breakfast', lunchMeals)
       const dinnerMeals = await GeneratedMeal.find({
         mealType: 'Dinner',
         campus: { $in: [campus] },
       })
         .populate('items.itemId')
         .lean()
-      // console.log('breakfast', dinnerMeals)
+      //  console.log('breakfast', dinnerMeals)
       // ✅ Add this check:
       if (breakfastMeals.length === 0 && lunchMeals.length === 0 && dinnerMeals.length === 0) {
         return res.status(200).json({
@@ -793,12 +797,16 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       let mealPlan
 
       if (selectedOption === '21-meal') {
-        mealPlan = generate21MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCaloriesPerDay)
+        mealPlan = generate19MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCaloriesPerDay, rejectedMealType)
+        console.log('21 days meal plan ', rejectedMealType)
+        // return res.status(200).json({
+        //   mealPlan,
+        // })
       } else if (selectedOption === '14-meal') {
         if (!preferredMealTypes || preferredMealTypes.length !== 2) {
           return res.status(400).json({ error: 'preferredMealTypes (array of 2) is required for 14-meal plan.' })
         }
-        if (targetCaloriesPerDay < 800) {
+        if (targetCaloriesPerDay > 2000) {
           targetCalories = targetCaloriesPerDay * 0.6
         }
         mealPlan = generate14MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, preferredMealTypes)
@@ -807,10 +815,14 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
           return res.status(400).json({ error: 'selectedMealType is required for 7-meal plan.' })
         }
         const mealType = Array.isArray(selectedMealType) ? selectedMealType[0] : selectedMealType
-        if (targetCaloriesPerDay < 800) {
+        if (targetCaloriesPerDay > 2000) {
           targetCalories = targetCaloriesPerDay * 0.3
         }
         mealPlan = generate7MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, mealType)
+        console.log('7days meal plan ', mealPlan)
+        // return res.status(200).json({
+        //   mealPlan,
+        // })
       } else {
         return res.status(400).json({ error: 'Invalid selectedOption provided.' })
       }
@@ -825,33 +837,51 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         let dayProtein = 0
         let dayFat = 0
         let dayCarbs = 0
+        let breakfastItems = []
+        let lunchItems = []
+        let dinnerItems = []
 
-        // Process each meal type
-        const breakfastItems = dayMeals.breakfast ? transformMealItems(dayMeals.breakfast.items) : []
-        const lunchItems = dayMeals.lunch ? transformMealItems(dayMeals.lunch.items) : []
-        const dinnerItems = dayMeals.dinner ? transformMealItems(dayMeals.dinner.items) : []
+        // Handle all plan types (7, 14, 21)
+        if (dayMeals.breakfast) breakfastItems = transformMealItems(dayMeals.breakfast.items)
+        if (dayMeals.lunch) lunchItems = transformMealItems(dayMeals.lunch.items)
+        if (dayMeals.dinner) dinnerItems = transformMealItems(dayMeals.dinner.items)
 
-        // Calculate nutritional totals
-        if (dayMeals.breakfast) {
-          dayCalories += dayMeals.breakfast.totalCalories || 0
-          ;(dayProtein += dayMeals.breakfast.item.itemId.protein),
-            (dayFat += dayMeals.breakfast.item.itemId.fat),
-            (dayCarbs += dayMeals.breakfast.item.itemId.carbohydrate)
+        // For 7-meal plan
+        if (dayMeals.meal) {
+          if (dayMeals.meal.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.meal.items)
+          if (dayMeals.meal.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.meal.items)
+          if (dayMeals.meal.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.meal.items)
+        }
+        // For 14-meal plan
+        if (dayMeals.mealTypeA) {
+          if (dayMeals.mealTypeA.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.mealTypeA.items)
+          if (dayMeals.mealTypeA.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.mealTypeA.items)
+          if (dayMeals.mealTypeA.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.mealTypeA.items)
+        }
+        if (dayMeals.mealTypeB) {
+          if (dayMeals.mealTypeB.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.mealTypeB.items)
+          if (dayMeals.mealTypeB.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.mealTypeB.items)
+          if (dayMeals.mealTypeB.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.mealTypeB.items)
         }
 
-        if (dayMeals.lunch) {
-          dayCalories += dayMeals.lunch.totalCalories || 0
-          ;(dayProtein += dayMeals.lunch.item.itemId.protein),
-            (dayFat += dayMeals.lunch.item.itemId.fat),
-            (dayCarbs += dayMeals.lunch.item.itemId.carbohydrate)
-        }
+        // Calculate nutritional totals from all meals for the day
+        const allDayItems = [
+          ...(dayMeals.breakfast?.items || []),
+          ...(dayMeals.lunch?.items || []),
+          ...(dayMeals.dinner?.items || []),
+          ...(dayMeals.meal?.items || []),
+          ...(dayMeals.mealTypeA?.items || []),
+          ...(dayMeals.mealTypeB?.items || []),
+        ]
 
-        if (dayMeals.dinner) {
-          dayCalories += dayMeals.dinner.totalCalories || 0
-          ;(dayProtein += dayMeals.dinner.item.itemId.protein),
-            (dayFat += dayMeals.dinner.item.itemId.fat),
-            (dayCarbs += dayMeals.dinner.item.itemId.carbohydrate)
-        }
+        allDayItems.forEach((item) => {
+          dayCalories += item.calories || 0
+          if (item.itemId && item.itemId.nutrients) {
+            dayProtein += item.itemId.nutrients.protein || 0
+            dayFat += item.itemId.nutrients.fat || 0
+            dayCarbs += item.itemId.nutrients.carbohydrate || 0
+          }
+        })
 
         return {
           day: dayName,

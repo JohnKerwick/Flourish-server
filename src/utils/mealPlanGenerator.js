@@ -1,10 +1,11 @@
-function generate21MealPlan(
+function generate19MealPlan(
   breakfastMeals,
   lunchMeals,
   dinnerMeals,
   targetCaloriesPerDay,
+  rejectedmealtype,
   maxAttempts = 2000,
-  calorieMargin = 100
+  calorieMargin = 200
 ) {
   const mealsByTypeAndCategory = {
     Breakfast: { Franchise: [], 'Dining-Halls': [] },
@@ -54,7 +55,7 @@ function generate21MealPlan(
       const lunch = lunchOptions[Math.floor(Math.random() * lunchOptions.length)]
       const dinner = dinnerOptions[Math.floor(Math.random() * dinnerOptions.length)]
 
-      const totalCalories = breakfast.totalCalories + lunch.totalCalories + dinner.totalCalories
+      const totalCalories = breakfast?.totalCalories + lunch?.totalCalories + dinner?.totalCalories
 
       if (Math.abs(totalCalories - targetCaloriesPerDay) <= calorieMargin) {
         validCombo = { breakfast, lunch, dinner }
@@ -99,6 +100,18 @@ function generate21MealPlan(
   if (issues.length > 0) {
     throw new Error(`🚫 Meal plan generation failed for the following days:\n${issues.join('\n')}`)
   }
+  if (rejectedmealtype == 'Lunch') {
+    if (plan.day2?.lunch) delete plan.day2.lunch
+    if (plan.day3?.lunch) delete plan.day3.lunch
+  }
+  if (rejectedmealtype == 'Dinner') {
+    if (plan.day2?.dinner) delete plan.day2.dinner
+    if (plan.day3?.dinner) delete plan.day3.dinner
+  }
+  if (rejectedmealtype == 'Breakfast') {
+    if (plan.day2?.breakfast) delete plan.day2.breakfast
+    if (plan.day3?.breakfast) delete plan.day3.breakfast
+  }
 
   return plan
 }
@@ -113,9 +126,9 @@ function generate7MealPlan(
   calorieMargin = 200
 ) {
   const mealsByTypeAndCategory = {
-    Breakfast: { Franchise: [] },
-    Lunch: { Franchise: [] },
-    Dinner: { Franchise: [] },
+    Breakfast: { Franchise: [], 'Dining-Halls': [] },
+    Lunch: { Franchise: [], 'Dining-Halls': [] },
+    Dinner: { Franchise: [], 'Dining-Halls': [] },
   }
 
   const allMealsByType = {
@@ -129,11 +142,16 @@ function generate7MealPlan(
     if (meal.restaurantType === 'Franchise') {
       mealsByTypeAndCategory[meal.mealType]?.Franchise.push(meal)
     }
+    if (meal.restaurantType === 'Dining-Halls') {
+      mealsByTypeAndCategory[meal.mealType]?.['Dining-Halls'].push(meal)
+    }
     allMealsByType[meal.mealType]?.push(meal)
   })
 
   const franchiseMeals = mealsByTypeAndCategory[selectedMealType].Franchise
-  const allMeals = allMealsByType[selectedMealType]
+  const diningHallMeals = mealsByTypeAndCategory[selectedMealType]['Dining-Halls']
+  const combineMeals = [...franchiseMeals, ...diningHallMeals]
+  console.log('diningmeals', combineMeals)
 
   const plan = {}
   const issues = []
@@ -141,30 +159,31 @@ function generate7MealPlan(
   for (let day = 1; day <= 7; day++) {
     let selectedMeal = null
 
-    // Phase 1: Try Franchise meals
-    if (franchiseMeals.length > 0) {
+    // Phase 1: Franchise only
+    if (diningHallMeals.length > 0) {
       for (let attempt = 0; attempt < maxAttempts; attempt++) {
-        const meal = franchiseMeals[Math.floor(Math.random() * franchiseMeals.length)]
-        if (Math.abs(meal.totalCalories - targetCaloriesPerDay) <= calorieMargin) {
+        const meal = diningHallMeals[Math.floor(Math.random() * diningHallMeals.length)]
+        const totalCalories = meal?.totalCalories
+        if (typeof totalCalories === 'number' && Math.abs(totalCalories - targetCaloriesPerDay) <= calorieMargin) {
           selectedMeal = meal
           break
         }
       }
     }
 
-    // Phase 2: Relaxed mode - any restaurant type
-    if (!selectedMeal && allMeals.length > 0) {
-      console.warn(`⚠️ Day ${day}: Relaxing category constraint to include all meals for type ${selectedMealType}`)
+    // Phase 2: Use combined Franchise + Dining-Halls (no restriction)
+
+    if (combineMeals.length > 0) {
       for (let attempt = 0; attempt < maxAttempts; attempt++) {
-        const meal = allMeals[Math.floor(Math.random() * allMeals.length)]
-        if (Math.abs(meal.totalCalories - targetCaloriesPerDay) <= calorieMargin) {
+        const meal = combineMeals[Math.floor(Math.random() * combineMeals.length)]
+        const totalCalories = meal?.totalCalories
+        if (typeof totalCalories === 'number' && Math.abs(totalCalories - targetCaloriesPerDay) <= calorieMargin) {
           selectedMeal = meal
           break
         }
       }
     }
 
-    // Phase 3: Final fail
     if (!selectedMeal) {
       issues.push(`❌ Couldn't find valid meal for Day ${day}`)
       continue
@@ -278,7 +297,7 @@ function generate14MealPlan(
 }
 
 module.exports = {
-  generate21MealPlan,
+  generate19MealPlan,
   generate14MealPlan,
   generate7MealPlan,
 }
