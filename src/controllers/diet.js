@@ -754,13 +754,32 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
   createWeekPlan: asyncMiddleware(async (req, res) => {
     try {
       const {
-        selectedOption,
-        targetCaloriesPerDay,
-        preferredMealTypes, // For 14-meal plan
-        selectedMealType, // For 7-meal plan
-        rejectedMealType, // For 19-mealplan
-        campus,
+        // selectedOption,
+        // targetCaloriesPerDay,
+        // For 14-meal plan
+        // selectedMealType, // For 7-meal plan
+        // rejectedMealType, // For 19-mealplan
+        // campus,
       } = req.body
+
+      const token = req.headers.authorization?.split(' ')[1]
+      const decoded = jwt.decode(token)
+      const userId = decoded?._id
+      const user = await getUserById(userId)
+      const selectedOption = user.dietPlan.plan
+      const campus = user.student.school
+      // const selectedMeals = ['Lunch', 'Dinner']
+      const preferredMealTypes = user.dietPlan.selectedMeals
+      const selectedMealType = user.dietPlan.selectedMeals
+      const targetCaloriesPerDay = calculateBMR(user)
+      const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
+      const rejectedMealType = mealTypes[Math.floor(Math.random() * mealTypes.length)]
+      // const dietPlan = user.dietPlan.swipes
+
+      // const dietPlan = { diningHall: 3, franchise: 4 }
+      const totalCalories = calculateBMR(user)
+      console.log('totalCalories', totalCalories)
+
       var targetCalories = targetCaloriesPerDay
 
       const breakfastMeals = await GeneratedMeal.find({
@@ -796,13 +815,13 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
       let mealPlan
 
-      if (selectedOption === '21-meal') {
+      if (selectedOption === '19 Meals') {
         mealPlan = generate19MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCaloriesPerDay, rejectedMealType)
         console.log('21 days meal plan ', rejectedMealType)
         // return res.status(200).json({
         //   mealPlan,
         // })
-      } else if (selectedOption === '14-meal') {
+      } else if (selectedOption === '14 Meals') {
         if (!preferredMealTypes || preferredMealTypes.length !== 2) {
           return res.status(400).json({ error: 'preferredMealTypes (array of 2) is required for 14-meal plan.' })
         }
@@ -810,7 +829,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
           targetCalories = targetCaloriesPerDay * 0.6
         }
         mealPlan = generate14MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, preferredMealTypes)
-      } else if (selectedOption === '7-meal') {
+      } else if (selectedOption === '7 Meals') {
         if (!selectedMealType) {
           return res.status(400).json({ error: 'selectedMealType is required for 7-meal plan.' })
         }
