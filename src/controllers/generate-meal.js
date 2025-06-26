@@ -6,7 +6,7 @@ import { enforceTokenDelay, estimateChatTokens, getBestModelForTokens } from '..
 import { runMealGenerationManually } from '../utils/generate-meals_cron'
 
 export const CONTROLLER_GENERATE_MEAL = {
-  generateMeals: asyncMiddleware(async (req, resOrParams) => {
+  generateMealsWorking: asyncMiddleware(async (req, resOrParams) => {
     const isCron = !resOrParams || typeof resOrParams !== 'object' || !('status' in resOrParams)
     const input = isCron ? req : req.body
     const res = isCron ? { status: () => ({ json: () => {} }) } : resOrParams
@@ -181,7 +181,7 @@ export const CONTROLLER_GENERATE_MEAL = {
     }
   }),
 
-  generateMealsTesting: asyncMiddleware(async (req, resOrParams) => {
+  generateMeals: asyncMiddleware(async (req, resOrParams) => {
     const isCron = !resOrParams || typeof resOrParams !== 'object' || !('status' in resOrParams)
     const input = isCron ? req : req.body
     const res = isCron ? { status: () => ({ json: () => {} }) } : resOrParams
@@ -225,7 +225,7 @@ export const CONTROLLER_GENERATE_MEAL = {
       const prompt = `
 Below is a list of food items grouped by restaurant and meal type.
 
-🧠 Think like a **dietician planning student meals**. Generate **realistic, satisfying, balanced combinations**.
+🧠 Think like a **campus dietician** planning **20+ realistic, balanced student meals** for each restaurant.
 
 ---
 
@@ -233,36 +233,37 @@ Below is a list of food items grouped by restaurant and meal type.
 
 1. Meals must:
    - Use items from only **one restaurant**
-   - Match the given **meal type**
+   - Match the given **mealType**
    - Stay within **${calorieRange.min}-${calorieRange.max} calories**
-   - Include **2 to 4 items**, no duplicates
+   - Include **2 to 4 items** with no duplicates
 
 2. 🍱 Include:
-   - ✅ 1 main (e.g. chicken, burger, patty, tofu)
-   - ✅ 1 carb or side (e.g. rice, bread, pasta, naan)
-   - Optional: drink, vegetable, dessert
-   - ❌ Do NOT include only dressings or sauces
-   - ❌ Avoid more than 1 bread or 1 drink
+   - 1 main (e.g. chicken, patty, tofu, entrée)
+   - 1 side (rice, bread, vegetables, pasta)
+   - Optionally: 1 dessert, drink, or fruit
 
-3. Return at least **20 unique combinations** if possible.
+3. ❌ Avoid:
+   - Meals made only from sauces/dressings
+   - Meals with repeated items
 
----
-
-### 📦 Format:
-
-[
-  {
-    "mealType": "Lunch",
-    "restaurantName": "The Café",
-    "items": [
-      { "id": "item_id", "name": "Item Name", "calories": 123 }
-    ]
-  }
-]
+4. ✅ Do your best to create **at least 20** valid and unique meals.
 
 ---
 
-### Item Data:
+### 📦 Return ONLY a valid JSON array like this:
+
+
+{
+  "mealType": "Lunch",
+  "restaurantName": "The Café",
+  "items": [
+    { "id": "item_id", "name": "Item Name", "calories": 123 }
+  ]
+}
+
+---
+
+### 📄 Item Data:
 ${JSON.stringify(
   Object.entries(grouped).map(([key, items]) => {
     const [restaurantName, mealType] = key.split('::')
@@ -287,35 +288,62 @@ ${JSON.stringify(
       const jsonStart = aiResponse.indexOf('[')
       const jsonEnd = aiResponse.lastIndexOf(']')
       const jsonOnly = aiResponse.slice(jsonStart, jsonEnd + 1)
-      const combos = JSON.parse(jsonOnly)
-      console.log('🔍 Raw combos returned by OpenAI:', JSON.stringify(combos, null, 2))
-      console.log('🧪 First combo items:', combos[0]?.items)
+
+      let combos = []
+
+      try {
+        combos = JSON.parse(jsonOnly)
+      } catch (e) {
+        console.error('❌ Failed to parse AI response as JSON:', e.message)
+        console.error('⚠️ Raw AI response snippet:', aiResponse.slice(0, 500))
+        return res.status(500).json({ error: 'Failed to parse OpenAI response' })
+      }
 
       // Validation: realistic meals
+      const seenCombos = new Set()
+
       function isRealisticMeal(items = []) {
-        const names = items.map((i) => i?.name?.toLowerCase() || '')
+        if (!Array.isArray(items) || items.length < 2) return false
+
+        const comboKey = items
+          .map((i) => i?.itemId?.toString() || i?.id?.toString())
+          .sort()
+          .join('|')
+
+        if (seenCombos.has(comboKey)) return false
+        seenCombos.add(comboKey)
 
         const totalCalories = items.reduce((sum, i) => sum + (i.calories || 0), 0)
-
-        if (totalCalories < 300) {
-          console.warn('❌ Rejected: Total calories too low:', totalCalories)
+        if (totalCalories < 250 || totalCalories > 1600) {
+          console.warn('❌ Rejected: Calories out of bounds:', totalCalories)
           return false
         }
 
+        const names = items.map((i) => i.name?.toLowerCase() || '')
         const onlyDressings = names.every((n) => /dressing|sauce/.test(n))
-        if (onlyDressings) {
-          console.warn('❌ Rejected: Only sauces')
-          return false
-        }
+        if (onlyDressings) return false
+
+        const breadCount = names.filter((n) => /bread|bun|naan|pita|biscuit/.test(n)).length
+        if (breadCount > 2) return false
 
         return true
       }
 
       const validCombos = combos.filter((combo) => {
-        const enriched = combo.items.map((i) => items.find((m) => m._id.toString() === i.id.toString())).filter(Boolean)
-        if (!enriched.length || !isRealisticMeal(enriched)) return false
-        const first = enriched[0]
-        return enriched.every((i) => i.restaurantName === first.restaurantName)
+        const enrichedItems = combo.items
+          .map((item) => items.find((m) => m._id.toString() === item.id?.toString()))
+          .filter(Boolean) // filter out not found
+
+        if (!enrichedItems.length || enrichedItems.length !== combo.items.length) {
+          console.warn('❌ Skipping combo due to missing item matches')
+          return false
+        }
+
+        // if (!isRealisticMeal(enrichedItems)) return false
+
+        // Ensure restaurant consistency
+        const first = enrichedItems[0]
+        return enrichedItems.every((i) => i.restaurantName === first.restaurantName)
       })
 
       // Final payload
