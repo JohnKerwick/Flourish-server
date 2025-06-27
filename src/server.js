@@ -20,6 +20,7 @@ import { init as initSocket } from './socket.js'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)
 // setupSocketEventHandlers()
+import './utils/generate-meals_cron.js' // Import the cron job setup (GENERATE_MEAL_CRON)
 
 const app = express()
 const server = http.createServer(app)
