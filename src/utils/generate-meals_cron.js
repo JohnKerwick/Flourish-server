@@ -5,53 +5,71 @@ import { sleep } from './estimateTokens'
 
 const campuses = ['HPU', 'UMD', 'UNCC']
 const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
+// const calorieRanges = {
+//   Breakfast: { min: 200, max: 800 },
+//   Lunch: { min: 600, max: 1200 },
+//   Dinner: { min: 800, max: 1500 },
+// }
 const calorieRanges = {
-  Breakfast: { min: 200, max: 800 },
-  Lunch: { min: 600, max: 1200 },
-  Dinner: { min: 800, max: 1500 },
+  Breakfast: { min: 200, max: 2000 },
+  Lunch: { min: 200, max: 2000 },
+  Dinner: { min: 200, max: 2000 },
 }
 
-const jobs = []
-let jobIndex = 0
+// 👇 Wrap everything in an async IIFE
+;(async () => {
+  console.log('📅 Initializing meal generation cron jobs...')
+  const jobs = []
+  let jobIndex = 0
+  let count = 0
+  for (const campus of campuses) {
+    for (const type of mealTypes) {
+      const calorieRange = calorieRanges[type]
 
-for (const campus of campuses) {
-  for (const type of mealTypes) {
-    const calorieRange = calorieRanges[type]
+      const totalMinutes = 15 + jobIndex * 3
+      const minute = totalMinutes % 60
+      const hour = Math.floor(totalMinutes / 60)
 
-    const totalMinutes = jobIndex * 3
-    const minute = totalMinutes % 60
-    const hour = Math.floor(totalMinutes / 60)
+      const job = schedule(
+        `${minute} ${hour} * * *`,
+        async () => {
+          const body = {
+            campus: [campus],
+            types: [type],
+            calorieRange,
+          }
 
-    const job = schedule(
-      `${minute} ${hour} * * *`,
-      async () => {
-        const body = {
-          campus: [campus],
-          types: [type],
-          calorieRange,
-        }
+          console.log(`🔁 [${campus}] [${type}] Starting job at ${hour}:${minute} (ET)`)
 
-        console.log(`🔁 [${campus}] [${type}] Starting job at ${hour}:${minute} (ET)`)
+          try {
+            if (count === 0) {
+              // should be new GeneratedMealNew
+              console.log('🧹 Deleting old generated meals...')
+              await GeneratedMeal.deleteMany({})
+              console.log('✅ Old meals deleted.')
+            }
+            await CONTROLLER_GENERATE_MEAL.generateMealsTesting(body)
+            console.log(`✅ Success for ${campus} - ${type}`)
+            count++
+          } catch (err) {
+            console.error(`❌ Failed for ${campus} - ${type}`, err)
+          }
+        },
+        { timezone: 'America/New_York' }
+      )
 
-        try {
-          await CONTROLLER_GENERATE_MEAL.generateMeals(body)
-          console.log(`✅ Success for ${campus} - ${type}`)
-        } catch (err) {
-          console.error(`❌ Failed for ${campus} - ${type}`, err)
-        }
-      },
-      { timezone: 'America/New_York' }
-    )
-
-    jobs.push(job)
-    jobIndex++
+      jobs.push(job)
+      jobIndex++
+    }
   }
-}
-console.log('📆 Meal generation cron jobs initialized.')
+  console.log('📆 Meal generation cron jobs initialized.')
+})()
+
 // Manual trigger function (for testing)
 export async function runMealGenerationManually() {
   console.log('🧪 Manually triggering all 9 meal generation jobs...')
-
+  await GeneratedMeal.deleteMany({})
+  console.log('🧹 Deleted all existing generated meals.')
   for (const campus of campuses) {
     for (const type of mealTypes) {
       const calorieRange = calorieRanges[type]
@@ -63,7 +81,7 @@ export async function runMealGenerationManually() {
 
       console.log(`🔁 [Manual] Generating for ${campus} - ${type}`)
       try {
-        await CONTROLLER_GENERATE_MEAL.generateMeals(body)
+        await CONTROLLER_GENERATE_MEAL.generateMealsTesting(body)
         console.log(`✅ [Manual] Success for ${campus} - ${type}`)
       } catch (err) {
         console.error(`❌ [Manual] Failed for ${campus} - ${type}`, err)
