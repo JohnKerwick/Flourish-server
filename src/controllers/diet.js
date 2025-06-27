@@ -574,20 +574,18 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const decoded = jwt.decode(token)
       const userId = decoded?._id
       const user = await getUserById(userId)
-      const selectedOption = '21 Meals'
+      const selectedOption = user.dietPlan.plan
       const campus = user.student.school
-      // const selectedMeals = ['Lunch', 'Dinner']
-      const preferredMealTypes = ['Lunch', 'Dinner']
-      const selectedMealType = ['Breakfast']
+      //6j const selectedMeals = ['Lunch', 'Dinner']
+      const preferredMealTypes = user.dietPlan.selectedMeals
+      const selectedMealType = user.dietPlan.selectedMeals
       const targetCaloriesPerDay = calculateBMR(user)
       const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
       const rejectedMealType = mealTypes[Math.floor(Math.random() * mealTypes.length)]
       // const dietPlan = user.dietPlan.swipes
-
       // const dietPlan = { diningHall: 3, franchise: 4 }
       const totalCalories = calculateBMR(user)
       console.log('totalCalories', totalCalories)
-
       var targetCalories = targetCaloriesPerDay
 
       const breakfastMeals = await GeneratedMealNew.find({
