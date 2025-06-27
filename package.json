@@ -115,6 +115,7 @@
     "stripe": "^8.213.0",
     "swagger-ui-express": "^4.5.0",
     "tesseract.js": "^6.0.0",
+    "tiktoken": "^1.0.21",
     "twilio": "^4.22.0",
     "yamljs": "^0.3.0"
   }

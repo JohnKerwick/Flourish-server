@@ -2,6 +2,7 @@
 import express, { Router } from 'express'
 
 // * Controllers
+// ? new comment
 
 import { CONTROLLER_DIET } from '../controllers'
 
@@ -11,18 +12,35 @@ import { USER_TYPES } from '../utils'
 
 const router = Router()
 
+// router.post(
+//   '/diet-plan',
+//   Authenticate(),
+//   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+//   CONTROLLER_DIET.getWeeklyDietPlan
+// )
+
 router.post(
   '/diet-plan',
   Authenticate(),
   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-  CONTROLLER_DIET.getWeeklyDietPlan
+  CONTROLLER_DIET.createWeekPlan
 )
+
 router.post(
   '/create-diet-plan',
   Authenticate(),
   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
   CONTROLLER_DIET.createWeeklyDietPlan
 )
+// for testing
+// router.post(
+//   '/create-week-plan',
+//   Authenticate(),
+//   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+//   CONTROLLER_DIET.createWeekPlan
+// )
+//  testing
+
 router.get(
   '/get-diet-details',
   Authenticate(),

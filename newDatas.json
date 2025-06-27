@@ -1,0 +1,2102 @@
+[
+  {
+    "day": "Monday",
+    "breakfast": [
+      {
+        "_id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Piece",
+        "nutrients": {
+          "calories": 470,
+          "protein": 20,
+          "fat": 31,
+          "carbohydrate": 31
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Dairy",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acadd500524d65401f31e8",
+        "name": "Add Pimento Cheese",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 170,
+          "protein": 5,
+          "fat": 16,
+          "carbohydrate": 2
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "category": "Dairy",
+        "restaurantType": "Franchise",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "Bojangles"
+      },
+      {
+        "_id": "67acadd500524d65401f322d",
+        "name": "Macaroni 'N Cheese, Individual",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 280,
+          "protein": 8,
+          "fat": 18,
+          "carbohydrate": 21
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "category": "Dairy",
+        "restaurantType": "Franchise",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "Bojangles"
+      }
+    ],
+    "lunch": [
+      {
+        "_id": "67b8e17e1ff573cd6ff57b75",
+        "name": "Teriyaki Chicken",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Onion",
+          "Soy",
+          "Wheat",
+          "Sulphites",
+          "Poultry",
+          "Alcohol"
+        ],
+        "dieteryPreferences": [
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Chicken Thigh",
+          "Water",
+          "Soy Sauce^",
+          "Green Onions",
+          "Sugar",
+          "Rice Wine^",
+          "Ginger Root",
+          "Sherry Cooking Wine^",
+          "Cornstarch"
+        ],
+        "likedBy": [],
+        "serving": "5 ounce",
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "nutrients": {
+          "calories": 210,
+          "protein": 27,
+          "fat": 9,
+          "carbohydrate": 4
+        },
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "6799d3b182a7649a9de25ca2",
+        "name": "Caesar Dressing",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Celery*",
+          "Milk",
+          "Garlic",
+          "Mustard",
+          "Fish"
+        ],
+        "dieteryPreferences": [
+          "Avoiding Gluten"
+        ],
+        "ingredients": [
+          "Creamy Caesar Dressing^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 150,
+          "protein": 1,
+          "fat": 16,
+          "carbohydrate": 1
+        },
+        "serving": "1 floz",
+        "restaurantName": "Social 704",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "6799d63982a7649a9de25e64",
+        "name": "Beef Taco Meat",
+        "type": "Dinner",
+        "__v": 0,
+        "allergens": [
+          "Onion",
+          "Garlic",
+          "Tomato",
+          "Beef"
+        ],
+        "dieteryPreferences": [
+          "Avoiding Gluten",
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Ground Beef",
+          "Tomato Puree^",
+          "Green Bell Peppers",
+          "Yellow Onions",
+          "Canola Oil",
+          "Lime",
+          "Chili Powder^",
+          "Garlic",
+          "Cumin",
+          "Garlic",
+          "Onion",
+          "Black Pepper",
+          "Cilantro",
+          "Chipotle Chili Pepper^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 230,
+          "protein": 18,
+          "fat": 13,
+          "carbohydrate": 11
+        },
+        "serving": "4 ounce",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Main",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "dinner": [
+      {
+        "_id": "67acaa04fab1224e8694048b",
+        "name": "Hash Brown Scramble Bowl with Bacon, No Hash Browns",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 300,
+          "protein": 22,
+          "fat": 22,
+          "carbohydrate": 2
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "680bb52a1b46453f1ef4752a",
+        "name": "Chick-Fil-A Filet",
+        "__v": 0,
+        "allergens": [],
+        "dieteryPreferences": [],
+        "ingredients": [],
+        "isAvailable": true,
+        "likedBy": [],
+        "nutrients": {
+          "calories": 250,
+          "protein": 24,
+          "fat": 12,
+          "carbohydrate": 12
+        },
+        "serving": "1.00 Serving",
+        "type": "Dinner",
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "caloriesBMR": 2281.14,
+    "caloriesProvided": 2060,
+    "proteinProvided": 125,
+    "fatProvided": 137,
+    "carbsProvided": 84
+  },
+  {
+    "day": "Tuesday",
+    "breakfast": [
+      {
+        "_id": "67acaacba0812499dafa5409",
+        "name": "Butter Croissant",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Piece",
+        "nutrients": {
+          "calories": 250,
+          "protein": 5,
+          "fat": 14,
+          "carbohydrate": 26
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaacba0812499dafa53f4",
+        "name": "Bacon & Gruyere Egg Bites",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Piece",
+        "nutrients": {
+          "calories": 300,
+          "protein": 19,
+          "fat": 20,
+          "carbohydrate": 9
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaacba0812499dafa5424",
+        "name": "Caffe Latte with Whole Milk, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 180,
+          "protein": 9,
+          "fat": 9,
+          "carbohydrate": 15
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaacba0812499dafa53ec",
+        "name": "2% Milk, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 200,
+          "protein": 13,
+          "fat": 8,
+          "carbohydrate": 19
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "lunch": [
+      {
+        "_id": "67d7bb8f0767fdf567561cb2",
+        "type": "Lunch",
+        "name": "Classic Hummus",
+        "__v": 0,
+        "allergens": [
+          "Garlic",
+          "Sesame"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Avoiding Gluten",
+          "Good Source of Protein",
+          "Vegan"
+        ],
+        "ingredients": [
+          "Low Sodium Chick Peas^",
+          "Water",
+          "Sesame Tahini Paste",
+          "Lemon Juice",
+          "Cumin",
+          "Garlic",
+          "Kosher Salt^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 360,
+          "protein": 17,
+          "fat": 13,
+          "carbohydrate": 49
+        },
+        "serving": "3/4 cup",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "67d7bb8b0767fdf567561c87",
+        "name": "Veggie Pizza",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Milk",
+          "Onion",
+          "Wheat",
+          "Garlic",
+          "Tomato",
+          "Mushroom",
+          "Egg*",
+          "Soy*",
+          "Sesame*"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Pizza Dough^",
+          "Part Skim Mozzarella Cheese^",
+          "Tomatoes^",
+          "Green Bell Peppers",
+          "Red Onions",
+          "Black Olives^",
+          "Mushrooms",
+          "Canola Oil",
+          "Kosher Salt^",
+          "Basil",
+          "Garlic",
+          "Black Pepper"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 170,
+          "protein": 7,
+          "fat": 4,
+          "carbohydrate": 26
+        },
+        "serving": "1 slice",
+        "restaurantName": "Social 704",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Main",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "67d7bb8e0767fdf567561ca0",
+        "name": "Sesame Dressing",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Mustard*",
+          "Soy",
+          "Wheat",
+          "Garlic",
+          "Sesame",
+          "Beef*",
+          "Pork*"
+        ],
+        "dieteryPreferences": [],
+        "ingredients": [
+          "Sesame Dressing^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 110,
+          "protein": 0,
+          "fat": 9,
+          "carbohydrate": 6
+        },
+        "serving": "1 floz",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "dinner": [
+      {
+        "_id": "67acaa04fab1224e8694048a",
+        "name": "Hash Brown Scramble Bowl with Bacon",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 450,
+          "protein": 23,
+          "fat": 32,
+          "carbohydrate": 15
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaa04fab1224e86940485",
+        "name": "Grilled Filet",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 110,
+          "protein": 21,
+          "fat": 2,
+          "carbohydrate": 1
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "caloriesBMR": 2281.14,
+    "caloriesProvided": 2130,
+    "proteinProvided": 114,
+    "fatProvided": 111,
+    "carbsProvided": 166
+  },
+  {
+    "day": "Wednesday",
+    "breakfast": [
+      {
+        "_id": "67acaacba0812499dafa560e",
+        "name": "Cheese Trio Protein Box",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Piece",
+        "nutrients": {
+          "calories": 520,
+          "protein": 20,
+          "fat": 24,
+          "carbohydrate": 59
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Dairy",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaacba0812499dafa5411",
+        "name": "Caffe Latte with 2% Milk, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 150,
+          "protein": 10,
+          "fat": 6,
+          "carbohydrate": 15
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaacba0812499dafa5419",
+        "name": "Caffe Latte with Coconut Milk, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 110,
+          "protein": 1,
+          "fat": 7,
+          "carbohydrate": 11
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaacba0812499dafa53fd",
+        "name": "Blended Strawberry Lemonade, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 160,
+          "protein": 0,
+          "fat": 0,
+          "carbohydrate": 40
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "lunch": [
+      {
+        "_id": "67d7bb8c0767fdf567561c8d",
+        "name": "Chicken Tenders",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Celery*",
+          "Gluten",
+          "Milk",
+          "Mustard*",
+          "Onion",
+          "Wheat",
+          "Poultry"
+        ],
+        "dieteryPreferences": [
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Breaded Chicken Breast^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 340,
+          "protein": 12,
+          "fat": 22,
+          "carbohydrate": 22
+        },
+        "serving": "2 each",
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "6799d5d982a7649a9de25e04",
+        "name": "Alfredo Sauce",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Milk",
+          "Wheat",
+          "Garlic"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian"
+        ],
+        "ingredients": [
+          "Whole Milk^",
+          "Whipping Cream^",
+          "Parmesan Cheese^",
+          "Unsalted Butter",
+          "All Purpose Flour^",
+          "Garlic",
+          "Kosher Salt^",
+          "White Pepper"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 220,
+          "protein": 6,
+          "fat": 18,
+          "carbohydrate": 8
+        },
+        "serving": "1/2 cup",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "6799d3d682a7649a9de25cb9",
+        "name": "Ranch Dressing",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Egg",
+          "Milk",
+          "Onion",
+          "Garlic",
+          "Gluten*",
+          "Mustard",
+          "MSG"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian"
+        ],
+        "ingredients": [
+          "Low Fat Buttermilk^",
+          "Mayonnaise^",
+          "Ranch Dressing Mix^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 110,
+          "protein": 1,
+          "fat": 11,
+          "carbohydrate": 1
+        },
+        "serving": "1 floz",
+        "restaurantName": "Social 704",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "dinner": [
+      {
+        "_id": "680bb52a1b46453f1ef47527",
+        "name": "Chick-Fil-A Deluxe Sandwich with No Cheese",
+        "__v": 0,
+        "allergens": [],
+        "dieteryPreferences": [],
+        "ingredients": [],
+        "isAvailable": true,
+        "likedBy": [],
+        "nutrients": {
+          "calories": 430,
+          "protein": 29,
+          "fat": 18,
+          "carbohydrate": 43
+        },
+        "serving": "1.00 Serving",
+        "type": "Dinner",
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaa04fab1224e8694048f",
+        "name": "Hash Brown Scramble Bowl with No Meat, No Hash Browns",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 200,
+          "protein": 16,
+          "fat": 14,
+          "carbohydrate": 3
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "caloriesBMR": 2281.14,
+    "caloriesProvided": 2240,
+    "proteinProvided": 95,
+    "fatProvided": 120,
+    "carbsProvided": 202
+  },
+  {
+    "day": "Thursday",
+    "breakfast": [
+      {
+        "_id": "67b8e1801ff573cd6ff57b85",
+        "type": "Breakfast",
+        "name": "Pork Sausage Patty",
+        "__v": 0,
+        "allergens": [
+          "Celery*",
+          "Mustard*",
+          "Pork"
+        ],
+        "dieteryPreferences": [
+          "Avoiding Gluten",
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Pork Sausage^"
+        ],
+        "likedBy": [],
+        "serving": "2 each",
+        "nutrients": {
+          "calories": 360,
+          "protein": 10,
+          "fat": 34,
+          "carbohydrate": 2
+        },
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "67dbfeed9b6775dfb1ef5bf7",
+        "type": "Breakfast",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Onion",
+          "Soy",
+          "Wheat",
+          "Garlic",
+          "Tomato"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Good Source of Protein",
+          "Vegan"
+        ],
+        "ingredients": [
+          "Tofu^",
+          "Vegan Mozzarella^",
+          "Green Bell Peppers",
+          "Tomatoes",
+          "Soy Sauce^",
+          "Canola Oil",
+          "Green Onions",
+          "Garlic",
+          "Chili Powder^",
+          "Turmeric"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 160,
+          "protein": 10,
+          "fat": 10,
+          "carbohydrate": 7
+        },
+        "serving": "1/2 cup",
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
+        "type": "Breakfast",
+        "__v": 0,
+        "allergens": [
+          "Milk",
+          "Gluten*"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "How Good Friendly"
+        ],
+        "ingredients": [
+          "Water",
+          "Grits^",
+          "Cheddar Cheese^",
+          "Salt"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 130,
+          "protein": 4,
+          "fat": 4,
+          "carbohydrate": 19
+        },
+        "serving": "6 floz",
+        "category": "Side",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "67acaacba0812499dafa53f2",
+        "name": "Apple Juice, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbohydrate": 49
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67d7bb7a0767fdf567561c79",
+        "name": "Shredded Sharp Cheddar Cheese",
+        "type": "Breakfast",
+        "__v": 0,
+        "allergens": [
+          "Milk"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Avoiding Gluten"
+        ],
+        "ingredients": [
+          "Sharp Cheddar Cheese^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 110,
+          "protein": 6,
+          "fat": 9,
+          "carbohydrate": 1
+        },
+        "serving": "2 tbsp",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Dairy",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "lunch": [
+      {
+        "_id": "679b3e7b3ee80063f9fe9508",
+        "name": "Hoagie Roll",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Soy",
+          "Wheat"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Vegan"
+        ],
+        "ingredients": [
+          "Hoagie Roll^"
+        ],
+        "likedBy": [],
+        "serving": "1 each",
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi",
+        "nutrients": {
+          "calories": 200,
+          "protein": 6,
+          "fat": 3,
+          "carbohydrate": 36
+        }
+      },
+      {
+        "_id": "6799d3b182a7649a9de25ca2",
+        "name": "Caesar Dressing",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Celery*",
+          "Milk",
+          "Garlic",
+          "Mustard",
+          "Fish"
+        ],
+        "dieteryPreferences": [
+          "Avoiding Gluten"
+        ],
+        "ingredients": [
+          "Creamy Caesar Dressing^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 150,
+          "protein": 1,
+          "fat": 16,
+          "carbohydrate": 1
+        },
+        "serving": "1 floz",
+        "restaurantName": "Social 704",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "67ce9958be8ffe192f21858a",
+        "name": "Cheese Pizza",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Milk",
+          "Wheat",
+          "Garlic",
+          "Tomato",
+          "Egg*",
+          "Soy*",
+          "Sesame*"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Pizza Dough^",
+          "Part Skim Mozzarella Cheese^",
+          "Tomatoes^",
+          "Canola Oil",
+          "Parmesan Cheese^",
+          "Kosher Salt^",
+          "Garlic",
+          "Garlic",
+          "Basil",
+          "Black Pepper",
+          "Basil",
+          "Parsley",
+          "Oregano",
+          "Red Pepper"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 430,
+          "protein": 19,
+          "fat": 10,
+          "carbohydrate": 67
+        },
+        "serving": "2 slice",
+        "restaurantName": "Social 704",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Main",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "dinner": [
+      {
+        "_id": "67acaa04fab1224e86940484",
+        "name": "Grilled Chicken Sandwich",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 570,
+          "protein": 29,
+          "fat": 33,
+          "carbohydrate": 36
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "Bojangles",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaa04fab1224e8694048a",
+        "name": "Hash Brown Scramble Bowl with Bacon",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 450,
+          "protein": 23,
+          "fat": 32,
+          "carbohydrate": 15
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "caloriesBMR": 2281.14,
+    "caloriesProvided": 2750,
+    "proteinProvided": 108,
+    "fatProvided": 151,
+    "carbsProvided": 233
+  },
+  {
+    "day": "Friday",
+    "breakfast": [
+      {
+        "_id": "67acaacba0812499dafa5419",
+        "name": "Caffe Latte with Coconut Milk, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 110,
+          "protein": 1,
+          "fat": 7,
+          "carbohydrate": 11
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaacba0812499dafa53f2",
+        "name": "Apple Juice, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbohydrate": 49
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaacba0812499dafa5421",
+        "name": "Caffe Latte with Soy Milk, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 150,
+          "protein": 8,
+          "fat": 4.5,
+          "carbohydrate": 18
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "lunch": [
+      {
+        "_id": "67d7bb8b0767fdf567561c89",
+        "name": "Penne Pasta",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Egg",
+          "Gluten",
+          "Wheat"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "How Good Friendly"
+        ],
+        "ingredients": [
+          "Water",
+          "Barilla Plus Penne^",
+          "Canola Oil"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 110,
+          "protein": 5,
+          "fat": 1.5,
+          "carbohydrate": 19
+        },
+        "serving": "1/2 cup",
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "6799d56782a7649a9de25d9b",
+        "name": "Beef Taco Meat",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Onion",
+          "Garlic",
+          "Tomato",
+          "Beef"
+        ],
+        "dieteryPreferences": [
+          "Avoiding Gluten",
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Ground Beef",
+          "Tomato Puree^",
+          "Green Bell Peppers",
+          "Yellow Onions",
+          "Canola Oil",
+          "Lime",
+          "Chili Powder^",
+          "Garlic",
+          "Cumin",
+          "Garlic",
+          "Onion",
+          "Black Pepper",
+          "Cilantro",
+          "Chipotle Chili Pepper^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 230,
+          "protein": 18,
+          "fat": 13,
+          "carbohydrate": 11
+        },
+        "serving": "4 ounce",
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "679b3e7b3ee80063f9fe94ed",
+        "name": "Crispy Tortilla Chips",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [],
+        "dieteryPreferences": [],
+        "ingredients": [
+          "Corn Tortilla^",
+          "Kosher Salt^"
+        ],
+        "likedBy": [],
+        "serving": "3 oz portion",
+        "nutrients": {
+          "calories": 170,
+          "protein": 4,
+          "fat": 2.5,
+          "carbohydrate": 35
+        },
+        "category": "Side",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "Social 704"
+      },
+      {
+        "_id": "67d7bb8f0767fdf567561cbb",
+        "name": "Grilled Chicken",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Poultry"
+        ],
+        "dieteryPreferences": [
+          "Avoiding Gluten",
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Chicken Breast^",
+          "Canola Oil"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 120,
+          "protein": 23,
+          "fat": 3,
+          "carbohydrate": 0
+        },
+        "serving": "1 each",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Main",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "dinner": [
+      {
+        "_id": "67acaa04fab1224e8694048c",
+        "name": "Hash Brown Scramble Bowl with Grilled Filet",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 420,
+          "protein": 31,
+          "fat": 26,
+          "carbohydrate": 15
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaa04fab1224e86940485",
+        "name": "Grilled Filet",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 110,
+          "protein": 21,
+          "fat": 2,
+          "carbohydrate": 1
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaa04fab1224e8694048d",
+        "name": "Hash Brown Scramble Bowl with Grilled Filet, No Hash Browns",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 270,
+          "protein": 30,
+          "fat": 16,
+          "carbohydrate": 2
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "caloriesBMR": 2281.14,
+    "caloriesProvided": 1880,
+    "proteinProvided": 141,
+    "fatProvided": 75.5,
+    "carbsProvided": 161
+  },
+  {
+    "day": "Saturday",
+    "breakfast": [
+      {
+        "_id": "67acaacba0812499dafa560b",
+        "name": "Cheddar & Uncured Salami Protein Box",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Piece",
+        "nutrients": {
+          "calories": 470,
+          "protein": 20,
+          "fat": 31,
+          "carbohydrate": 31
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Dairy",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acadd500524d65401f322e",
+        "name": "Macaroni 'N Cheese, Picnic",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 870,
+          "protein": 24,
+          "fat": 54,
+          "carbohydrate": 64
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "category": "Dairy",
+        "restaurantType": "Franchise",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "Bojangles"
+      }
+    ],
+    "lunch": [
+      {
+        "_id": "6799d3b182a7649a9de25ca2",
+        "name": "Caesar Dressing",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Celery*",
+          "Milk",
+          "Garlic",
+          "Mustard",
+          "Fish"
+        ],
+        "dieteryPreferences": [
+          "Avoiding Gluten"
+        ],
+        "ingredients": [
+          "Creamy Caesar Dressing^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 150,
+          "protein": 1,
+          "fat": 16,
+          "carbohydrate": 1
+        },
+        "serving": "1 floz",
+        "restaurantName": "Social 704",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "67d7bb8f0767fdf567561cb7",
+        "type": "Lunch",
+        "name": "Portobello Mushroom Crust Pizza",
+        "__v": 0,
+        "allergens": [
+          "Milk",
+          "Onion",
+          "Garlic",
+          "Tomato",
+          "Mushroom"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Avoiding Gluten"
+        ],
+        "ingredients": [
+          "Mushrooms",
+          "Whole Milk Mozzarella Cheese^",
+          "Tomatoes",
+          "Tomatoes^",
+          "Olive Oil",
+          "Tomato Puree^",
+          "Kosher Salt^",
+          "Basil",
+          "Garlic",
+          "Yellow Onions",
+          "Italian Seasoning^",
+          "Black Pepper",
+          "Sea Salt",
+          "Garlic",
+          "Basil",
+          "Oregano",
+          "Red Pepper"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 130,
+          "protein": 5,
+          "fat": 10,
+          "carbohydrate": 5
+        },
+        "serving": "1 each",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Main",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "67d7bb8f0767fdf567561cb6",
+        "type": "Lunch",
+        "name": "Cheese Cauliflower Crust Pizza",
+        "__v": 0,
+        "allergens": [
+          "Egg",
+          "Milk",
+          "Garlic",
+          "Tomato"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Avoiding Gluten",
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Gluten Free Cauliflower Pizza Crust^",
+          "Tomatoes^",
+          "Part Skim Mozzarella Cheese^",
+          "Cheddar Cheese^",
+          "Parmesan Cheese^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 190,
+          "protein": 9,
+          "fat": 8,
+          "carbohydrate": 22
+        },
+        "serving": "1 slice",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Main",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "dinner": [
+      {
+        "_id": "680bb5281b46453f1ef47520",
+        "name": "Chick-Fil-A Chicken Biscuit",
+        "__v": 0,
+        "allergens": [],
+        "dieteryPreferences": [],
+        "ingredients": [],
+        "isAvailable": true,
+        "likedBy": [],
+        "nutrients": {
+          "calories": 460,
+          "protein": 19,
+          "fat": 23,
+          "carbohydrate": 45
+        },
+        "serving": "1.00 Serving",
+        "type": "Dinner",
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaa04fab1224e8694048e",
+        "name": "Hash Brown Scramble Bowl with No Meat",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 350,
+          "protein": 17,
+          "fat": 24,
+          "carbohydrate": 16
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "caloriesBMR": 2281.14,
+    "caloriesProvided": 2620,
+    "proteinProvided": 95,
+    "fatProvided": 166,
+    "carbsProvided": 184
+  },
+  {
+    "day": "Sunday",
+    "breakfast": [
+      {
+        "_id": "67b8e1801ff573cd6ff57b85",
+        "type": "Breakfast",
+        "name": "Pork Sausage Patty",
+        "__v": 0,
+        "allergens": [
+          "Celery*",
+          "Mustard*",
+          "Pork"
+        ],
+        "dieteryPreferences": [
+          "Avoiding Gluten",
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Pork Sausage^"
+        ],
+        "likedBy": [],
+        "serving": "2 each",
+        "nutrients": {
+          "calories": 360,
+          "protein": 10,
+          "fat": 34,
+          "carbohydrate": 2
+        },
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "67d7bb780767fdf567561c70",
+        "name": "Low Fat Strawberry Yogurt",
+        "type": "Breakfast",
+        "__v": 0,
+        "allergens": [
+          "Milk",
+          "Strawberry"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Avoiding Gluten"
+        ],
+        "ingredients": [
+          "Low Fat Strawberry Yogurt^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 110,
+          "protein": 4,
+          "fat": 0.5,
+          "carbohydrate": 22
+        },
+        "serving": "4 ounce",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Dairy",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "67dbfeed9b6775dfb1ef5bf7",
+        "type": "Breakfast",
+        "name": "Vegan Cheese, Tofu Fajita Scramble",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Onion",
+          "Soy",
+          "Wheat",
+          "Garlic",
+          "Tomato"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "Good Source of Protein",
+          "Vegan"
+        ],
+        "ingredients": [
+          "Tofu^",
+          "Vegan Mozzarella^",
+          "Green Bell Peppers",
+          "Tomatoes",
+          "Soy Sauce^",
+          "Canola Oil",
+          "Green Onions",
+          "Garlic",
+          "Chili Powder^",
+          "Turmeric"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 160,
+          "protein": 10,
+          "fat": 10,
+          "carbohydrate": 7
+        },
+        "serving": "1/2 cup",
+        "category": "Main",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "67ee2ea57f4ebc37de6fcadb",
+        "name": "Cheese Grits",
+        "type": "Breakfast",
+        "__v": 0,
+        "allergens": [
+          "Milk",
+          "Gluten*"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian",
+          "How Good Friendly"
+        ],
+        "ingredients": [
+          "Water",
+          "Grits^",
+          "Cheddar Cheese^",
+          "Salt"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 130,
+          "protein": 4,
+          "fat": 4,
+          "carbohydrate": 19
+        },
+        "serving": "6 floz",
+        "category": "Side",
+        "restaurantType": "Dining-Halls",
+        "campus": [
+          "UNCC"
+        ],
+        "restaurantName": "SoVi"
+      },
+      {
+        "_id": "67acaacba0812499dafa53f2",
+        "name": "Apple Juice, Tall",
+        "type": "Breakfast",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "12.00 fl oz",
+        "nutrients": {
+          "calories": 190,
+          "protein": 0,
+          "fat": 0,
+          "carbohydrate": 49
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UNCC"
+        ],
+        "restaurantName": "Starbucks",
+        "category": "Drink",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "lunch": [
+      {
+        "_id": "6799d5d982a7649a9de25e04",
+        "name": "Alfredo Sauce",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Milk",
+          "Wheat",
+          "Garlic"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian"
+        ],
+        "ingredients": [
+          "Whole Milk^",
+          "Whipping Cream^",
+          "Parmesan Cheese^",
+          "Unsalted Butter",
+          "All Purpose Flour^",
+          "Garlic",
+          "Kosher Salt^",
+          "White Pepper"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 220,
+          "protein": 6,
+          "fat": 18,
+          "carbohydrate": 8
+        },
+        "serving": "1/2 cup",
+        "restaurantName": "SoVi",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "6799d3d682a7649a9de25cb9",
+        "name": "Ranch Dressing",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Egg",
+          "Milk",
+          "Onion",
+          "Garlic",
+          "Gluten*",
+          "Mustard",
+          "MSG"
+        ],
+        "dieteryPreferences": [
+          "Vegetarian"
+        ],
+        "ingredients": [
+          "Low Fat Buttermilk^",
+          "Mayonnaise^",
+          "Ranch Dressing Mix^"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 110,
+          "protein": 1,
+          "fat": 11,
+          "carbohydrate": 1
+        },
+        "serving": "1 floz",
+        "restaurantName": "Social 704",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Condiment",
+        "restaurantType": "Dining-Halls"
+      },
+      {
+        "_id": "67ce99bbbe8ffe192f218590",
+        "name": "Pepperoni Pizza",
+        "type": "Lunch",
+        "__v": 0,
+        "allergens": [
+          "Gluten",
+          "Milk",
+          "Mustard*",
+          "Wheat",
+          "Garlic",
+          "Tomato",
+          "Beef",
+          "Pork",
+          "Egg*",
+          "Soy*",
+          "Sesame*"
+        ],
+        "dieteryPreferences": [
+          "Good Source of Protein"
+        ],
+        "ingredients": [
+          "Pizza Dough^",
+          "Part Skim Mozzarella Cheese^",
+          "Tomatoes^",
+          "Pepperoni-^",
+          "Canola Oil",
+          "Parmesan Cheese^",
+          "Kosher Salt^",
+          "Garlic",
+          "Garlic",
+          "Basil",
+          "Black Pepper",
+          "Basil",
+          "Parsley",
+          "Oregano",
+          "Red Pepper"
+        ],
+        "likedBy": [],
+        "nutrients": {
+          "calories": 470,
+          "protein": 20,
+          "fat": 13,
+          "carbohydrate": 67
+        },
+        "serving": "2 slice",
+        "restaurantName": "Social 704",
+        "campus": [
+          "UNCC"
+        ],
+        "category": "Main",
+        "restaurantType": "Dining-Halls"
+      }
+    ],
+    "dinner": [
+      {
+        "_id": "67acaa04fab1224e8694048c",
+        "name": "Hash Brown Scramble Bowl with Grilled Filet",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 420,
+          "protein": 31,
+          "fat": 26,
+          "carbohydrate": 15
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaa04fab1224e86940485",
+        "name": "Grilled Filet",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 110,
+          "protein": 21,
+          "fat": 2,
+          "carbohydrate": 1
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      },
+      {
+        "_id": "67acaa04fab1224e8694048d",
+        "name": "Hash Brown Scramble Bowl with Grilled Filet, No Hash Browns",
+        "type": "Dinner",
+        "ingredients": [],
+        "allergens": [],
+        "dieteryPreferences": [],
+        "serving": "1.00 Serving",
+        "nutrients": {
+          "calories": 270,
+          "protein": 30,
+          "fat": 16,
+          "carbohydrate": 2
+        },
+        "likedBy": [],
+        "__v": 0,
+        "isAvailable": true,
+        "campus": [
+          "HPU",
+          "UMD",
+          "UNCC"
+        ],
+        "restaurantName": "Chick-Fil-A",
+        "category": "Main",
+        "restaurantType": "Franchise"
+      }
+    ],
+    "caloriesBMR": 2281.14,
+    "caloriesProvided": 2550,
+    "proteinProvided": 137,
+    "fatProvided": 134.5,
+    "carbsProvided": 193
+  }
+]
