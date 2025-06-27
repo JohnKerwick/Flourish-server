@@ -29,11 +29,11 @@ import { exampleJson } from '../utils/prompt-json'
 import { validateAiResponse, validateRestaurantUniformality } from '../utils/validate-ai-response'
 import { getIO } from '../socket'
 import { deepSeekRes } from '../utils/deepseek'
-import { GeneratedMeal } from '../models/generatedMeals'
+import { GeneratedMeal, GeneratedMealNew } from '../models/generatedMeals'
 
 import { parseGeneratedMeals } from '../utils/generate-meals'
 import { writeFile } from 'fs/promises'
-import mealPlanGenerators from '../utils/mealPlanGenerator.js'
+import mealPlanGenerators, { generate21MealPlan } from '../utils/mealPlanGenerator.js'
 const { generate14MealPlan, generate7MealPlan, generate19MealPlan } = mealPlanGenerators
 
 const categories = [
@@ -574,11 +574,11 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const decoded = jwt.decode(token)
       const userId = decoded?._id
       const user = await getUserById(userId)
-      const selectedOption = user.dietPlan.plan
+      const selectedOption = '21 Meals'
       const campus = user.student.school
-      //6j const selectedMeals = ['Lunch', 'Dinner']
-      const preferredMealTypes = user.dietPlan.selectedMeals
-      const selectedMealType = user.dietPlan.selectedMeals
+      // const selectedMeals = ['Lunch', 'Dinner']
+      const preferredMealTypes = ['Lunch', 'Dinner']
+      const selectedMealType = ['Breakfast']
       const targetCaloriesPerDay = calculateBMR(user)
       const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
       const rejectedMealType = mealTypes[Math.floor(Math.random() * mealTypes.length)]
@@ -590,7 +590,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
       var targetCalories = targetCaloriesPerDay
 
-      const breakfastMeals = await GeneratedMeal.find({
+      const breakfastMeals = await GeneratedMealNew.find({
         mealType: 'Breakfast',
         campus: { $in: [campus] },
       })
@@ -599,14 +599,14 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
       //console.log('breakfast', breakfastMeals.length)
 
-      const lunchMeals = await GeneratedMeal.find({
+      const lunchMeals = await GeneratedMealNew.find({
         mealType: 'Lunch',
         campus: { $in: [campus] },
       })
         .populate('items.itemId')
         .lean()
       //console.log('breakfast', lunchMeals)
-      const dinnerMeals = await GeneratedMeal.find({
+      const dinnerMeals = await GeneratedMealNew.find({
         mealType: 'Dinner',
         campus: { $in: [campus] },
       })
@@ -622,8 +622,13 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       }
 
       let mealPlan
-
-      if (selectedOption === '19 Meals') {
+      if (selectedOption === '21 Meals') {
+        mealPlan = generate21MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCaloriesPerDay, rejectedMealType)
+        console.log('21 days meal plan ', rejectedMealType)
+        // return res.status(200).json({
+        //   mealPlan,
+        // })
+      } else if (selectedOption === '19 Meals') {
         mealPlan = generate19MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCaloriesPerDay, rejectedMealType)
         console.log('21 days meal plan ', rejectedMealType)
         // return res.status(200).json({
@@ -646,7 +651,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
           targetCalories = targetCaloriesPerDay * 0.3
         }
         mealPlan = generate7MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, mealType)
-        console.log('7days meal plan ', mealPlan)
+        // console.log('7days meal plan ', mealPlan)
         // return res.status(200).json({
         //   mealPlan,
         // })
@@ -722,8 +727,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
           carbsProvided: dayCarbs,
         }
       })
-
-      res.status(200).json(transformedPlan)
+      res.status(200).json({ weeklyPlan: transformedPlan })
     } catch (error) {
       console.error(error)
       res.status(500).json({
