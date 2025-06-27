@@ -576,7 +576,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const user = await getUserById(userId)
       const selectedOption = user.dietPlan.plan
       const campus = user.student.school
-      // const selectedMeals = ['Lunch', 'Dinner']
+      //6j const selectedMeals = ['Lunch', 'Dinner']
       const preferredMealTypes = user.dietPlan.selectedMeals
       const selectedMealType = user.dietPlan.selectedMeals
       const targetCaloriesPerDay = calculateBMR(user)
@@ -634,7 +634,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
           return res.status(400).json({ error: 'preferredMealTypes (array of 2) is required for 14-meal plan.' })
         }
         if (targetCaloriesPerDay > 2000) {
-          targetCalories = targetCaloriesPerDay * 0.6
+          targetCalories = targetCaloriesPerDay * 0.7
         }
         mealPlan = generate14MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, preferredMealTypes)
       } else if (selectedOption === '7 Meals') {

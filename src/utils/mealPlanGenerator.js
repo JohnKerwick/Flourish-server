@@ -18,30 +18,143 @@ function generate19MealPlan(
     Lunch: [],
     Dinner: [],
   }
-  ;[
-    // Step 1: Organize meals
-    breakfastMeals,
-    lunchMeals,
-    dinnerMeals,
+
+  // Organize meals by type and category
+  ;[breakfastMeals, lunchMeals, dinnerMeals].flat().forEach((meal) => {
+    const { mealType, restaurantType } = meal
+    if (mealsByTypeAndCategory[mealType]?.[restaurantType]) {
+      mealsByTypeAndCategory[mealType][restaurantType].push(meal)
+    }
+    if (allMealsByType[mealType]) {
+      allMealsByType[mealType].push(meal)
+    }
+  })
+
+  function getCalories(meal) {
+    return meal?.totalCalories || 0
+  }
+
+  function getHighCalorieMeal(pool) {
+    return pool?.length
+      ? pool.reduce((max, meal) => (getCalories(meal) > getCalories(max) ? meal : max), pool[0])
+      : null
+  }
+
+  const days = [
+    { day: 'Monday', slots: ['breakfast', 'lunch'] },
+    { day: 'Tuesday', slots: ['breakfast', 'lunch'] },
+    { day: 'Wednesday', slots: ['breakfast', 'lunch', 'dinner'] },
+    { day: 'Thursday', slots: ['breakfast', 'lunch', 'dinner'] },
+    { day: 'Friday', slots: ['breakfast', 'lunch', 'dinner'] },
+    { day: 'Saturday', slots: ['breakfast', 'lunch', 'dinner'] },
+    { day: 'Sunday', slots: ['breakfast', 'lunch', 'dinner'] },
   ]
-    .flat()
-    .forEach((meal) => {
-      const { mealType, restaurantType } = meal
 
-      if (mealsByTypeAndCategory[mealType]?.[restaurantType]) {
-        mealsByTypeAndCategory[mealType][restaurantType].push(meal)
+  let finalPlan = null
+
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    let plan = {}
+    let franchiseCount = 0
+    let diningCount = 0
+    let totalMeals = 0
+
+    // Initialize empty plan
+    for (const { day } of days) {
+      plan[day] = {}
+    }
+
+    // === STEP 1: Pre-fill high calorie meals ===
+    for (const { day } of days) {
+      const mealSlot = day === 'Monday' || day === 'Tuesday' ? 'lunch' : 'dinner'
+      const mealTypeKey = mealSlot.charAt(0).toUpperCase() + mealSlot.slice(1)
+
+      let poolType = franchiseCount < 7 ? 'Franchise' : 'Dining-Halls'
+      let pool = mealsByTypeAndCategory[mealTypeKey][poolType]
+
+      // Fallback if pool empty
+      if (!pool.length) {
+        poolType = poolType === 'Franchise' ? 'Dining-Halls' : 'Franchise'
+        pool = mealsByTypeAndCategory[mealTypeKey][poolType]
       }
 
-      if (allMealsByType[mealType]) {
-        allMealsByType[mealType].push(meal)
+      const meal = getHighCalorieMeal(pool)
+      if (meal) {
+        plan[day][mealSlot] = meal
+        if (poolType === 'Franchise') franchiseCount++
+        else diningCount++
+        totalMeals++
       }
-    })
+    }
 
+    // === STEP 2: Randomly fill remaining slots ===
+
+    const allSlots = []
+    for (const { day, slots } of days) {
+      for (const slot of slots) {
+        allSlots.push({ day, slot })
+      }
+    }
+
+    // Shuffle the slot list
+    for (let i = allSlots.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[allSlots[i], allSlots[j]] = [allSlots[j], allSlots[i]]
+    }
+
+    for (const { day, slot } of allSlots) {
+      if (totalMeals >= 19) break
+      if (plan[day][slot]) continue // already filled by high-calorie meal
+
+      let poolType
+      if (franchiseCount < 7 && diningCount < 12) {
+        poolType = Math.random() < 0.5 ? 'Franchise' : 'Dining-Halls'
+      } else if (franchiseCount < 7) {
+        poolType = 'Franchise'
+      } else {
+        poolType = 'Dining-Halls'
+      }
+
+      const mealTypeKey = slot.charAt(0).toUpperCase() + slot.slice(1)
+      let pool = mealsByTypeAndCategory[mealTypeKey][poolType]
+
+      if (!pool.length) {
+        poolType = poolType === 'Franchise' ? 'Dining-Halls' : 'Franchise'
+        pool = mealsByTypeAndCategory[mealTypeKey][poolType]
+        if (!pool.length) continue
+      }
+
+      const meal = pool[Math.floor(Math.random() * pool.length)]
+      plan[day][slot] = meal
+      if (poolType === 'Franchise') franchiseCount++
+      else diningCount++
+      totalMeals++
+    }
+
+    // === STEP 3: Check constraints ===
+    if (franchiseCount === 7 && diningCount === 12 && totalMeals === 19) {
+      for (const { day, slots } of days) {
+        let dailyCalories = 0
+        for (const slot of slots) {
+          if (plan[day][slot]) dailyCalories += getCalories(plan[day][slot])
+        }
+        plan[day].totalCalories = dailyCalories
+      }
+      finalPlan = plan
+      break
+    }
+  }
+
+  if (finalPlan) {
+    console.log('phase 1')
+    return finalPlan
+  }
+
+  // === PHASE 2: Strict category-based selection (3 meals/day) ===
   const plan = {}
   const issues = []
 
   for (let day = 1; day <= 7; day++) {
-    const category = day <= 3 ? 'Franchise' : 'Dining-Halls'
+    const category = day <= 3 ? 'Franchise' : 'Dining-Halls' // First 3 days: Franchise
 
     let breakfastOptions = mealsByTypeAndCategory.Breakfast[category]
     let lunchOptions = mealsByTypeAndCategory.Lunch[category]
@@ -49,7 +162,7 @@ function generate19MealPlan(
 
     let validCombo = null
 
-    // Phase 1: Strict category-based selection
+    // Try to find a valid meal combo within calorie margin
     for (let attempt = 0; attempt < maxAttempts; attempt++) {
       const breakfast = breakfastOptions[Math.floor(Math.random() * breakfastOptions.length)]
       const lunch = lunchOptions[Math.floor(Math.random() * lunchOptions.length)]
@@ -63,9 +176,8 @@ function generate19MealPlan(
       }
     }
 
-    // Phase 2: Fallback to all meals (any restaurant type)
+    // === PHASE 3: Fallback to all meals (any restaurant type) ===
     if (!validCombo) {
-      console.warn(`⚠️ Day ${day}: Relaxing category restriction to include all restaurant types`)
       breakfastOptions = allMealsByType.Breakfast
       lunchOptions = allMealsByType.Lunch
       dinnerOptions = allMealsByType.Dinner
@@ -84,33 +196,22 @@ function generate19MealPlan(
       }
     }
 
-    // Final error if still no combo found
     if (!validCombo) {
-      issues.push(`❌ Couldn't find valid meal combination for Day ${day}`)
+      issues.push(`Couldn't find valid meals for Day ${day}`)
       continue
     }
 
-    plan[`day${day}`] = {
-      breakfast: validCombo.breakfast,
-      lunch: validCombo.lunch,
-      dinner: validCombo.dinner,
-    }
+    // Apply rejectedmealtype filtering ONLY in Phase 2/3
+    const dayKey = `day${day}`
+    plan[dayKey] = { ...validCombo }
+
+    if (rejectedmealtype === 'Lunch') delete plan[dayKey].lunch
+    if (rejectedmealtype === 'Dinner') delete plan[dayKey].dinner
+    if (rejectedmealtype === 'Breakfast') delete plan[dayKey].breakfast
   }
 
   if (issues.length > 0) {
-    throw new Error(`🚫 Meal plan generation failed for the following days:\n${issues.join('\n')}`)
-  }
-  if (rejectedmealtype == 'Lunch') {
-    if (plan.day2?.lunch) delete plan.day2.lunch
-    if (plan.day3?.lunch) delete plan.day3.lunch
-  }
-  if (rejectedmealtype == 'Dinner') {
-    if (plan.day2?.dinner) delete plan.day2.dinner
-    if (plan.day3?.dinner) delete plan.day3.dinner
-  }
-  if (rejectedmealtype == 'Breakfast') {
-    if (plan.day2?.breakfast) delete plan.day2.breakfast
-    if (plan.day3?.breakfast) delete plan.day3.breakfast
+    throw new Error(`Meal plan generation failed:\n${issues.join('\n')}`)
   }
 
   return plan
@@ -239,25 +340,41 @@ function generate14MealPlan(
     let validCombo = null
 
     // Phase 1: Try Franchise + Dining-Halls
-    const franchiseMeals = mealsByTypeAndCategory[firstMealType].Franchise
-    const diningMeals = mealsByTypeAndCategory[secondMealType]['Dining-Halls']
+    const A = firstMealType
+    const B = secondMealType
 
-    if (!franchiseMeals.length || !diningMeals.length) {
-      console.warn(`⚠️ Day ${day}: Missing Franchise or Dining-Halls meals. Skipping strict mode.`)
-    } else {
+    const tryCombinations = [
+      {
+        mealAList: mealsByTypeAndCategory[A]?.Franchise || [],
+        mealBList: mealsByTypeAndCategory[B]?.['Dining-Halls'] || [],
+      },
+      {
+        mealAList: mealsByTypeAndCategory[A]?.['Dining-Halls'] || [],
+        mealBList: mealsByTypeAndCategory[B]?.Franchise || [],
+      },
+    ]
+
+    for (const { mealAList, mealBList } of tryCombinations) {
+      if (!mealAList.length || !mealBList.length) continue
+
       for (let attempt = 0; attempt < maxAttempts; attempt++) {
-        const franchiseMeal = franchiseMeals[Math.floor(Math.random() * franchiseMeals.length)]
-        const diningMeal = diningMeals[Math.floor(Math.random() * diningMeals.length)]
+        const mealA = mealAList[Math.floor(Math.random() * mealAList.length)]
+        const mealB = mealBList[Math.floor(Math.random() * mealBList.length)]
 
-        const totalCalories = franchiseMeal.totalCalories + diningMeal.totalCalories
+        const totalCalories = mealA.totalCalories + mealB.totalCalories
 
         if (Math.abs(totalCalories - targetCaloriesPerDay) <= calorieMargin) {
-          validCombo = { mealA: franchiseMeal, mealB: diningMeal }
+          validCombo = { mealA, mealB }
           break
         }
       }
+
+      if (validCombo) break
     }
 
+    if (!validCombo) {
+      console.warn(`⚠️ Day ${day}: Couldn't find valid Franchise + Dining combo in strict mode.`)
+    }
     // Phase 2: Relaxed attempt using any category
     if (!validCombo) {
       const anyMealsA = allMealsByType[firstMealType]

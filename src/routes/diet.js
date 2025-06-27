@@ -12,18 +12,20 @@ import { USER_TYPES } from '../utils'
 
 const router = Router()
 
+// router.post(
+//   '/diet-plan',
+//   Authenticate(),
+//   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+//   CONTROLLER_DIET.getWeeklyDietPlan
+// )
+
 router.post(
   '/diet-plan',
   Authenticate(),
   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-  CONTROLLER_DIET.getWeeklyDietPlan
+  CONTROLLER_DIET.createWeekPlan
 )
-// router.post(
-//   '/generate-meals',
-//   // Authenticate(),
-//   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-//   CONTROLLER_DIET.generateMeals
-// )
+
 router.post(
   '/create-diet-plan',
   Authenticate(),
@@ -31,12 +33,12 @@ router.post(
   CONTROLLER_DIET.createWeeklyDietPlan
 )
 // for testing
-router.post(
-  '/create-week-plan',
-  Authenticate(),
-  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-  CONTROLLER_DIET.createWeekPlan
-)
+// router.post(
+//   '/create-week-plan',
+//   Authenticate(),
+//   // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
+//   CONTROLLER_DIET.createWeekPlan
+// )
 //  testing
 
 router.get(
