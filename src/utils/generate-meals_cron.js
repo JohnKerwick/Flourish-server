@@ -2,6 +2,7 @@ import { schedule } from 'node-cron'
 import { CONTROLLER_GENERATE_MEAL } from '../controllers'
 import { GeneratedMeal } from '../models/generatedMeals'
 import { sleep } from './estimateTokens'
+import { notifyError } from '../middlewares'
 
 const campuses = ['HPU', 'UMD', 'UNCC']
 const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
@@ -10,10 +11,15 @@ const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
 //   Lunch: { min: 600, max: 1200 },
 //   Dinner: { min: 800, max: 1500 },
 // }
+// const calorieRanges = {
+//   Breakfast: { min: 200, max: 2000 },
+//   Lunch: { min: 200, max: 2000 },
+//   Dinner: { min: 200, max: 2000 },
+// }
 const calorieRanges = {
-  Breakfast: { min: 200, max: 2000 },
-  Lunch: { min: 200, max: 2000 },
-  Dinner: { min: 200, max: 2000 },
+  Breakfast: { min: 200, max: 1300 },
+  Lunch: { min: 200, max: 1500 },
+  Dinner: { min: 300, max: 1500 },
 }
 
 // 👇 Wrap everything in an async IIFE
@@ -53,6 +59,7 @@ const calorieRanges = {
             count++
           } catch (err) {
             console.error(`❌ Failed for ${campus} - ${type}`, err)
+            notifyError(`❌ Meal Generation Failed for ${campus} - ${type}`, err)
           }
         },
         { timezone: 'America/New_York' }
@@ -63,6 +70,7 @@ const calorieRanges = {
     }
   }
   console.log('📆 Meal generation cron jobs initialized.')
+  notifyError('Meal Generation Cron Completed')
 })()
 
 // Manual trigger function (for testing)
