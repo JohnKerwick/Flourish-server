@@ -577,11 +577,14 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const selectedOption = user.dietPlan.plan
       const campus = user.student.school
       //6j const selectedMeals = ['Lunch', 'Dinner']
+
       const preferredMealTypes = user.dietPlan.selectedMeals
       const selectedMealType = user.dietPlan.selectedMeals
       const targetCaloriesPerDay = calculateBMR(user)
       const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
       const rejectedMealType = mealTypes[Math.floor(Math.random() * mealTypes.length)]
+      const franchiseCount = user.dietPlan.swipes.franchise
+      const diningCount = user.dietPlan.swipes.diningHall
       // const dietPlan = user.dietPlan.swipes
       // const dietPlan = { diningHall: 3, franchise: 4 }
       const totalCalories = calculateBMR(user)
@@ -621,13 +624,34 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
       let mealPlan
       if (selectedOption === '21 Meals') {
-        mealPlan = generate21MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCaloriesPerDay, rejectedMealType)
+        const franchiseCountTarget = franchiseCount
+        const diningCountTarget = diningCount
+
+        mealPlan = generate21MealPlan(
+          breakfastMeals,
+          lunchMeals,
+          dinnerMeals,
+          targetCaloriesPerDay,
+          rejectedMealType,
+          franchiseCountTarget,
+          diningCountTarget
+        )
         console.log('21 days meal plan ', rejectedMealType)
         // return res.status(200).json({
         //   mealPlan,
         // })
       } else if (selectedOption === '19 Meals') {
-        mealPlan = generate19MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCaloriesPerDay, rejectedMealType)
+        const franchiseCountTarget = franchiseCount
+        const diningCountTarget = diningCount
+        mealPlan = generate19MealPlan(
+          breakfastMeals,
+          lunchMeals,
+          dinnerMeals,
+          targetCaloriesPerDay,
+          rejectedMealType,
+          franchiseCountTarget,
+          diningCountTarget
+        )
         console.log('21 days meal plan ', rejectedMealType)
         // return res.status(200).json({
         //   mealPlan,
@@ -639,7 +663,15 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         if (targetCaloriesPerDay > 2000) {
           targetCalories = targetCaloriesPerDay * 0.7
         }
-        mealPlan = generate14MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, preferredMealTypes)
+        mealPlan = generate14MealPlan(
+          breakfastMeals,
+          lunchMeals,
+          dinnerMeals,
+          targetCalories,
+          preferredMealTypes,
+          franchiseCount,
+          diningCount
+        )
       } else if (selectedOption === '7 Meals') {
         if (!selectedMealType) {
           return res.status(400).json({ error: 'selectedMealType is required for 7-meal plan.' })
@@ -648,7 +680,17 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         if (targetCaloriesPerDay > 2000) {
           targetCalories = targetCaloriesPerDay * 0.3
         }
-        mealPlan = generate7MealPlan(breakfastMeals, lunchMeals, dinnerMeals, targetCalories, mealType)
+        const franchiseMealCount = franchiseCount
+        const diningHallMealCount = diningCount
+        mealPlan = generate7MealPlan(
+          breakfastMeals,
+          lunchMeals,
+          dinnerMeals,
+          targetCalories,
+          mealType,
+          franchiseMealCount,
+          diningHallMealCount
+        )
         // console.log('7days meal plan ', mealPlan)
         // return res.status(200).json({
         //   mealPlan,
