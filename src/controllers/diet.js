@@ -33,8 +33,14 @@ import { GeneratedMeal, GeneratedMealNew } from '../models/generatedMeals'
 
 import { parseGeneratedMeals } from '../utils/generate-meals'
 import { writeFile } from 'fs/promises'
-import mealPlanGenerators, { generate21MealPlan } from '../utils/mealPlanGenerator.js'
-const { generate14MealPlan, generate7MealPlan, generate19MealPlan } = mealPlanGenerators
+// import mealPlanGenerators, { generate21MealPlan } from '../utils/mealPlanGenerator.js'
+import {
+  generate19MealPlan,
+  generate7MealPlan,
+  generate14MealPlan,
+  generate21MealPlan,
+} from '../utils/newMealPlanGenerator.js'
+// const { generate14MealPlan, generate7MealPlan, generate19MealPlan, generate21MealPlan } = mealPlanGenerators
 
 const categories = [
   'Main',
@@ -558,7 +564,227 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       dietPlan: newDietPlan,
     })
   }),
+  //working?????
+  // createWeekPlan: asyncMiddleware(async (req, res) => {
+  //   try {
+  //     const {
+  //       // selectedOption,
+  //       // targetCaloriesPerDay,
+  //       // For 14-meal plan
+  //       // selectedMealType, // For 7-meal plan
+  //       // rejectedMealType, // For 19-mealplan
+  //       // campus,
+  //     } = req.body
 
+  //     const token = req.headers.authorization?.split(' ')[1]
+  //     const decoded = jwt.decode(token)
+  //     const userId = decoded?._id
+  //     const user = await getUserById(userId)
+  //     const selectedOption = user.dietPlan.plan
+  //     const campus = user.student.school
+  //     //6j const selectedMeals = ['Lunch', 'Dinner']
+
+  //     const preferredMealTypes = user.dietPlan.selectedMeals
+  //     const selectedMealType = user.dietPlan.selectedMeals
+  //     const targetCaloriesPerDay = calculateBMR(user)
+  //     const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
+  //     const rejectedMealType = mealTypes[Math.floor(Math.random() * mealTypes.length)]
+  //     const franchiseCount = user.dietPlan.swipes.franchise
+  //     const diningCount = user.dietPlan.swipes.diningHall
+  //     // const dietPlan = user.dietPlan.swipes
+  //     // const dietPlan = { diningHall: 3, franchise: 4 }
+  //     const totalCalories = calculateBMR(user)
+  //     console.log('totalCalories', totalCalories)
+  //     var targetCalories = targetCaloriesPerDay
+
+  //     const breakfastMeals = await GeneratedMealNew.find({
+  //       mealType: 'Breakfast',
+  //       campus: { $in: [campus] },
+  //     })
+  //       .populate('items.itemId')
+  //       .lean()
+
+  //     //console.log('breakfast', breakfastMeals.length)
+
+  //     const lunchMeals = await GeneratedMealNew.find({
+  //       mealType: 'Lunch',
+  //       campus: { $in: [campus] },
+  //     })
+  //       .populate('items.itemId')
+  //       .lean()
+  //     //console.log('breakfast', lunchMeals)
+  //     const dinnerMeals = await GeneratedMealNew.find({
+  //       mealType: 'Dinner',
+  //       campus: { $in: [campus] },
+  //     })
+  //       .populate('items.itemId')
+  //       .lean()
+  //     //  console.log('breakfast', dinnerMeals)
+  //     // ✅ Add this check:
+  //     if (breakfastMeals.length === 0 && lunchMeals.length === 0 && dinnerMeals.length === 0) {
+  //       return res.status(200).json({
+  //         success: false,
+  //         message: 'Generate response - database is empty',
+  //       })
+  //     }
+
+  //     let mealPlan
+  //     if (selectedOption === '21 Meals') {
+  //       const franchiseCountTarget = franchiseCount
+  //       const diningCountTarget = diningCount
+
+  //       mealPlan = generate21MealPlan(
+  //         breakfastMeals,
+  //         lunchMeals,
+  //         dinnerMeals,
+  //         targetCaloriesPerDay,
+  //         rejectedMealType,
+  //         franchiseCountTarget,
+  //         diningCountTarget
+  //       )
+  //       console.log('21 days meal plan ', rejectedMealType)
+  //       // return res.status(200).json({
+  //       //   mealPlan,
+  //       // })
+  //     } else if (selectedOption === '19 Meals') {
+  //       const franchiseCountTarget = franchiseCount
+  //       const diningCountTarget = diningCount
+  //       mealPlan = generate19MealPlan(
+  //         breakfastMeals,
+  //         lunchMeals,
+  //         dinnerMeals,
+  //         targetCaloriesPerDay,
+  //         rejectedMealType,
+  //         franchiseCountTarget,
+  //         diningCountTarget
+  //       )
+  //       console.log('21 days meal plan ', rejectedMealType)
+  //       // return res.status(200).json({
+  //       //   mealPlan,
+  //       // })
+  //     } else if (selectedOption === '14 Meals') {
+  //       if (!preferredMealTypes || preferredMealTypes.length !== 2) {
+  //         return res.status(400).json({ error: 'preferredMealTypes (array of 2) is required for 14-meal plan.' })
+  //       }
+  //       if (targetCaloriesPerDay > 2000) {
+  //         targetCalories = targetCaloriesPerDay * 0.7
+  //       }
+  //       mealPlan = generate14MealPlan(
+  //         breakfastMeals,
+  //         lunchMeals,
+  //         dinnerMeals,
+  //         targetCalories,
+  //         preferredMealTypes,
+  //         franchiseCount,
+  //         diningCount
+  //       )
+  //     } else if (selectedOption === '7 Meals') {
+  //       if (!selectedMealType) {
+  //         return res.status(400).json({ error: 'selectedMealType is required for 7-meal plan.' })
+  //       }
+  //       const mealType = Array.isArray(selectedMealType) ? selectedMealType[0] : selectedMealType
+  //       if (targetCaloriesPerDay > 2000) {
+  //         targetCalories = targetCaloriesPerDay * 0.3
+  //       }
+  //       const franchiseMealCount = franchiseCount
+  //       const diningHallMealCount = diningCount
+  //       mealPlan = generate7MealPlan(
+  //         breakfastMeals,
+  //         lunchMeals,
+  //         dinnerMeals,
+  //         targetCalories,
+  //         mealType,
+  //         franchiseMealCount,
+  //         diningHallMealCount
+  //       )
+  //       // console.log('7days meal plan ', mealPlan)
+  //       // return res.status(200).json({
+  //       //   mealPlan,
+  //       // })
+  //     } else {
+  //       return res.status(400).json({ error: 'Invalid selectedOption provided.' })
+  //     }
+
+  //     // Transform the meal plan into the desired format
+  //     const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+  //     const transformedPlan = Object.values(mealPlan).map((dayMeals, index) => {
+  //       const dayName = daysOfWeek[index]
+
+  //       let dayCalories = 0
+  //       let dayProtein = 0
+  //       let dayFat = 0
+  //       let dayCarbs = 0
+  //       let breakfastItems = []
+  //       let lunchItems = []
+  //       let dinnerItems = []
+
+  //       // Handle all plan types (7, 14, 21)
+  //       if (dayMeals.breakfast) breakfastItems = transformMealItems(dayMeals.breakfast.items)
+  //       if (dayMeals.lunch) lunchItems = transformMealItems(dayMeals.lunch.items)
+  //       if (dayMeals.dinner) dinnerItems = transformMealItems(dayMeals.dinner.items)
+
+  //       // For 7-meal plan
+  //       if (dayMeals.meal) {
+  //         if (dayMeals.meal.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.meal.items)
+  //         if (dayMeals.meal.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.meal.items)
+  //         if (dayMeals.meal.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.meal.items)
+  //       }
+  //       // For 14-meal plan
+  //       if (dayMeals.mealTypeA) {
+  //         if (dayMeals.mealTypeA.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.mealTypeA.items)
+  //         if (dayMeals.mealTypeA.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.mealTypeA.items)
+  //         if (dayMeals.mealTypeA.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.mealTypeA.items)
+  //       }
+  //       if (dayMeals.mealTypeB) {
+  //         if (dayMeals.mealTypeB.mealType === 'Breakfast') breakfastItems = transformMealItems(dayMeals.mealTypeB.items)
+  //         if (dayMeals.mealTypeB.mealType === 'Lunch') lunchItems = transformMealItems(dayMeals.mealTypeB.items)
+  //         if (dayMeals.mealTypeB.mealType === 'Dinner') dinnerItems = transformMealItems(dayMeals.mealTypeB.items)
+  //       }
+
+  //       // Calculate nutritional totals from all meals for the day
+  //       const allDayItems = [
+  //         ...(dayMeals.breakfast?.items || []),
+  //         ...(dayMeals.lunch?.items || []),
+  //         ...(dayMeals.dinner?.items || []),
+  //         ...(dayMeals.meal?.items || []),
+  //         ...(dayMeals.mealTypeA?.items || []),
+  //         ...(dayMeals.mealTypeB?.items || []),
+  //       ]
+
+  //       allDayItems.forEach((item) => {
+  //         dayCalories += item.calories || 0
+  //         if (item.itemId && item.itemId.nutrients) {
+  //           dayProtein += item.itemId.nutrients.protein || 0
+  //           dayFat += item.itemId.nutrients.fat || 0
+  //           dayCarbs += item.itemId.nutrients.carbohydrate || 0
+  //         }
+  //       })
+
+  //       return {
+  //         day: dayName,
+  //         breakfast: breakfastItems,
+  //         lunch: lunchItems,
+  //         dinner: dinnerItems,
+  //         caloriesBMR: targetCaloriesPerDay,
+  //         caloriesProvided: dayCalories,
+  //         proteinProvided: dayProtein,
+  //         fatProvided: dayFat,
+  //         carbsProvided: dayCarbs,
+  //       }
+  //     })
+  //     res.status(200).json({ weeklyPlan: transformedPlan })
+  //   } catch (error) {
+  //     console.error(error)
+  //     res.status(500).json({
+  //       success: false,
+  //       message: 'Failed to generate meal plan.',
+  //       error: error.message,
+  //     })
+  //   }
+  // }),
+
+  //testing
   createWeekPlan: asyncMiddleware(async (req, res) => {
     try {
       const {
@@ -591,31 +817,65 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       console.log('totalCalories', totalCalories)
       var targetCalories = targetCaloriesPerDay
 
-      const breakfastMeals = await GeneratedMealNew.find({
+      const breakfastFranchiseFastMeals = await GeneratedMeal.find({
         mealType: 'Breakfast',
         campus: { $in: [campus] },
+        restaurantType: { $in: ['Dining-Halls'] },
+      })
+        .populate('items.itemId')
+        .lean()
+
+      const breakfastDiningFastMeals = await GeneratedMeal.find({
+        mealType: 'Breakfast',
+        campus: { $in: [campus] },
+        restaurantType: { $in: ['Franchise'] },
       })
         .populate('items.itemId')
         .lean()
 
       //console.log('breakfast', breakfastMeals.length)
 
-      const lunchMeals = await GeneratedMealNew.find({
+      const lunchFranchiseFastMeals = await GeneratedMeal.find({
         mealType: 'Lunch',
         campus: { $in: [campus] },
+        restaurantType: { $in: ['Franchise'] },
       })
         .populate('items.itemId')
         .lean()
+
+      const lunchDiningFastMeals = await GeneratedMeal.find({
+        mealType: 'Lunch',
+        campus: { $in: [campus] },
+        restaurantType: { $in: ['Dining-Halls'] },
+      })
+        .populate('items.itemId')
+
+        .lean()
       //console.log('breakfast', lunchMeals)
-      const dinnerMeals = await GeneratedMealNew.find({
+      const dinnerFranchiseFastMeals = await GeneratedMeal.find({
         mealType: 'Dinner',
         campus: { $in: [campus] },
       })
         .populate('items.itemId')
         .lean()
+
+      const dinnerDiningFastMeals = await GeneratedMeal.find({
+        mealType: 'Dinner',
+        campus: { $in: [campus] },
+        restaurantType: { $in: ['Franchise'] },
+      })
+        .populate('items.itemId')
+        .lean()
       //  console.log('breakfast', dinnerMeals)
       // ✅ Add this check:
-      if (breakfastMeals.length === 0 && lunchMeals.length === 0 && dinnerMeals.length === 0) {
+      if (
+        breakfastFranchiseFastMeals.length === 0 &&
+        breakfastDiningFastMeals.length === 0 &&
+        lunchFranchiseFastMeals.length === 0 &&
+        lunchDiningFastMeals.length === 0 &&
+        dinnerFranchiseFastMeals.length === 0 &&
+        dinnerDiningFastMeals.length === 0
+      ) {
         return res.status(200).json({
           success: false,
           message: 'Generate response - database is empty',
@@ -628,9 +888,12 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         const diningCountTarget = diningCount
 
         mealPlan = generate21MealPlan(
-          breakfastMeals,
-          lunchMeals,
-          dinnerMeals,
+          breakfastFranchiseFastMeals,
+          breakfastDiningFastMeals,
+          lunchFranchiseFastMeals,
+          lunchDiningFastMeals,
+          dinnerFranchiseFastMeals,
+          dinnerDiningFastMeals,
           targetCaloriesPerDay,
           rejectedMealType,
           franchiseCountTarget,
@@ -644,9 +907,12 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         const franchiseCountTarget = franchiseCount
         const diningCountTarget = diningCount
         mealPlan = generate19MealPlan(
-          breakfastMeals,
-          lunchMeals,
-          dinnerMeals,
+          breakfastFranchiseFastMeals,
+          breakfastDiningFastMeals,
+          lunchFranchiseFastMeals,
+          lunchDiningFastMeals,
+          dinnerFranchiseFastMeals,
+          dinnerDiningFastMeals,
           targetCaloriesPerDay,
           rejectedMealType,
           franchiseCountTarget,
@@ -663,10 +929,17 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         if (targetCaloriesPerDay > 2000) {
           targetCalories = targetCaloriesPerDay * 0.7
         }
+        const breakfastMeals = [...breakfastFranchiseFastMeals, ...breakfastDiningFastMeals]
+
+        const lunchMeals = [...lunchFranchiseFastMeals, ...lunchDiningFastMeals]
+
+        const dinnerMeals = [...dinnerFranchiseFastMeals, ...dinnerDiningFastMeals]
+
         mealPlan = generate14MealPlan(
           breakfastMeals,
           lunchMeals,
           dinnerMeals,
+
           targetCalories,
           preferredMealTypes,
           franchiseCount,
@@ -682,6 +955,13 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         }
         const franchiseMealCount = franchiseCount
         const diningHallMealCount = diningCount
+
+        const breakfastMeals = [...breakfastFranchiseFastMeals, ...breakfastDiningFastMeals]
+
+        const lunchMeals = [...lunchFranchiseFastMeals, ...lunchDiningFastMeals]
+
+        const dinnerMeals = [...dinnerFranchiseFastMeals, ...dinnerDiningFastMeals]
+
         mealPlan = generate7MealPlan(
           breakfastMeals,
           lunchMeals,
@@ -777,7 +1057,6 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       })
     }
   }),
-
   getDietHistory: asyncMiddleware(async (req, res) => {
     const token = req.headers.authorization?.split(' ')[1]
     const decoded = jwt.decode(token)
@@ -1039,7 +1318,7 @@ const transformMealItems = (items) => {
       carbohydrate: item.itemId.nutrients?.carbohydrate || 0,
     },
     likedBy: item.itemId.likedBy || [],
-    isAvailable: item.itemId.isAvailable,
+    // isAvailable: item.itemId.isAvailable,
     campus: item.campus,
     restaurantName: item.restaurantName,
     category: item.itemId.category, // You might need to adjust this
