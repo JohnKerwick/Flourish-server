@@ -51,7 +51,7 @@ const calorieRanges = {
             if (count === 0) {
               // should be new GeneratedMealNew
               console.log('🧹 Deleting old generated meals...')
-              await GeneratedMealNew.deleteMany({})
+              await GeneratedMeal.deleteMany({})
               console.log('✅ Old meals deleted.')
             }
             await CONTROLLER_GENERATE_MEAL.generateMeals(body)
@@ -77,7 +77,7 @@ const calorieRanges = {
 // Manual trigger function (for testing)
 export async function runMealGenerationManually() {
   console.log('🧪 Manually triggering all 9 meal generation jobs...')
-  await GeneratedMeal.deleteMany({})
+  await GeneratedMealNew.deleteMany({})
   console.log('🧹 Deleted all existing generated meals.')
   for (const campus of campuses) {
     for (const type of mealTypes) {
