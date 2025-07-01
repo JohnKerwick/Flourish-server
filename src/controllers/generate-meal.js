@@ -376,7 +376,7 @@ ${JSON.stringify(
         }
       })
 
-      const created = await GeneratedMealNew.insertMany(createdPayload)
+      const created = await GeneratedMeal.insertMany(createdPayload)
 
       const rejectedCount = combos.length - validCombos.length
       if (rejectedCount > 0) console.warn(`⚠️ ${rejectedCount} invalid combos skipped due to validation.`)
@@ -589,7 +589,7 @@ ${JSON.stringify(
         }
       })
 
-      const created = await GeneratedMeal.insertMany(createdPayload)
+      const created = await GeneratedMealNew.insertMany(createdPayload)
 
       const rejectedCount = combos.length - validCombos.length
       if (rejectedCount > 0) console.warn(`⚠️ ${rejectedCount} invalid combos skipped due to validation.`)
