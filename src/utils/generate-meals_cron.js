@@ -1,6 +1,6 @@
 import { schedule } from 'node-cron'
 import { CONTROLLER_GENERATE_MEAL } from '../controllers'
-import { GeneratedMeal } from '../models/generatedMeals'
+import { GeneratedMeal, GeneratedMealNew } from '../models/generatedMeals'
 import { sleep } from './estimateTokens'
 import { notifyError } from '../middlewares'
 
@@ -51,11 +51,13 @@ const calorieRanges = {
             if (count === 0) {
               // should be new GeneratedMealNew
               console.log('🧹 Deleting old generated meals...')
-              await GeneratedMeal.deleteMany({})
+              await GeneratedMealNew.deleteMany({})
               console.log('✅ Old meals deleted.')
             }
-            await CONTROLLER_GENERATE_MEAL.generateMealsTesting(body)
+            await CONTROLLER_GENERATE_MEAL.generateMeals(body)
             console.log(`✅ Success for ${campus} - ${type}`)
+            notifyError(`✅ Meal Generation Success for ${campus} - ${type}`)
+
             count++
           } catch (err) {
             console.error(`❌ Failed for ${campus} - ${type}`, err)
@@ -70,7 +72,6 @@ const calorieRanges = {
     }
   }
   console.log('📆 Meal generation cron jobs initialized.')
-  notifyError('Meal Generation Cron Completed')
 })()
 
 // Manual trigger function (for testing)
