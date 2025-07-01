@@ -117,6 +117,8 @@ export const scrapeHPU = async () => {
                               {
                                 $set: {
                                   restaurantName: restaurantName,
+                                  restaurantType: 'Dining-Halls',
+
                                   campus: campus,
                                   calories: (parsedData.facts.find((f) => f.label === 'Calories')?.value || 0).toFixed(
                                     2

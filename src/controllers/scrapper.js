@@ -1722,6 +1722,8 @@ export const CONTROLLER_SCRAPPER = {
     })
     try {
       const allData = []
+      await Meals.deleteMany({ restaurantType: { $ne: 'Franchise' } })
+      console.log(`${result.deletedCount} meals deleted.`)
 
       console.log('Scraping HPU...')
       const hpuData = await scrapeHPU()
@@ -1993,6 +1995,7 @@ export const CONTROLLER_SCRAPPER = {
                   carbohydrate: (food.nf_total_carbohydrate || 0).toFixed(2),
                 },
                 isAvailable: true,
+                restaurantType: 'Franchise',
               },
               { upsert: true, new: true }
             )
