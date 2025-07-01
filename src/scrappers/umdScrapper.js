@@ -141,6 +141,8 @@ export const scrapeUMD = async () => {
                 allergens,
                 dieteryPreferences: item.dieteryPreferences,
                 serving: servingSize,
+                restaurantType: 'Dining-Halls',
+
                 nutrients: { calories, protein, carbohydrate, fat },
               },
             },
