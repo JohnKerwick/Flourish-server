@@ -17,9 +17,9 @@ const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
 //   Dinner: { min: 200, max: 2000 },
 // }
 const calorieRanges = {
-  Breakfast: { min: 200, max: 1300 },
-  Lunch: { min: 200, max: 1500 },
-  Dinner: { min: 300, max: 1500 },
+  Breakfast: { min: 300, max: 1500 },
+  Lunch: { min: 300, max: 1600 },
+  Dinner: { min: 400, max: 2000 },
 }
 
 // 👇 Wrap everything in an async IIFE
