@@ -9,7 +9,7 @@ function generate21MealPlan(
   rejectedMealType,
   franchiseCount,
   diningCount,
-  maxAttempts = 2000,
+  maxAttempts = 20000,
   calorieMargin = 300
 ) {
   // Log all input arguments
@@ -27,6 +27,42 @@ function generate21MealPlan(
     maxAttempts,
     calorieMargin,
   })
+
+  // Check if all dining hall meals are empty
+  const allDiningEmptyFranchiseOnly =
+    breakfastDiningFastMeals.length === 0 && lunchDiningFastMeals.length === 0 && dinnerDiningFastMeals.length === 0
+
+  if (allDiningEmptyFranchiseOnly) {
+    // Combine all franchise meals
+    const allFranchiseMeals = [...breakfastFranchiseFastMeals, ...lunchFranchiseFastMeals, ...dinnerFranchiseFastMeals]
+    // Remove duplicates by _id
+    const uniqueFranchiseMealsMap = new Map()
+    allFranchiseMeals.forEach((meal) => {
+      uniqueFranchiseMealsMap.set(meal._id.toString(), meal)
+    })
+    const uniqueFranchiseMeals = Array.from(uniqueFranchiseMealsMap.values())
+    // Sort by calories descending
+    uniqueFranchiseMeals.sort((a, b) => (b.totalCalories || 0) - (a.totalCalories || 0))
+    // Shuffle the top 30 to add randomness, then pick 21
+    const topMeals = uniqueFranchiseMeals.slice(0, 30)
+    for (let i = topMeals.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[topMeals[i], topMeals[j]] = [topMeals[j], topMeals[i]]
+    }
+    const selectedMeals = topMeals.slice(0, 21)
+    // Build a plan object with 7 days, each with breakfast, lunch, dinner
+    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    const plan = {}
+    for (let i = 0; i < 7; i++) {
+      plan[daysOfWeek[i]] = { meal: selectedMeals[i] }
+    }
+    console.log(
+      '[Franchise Only] Selected 7 unique high-calorie franchise meals:',
+      selectedMeals?.map((m) => m.name)
+    )
+    console.log('plan', plan)
+    return plan
+  }
 
   // Validate input counts
   if (franchiseCount + diningCount !== 21) {
@@ -47,7 +83,7 @@ function generate21MealPlan(
     Lunch: { Franchise: lunchFranchiseFastMeals, 'Dining-Halls': lunchDiningFastMeals },
     Dinner: { Franchise: dinnerFranchiseFastMeals, 'Dining-Halls': dinnerDiningFastMeals },
   }
-  console.log('mealsByTypeAndCategory keys:', Object.keys(mealsByTypeAndCategory))
+  // console.log('mealsByTypeAndCategory keys:', Object.keys(mealsByTypeAndCategory))
 
   const allMealsByType = {
     Breakfast: [...breakfastFranchiseFastMeals, ...breakfastDiningFastMeals],
@@ -66,7 +102,7 @@ function generate21MealPlan(
       }
     }
   }
-  console.log('Initialized mealUsage for', mealUsage.size, 'meals')
+  // console.log('Initialized mealUsage for', mealUsage.size, 'meals')
 
   function getCalories(meal) {
     return meal?.totalCalories || 0
@@ -79,8 +115,8 @@ function generate21MealPlan(
   }
 
   // Helper to get random meal with constraints
-  function getRandomMeal(pool, maxUses = 2) {
-    const available = pool.filter((meal) => mealUsage.get(meal._id) < maxUses)
+  function getRandomMeal(pool, maxUses = 1, usageMap = mealUsage) {
+    const available = pool.filter((meal) => usageMap.get(meal._id) < maxUses)
     return available.length ? available[Math.floor(Math.random() * available.length)] : null
   }
 
@@ -100,7 +136,6 @@ function generate21MealPlan(
   // === PHASE 1: Strict Requirements ===
   let phase1Success = false
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
-    if (attempt % 100 === 0) console.log(`[Phase 1] Attempt ${attempt}`)
     // Reset tracking for each attempt
     const attemptMealUsage = new Map(mealUsage)
     let attemptFranchiseUsed = 0
@@ -143,7 +178,8 @@ function generate21MealPlan(
           }
         }
 
-        const meal = getRandomMeal(pool)
+        // Only allow each meal to be used once in Phase 1
+        const meal = getRandomMeal(pool, 1, attemptMealUsage)
         if (!meal) {
           console.warn(`[Phase 1] No available meal for ${mealTypeKey} ${poolType} (all used up)`)
           success = false
@@ -172,7 +208,7 @@ function generate21MealPlan(
 
         if (Math.abs(dailyCalories - targetCaloriesPerDay) > calorieMargin) {
           allDaysValid = false
-          console.log(`[Phase 1] Day ${day} calories out of margin:`, dailyCalories)
+          // console.log(`[Phase 1] Day ${day} calories out of margin:`, dailyCalories)
           break
         }
       }
@@ -180,8 +216,9 @@ function generate21MealPlan(
       if (allDaysValid) {
         finalPlan = plan
         phase1Success = true
+        // Copy attemptMealUsage to mealUsage so logging is correct
+        attemptMealUsage.forEach((count, id) => mealUsage.set(id, count))
         console.log(`[Phase 1] Success! Franchise: ${franchiseCount}, Dining: ${diningCount}`)
-        // Log used meal IDs and their usage count
         const usedMeals = Array.from(mealUsage.entries()).filter(([id, count]) => count > 0)
         console.log('[Phase 1] Used meal IDs and counts:', usedMeals)
         break
@@ -191,6 +228,20 @@ function generate21MealPlan(
 
   if (finalPlan) {
     console.log('[Phase 1] Final plan generated successfully')
+    // Log used meal IDs and counts in a clear, structured way
+    const usedMealCounts = {}
+    Object.values(finalPlan).forEach((dayObj) => {
+      ;['breakfast', 'lunch', 'dinner'].forEach((slot) => {
+        const meal = dayObj[slot]
+        if (meal && meal._id) {
+          usedMealCounts[meal._id] = (usedMealCounts[meal._id] || 0) + 1
+        }
+      })
+    })
+    console.log('[Phase 1] Used meal IDs and counts:')
+    Object.entries(usedMealCounts).forEach(([id, count]) => {
+      console.log(`_id: ${id}, count: ${count}`)
+    })
     return finalPlan
   }
 
@@ -280,8 +331,19 @@ function generate21MealPlan(
       }, Dining: ${diningCount - remainingDining})`
     )
     // Log used meal IDs and their usage count for phase 2
-    const usedMealsPhase2 = Array.from(phase2MealUsage.entries()).filter(([id, count]) => count > 0)
-    console.log('[Phase 2] Used meal IDs and counts:', usedMealsPhase2)
+    const usedMealCounts = {}
+    Object.values(phase2Plan).forEach((dayObj) => {
+      ;['breakfast', 'lunch', 'dinner'].forEach((slot) => {
+        const meal = dayObj[slot]
+        if (meal && meal._id) {
+          usedMealCounts[meal._id] = (usedMealCounts[meal._id] || 0) + 1
+        }
+      })
+    })
+    console.log('[Phase 2] Used meal IDs and counts:')
+    Object.entries(usedMealCounts).forEach(([id, count]) => {
+      console.log(`_id: ${id}, count: ${count}`)
+    })
     return phase2Plan
   }
 
@@ -300,7 +362,7 @@ function generate19MealPlan(
   rejectedMealType,
   franchiseCount,
   diningCount,
-  maxAttempts = 2000,
+  maxAttempts = 20000,
   calorieMargin = 300
 ) {
   // Log all input arguments
@@ -318,6 +380,41 @@ function generate19MealPlan(
     maxAttempts,
     calorieMargin,
   })
+
+  // Check if all dining hall meals are empty
+  const allDiningEmpty =
+    breakfastDiningFastMeals.length === 0 && lunchDiningFastMeals.length === 0 && dinnerDiningFastMeals.length === 0
+
+  if (allDiningEmpty) {
+    // Combine all franchise meals
+    const allFranchiseMeals = [...breakfastFranchiseFastMeals, ...lunchFranchiseFastMeals, ...dinnerFranchiseFastMeals]
+    // Remove duplicates by _id
+    const uniqueFranchiseMealsMap = new Map()
+    allFranchiseMeals.forEach((meal) => {
+      uniqueFranchiseMealsMap.set(meal._id.toString(), meal)
+    })
+    const uniqueFranchiseMeals = Array.from(uniqueFranchiseMealsMap.values())
+    // Sort by calories descending
+    uniqueFranchiseMeals.sort((a, b) => (b.totalCalories || 0) - (a.totalCalories || 0))
+    // Shuffle the top 15 to add randomness, then pick 7
+    const topMeals = uniqueFranchiseMeals.slice(0, 15)
+    for (let i = topMeals.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[topMeals[i], topMeals[j]] = [topMeals[j], topMeals[i]]
+    }
+    const selectedMeals = topMeals.slice(0, 7)
+    // Build a plan object with 7 days, each with one meal
+    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    const plan = {}
+    for (let i = 0; i < 7; i++) {
+      plan[daysOfWeek[i]] = { meal: selectedMeals[i] }
+    }
+    console.log(
+      '[Franchise Only] Selected 7 unique high-calorie franchise meals:',
+      selectedMeals?.map((m) => m.name)
+    )
+    return plan
+  }
 
   // Validate input counts
   if (franchiseCount + diningCount !== 19) {
@@ -370,10 +467,8 @@ function generate19MealPlan(
   }
 
   // Helper to get random meal with constraints
-  function getRandomMeal(pool, maxUses = 2) {
-    const available = pool.filter((meal) => mealUsage.get(meal._id) < maxUses)
-    // Log available meal IDs for debugging
-    // console.log('getRandomMeal available IDs:', available.map(m => m._id))
+  function getRandomMeal(pool, maxUses = 1, usageMap = mealUsage) {
+    const available = pool.filter((meal) => usageMap.get(meal._id) < maxUses)
     return available.length ? available[Math.floor(Math.random() * available.length)] : null
   }
 
@@ -392,7 +487,7 @@ function generate19MealPlan(
   // === PHASE 1: Strict Requirements ===
   let phase1Success = false
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
-    if (attempt % 100 === 0) console.log(`[Phase 1] Attempt ${attempt}`)
+    // if (attempt % 100 === 0) console.log(`[Phase 1] Attempt ${attempt}`)
     // Reset tracking for each attempt
     const attemptMealUsage = new Map(mealUsage)
     let attemptFranchiseUsed = 0
@@ -438,12 +533,12 @@ function generate19MealPlan(
         // For Monday and Tuesday, pick the highest calorie meal available
         let meal
         if (day === 'Monday' || day === 'Tuesday') {
-          const available = pool.filter((meal) => attemptMealUsage.get(meal._id) < 2)
+          const available = pool.filter((meal) => attemptMealUsage.get(meal._id) < 1)
           meal = available.length
             ? available.reduce((max, m) => (getCalories(m) > getCalories(max) ? m : max), available[0])
             : null
         } else {
-          meal = getRandomMeal(pool)
+          meal = getRandomMeal(pool, 1, attemptMealUsage)
         }
         if (!meal) {
           console.warn(`[Phase 1] No available meal for ${mealTypeKey} ${poolType} (all used up)`)
@@ -495,6 +590,20 @@ function generate19MealPlan(
 
   if (finalPlan) {
     console.log('[Phase 1] Final plan generated successfully')
+    // Log used meal IDs and counts in a clear, structured way
+    const usedMealCounts = {}
+    Object.values(finalPlan).forEach((dayObj) => {
+      ;['breakfast', 'lunch', 'dinner'].forEach((slot) => {
+        const meal = dayObj[slot]
+        if (meal && meal._id) {
+          usedMealCounts[meal._id] = (usedMealCounts[meal._id] || 0) + 1
+        }
+      })
+    })
+    console.log('[19 Meal Plan] Used meal IDs and counts:')
+    Object.entries(usedMealCounts).forEach(([id, count]) => {
+      console.log(`_id: ${id}, count: ${count}`)
+    })
     return finalPlan
   }
 
@@ -502,11 +611,11 @@ function generate19MealPlan(
   console.log('\n[Phase 2] Falling back to relaxed requirements')
 
   // Check if all dining meals are empty
-  const allDiningEmpty =
+  const allDiningEmptyPhase2 =
     breakfastDiningFastMeals.length === 0 && lunchDiningFastMeals.length === 0 && dinnerDiningFastMeals.length === 0
 
   // If Phase 1 failed or no dining meals, set franchiseCount to 7
-  if (!phase1Success || allDiningEmpty) {
+  if (!phase1Success || allDiningEmptyPhase2) {
     franchiseCount = 7
   }
 
@@ -584,8 +693,19 @@ function generate19MealPlan(
       }, Dining: ${diningCount - remainingDining})`
     )
     // Log used meal IDs and their usage count for phase 2
-    const usedMealsPhase2 = Array.from(phase2MealUsage.entries()).filter(([id, count]) => count > 0)
-    console.log('[Phase 2] Used meal IDs and counts:', usedMealsPhase2)
+    const usedMealCounts = {}
+    Object.values(phase2Plan).forEach((dayObj) => {
+      ;['breakfast', 'lunch', 'dinner'].forEach((slot) => {
+        const meal = dayObj[slot]
+        if (meal && meal._id) {
+          usedMealCounts[meal._id] = (usedMealCounts[meal._id] || 0) + 1
+        }
+      })
+    })
+    console.log('[19 Meal Plan] Used meal IDs and counts:')
+    Object.entries(usedMealCounts).forEach(([id, count]) => {
+      console.log(`_id: ${id}, count: ${count}`)
+    })
     return phase2Plan
   }
 
@@ -594,64 +714,114 @@ function generate19MealPlan(
 }
 
 function generate7MealPlan(
-  breakfastMeals,
-  lunchMeals,
-  dinnerMeals,
+  franchiseMeals,
+  diningHallMeals,
   targetCaloriesPerDay,
   selectedMealType,
-  franchiseMealCount, // New parameter: number of meals from Franchise
-  diningHallMealCount, // New parameter: number of meals from Dining-Halls
+  franchiseMealCount,
+  diningHallMealCount,
   maxAttempts = 20000,
   calorieMargin = 200
 ) {
-  // Validate input counts
+  // --- Logging Inputs ---
+  console.log('Starting generate7MealPlan...')
+  console.log('Input Parameters:')
+  console.log(`- franchiseMealCount: ${franchiseMealCount}`)
+  console.log(`- diningHallMealCount: ${diningHallMealCount}`)
+  console.log(`- selectedMealType: ${selectedMealType}`)
+  console.log(`- targetCaloriesPerDay: ${targetCaloriesPerDay}`)
+  console.log(`- calorieMargin: ${calorieMargin}`)
+  console.log(
+    `- franchiseMeals:`,
+    franchiseMeals.map((m) => ({
+      _id: m._id,
+      mealName: m.mealName,
+      totalCalories: m.totalCalories,
+      mealType: m.mealType,
+    }))
+  )
+  console.log(
+    `- diningHallMeals:`,
+    diningHallMeals.map((m) => ({
+      _id: m._id,
+      mealName: m.mealName,
+      totalCalories: m.totalCalories,
+      mealType: m.mealType,
+    }))
+  )
+
+  // --- Validate Input ---
   if (franchiseMealCount + diningHallMealCount !== 7) {
+    console.error('Validation Error: The sum of franchiseMealCount and diningHallMealCount must equal 7')
     throw new Error('The sum of franchiseMealCount and diningHallMealCount must equal 7')
   }
 
-  const mealsByTypeAndCategory = {
-    Breakfast: { Franchise: [], 'Dining-Halls': [] },
-    Lunch: { Franchise: [], 'Dining-Halls': [] },
-    Dinner: { Franchise: [], 'Dining-Halls': [] },
+  // Helper function to shuffle an array
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[array[i], array[j]] = [array[j], array[i]]
+    }
+    return array
   }
 
-  // Step 1: Categorize meals
-  ;[breakfastMeals, lunchMeals, dinnerMeals].flat().forEach((meal) => {
-    if (meal.restaurantType === 'Franchise') {
-      mealsByTypeAndCategory[meal.mealType]?.Franchise.push(meal)
+  // Helper function to build meal usage summary
+  function buildMealUsage(plan) {
+    const mealUsage = new Map()
+    for (let day = 1; day <= 7; day++) {
+      const meal = plan[`day${day}`]?.meal
+      if (meal) {
+        mealUsage.set(meal._id.toString(), (mealUsage.get(meal._id.toString()) || 0) + 1)
+      }
     }
-    if (meal.restaurantType === 'Dining-Halls') {
-      mealsByTypeAndCategory[meal.mealType]?.['Dining-Halls'].push(meal)
-    }
-  })
+    return mealUsage
+  }
 
-  const franchiseMeals = mealsByTypeAndCategory[selectedMealType].Franchise
-  const diningHallMeals = mealsByTypeAndCategory[selectedMealType]['Dining-Halls']
-
-  // Helper function to try and generate a partial plan for a specific meal pool
+  // Helper function to try and generate a partial plan
   function tryGeneratePartialPlan(
     mealPool,
     count,
     allowRepeats = false,
-    allowConsecutiveRepeats = true,
+    calorieConstrained = true,
     existingPlan = {},
     usedMealIds = new Set()
   ) {
+    console.log(`Attempting to generate partial plan for ${count} meals...`)
+    console.log(`- Meal pool size: ${mealPool.length}`)
+    console.log(`- Allow repeats: ${allowRepeats}`)
+    console.log(`- Calorie constrained: ${calorieConstrained}`)
+    console.log(`- Existing plan days: ${Object.keys(existingPlan).filter((k) => k.startsWith('day')).length}`)
+    console.log(`- Used meal IDs:`, [...usedMealIds])
+
     const currentPlan = { ...existingPlan }
     const currentUsedMealIds = new Set([...usedMealIds])
-    let lastMealId = null
     const localIssues = []
 
+    // Filter meals by selectedMealType and (if calorieConstrained) by calorie margin
     let viableMealsInPool = mealPool.filter((meal) => {
+      if (meal.mealType !== selectedMealType) return false
+      if (!calorieConstrained) return true
       const totalCalories = meal?.totalCalories
       return typeof totalCalories === 'number' && Math.abs(totalCalories - targetCaloriesPerDay) <= calorieMargin
     })
 
+    console.log(
+      `- Viable meals after filtering (type: ${selectedMealType}, calorieConstrained: ${calorieConstrained}): ${viableMealsInPool.length}`
+    )
+
     if (viableMealsInPool.length === 0) {
-      return { plan: null, issues: [`No viable meals in the pool within calorie margin.`] }
+      console.warn(`No viable meals in pool for selectedMealType: ${selectedMealType}`)
+      return {
+        plan: null,
+        issues: [
+          `No viable meals in the pool for meal type ${selectedMealType}${
+            calorieConstrained ? ` within calorie margin ${calorieMargin}` : ''
+          }.`,
+        ],
+      }
     }
 
-    // Find available days (1-7) that haven't been assigned yet
+    // Find available days (1-7)
     const availableDays = []
     for (let day = 1; day <= 7; day++) {
       if (!currentPlan[`day${day}`]) {
@@ -659,56 +829,47 @@ function generate7MealPlan(
       }
     }
 
+    console.log(`- Available days: ${availableDays}`)
+
     if (availableDays.length < count) {
+      console.warn(`Not enough available days: needed ${count}, found ${availableDays.length}`)
       return {
         plan: null,
         issues: [`Not enough available days for partial plan (needed ${count}, found ${availableDays.length}).`],
       }
     }
 
-    // Shuffle available days to add randomness
-    for (let i = availableDays.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-      ;[availableDays[i], availableDays[j]] = [availableDays[j], availableDays[i]]
-    }
+    // Shuffle available days
+    const shuffledDays = shuffleArray([...availableDays]).slice(0, count)
+    console.log(`- Shuffled days to assign: ${shuffledDays}`)
 
-    // Take the first 'count' days from the shuffled array
-    const daysToAssign = availableDays.slice(0, count)
-
-    for (const day of daysToAssign) {
+    for (const day of shuffledDays) {
       let selectedMeal = null
       let eligibleMealsForDay = []
 
       if (!allowRepeats) {
         eligibleMealsForDay = viableMealsInPool.filter((meal) => !currentUsedMealIds.has(meal._id.toString()))
       } else {
-        eligibleMealsForDay = viableMealsInPool.filter((meal) => {
-          if (!allowConsecutiveRepeats && meal._id.toString() === lastMealId) {
-            return false
-          }
-          return true
-        })
+        eligibleMealsForDay = [...viableMealsInPool]
       }
 
+      console.log(`- Day ${day}: Eligible meals count: ${eligibleMealsForDay.length}`)
+
       // Shuffle eligible meals
-      for (let i = eligibleMealsForDay.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1))
-        ;[eligibleMealsForDay[i], eligibleMealsForDay[j]] = [eligibleMealsForDay[j], eligibleMealsForDay[i]]
-      }
+      eligibleMealsForDay = shuffleArray([...eligibleMealsForDay])
 
       if (eligibleMealsForDay.length > 0) {
         selectedMeal = eligibleMealsForDay[0]
         currentUsedMealIds.add(selectedMeal._id.toString())
-        lastMealId = selectedMeal._id.toString()
-      }
-
-      if (!selectedMeal) {
+        currentPlan[`day${day}`] = { meal: selectedMeal }
+        console.log(`- Assigned meal to Day ${day}:`, {
+          _id: selectedMeal._id,
+          mealName: selectedMeal.mealName,
+          totalCalories: selectedMeal.totalCalories,
+        })
+      } else {
         localIssues.push(`Could not find a suitable meal for Day ${day} within the current pool and constraints.`)
-        break
-      }
-
-      currentPlan[`day${day}`] = {
-        meal: selectedMeal,
+        console.warn(`- Failed to assign meal for Day ${day}`)
       }
     }
 
@@ -717,22 +878,28 @@ function generate7MealPlan(
         Object.keys(existingPlan).filter((k) => k.startsWith('day')).length + count &&
       localIssues.length === 0
     ) {
+      console.log(`Successfully generated partial plan for ${count} meals.`)
       return { plan: currentPlan, issues: [], usedMealIds: currentUsedMealIds }
     } else {
+      console.warn(`Failed to generate partial plan. Issues:`, localIssues)
       return { plan: null, issues: localIssues }
     }
   }
 
-  // --- Phase 1: Generate unique meals with franchise/dining count constraints ---
+  // --- Phase 1: Generate plan with franchise/dining counts, no repeats, calorie constraints ---
+  console.log('Starting Phase 1: Generating plan with franchise/dining counts, no repeats, and calorie constraints...')
   let finalPlan = {}
   let usedMealIds = new Set()
+  let lastAssignedDay = 0
 
+  // Step 1: Assign Franchise meals
   if (franchiseMealCount > 0) {
+    console.log(`Attempting to assign ${franchiseMealCount} Franchise meals...`)
     const franchiseResult = tryGeneratePartialPlan(
       franchiseMeals,
       franchiseMealCount,
       false, // no repeats
-      true,
+      true, // calorie constrained
       {},
       usedMealIds
     )
@@ -740,22 +907,30 @@ function generate7MealPlan(
     if (franchiseResult.plan) {
       finalPlan = franchiseResult.plan
       usedMealIds = franchiseResult.usedMealIds
-      console.log(`Successfully generated ${franchiseMealCount} unique Franchise meals.`)
+      lastAssignedDay = Math.max(
+        ...Object.keys(finalPlan)
+          .filter((k) => k.startsWith('day'))
+          .map((k) => parseInt(k.replace('day', '')))
+      )
+      console.log(
+        `Phase 1: Successfully assigned ${franchiseMealCount} unique Franchise meals up to Day ${lastAssignedDay}.`
+      )
     } else {
       console.warn(
-        `Failed to generate ${franchiseMealCount} unique Franchise meals:`,
-        franchiseResult.issues.join(', ')
+        `Phase 1: Failed to assign ${franchiseMealCount} unique Franchise meals. Issues:`,
+        franchiseResult.issues
       )
-      // Don't fall back to fewer meals yet - we'll try Phase 2 first
     }
   }
 
-  if (diningHallMealCount > 0) {
+  // Step 2: Assign Dining Hall meals
+  if (diningHallMealCount > 0 && Object.keys(finalPlan).filter((k) => k.startsWith('day')).length < 7) {
+    console.log(`Attempting to assign ${diningHallMealCount} Dining Hall meals...`)
     const diningResult = tryGeneratePartialPlan(
       diningHallMeals,
       diningHallMealCount,
       false, // no repeats
-      true,
+      true, // calorie constrained
       finalPlan,
       usedMealIds
     )
@@ -763,115 +938,146 @@ function generate7MealPlan(
     if (diningResult.plan) {
       finalPlan = diningResult.plan
       usedMealIds = diningResult.usedMealIds
-      console.log(`Successfully generated ${diningHallMealCount} unique Dining-Hall meals.`)
+      lastAssignedDay = Math.max(
+        ...Object.keys(finalPlan)
+          .filter((k) => k.startsWith('day'))
+          .map((k) => parseInt(k.replace('day', '')))
+      )
+      console.log(
+        `Phase 1: Successfully assigned ${diningHallMealCount} unique Dining Hall meals up to Day ${lastAssignedDay}.`
+      )
     } else {
       console.warn(
-        `Failed to generate ${diningHallMealCount} unique Dining-Hall meals:`,
-        diningResult.issues.join(', ')
+        `Phase 1: Failed to assign ${diningHallMealCount} unique Dining Hall meals. Issues:`,
+        diningResult.issues
       )
     }
   }
 
-  // Verify we have a complete plan with unique meals
+  // Check if Phase 1 succeeded
   if (Object.keys(finalPlan).filter((k) => k.startsWith('day')).length === 7) {
-    // Log used items and their counts, and franchise/dining counts
+    console.log('Phase 1: Successfully generated a complete 7-day plan.')
+    // Log used items and their counts
     const usedItems = []
+    const mealUsage = buildMealUsage(finalPlan)
     mealUsage.forEach((count, id) => {
       if (count > 0) {
-        // Find the meal object by id
-        let meal = null
-        for (const type in allMealsByType) {
-          meal = allMealsByType[type].find((m) => m._id === id)
-          if (meal) break
-        }
+        const meal = [...franchiseMeals, ...diningHallMeals].find((m) => m._id.toString() === id)
         if (meal) {
-          usedItems.push({ _id: id, name: meal.mealName, count, restaurantType: meal.restaurantType })
+          usedItems.push({
+            _id: id,
+            name: meal.mealName,
+            count,
+            restaurantType: meal.restaurantType,
+            totalCalories: meal.totalCalories,
+          })
         }
       }
     })
-    console.log('Used items and counts:', usedItems)
-    console.log('Total franchise meals used:', franchiseMealCount, 'Total dining meals used:', diningHallMealCount)
+    console.log('Phase 1: Used items and counts:', usedItems)
+    console.log(
+      `Phase 1: Total franchise meals used: ${usedItems.filter((item) => item.restaurantType === 'Franchise').length}`
+    )
+    console.log(
+      `Phase 1: Total dining hall meals used: ${
+        usedItems.filter((item) => item.restaurantType === 'DiningHall').length
+      }`
+    )
     return finalPlan
   }
 
-  // --- Phase 2: Generate unique meals ignoring franchise/dining count constraints ---
+  // === PHASE 2: Continue from last assigned day, select highest-calorie unique meals ===
   console.warn(
-    'Phase 1 failed to generate complete plan with unique meals, attempting Phase 2 (ignoring franchise/dining counts)...'
+    `Phase 1 failed to generate a complete plan. Starting Phase 2: Continuing from Day ${
+      lastAssignedDay + 1
+    } with highest-calorie unique meals, ignoring calorie limits...`
   )
+  const remainingDays = 7 - Object.keys(finalPlan).filter((k) => k.startsWith('day')).length
+  console.log(`Phase 2: Need to assign ${remainingDays} remaining days.`)
 
-  // Reset
-  finalPlan = {}
-  usedMealIds = new Set()
-
-  // Combine all meals and try to get 7 unique ones
   const combinedMeals = [...franchiseMeals, ...diningHallMeals]
-  const combinedResult = tryGeneratePartialPlan(
-    combinedMeals,
-    7,
-    false, // still no repeats
-    true,
-    {},
-    new Set()
+  console.log(`Phase 2: Combined meal pool size: ${combinedMeals.length}`)
+
+  // Sort meals by totalCalories in descending order and filter by mealType and unused meals
+  let viableMeals = combinedMeals
+    .filter((meal) => meal.mealType === selectedMealType && !usedMealIds.has(meal._id.toString()))
+    .sort((a, b) => b.totalCalories - a.totalCalories)
+
+  console.log(`Phase 2: Viable meals after filtering (type: ${selectedMealType}): ${viableMeals.length}`)
+  console.log(
+    `Phase 2: Top ${Math.min(remainingDays, viableMeals.length)} high-calorie meals:`,
+    viableMeals.slice(0, remainingDays).map((m) => ({
+      _id: m._id,
+      mealName: m.mealName,
+      totalCalories: m.totalCalories,
+    }))
   )
 
-  if (combinedResult.plan) {
-    console.log('Phase 2 succeeded with 7 unique meals from combined pool')
-    // Log used items and their counts, and franchise/dining counts
+  if (viableMeals.length < remainingDays) {
+    console.error(`Phase 2: Not enough unique meals (${viableMeals.length}) to fill ${remainingDays} days.`)
+    throw new Error(
+      `🛑 Critical Error: Not enough unique meals (${viableMeals.length}) to fill ${remainingDays} days for meal type ${selectedMealType}.`
+    )
+  }
+
+  // Assign the top high-calorie meals to remaining days
+  const currentPlan = { ...finalPlan }
+  const currentUsedMealIds = new Set([...usedMealIds])
+  const availableDays = []
+  for (let day = 1; day <= 7; day++) {
+    if (!currentPlan[`day${day}`]) {
+      availableDays.push(day)
+    }
+  }
+  const daysToAssign = availableDays.slice(0, remainingDays)
+
+  for (let i = 0; i < remainingDays; i++) {
+    const day = daysToAssign[i]
+    const meal = viableMeals[i]
+    currentPlan[`day${day}`] = { meal }
+    currentUsedMealIds.add(meal._id.toString())
+    console.log(`Phase 2: Assigned high-calorie meal to Day ${day}:`, {
+      _id: meal._id,
+      mealName: meal.mealName,
+      totalCalories: meal.totalCalories,
+    })
+  }
+
+  // Verify the plan is complete
+  if (Object.keys(currentPlan).filter((k) => k.startsWith('day')).length === 7) {
+    console.log('Phase 2: Successfully generated a complete 7-day plan with high-calorie meals.')
+    // Log used items and their counts
     const usedItems = []
+    const mealUsage = buildMealUsage(currentPlan)
     mealUsage.forEach((count, id) => {
       if (count > 0) {
-        // Find the meal object by id
-        let meal = null
-        for (const type in allMealsByType) {
-          meal = allMealsByType[type].find((m) => m._id === id)
-          if (meal) break
-        }
+        const meal = combinedMeals.find((m) => m._id.toString() === id)
         if (meal) {
-          usedItems.push({ _id: id, name: meal.mealName, count, restaurantType: meal.restaurantType })
+          usedItems.push({
+            _id: id,
+            name: meal.mealName,
+            count,
+            restaurantType: meal.restaurantType,
+            totalCalories: meal.totalCalories,
+          })
         }
       }
     })
-    console.log('Used items and counts:', usedItems)
-    console.log('Total franchise meals used:', franchiseMealCount, 'Total dining meals used:', diningHallMealCount)
-    return combinedResult.plan
+    console.log('Phase 2: Used items and counts:', usedItems)
+    console.log(
+      `Phase 2: Total franchise meals used: ${usedItems.filter((item) => item.restaurantType === 'Franchise').length}`
+    )
+    console.log(
+      `Phase 2: Total dining hall meals used: ${
+        usedItems.filter((item) => item.restaurantType === 'DiningHall').length
+      }`
+    )
+    return currentPlan
   }
 
-  // --- Phase 3: Allow repeats if we still can't find enough unique meals ---
-  console.warn('Phase 2 failed to generate complete plan with unique meals, attempting Phase 3 (allowing repeats)...')
-
-  // Try with repeats allowed (but not consecutive)
-  const repeatResult = tryGeneratePartialPlan(
-    combinedMeals,
-    7,
-    true, // allow repeats
-    false, // but not consecutive
-    {},
-    new Set()
-  )
-
-  if (repeatResult.plan) {
-    console.log('Phase 3 succeeded with some meal repeats')
-    // Log used items and their counts, and franchise/dining counts
-    const usedItems = []
-    mealUsage.forEach((count, id) => {
-      if (count > 0) {
-        // Find the meal object by id
-        let meal = null
-        for (const type in allMealsByType) {
-          meal = allMealsByType[type].find((m) => m._id === id)
-          if (meal) break
-        }
-        if (meal) {
-          usedItems.push({ _id: id, name: meal.mealName, count, restaurantType: meal.restaurantType })
-        }
-      }
-    })
-    console.log('Used items and counts:', usedItems)
-    console.log('Total franchise meals used:', franchiseMealCount, 'Total dining meals used:', diningHallMealCount)
-    return repeatResult.plan
-  }
-
-  throw new Error(`🛑 Critical Error: Could not generate a 7-day plan. Issues: ${repeatResult.issues.join('\n')}`)
+  // --- Failure Case ---
+  console.error('Phase 2: Failed to generate a complete 7-day plan.')
+  throw new Error(`🛑 Critical Error: Could not generate a 7-day plan with high-calorie meals.`)
 }
 
 function generate14MealPlan(
@@ -883,7 +1089,7 @@ function generate14MealPlan(
   franchiseCount,
   diningCount,
   maxAttempts = 20000,
-  calorieMargin = 200
+  calorieMargin = 300
 ) {
   const totalDays = 7
 
@@ -947,6 +1153,10 @@ function generate14MealPlan(
         selectionMethod: 'Franchise-only fallback mode',
       }
     }
+    console.log(
+      '[Franchise Only] Selected 7 unique high-calorie franchise meals:',
+      fallbackFranchise.map((m) => m.name)
+    )
     return plan
   }
 
@@ -975,18 +1185,16 @@ function generate14MealPlan(
       })
     }
     if (diningMealsUsed + 1 <= diningCount && franchiseMealsUsed + 1 <= franchiseCount) {
-      tryCombinations.push(
-        {
-          aList: getAvailableMeals(firstMealType, 'Dining-Halls'),
-          bList: getAvailableMeals(secondMealType, 'Franchise'),
-          source: ['Dining-Halls', 'Franchise'],
-        },
-        {
-          aList: getAvailableMeals(firstMealType, 'Franchise'),
-          bList: getAvailableMeals(secondMealType, 'Dining-Halls'),
-          source: ['Franchise', 'Dining-Halls'],
-        }
-      )
+      tryCombinations.push({
+        aList: getAvailableMeals(firstMealType, 'Dining-Halls'),
+        bList: getAvailableMeals(secondMealType, 'Franchise'),
+        source: ['Dining-Halls', 'Franchise'],
+      })
+      tryCombinations.push({
+        aList: getAvailableMeals(firstMealType, 'Franchise'),
+        bList: getAvailableMeals(secondMealType, 'Dining-Halls'),
+        source: ['Franchise', 'Dining-Halls'],
+      })
     }
 
     for (const { aList, bList, source } of tryCombinations) {
@@ -1011,38 +1219,74 @@ function generate14MealPlan(
       if (validCombo) break
     }
 
-    // === Phase 2: Relaxed constraints on unfilled ===
+    // === Phase 2: Fill with random meals to meet franchise and dining counts, ignoring calories ===
     if (!validCombo) {
-      const aList = allMealsByType[firstMealType].filter((m) => mealUsage.get(m._id) < 2)
-      const bList = allMealsByType[secondMealType].filter((m) => mealUsage.get(m._id) < 2)
+      // Try combinations prioritizing remaining franchise and dining counts
+      const tryPhase2Combinations = []
 
-      for (let attempt = 0; attempt < maxAttempts; attempt++) {
-        const a = getRandomMeal(aList)
-        const b = getRandomMeal(bList)
+      // Define available meal pools with maxUses = 2
+      const aDiningList = allMealsByType[firstMealType].filter(
+        (m) => m.restaurantType === 'Dining-Halls' && mealUsage.get(m._id) < 1
+      )
+      const aFranchiseList = allMealsByType[firstMealType].filter(
+        (m) => m.restaurantType === 'Franchise' && mealUsage.get(m._id) < 1
+      )
+      const bDiningList = allMealsByType[secondMealType].filter(
+        (m) => m.restaurantType === 'Dining-Halls' && mealUsage.get(m._id) < 1
+      )
+      const bFranchiseList = allMealsByType[secondMealType].filter(
+        (m) => m.restaurantType === 'Franchise' && mealUsage.get(m._id) < 1
+      )
+
+      // Prioritize combinations based on remaining counts
+      if (diningMealsUsed + 2 <= diningCount) {
+        tryPhase2Combinations.push({
+          aList: aDiningList,
+          bList: bDiningList,
+          source: ['Dining-Halls', 'Dining-Halls'],
+        })
+      }
+      if (franchiseMealsUsed + 2 <= franchiseCount) {
+        tryPhase2Combinations.push({
+          aList: aFranchiseList,
+          bList: bFranchiseList,
+          source: ['Franchise', 'Franchise'],
+        })
+      }
+      if (diningMealsUsed + 1 <= diningCount && franchiseMealsUsed + 1 <= franchiseCount) {
+        tryPhase2Combinations.push({
+          aList: aDiningList,
+          bList: bFranchiseList,
+          source: ['Dining-Halls', 'Franchise'],
+        })
+        tryPhase2Combinations.push({
+          aList: aFranchiseList,
+          bList: bDiningList,
+          source: ['Franchise', 'Dining-Halls'],
+        })
+      }
+
+      for (const { aList, bList, source } of tryPhase2Combinations) {
+        if (!aList.length || !bList.length) continue
+
+        // Randomly select meals without checking calories
+        const a = getRandomMeal(aList, 2)
+        const b = getRandomMeal(bList, 2)
         if (!a || !b || (a._id === b._id && firstMealType === secondMealType)) continue
 
-        // Count how many franchise meals would be used if we pick this combo
-        let tempFranchiseCount = franchiseMealsUsed
-        if (a.restaurantType === 'Franchise') tempFranchiseCount++
-        if (b.restaurantType === 'Franchise') tempFranchiseCount++
-        if (tempFranchiseCount > 7) continue
-
-        const totalCals = (a.totalCalories || 0) + (b.totalCalories || 0)
-        if (Math.abs(totalCals - targetCaloriesPerDay) <= calorieMargin) {
-          validCombo = {
-            a,
-            b,
-            source: [a.restaurantType, b.restaurantType],
-            method: 'Relaxed Phase 2',
-          }
-          break
+        validCombo = {
+          a,
+          b,
+          source,
+          method: 'Phase 2: Random fill ignoring calories',
         }
+        break
       }
     }
 
     // Final fallback fail
     if (!validCombo) {
-      issues.push(`❌ Day ${day} failed.`)
+      issues.push(`❌ Day ${day} failed to find a valid meal combination.`)
       continue
     }
 
@@ -1060,17 +1304,18 @@ function generate14MealPlan(
     if (validCombo.source[1] === 'Franchise') franchiseMealsUsed++
     else diningMealsUsed++
   }
+
   if (issues.length > 0) {
-    throw new Error('Failed:' + issues.join('\n'))
+    throw new Error('Failed:\n' + issues.join('\n'))
   }
-  // Summary log: used meal ids and counts, and total franchise/dining meals
+
+  // Summary log
   const usedMealCounts = {}
   let franchiseMealsUsedFinal = 0
   let diningMealsUsedFinal = 0
   mealUsage.forEach((count, id) => {
     if (count > 0) {
       usedMealCounts[id] = count
-      // Find the meal object by id to check restaurantType
       let meal = null
       for (const type in allMealsByType) {
         meal = allMealsByType[type].find((m) => m._id === id)
@@ -1082,10 +1327,26 @@ function generate14MealPlan(
       }
     }
   })
+
+  console.log('[14 Meal Plan] Used meal IDs and counts:')
+  Object.entries(usedMealCounts).forEach(([id, count]) => {
+    console.log(`_id: ${id}, count: ${count}`)
+  })
   console.log('Meal usage summary:', usedMealCounts)
   console.log('Total franchise meals used:', franchiseMealsUsedFinal)
   console.log('Total dining meals used:', diningMealsUsedFinal)
+
   return plan
+}
+
+// Helper to build meal usage map from a plan
+function buildMealUsage(plan) {
+  const mealUsage = new Map()
+  Object.values(plan).forEach(({ meal }) => {
+    const id = meal._id
+    mealUsage.set(id, (mealUsage.get(id) || 0) + 1)
+  })
+  return mealUsage
 }
 
 module.exports = {

@@ -666,7 +666,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
   //       if (!preferredMealTypes || preferredMealTypes.length !== 2) {
   //         return res.status(400).json({ error: 'preferredMealTypes (array of 2) is required for 14-meal plan.' })
   //       }
-  //       if (targetCaloriesPerDay > 2000) {
+  //       if (targetCaloriesPerDay > 1200) {
   //         targetCalories = targetCaloriesPerDay * 0.7
   //       }
   //       mealPlan = generate14MealPlan(
@@ -683,7 +683,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
   //         return res.status(400).json({ error: 'selectedMealType is required for 7-meal plan.' })
   //       }
   //       const mealType = Array.isArray(selectedMealType) ? selectedMealType[0] : selectedMealType
-  //       if (targetCaloriesPerDay > 2000) {
+  //       if (targetCaloriesPerDay > 1200) {
   //         targetCalories = targetCaloriesPerDay * 0.3
   //       }
   //       const franchiseMealCount = franchiseCount
@@ -820,7 +820,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const breakfastFranchiseFastMeals = await GeneratedMeal.find({
         mealType: 'Breakfast',
         campus: { $in: [campus] },
-        restaurantType: { $in: ['Dining-Halls'] },
+        restaurantType: { $in: ['Franchise'] },
       })
         .populate('items.itemId')
         .lean()
@@ -828,7 +828,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const breakfastDiningFastMeals = await GeneratedMeal.find({
         mealType: 'Breakfast',
         campus: { $in: [campus] },
-        restaurantType: { $in: ['Franchise'] },
+        restaurantType: { $in: ['Dining-Halls'] },
       })
         .populate('items.itemId')
         .lean()
@@ -855,6 +855,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const dinnerFranchiseFastMeals = await GeneratedMeal.find({
         mealType: 'Dinner',
         campus: { $in: [campus] },
+        restaurantType: { $in: ['Franchise'] },
       })
         .populate('items.itemId')
         .lean()
@@ -862,7 +863,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
       const dinnerDiningFastMeals = await GeneratedMeal.find({
         mealType: 'Dinner',
         campus: { $in: [campus] },
-        restaurantType: { $in: ['Franchise'] },
+        restaurantType: { $in: ['Dining-Halls'] },
       })
         .populate('items.itemId')
         .lean()
@@ -926,9 +927,18 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         if (!preferredMealTypes || preferredMealTypes.length !== 2) {
           return res.status(400).json({ error: 'preferredMealTypes (array of 2) is required for 14-meal plan.' })
         }
-        if (targetCaloriesPerDay > 2000) {
+        if (targetCaloriesPerDay > 1300 && targetCaloriesPerDay < 2000) {
           targetCalories = targetCaloriesPerDay * 0.7
         }
+        if (targetCaloriesPerDay > 2000) {
+          targetCalories = targetCaloriesPerDay * 0.6
+        }
+        console.log('breakfastFranchiseFastMeals', breakfastFranchiseFastMeals.length)
+        console.log('breakfastDiningFastMeals', breakfastDiningFastMeals.length)
+        console.log('lunchFranchiseFastMeals', lunchFranchiseFastMeals.length)
+        console.log('lunchDiningFastMeals', lunchDiningFastMeals.length)
+        console.log('dinnerFranchiseFastMeals', dinnerFranchiseFastMeals.length)
+        console.log('dinnerDiningFastMeals', dinnerDiningFastMeals.length)
         const breakfastMeals = [...breakfastFranchiseFastMeals, ...breakfastDiningFastMeals]
 
         const lunchMeals = [...lunchFranchiseFastMeals, ...lunchDiningFastMeals]
@@ -950,22 +960,25 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
           return res.status(400).json({ error: 'selectedMealType is required for 7-meal plan.' })
         }
         const mealType = Array.isArray(selectedMealType) ? selectedMealType[0] : selectedMealType
-        if (targetCaloriesPerDay > 2000) {
+        if (targetCaloriesPerDay > 900 && targetCaloriesPerDay < 1750) {
+          targetCalories = targetCaloriesPerDay * 0.5
+        }
+        if (targetCaloriesPerDay > 1750) {
           targetCalories = targetCaloriesPerDay * 0.3
         }
         const franchiseMealCount = franchiseCount
         const diningHallMealCount = diningCount
 
-        const breakfastMeals = [...breakfastFranchiseFastMeals, ...breakfastDiningFastMeals]
+        // const breakfastMeals = [...breakfastFranchiseFastMeals, ...breakfastDiningFastMeals]
 
-        const lunchMeals = [...lunchFranchiseFastMeals, ...lunchDiningFastMeals]
+        // const lunchMeals = [...lunchFranchiseFastMeals, ...lunchDiningFastMeals]
 
-        const dinnerMeals = [...dinnerFranchiseFastMeals, ...dinnerDiningFastMeals]
-
+        // const dinnerMeals = [...dinnerFranchiseFastMeals, ...dinnerDiningFastMeals]
+        const franchiseMeals = [...breakfastFranchiseFastMeals, ...lunchFranchiseFastMeals, ...dinnerFranchiseFastMeals]
+        const diningHallMeals = [...breakfastDiningFastMeals, ...lunchDiningFastMeals, ...dinnerDiningFastMeals]
         mealPlan = generate7MealPlan(
-          breakfastMeals,
-          lunchMeals,
-          dinnerMeals,
+          franchiseMeals,
+          diningHallMeals,
           targetCalories,
           mealType,
           franchiseMealCount,
@@ -1303,6 +1316,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 //{ "_id": ObjectId("67acaacba0812499dafa53f3") }
 // Helper function to transform meal items
 const transformMealItems = (items) => {
+  // console.log('fejbfekhsf', items)
   return items.map((item) => ({
     _id: item.itemId._id,
     name: item.name,
