@@ -1,5 +1,5 @@
 import { schedule } from 'node-cron'
-import { CONTROLLER_GENERATE_MEAL } from '../controllers'
+import { CONTROLLER_GENERATE_MEAL, CONTROLLER_SCRAPPER } from '../controllers'
 import { GeneratedMeal, GeneratedMealNew } from '../models/generatedMeals'
 import { sleep } from './estimateTokens'
 import { notifyError } from '../middlewares'
@@ -50,6 +50,7 @@ const calorieRanges = {
           try {
             if (count === 0) {
               // should be new GeneratedMealNew
+              await CONTROLLER_SCRAPPER.scrapeAllMenus()
               console.log('🧹 Deleting old generated meals...')
               await GeneratedMeal.deleteMany({})
               console.log('✅ Old meals deleted.')
