@@ -1,5 +1,5 @@
 import { schedule } from 'node-cron'
-import { CONTROLLER_GENERATE_MEAL } from '../controllers'
+import { CONTROLLER_GENERATE_MEAL, CONTROLLER_SCRAPPER } from '../controllers'
 import { GeneratedMeal, GeneratedMealNew } from '../models/generatedMeals'
 import { sleep } from './estimateTokens'
 import { notifyError } from '../middlewares'
@@ -17,9 +17,9 @@ const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
 //   Dinner: { min: 200, max: 2000 },
 // }
 const calorieRanges = {
-  Breakfast: { min: 200, max: 1300 },
-  Lunch: { min: 200, max: 1500 },
-  Dinner: { min: 300, max: 1500 },
+  Breakfast: { min: 300, max: 1500 },
+  Lunch: { min: 300, max: 1600 },
+  Dinner: { min: 400, max: 2000 },
 }
 
 // 👇 Wrap everything in an async IIFE
@@ -50,6 +50,7 @@ const calorieRanges = {
           try {
             if (count === 0) {
               // should be new GeneratedMealNew
+              await CONTROLLER_SCRAPPER.scrapeAllMenus()
               console.log('🧹 Deleting old generated meals...')
               await GeneratedMeal.deleteMany({})
               console.log('✅ Old meals deleted.')

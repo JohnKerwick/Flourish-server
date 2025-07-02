@@ -57,6 +57,6 @@ app.use(errorHandler)
 app.get('/ping', (req, res) => res.send('Ping Successfulls 😄'))
 
 server.listen(PORT, async () => {
-  task.start()
+  // task.start()
   console.log(`[⚡️ server]: Server running on port ${PORT} | Environment: ${process.env.NODE_ENV}`)
 })
