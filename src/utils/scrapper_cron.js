@@ -21,8 +21,8 @@ import { CONTROLLER_SCRAPPER } from '../controllers'
 
   // Set job start time: 00:00 AM
 
-  const minute = 3
-  const hour = 50
+  const hour = 4 // 4 AM
+  const minute = 0
 
   const cronTime = `${minute} ${hour} * * *` // daily at calculated time
   console.log(`⏰ Scheduling job at ${cronTime} (America/New_York)`)
