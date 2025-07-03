@@ -1946,7 +1946,7 @@ export const CONTROLLER_SCRAPPER = {
       { name: 'Chick-Fil-A', id: '513fbc1283aa2dc80c000025', category: 'Dinner', campus: ['HPU', 'UMD', 'UNCC'] },
       { name: 'Starbucks', id: '513fbc1283aa2dc80c00001f', category: 'Breakfast', campus: ['HPU', 'UNCC'] },
       { name: 'Taco Bell', id: '513fbc1283aa2dc80c000020', category: 'Breakfast', campus: ['UMD'] },
-      { name: 'Panera Bread', id: '513fbc1283aa2dc80c00000c', category: 'Dinner', campus: ['UMD'] },
+      { name: 'Panera Bread', id: '513fbc1283aa2dc80c00000c', category: 'Breakfast', campus: ['UMD'] },
       { name: 'SaladWorks', id: '521b95444a56d006cae29993', category: 'Lunch', campus: ['UMD'] },
       { name: 'Qdoba', id: '513fbc1283aa2dc80c00003a', category: 'Lunch', campus: ['UMD'] },
       { name: "Auntie Anne's", id: '513fbc1283aa2dc80c00013e', category: 'Dinner', campus: ['UNCC'] },
