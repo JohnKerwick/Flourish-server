@@ -846,7 +846,7 @@ export const CONTROLLER_GENERATE_MEAL = {
     console.log(`🚀 Generating meals via ${isCron ? 'CRON' : 'HTTP API'} mode`)
 
     try {
-      const { calorieRange = { min: 300, max: 600 }, types = ['Breakfast', 'Lunch', 'Dinner'], campus } = input
+      const { calorieRange = { min: 500, max: 1500 }, types = ['Breakfast', 'Lunch', 'Dinner'], campus } = input
 
       const defaultCampuses = ['HPU', 'UMD', 'UNCC']
       const campusList = campus?.length ? campus : defaultCampuses
@@ -883,24 +883,23 @@ export const CONTROLLER_GENERATE_MEAL = {
         }
 
         // const items = rawItems.filter((item) => item.restaurantName && item.restaurantType)
-        const items = rawItems
-          .filter(
-            (item) =>
-              item.restaurantName &&
-              item.restaurantType &&
-              typeof item.nutrients?.calories === 'number' &&
-              item.nutrients.calories > 0
-          )
-          .map((item) => ({
-            ...item,
-            calories: item.nutrients.calories, // ✅ already filtered, so safe to access
-          }))
+        const items = rawItems.filter(
+          (item) =>
+            item.restaurantName &&
+            item.restaurantType &&
+            typeof item.nutrients?.calories === 'number' &&
+            item.nutrients.calories > 100
+        )
+        // .map((item) => ({
+        //   ...item,
+        //   calories: item.nutrients.calories, // ✅ already filtered, so safe to access
+        // }))
 
         const grouped = {}
         for (const item of items) {
           const key = `${item.restaurantName}::${item.type}`
           if (!grouped[key]) grouped[key] = []
-          if (grouped[key].length < 100) grouped[key].push(item)
+          if (grouped[key].length < 25) grouped[key].push(item)
         }
 
         const prompt = `
@@ -1053,7 +1052,7 @@ export const CONTROLLER_GENERATE_MEAL = {
           }
         })
 
-        const created = await GeneratedMeal.insertMany(createdPayload)
+        const created = await GeneratedMealNew.insertMany(createdPayload)
         allCreatedMeals.push(...created)
       }
 
