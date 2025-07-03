@@ -31,8 +31,8 @@ const calorieRanges = {
   for (const campus of campuses) {
     for (const type of mealTypes) {
       const calorieRange = calorieRanges[type]
-
-      const totalMinutes = 15 + jobIndex * 3
+      const baseMinutes = 30 // Start at 00:30
+      const totalMinutes = baseMinutes + jobIndex * 6
       const minute = totalMinutes % 60
       const hour = Math.floor(totalMinutes / 60)
 
@@ -50,7 +50,6 @@ const calorieRanges = {
           try {
             if (count === 0) {
               // should be new GeneratedMealNew
-              await CONTROLLER_SCRAPPER.scrapeAllMenus()
               console.log('🧹 Deleting old generated meals...')
               await GeneratedMeal.deleteMany({})
               console.log('✅ Old meals deleted.')
