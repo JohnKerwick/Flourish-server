@@ -31,8 +31,8 @@ const calorieRanges = {
   for (const campus of campuses) {
     for (const type of mealTypes) {
       const calorieRange = calorieRanges[type]
-      // const baseMinutes = 30 // Start at 00:30
-      const baseMinutes = 5 * 60 + 50 // 5:50 AM = 350 minutes
+      const baseMinutes = 30 // Start at 00:30
+      // const baseMinutes = 5 * 60 + 50 // 5:50 AM = 350 minutes
       const totalMinutes = baseMinutes + jobIndex * 6
       const minute = totalMinutes % 60
       const hour = Math.floor(totalMinutes / 60)
@@ -78,7 +78,7 @@ const calorieRanges = {
 // Manual trigger function (for testing)
 export async function runMealGenerationManually() {
   console.log('🧪 Manually triggering all 9 meal generation jobs...')
-  await GeneratedMealNew.deleteMany({})
+  await GeneratedMeal.deleteMany({})
   console.log('🧹 Deleted all existing generated meals.')
   for (const campus of campuses) {
     for (const type of mealTypes) {
@@ -97,7 +97,7 @@ export async function runMealGenerationManually() {
         console.error(`❌ [Manual] Failed for ${campus} - ${type}`, err)
       }
 
-      await new Promise((res) => setTimeout(res, 3 * 60 * 1000)) // 3-minute delay
+      await new Promise((res) => setTimeout(res, 4 * 60 * 1000)) // 4-minute delay
     }
   }
 

@@ -1053,7 +1053,7 @@ export const CONTROLLER_GENERATE_MEAL = {
           }
         })
 
-        const created = await GeneratedMealNew.insertMany(createdPayload)
+        const created = await GeneratedMeal.insertMany(createdPayload)
         allCreatedMeals.push(...created)
       }
 
