@@ -31,7 +31,8 @@ const calorieRanges = {
   for (const campus of campuses) {
     for (const type of mealTypes) {
       const calorieRange = calorieRanges[type]
-      const baseMinutes = 30 // Start at 00:30
+      // const baseMinutes = 30 // Start at 00:30
+      const baseMinutes = 4 * 60 + 20 // 4:20 AM = 260 minutes
       const totalMinutes = baseMinutes + jobIndex * 6
       const minute = totalMinutes % 60
       const hour = Math.floor(totalMinutes / 60)
