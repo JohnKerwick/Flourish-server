@@ -7,6 +7,7 @@ import axios from 'axios'
 import { load } from 'cheerio'
 import { allBrands } from '../utils/data'
 import { notifyError } from '../middlewares/errorHandler'
+import { asyncMiddleware } from '../middlewares'
 
 // const brands = [
 //   { name: 'Subway', id: '513fbc1283aa2dc80c000005', campus: ['HPU', 'UMD'] },
@@ -1716,7 +1717,32 @@ import { notifyError } from '../middlewares/errorHandler'
 // ]
 
 export const CONTROLLER_SCRAPPER = {
-  async scrapeAllMenus(req, res) {
+  scrapeAllMenus: asyncMiddleware(async (req, res) => {
+    try {
+      const allData = []
+      await Meals.deleteMany({ restaurantType: { $ne: 'Franchise' } })
+      console.log(`${result.deletedCount} meals deleted.`)
+
+      console.log('Scraping HPU...')
+      const hpuData = await scrapeHPU()
+      if (hpuData) allData.push(...hpuData)
+
+      console.log('Scraping UNCC...')
+      const unccData = await scrapeUNCC()
+      if (unccData) allData.push(...unccData)
+
+      console.log('Scraping UMD...')
+      const umdData = await scrapeUMD()
+      if (umdData) allData.push(...umdData)
+
+      notifyError('Scrapper Sucess')
+    } catch (error) {
+      console.error('Error during scraping:', error)
+      notifyError(error)
+      res.status(500).json({ message: 'Scraping failed', error: error.message })
+    }
+  }),
+  async scrapeAllMenusOld(req, res) {
     res.status(202).json({
       message: 'Scraping completed and data saved to MongoDB successfully',
     })

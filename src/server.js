@@ -13,13 +13,13 @@ import configSwagger from './config/swagger'
 import { createServer } from 'node:http'
 import { initializeFirebase } from './utils/firebase'
 import dotenv from 'dotenv'
-import { task } from './utils/scrapper_cron'
 import { setupSocketEventHandlers } from './socketEvents'
 
 import { init as initSocket } from './socket.js'
 // For Socket.io
 // global.serverRoot = path.resolve(__dirname)
 // setupSocketEventHandlers()
+import './utils/scrapper_cron.js' // Import the cron job setup (GENERATE_MEAL_CRON)
 import './utils/generate-meals_cron.js' // Import the cron job setup (GENERATE_MEAL_CRON)
 
 const app = express()
