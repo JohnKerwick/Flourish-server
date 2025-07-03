@@ -120,14 +120,19 @@ export const scrapeHPU = async () => {
                                   restaurantType: 'Dining-Halls',
 
                                   campus: campus,
-                                  calories: (parsedData.facts.find((f) => f.label === 'Calories')?.value || 0).toFixed(
-                                    2
-                                  ),
-                                  protein: (parsedData.facts.find((f) => f.label === 'Protein')?.value || 0).toFixed(2),
-                                  fat: (parsedData.facts.find((f) => f.label === 'Total Fat')?.value || 0).toFixed(2),
-                                  carbohydrate: (
-                                    parsedData.facts.find((f) => f.label === 'Total Carbohydrate')?.value || 0
-                                  ).toFixed(2),
+
+                                  nutrients: {
+                                    calories: (
+                                      parsedData.facts.find((f) => f.label === 'Calories')?.value || 0
+                                    ).toFixed(2),
+                                    protein: (parsedData.facts.find((f) => f.label === 'Protein')?.value || 0).toFixed(
+                                      2
+                                    ),
+                                    fat: (parsedData.facts.find((f) => f.label === 'Total Fat')?.value || 0).toFixed(2),
+                                    carbohydrate: (
+                                      parsedData.facts.find((f) => f.label === 'Total Carbohydrate')?.value || 0
+                                    ).toFixed(2),
+                                  },
                                   serving: parsedData.serving_size || '',
                                   allergens: parsedData.allergens_list || '',
                                   ingredients: parsedData.ingredients_list || '',
