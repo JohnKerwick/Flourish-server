@@ -936,20 +936,17 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         console.log('breakfastFranchiseFastMeals', breakfastFranchiseFastMeals.length)
         console.log('breakfastDiningFastMeals', breakfastDiningFastMeals.length)
         console.log('lunchFranchiseFastMeals', lunchFranchiseFastMeals.length)
-        console.log('lunchDiningFastMeals', lunchDiningFastMeals.length)
+        console.log('2lunchDiningFastMeals', lunchDiningFastMeals.length)
         console.log('dinnerFranchiseFastMeals', dinnerFranchiseFastMeals.length)
         console.log('dinnerDiningFastMeals', dinnerDiningFastMeals.length)
-        const breakfastMeals = [...breakfastFranchiseFastMeals, ...breakfastDiningFastMeals]
-
-        const lunchMeals = [...lunchFranchiseFastMeals, ...lunchDiningFastMeals]
-
-        const dinnerMeals = [...dinnerFranchiseFastMeals, ...dinnerDiningFastMeals]
 
         mealPlan = generate14MealPlan(
-          breakfastMeals,
-          lunchMeals,
-          dinnerMeals,
-
+          breakfastFranchiseFastMeals,
+          breakfastDiningFastMeals,
+          lunchFranchiseFastMeals,
+          lunchDiningFastMeals,
+          dinnerFranchiseFastMeals,
+          dinnerDiningFastMeals,
           targetCalories,
           preferredMealTypes,
           franchiseCount,
@@ -974,11 +971,14 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         // const lunchMeals = [...lunchFranchiseFastMeals, ...lunchDiningFastMeals]
 
         // const dinnerMeals = [...dinnerFranchiseFastMeals, ...dinnerDiningFastMeals]
-        const franchiseMeals = [...breakfastFranchiseFastMeals, ...lunchFranchiseFastMeals, ...dinnerFranchiseFastMeals]
-        const diningHallMeals = [...breakfastDiningFastMeals, ...lunchDiningFastMeals, ...dinnerDiningFastMeals]
+
         mealPlan = generate7MealPlan(
-          franchiseMeals,
-          diningHallMeals,
+          breakfastFranchiseFastMeals,
+          breakfastDiningFastMeals,
+          lunchFranchiseFastMeals,
+          lunchDiningFastMeals,
+          dinnerFranchiseFastMeals,
+          dinnerDiningFastMeals,
           targetCalories,
           mealType,
           franchiseMealCount,
