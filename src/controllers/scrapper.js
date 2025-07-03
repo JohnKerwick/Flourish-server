@@ -8,6 +8,7 @@ import { load } from 'cheerio'
 import { allBrands } from '../utils/data'
 import { notifyError } from '../middlewares/errorHandler'
 import { asyncMiddleware } from '../middlewares'
+import { scrapeDataMenus } from '../utils/scrapper-util'
 
 // const brands = [
 //   { name: 'Subway', id: '513fbc1283aa2dc80c000005', campus: ['HPU', 'UMD'] },
@@ -1719,21 +1720,10 @@ import { asyncMiddleware } from '../middlewares'
 export const CONTROLLER_SCRAPPER = {
   scrapeAllMenus: asyncMiddleware(async (req, res) => {
     try {
-      const allData = []
-      await Meals.deleteMany({ restaurantType: { $ne: 'Franchise' } })
-      console.log(`${result.deletedCount} meals deleted.`)
-
-      console.log('Scraping HPU...')
-      const hpuData = await scrapeHPU()
-      if (hpuData) allData.push(...hpuData)
-
-      console.log('Scraping UNCC...')
-      const unccData = await scrapeUNCC()
-      if (unccData) allData.push(...unccData)
-
-      console.log('Scraping UMD...')
-      const umdData = await scrapeUMD()
-      if (umdData) allData.push(...umdData)
+      res.status(202).json({
+        message: 'Scraping completed and data saved to MongoDB successfully',
+      })
+      await scrapeDataMenus()
 
       notifyError('Scrapper Sucess')
     } catch (error) {
@@ -1747,21 +1737,7 @@ export const CONTROLLER_SCRAPPER = {
       message: 'Scraping completed and data saved to MongoDB successfully',
     })
     try {
-      const allData = []
-      await Meals.deleteMany({ restaurantType: { $ne: 'Franchise' } })
-      console.log(`${result.deletedCount} meals deleted.`)
-
-      console.log('Scraping HPU...')
-      const hpuData = await scrapeHPU()
-      if (hpuData) allData.push(...hpuData)
-
-      console.log('Scraping UNCC...')
-      const unccData = await scrapeUNCC()
-      if (unccData) allData.push(...unccData)
-
-      console.log('Scraping UMD...')
-      const umdData = await scrapeUMD()
-      if (umdData) allData.push(...umdData)
+      await scrapeDataMenus()
 
       notifyError('Scrapper Sucess')
     } catch (error) {
