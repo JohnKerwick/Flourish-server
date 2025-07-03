@@ -49,7 +49,19 @@ function generate21MealPlan(
       const j = Math.floor(Math.random() * (i + 1))
       ;[topMeals[i], topMeals[j]] = [topMeals[j], topMeals[i]]
     }
-    const selectedMeals = topMeals.slice(0, 21)
+    // Select up to 21 meals, but with restaurant constraint
+    const selectedMeals = []
+    const restaurantCount = {}
+    for (let i = 0; i < topMeals.length && selectedMeals.length < 7; i++) {
+      const meal = topMeals[i]
+      const name = meal.restaurantName
+      if (!name) continue
+      if (!restaurantCount[name]) restaurantCount[name] = 0
+      if (restaurantCount[name] < 2) {
+        selectedMeals.push(meal)
+        restaurantCount[name]++
+      }
+    }
     // Build a plan object with 7 days, each with breakfast, lunch, dinner
     const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     const plan = {}
@@ -57,8 +69,8 @@ function generate21MealPlan(
       plan[daysOfWeek[i]] = { meal: selectedMeals[i] }
     }
     console.log(
-      '[Franchise Only] Selected 7 unique high-calorie franchise meals:',
-      selectedMeals?.map((m) => m.name)
+      '[Franchise Only] Selected 7 unique high-calorie franchise meals (max 2 per restaurant):',
+      selectedMeals?.map((m) => m.name + ' (' + m.restaurantName + ')')
     )
     console.log('plan', plan)
     return plan
@@ -388,31 +400,56 @@ function generate19MealPlan(
   if (allDiningEmpty) {
     // Combine all franchise meals
     const allFranchiseMeals = [...breakfastFranchiseFastMeals, ...lunchFranchiseFastMeals, ...dinnerFranchiseFastMeals]
+
     // Remove duplicates by _id
     const uniqueFranchiseMealsMap = new Map()
     allFranchiseMeals.forEach((meal) => {
       uniqueFranchiseMealsMap.set(meal._id.toString(), meal)
     })
     const uniqueFranchiseMeals = Array.from(uniqueFranchiseMealsMap.values())
+
     // Sort by calories descending
     uniqueFranchiseMeals.sort((a, b) => (b.totalCalories || 0) - (a.totalCalories || 0))
-    // Shuffle the top 15 to add randomness, then pick 7
+
+    // Shuffle the top 15 to add randomness
     const topMeals = uniqueFranchiseMeals.slice(0, 15)
     for (let i = topMeals.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1))
       ;[topMeals[i], topMeals[j]] = [topMeals[j], topMeals[i]]
     }
-    const selectedMeals = topMeals.slice(0, 7)
+
+    // Select 7 meals, ensuring no more than 2 per restaurant
+    const selectedMeals = []
+    const restaurantCount = {} // Tracks meals per restaurant
+
+    for (let i = 0; i < topMeals.length && selectedMeals.length < 7; i++) {
+      const meal = topMeals[i]
+      const restaurantName = meal.restaurantName
+
+      if (!restaurantName) continue // Skip if no restaurant name
+
+      // Initialize or increment restaurant count
+      restaurantCount[restaurantName] = (restaurantCount[restaurantName] || 0) + 1
+
+      // Only add if the restaurant has <= 2 meals
+      if (restaurantCount[restaurantName] <= 2) {
+        selectedMeals.push(meal)
+      }
+    }
+
     // Build a plan object with 7 days, each with one meal
     const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     const plan = {}
+
     for (let i = 0; i < 7; i++) {
       plan[daysOfWeek[i]] = { meal: selectedMeals[i] }
     }
+
     console.log(
-      '[Franchise Only] Selected 7 unique high-calorie franchise meals:',
-      selectedMeals?.map((m) => m.name)
+      '[Franchise Only] Selected 7 unique high-calorie franchise meals (max 2 per restaurant):',
+      selectedMeals?.map((m) => `${m.name} (${m.restaurantName})`)
     )
+
     return plan
   }
 
@@ -714,8 +751,12 @@ function generate19MealPlan(
 }
 
 function generate7MealPlan(
-  franchiseMeals,
-  diningHallMeals,
+  breakfastFranchiseFastMeals,
+  breakfastDiningFastMeals,
+  lunchFranchiseFastMeals,
+  lunchDiningFastMeals,
+  dinnerFranchiseFastMeals,
+  dinnerDiningFastMeals,
   targetCaloriesPerDay,
   selectedMealType,
   franchiseMealCount,
@@ -723,6 +764,70 @@ function generate7MealPlan(
   maxAttempts = 20000,
   calorieMargin = 200
 ) {
+  console.log('BREAKFAST Franchise:', breakfastFranchiseFastMeals.length)
+  console.log('BREAKFAST Dining:', breakfastDiningFastMeals.length)
+  console.log('LUNCH Franchise:', lunchFranchiseFastMeals.length)
+  console.log('LUNCH Dining:', lunchDiningFastMeals.length)
+  console.log('DINNER Franchise:', dinnerFranchiseFastMeals.length)
+  console.log('DINNER Dining:', dinnerDiningFastMeals.length)
+  const allDiningEmptyFranchiseOnly =
+    breakfastDiningFastMeals.length === 0 && lunchDiningFastMeals.length === 0 && dinnerDiningFastMeals.length === 0
+
+  if (allDiningEmptyFranchiseOnly) {
+    // Combine all franchise meals and filter by selectedMealType
+    const allFranchiseMeals = [
+      ...breakfastFranchiseFastMeals,
+      ...lunchFranchiseFastMeals,
+      ...dinnerFranchiseFastMeals,
+    ].filter((meal) => meal.mealType === selectedMealType) // Changed to single meal type check
+
+    // Remove duplicates by _id
+    const uniqueFranchiseMealsMap = new Map()
+    allFranchiseMeals.forEach((meal) => {
+      uniqueFranchiseMealsMap.set(meal._id.toString(), meal)
+    })
+    const uniqueFranchiseMeals = Array.from(uniqueFranchiseMealsMap.values())
+
+    // Sort by calories descending
+    uniqueFranchiseMeals.sort((a, b) => (b.totalCalories || 0) - (a.totalCalories || 0))
+
+    // Shuffle the top 30 to add randomness, then pick 21
+    const topMeals = uniqueFranchiseMeals.slice(0, 30)
+    for (let i = topMeals.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[topMeals[i], topMeals[j]] = [topMeals[j], topMeals[i]]
+    }
+
+    // Select up to 7 meals with restaurant constraint
+    const selectedMeals = []
+    const restaurantCount = {}
+    for (let i = 0; i < topMeals.length && selectedMeals.length < 7; i++) {
+      const meal = topMeals[i]
+      const name = meal.restaurantName
+      if (!name) continue
+      if (!restaurantCount[name]) restaurantCount[name] = 0
+      if (restaurantCount[name] < 2) {
+        selectedMeals.push(meal)
+        restaurantCount[name]++
+      }
+    }
+
+    // Build the plan
+    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    const plan = {}
+    for (let i = 0; i < 7; i++) {
+      plan[daysOfWeek[i]] = { meal: selectedMeals[i] }
+    }
+
+    console.log(
+      `[Franchise Only] Selected 7 ${selectedMealType} meals (max 2/restaurant):`,
+      selectedMeals?.map((m) => `${m.name} (${m.restaurantName})`)
+    )
+
+    return plan
+  }
+  const franchiseMeals = [...breakfastFranchiseFastMeals, ...lunchFranchiseFastMeals, ...dinnerFranchiseFastMeals]
+  const diningHallMeals = [...breakfastDiningFastMeals, ...lunchDiningFastMeals, ...dinnerDiningFastMeals]
   // --- Logging Inputs ---
   console.log('Starting generate7MealPlan...')
   console.log('Input Parameters:')
@@ -1081,9 +1186,12 @@ function generate7MealPlan(
 }
 
 function generate14MealPlan(
-  breakfastMeals,
-  lunchMeals,
-  dinnerMeals,
+  breakfastFranchiseFastMeals,
+  breakfastDiningFastMeals,
+  lunchFranchiseFastMeals,
+  lunchDiningFastMeals,
+  dinnerFranchiseFastMeals,
+  dinnerDiningFastMeals,
   targetCaloriesPerDay,
   preferredMealTypes,
   franchiseCount,
@@ -1091,6 +1199,78 @@ function generate14MealPlan(
   maxAttempts = 20000,
   calorieMargin = 300
 ) {
+  console.log('BREAKFAST Franchise:', breakfastFranchiseFastMeals.length)
+  console.log('BREAKFAST Dining:', breakfastDiningFastMeals.length)
+  console.log('LUNCH Franchise:', lunchFranchiseFastMeals.length)
+  console.log('LUNCH Dining:', lunchDiningFastMeals.length)
+  console.log('DINNER Franchise:', dinnerFranchiseFastMeals.length)
+  console.log('DINNER Dining:', dinnerDiningFastMeals.length)
+  const allDiningEmptyFranchiseOnly =
+    breakfastDiningFastMeals.length === 0 && lunchDiningFastMeals.length === 0 && dinnerDiningFastMeals.length === 0
+
+  if (allDiningEmptyFranchiseOnly) {
+    // Combine all franchise meals and filter by preferredMealTypes
+    const allFranchiseMeals = [
+      ...(Array.isArray(breakfastFranchiseFastMeals) && breakfastFranchiseFastMeals.length > 0
+        ? breakfastFranchiseFastMeals
+        : []),
+      ...(Array.isArray(lunchFranchiseFastMeals) && lunchFranchiseFastMeals.length > 0 ? lunchFranchiseFastMeals : []),
+      ...(Array.isArray(dinnerFranchiseFastMeals) && dinnerFranchiseFastMeals.length > 0
+        ? dinnerFranchiseFastMeals
+        : []),
+    ].filter((meal) => preferredMealTypes.includes(meal.mealType))
+
+    // Remove duplicates by _id
+    const uniqueFranchiseMealsMap = new Map()
+    allFranchiseMeals.forEach((meal) => {
+      uniqueFranchiseMealsMap.set(meal._id.toString(), meal)
+    })
+    const uniqueFranchiseMeals = Array.from(uniqueFranchiseMealsMap.values())
+
+    // Sort by calories descending
+    uniqueFranchiseMeals.sort((a, b) => (b.totalCalories || 0) - (a.totalCalories || 0))
+
+    // Shuffle the top 30 to add randomness, then pick 21
+    const topMeals = uniqueFranchiseMeals.slice(0, 30)
+    for (let i = topMeals.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[topMeals[i], topMeals[j]] = [topMeals[j], topMeals[i]]
+    }
+
+    // Select up to 7 meals with restaurant constraint
+    const selectedMeals = []
+    const restaurantCount = {}
+    for (let i = 0; i < topMeals.length && selectedMeals.length < 7; i++) {
+      const meal = topMeals[i]
+      const name = meal.restaurantName
+      if (!name) continue
+      if (!restaurantCount[name]) restaurantCount[name] = 0
+      if (restaurantCount[name] < 2) {
+        selectedMeals.push(meal)
+        restaurantCount[name]++
+      }
+    }
+
+    // Build the plan
+    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    const plan = {}
+    for (let i = 0; i < 7; i++) {
+      plan[daysOfWeek[i]] = { meal: selectedMeals[i] }
+    }
+
+    console.log(
+      '[Franchise Only] Selected 7 meals (types: ${preferredMealTypes.join(", ")}, max 2/restaurant):',
+      selectedMeals?.map((m) => `${m.name} (${m.restaurantName})`)
+    )
+
+    console.log('hehe')
+    return plan
+  }
+  const breakfastMeals = [...breakfastFranchiseFastMeals, ...breakfastDiningFastMeals]
+
+  const lunchMeals = [...lunchFranchiseFastMeals, ...lunchDiningFastMeals]
+
+  const dinnerMeals = [...dinnerFranchiseFastMeals, ...dinnerDiningFastMeals]
   const totalDays = 7
 
   const mealsByTypeAndCategory = {
