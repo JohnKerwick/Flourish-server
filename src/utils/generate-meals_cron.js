@@ -1,5 +1,5 @@
 import { schedule } from 'node-cron'
-import { CONTROLLER_GENERATE_MEAL, CONTROLLER_SCRAPPER } from '../controllers'
+import { CONTROLLER_GENERATE_MEAL } from '../controllers'
 import { GeneratedMeal, GeneratedMealNew } from '../models/generatedMeals'
 import { sleep } from './estimateTokens'
 import { notifyError } from '../middlewares'
@@ -17,9 +17,9 @@ const mealTypes = ['Breakfast', 'Lunch', 'Dinner']
 //   Dinner: { min: 200, max: 2000 },
 // }
 const calorieRanges = {
-  Breakfast: { min: 300, max: 1500 },
-  Lunch: { min: 300, max: 1600 },
-  Dinner: { min: 400, max: 2000 },
+  Breakfast: { min: 500, max: 1500 },
+  Lunch: { min: 500, max: 1500 },
+  Dinner: { min: 500, max: 1600 },
 }
 
 // 👇 Wrap everything in an async IIFE
@@ -97,7 +97,7 @@ export async function runMealGenerationManually() {
         console.error(`❌ [Manual] Failed for ${campus} - ${type}`, err)
       }
 
-      await new Promise((res) => setTimeout(res, 4 * 60 * 1000)) // 4-minute delay
+      await new Promise((res) => setTimeout(res, 3 * 60 * 1000)) // 3-minute delay
     }
   }
 
