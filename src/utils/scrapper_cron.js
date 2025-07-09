@@ -5,6 +5,8 @@ import { CONTROLLER_SCRAPPER } from '../controllers'
 import { scrapeHPU } from '../scrappers/hpuScrapper'
 import { scrapeUMD } from '../scrappers/umdScrapper'
 import { scrapeUNCC } from '../scrappers/unccScrapper'
+import { notifyError } from '../middlewares/errorHandler'
+
 // "0 0 * * 0", Every sunday at 00:00 - Required
 // "59 14 * * 1", Every monday at 14:59
 // "* * * * * *", Every second
@@ -21,8 +23,8 @@ import { scrapeUNCC } from '../scrappers/unccScrapper'
 //   { timezone: 'America/New_York' }
 // )
 ;(async () => {
-  const hour = 2 // 4 AM
-  const minute = 45
+  const hour = 3 // 4 AM
+  const minute = 5
 
   const cronTime = `${minute} ${hour} * * *`
 
@@ -35,8 +37,8 @@ import { scrapeUNCC } from '../scrappers/unccScrapper'
       try {
         notifyError('Scraper Initialized')
         await scrapeHPU()
-        await scrapeUNCC()
-        await scrapeUMD()
+        // await scrapeUNCC()
+        // await scrapeUMD()
         notifyError(' Scraper Succeeded')
       } catch (err) {
         notifyError('❌ Scraper Failed', err)
