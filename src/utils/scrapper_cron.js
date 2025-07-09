@@ -23,14 +23,14 @@ import { notifyError } from '../middlewares/errorHandler'
 //   { timezone: 'America/New_York' }
 // )
 ;(async () => {
-  const hour = 2 // 4 AM
-  const minute = 45
+  const hour = 3 // 4 AM
+  const minute = 5
 
   const cronTime = `${minute} ${hour} * * *`
 
   schedule(
-    // cronTime,
-    '* * * * *',
+    cronTime,
+    // '* * * * *',
     async () => {
       console.log('📆 Scrapper cron job initialized Inside.')
 
