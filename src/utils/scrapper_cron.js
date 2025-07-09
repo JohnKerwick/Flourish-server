@@ -1,6 +1,10 @@
 // Using ES6 module import syntax
 import { schedule } from 'node-cron'
+import { scrapeDataMenus } from '../utils/scrapper-util'
 import { CONTROLLER_SCRAPPER } from '../controllers'
+import { scrapeHPU } from '../scrappers/hpuScrapper'
+import { scrapeUMD } from '../scrappers/umdScrapper'
+import { scrapeUNCC } from '../scrappers/unccScrapper'
 // "0 0 * * 0", Every sunday at 00:00 - Required
 // "59 14 * * 1", Every monday at 14:59
 // "* * * * * *", Every second
@@ -17,23 +21,23 @@ import { CONTROLLER_SCRAPPER } from '../controllers'
 //   { timezone: 'America/New_York' }
 // )
 ;(async () => {
-  console.log('📅 Initializing meal generation cron job...')
+  const hour = 2 // 4 AM
+  const minute = 45
 
-  // Set job start time: 00:00 AM
-
-  const hour = 0 // 4 AM
-  const minute = 0
-
-  const cronTime = `${minute} ${hour} * * *` // daily at calculated time
-  console.log(`⏰ Scheduling job at ${cronTime} (America/New_York)`)
+  const cronTime = `${minute} ${hour} * * *`
 
   schedule(
     cronTime,
+    // '* * * * *',
     async () => {
+      console.log('📆 Scrapper cron job initialized Inside.')
+
       try {
         notifyError('Scraper Initialized')
-        await CONTROLLER_SCRAPPER.scrapeAllMenus()
-        console.log('✅ Scraper Succeeded')
+        await scrapeHPU()
+        await scrapeUNCC()
+        await scrapeUMD()
+        notifyError(' Scraper Succeeded')
       } catch (err) {
         notifyError('❌ Scraper Failed', err)
       }
@@ -42,6 +46,4 @@ import { CONTROLLER_SCRAPPER } from '../controllers'
       timezone: 'America/New_York',
     }
   )
-
-  console.log('📆 Meal generation cron job initialized.')
 })()

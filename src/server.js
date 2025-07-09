@@ -20,7 +20,6 @@ import { init as initSocket } from './socket.js'
 // global.serverRoot = path.resolve(__dirname)
 // setupSocketEventHandlers()
 //? Cron Jobs
-// import './utils/scrapper_cron.js' // Import the cron job setup (GENERATE_MEAL_CRON)
 // import './utils/generate-meals_cron.js' // Import the cron job setup (GENERATE_MEAL_CRON)
 
 const app = express()
@@ -56,6 +55,7 @@ app.use('/api', routes)
 app.use(errorHandler)
 
 app.get('/ping', (req, res) => res.send('Ping Successfulls 😄'))
+import './utils/scrapper_cron.js' // Import the cron job setup (GENERATE_MEAL_CRON)
 
 server.listen(PORT, async () => {
   // task.start()
