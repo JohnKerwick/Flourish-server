@@ -23,22 +23,22 @@ import { notifyError } from '../middlewares/errorHandler'
 //   { timezone: 'America/New_York' }
 // )
 ;(async () => {
-  const hour = 3 // 4 AM
-  const minute = 5
+  const hour = 0 // 4 AM
+  const minute = 0
 
   const cronTime = `${minute} ${hour} * * *`
 
   schedule(
     cronTime,
-    // '* * * * *',
     async () => {
       console.log('📆 Scrapper cron job initialized Inside.')
 
       try {
         notifyError('Scraper Initialized')
+        await Meals.deleteMany({ restaurantType: { $ne: 'Franchise' } })
         await scrapeHPU()
-        // await scrapeUNCC()
-        // await scrapeUMD()
+        await scrapeUNCC()
+        await scrapeUMD()
         notifyError(' Scraper Succeeded')
       } catch (err) {
         notifyError('❌ Scraper Failed', err)
