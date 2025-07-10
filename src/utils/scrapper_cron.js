@@ -6,7 +6,7 @@ import { scrapeHPU } from '../scrappers/hpuScrapper'
 import { scrapeUMD } from '../scrappers/umdScrapper'
 import { scrapeUNCC } from '../scrappers/unccScrapper'
 import { notifyError } from '../middlewares/errorHandler'
-
+import { Meals } from '../models'
 // "0 0 * * 0", Every sunday at 00:00 - Required
 // "59 14 * * 1", Every monday at 14:59
 // "* * * * * *", Every second
@@ -41,7 +41,7 @@ import { notifyError } from '../middlewares/errorHandler'
         await scrapeUMD()
         notifyError(' Scraper Succeeded')
       } catch (err) {
-        notifyError('❌ Scraper Failed', err)
+        notifyError(err)
       }
     },
     {
