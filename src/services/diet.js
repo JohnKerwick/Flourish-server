@@ -31,8 +31,10 @@ export const calculateBMR = ({ dob, gender, weight, height, goal, exercise }) =>
   const genderFactor = GENDER_FACTORS[gender.toLowerCase()] || 0
   const activityFactor = ACTIVITY_FACTORS[exercise] || 1.2 // Default to Sedentary
   const goalFactor = GOAL_FACTORS[goal] || 1.0
+  const WEIGHT_CONVERSION = 0.453592 // kgs --> lbs
+  const weightInKg = weight * WEIGHT_CONVERSION
 
-  const bmr = 10 * weight + 6.25 * heightInCm - 5 * age + genderFactor
+  const bmr = 10 * weightInKg + 6.25 * heightInCm - 5 * age + genderFactor
   const tdee = bmr * activityFactor // Total Daily Energy Expenditure
   const caloricIntake = tdee * goalFactor // Adjusted for Goal
 
