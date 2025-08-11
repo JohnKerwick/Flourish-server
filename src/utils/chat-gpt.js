@@ -32,13 +32,14 @@ export async function processMealRecommendationsVariant(content) {
   const tokenCount = estimateChatTokens(messages)
   console.log(`Estimated token count: ${tokenCount}`)
   // const model = getBestModelForTokens(tokenCount)
-  const model = 'gpt-4.1-mini' // 16 count,"total_tokens": 8579,
+  // const model = 'gpt-4.1-mini' // 16 count,"total_tokens": 8579,
+  const model = 'gpt-5-mini' // 16 count,"total_tokens": 8579,
 
   try {
     const response = await openai.chat.completions.create({
       model,
       messages,
-      temperature: 0.7,
+      // temperature: 0.7,
     })
 
     return {
