@@ -19,12 +19,12 @@ const router = Router()
 //   CONTROLLER_DIET.getWeeklyDietPlan
 // )
 
-router.post(
-  '/diet-plan',
-  Authenticate(),
-  // permitMiddleware([USER_TYPES.SYS, USER_TYPES.USR]),
-  CONTROLLER_DIET.createWeekPlan
-)
+router.post('/diet-plan-old', Authenticate(), CONTROLLER_DIET.createWeekPlan)
+
+// ? NEW ALGO ROUTE
+// /generate-meal-plan
+router.post('/diet-plan', Authenticate(), CONTROLLER_DIET.generateMealPlanForWeek)
+// ? NEW ALGO ROUTE END
 
 router.post(
   '/create-diet-plan',
