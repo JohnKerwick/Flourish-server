@@ -891,13 +891,17 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
         }
       }
 
-      const transformMealItems = (items) =>
+      const transformMealItems = (items, restaurantName) =>
         items.map((it) => ({
           name: it.itemId?.name || 'Unknown',
-          calories: it.calories || 0,
-          protein: it.itemId?.nutrients?.protein || 0,
-          fat: it.itemId?.nutrients?.fat || 0,
-          carbs: it.itemId?.nutrients?.carbohydrate || 0,
+          restaurantName: restaurantName || 'Unknown',
+          serving: it.itemId?.serving || 'Unknown',
+          nutrients: {
+            calories: it.calories || 0,
+            protein: it.itemId?.nutrients?.protein || 0,
+            fat: it.itemId?.nutrients?.fat || 0,
+            carbohydrate: it.itemId?.nutrients?.carbohydrate || 0,
+          },
         }))
 
       const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
@@ -943,7 +947,8 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
           for (let i = 0; i < mealTypesCount[type] && typeMealsPool.length; i++) {
             const meal = typeMealsPool.shift()
-            const mealItems = transformMealItems(meal.items || [])
+            const mealItems = transformMealItems(meal.items || [], meal.restaurantName)
+
             if (!mealItems.length) continue
 
             dayMeals[type.toLowerCase()].push(...mealItems)
