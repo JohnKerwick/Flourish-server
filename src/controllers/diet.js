@@ -953,10 +953,10 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
             dayMeals[type.toLowerCase()].push(...mealItems)
             mealItems.forEach((it) => {
-              totals.calories += it.calories
-              totals.protein += it.protein
-              totals.fat += it.fat
-              totals.carbs += it.carbs
+              totals.calories += it.nutrients?.calories || 0
+              totals.protein += it.nutrients?.protein || 0
+              totals.fat += it.nutrients?.fat || 0
+              totals.carbs += it.nutrients?.carbohydrate || 0
             })
           }
         }
