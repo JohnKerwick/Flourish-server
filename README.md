@@ -1,3 +1,6 @@
+## Flow
+![Flow](./Flourish%20Flow.drawio.svg)
+
 ## Run Server
 
 ### Running on dev environment
