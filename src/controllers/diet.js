@@ -893,6 +893,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
       const transformMealItems = (items, restaurantName) =>
         items.map((it) => ({
+          _id: it.itemId?._id,
           name: it.itemId?.name || 'Unknown',
           restaurantName: restaurantName || 'Unknown',
           serving: it.itemId?.serving || 'Unknown',
@@ -947,6 +948,8 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
           for (let i = 0; i < mealTypesCount[type] && typeMealsPool.length; i++) {
             const meal = typeMealsPool.shift()
+            console.log('meal.items ', meal.items)
+
             const mealItems = transformMealItems(meal.items || [], meal.restaurantName)
 
             if (!mealItems.length) continue
