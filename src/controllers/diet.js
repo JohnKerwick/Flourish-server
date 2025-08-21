@@ -949,7 +949,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
           for (let i = 0; i < mealTypesCount[type] && typeMealsPool.length; i++) {
             const meal = typeMealsPool.shift()
-            console.log('meal.items ', meal.items)
+            // console.log('meal.items ', meal.items)
 
             const mealItems = transformMealItems(meal.items || [], meal.restaurantName)
 
