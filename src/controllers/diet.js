@@ -904,6 +904,9 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
             carbohydrate: it.itemId?.nutrients?.carbohydrate || 0,
           },
           category: it.itemId?.restaurantType || 'Restaurant Type',
+          allergens: it.itemId?.allergens || [''],
+          ingredients: it.itemId?.ingredients || [''],
+          dieteryPreferences: it.itemId?.dieteryPreferences || [''],
         }))
 
       const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
