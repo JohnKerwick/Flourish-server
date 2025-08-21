@@ -893,7 +893,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
 
       const transformMealItems = (items, restaurantName) =>
         items.map((it) => ({
-          _id: it.itemId?._id,
+          _id: it.itemId?._id || 'id',
           name: it.itemId?.name || 'Unknown',
           restaurantName: restaurantName || 'Unknown',
           serving: it.itemId?.serving || 'Unknown',
@@ -903,6 +903,7 @@ ${JSON.stringify(exampleJsonData, null, 2)}`.trim()
             fat: it.itemId?.nutrients?.fat || 0,
             carbohydrate: it.itemId?.nutrients?.carbohydrate || 0,
           },
+          category: it.itemId?.restaurantType || 'Restaurant Type',
         }))
 
       const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
